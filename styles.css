@@ -343,6 +343,54 @@ a {
 }
 
 /* =========================================
+   STANDINGS TABLE (Standings page)
+   Wrapped in a scroll container so it never
+   breaks the layout on narrow phones.
+   ========================================= */
+.table-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--color-card-border);
+  border-radius: var(--radius);
+  margin-bottom: 14px;
+}
+
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 480px; /* keeps columns readable; scrolls on small phones */
+  background-color: var(--color-card);
+}
+
+.standings-table th,
+.standings-table td {
+  padding: 12px 14px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.standings-table th {
+  background-color: var(--color-header);
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.standings-table td {
+  border-top: 1px solid var(--color-card-border);
+}
+
+.standings-table td.num,
+.standings-table th.num {
+  text-align: center;
+}
+
+.standings-table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* =========================================
    FOOTER
    ========================================= */
 .site-footer {
