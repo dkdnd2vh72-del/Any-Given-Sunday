@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Gridiron Legends League</title>
+  <title>Home | Any Given Sunday</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="home">
@@ -11,7 +11,7 @@
   <!-- ===== Header / Navigation (same on every page) ===== -->
   <header class="site-header">
     <div class="header-inner">
-      <div class="site-title">Gridiron <span>Legends</span></div>
+      <div class="site-title">Any Given <span>Sunday</span></div>
       <button class="nav-toggle" aria-label="Open menu">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -31,77 +31,80 @@
   <!-- ===== Page Content ===== -->
   <main class="page-content">
     <h1 class="page-title">Welcome back!</h1>
-    <p class="page-subtitle">Week 9 &middot; 2026 Season</p>
+    <p class="page-subtitle">2026 Season</p>
 
-    <!-- Quick stats -->
-    <div class="stat-grid">
-      <div class="stat-card">
-        <div class="stat-number">10</div>
-        <div class="stat-label">Teams</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">9</div>
-        <div class="stat-label">Current Week</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">1st</div>
-        <div class="stat-label">Your Rank</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">7-2</div>
-        <div class="stat-label">Your Record</div>
-      </div>
-    </div>
-
-    <!-- This week's featured matchup -->
-    <h2 class="section-title">This Week's Top Matchup</h2>
-    <div class="card matchup-card">
-      <span class="badge live">Live</span>
-      <div class="team-line winner">
-        <span class="team-name">Thunder Cats</span>
-        <span class="team-score">88.4</span>
-      </div>
-      <div class="matchup-vs">vs</div>
-      <div class="team-line">
-        <span class="team-name">End Zone Elites</span>
-        <span class="team-score">81.2</span>
-      </div>
-    </div>
-
-    <!-- League news / announcements -->
-    <h2 class="section-title">League News</h2>
+    <!-- Team of the Week -->
+    <h2 class="section-title">Team of the Week</h2>
     <div class="card">
-      <p><strong>Trade Alert:</strong> The Blitz Brigade traded their WR2 to the Gridiron Ghosts for a 2027 2nd round pick.</p>
-      <p class="transaction-date">Posted 2 days ago</p>
-    </div>
-    <div class="card">
-      <p><strong>Reminder:</strong> Waiver claims process every Wednesday at 3:00 AM.</p>
-      <p class="transaction-date">Posted 4 days ago</p>
+      <div class="player-row">
+        <div class="player-info">
+          <span class="team-name"><span class="player-position">QB</span>—</span>
+        </div>
+        <span class="player-points">0.0</span>
+      </div>
+      <div class="player-row">
+        <div class="player-info">
+          <span class="team-name"><span class="player-position">RB</span>—</span>
+        </div>
+        <span class="player-points">0.0</span>
+      </div>
+      <div class="player-row">
+        <div class="player-info">
+          <span class="team-name"><span class="player-position">RB</span>—</span>
+        </div>
+        <span class="player-points">0.0</span>
+      </div>
+      <div class="player-row">
+        <div class="player-info">
+          <span class="team-name"><span class="player-position">WR</span>—</span>
+        </div>
+        <span class="player-points">0.0</span>
+      </div>
+      <div class="player-row">
+        <div class="player-info">
+          <span class="team-name"><span class="player-position">WR</span>—</span>
+        </div>
+        <span class="player-points">0.0</span>
+      </div>
+      <div class="player-row">
+        <div class="player-info">
+          <span class="team-name"><span class="player-position">TE</span>—</span>
+        </div>
+        <span class="player-points">0.0</span>
+      </div>
+      <div class="player-row">
+        <div class="player-info">
+          <span class="team-name"><span class="player-position">FLEX</span>—</span>
+        </div>
+        <span class="player-points">0.0</span>
+      </div>
+      <div class="player-row">
+        <div class="player-info">
+          <span class="team-name"><span class="player-position">D/ST</span>—</span>
+        </div>
+        <span class="player-points">0.0</span>
+      </div>
+      <div class="player-row">
+        <div class="player-info">
+          <span class="team-name"><span class="player-position">K</span>—</span>
+        </div>
+        <span class="player-points">0.0</span>
+      </div>
     </div>
 
-    <!-- Standings preview -->
-    <h2 class="section-title">Top of the Standings</h2>
+    <!-- League Transaction Counter (tied to the $ totals on the Transactions page) -->
+    <h2 class="section-title">League Transaction Counter</h2>
     <div class="card">
       <div class="card-row">
-        <span>1. Thunder Cats</span>
-        <span class="standing-record">7-2</span>
+        <span>Total $ this season</span>
+        <span class="standing-record">$0</span>
       </div>
-      <div class="card-row">
-        <span>2. Gridiron Ghosts</span>
-        <span class="standing-record">7-2</span>
-      </div>
-      <div class="card-row">
-        <span>3. End Zone Elites</span>
-        <span class="standing-record">6-3</span>
-      </div>
+      <p class="transaction-date">$1 per player added &middot; updates when the Transactions page totals change</p>
     </div>
-    <p style="text-align:center; margin-top: 8px;">
-      <a href="history.html" style="color: var(--color-accent); font-weight: 600;">See full standings &rarr;</a>
-    </p>
   </main>
 
   <footer class="site-footer">
-    &copy; 2026 Gridiron Legends League &middot; Just for fun
+    &copy; 2026 Any Given Sunday &middot; Just for fun
   </footer>
 
   <script src="app.js"></script>
