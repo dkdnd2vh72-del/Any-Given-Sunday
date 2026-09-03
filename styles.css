@@ -126,6 +126,7 @@ a {
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 4px;
+  text-align: center;
 }
 
 .page-subtitle {
@@ -138,6 +139,7 @@ a {
   font-size: 1.1rem;
   font-weight: 700;
   margin: 28px 0 12px;
+  text-align: center;
 }
 
 /* =========================================
@@ -311,11 +313,34 @@ a {
 
 .standing-record {
   flex-shrink: 0;
-}
-
-.standing-record {
   font-weight: 700;
   color: var(--color-accent);
+}
+
+/* Neutral (non-green) value for rows like Players Added counts */
+.plain-value {
+  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+/* Power rankings movement indicators */
+.arrow-up {
+  flex-shrink: 0;
+  font-weight: 800;
+  color: var(--color-accent);
+}
+
+.arrow-down {
+  flex-shrink: 0;
+  font-weight: 800;
+  color: var(--color-danger);
+}
+
+.arrow-none {
+  flex-shrink: 0;
+  font-weight: 800;
+  color: var(--color-text);
 }
 
 .champion-card {
@@ -370,22 +395,22 @@ a {
 
 .standings-table th,
 .standings-table td {
-  padding: 8px 4px;
+  padding: 10px 6px;
   text-align: left;
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   word-break: break-word;
 }
 
 .standings-table th:first-child,
 .standings-table td:first-child {
-  width: 40%;
+  width: 52%;
   white-space: normal;
 }
 
 .standings-table th {
   background-color: var(--color-header);
   color: var(--color-text-muted);
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-weight: 700;
@@ -397,7 +422,7 @@ a {
 
 .standings-table td.num,
 .standings-table th.num {
-  width: 15%;
+  width: 16%;
   text-align: center;
 }
 
