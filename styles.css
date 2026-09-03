@@ -1,5 +1,5 @@
 /* =========================================
-   Gridiron Legends League - Stylesheet
+   Any Given Sunday - Stylesheet
    Mobile-first: base styles are for phones,
    then we add rules for bigger screens.
    ========================================= */
@@ -303,6 +303,14 @@ a {
 
 .standing-info {
   flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.standing-record {
+  flex-shrink: 0;
 }
 
 .standing-record {
@@ -348,7 +356,6 @@ a {
    breaks the layout on narrow phones.
    ========================================= */
 .table-scroll {
-  overflow-x: auto;
   border: 1px solid var(--color-card-border);
   border-radius: var(--radius);
   margin-bottom: 14px;
@@ -356,22 +363,29 @@ a {
 
 .standings-table {
   width: 100%;
+  table-layout: fixed;
   border-collapse: collapse;
-  min-width: 480px; /* keeps columns readable; scrolls on small phones */
   background-color: var(--color-card);
 }
 
 .standings-table th,
 .standings-table td {
-  padding: 12px 14px;
+  padding: 8px 4px;
   text-align: left;
-  white-space: nowrap;
+  font-size: 0.78rem;
+  word-break: break-word;
+}
+
+.standings-table th:first-child,
+.standings-table td:first-child {
+  width: 40%;
+  white-space: normal;
 }
 
 .standings-table th {
   background-color: var(--color-header);
   color: var(--color-text-muted);
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-weight: 700;
@@ -383,6 +397,7 @@ a {
 
 .standings-table td.num,
 .standings-table th.num {
+  width: 15%;
   text-align: center;
 }
 
