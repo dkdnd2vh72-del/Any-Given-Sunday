@@ -347,6 +347,28 @@ a {
   border-left: 4px solid var(--color-accent2);
 }
 
+/* Bulleted rule lists inside cards */
+.card ul {
+  padding-left: 1.2em;
+  margin: 0;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+.card ul li:last-child {
+  margin-bottom: 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
 /* Utility: green/accent text (used for active keepers) */
 .text-accent {
   color: var(--color-accent);
