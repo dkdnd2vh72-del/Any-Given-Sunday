@@ -280,10 +280,40 @@ a {
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--color-bg);
-  background-color: var(--color-accent);
   padding: 2px 7px;
   border-radius: 6px;
   margin-right: 8px;
+}
+
+/* Position colors: Red QB, Green RB, Blue WR, Orange TE, Purple FLEX, Yellow D/ST, Silver K */
+.pos-qb {
+  background-color: #ef4444;
+}
+
+.pos-rb {
+  background-color: #22c55e;
+}
+
+.pos-wr {
+  background-color: #3b82f6;
+  color: #f1f5f9;
+}
+
+.pos-te {
+  background-color: #f97316;
+}
+
+.pos-flex {
+  background-color: #a855f7;
+  color: #f1f5f9;
+}
+
+.pos-dst {
+  background-color: #eab308;
+}
+
+.pos-k {
+  background-color: #94a3b8;
 }
 
 .player-points {
