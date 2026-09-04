@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // 3. Draft countdown (only runs on pages that have the #draft-countdown box)
   var countdownEl = document.getElementById("draft-countdown");
   if (countdownEl) {
-    var draftDate = new Date("September 7, 2026 00:00:00").getTime();
+    var draftDate = new Date("September 7, 2026 16:00:00").getTime();
 
     function updateCountdown() {
       var now = new Date().getTime();
