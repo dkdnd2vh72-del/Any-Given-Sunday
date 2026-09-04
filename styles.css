@@ -345,6 +345,22 @@ a {
 
 .champion-card {
   border-left: 4px solid var(--color-accent2);
+  padding: 10px 14px;
+  margin-bottom: 8px;
+}
+
+.champion-card p {
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+.champion-card strong {
+  font-size: 0.9rem;
+}
+
+.champion-card .badge {
+  font-size: 0.65rem;
+  padding: 2px 7px;
 }
 
 /* Bulleted rule lists inside cards */
