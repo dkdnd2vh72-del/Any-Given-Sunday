@@ -63,9 +63,6 @@ jobs:
 
           # ==========================================
           # PERMANENT ESPN TEAM ID -> WEBSITE ID
-          #
-          # These DO NOT change when a team changes
-          # its display name.
           # ==========================================
 
           TEAM_HTML_ID = {
@@ -79,6 +76,58 @@ jobs:
               12: "injured-reserve",
               13: "pollard-express",
               14: "chance-make-champions",
+          }
+
+
+          # ==========================================
+          # ORIGINAL / KNOWN TEAM NAMES
+          #
+          # Used only to identify existing HTML rows.
+          # Once identified, live ESPN names replace them.
+          # ==========================================
+
+          KNOWN_TEAM_NAMES = {
+              1: [
+                  "Big Blue",
+              ],
+
+              3: [
+                  "# Numbers",
+                  "#Numbers",
+                  "Burden Of Victory IIIx",
+              ],
+
+              4: [
+                  "Champagne Step-Papi",
+              ],
+
+              5: [
+                  "Nabers Think I'm Sellin Dope",
+              ],
+
+              7: [
+                  "Gett'n Saucy",
+              ],
+
+              8: [
+                  "King Johnson",
+              ],
+
+              11: [
+                  "More Wins Than PSI",
+              ],
+
+              12: [
+                  "Injured Reserve",
+              ],
+
+              13: [
+                  "Pollard Express",
+              ],
+
+              14: [
+                  "Chance make champions",
+              ],
           }
 
 
@@ -98,6 +147,7 @@ jobs:
           headers = {
               "User-Agent":
                   "Mozilla/5.0 Any-Given-Sunday-GitHub-Action/1.0",
+
               "Accept":
                   "application/json",
           }
@@ -123,6 +173,7 @@ jobs:
           if response.status_code in (401, 403):
 
               print("ESPN rejected the request.")
+
               print(
                   "Check repository secrets "
                   "ESPN_S2 and ESPN_SWID."
@@ -150,7 +201,9 @@ jobs:
               1
           )
 
-          current_week = int(current_week)
+          current_week = int(
+              current_week
+          )
 
           print(
               f"Current matchup week: "
@@ -335,8 +388,6 @@ jobs:
                       continue
 
 
-                  # ESPN statSourceId 1 = projection
-
                   if (
                       scoring_period == current_week
                       and
@@ -503,10 +554,6 @@ jobs:
               )
 
 
-              # ======================================
-              # CURRENT STARTER PROJECTION
-              # ======================================
-
               starter_projection = 0.0
 
 
@@ -619,7 +666,7 @@ jobs:
               print(
                   f"Team {tid}: "
                   f"{name} | "
-                  f"starter projection "
+                  f"projection "
                   f"{starter_projection:.2f}"
               )
 
@@ -753,38 +800,6 @@ jobs:
                   normalized_matchups.append(
                       matchup_item
                   )
-
-
-          # ==========================================
-          # ACTION LOG
-          # ==========================================
-
-          print(
-              "=============================="
-          )
-
-          print(
-              "CURRENT MATCHUP PROJECTIONS"
-          )
-
-
-          for matchup in normalized_matchups:
-
-              home = matchup["home"]
-              away = matchup["away"]
-
-              print(
-                  f'{home["teamName"]}: '
-                  f'{home["projection"]:.2f} '
-                  f'vs '
-                  f'{away["teamName"]}: '
-                  f'{away["projection"]:.2f}'
-              )
-
-
-          print(
-              "=============================="
-          )
 
 
           # ==========================================
@@ -938,9 +953,6 @@ jobs:
 
           # ==========================================
           # UPDATE ROSTERS.HTML
-          #
-          # Uses ESPN team ID, NOT team name.
-          # This means renamed teams continue working.
           # ==========================================
 
           def update_rosters():
@@ -976,30 +988,23 @@ jobs:
 
                   print(
                       "WARNING: #team-select "
-                      "not found in rosters.html"
+                      "not found"
                   )
 
                   return
 
 
-              # ======================================
-              # UPDATE DROPDOWN TEAM NAMES
-              # ======================================
+              # Update dropdown names
 
               for team in normalized[
                   "teams"
               ]:
 
-                  html_id = team[
-                      "htmlId"
-                  ]
-
-
                   option = select.find(
                       "option",
                       attrs={
                           "value":
-                              html_id
+                              team["htmlId"]
                       }
                   )
 
@@ -1011,18 +1016,11 @@ jobs:
                       )
 
 
-              # ======================================
-              # UPDATE EACH ROSTER BY TEAM ID
-              # ======================================
+              # Update rosters
 
               for team in normalized[
                   "teams"
               ]:
-
-                  html_id = team[
-                      "htmlId"
-                  ]
-
 
                   roster_div = soup.find(
                       "div",
@@ -1031,7 +1029,7 @@ jobs:
                               "roster",
 
                           "id":
-                              html_id
+                              team["htmlId"]
                       }
                   )
 
@@ -1041,7 +1039,8 @@ jobs:
                       print(
                           f"WARNING: "
                           f"Roster block "
-                          f"#{html_id} not found"
+                          f"#{team['htmlId']} "
+                          f"not found"
                       )
 
                       continue
@@ -1049,10 +1048,8 @@ jobs:
 
                   starters = [
                       p
-
                       for p
                       in team["roster"]
-
                       if p["slot"]
                       not in (
                           "Bench",
@@ -1063,10 +1060,8 @@ jobs:
 
                   bench = [
                       p
-
                       for p
                       in team["roster"]
-
                       if p["slot"]
                       == "Bench"
                   ]
@@ -1074,10 +1069,8 @@ jobs:
 
                   ir = [
                       p
-
                       for p
                       in team["roster"]
-
                       if p["slot"]
                       == "IR"
                   ]
@@ -1128,13 +1121,9 @@ jobs:
 
                       '</div>'
 
-
                       '<h2 class="section-title">'
-
                       'Starters'
-
                       '</h2>'
-
 
                       '<div class="starter-order-note">'
 
@@ -1142,7 +1131,6 @@ jobs:
                       'TE · FLEX · D/ST · K'
 
                       '</div>'
-
 
                       '<div class="card">'
 
@@ -1156,13 +1144,9 @@ jobs:
                       +
                       '</div>'
 
-
                       '<h2 class="section-title bench-title">'
-
                       'Bench'
-
                       '</h2>'
-
 
                       '<div class="card">'
 
@@ -1182,9 +1166,7 @@ jobs:
 
                       inner += (
                           '<h2 class="section-title bench-title">'
-
                           'IR'
-
                           '</h2>'
 
                           '<div class="card">'
@@ -1226,9 +1208,7 @@ jobs:
 
 
               print(
-                  "rosters.html updated "
-                  "with live ESPN team names "
-                  "and rosters"
+                  "rosters.html updated"
               )
 
 
@@ -1246,8 +1226,7 @@ jobs:
               if not path.exists():
 
                   print(
-                      "WARNING: "
-                      "matchups.html not found"
+                      "WARNING: matchups.html not found"
                   )
 
                   return
@@ -1276,10 +1255,8 @@ jobs:
               if current_week_block is None:
 
                   print(
-                      f"WARNING: "
-                      f"#week-{current_week} "
-                      f"was not found in "
-                      f"matchups.html"
+                      f"WARNING: #week-{current_week} "
+                      "not found"
                   )
 
                   return
@@ -1402,20 +1379,12 @@ jobs:
 
               print(
                   f"matchups.html updated: "
-                  f"Week {current_week}, "
-                  f"{len(normalized['matchups'])} "
-                  f"matchups"
+                  f"Week {current_week}"
               )
 
 
           # ==========================================
           # UPDATE STANDINGS.HTML
-          #
-          # Updates:
-          # - Team names
-          # - Wins
-          # - Losses
-          # - Points For
           # ==========================================
 
           def update_standings():
@@ -1428,8 +1397,7 @@ jobs:
               if not path.exists():
 
                   print(
-                      "WARNING: standings.html "
-                      "not found"
+                      "WARNING: standings.html not found"
                   )
 
                   return
@@ -1450,12 +1418,6 @@ jobs:
 
 
               if not table:
-
-                  print(
-                      "WARNING: standings table "
-                      "not found"
-                  )
-
                   return
 
 
@@ -1465,21 +1427,11 @@ jobs:
 
 
               if not tbody:
-
-                  print(
-                      "WARNING: standings tbody "
-                      "not found"
-                  )
-
                   return
 
 
               tbody.clear()
 
-
-              # ESPN playoffSeed is used when available.
-              # During preseason ties, ESPN's current
-              # ordering is preserved as best as possible.
 
               standings_teams = sorted(
                   normalized["teams"],
@@ -1506,9 +1458,7 @@ jobs:
                   row_html = (
                       "<tr>"
 
-                      f"<td>"
-                      f"{escape(team['name'])}"
-                      f"</td>"
+                      f"<td>{escape(team['name'])}</td>"
 
                       f'<td class="num">'
                       f'{record["wins"]}'
@@ -1551,23 +1501,12 @@ jobs:
 
 
               print(
-                  "standings.html updated "
-                  "with live ESPN team names "
-                  "and standings"
+                  "standings.html updated"
               )
 
 
           # ==========================================
           # UPDATE TRANSACTIONS.HTML TEAM NAMES
-          #
-          # IMPORTANT:
-          # This preserves:
-          # - transaction counts
-          # - dollar totals
-          # - keeper text
-          # - dues Paid / Not Paid
-          #
-          # It ONLY makes the team display names live.
           # ==========================================
 
           def update_transactions():
@@ -1580,8 +1519,7 @@ jobs:
               if not path.exists():
 
                   print(
-                      "WARNING: transactions.html "
-                      "not found"
+                      "WARNING: transactions.html not found"
                   )
 
                   return
@@ -1595,36 +1533,29 @@ jobs:
               )
 
 
-              old_names_by_id = {}
-
-
-              # These identify the original website
-              # names so we can match each team once,
-              # even after ESPN changes its name.
-
-              fallback_names = {
-                  1: "Big Blue",
-                  3: "#Numbers",
-                  4: "Champagne Step-Papi",
-                  5: "Nabers Think I'm Sellin Dope",
-                  7: "Gett'n Saucy",
-                  8: "King Johnson",
-                  11: "More Wins Than PSI",
-                  12: "Injured Reserve",
-                  13: "Pollard Express",
-                  14: "Chance make champions",
-              }
-
-
-              # ======================================
-              # TRANSACTION COUNTER TABLE
-              # ======================================
-
               headings = soup.find_all(
                   "h2",
                   class_="section-title"
               )
 
+
+              team_ids = [
+                  1,
+                  3,
+                  4,
+                  5,
+                  7,
+                  8,
+                  11,
+                  12,
+                  13,
+                  14,
+              ]
+
+
+              # ======================================
+              # TRANSACTION COUNTER
+              # ======================================
 
               counter_heading = None
 
@@ -1655,11 +1586,8 @@ jobs:
 
                   if counter_table:
 
-                      tbody = (
-                          counter_table
-                          .find(
-                              "tbody"
-                          )
+                      tbody = counter_table.find(
+                          "tbody"
                       )
 
 
@@ -1669,22 +1597,6 @@ jobs:
                               "tr",
                               recursive=False
                           )
-
-
-                          # Existing table is in permanent
-                          # ESPN team-id order.
-                          team_ids = [
-                              1,
-                              3,
-                              4,
-                              5,
-                              7,
-                              8,
-                              11,
-                              12,
-                              13,
-                              14,
-                          ]
 
 
                           for tid, row in zip(
@@ -1698,21 +1610,16 @@ jobs:
                               )
 
 
-                              if not cells:
-                                  continue
-
-
-                              live_team = (
-                                  teams_by_id.get(
-                                      tid
-                                  )
-                              )
-
-
-                              if live_team:
+                              if (
+                                  cells
+                                  and
+                                  tid in teams_by_id
+                              ):
 
                                   cells[0].string = (
-                                      live_team["name"]
+                                      teams_by_id[
+                                          tid
+                                      ]["name"]
                                   )
 
 
@@ -1757,36 +1664,17 @@ jobs:
                       )
 
 
-                      team_ids = [
-                          1,
-                          3,
-                          4,
-                          5,
-                          7,
-                          8,
-                          11,
-                          12,
-                          13,
-                          14,
-                      ]
-
-
                       for tid, name_span in zip(
                           team_ids,
                           keeper_names
                       ):
 
-                          live_team = (
-                              teams_by_id.get(
-                                  tid
-                              )
-                          )
-
-
-                          if live_team:
+                          if tid in teams_by_id:
 
                               name_span.string = (
-                                  live_team["name"]
+                                  teams_by_id[
+                                      tid
+                                  ]["name"]
                               )
 
 
@@ -1831,36 +1719,17 @@ jobs:
                       )
 
 
-                      team_ids = [
-                          1,
-                          3,
-                          4,
-                          5,
-                          7,
-                          8,
-                          11,
-                          12,
-                          13,
-                          14,
-                      ]
-
-
                       for tid, name_span in zip(
                           team_ids,
                           dues_names
                       ):
 
-                          live_team = (
-                              teams_by_id.get(
-                                  tid
-                              )
-                          )
-
-
-                          if live_team:
+                          if tid in teams_by_id:
 
                               name_span.string = (
-                                  live_team["name"]
+                                  teams_by_id[
+                                      tid
+                                  ]["name"]
                               )
 
 
@@ -1871,16 +1740,71 @@ jobs:
 
 
               print(
-                  "transactions.html updated "
-                  "with live ESPN team names"
+                  "transactions.html updated"
               )
 
 
           # ==========================================
-          # UPDATE HOME PAGE CURRENT WEEK
+          # IDENTIFY A TEAM ID FROM AN EXISTING NAME
           # ==========================================
 
-          def update_home_week():
+          def identify_team_id_from_name(
+              displayed_name
+          ):
+
+              displayed = clean_name(
+                  displayed_name
+              ).lower()
+
+
+              # First see whether it already matches
+              # the current ESPN name.
+
+              for tid, team in teams_by_id.items():
+
+                  if (
+                      clean_name(
+                          team["name"]
+                      ).lower()
+                      ==
+                      displayed
+                  ):
+
+                      return tid
+
+
+              # Otherwise check original/older names.
+
+              for tid, names in KNOWN_TEAM_NAMES.items():
+
+                  for old_name in names:
+
+                      if (
+                          clean_name(
+                              old_name
+                          ).lower()
+                          ==
+                          displayed
+                      ):
+
+                          return tid
+
+
+              return None
+
+
+          # ==========================================
+          # UPDATE INDEX.HTML
+          #
+          # Updates:
+          # - Current Week
+          # - Power Rankings heading week
+          # - Power Rankings team names
+          #
+          # DOES NOT reorder the Power Rankings.
+          # ==========================================
+
+          def update_home():
 
               path = Path(
                   "index.html"
@@ -1888,6 +1812,11 @@ jobs:
 
 
               if not path.exists():
+
+                  print(
+                      "WARNING: index.html not found"
+                  )
+
                   return
 
 
@@ -1899,12 +1828,17 @@ jobs:
               )
 
 
-              for heading in soup.find_all(
-                  [
-                      "h2",
-                      "h3"
-                  ]
-              ):
+              headings = soup.find_all(
+                  "h2",
+                  class_="section-title"
+              )
+
+
+              # ======================================
+              # CURRENT WEEK
+              # ======================================
+
+              for heading in headings:
 
                   heading_text = clean_name(
                       heading.get_text(
@@ -1914,23 +1848,21 @@ jobs:
                   ).lower()
 
 
-                  if (
-                      heading_text
-                      == "current week"
-                  ):
+                  if heading_text == "current week":
 
                       card = (
                           heading
-                          .find_next_sibling()
+                          .find_next_sibling(
+                              "div",
+                              class_="card"
+                          )
                       )
 
 
                       if card:
 
-                          number = (
-                              card.select_one(
-                                  ".stat-number"
-                              )
+                          number = card.select_one(
+                              ".stat-number"
                           )
 
 
@@ -1945,9 +1877,159 @@ jobs:
                       break
 
 
+              # ======================================
+              # POWER RANKINGS
+              # ======================================
+
+              power_heading = None
+
+
+              for heading in headings:
+
+                  heading_text = clean_name(
+                      heading.get_text(
+                          " ",
+                          strip=True
+                      )
+                  ).lower()
+
+
+                  if "power rankings" in heading_text:
+
+                      power_heading = heading
+                      break
+
+
+              if power_heading:
+
+                  # Keep Power Rankings week current.
+
+                  power_heading.string = (
+                      f"Week "
+                      f"{current_week} "
+                      f"Power Rankings"
+                  )
+
+
+                  power_card = (
+                      power_heading
+                      .find_next_sibling(
+                          "div",
+                          class_="card"
+                      )
+                  )
+
+
+                  if power_card:
+
+                      rows = power_card.find_all(
+                          "div",
+                          class_="standing-row",
+                          recursive=False
+                      )
+
+
+                      for row in rows:
+
+                          name_span = row.find(
+                              "span",
+                              class_="standing-info"
+                          )
+
+
+                          if not name_span:
+                              continue
+
+
+                          # First preference:
+                          # data-team-id saved by an
+                          # earlier automation run.
+
+                          tid = row.get(
+                              "data-team-id"
+                          )
+
+
+                          if tid:
+
+                              try:
+                                  tid = int(tid)
+
+                              except (
+                                  TypeError,
+                                  ValueError
+                              ):
+                                  tid = None
+
+
+                          # If row does not have an ID yet,
+                          # identify it from the old/current
+                          # display name.
+
+                          if not tid:
+
+                              tid = (
+                                  identify_team_id_from_name(
+                                      name_span.get_text(
+                                          " ",
+                                          strip=True
+                                      )
+                                  )
+                              )
+
+
+                          if (
+                              tid
+                              and
+                              tid in teams_by_id
+                          ):
+
+                              # Save permanent ESPN team ID
+                              # directly on the ranking row.
+                              #
+                              # Future team-name changes will
+                              # therefore always update correctly.
+
+                              row[
+                                  "data-team-id"
+                              ] = str(
+                                  tid
+                              )
+
+
+                              name_span.string = (
+                                  teams_by_id[
+                                      tid
+                                  ]["name"]
+                              )
+
+
+                              print(
+                                  f"Power Rankings: "
+                                  f"Team {tid} -> "
+                                  f"{teams_by_id[tid]['name']}"
+                              )
+
+
+                          else:
+
+                              print(
+                                  "WARNING: Could not identify "
+                                  "Power Rankings team: "
+                                  f"{name_span.get_text(' ', strip=True)}"
+                              )
+
+
               path.write_text(
                   str(soup),
                   encoding="utf-8"
+              )
+
+
+              print(
+                  "index.html updated: "
+                  "current week + "
+                  "Power Rankings team names"
               )
 
 
@@ -1963,7 +2045,7 @@ jobs:
 
           update_transactions()
 
-          update_home_week()
+          update_home()
 
 
           print(
