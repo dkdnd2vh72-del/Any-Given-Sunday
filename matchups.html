@@ -1,935 +1,909 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Matchups | Any Given Sunday</title>
-  <link rel="stylesheet" href="styles.css" />
-
-  <!-- Home screen / app icon setup -->
-  <link rel="icon" href="favicon.png" type="image/png" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Any Given Sunday" />
-  <meta name="theme-color" content="#0f172a" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Matchups | Any Given Sunday</title>
+<link href="styles.css" rel="stylesheet"/>
+<!-- Home screen / app icon setup -->
+<link href="favicon.png" rel="icon" type="image/png"/>
+<link href="apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="manifest.json" rel="manifest"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="Any Given Sunday" name="apple-mobile-web-app-title"/>
+<meta content="#0f172a" name="theme-color"/>
 </head>
 <body data-page="matchups">
-
-  <!-- ===== Header / Navigation (same on every page) ===== -->
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="site-title">Any Given <span>Sunday</span></div>
-      <button class="nav-toggle" aria-label="Open menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-    </div>
-    <nav class="main-nav">
-      <a href="index.html" data-page="home">Home</a>
-      <a href="matchups.html" data-page="matchups">Matchups</a>
-      <a href="rosters.html" data-page="rosters">Rosters</a>
-      <a href="history.html" data-page="history">League History</a>
-      <a href="transactions.html" data-page="transactions">Transactions</a>
-      <a href="standings.html" data-page="standings">Standings</a>
-      <a href="rules.html" data-page="rules">Rules</a>
-    </nav>
-  </header>
-
-  <!-- ===== Page Content ===== -->
-  <main class="page-content">
-    <h1 class="page-title">Matchups</h1>
-
-    <!-- Week picker -->
-    <select id="week-select" class="team-select">
-      <option value="week-1">Week 1</option>
-      <option value="week-2">Week 2</option>
-      <option value="week-3">Week 3</option>
-      <option value="week-4">Week 4</option>
-      <option value="week-5">Week 5</option>
-      <option value="week-6">Week 6</option>
-      <option value="week-7">Week 7</option>
-      <option value="week-8">Week 8</option>
-      <option value="week-9">Week 9</option>
-      <option value="week-10">Week 10</option>
-      <option value="week-11">Week 11</option>
-      <option value="week-12">Week 12</option>
-      <option value="week-13">Week 13</option>
-      <option value="week-14">Week 14</option>
-    </select>
-
-    <div class="week-block" id="week-1">
-      <h2 class="section-title">Week 1 Matchups</h2>
-
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">130.72</span>
-          </span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">124.21</span>
-          </span>
-        </div>
-      </div>
-
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">119.38</span>
-          </span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">126.94</span>
-          </span>
-        </div>
-      </div>
-
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">126.00</span>
-          </span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">126.64</span>
-          </span>
-        </div>
-      </div>
-
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">124.30</span>
-          </span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">125.58</span>
-          </span>
-        </div>
-      </div>
-
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">120.45</span>
-          </span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">
-            0.0<br>
-            <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">121.77</span>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-2" style="display:none;">
-      <h2 class="section-title">Week 2 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-3" style="display:none;">
-      <h2 class="section-title">Week 3 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-4" style="display:none;">
-      <h2 class="section-title">Week 4 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-5" style="display:none;">
-      <h2 class="section-title">Week 5 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-6" style="display:none;">
-      <h2 class="section-title">Week 6 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-7" style="display:none;">
-      <h2 class="section-title">Week 7 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-8" style="display:none;">
-      <h2 class="section-title">Week 8 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-9" style="display:none;">
-      <h2 class="section-title">Week 9 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-10" style="display:none;">
-      <h2 class="section-title">Week 10 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-11" style="display:none;">
-      <h2 class="section-title">Week 11 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-12" style="display:none;">
-      <h2 class="section-title">Week 12 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-13" style="display:none;">
-      <h2 class="section-title">Week 13 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="week-block" id="week-14" style="display:none;">
-      <h2 class="section-title">Week 14 Matchups</h2>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Pollard Express</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">#Numbers</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">King Johnson</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Chance make champions</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Injured Reserve</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Big Blue</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">More Wins Than PSI</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Gett'n Saucy</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-      <div class="card matchup-card">
-        <div class="team-line">
-          <span class="team-name">Champagne Step-Papi</span>
-          <span class="team-score">0.0</span>
-        </div>
-        <div class="matchup-vs">vs</div>
-        <div class="team-line">
-          <span class="team-name">Nabers Think I'm Sellin Dope</span>
-          <span class="team-score">0.0</span>
-        </div>
-      </div>
-    </div>
-
-  </main>
-
-  <footer class="site-footer">
-    &copy; 2026 Any Given Sunday
+<!-- ===== Header / Navigation (same on every page) ===== -->
+<header class="site-header">
+<div class="header-inner">
+<div class="site-title">Any Given <span>Sunday</span></div>
+<button aria-label="Open menu" class="nav-toggle">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</button>
+</div>
+<nav class="main-nav">
+<a data-page="home" href="index.html">Home</a>
+<a data-page="matchups" href="matchups.html">Matchups</a>
+<a data-page="rosters" href="rosters.html">Rosters</a>
+<a data-page="history" href="history.html">League History</a>
+<a data-page="transactions" href="transactions.html">Transactions</a>
+<a data-page="standings" href="standings.html">Standings</a>
+<a data-page="rules" href="rules.html">Rules</a>
+</nav>
+</header>
+<!-- ===== Page Content ===== -->
+<main class="page-content">
+<h1 class="page-title">Matchups</h1>
+<!-- Week picker -->
+<select class="team-select" id="week-select">
+<option value="week-1">Week 1</option>
+<option value="week-2">Week 2</option>
+<option value="week-3">Week 3</option>
+<option value="week-4">Week 4</option>
+<option value="week-5">Week 5</option>
+<option value="week-6">Week 6</option>
+<option value="week-7">Week 7</option>
+<option value="week-8">Week 8</option>
+<option value="week-9">Week 9</option>
+<option value="week-10">Week 10</option>
+<option value="week-11">Week 11</option>
+<option value="week-12">Week 12</option>
+<option value="week-13">Week 13</option>
+<option value="week-14">Week 14</option>
+</select>
+<div class="week-block" id="week-1">
+<h2 class="section-title">Week 1 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">130.72</span>
+</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">124.21</span>
+</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">119.38</span>
+</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">126.94</span>
+</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">126.00</span>
+</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">126.64</span>
+</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">124.30</span>
+</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">125.58</span>
+</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">120.45</span>
+</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">
+            0.0<br/>
+<span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">121.77</span>
+</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-2" style="display:none;">
+<h2 class="section-title">Week 2 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-3" style="display:none;">
+<h2 class="section-title">Week 3 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-4" style="display:none;">
+<h2 class="section-title">Week 4 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-5" style="display:none;">
+<h2 class="section-title">Week 5 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-6" style="display:none;">
+<h2 class="section-title">Week 6 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-7" style="display:none;">
+<h2 class="section-title">Week 7 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-8" style="display:none;">
+<h2 class="section-title">Week 8 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-9" style="display:none;">
+<h2 class="section-title">Week 9 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-10" style="display:none;">
+<h2 class="section-title">Week 10 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-11" style="display:none;">
+<h2 class="section-title">Week 11 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-12" style="display:none;">
+<h2 class="section-title">Week 12 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-13" style="display:none;">
+<h2 class="section-title">Week 13 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+<div class="week-block" id="week-14" style="display:none;">
+<h2 class="section-title">Week 14 Matchups</h2>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Pollard Express</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">#Numbers</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">King Johnson</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Chance make champions</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Injured Reserve</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Big Blue</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">More Wins Than PSI</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Gett'n Saucy</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+<div class="card matchup-card">
+<div class="team-line">
+<span class="team-name">Champagne Step-Papi</span>
+<span class="team-score">0.0</span>
+</div>
+<div class="matchup-vs">vs</div>
+<div class="team-line">
+<span class="team-name">Nabers Think I'm Sellin Dope</span>
+<span class="team-score">0.0</span>
+</div>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+    © 2026 Any Given Sunday
   </footer>
-
-  <script src="app.js"></script>
-
-  <!-- Page-specific script: show the week that matches the dropdown -->
-  <script>
+<script src="app.js"></script>
+<!-- Page-specific script: show the week that matches the dropdown -->
+<script>
     var weekSelect = document.getElementById("week-select");
     var allWeeks = document.querySelectorAll(".week-block");
 
