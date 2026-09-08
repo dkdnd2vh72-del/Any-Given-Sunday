@@ -65,7 +65,7 @@
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
-        "projection": 120.45,
+        "projection": 121.0,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -834,7 +834,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 5,
-      "projection": 120.45,
+      "projection": 121.0,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -898,11 +898,11 @@
           "slotId": 6
         },
         {
-          "id": "4248528",
-          "name": "Christian Watson",
+          "id": "4432708",
+          "name": "Marvin Harrison Jr.",
           "position": "WR",
-          "proTeam": "GB",
-          "projection": 10.91618729,
+          "proTeam": "ARI",
+          "projection": 11.47447446,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -930,6 +930,15 @@
           "position": "RB",
           "proTeam": "LAR",
           "projection": 9.37284319,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "id": "4248528",
+          "name": "Christian Watson",
+          "position": "WR",
+          "proTeam": "GB",
+          "projection": 10.91618729,
           "slot": "Bench",
           "slotId": 20
         },
@@ -966,15 +975,6 @@
           "position": "WR",
           "proTeam": "PHI",
           "projection": 8.53207594,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "id": "4432708",
-          "name": "Marvin Harrison Jr.",
-          "position": "WR",
-          "proTeam": "ARI",
-          "projection": 11.47447446,
           "slot": "Bench",
           "slotId": 20
         }
