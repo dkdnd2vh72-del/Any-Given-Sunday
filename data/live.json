@@ -65,7 +65,7 @@
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
-        "projection": 110.21,
+        "projection": 120.45,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -834,7 +834,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 5,
-      "projection": 110.21,
+      "projection": 120.45,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -853,20 +853,20 @@
           "slotId": 0
         },
         {
+          "id": "4882093",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "proTeam": "JAX",
+          "projection": 12.86330169,
+          "slot": "RB",
+          "slotId": 2
+        },
+        {
           "id": "4430807",
           "name": "Bijan Robinson",
           "position": "RB",
           "proTeam": "ATL",
           "projection": 19.2843379,
-          "slot": "RB",
-          "slotId": 2
-        },
-        {
-          "id": "4371733",
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "proTeam": "TB",
-          "projection": 10.78636982,
           "slot": "RB",
           "slotId": 2
         },
@@ -880,29 +880,29 @@
           "slotId": 4
         },
         {
+          "id": "4258173",
+          "name": "Nico Collins",
+          "position": "WR",
+          "proTeam": "HOU",
+          "projection": 15.60530475,
+          "slot": "WR",
+          "slotId": 4
+        },
+        {
+          "id": "4723086",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "proTeam": "CHI",
+          "projection": 14.42427811,
+          "slot": "TE",
+          "slotId": 6
+        },
+        {
           "id": "4248528",
           "name": "Christian Watson",
           "position": "WR",
           "proTeam": "GB",
           "projection": 10.91618729,
-          "slot": "WR",
-          "slotId": 4
-        },
-        {
-          "id": "4385690",
-          "name": "Dalton Kincaid",
-          "position": "TE",
-          "proTeam": "BUF",
-          "projection": 10.39356155,
-          "slot": "TE",
-          "slotId": 6
-        },
-        {
-          "id": "4432708",
-          "name": "Marvin Harrison Jr.",
-          "position": "WR",
-          "proTeam": "ARI",
-          "projection": 11.47447446,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -925,15 +925,6 @@
           "slotId": 17
         },
         {
-          "id": "4882093",
-          "name": "Bhayshul Tuten",
-          "position": "RB",
-          "proTeam": "JAX",
-          "projection": 12.86330169,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
           "id": "4429096",
           "name": "Blake Corum",
           "position": "RB",
@@ -943,11 +934,11 @@
           "slotId": 20
         },
         {
-          "id": "4723086",
-          "name": "Colston Loveland",
+          "id": "4385690",
+          "name": "Dalton Kincaid",
           "position": "TE",
-          "proTeam": "CHI",
-          "projection": 14.42427811,
+          "proTeam": "BUF",
+          "projection": 10.39356155,
           "slot": "Bench",
           "slotId": 20
         },
@@ -961,6 +952,15 @@
           "slotId": 20
         },
         {
+          "id": "4371733",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "proTeam": "TB",
+          "projection": 10.78636982,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
           "id": "4870795",
           "name": "Makai Lemon",
           "position": "WR",
@@ -970,11 +970,11 @@
           "slotId": 20
         },
         {
-          "id": "4258173",
-          "name": "Nico Collins",
+          "id": "4432708",
+          "name": "Marvin Harrison Jr.",
           "position": "WR",
-          "proTeam": "HOU",
-          "projection": 15.60530475,
+          "proTeam": "ARI",
+          "projection": 11.47447446,
           "slot": "Bench",
           "slotId": 20
         }
