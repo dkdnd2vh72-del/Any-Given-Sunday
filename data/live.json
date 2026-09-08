@@ -9,7 +9,7 @@
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 120.68,
+        "projection": 127.44,
         "score": 0.0,
         "teamId": 5,
         "teamName": "Nabers Think I'm Sellin Dope"
@@ -524,7 +524,7 @@
     {
       "id": 5,
       "name": "Nabers Think I'm Sellin Dope",
-      "projection": 120.68,
+      "projection": 127.44,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -579,11 +579,11 @@
           "slotId": 4
         },
         {
-          "id": "3116365",
-          "name": "Mark Andrews",
+          "id": "4432665",
+          "name": "Brock Bowers",
           "position": "TE",
-          "proTeam": "BAL",
-          "projection": 11.84727655,
+          "proTeam": "LV",
+          "projection": 18.60065423,
           "slot": "TE",
           "slotId": 6
         },
@@ -624,15 +624,6 @@
           "slotId": 20
         },
         {
-          "id": "4432665",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "proTeam": "LV",
-          "projection": 18.60065423,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
           "id": "4047650",
           "name": "DK Metcalf",
           "position": "WR",
@@ -656,6 +647,15 @@
           "position": "RB",
           "proTeam": "GB",
           "projection": 12.57863157,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "id": "3116365",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "proTeam": "BAL",
+          "projection": 11.84727655,
           "slot": "Bench",
           "slotId": 20
         },
