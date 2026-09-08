@@ -1,3 +1,216 @@
 {
-  "teams": []
+  "leagueId": "820399",
+  "season": 2026,
+  "teams": [
+    {
+      "teamId": 1,
+      "teamName": "Big Blue",
+      "roster": [
+        {"id":"4374302","name":"Amon-Ra St. Brown","position":"WR","proTeam":"DET","slot":"WR"},
+        {"id":"4241389","name":"CeeDee Lamb","position":"WR","proTeam":"DAL","slot":"WR"},
+        {"id":"4430737","name":"Kyren Williams","position":"RB","proTeam":"LAR","slot":"RB"},
+        {"id":"4696981","name":"Cam Skattebo","position":"RB","proTeam":"NYG","slot":"RB"},
+        {"id":"4685702","name":"Quinshon Judkins","position":"RB","proTeam":"CLE","slot":"FLEX"},
+        {"id":"4360248","name":"Kyle Pitts Sr.","position":"TE","proTeam":"ATL","slot":"TE"},
+        {"id":"4040715","name":"Jalen Hurts","position":"QB","proTeam":"PHI","slot":"QB"},
+        {"id":"4432773","name":"Brian Thomas Jr.","position":"WR","proTeam":"JAX","slot":"Bench"},
+        {"id":"4035687","name":"Michael Pittman Jr.","position":"WR","proTeam":"PIT","slot":"Bench"},
+        {"id":"4429205","name":"Jordan Addison","position":"WR","proTeam":"MIN","slot":"Bench"},
+        {"id":"15847","name":"Travis Kelce","position":"TE","proTeam":"KC","slot":"Bench"},
+        {"id":"4360310","name":"Trevor Lawrence","position":"QB","proTeam":"JAX","slot":"Bench"},
+        {"id":"2473037","name":"Jason Myers","position":"K","proTeam":"SEA","slot":"K"},
+        {"id":"-16021","name":"Eagles D/ST","position":"D/ST","proTeam":"PHI","slot":"D/ST"},
+        {"id":"4569587","name":"Wan'Dale Robinson","position":"WR","proTeam":"TEN","slot":"Bench"}
+      ]
+    },
+    {
+      "teamId": 3,
+      "teamName": "# Numbers",
+      "roster": [
+        {"id":"4379399","name":"James Cook III","position":"RB","proTeam":"BUF","slot":"RB"},
+        {"id":"4429160","name":"De'Von Achane","position":"RB","proTeam":"MIA","slot":"FLEX"},
+        {"id":"4685472","name":"Tetairoa McMillan","position":"WR","proTeam":"CAR","slot":"WR"},
+        {"id":"4567048","name":"Kenneth Walker III","position":"RB","proTeam":"KC","slot":"RB"},
+        {"id":"4685278","name":"Luther Burden III","position":"WR","proTeam":"CHI","slot":"WR"},
+        {"id":"4426388","name":"Jameson Williams","position":"WR","proTeam":"DET","slot":"Bench"},
+        {"id":"5083076","name":"Harold Fannin Jr.","position":"TE","proTeam":"CLE","slot":"TE"},
+        {"id":"4880281","name":"Jordyn Tyson","position":"WR","proTeam":"NO","slot":"Bench"},
+        {"id":"2577417","name":"Dak Prescott","position":"QB","proTeam":"DAL","slot":"QB"},
+        {"id":"4360761","name":"Michael Wilson","position":"WR","proTeam":"ARI","slot":"Bench"},
+        {"id":"-16007","name":"Broncos D/ST","position":"D/ST","proTeam":"DEN","slot":"D/ST"},
+        {"id":"4362619","name":"Chris Rodriguez Jr.","position":"RB","proTeam":"JAX","slot":"Bench"},
+        {"id":"4362081","name":"Cameron Dicker","position":"K","proTeam":"LAC","slot":"K"},
+        {"id":"3916433","name":"Jakobi Meyers","position":"WR","proTeam":"JAX","slot":"Bench"},
+        {"id":"4361432","name":"Romeo Doubs","position":"WR","proTeam":"NE","slot":"Bench"}
+      ]
+    },
+    {
+      "teamId": 4,
+      "teamName": "Champagne Step-Papi",
+      "roster": [
+        {"id":"3117251","name":"Christian McCaffrey","position":"RB","proTeam":"SF","slot":"RB"},
+        {"id":"3043078","name":"Derrick Henry","position":"RB","proTeam":"BAL","slot":"RB"},
+        {"id":"4426354","name":"George Pickens","position":"WR","proTeam":"DAL","slot":"WR"},
+        {"id":"4431459","name":"Tyler Warren","position":"TE","proTeam":"IND","slot":"TE"},
+        {"id":"4372016","name":"Jaylen Waddle","position":"WR","proTeam":"DEN","slot":"WR"},
+        {"id":"3915416","name":"DJ Moore","position":"WR","proTeam":"BUF","slot":"FLEX"},
+        {"id":"4426348","name":"Jayden Daniels","position":"QB","proTeam":"WSH","slot":"QB"},
+        {"id":"4871023","name":"Carnell Tate","position":"WR","proTeam":"TEN","slot":"Bench"},
+        {"id":"3916148","name":"Tony Pollard","position":"RB","proTeam":"TEN","slot":"Bench"},
+        {"id":"4701936","name":"Matthew Golden","position":"WR","proTeam":"GB","slot":"Bench"},
+        {"id":"4431611","name":"Caleb Williams","position":"QB","proTeam":"CHI","slot":"Bench"},
+        {"id":"4608686","name":"Kyle Monangai","position":"RB","proTeam":"CHI","slot":"Bench"},
+        {"id":"2976212","name":"Stefon Diggs","position":"WR","proTeam":"WSH","slot":"Bench"},
+        {"id":"4574716","name":"Harrison Mevis","position":"K","proTeam":"LAR","slot":"K"},
+        {"id":"-16017","name":"Patriots D/ST","position":"D/ST","proTeam":"NE","slot":"D/ST"}
+      ]
+    },
+    {
+      "teamId": 5,
+      "teamName": "Nabers Think I'm Sellin Dope",
+      "roster": [
+        {"id":"4426515","name":"Puka Nacua","position":"WR","proTeam":"LAR","slot":"WR"},
+        {"id":"4432665","name":"Brock Bowers","position":"TE","proTeam":"LV","slot":"TE"},
+        {"id":"4427366","name":"Breece Hall","position":"RB","proTeam":"NYJ","slot":"Bench"},
+        {"id":"4567750","name":"Emeka Egbuka","position":"WR","proTeam":"TB","slot":"WR"},
+        {"id":"4239993","name":"Tee Higgins","position":"WR","proTeam":"CIN","slot":"FLEX"},
+        {"id":"4035538","name":"David Montgomery","position":"RB","proTeam":"HOU","slot":"Bench"},
+        {"id":"4360078","name":"Alec Pierce","position":"WR","proTeam":"IND","slot":"Bench"},
+        {"id":"4047650","name":"DK Metcalf","position":"WR","proTeam":"PIT","slot":"Bench"},
+        {"id":"4429023","name":"MarShawn Lloyd","position":"RB","proTeam":"GB","slot":"RB"},
+        {"id":"4361579","name":"Javonte Williams","position":"RB","proTeam":"DAL","slot":"RB"},
+        {"id":"3139477","name":"Patrick Mahomes","position":"QB","proTeam":"KC","slot":"QB"},
+        {"id":"3116365","name":"Mark Andrews","position":"TE","proTeam":"BAL","slot":"Bench"},
+        {"id":"3116165","name":"Chris Godwin Jr.","position":"WR","proTeam":"TB","slot":"Bench"},
+        {"id":"-16023","name":"Steelers D/ST","position":"D/ST","proTeam":"PIT","slot":"D/ST"},
+        {"id":"4689936","name":"Jake Bates","position":"K","proTeam":"DET","slot":"K"}
+      ]
+    },
+    {
+      "teamId": 7,
+      "teamName": "Gett'n Saucy",
+      "roster": [
+        {"id":"4430878","name":"Jaxon Smith-Njigba","position":"WR","proTeam":"SEA","slot":"WR"},
+        {"id":"4870808","name":"Jeremiyah Love","position":"RB","proTeam":"ARI","slot":"RB"},
+        {"id":"4890973","name":"Ashton Jeanty","position":"RB","proTeam":"LV","slot":"RB"},
+        {"id":"4569618","name":"Garrett Wilson","position":"WR","proTeam":"NYJ","slot":"WR"},
+        {"id":"3916387","name":"Lamar Jackson","position":"QB","proTeam":"BAL","slot":"QB"},
+        {"id":"4430027","name":"Sam LaPorta","position":"TE","proTeam":"DET","slot":"TE"},
+        {"id":"3121422","name":"Terry McLaurin","position":"WR","proTeam":"WSH","slot":"FLEX"},
+        {"id":"4038815","name":"Rico Dowdle","position":"RB","proTeam":"PIT","slot":"Bench"},
+        {"id":"4362249","name":"Jayden Reed","position":"WR","proTeam":"GB","slot":"Bench"},
+        {"id":"4241416","name":"Chuba Hubbard","position":"RB","proTeam":"CAR","slot":"Bench"},
+        {"id":"4361050","name":"Isaiah Likely","position":"TE","proTeam":"NYG","slot":"Bench"},
+        {"id":"-16014","name":"Rams D/ST","position":"D/ST","proTeam":"LAR","slot":"D/ST"},
+        {"id":"4683062","name":"Xavier Worthy","position":"WR","proTeam":"KC","slot":"Bench"},
+        {"id":"4568490","name":"RJ Harvey","position":"RB","proTeam":"DEN","slot":"Bench"},
+        {"id":"17372","name":"Chris Boswell","position":"K","proTeam":"PIT","slot":"K"}
+      ]
+    },
+    {
+      "teamId": 8,
+      "teamName": "King Johnson",
+      "roster": [
+        {"id":"4430807","name":"Bijan Robinson","position":"RB","proTeam":"ATL","slot":"RB"},
+        {"id":"4047646","name":"A.J. Brown","position":"WR","proTeam":"NE","slot":"WR"},
+        {"id":"4258173","name":"Nico Collins","position":"WR","proTeam":"HOU","slot":"WR"},
+        {"id":"4723086","name":"Colston Loveland","position":"TE","proTeam":"CHI","slot":"TE"},
+        {"id":"4882093","name":"Bhayshul Tuten","position":"RB","proTeam":"JAX","slot":"RB"},
+        {"id":"4248528","name":"Christian Watson","position":"WR","proTeam":"GB","slot":"FLEX"},
+        {"id":"4432708","name":"Marvin Harrison Jr.","position":"WR","proTeam":"ARI","slot":"Bench"},
+        {"id":"4371733","name":"Kenny Gainwell","position":"RB","proTeam":"TB","slot":"Bench"},
+        {"id":"4431452","name":"Drake Maye","position":"QB","proTeam":"NE","slot":"QB"},
+        {"id":"4429096","name":"Blake Corum","position":"RB","proTeam":"LAR","slot":"Bench"},
+        {"id":"4360569","name":"Jordan Mason","position":"RB","proTeam":"MIN","slot":"Bench"},
+        {"id":"4385690","name":"Dalton Kincaid","position":"TE","proTeam":"BUF","slot":"Bench"},
+        {"id":"4870795","name":"Makai Lemon","position":"WR","proTeam":"PHI","slot":"Bench"},
+        {"id":"4034949","name":"Eddy Pineiro","position":"K","proTeam":"SF","slot":"K"},
+        {"id":"-16024","name":"Chargers D/ST","position":"D/ST","proTeam":"LAC","slot":"D/ST"}
+      ]
+    },
+    {
+      "teamId": 11,
+      "teamName": "More Wins Than PSI",
+      "roster": [
+        {"id":"4362628","name":"Ja'Marr Chase","position":"WR","proTeam":"CIN","slot":"WR"},
+        {"id":"4685382","name":"Omarion Hampton","position":"RB","proTeam":"LAC","slot":"RB"},
+        {"id":"4595348","name":"Malik Nabers","position":"WR","proTeam":"NYG","slot":"WR"},
+        {"id":"4241478","name":"DeVonta Smith","position":"WR","proTeam":"PHI","slot":"FLEX"},
+        {"id":"4685512","name":"Jadarian Price","position":"RB","proTeam":"SEA","slot":"RB"},
+        {"id":"4432710","name":"TreVeyon Henderson","position":"RB","proTeam":"NE","slot":"Bench"},
+        {"id":"4241985","name":"J.K. Dobbins","position":"RB","proTeam":"DEN","slot":"Bench"},
+        {"id":"4678008","name":"Jonathon Brooks","position":"RB","proTeam":"CAR","slot":"Bench"},
+        {"id":"4689114","name":"Jaxson Dart","position":"QB","proTeam":"NYG","slot":"QB"},
+        {"id":"4870653","name":"KC Concepcion","position":"WR","proTeam":"CLE","slot":"Bench"},
+        {"id":"4695883","name":"Jalen Coker","position":"WR","proTeam":"CAR","slot":"Bench"},
+        {"id":"4688813","name":"Josh Downs","position":"WR","proTeam":"IND","slot":"Bench"},
+        {"id":"3929645","name":"Juwan Johnson","position":"TE","proTeam":"NO","slot":"TE"},
+        {"id":"4686361","name":"Cam Little","position":"K","proTeam":"JAX","slot":"K"},
+        {"id":"-16008","name":"Lions D/ST","position":"D/ST","proTeam":"DET","slot":"D/ST"}
+      ]
+    },
+    {
+      "teamId": 12,
+      "teamName": "Injured Reserve",
+      "roster": [
+        {"id":"4262921","name":"Justin Jefferson","position":"WR","proTeam":"MIN","slot":"WR"},
+        {"id":"3929630","name":"Saquon Barkley","position":"RB","proTeam":"PHI","slot":"RB"},
+        {"id":"4239996","name":"Travis Etienne Jr.","position":"RB","proTeam":"NO","slot":"RB"},
+        {"id":"3918298","name":"Josh Allen","position":"QB","proTeam":"BUF","slot":"QB"},
+        {"id":"4259545","name":"D'Andre Swift","position":"RB","proTeam":"CHI","slot":"FLEX"},
+        {"id":"4432620","name":"Parker Washington","position":"WR","proTeam":"JAX","slot":"Bench"},
+        {"id":"4710714","name":"De'Zhaun Stribling","position":"WR","proTeam":"SF","slot":"Bench"},
+        {"id":"4361370","name":"Chris Olave","position":"WR","proTeam":"NO","slot":"WR"},
+        {"id":"3040151","name":"George Kittle","position":"TE","proTeam":"SF","slot":"Bench"},
+        {"id":"4572680","name":"Tucker Kraft","position":"TE","proTeam":"GB","slot":"TE"},
+        {"id":"4429059","name":"Woody Marks","position":"RB","proTeam":"HOU","slot":"Bench"},
+        {"id":"3953687","name":"Brandon Aubrey","position":"K","proTeam":"DAL","slot":"K"},
+        {"id":"4686658","name":"Mike Washington Jr.","position":"RB","proTeam":"LV","slot":"Bench"},
+        {"id":"-16033","name":"Ravens D/ST","position":"D/ST","proTeam":"BAL","slot":"D/ST"},
+        {"id":"4575131","name":"Jacory Croskey-Merritt","position":"RB","proTeam":"WSH","slot":"Bench"}
+      ]
+    },
+    {
+      "teamId": 13,
+      "teamName": "Pollard Express",
+      "roster": [
+        {"id":"4429795","name":"Jahmyr Gibbs","position":"RB","proTeam":"DET","slot":"RB"},
+        {"id":"4362238","name":"Chase Brown","position":"RB","proTeam":"CIN","slot":"RB"},
+        {"id":"4428331","name":"Rashee Rice","position":"WR","proTeam":"KC","slot":"WR"},
+        {"id":"16800","name":"Davante Adams","position":"WR","proTeam":"LAR","slot":"WR"},
+        {"id":"4612826","name":"Ladd McConkey","position":"WR","proTeam":"LAC","slot":"FLEX"},
+        {"id":"4569987","name":"Jaylen Warren","position":"RB","proTeam":"PIT","slot":"Bench"},
+        {"id":"3128429","name":"Courtland Sutton","position":"WR","proTeam":"DEN","slot":"Bench"},
+        {"id":"3121023","name":"Dallas Goedert","position":"TE","proTeam":"PHI","slot":"TE"},
+        {"id":"16737","name":"Mike Evans","position":"WR","proTeam":"SF","slot":"Bench"},
+        {"id":"4426338","name":"Bo Nix","position":"QB","proTeam":"DEN","slot":"Bench"},
+        {"id":"-16034","name":"Texans D/ST","position":"D/ST","proTeam":"HOU","slot":"D/ST"},
+        {"id":"4697815","name":"Rachaad White","position":"RB","proTeam":"WSH","slot":"Bench"},
+        {"id":"4032473","name":"Rashid Shaheed","position":"WR","proTeam":"SEA","slot":"Bench"},
+        {"id":"12483","name":"Matthew Stafford","position":"QB","proTeam":"LAR","slot":"QB"},
+        {"id":"3055899","name":"Harrison Butker","position":"K","proTeam":"KC","slot":"K"}
+      ]
+    },
+    {
+      "teamId": 14,
+      "teamName": "Chance make champions",
+      "roster": [
+        {"id":"4242335","name":"Jonathan Taylor","position":"RB","proTeam":"IND","slot":"RB"},
+        {"id":"4361307","name":"Trey McBride","position":"TE","proTeam":"ARI","slot":"TE"},
+        {"id":"4426502","name":"Drake London","position":"WR","proTeam":"ATL","slot":"WR"},
+        {"id":"4596448","name":"Bucky Irving","position":"RB","proTeam":"TB","slot":"RB"},
+        {"id":"4429615","name":"Zay Flowers","position":"WR","proTeam":"BAL","slot":"WR"},
+        {"id":"4431299","name":"Rome Odunze","position":"WR","proTeam":"CHI","slot":"FLEX"},
+        {"id":"3915511","name":"Joe Burrow","position":"QB","proTeam":"CIN","slot":"QB"},
+        {"id":"4569173","name":"Rhamondre Stevenson","position":"RB","proTeam":"NE","slot":"Bench"},
+        {"id":"4047365","name":"Josh Jacobs","position":"RB","proTeam":"GB","slot":"Bench"},
+        {"id":"4242355","name":"Jake Ferguson","position":"TE","proTeam":"DAL","slot":"Bench"},
+        {"id":"4429025","name":"Quentin Johnston","position":"WR","proTeam":"LAC","slot":"Bench"},
+        {"id":"-16026","name":"Seahawks D/ST","position":"D/ST","proTeam":"SEA","slot":"D/ST"},
+        {"id":"3126486","name":"Deebo Samuel Sr.","position":"WR","proTeam":"SF","slot":"Bench"},
+        {"id":"2971573","name":"Ka'imi Fairbairn","position":"K","proTeam":"HOU","slot":"K"},
+        {"id":"4428718","name":"Tre Tucker","position":"WR","proTeam":"LV","slot":"Bench"}
+      ]
+    }
+  ]
 }
