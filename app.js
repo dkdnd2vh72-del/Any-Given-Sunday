@@ -123,25 +123,24 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!select || !main) return;
 
     try {
-      var responses = await Promise.all([
-        fetch("data/rosters.json?ts=" + Date.now(), {cache:"no-store"}),
-        fetch("data/matchups.json?ts=" + Date.now(), {cache:"no-store"})
-      ]);
-      if (!responses[0].ok || !responses[1].ok) return;
+      var response = await fetch("data/live.json?ts=" + Date.now(), {cache:"no-store"});
+      if (!response.ok) return;
 
-      var rosterData = await responses[0].json();
-      var matchupData = await responses[1].json();
-      var teams = Array.isArray(rosterData.teams) ? rosterData.teams : [];
+      var liveData = await response.json();
+      var teams = Array.isArray(liveData.teams) ? liveData.teams : [];
       if (!teams.length) return;
 
       main.querySelectorAll(".roster").forEach(function (node) { node.remove(); });
       select.innerHTML = "";
 
       teams.forEach(function (team, index) {
-        var slug = slugify(team.teamName);
+        var teamId = team.id;
+        var teamName = team.name || ("Team " + teamId);
+        var slug = slugify(teamName);
+
         var option = document.createElement("option");
         option.value = slug;
-        option.textContent = team.teamName;
+        option.textContent = teamName;
         select.appendChild(option);
 
         var roster = document.createElement("div");
@@ -152,9 +151,10 @@ document.addEventListener("DOMContentLoaded", function () {
         var total = document.createElement("div");
         total.className = "projection-total";
         var totalLabel = document.createElement("span");
-        totalLabel.textContent = "Week " + (matchupData.week || 1) + " Projected Total";
+        totalLabel.textContent = "Week " + (liveData.week || 1) + " Projected Total";
         var totalValue = document.createElement("strong");
-        totalValue.textContent = projectionForTeam(matchupData, team.teamId).toFixed(2);
+        var projection = Number(team.projection || projectionForTeam(liveData, teamId) || 0);
+        totalValue.textContent = projection.toFixed(2);
         total.appendChild(totalLabel);
         total.appendChild(totalValue);
         roster.appendChild(total);
