@@ -3,7 +3,7 @@ name: Any Given Sunday Auto Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
