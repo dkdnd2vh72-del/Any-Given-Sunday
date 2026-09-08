@@ -15,7 +15,6 @@ concurrency:
 jobs:
   update-site:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out site
         uses: actions/checkout@v4
@@ -32,33 +31,20 @@ jobs:
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
-
         run: |
           python - <<'PY'
-
           import json
           import os
           import re
           import sys
-
           from pathlib import Path
           from html import escape
 
           import requests
           from bs4 import BeautifulSoup
 
-
-          # ---------------------------------------------
-          # ANY GIVEN SUNDAY LEAGUE SETTINGS
-          # ---------------------------------------------
-
           LEAGUE_ID = "820399"
           SEASON = 2026
-
-
-          # ---------------------------------------------
-          # ESPN
-          # ---------------------------------------------
 
           ESPN_URL = (
               f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/"
@@ -74,20 +60,15 @@ jobs:
           ]
 
           headers = {
-              "User-Agent":
-                  "Mozilla/5.0 Any-Given-Sunday-GitHub-Action/1.0",
-
+              "User-Agent": "Mozilla/5.0 Any-Given-Sunday-GitHub-Action/1.0",
               "Accept": "application/json",
           }
 
           cookies = {}
-
           if os.getenv("ESPN_S2"):
               cookies["espn_s2"] = os.environ["ESPN_S2"]
-
           if os.getenv("ESPN_SWID"):
               cookies["SWID"] = os.environ["ESPN_SWID"]
-
 
           response = requests.get(
               ESPN_URL,
@@ -97,27 +78,13 @@ jobs:
               timeout=30,
           )
 
-
           if response.status_code in (401, 403):
-
               print("ESPN rejected the request.")
-
-              print(
-                  "If the league is private, add repository secrets "
-                  "ESPN_S2 and ESPN_SWID."
-              )
-
+              print("Check repository secrets ESPN_S2 and ESPN_SWID.")
               sys.exit(2)
 
-
           response.raise_for_status()
-
           league = response.json()
-
-
-          # ---------------------------------------------
-          # CURRENT WEEK
-          # ---------------------------------------------
 
           current_week = (
               league.get("status", {}).get("currentMatchupPeriod")
@@ -125,21 +92,17 @@ jobs:
               or 1
           )
 
-
-          # ---------------------------------------------
-          # POSITION MAPPINGS
-          # ---------------------------------------------
-
+          # ESPN default player position IDs
           POSITION = {
-              0: "QB",
+              1: "QB",
               2: "RB",
-              4: "WR",
-              6: "TE",
+              3: "WR",
+              4: "TE",
+              5: "K",
               16: "D/ST",
-              17: "K",
           }
 
-
+          # ESPN lineup slot IDs
           SLOT = {
               0: "QB",
               2: "RB",
@@ -151,7 +114,6 @@ jobs:
               21: "IR",
               23: "FLEX",
           }
-
 
           SLOT_ORDER = {
               "QB": 0,
@@ -165,321 +127,168 @@ jobs:
               "IR": 8,
           }
 
-
           PRO_TEAM = {
-              0: "FA",
-              1: "ATL",
-              2: "BUF",
-              3: "CHI",
-              4: "CIN",
-              5: "CLE",
-              6: "DAL",
-              7: "DEN",
-              8: "DET",
-              9: "GB",
-              10: "TEN",
-              11: "IND",
-              12: "KC",
-              13: "LV",
-              14: "LAR",
-              15: "MIA",
-              16: "MIN",
-              17: "NE",
-              18: "NO",
-              19: "NYG",
-              20: "NYJ",
-              21: "PHI",
-              22: "ARI",
-              23: "PIT",
-              24: "LAC",
-              25: "SF",
-              26: "SEA",
-              27: "TB",
-              28: "WSH",
-              29: "CAR",
-              30: "JAX",
-              33: "BAL",
-              34: "HOU",
+              0:"FA",
+              1:"ATL",
+              2:"BUF",
+              3:"CHI",
+              4:"CIN",
+              5:"CLE",
+              6:"DAL",
+              7:"DEN",
+              8:"DET",
+              9:"GB",
+              10:"TEN",
+              11:"IND",
+              12:"KC",
+              13:"LV",
+              14:"LAR",
+              15:"MIA",
+              16:"MIN",
+              17:"NE",
+              18:"NO",
+              19:"NYG",
+              20:"NYJ",
+              21:"PHI",
+              22:"ARI",
+              23:"PIT",
+              24:"LAC",
+              25:"SF",
+              26:"SEA",
+              27:"TB",
+              28:"WSH",
+              29:"CAR",
+              30:"JAX",
+              33:"BAL",
+              34:"HOU",
           }
 
-
           def clean_name(value):
-
-              return re.sub(
-                  r"\s+",
-                  " ",
-                  (value or "").strip()
-              )
-
+              return re.sub(r"\s+", " ", (value or "").strip())
 
           def team_name(team):
-
-              direct = clean_name(
-                  team.get("name")
-              )
+              direct = clean_name(team.get("name"))
 
               if direct:
                   return direct
 
               return clean_name(
-                  f"{team.get('location', '')} "
-                  f"{team.get('nickname', '')}"
+                  f"{team.get('location', '')} {team.get('nickname', '')}"
               )
 
-
-          # ---------------------------------------------
-          # TEAMS + ROSTERS
-          # ---------------------------------------------
-
           teams_by_id = {}
-
           normalized_teams = []
 
-
           for team in league.get("teams", []):
-
               tid = int(team["id"])
-
               name = team_name(team)
-
               players = []
 
-
-              for entry in (
-                  team
-                  .get("roster", {})
-                  .get("entries", [])
-              ):
-
-                  p = (
-                      entry
-                      .get("playerPoolEntry", {})
-                      .get("player", {})
-                  )
-
+              for entry in team.get("roster", {}).get("entries", []):
+                  p = entry.get("playerPoolEntry", {}).get("player", {})
 
                   if not p:
                       continue
 
-
                   lineup_slot_id = int(
-                      entry.get(
-                          "lineupSlotId",
-                          20
-                      )
+                      entry.get("lineupSlotId", 20)
                   )
-
 
                   slot = SLOT.get(
                       lineup_slot_id,
                       "Bench"
                   )
 
-
                   default_position_id = int(
-                      p.get(
-                          "defaultPositionId",
-                          -1
-                      )
+                      p.get("defaultPositionId", -1)
                   )
-
 
                   position = POSITION.get(
                       default_position_id,
-                      slot if slot != "Bench"
-                      else "—"
+                      "—"
                   )
 
-
                   pro_team = PRO_TEAM.get(
-                      int(
-                          p.get(
-                              "proTeamId",
-                              0
-                          )
-                      ),
+                      int(p.get("proTeamId", 0)),
                       ""
                   )
 
-
                   players.append({
-
-                      "id":
-                          str(
-                              p.get(
-                                  "id",
-                                  ""
-                              )
-                          ),
-
-                      "name":
-                          clean_name(
-                              p.get("fullName")
-                              or p.get("name")
-                          ),
-
-                      "position":
-                          position,
-
-                      "slot":
-                          slot,
-
-                      "slotId":
-                          lineup_slot_id,
-
-                      "proTeam":
-                          pro_team,
+                      "id": str(p.get("id", "")),
+                      "name": clean_name(
+                          p.get("fullName") or p.get("name")
+                      ),
+                      "position": position,
+                      "slot": slot,
+                      "slotId": lineup_slot_id,
+                      "proTeam": pro_team,
                   })
 
-
               players.sort(
-
                   key=lambda x: (
-
-                      SLOT_ORDER.get(
-                          x["slot"],
-                          99
-                      ),
-
+                      SLOT_ORDER.get(x["slot"], 99),
                       x["slotId"],
-
-                      x["name"]
+                      x["name"],
                   )
               )
 
-
               overall = (
-                  team
-                  .get("record", {})
+                  team.get("record", {})
                   .get("overall", {})
               )
 
-
               item = {
-
                   "id": tid,
-
                   "name": name,
-
                   "roster": players,
-
                   "record": {
-
-                      "wins":
-                          int(
-                              overall.get(
-                                  "wins",
-                                  0
-                              ) or 0
-                          ),
-
-                      "losses":
-                          int(
-                              overall.get(
-                                  "losses",
-                                  0
-                              ) or 0
-                          ),
-
-                      "ties":
-                          int(
-                              overall.get(
-                                  "ties",
-                                  0
-                              ) or 0
-                          ),
-
-                      "pointsFor":
-                          float(
-                              overall.get(
-                                  "pointsFor",
-                                  0
-                              ) or 0
-                          ),
-
-                      "pointsAgainst":
-                          float(
-                              overall.get(
-                                  "pointsAgainst",
-                                  0
-                              ) or 0
-                          ),
+                      "wins": int(
+                          overall.get("wins", 0) or 0
+                      ),
+                      "losses": int(
+                          overall.get("losses", 0) or 0
+                      ),
+                      "ties": int(
+                          overall.get("ties", 0) or 0
+                      ),
+                      "pointsFor": float(
+                          overall.get("pointsFor", 0) or 0
+                      ),
+                      "pointsAgainst": float(
+                          overall.get("pointsAgainst", 0) or 0
+                      ),
                   },
-
-                  "projection":
-                      None,
+                  "projection": None,
               }
 
-
-              normalized_teams.append(
-                  item
-              )
-
-
+              normalized_teams.append(item)
               teams_by_id[tid] = item
-
-
-          # ---------------------------------------------
-          # MATCHUPS
-          # ---------------------------------------------
 
           normalized_matchups = []
 
-
-          for matchup in league.get(
-              "schedule",
-              []
-          ):
-
+          for matchup in league.get("schedule", []):
               if int(
-                  matchup.get(
-                      "matchupPeriodId",
-                      -1
-                  )
+                  matchup.get("matchupPeriodId", -1)
               ) != int(current_week):
-
                   continue
-
 
               sides = []
 
-
-              for side_name in (
-                  "home",
-                  "away"
-              ):
-
-                  side = (
-                      matchup.get(
-                          side_name
-                      )
-                      or {}
-                  )
-
+              for side_name in ("home", "away"):
+                  side = matchup.get(side_name) or {}
 
                   if "teamId" not in side:
                       continue
 
-
-                  tid = int(
-                      side["teamId"]
-                  )
-
+                  tid = int(side["teamId"])
 
                   points = float(
-                      side.get(
-                          "totalPoints",
-                          0
-                      ) or 0
+                      side.get("totalPoints", 0) or 0
                   )
 
-
-                  projection = (
-                      side.get(
-                          "totalProjectedPoints"
-                      )
+                  projection = side.get(
+                      "totalProjectedPoints"
                   )
-
 
                   projection = (
                       float(projection)
@@ -487,164 +296,85 @@ jobs:
                       else 0.0
                   )
 
-
                   if tid in teams_by_id:
-
-                      teams_by_id[
-                          tid
-                      ][
+                      teams_by_id[tid][
                           "projection"
                       ] = projection
 
-
                   sides.append({
-
-                      "teamId":
-                          tid,
-
-                      "teamName":
-                          teams_by_id
-                          .get(
-                              tid,
-                              {}
-                          )
-                          .get(
-                              "name",
-                              str(tid)
-                          ),
-
-                      "score":
-                          points,
-
-                      "projection":
-                          projection,
+                      "teamId": tid,
+                      "teamName": teams_by_id.get(
+                          tid, {}
+                      ).get(
+                          "name",
+                          str(tid)
+                      ),
+                      "score": points,
+                      "projection": projection,
                   })
-
 
               if len(sides) == 2:
-
                   normalized_matchups.append({
-
-                      "home":
-                          sides[0],
-
-                      "away":
-                          sides[1],
+                      "home": sides[0],
+                      "away": sides[1],
                   })
 
-
-          # ---------------------------------------------
-          # NORMALIZED LEAGUE DATA
-          # ---------------------------------------------
-
           normalized = {
-
-              "leagueId":
-                  LEAGUE_ID,
-
-              "season":
-                  SEASON,
-
-              "week":
-                  int(current_week),
-
-              "teams":
-                  sorted(
-                      normalized_teams,
-                      key=lambda t: t["id"]
-                  ),
-
-              "matchups":
-                  normalized_matchups,
+              "leagueId": LEAGUE_ID,
+              "season": SEASON,
+              "week": int(current_week),
+              "teams": sorted(
+                  normalized_teams,
+                  key=lambda t: t["id"]
+              ),
+              "matchups": normalized_matchups,
           }
 
-
-          # ---------------------------------------------
-          # SAVE LIVE DATA
-          # ---------------------------------------------
-
           data_dir = Path("data")
+          data_dir.mkdir(exist_ok=True)
 
-          data_dir.mkdir(
-              exist_ok=True
-          )
-
-
-          live_path = (
-              data_dir
-              / "live.json"
-          )
-
+          live_path = data_dir / "live.json"
 
           new_live = (
-
               json.dumps(
                   normalized,
                   indent=2,
                   sort_keys=True
               )
-
               + "\n"
           )
 
-
           if (
               not live_path.exists()
-              or
-              live_path.read_text(
+              or live_path.read_text(
                   encoding="utf-8"
               ) != new_live
           ):
-
               live_path.write_text(
                   new_live,
                   encoding="utf-8"
               )
 
-
-          # ---------------------------------------------
-          # HELPERS
-          # ---------------------------------------------
-
           def find_team(data_name):
-
-              target = (
-                  clean_name(
-                      data_name
-                  )
-                  .lower()
-              )
-
+              target = clean_name(
+                  data_name
+              ).lower()
 
               for team in normalized["teams"]:
-
-                  if (
-                      clean_name(
-                          team["name"]
-                      )
-                      .lower()
-                      == target
-                  ):
-
+                  if clean_name(
+                      team["name"]
+                  ).lower() == target:
                       return team
-
 
               return None
 
-
           def pos_class(position):
-
               val = (
-                  position
-                  .lower()
+                  position.lower()
                   .replace("/", "")
                   .replace(" ", "")
-                  .replace(
-                      "d/st",
-                      "dst"
-                  )
+                  .replace("d/st", "dst")
               )
-
 
               return (
                   "pos-"
@@ -655,35 +385,24 @@ jobs:
                   )
               )
 
-
           def player_row(player):
-
               return (
-
                   '<div class="player-row">'
-
                   '<div class="player-info">'
 
                   f'<span class="team-name">'
-
                   f'<span class="player-position '
                   f'{pos_class(player["position"])}">'
-
                   f'{escape(player["position"])}'
-
-                  '</span>'
-
+                  f'</span>'
                   f'{escape(player["name"])}'
-
-                  '</span>'
+                  f'</span>'
 
                   f'<span class="player-meta">'
-
-                  f'{escape(player["proTeam"])} '
-                  f'&middot; '
+                  f'{escape(player["proTeam"])}'
+                  f' &middot; '
                   f'{escape(player["slot"])}'
-
-                  '</span>'
+                  f'</span>'
 
                   '</div>'
 
@@ -694,126 +413,75 @@ jobs:
                   '</div>'
               )
 
-
-          # ---------------------------------------------
-          # UPDATE ROSTERS PAGE
-          # ---------------------------------------------
-
           def update_rosters():
-
-              path = Path(
-                  "rosters.html"
-              )
-
+              path = Path("rosters.html")
 
               if not path.exists():
                   return
 
-
               soup = BeautifulSoup(
-
                   path.read_text(
                       encoding="utf-8"
                   ),
-
                   "html.parser"
               )
-
 
               select = soup.find(
                   id="team-select"
               )
 
-
               if not select:
                   return
 
-
               option_names = {
-
                   option.get("value"):
-
                       clean_name(
                           option.get_text(
                               " ",
                               strip=True
                           )
                       )
-
                   for option
-                  in select.find_all(
-                      "option"
-                  )
+                  in select.find_all("option")
               }
 
-
-              for roster_div in (
-                  soup.select(
-                      ".roster"
-                  )
+              for roster_div in soup.select(
+                  ".roster"
               ):
-
-                  html_id = (
-                      roster_div.get(
-                          "id"
-                      )
+                  html_id = roster_div.get(
+                      "id"
                   )
-
 
                   team = find_team(
-
                       option_names.get(
                           html_id,
                           ""
                       )
                   )
 
-
                   if not team:
                       continue
 
-
                   starters = [
-
                       p
-
-                      for p
-                      in team["roster"]
-
+                      for p in team["roster"]
                       if p["slot"]
-                      not in (
-                          "Bench",
-                          "IR"
-                      )
+                      not in ("Bench", "IR")
                   ]
-
 
                   bench = [
-
                       p
-
-                      for p
-                      in team["roster"]
-
-                      if p["slot"]
-                      == "Bench"
+                      for p in team["roster"]
+                      if p["slot"] == "Bench"
                   ]
-
 
                   ir = [
-
                       p
-
-                      for p
-                      in team["roster"]
-
-                      if p["slot"]
-                      == "IR"
+                      for p in team["roster"]
+                      if p["slot"] == "IR"
                   ]
 
-
                   starter_rank = {
-
                       "QB": 0,
                       "RB": 1,
                       "WR": 2,
@@ -823,41 +491,30 @@ jobs:
                       "K": 6,
                   }
 
-
                   starters.sort(
-
                       key=lambda p: (
-
                           starter_rank.get(
                               p["slot"],
                               99
                           ),
-
                           p["name"]
                       )
                   )
 
-
                   projected = float(
-                      team["projection"]
-                      or 0.0
+                      team["projection"] or 0.0
                   )
 
-
                   inner = (
-
-                      '<div class="projection-total">'
-
+                      f'<div class="projection-total">'
                       f'<span>'
                       f'Week {int(current_week)} '
                       f'Projected Total'
                       f'</span>'
-
                       f'<strong>'
                       f'{projected:.2f}'
                       f'</strong>'
-
-                      '</div>'
+                      f'</div>'
 
                       '<h2 class="section-title">'
                       'Starters'
@@ -869,104 +526,75 @@ jobs:
                       '</div>'
 
                       '<div class="card">'
-
-                      + "".join(
+                      + ''.join(
                           player_row(p)
-                          for p
-                          in starters
+                          for p in starters
                       )
-
                       + '</div>'
 
-                      '<h2 class="section-title bench-title">'
+                      '<h2 class="section-title '
+                      'bench-title">'
                       'Bench'
                       '</h2>'
 
                       '<div class="card">'
-
-                      + "".join(
+                      + ''.join(
                           player_row(p)
-                          for p
-                          in bench
+                          for p in bench
                       )
-
                       + '</div>'
                   )
 
-
                   if ir:
-
                       inner += (
-
-                          '<h2 class="section-title bench-title">'
+                          '<h2 class="section-title '
+                          'bench-title">'
                           'IR'
                           '</h2>'
 
                           '<div class="card">'
-
-                          + "".join(
+                          + ''.join(
                               player_row(p)
-                              for p
-                              in ir
+                              for p in ir
                           )
-
                           + '</div>'
                       )
-
 
                   fragment = BeautifulSoup(
                       inner,
                       "html.parser"
                   )
 
-
                   roster_div.clear()
-
 
                   for child in list(
                       fragment.contents
                   ):
-
-                      roster_div.append(
-                          child
-                      )
-
+                      roster_div.append(child)
 
               path.write_text(
                   str(soup),
                   encoding="utf-8"
               )
 
-
-          # ---------------------------------------------
-          # MATCHUP CARD
-          # ---------------------------------------------
-
           def matchup_card(matchup):
-
               h = matchup["home"]
-
               a = matchup["away"]
 
-
               return (
-
                   '<div class="matchup-card">'
 
                   '<div class="matchup-team">'
-
                   f'<div class="matchup-team-name">'
                   f'{escape(h["teamName"])}'
                   f'</div>'
-
                   f'<div class="matchup-score">'
                   f'{h["score"]:.2f}'
                   f'</div>'
-
                   f'<div class="matchup-projection">'
-                  f'Projected: {h["projection"]:.2f}'
+                  f'Projected: '
+                  f'{h["projection"]:.2f}'
                   f'</div>'
-
                   '</div>'
 
                   '<div class="matchup-vs">'
@@ -974,189 +602,122 @@ jobs:
                   '</div>'
 
                   '<div class="matchup-team">'
-
                   f'<div class="matchup-team-name">'
                   f'{escape(a["teamName"])}'
                   f'</div>'
-
                   f'<div class="matchup-score">'
                   f'{a["score"]:.2f}'
                   f'</div>'
-
                   f'<div class="matchup-projection">'
-                  f'Projected: {a["projection"]:.2f}'
+                  f'Projected: '
+                  f'{a["projection"]:.2f}'
                   f'</div>'
-
                   '</div>'
 
                   '</div>'
               )
-
-
-          # ---------------------------------------------
-          # UPDATE MATCHUPS PAGE
-          # ---------------------------------------------
 
           def update_matchups():
-
-              path = Path(
-                  "matchups.html"
-              )
-
+              path = Path("matchups.html")
 
               if not path.exists():
                   return
 
-
               soup = BeautifulSoup(
-
                   path.read_text(
                       encoding="utf-8"
                   ),
-
                   "html.parser"
               )
-
 
               badge = soup.select_one(
                   ".week-badge"
               )
 
-
               if badge:
-
                   badge.string = (
                       f"Week "
                       f"{int(current_week)}"
                   )
 
-
               grid = soup.select_one(
                   ".matchups-grid"
               )
 
-
               if grid:
-
                   grid.clear()
 
-
                   fragment = BeautifulSoup(
-
                       "".join(
-
                           matchup_card(m)
-
                           for m
                           in normalized[
                               "matchups"
                           ]
                       ),
-
                       "html.parser"
                   )
-
 
                   for child in list(
                       fragment.contents
                   ):
-
-                      grid.append(
-                          child
-                      )
-
+                      grid.append(child)
 
               path.write_text(
                   str(soup),
                   encoding="utf-8"
               )
 
-
-          # ---------------------------------------------
-          # UPDATE HOME PAGE CURRENT WEEK
-          # ---------------------------------------------
-
           def update_home_week():
-
-              path = Path(
-                  "index.html"
-              )
-
+              path = Path("index.html")
 
               if not path.exists():
                   return
 
-
               soup = BeautifulSoup(
-
                   path.read_text(
                       encoding="utf-8"
                   ),
-
                   "html.parser"
               )
 
-
               for heading in soup.find_all(
-                  [
-                      "h2",
-                      "h3"
-                  ]
+                  ["h2", "h3"]
               ):
-
                   if (
                       clean_name(
                           heading.get_text(
                               " ",
                               strip=True
                           )
-                      )
-                      .lower()
+                      ).lower()
                       == "current week"
                   ):
-
                       card = (
-                          heading
-                          .find_next_sibling()
+                          heading.find_next_sibling()
                       )
 
-
                       if card:
-
-                          number = (
-                              card.select_one(
-                                  ".stat-number"
-                              )
+                          number = card.select_one(
+                              ".stat-number"
                           )
 
-
                           if number:
-
                               number.string = (
                                   f"Week "
                                   f"{int(current_week)}"
                               )
 
-
                       break
-
 
               path.write_text(
                   str(soup),
                   encoding="utf-8"
               )
 
-
-          # ---------------------------------------------
-          # RUN UPDATES
-          # ---------------------------------------------
-
           update_rosters()
-
           update_matchups()
-
           update_home_week()
-
 
           print(
               f"ESPN sync complete: "
@@ -1164,26 +725,17 @@ jobs:
               f"{len(normalized['teams'])} teams, "
               f"{len(normalized['matchups'])} matchups."
           )
-
           PY
-
 
       - name: Commit only when something changed
         run: |
-
           if git diff --quiet; then
-
             echo "No league changes detected. No commit needed."
-
             exit 0
-
           fi
 
-
           git config user.name "Any Given Sunday Bot"
-
           git config user.email "actions@users.noreply.github.com"
-
 
           git add \
             rosters.html \
@@ -1191,9 +743,7 @@ jobs:
             index.html \
             data/live.json
 
-
           git commit \
             -m "Auto-update Any Given Sunday league data"
-
 
           git push
