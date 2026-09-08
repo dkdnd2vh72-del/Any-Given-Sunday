@@ -9,7 +9,7 @@
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 127.44,
+        "projection": 130.72,
         "score": 0.0,
         "teamId": 5,
         "teamName": "Nabers Think I'm Sellin Dope"
@@ -524,7 +524,7 @@
     {
       "id": 5,
       "name": "Nabers Think I'm Sellin Dope",
-      "projection": 127.44,
+      "projection": 130.72,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -588,11 +588,11 @@
           "slotId": 6
         },
         {
-          "id": "3116165",
-          "name": "Chris Godwin Jr.",
+          "id": "4239993",
+          "name": "Tee Higgins",
           "position": "WR",
-          "proTeam": "TB",
-          "projection": 9.67702552,
+          "proTeam": "CIN",
+          "projection": 12.9620826,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -620,6 +620,15 @@
           "position": "WR",
           "proTeam": "IND",
           "projection": 9.71092785,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "id": "3116165",
+          "name": "Chris Godwin Jr.",
+          "position": "WR",
+          "proTeam": "TB",
+          "projection": 9.67702552,
           "slot": "Bench",
           "slotId": 20
         },
@@ -656,15 +665,6 @@
           "position": "TE",
           "proTeam": "BAL",
           "projection": 11.84727655,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "id": "4239993",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "proTeam": "CIN",
-          "projection": 12.9620826,
           "slot": "Bench",
           "slotId": 20
         }
