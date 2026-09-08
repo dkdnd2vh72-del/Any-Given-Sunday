@@ -62,7 +62,7 @@
         "projection": 121.77,
         "score": 0.0,
         "teamId": 3,
-        "teamName": "Burden Of Victory"
+        "teamName": "Burden Of Victory IIIx"
       },
       "home": {
         "projection": 120.45,
@@ -225,7 +225,7 @@
     },
     {
       "id": 3,
-      "name": "Burden Of Victory",
+      "name": "Burden Of Victory IIIx",
       "projection": 121.77,
       "record": {
         "losses": 0,
@@ -344,15 +344,6 @@
           "slotId": 20
         },
         {
-          "id": "4880281",
-          "name": "Jordyn Tyson",
-          "position": "WR",
-          "proTeam": "NO",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
           "id": "4360761",
           "name": "Michael Wilson",
           "position": "WR",
@@ -369,6 +360,15 @@
           "projection": 8.19932689,
           "slot": "Bench",
           "slotId": 20
+        },
+        {
+          "id": "4880281",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "proTeam": "NO",
+          "projection": 0.0,
+          "slot": "IR",
+          "slotId": 21
         }
       ]
     },
