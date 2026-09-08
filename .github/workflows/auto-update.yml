@@ -62,6 +62,27 @@ jobs:
 
 
           # ==========================================
+          # PERMANENT ESPN TEAM ID -> WEBSITE ID
+          #
+          # These DO NOT change when a team changes
+          # its display name.
+          # ==========================================
+
+          TEAM_HTML_ID = {
+              1: "big-blue",
+              3: "numbers",
+              4: "champagne-step-papi",
+              5: "nabers-think-im-sellin-dope",
+              7: "gettn-saucy",
+              8: "king-johnson",
+              11: "more-wins-than-psi",
+              12: "injured-reserve",
+              13: "pollard-express",
+              14: "chance-make-champions",
+          }
+
+
+          # ==========================================
           # ESPN REQUEST
           # ==========================================
 
@@ -77,7 +98,6 @@ jobs:
           headers = {
               "User-Agent":
                   "Mozilla/5.0 Any-Given-Sunday-GitHub-Action/1.0",
-
               "Accept":
                   "application/json",
           }
@@ -103,7 +123,6 @@ jobs:
           if response.status_code in (401, 403):
 
               print("ESPN rejected the request.")
-
               print(
                   "Check repository secrets "
                   "ESPN_S2 and ESPN_SWID."
@@ -125,12 +144,10 @@ jobs:
               league
               .get("status", {})
               .get("currentMatchupPeriod")
-
               or
-
               league.get("scoringPeriodId")
-
-              or 1
+              or
+              1
           )
 
           current_week = int(current_week)
@@ -254,6 +271,30 @@ jobs:
               )
 
 
+          def safe_float(value):
+
+              try:
+                  return float(value or 0)
+
+              except (
+                  TypeError,
+                  ValueError
+              ):
+                  return 0.0
+
+
+          def safe_int(value):
+
+              try:
+                  return int(value or 0)
+
+              except (
+                  TypeError,
+                  ValueError
+              ):
+                  return 0
+
+
           # ==========================================
           # PLAYER CURRENT WEEK PROJECTION
           # ==========================================
@@ -266,6 +307,7 @@ jobs:
               )
 
               candidates = []
+
 
               for stat in stats:
 
@@ -301,26 +343,12 @@ jobs:
                       stat_source == 1
                   ):
 
-                      try:
-
-                          value = float(
-                              stat.get(
-                                  "appliedTotal",
-                                  0
-                              )
-                              or 0
-                          )
-
-                      except (
-                          TypeError,
-                          ValueError
-                      ):
-
-                          value = 0.0
-
-
                       candidates.append(
-                          value
+                          safe_float(
+                              stat.get(
+                                  "appliedTotal"
+                              )
+                          )
                       )
 
 
@@ -427,22 +455,24 @@ jobs:
 
 
                   players.append({
-                      "id": str(
-                          player.get(
-                              "id",
-                              ""
-                          )
-                      ),
+                      "id":
+                          str(
+                              player.get(
+                                  "id",
+                                  ""
+                              )
+                          ),
 
-                      "name": clean_name(
-                          player.get(
-                              "fullName"
-                          )
-                          or
-                          player.get(
-                              "name"
-                          )
-                      ),
+                      "name":
+                          clean_name(
+                              player.get(
+                                  "fullName"
+                              )
+                              or
+                              player.get(
+                                  "name"
+                              )
+                          ),
 
                       "position":
                           position,
@@ -474,7 +504,7 @@ jobs:
 
 
               # ======================================
-              # CURRENT STARTING PROJECTION
+              # CURRENT STARTER PROJECTION
               # ======================================
 
               starter_projection = 0.0
@@ -489,12 +519,12 @@ jobs:
                       continue
 
 
-                  starter_projection += float(
-                      player.get(
-                          "projection",
-                          0
+                  starter_projection += (
+                      safe_float(
+                          player.get(
+                              "projection"
+                          )
                       )
-                      or 0
                   )
 
 
@@ -518,53 +548,62 @@ jobs:
                   "name":
                       name,
 
+                  "htmlId":
+                      TEAM_HTML_ID.get(
+                          tid,
+                          f"team-{tid}"
+                      ),
+
                   "roster":
                       players,
 
                   "record": {
-                      "wins": int(
-                          overall.get(
-                              "wins",
-                              0
-                          )
-                          or 0
-                      ),
+                      "wins":
+                          safe_int(
+                              overall.get(
+                                  "wins"
+                              )
+                          ),
 
-                      "losses": int(
-                          overall.get(
-                              "losses",
-                              0
-                          )
-                          or 0
-                      ),
+                      "losses":
+                          safe_int(
+                              overall.get(
+                                  "losses"
+                              )
+                          ),
 
-                      "ties": int(
-                          overall.get(
-                              "ties",
-                              0
-                          )
-                          or 0
-                      ),
+                      "ties":
+                          safe_int(
+                              overall.get(
+                                  "ties"
+                              )
+                          ),
 
-                      "pointsFor": float(
-                          overall.get(
-                              "pointsFor",
-                              0
-                          )
-                          or 0
-                      ),
+                      "pointsFor":
+                          safe_float(
+                              overall.get(
+                                  "pointsFor"
+                              )
+                          ),
 
-                      "pointsAgainst": float(
-                          overall.get(
-                              "pointsAgainst",
-                              0
-                          )
-                          or 0
-                      ),
+                      "pointsAgainst":
+                          safe_float(
+                              overall.get(
+                                  "pointsAgainst"
+                              )
+                          ),
                   },
 
                   "projection":
                       starter_projection,
+
+                  "playoffSeed":
+                      safe_int(
+                          team.get(
+                              "playoffSeed",
+                              99
+                          )
+                      ),
               }
 
 
@@ -578,7 +617,8 @@ jobs:
 
 
               print(
-                  f"{name}: "
+                  f"Team {tid}: "
+                  f"{name} | "
                   f"starter projection "
                   f"{starter_projection:.2f}"
               )
@@ -631,30 +671,24 @@ jobs:
                   )
 
 
-                  points = float(
+                  points = safe_float(
                       side.get(
-                          "totalPoints",
-                          0
+                          "totalPoints"
                       )
-                      or 0
                   )
 
 
-                  projection = float(
+                  projection = safe_float(
                       teams_by_id
                       .get(
                           tid,
                           {}
                       )
                       .get(
-                          "projection",
-                          0
+                          "projection"
                       )
-                      or 0
                   )
 
-
-                  # Fallback to ESPN matchup projection
 
                   if projection == 0.0:
 
@@ -674,21 +708,9 @@ jobs:
                           )
 
 
-                      if espn_projection is not None:
-
-                          try:
-
-                              projection = float(
-                                  espn_projection
-                                  or 0
-                              )
-
-                          except (
-                              TypeError,
-                              ValueError
-                          ):
-
-                              projection = 0.0
+                      projection = safe_float(
+                          espn_projection
+                      )
 
 
                   projection = round(
@@ -834,31 +856,6 @@ jobs:
 
 
           # ==========================================
-          # FIND TEAM BY NAME
-          # ==========================================
-
-          def find_team(data_name):
-
-              target = clean_name(
-                  data_name
-              ).lower()
-
-
-              for team in normalized[
-                  "teams"
-              ]:
-
-                  if clean_name(
-                      team["name"]
-                  ).lower() == target:
-
-                      return team
-
-
-              return None
-
-
-          # ==========================================
           # POSITION CLASS
           # ==========================================
 
@@ -941,6 +938,9 @@ jobs:
 
           # ==========================================
           # UPDATE ROSTERS.HTML
+          #
+          # Uses ESPN team ID, NOT team name.
+          # This means renamed teams continue working.
           # ==========================================
 
           def update_rosters():
@@ -951,6 +951,11 @@ jobs:
 
 
               if not path.exists():
+
+                  print(
+                      "WARNING: rosters.html not found"
+                  )
+
                   return
 
 
@@ -968,43 +973,77 @@ jobs:
 
 
               if not select:
+
+                  print(
+                      "WARNING: #team-select "
+                      "not found in rosters.html"
+                  )
+
                   return
 
 
-              option_names = {
-                  option.get("value"):
-                      clean_name(
-                          option.get_text(
-                              " ",
-                              strip=True
-                          )
+              # ======================================
+              # UPDATE DROPDOWN TEAM NAMES
+              # ======================================
+
+              for team in normalized[
+                  "teams"
+              ]:
+
+                  html_id = team[
+                      "htmlId"
+                  ]
+
+
+                  option = select.find(
+                      "option",
+                      attrs={
+                          "value":
+                              html_id
+                      }
+                  )
+
+
+                  if option:
+
+                      option.string = (
+                          team["name"]
                       )
 
-                  for option
-                  in select.find_all(
-                      "option"
+
+              # ======================================
+              # UPDATE EACH ROSTER BY TEAM ID
+              # ======================================
+
+              for team in normalized[
+                  "teams"
+              ]:
+
+                  html_id = team[
+                      "htmlId"
+                  ]
+
+
+                  roster_div = soup.find(
+                      "div",
+                      {
+                          "class":
+                              "roster",
+
+                          "id":
+                              html_id
+                      }
                   )
-              }
 
 
-              for roster_div in soup.select(
-                  ".roster"
-              ):
+                  if not roster_div:
 
-                  html_id = roster_div.get(
-                      "id"
-                  )
-
-
-                  team = find_team(
-                      option_names.get(
-                          html_id,
-                          ""
+                      print(
+                          f"WARNING: "
+                          f"Roster block "
+                          f"#{html_id} not found"
                       )
-                  )
 
-
-                  if not team:
                       continue
 
 
@@ -1061,15 +1100,13 @@ jobs:
                               p["slot"],
                               99
                           ),
-
                           p["name"]
                       )
                   )
 
 
-                  projected = float(
+                  projected = safe_float(
                       team["projection"]
-                      or 0
                   )
 
 
@@ -1188,6 +1225,13 @@ jobs:
               )
 
 
+              print(
+                  "rosters.html updated "
+                  "with live ESPN team names "
+                  "and rosters"
+              )
+
+
           # ==========================================
           # UPDATE MATCHUPS.HTML
           # ==========================================
@@ -1217,15 +1261,14 @@ jobs:
               )
 
 
-              # Find current week's existing block.
-              # Example:
-              # <div class="week-block" id="week-1">
-
               current_week_block = soup.find(
                   "div",
                   {
-                      "class": "week-block",
-                      "id": f"week-{current_week}"
+                      "class":
+                          "week-block",
+
+                      "id":
+                          f"week-{current_week}"
                   }
               )
 
@@ -1241,8 +1284,6 @@ jobs:
 
                   return
 
-
-              # Update week heading
 
               heading = (
                   current_week_block
@@ -1262,9 +1303,6 @@ jobs:
                   )
 
 
-              # Remove only current week's
-              # existing matchup cards
-
               existing_cards = (
                   current_week_block
                   .find_all(
@@ -1279,10 +1317,6 @@ jobs:
 
                   card.decompose()
 
-
-              # Add live current-week matchup cards
-              # using the SAME structure as
-              # your existing matchups.html
 
               for matchup in normalized[
                   "matchups"
@@ -1374,28 +1408,472 @@ jobs:
               )
 
 
-              for matchup in normalized[
-                  "matchups"
-              ]:
+          # ==========================================
+          # UPDATE STANDINGS.HTML
+          #
+          # Updates:
+          # - Team names
+          # - Wins
+          # - Losses
+          # - Points For
+          # ==========================================
 
-                  home = matchup[
-                      "home"
-                  ]
+          def update_standings():
 
-                  away = matchup[
-                      "away"
-                  ]
+              path = Path(
+                  "standings.html"
+              )
 
+
+              if not path.exists():
 
                   print(
-                      f'{home["teamName"]} '
-                      f'{home["score"]:.2f} '
-                      f'({home["projection"]:.2f}) '
-                      f'vs '
-                      f'{away["teamName"]} '
-                      f'{away["score"]:.2f} '
-                      f'({away["projection"]:.2f})'
+                      "WARNING: standings.html "
+                      "not found"
                   )
+
+                  return
+
+
+              soup = BeautifulSoup(
+                  path.read_text(
+                      encoding="utf-8"
+                  ),
+                  "html.parser"
+              )
+
+
+              table = soup.find(
+                  "table",
+                  class_="standings-table"
+              )
+
+
+              if not table:
+
+                  print(
+                      "WARNING: standings table "
+                      "not found"
+                  )
+
+                  return
+
+
+              tbody = table.find(
+                  "tbody"
+              )
+
+
+              if not tbody:
+
+                  print(
+                      "WARNING: standings tbody "
+                      "not found"
+                  )
+
+                  return
+
+
+              tbody.clear()
+
+
+              # ESPN playoffSeed is used when available.
+              # During preseason ties, ESPN's current
+              # ordering is preserved as best as possible.
+
+              standings_teams = sorted(
+                  normalized["teams"],
+                  key=lambda t: (
+                      (
+                          t["playoffSeed"]
+                          if t["playoffSeed"] > 0
+                          else 99
+                      ),
+                      -t["record"]["wins"],
+                      -t["record"]["pointsFor"],
+                      t["id"],
+                  )
+              )
+
+
+              for team in standings_teams:
+
+                  record = team[
+                      "record"
+                  ]
+
+
+                  row_html = (
+                      "<tr>"
+
+                      f"<td>"
+                      f"{escape(team['name'])}"
+                      f"</td>"
+
+                      f'<td class="num">'
+                      f'{record["wins"]}'
+                      f'</td>'
+
+                      f'<td class="num">'
+                      f'{record["losses"]}'
+                      f'</td>'
+
+                      f'<td class="num">'
+                      f'{record["pointsFor"]:.2f}'
+                      f'</td>'
+
+                      "</tr>"
+                  )
+
+
+                  fragment = BeautifulSoup(
+                      row_html,
+                      "html.parser"
+                  )
+
+
+                  row = fragment.find(
+                      "tr"
+                  )
+
+
+                  if row:
+
+                      tbody.append(
+                          row
+                      )
+
+
+              path.write_text(
+                  str(soup),
+                  encoding="utf-8"
+              )
+
+
+              print(
+                  "standings.html updated "
+                  "with live ESPN team names "
+                  "and standings"
+              )
+
+
+          # ==========================================
+          # UPDATE TRANSACTIONS.HTML TEAM NAMES
+          #
+          # IMPORTANT:
+          # This preserves:
+          # - transaction counts
+          # - dollar totals
+          # - keeper text
+          # - dues Paid / Not Paid
+          #
+          # It ONLY makes the team display names live.
+          # ==========================================
+
+          def update_transactions():
+
+              path = Path(
+                  "transactions.html"
+              )
+
+
+              if not path.exists():
+
+                  print(
+                      "WARNING: transactions.html "
+                      "not found"
+                  )
+
+                  return
+
+
+              soup = BeautifulSoup(
+                  path.read_text(
+                      encoding="utf-8"
+                  ),
+                  "html.parser"
+              )
+
+
+              old_names_by_id = {}
+
+
+              # These identify the original website
+              # names so we can match each team once,
+              # even after ESPN changes its name.
+
+              fallback_names = {
+                  1: "Big Blue",
+                  3: "#Numbers",
+                  4: "Champagne Step-Papi",
+                  5: "Nabers Think I'm Sellin Dope",
+                  7: "Gett'n Saucy",
+                  8: "King Johnson",
+                  11: "More Wins Than PSI",
+                  12: "Injured Reserve",
+                  13: "Pollard Express",
+                  14: "Chance make champions",
+              }
+
+
+              # ======================================
+              # TRANSACTION COUNTER TABLE
+              # ======================================
+
+              headings = soup.find_all(
+                  "h2",
+                  class_="section-title"
+              )
+
+
+              counter_heading = None
+
+
+              for heading in headings:
+
+                  if clean_name(
+                      heading.get_text(
+                          " ",
+                          strip=True
+                      )
+                  ).lower() == "transaction counter":
+
+                      counter_heading = heading
+                      break
+
+
+              if counter_heading:
+
+                  counter_table = (
+                      counter_heading
+                      .find_next(
+                          "table",
+                          class_="standings-table"
+                      )
+                  )
+
+
+                  if counter_table:
+
+                      tbody = (
+                          counter_table
+                          .find(
+                              "tbody"
+                          )
+                      )
+
+
+                      if tbody:
+
+                          rows = tbody.find_all(
+                              "tr",
+                              recursive=False
+                          )
+
+
+                          # Existing table is in permanent
+                          # ESPN team-id order.
+                          team_ids = [
+                              1,
+                              3,
+                              4,
+                              5,
+                              7,
+                              8,
+                              11,
+                              12,
+                              13,
+                              14,
+                          ]
+
+
+                          for tid, row in zip(
+                              team_ids,
+                              rows
+                          ):
+
+                              cells = row.find_all(
+                                  "td",
+                                  recursive=False
+                              )
+
+
+                              if not cells:
+                                  continue
+
+
+                              live_team = (
+                                  teams_by_id.get(
+                                      tid
+                                  )
+                              )
+
+
+                              if live_team:
+
+                                  cells[0].string = (
+                                      live_team["name"]
+                                  )
+
+
+              # ======================================
+              # KEEPERS
+              # ======================================
+
+              keeper_heading = None
+
+
+              for heading in headings:
+
+                  if clean_name(
+                      heading.get_text(
+                          " ",
+                          strip=True
+                      )
+                  ).lower() == "keepers":
+
+                      keeper_heading = heading
+                      break
+
+
+              if keeper_heading:
+
+                  keeper_card = (
+                      keeper_heading
+                      .find_next_sibling(
+                          "div",
+                          class_="card"
+                      )
+                  )
+
+
+                  if keeper_card:
+
+                      keeper_names = (
+                          keeper_card
+                          .select(
+                              ".player-name.text-accent"
+                          )
+                      )
+
+
+                      team_ids = [
+                          1,
+                          3,
+                          4,
+                          5,
+                          7,
+                          8,
+                          11,
+                          12,
+                          13,
+                          14,
+                      ]
+
+
+                      for tid, name_span in zip(
+                          team_ids,
+                          keeper_names
+                      ):
+
+                          live_team = (
+                              teams_by_id.get(
+                                  tid
+                              )
+                          )
+
+
+                          if live_team:
+
+                              name_span.string = (
+                                  live_team["name"]
+                              )
+
+
+              # ======================================
+              # LEAGUE DUES
+              # ======================================
+
+              dues_heading = None
+
+
+              for heading in headings:
+
+                  if clean_name(
+                      heading.get_text(
+                          " ",
+                          strip=True
+                      )
+                  ).lower() == "league dues":
+
+                      dues_heading = heading
+                      break
+
+
+              if dues_heading:
+
+                  dues_card = (
+                      dues_heading
+                      .find_next_sibling(
+                          "div",
+                          class_="card"
+                      )
+                  )
+
+
+                  if dues_card:
+
+                      dues_names = (
+                          dues_card
+                          .select(
+                              ".standing-info"
+                          )
+                      )
+
+
+                      team_ids = [
+                          1,
+                          3,
+                          4,
+                          5,
+                          7,
+                          8,
+                          11,
+                          12,
+                          13,
+                          14,
+                      ]
+
+
+                      for tid, name_span in zip(
+                          team_ids,
+                          dues_names
+                      ):
+
+                          live_team = (
+                              teams_by_id.get(
+                                  tid
+                              )
+                          )
+
+
+                          if live_team:
+
+                              name_span.string = (
+                                  live_team["name"]
+                              )
+
+
+              path.write_text(
+                  str(soup),
+                  encoding="utf-8"
+              )
+
+
+              print(
+                  "transactions.html updated "
+                  "with live ESPN team names"
+              )
 
 
           # ==========================================
@@ -1474,12 +1952,16 @@ jobs:
 
 
           # ==========================================
-          # RUN UPDATES
+          # RUN ALL WEBSITE UPDATES
           # ==========================================
 
           update_rosters()
 
           update_matchups()
+
+          update_standings()
+
+          update_transactions()
 
           update_home_week()
 
@@ -1517,6 +1999,8 @@ jobs:
           git add \
             rosters.html \
             matchups.html \
+            standings.html \
+            transactions.html \
             index.html \
             data/live.json
 
