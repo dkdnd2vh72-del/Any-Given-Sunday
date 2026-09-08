@@ -9,7 +9,7 @@
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 126.81,
+        "projection": 130.72,
         "score": 0.0,
         "teamId": 5,
         "teamName": "Nabers Think I'm Sellin Dope"
@@ -62,7 +62,7 @@
         "projection": 121.77,
         "score": 0.0,
         "teamId": 3,
-        "teamName": "Burden Of Victory IIIx"
+        "teamName": "Burden Of Victory"
       },
       "home": {
         "projection": 120.45,
@@ -225,7 +225,7 @@
     },
     {
       "id": 3,
-      "name": "Burden Of Victory IIIx",
+      "name": "Burden Of Victory",
       "projection": 121.77,
       "record": {
         "losses": 0,
@@ -524,7 +524,7 @@
     {
       "id": 5,
       "name": "Nabers Think I'm Sellin Dope",
-      "projection": 126.81,
+      "projection": 130.72,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -543,20 +543,20 @@
           "slotId": 0
         },
         {
+          "id": "4427366",
+          "name": "Breece Hall",
+          "position": "RB",
+          "proTeam": "NYJ",
+          "projection": 16.48951511,
+          "slot": "RB",
+          "slotId": 2
+        },
+        {
           "id": "4361579",
           "name": "Javonte Williams",
           "position": "RB",
           "proTeam": "DAL",
           "projection": 15.2171666,
-          "slot": "RB",
-          "slotId": 2
-        },
-        {
-          "id": "4429023",
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "proTeam": "GB",
-          "projection": 12.57863157,
           "slot": "RB",
           "slotId": 2
         },
@@ -624,15 +624,6 @@
           "slotId": 20
         },
         {
-          "id": "4427366",
-          "name": "Breece Hall",
-          "position": "RB",
-          "proTeam": "NYJ",
-          "projection": 16.48951511,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
           "id": "3116165",
           "name": "Chris Godwin Jr.",
           "position": "WR",
@@ -656,6 +647,15 @@
           "position": "RB",
           "proTeam": "HOU",
           "projection": 12.66893268,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "id": "4429023",
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "proTeam": "GB",
+          "projection": 12.57863157,
           "slot": "Bench",
           "slotId": 20
         },
