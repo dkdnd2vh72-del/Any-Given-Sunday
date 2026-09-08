@@ -55,7 +55,6 @@ jobs:
           LEAGUE_ID = "820399"
           SEASON = 2026
 
-
           ESPN_URL = (
               f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/"
               f"seasons/{SEASON}/segments/0/leagues/{LEAGUE_ID}"
@@ -75,7 +74,6 @@ jobs:
               ("view", "mStandings"),
           ]
 
-
           headers = {
               "User-Agent":
                   "Mozilla/5.0 Any-Given-Sunday-GitHub-Action/1.0",
@@ -84,26 +82,13 @@ jobs:
                   "application/json",
           }
 
-
           cookies = {}
 
-
           if os.getenv("ESPN_S2"):
-
-              cookies[
-                  "espn_s2"
-              ] = os.environ[
-                  "ESPN_S2"
-              ]
-
+              cookies["espn_s2"] = os.environ["ESPN_S2"]
 
           if os.getenv("ESPN_SWID"):
-
-              cookies[
-                  "SWID"
-              ] = os.environ[
-                  "ESPN_SWID"
-              ]
+              cookies["SWID"] = os.environ["ESPN_SWID"]
 
 
           response = requests.get(
@@ -115,14 +100,9 @@ jobs:
           )
 
 
-          if response.status_code in (
-              401,
-              403
-          ):
+          if response.status_code in (401, 403):
 
-              print(
-                  "ESPN rejected the request."
-              )
+              print("ESPN rejected the request.")
 
               print(
                   "Check repository secrets "
@@ -134,7 +114,6 @@ jobs:
 
           response.raise_for_status()
 
-
           league = response.json()
 
 
@@ -144,28 +123,17 @@ jobs:
 
           current_week = (
               league
-              .get(
-                  "status",
-                  {}
-              )
-              .get(
-                  "currentMatchupPeriod"
-              )
+              .get("status", {})
+              .get("currentMatchupPeriod")
 
               or
 
-              league.get(
-                  "scoringPeriodId"
-              )
+              league.get("scoringPeriodId")
 
               or 1
           )
 
-
-          current_week = int(
-              current_week
-          )
-
+          current_week = int(current_week)
 
           print(
               f"Current matchup week: "
@@ -174,7 +142,7 @@ jobs:
 
 
           # ==========================================
-          # ESPN POSITION IDs
+          # ESPN POSITION IDS
           # ==========================================
 
           POSITION = {
@@ -188,7 +156,7 @@ jobs:
 
 
           # ==========================================
-          # ESPN LINEUP SLOT IDs
+          # ESPN LINEUP SLOT IDS
           # ==========================================
 
           SLOT = {
@@ -218,7 +186,7 @@ jobs:
 
 
           # ==========================================
-          # NFL TEAM IDs
+          # NFL TEAM IDS
           # ==========================================
 
           PRO_TEAM = {
@@ -267,26 +235,18 @@ jobs:
               return re.sub(
                   r"\s+",
                   " ",
-                  (
-                      value
-                      or ""
-                  ).strip()
+                  (value or "").strip()
               )
 
 
           def team_name(team):
 
               direct = clean_name(
-                  team.get(
-                      "name"
-                  )
+                  team.get("name")
               )
 
-
               if direct:
-
                   return direct
-
 
               return clean_name(
                   f"{team.get('location', '')} "
@@ -295,21 +255,17 @@ jobs:
 
 
           # ==========================================
-          # GET A PLAYER'S CURRENT WEEK PROJECTION
+          # PLAYER CURRENT WEEK PROJECTION
           # ==========================================
 
-          def get_player_projection(
-              player
-          ):
+          def get_player_projection(player):
 
               stats = player.get(
                   "stats",
                   []
               )
 
-
               candidates = []
-
 
               for stat in stats:
 
@@ -322,14 +278,12 @@ jobs:
                           )
                       )
 
-
                       stat_source = int(
                           stat.get(
                               "statSourceId",
                               -1
                           )
                       )
-
 
                   except (
                       TypeError,
@@ -339,15 +293,10 @@ jobs:
                       continue
 
 
-                  # ESPN:
-                  # statSourceId 1 = projection
-                  #
-                  # Only use projection for
-                  # the current scoring period.
+                  # ESPN statSourceId 1 = projection
 
                   if (
-                      scoring_period
-                      == current_week
+                      scoring_period == current_week
                       and
                       stat_source == 1
                   ):
@@ -361,7 +310,6 @@ jobs:
                               )
                               or 0
                           )
-
 
                       except (
                           TypeError,
@@ -377,9 +325,7 @@ jobs:
 
 
               if candidates:
-
                   return candidates[-1]
-
 
               return 0.0
 
@@ -390,8 +336,6 @@ jobs:
 
           teams_by_id = {}
 
-          raw_teams_by_id = {}
-
           normalized_teams = []
 
 
@@ -401,35 +345,19 @@ jobs:
           ):
 
               tid = int(
-                  team[
-                      "id"
-                  ]
+                  team["id"]
               )
-
-
-              raw_teams_by_id[
-                  tid
-              ] = team
-
 
               name = team_name(
                   team
               )
 
-
               players = []
-
 
               roster_entries = (
                   team
-                  .get(
-                      "roster",
-                      {}
-                  )
-                  .get(
-                      "entries",
-                      []
-                  )
+                  .get("roster", {})
+                  .get("entries", [])
               )
 
 
@@ -449,7 +377,6 @@ jobs:
 
 
                   if not player:
-
                       continue
 
 
@@ -537,25 +464,17 @@ jobs:
               players.sort(
                   key=lambda x: (
                       SLOT_ORDER.get(
-                          x[
-                              "slot"
-                          ],
+                          x["slot"],
                           99
                       ),
-
-                      x[
-                          "slotId"
-                      ],
-
-                      x[
-                          "name"
-                      ],
+                      x["slotId"],
+                      x["name"],
                   )
               )
 
 
               # ======================================
-              # CALCULATE CURRENT STARTING PROJECTION
+              # CURRENT STARTING PROJECTION
               # ======================================
 
               starter_projection = 0.0
@@ -563,13 +482,10 @@ jobs:
 
               for player in players:
 
-                  if player[
-                      "slot"
-                  ] in (
+                  if player["slot"] in (
                       "Bench",
                       "IR"
                   ):
-
                       continue
 
 
@@ -590,14 +506,8 @@ jobs:
 
               overall = (
                   team
-                  .get(
-                      "record",
-                      {}
-                  )
-                  .get(
-                      "overall",
-                      {}
-                  )
+                  .get("record", {})
+                  .get("overall", {})
               )
 
 
@@ -662,7 +572,6 @@ jobs:
                   item
               )
 
-
               teams_by_id[
                   tid
               ] = item
@@ -714,14 +623,11 @@ jobs:
 
 
                   if "teamId" not in side:
-
                       continue
 
 
                   tid = int(
-                      side[
-                          "teamId"
-                      ]
+                      side["teamId"]
                   )
 
 
@@ -733,10 +639,6 @@ jobs:
                       or 0
                   )
 
-
-                  # ==================================
-                  # USE STARTER PROJECTION
-                  # ==================================
 
                   projection = float(
                       teams_by_id
@@ -752,9 +654,7 @@ jobs:
                   )
 
 
-                  # ==================================
-                  # FALLBACK TO ESPN TEAM PROJECTION
-                  # ==================================
+                  # Fallback to ESPN matchup projection
 
                   if projection == 0.0:
 
@@ -782,7 +682,6 @@ jobs:
                                   espn_projection
                                   or 0
                               )
-
 
                           except (
                               TypeError,
@@ -812,9 +711,7 @@ jobs:
                           )
                           .get(
                               "name",
-                              str(
-                                  tid
-                              )
+                              str(tid)
                           ),
 
                       "score":
@@ -826,11 +723,9 @@ jobs:
 
 
               if (
-                  "home"
-                  in matchup_item
+                  "home" in matchup_item
                   and
-                  "away"
-                  in matchup_item
+                  "away" in matchup_item
               ):
 
                   normalized_matchups.append(
@@ -839,7 +734,7 @@ jobs:
 
 
           # ==========================================
-          # PRINT MATCHUPS FOR ACTION LOG
+          # ACTION LOG
           # ==========================================
 
           print(
@@ -853,14 +748,8 @@ jobs:
 
           for matchup in normalized_matchups:
 
-              home = matchup[
-                  "home"
-              ]
-
-              away = matchup[
-                  "away"
-              ]
-
+              home = matchup["home"]
+              away = matchup["away"]
 
               print(
                   f'{home["teamName"]}: '
@@ -893,9 +782,7 @@ jobs:
               "teams":
                   sorted(
                       normalized_teams,
-                      key=lambda t: t[
-                          "id"
-                      ]
+                      key=lambda t: t["id"]
                   ),
 
               "matchups":
@@ -906,7 +793,6 @@ jobs:
           data_dir = Path(
               "data"
           )
-
 
           data_dir.mkdir(
               exist_ok=True
@@ -951,9 +837,7 @@ jobs:
           # FIND TEAM BY NAME
           # ==========================================
 
-          def find_team(
-              data_name
-          ):
+          def find_team(data_name):
 
               target = clean_name(
                   data_name
@@ -965,9 +849,7 @@ jobs:
               ]:
 
                   if clean_name(
-                      team[
-                          "name"
-                      ]
+                      team["name"]
                   ).lower() == target:
 
                       return team
@@ -980,9 +862,7 @@ jobs:
           # POSITION CLASS
           # ==========================================
 
-          def pos_class(
-              position
-          ):
+          def pos_class(position):
 
               val = (
                   position
@@ -1017,9 +897,7 @@ jobs:
           # PLAYER ROW
           # ==========================================
 
-          def player_row(
-              player
-          ):
+          def player_row(player):
 
               return (
                   '<div class="player-row">'
@@ -1073,7 +951,6 @@ jobs:
 
 
               if not path.exists():
-
                   return
 
 
@@ -1091,14 +968,11 @@ jobs:
 
 
               if not select:
-
                   return
 
 
               option_names = {
-                  option.get(
-                      "value"
-                  ):
+                  option.get("value"):
                       clean_name(
                           option.get_text(
                               " ",
@@ -1131,7 +1005,6 @@ jobs:
 
 
                   if not team:
-
                       continue
 
 
@@ -1139,13 +1012,9 @@ jobs:
                       p
 
                       for p
-                      in team[
-                          "roster"
-                      ]
+                      in team["roster"]
 
-                      if p[
-                          "slot"
-                      ]
+                      if p["slot"]
                       not in (
                           "Bench",
                           "IR"
@@ -1157,13 +1026,9 @@ jobs:
                       p
 
                       for p
-                      in team[
-                          "roster"
-                      ]
+                      in team["roster"]
 
-                      if p[
-                          "slot"
-                      ]
+                      if p["slot"]
                       == "Bench"
                   ]
 
@@ -1172,13 +1037,9 @@ jobs:
                       p
 
                       for p
-                      in team[
-                          "roster"
-                      ]
+                      in team["roster"]
 
-                      if p[
-                          "slot"
-                      ]
+                      if p["slot"]
                       == "IR"
                   ]
 
@@ -1197,23 +1058,17 @@ jobs:
                   starters.sort(
                       key=lambda p: (
                           starter_rank.get(
-                              p[
-                                  "slot"
-                              ],
+                              p["slot"],
                               99
                           ),
 
-                          p[
-                              "name"
-                          ]
+                          p["name"]
                       )
                   )
 
 
                   projected = float(
-                      team[
-                          "projection"
-                      ]
+                      team["projection"]
                       or 0
                   )
 
@@ -1256,10 +1111,7 @@ jobs:
 
                       +
                       ''.join(
-                          player_row(
-                              p
-                          )
-
+                          player_row(p)
                           for p
                           in starters
                       )
@@ -1279,10 +1131,7 @@ jobs:
 
                       +
                       ''.join(
-                          player_row(
-                              p
-                          )
-
+                          player_row(p)
                           for p
                           in bench
                       )
@@ -1305,10 +1154,7 @@ jobs:
 
                           +
                           ''.join(
-                              player_row(
-                                  p
-                              )
-
+                              player_row(p)
                               for p
                               in ir
                           )
@@ -1337,76 +1183,8 @@ jobs:
 
 
               path.write_text(
-                  str(
-                      soup
-                  ),
+                  str(soup),
                   encoding="utf-8"
-              )
-
-
-          # ==========================================
-          # MATCHUP CARD
-          # ==========================================
-
-          def matchup_card(
-              matchup
-          ):
-
-              home = matchup[
-                  "home"
-              ]
-
-              away = matchup[
-                  "away"
-              ]
-
-
-              return (
-                  '<div class="matchup-card">'
-
-                  '<div class="matchup-team">'
-
-                  f'<div class="matchup-team-name">'
-                  f'{escape(home["teamName"])}'
-                  f'</div>'
-
-                  f'<div class="matchup-score">'
-                  f'{home["score"]:.2f}'
-                  f'</div>'
-
-                  f'<div class="matchup-projection">'
-                  f'Projected: '
-                  f'{home["projection"]:.2f}'
-                  f'</div>'
-
-                  '</div>'
-
-
-                  '<div class="matchup-vs">'
-
-                  'VS'
-
-                  '</div>'
-
-
-                  '<div class="matchup-team">'
-
-                  f'<div class="matchup-team-name">'
-                  f'{escape(away["teamName"])}'
-                  f'</div>'
-
-                  f'<div class="matchup-score">'
-                  f'{away["score"]:.2f}'
-                  f'</div>'
-
-                  f'<div class="matchup-projection">'
-                  f'Projected: '
-                  f'{away["projection"]:.2f}'
-                  f'</div>'
-
-                  '</div>'
-
-                  '</div>'
               )
 
 
@@ -1439,78 +1217,189 @@ jobs:
               )
 
 
-              badge = soup.select_one(
-                  ".week-badge"
+              # Find current week's existing block.
+              # Example:
+              # <div class="week-block" id="week-1">
+
+              current_week_block = soup.find(
+                  "div",
+                  {
+                      "class": "week-block",
+                      "id": f"week-{current_week}"
+                  }
               )
 
 
-              if badge:
-
-                  badge.string = (
-                      f"Week "
-                      f"{current_week}"
-                  )
-
-
-              grid = soup.select_one(
-                  ".matchups-grid"
-              )
-
-
-              if not grid:
+              if current_week_block is None:
 
                   print(
-                      "WARNING: "
-                      ".matchups-grid not found "
-                      "in matchups.html"
+                      f"WARNING: "
+                      f"#week-{current_week} "
+                      f"was not found in "
+                      f"matchups.html"
                   )
 
                   return
 
 
-              grid.clear()
+              # Update week heading
 
-
-              fragment = BeautifulSoup(
-                  "".join(
-                      matchup_card(
-                          matchup
-                      )
-
-                      for matchup
-                      in normalized[
-                          "matchups"
-                      ]
-                  ),
-                  "html.parser"
+              heading = (
+                  current_week_block
+                  .find(
+                      "h2",
+                      class_="section-title"
+                  )
               )
 
 
-              for child in list(
-                  fragment.contents
-              ):
+              if heading:
 
-                  grid.append(
-                      child
+                  heading.string = (
+                      f"Week "
+                      f"{current_week} "
+                      f"Matchups"
                   )
 
 
+              # Remove only current week's
+              # existing matchup cards
+
+              existing_cards = (
+                  current_week_block
+                  .find_all(
+                      "div",
+                      class_="matchup-card",
+                      recursive=False
+                  )
+              )
+
+
+              for card in existing_cards:
+
+                  card.decompose()
+
+
+              # Add live current-week matchup cards
+              # using the SAME structure as
+              # your existing matchups.html
+
+              for matchup in normalized[
+                  "matchups"
+              ]:
+
+                  home = matchup[
+                      "home"
+                  ]
+
+                  away = matchup[
+                      "away"
+                  ]
+
+
+                  card_html = f"""
+                  <div class="card matchup-card">
+
+                    <div class="team-line">
+
+                      <span class="team-name">{escape(home["teamName"])}</span>
+
+                      <span class="team-score">
+                        {home["score"]:.2f}<br/>
+
+                        <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">
+                          {home["projection"]:.2f}
+                        </span>
+
+                      </span>
+
+                    </div>
+
+                    <div class="matchup-vs">
+                      vs
+                    </div>
+
+                    <div class="team-line">
+
+                      <span class="team-name">{escape(away["teamName"])}</span>
+
+                      <span class="team-score">
+                        {away["score"]:.2f}<br/>
+
+                        <span style="font-size: 0.75rem; font-style: italic; font-weight: normal;">
+                          {away["projection"]:.2f}
+                        </span>
+
+                      </span>
+
+                    </div>
+
+                  </div>
+                  """
+
+
+                  fragment = BeautifulSoup(
+                      card_html,
+                      "html.parser"
+                  )
+
+
+                  new_card = (
+                      fragment
+                      .find(
+                          "div",
+                          class_="matchup-card"
+                      )
+                  )
+
+
+                  if new_card:
+
+                      current_week_block.append(
+                          new_card
+                      )
+
+
               path.write_text(
-                  str(
-                      soup
-                  ),
+                  str(soup),
                   encoding="utf-8"
               )
 
 
               print(
-                  "matchups.html updated "
-                  "with current projections."
+                  f"matchups.html updated: "
+                  f"Week {current_week}, "
+                  f"{len(normalized['matchups'])} "
+                  f"matchups"
               )
 
 
+              for matchup in normalized[
+                  "matchups"
+              ]:
+
+                  home = matchup[
+                      "home"
+                  ]
+
+                  away = matchup[
+                      "away"
+                  ]
+
+
+                  print(
+                      f'{home["teamName"]} '
+                      f'{home["score"]:.2f} '
+                      f'({home["projection"]:.2f}) '
+                      f'vs '
+                      f'{away["teamName"]} '
+                      f'{away["score"]:.2f} '
+                      f'({away["projection"]:.2f})'
+                  )
+
+
           # ==========================================
-          # UPDATE HOME PAGE WEEK
+          # UPDATE HOME PAGE CURRENT WEEK
           # ==========================================
 
           def update_home_week():
@@ -1521,7 +1410,6 @@ jobs:
 
 
               if not path.exists():
-
                   return
 
 
@@ -1580,9 +1468,7 @@ jobs:
 
 
               path.write_text(
-                  str(
-                      soup
-                  ),
+                  str(soup),
                   encoding="utf-8"
               )
 
