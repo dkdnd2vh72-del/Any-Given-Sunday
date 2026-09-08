@@ -9,7 +9,7 @@
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 130.33963127,
+        "projection": 114.25943241,
         "score": 0.0,
         "teamId": 5,
         "teamName": "Nabers Think I'm Sellin Dope"
@@ -479,7 +479,7 @@
     {
       "id": 5,
       "name": "Nabers Think I'm Sellin Dope",
-      "projection": 130.33963127,
+      "projection": 114.25943241,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -497,18 +497,18 @@
           "slotId": 0
         },
         {
-          "id": "4427366",
-          "name": "Breece Hall",
+          "id": "4035538",
+          "name": "David Montgomery",
           "position": "RB",
-          "proTeam": "NYJ",
+          "proTeam": "HOU",
           "slot": "RB",
           "slotId": 2
         },
         {
-          "id": "4361579",
-          "name": "Javonte Williams",
+          "id": "4429023",
+          "name": "MarShawn Lloyd",
           "position": "RB",
-          "proTeam": "DAL",
+          "proTeam": "GB",
           "slot": "RB",
           "slotId": 2
         },
@@ -529,18 +529,18 @@
           "slotId": 4
         },
         {
-          "id": "4432665",
-          "name": "Brock Bowers",
+          "id": "3116365",
+          "name": "Mark Andrews",
           "position": "WR",
-          "proTeam": "LV",
+          "proTeam": "BAL",
           "slot": "TE",
           "slotId": 6
         },
         {
-          "id": "4429023",
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "proTeam": "GB",
+          "id": "4360078",
+          "name": "Alec Pierce",
+          "position": "FLEX",
+          "proTeam": "IND",
           "slot": "FLEX",
           "slotId": 23
         },
@@ -561,10 +561,18 @@
           "slotId": 17
         },
         {
-          "id": "4360078",
-          "name": "Alec Pierce",
-          "position": "\u2014",
-          "proTeam": "IND",
+          "id": "4427366",
+          "name": "Breece Hall",
+          "position": "RB",
+          "proTeam": "NYJ",
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "id": "4432665",
+          "name": "Brock Bowers",
+          "position": "WR",
+          "proTeam": "LV",
           "slot": "Bench",
           "slotId": 20
         },
@@ -585,18 +593,10 @@
           "slotId": 20
         },
         {
-          "id": "4035538",
-          "name": "David Montgomery",
+          "id": "4361579",
+          "name": "Javonte Williams",
           "position": "RB",
-          "proTeam": "HOU",
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "id": "3116365",
-          "name": "Mark Andrews",
-          "position": "WR",
-          "proTeam": "BAL",
+          "proTeam": "DAL",
           "slot": "Bench",
           "slotId": 20
         },
