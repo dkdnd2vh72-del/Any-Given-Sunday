@@ -1,21 +1,17 @@
 // =========================================
 // app.js
-// Shared behavior for every page:
-// 1. Open/close the mobile nav menu
-// 2. Highlight the current page's nav link
+// Shared behavior for every page plus live-data rendering.
 // =========================================
 
 document.addEventListener("DOMContentLoaded", function () {
   var toggleButton = document.querySelector(".nav-toggle");
   var nav = document.querySelector(".main-nav");
 
-  // 1. Mobile menu open/close
   if (toggleButton && nav) {
     toggleButton.addEventListener("click", function () {
       nav.classList.toggle("open");
     });
 
-    // Close the menu automatically when a link is tapped
     var navLinks = nav.querySelectorAll("a");
     navLinks.forEach(function (link) {
       link.addEventListener("click", function () {
@@ -24,19 +20,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // 2. Highlight the active page in the nav menu
-  // Every page's <body> has a data-page="..." attribute (e.g. "home").
-  // Every nav link has a matching data-page="..." attribute.
   var currentPage = document.body.getAttribute("data-page");
   var allLinks = document.querySelectorAll(".main-nav a");
-
   allLinks.forEach(function (link) {
     if (link.getAttribute("data-page") === currentPage) {
       link.classList.add("active");
     }
   });
 
-  // 3. Draft countdown (only runs on pages that have the #draft-countdown box)
   var countdownEl = document.getElementById("draft-countdown");
   if (countdownEl) {
     var draftDate = new Date("September 7, 2026 19:30:00 GMT-0400").getTime();
@@ -55,11 +46,197 @@ document.addEventListener("DOMContentLoaded", function () {
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
       countdownEl.textContent = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
     }
 
     updateCountdown();
     var countdownTimer = setInterval(updateCountdown, 1000);
   }
+
+  function slugify(value) {
+    return String(value || "team")
+      .toLowerCase()
+      .replace(/['’]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
+  function positionClass(position) {
+    if (position === "D/ST") return "pos-dst";
+    return "pos-" + String(position || "").toLowerCase().replace(/[^a-z]/g, "");
+  }
+
+  function playerRow(player) {
+    var row = document.createElement("div");
+    row.className = "player-row";
+
+    var info = document.createElement("div");
+    info.className = "player-info";
+
+    var name = document.createElement("span");
+    name.className = "team-name";
+
+    var badge = document.createElement("span");
+    badge.className = "player-position " + positionClass(player.position);
+    badge.textContent = player.position || "—";
+    name.appendChild(badge);
+    name.appendChild(document.createTextNode(player.name || "Unknown Player"));
+
+    var meta = document.createElement("span");
+    meta.className = "player-meta";
+    meta.textContent = (player.proTeam || "") + " · " + (player.slot || "Bench");
+
+    var points = document.createElement("span");
+    points.className = "player-points";
+    points.textContent = "—";
+
+    info.appendChild(name);
+    info.appendChild(meta);
+    row.appendChild(info);
+    row.appendChild(points);
+    return row;
+  }
+
+  function starterSort(a, b) {
+    var order = {"QB":0,"RB":1,"WR":2,"TE":3,"FLEX":4,"D/ST":5,"K":6};
+    var ao = Object.prototype.hasOwnProperty.call(order, a.slot) ? order[a.slot] : 99;
+    var bo = Object.prototype.hasOwnProperty.call(order, b.slot) ? order[b.slot] : 99;
+    if (ao !== bo) return ao - bo;
+    return String(a.name).localeCompare(String(b.name));
+  }
+
+  function projectionForTeam(matchupData, teamId) {
+    var matchups = matchupData && matchupData.matchups ? matchupData.matchups : [];
+    for (var i = 0; i < matchups.length; i++) {
+      var matchup = matchups[i];
+      if (matchup.home && Number(matchup.home.teamId) === Number(teamId)) return Number(matchup.home.projection || 0);
+      if (matchup.away && Number(matchup.away.teamId) === Number(teamId)) return Number(matchup.away.projection || 0);
+    }
+    return 0;
+  }
+
+  async function renderLiveRosters() {
+    if (currentPage !== "rosters") return;
+
+    var select = document.getElementById("team-select");
+    var main = document.querySelector("main.page-content");
+    if (!select || !main) return;
+
+    try {
+      var responses = await Promise.all([
+        fetch("data/rosters.json?ts=" + Date.now(), {cache:"no-store"}),
+        fetch("data/matchups.json?ts=" + Date.now(), {cache:"no-store"})
+      ]);
+      if (!responses[0].ok || !responses[1].ok) return;
+
+      var rosterData = await responses[0].json();
+      var matchupData = await responses[1].json();
+      var teams = Array.isArray(rosterData.teams) ? rosterData.teams : [];
+      if (!teams.length) return;
+
+      main.querySelectorAll(".roster").forEach(function (node) { node.remove(); });
+      select.innerHTML = "";
+
+      teams.forEach(function (team, index) {
+        var slug = slugify(team.teamName);
+        var option = document.createElement("option");
+        option.value = slug;
+        option.textContent = team.teamName;
+        select.appendChild(option);
+
+        var roster = document.createElement("div");
+        roster.className = "roster";
+        roster.id = slug;
+        roster.style.display = index === 0 ? "" : "none";
+
+        var total = document.createElement("div");
+        total.className = "projection-total";
+        var totalLabel = document.createElement("span");
+        totalLabel.textContent = "Week " + (matchupData.week || 1) + " Projected Total";
+        var totalValue = document.createElement("strong");
+        totalValue.textContent = projectionForTeam(matchupData, team.teamId).toFixed(2);
+        total.appendChild(totalLabel);
+        total.appendChild(totalValue);
+        roster.appendChild(total);
+
+        var starterTitle = document.createElement("h2");
+        starterTitle.className = "section-title";
+        starterTitle.textContent = "Starters";
+        roster.appendChild(starterTitle);
+
+        var note = document.createElement("div");
+        note.className = "starter-order-note";
+        note.textContent = "QB · RB · RB · WR · WR · TE · FLEX · D/ST · K";
+        roster.appendChild(note);
+
+        var starterCard = document.createElement("div");
+        starterCard.className = "card";
+        (team.roster || []).filter(function (p) {
+          return p.slot !== "Bench" && p.slot !== "IR";
+        }).sort(starterSort).forEach(function (player) {
+          starterCard.appendChild(playerRow(player));
+        });
+        roster.appendChild(starterCard);
+
+        var reserveTitle = document.createElement("h2");
+        reserveTitle.className = "section-title bench-title";
+        reserveTitle.textContent = "Bench / IR";
+        roster.appendChild(reserveTitle);
+
+        var reserveCard = document.createElement("div");
+        reserveCard.className = "card";
+        (team.roster || []).filter(function (p) {
+          return p.slot === "Bench" || p.slot === "IR";
+        }).sort(function (a, b) {
+          if (a.slot !== b.slot) return a.slot === "Bench" ? -1 : 1;
+          return String(a.name).localeCompare(String(b.name));
+        }).forEach(function (player) {
+          reserveCard.appendChild(playerRow(player));
+        });
+        roster.appendChild(reserveCard);
+
+        main.appendChild(roster);
+      });
+
+      select.onchange = function () {
+        main.querySelectorAll(".roster").forEach(function (node) {
+          node.style.display = node.id === select.value ? "" : "none";
+        });
+      };
+    } catch (error) {
+      console.warn("Live roster data could not be rendered; using embedded fallback.", error);
+    }
+  }
+
+  async function renderLiveStandings() {
+    if (currentPage !== "standings") return;
+    var tbody = document.querySelector(".standings-table tbody");
+    if (!tbody) return;
+
+    try {
+      var response = await fetch("data/standings.json?ts=" + Date.now(), {cache:"no-store"});
+      if (!response.ok) return;
+      var data = await response.json();
+      var teams = Array.isArray(data.teams) ? data.teams : [];
+      if (!teams.length) return;
+
+      tbody.innerHTML = "";
+      teams.forEach(function (team) {
+        var tr = document.createElement("tr");
+        var values = [team.teamName, team.wins, team.losses, Number(team.pointsFor || 0).toFixed(1)];
+        values.forEach(function (value, index) {
+          var td = document.createElement("td");
+          if (index > 0) td.className = "num";
+          td.textContent = value;
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+    } catch (error) {
+      console.warn("Live standings data could not be rendered; using embedded fallback.", error);
+    }
+  }
+
+  renderLiveRosters();
+  renderLiveStandings();
 });
