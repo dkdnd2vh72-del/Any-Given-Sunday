@@ -1,8 +1,25 @@
 {
-  "transactions": [],
+  "transactions": [
+    {
+      "transactionId": "7248960c-dba5-4881-8cd6-d35fc9b5158c",
+      "date": "2026-09-09",
+      "week": 1,
+      "type": "waiver",
+      "status": "complete",
+      "teamId": 3,
+      "teamName": "Burden Of Victory IIIx",
+      "playersAdded": [
+        {"id":"4038941","name":"Justin Herbert","position":"QB","proTeam":"LAC"}
+      ],
+      "playersDropped": [],
+      "faabBid": 1,
+      "chargedAdds": 1,
+      "charge": 1
+    }
+  ],
   "teamCounters": {
     "1": 0,
-    "3": 0,
+    "3": 1,
     "4": 0,
     "5": 0,
     "7": 0,
@@ -13,5 +30,5 @@
     "14": 0
   },
   "dollarsPerAdd": 1,
-  "leagueTotal": 0
+  "leagueTotal": 1
 }
