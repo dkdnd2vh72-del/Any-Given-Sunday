@@ -48,10 +48,6 @@ jobs:
           from bs4 import BeautifulSoup
 
 
-          # ==========================================
-          # LEAGUE SETTINGS
-          # ==========================================
-
           LEAGUE_ID = "820399"
           SEASON = 2026
 
@@ -60,10 +56,6 @@ jobs:
               f"seasons/{SEASON}/segments/0/leagues/{LEAGUE_ID}"
           )
 
-
-          # ==========================================
-          # PERMANENT ESPN TEAM ID -> WEBSITE ID
-          # ==========================================
 
           TEAM_HTML_ID = {
               1: "big-blue",
@@ -78,13 +70,6 @@ jobs:
               14: "chance-make-champions",
           }
 
-
-          # ==========================================
-          # ORIGINAL / KNOWN TEAM NAMES
-          #
-          # Used only to identify existing HTML rows.
-          # Once identified, live ESPN names replace them.
-          # ==========================================
 
           KNOWN_TEAM_NAMES = {
               1: [
@@ -131,10 +116,6 @@ jobs:
           }
 
 
-          # ==========================================
-          # ESPN REQUEST
-          # ==========================================
-
           params = [
               ("view", "mTeam"),
               ("view", "mRoster"),
@@ -144,6 +125,7 @@ jobs:
               ("view", "mStandings"),
           ]
 
+
           headers = {
               "User-Agent":
                   "Mozilla/5.0 Any-Given-Sunday-GitHub-Action/1.0",
@@ -151,6 +133,7 @@ jobs:
               "Accept":
                   "application/json",
           }
+
 
           cookies = {}
 
@@ -187,10 +170,6 @@ jobs:
           league = response.json()
 
 
-          # ==========================================
-          # CURRENT WEEK
-          # ==========================================
-
           current_week = (
               league
               .get("status", {})
@@ -205,15 +184,12 @@ jobs:
               current_week
           )
 
+
           print(
               f"Current matchup week: "
               f"{current_week}"
           )
 
-
-          # ==========================================
-          # ESPN POSITION IDS
-          # ==========================================
 
           POSITION = {
               1: "QB",
@@ -224,10 +200,6 @@ jobs:
               16: "D/ST",
           }
 
-
-          # ==========================================
-          # ESPN LINEUP SLOT IDS
-          # ==========================================
 
           SLOT = {
               0: "QB",
@@ -254,10 +226,6 @@ jobs:
               "IR": 8,
           }
 
-
-          # ==========================================
-          # NFL TEAM IDS
-          # ==========================================
 
           PRO_TEAM = {
               0: "FA",
@@ -295,10 +263,6 @@ jobs:
               34: "HOU",
           }
 
-
-          # ==========================================
-          # HELPERS
-          # ==========================================
 
           def clean_name(value):
 
@@ -347,10 +311,6 @@ jobs:
               ):
                   return 0
 
-
-          # ==========================================
-          # PLAYER CURRENT WEEK PROJECTION
-          # ==========================================
 
           def get_player_projection(player):
 
@@ -408,10 +368,6 @@ jobs:
 
               return 0.0
 
-
-          # ==========================================
-          # BUILD TEAMS + ROSTERS
-          # ==========================================
 
           teams_by_id = {}
 
@@ -588,6 +544,23 @@ jobs:
               )
 
 
+              transaction_counter = (
+                  team
+                  .get(
+                      "transactionCounter",
+                      {}
+                  )
+              )
+
+
+              acquisitions = safe_int(
+                  transaction_counter.get(
+                      "acquisitions",
+                      0
+                  )
+              )
+
+
               item = {
                   "id":
                       tid,
@@ -644,6 +617,9 @@ jobs:
                   "projection":
                       starter_projection,
 
+                  "acquisitions":
+                      acquisitions,
+
                   "playoffSeed":
                       safe_int(
                           team.get(
@@ -667,13 +643,10 @@ jobs:
                   f"Team {tid}: "
                   f"{name} | "
                   f"projection "
-                  f"{starter_projection:.2f}"
+                  f"{starter_projection:.2f} | "
+                  f"adds {acquisitions}"
               )
 
-
-          # ==========================================
-          # BUILD CURRENT WEEK MATCHUPS
-          # ==========================================
 
           normalized_matchups = []
 
@@ -802,10 +775,6 @@ jobs:
                   )
 
 
-          # ==========================================
-          # SAVE LIVE JSON
-          # ==========================================
-
           normalized = {
               "leagueId":
                   LEAGUE_ID,
@@ -870,10 +839,6 @@ jobs:
               )
 
 
-          # ==========================================
-          # POSITION CLASS
-          # ==========================================
-
           def pos_class(position):
 
               val = (
@@ -904,10 +869,6 @@ jobs:
                   )
               )
 
-
-          # ==========================================
-          # PLAYER ROW
-          # ==========================================
 
           def player_row(player):
 
@@ -951,10 +912,6 @@ jobs:
               )
 
 
-          # ==========================================
-          # UPDATE ROSTERS.HTML
-          # ==========================================
-
           def update_rosters():
 
               path = Path(
@@ -994,8 +951,6 @@ jobs:
                   return
 
 
-              # Update dropdown names
-
               for team in normalized[
                   "teams"
               ]:
@@ -1015,8 +970,6 @@ jobs:
                           team["name"]
                       )
 
-
-              # Update rosters
 
               for team in normalized[
                   "teams"
@@ -1212,10 +1165,6 @@ jobs:
               )
 
 
-          # ==========================================
-          # UPDATE MATCHUPS.HTML
-          # ==========================================
-
           def update_matchups():
 
               path = Path(
@@ -1383,10 +1332,6 @@ jobs:
               )
 
 
-          # ==========================================
-          # UPDATE STANDINGS.HTML
-          # ==========================================
-
           def update_standings():
 
               path = Path(
@@ -1505,10 +1450,6 @@ jobs:
               )
 
 
-          # ==========================================
-          # UPDATE TRANSACTIONS.HTML TEAM NAMES
-          # ==========================================
-
           def update_transactions():
 
               path = Path(
@@ -1533,12 +1474,6 @@ jobs:
               )
 
 
-              headings = soup.find_all(
-                  "h2",
-                  class_="section-title"
-              )
-
-
               team_ids = [
                   1,
                   3,
@@ -1557,66 +1492,294 @@ jobs:
               # TRANSACTION COUNTER
               # ======================================
 
-              counter_heading = None
+              counter_table = soup.find(
+                  "table",
+                  id="transaction-counter-table"
+              )
 
 
-              for heading in headings:
+              if not counter_table:
 
-                  if clean_name(
-                      heading.get_text(
-                          " ",
-                          strip=True
-                      )
-                  ).lower() == "transaction counter":
+                  # Fallback for the older HTML format.
 
-                      counter_heading = heading
-                      break
-
-
-              if counter_heading:
-
-                  counter_table = (
-                      counter_heading
-                      .find_next(
-                          "table",
-                          class_="standings-table"
-                      )
+                  headings = soup.find_all(
+                      "h2",
+                      class_="section-title"
                   )
 
 
-                  if counter_table:
+                  for heading in headings:
 
-                      tbody = counter_table.find(
-                          "tbody"
+                      heading_text = clean_name(
+                          heading.get_text(
+                              " ",
+                              strip=True
+                          )
+                      ).lower()
+
+
+                      if heading_text == "transaction counter":
+
+                          counter_table = (
+                              heading
+                              .find_next(
+                                  "table",
+                                  class_="standings-table"
+                              )
+                          )
+
+                          break
+
+
+              if counter_table:
+
+                  tbody = counter_table.find(
+                      "tbody"
+                  )
+
+
+                  if tbody:
+
+                      rows = tbody.find_all(
+                          "tr",
+                          recursive=False
                       )
 
 
-                      if tbody:
+                      for index, row in enumerate(
+                          rows
+                      ):
 
-                          rows = tbody.find_all(
-                              "tr",
+                          tid = row.get(
+                              "data-team-id"
+                          )
+
+
+                          if tid:
+
+                              try:
+                                  tid = int(
+                                      tid
+                                  )
+
+                              except (
+                                  TypeError,
+                                  ValueError
+                              ):
+                                  tid = None
+
+
+                          # Fallback to original row order.
+
+                          if not tid:
+
+                              if index < len(
+                                  team_ids
+                              ):
+
+                                  tid = team_ids[
+                                      index
+                                  ]
+
+
+                          if (
+                              not tid
+                              or
+                              tid not in teams_by_id
+                          ):
+
+                              continue
+
+
+                          team = teams_by_id[
+                              tid
+                          ]
+
+
+                          adds = safe_int(
+                              team.get(
+                                  "acquisitions",
+                                  0
+                              )
+                          )
+
+
+                          cells = row.find_all(
+                              "td",
                               recursive=False
                           )
 
 
-                          for tid, row in zip(
-                              team_ids,
-                              rows
-                          ):
+                          if len(cells) >= 3:
 
-                              cells = row.find_all(
-                                  "td",
-                                  recursive=False
+                              cells[0].string = (
+                                  team["name"]
+                              )
+
+                              cells[1].string = (
+                                  str(
+                                      adds
+                                  )
+                              )
+
+                              cells[2].string = (
+                                  f"${adds}"
                               )
 
 
-                              if (
-                                  cells
-                                  and
-                                  tid in teams_by_id
-                              ):
+                          row[
+                              "data-team-id"
+                          ] = str(
+                              tid
+                          )
 
-                                  cells[0].string = (
+
+                          print(
+                              f"Transactions: "
+                              f"{team['name']} = "
+                              f"{adds} adds / "
+                              f"${adds}"
+                          )
+
+
+              # ======================================
+              # KEEPERS - UPDATE TEAM NAMES ONLY
+              # ======================================
+
+              keeper_card = soup.find(
+                  "div",
+                  id="keepers-card"
+              )
+
+
+              if keeper_card:
+
+                  keeper_rows = (
+                      keeper_card
+                      .find_all(
+                          "div",
+                          class_="player-row",
+                          recursive=False
+                      )
+                  )
+
+
+                  for index, row in enumerate(
+                      keeper_rows
+                  ):
+
+                      tid = row.get(
+                          "data-team-id"
+                      )
+
+
+                      if tid:
+
+                          try:
+                              tid = int(
+                                  tid
+                              )
+
+                          except (
+                              TypeError,
+                              ValueError
+                          ):
+                              tid = None
+
+
+                      if not tid:
+
+                          if index < len(
+                              team_ids
+                          ):
+
+                              tid = team_ids[
+                                  index
+                              ]
+
+
+                      if (
+                          tid
+                          and
+                          tid in teams_by_id
+                      ):
+
+                          name_span = row.select_one(
+                              ".player-name.text-accent"
+                          )
+
+
+                          if name_span:
+
+                              name_span.string = (
+                                  teams_by_id[
+                                      tid
+                                  ]["name"]
+                              )
+
+
+                          row[
+                              "data-team-id"
+                          ] = str(
+                              tid
+                          )
+
+
+              else:
+
+                  # Fallback for older HTML.
+
+                  headings = soup.find_all(
+                      "h2",
+                      class_="section-title"
+                  )
+
+
+                  keeper_heading = None
+
+
+                  for heading in headings:
+
+                      if clean_name(
+                          heading.get_text(
+                              " ",
+                              strip=True
+                          )
+                      ).lower() == "keepers":
+
+                          keeper_heading = heading
+                          break
+
+
+                  if keeper_heading:
+
+                      old_keeper_card = (
+                          keeper_heading
+                          .find_next_sibling(
+                              "div",
+                              class_="card"
+                          )
+                      )
+
+
+                      if old_keeper_card:
+
+                          keeper_names = (
+                              old_keeper_card
+                              .select(
+                                  ".player-name.text-accent"
+                              )
+                          )
+
+
+                          for tid, name_span in zip(
+                              team_ids,
+                              keeper_names
+                          ):
+
+                              if tid in teams_by_id:
+
+                                  name_span.string = (
                                       teams_by_id[
                                           tid
                                       ]["name"]
@@ -1624,113 +1787,145 @@ jobs:
 
 
               # ======================================
-              # KEEPERS
+              # LEAGUE DUES - UPDATE TEAM NAMES ONLY
               # ======================================
 
-              keeper_heading = None
+              dues_card = soup.find(
+                  "div",
+                  id="league-dues-card"
+              )
 
 
-              for heading in headings:
+              if dues_card:
 
-                  if clean_name(
-                      heading.get_text(
-                          " ",
-                          strip=True
-                      )
-                  ).lower() == "keepers":
-
-                      keeper_heading = heading
-                      break
-
-
-              if keeper_heading:
-
-                  keeper_card = (
-                      keeper_heading
-                      .find_next_sibling(
+                  dues_rows = (
+                      dues_card
+                      .find_all(
                           "div",
-                          class_="card"
+                          class_="standing-row",
+                          recursive=False
                       )
                   )
 
 
-                  if keeper_card:
+                  for index, row in enumerate(
+                      dues_rows
+                  ):
 
-                      keeper_names = (
-                          keeper_card
-                          .select(
-                              ".player-name.text-accent"
-                          )
+                      tid = row.get(
+                          "data-team-id"
                       )
 
 
-                      for tid, name_span in zip(
-                          team_ids,
-                          keeper_names
-                      ):
+                      if tid:
 
-                          if tid in teams_by_id:
-
-                              name_span.string = (
-                                  teams_by_id[
-                                      tid
-                                  ]["name"]
+                          try:
+                              tid = int(
+                                  tid
                               )
 
-
-              # ======================================
-              # LEAGUE DUES
-              # ======================================
-
-              dues_heading = None
-
-
-              for heading in headings:
-
-                  if clean_name(
-                      heading.get_text(
-                          " ",
-                          strip=True
-                      )
-                  ).lower() == "league dues":
-
-                      dues_heading = heading
-                      break
+                          except (
+                              TypeError,
+                              ValueError
+                          ):
+                              tid = None
 
 
-              if dues_heading:
+                      if not tid:
 
-                  dues_card = (
-                      dues_heading
-                      .find_next_sibling(
-                          "div",
-                          class_="card"
-                      )
-                  )
+                          if index < len(
+                              team_ids
+                          ):
+
+                              tid = team_ids[
+                                  index
+                              ]
 
 
-                  if dues_card:
+                      if (
+                          tid
+                          and
+                          tid in teams_by_id
+                      ):
 
-                      dues_names = (
-                          dues_card
-                          .select(
+                          name_span = row.select_one(
                               ".standing-info"
                           )
-                      )
 
 
-                      for tid, name_span in zip(
-                          team_ids,
-                          dues_names
-                      ):
-
-                          if tid in teams_by_id:
+                          if name_span:
 
                               name_span.string = (
                                   teams_by_id[
                                       tid
                                   ]["name"]
                               )
+
+
+                          row[
+                              "data-team-id"
+                          ] = str(
+                              tid
+                          )
+
+
+              else:
+
+                  headings = soup.find_all(
+                      "h2",
+                      class_="section-title"
+                  )
+
+
+                  dues_heading = None
+
+
+                  for heading in headings:
+
+                      if clean_name(
+                          heading.get_text(
+                              " ",
+                              strip=True
+                          )
+                      ).lower() == "league dues":
+
+                          dues_heading = heading
+                          break
+
+
+                  if dues_heading:
+
+                      old_dues_card = (
+                          dues_heading
+                          .find_next_sibling(
+                              "div",
+                              class_="card"
+                          )
+                      )
+
+
+                      if old_dues_card:
+
+                          dues_names = (
+                              old_dues_card
+                              .select(
+                                  ".standing-info"
+                              )
+                          )
+
+
+                          for tid, name_span in zip(
+                              team_ids,
+                              dues_names
+                          ):
+
+                              if tid in teams_by_id:
+
+                                  name_span.string = (
+                                      teams_by_id[
+                                          tid
+                                      ]["name"]
+                                  )
 
 
               path.write_text(
@@ -1744,10 +1939,6 @@ jobs:
               )
 
 
-          # ==========================================
-          # IDENTIFY A TEAM ID FROM AN EXISTING NAME
-          # ==========================================
-
           def identify_team_id_from_name(
               displayed_name
           ):
@@ -1756,9 +1947,6 @@ jobs:
                   displayed_name
               ).lower()
 
-
-              # First see whether it already matches
-              # the current ESPN name.
 
               for tid, team in teams_by_id.items():
 
@@ -1772,8 +1960,6 @@ jobs:
 
                       return tid
 
-
-              # Otherwise check original/older names.
 
               for tid, names in KNOWN_TEAM_NAMES.items():
 
@@ -1792,17 +1978,6 @@ jobs:
 
               return None
 
-
-          # ==========================================
-          # UPDATE INDEX.HTML
-          #
-          # Updates:
-          # - Current Week
-          # - Power Rankings heading week
-          # - Power Rankings team names
-          #
-          # DOES NOT reorder the Power Rankings.
-          # ==========================================
 
           def update_home():
 
@@ -1838,71 +2013,88 @@ jobs:
               # CURRENT WEEK
               # ======================================
 
-              for heading in headings:
-
-                  heading_text = clean_name(
-                      heading.get_text(
-                          " ",
-                          strip=True
-                      )
-                  ).lower()
+              current_week_el = soup.find(
+                  id="current-week"
+              )
 
 
-                  if heading_text == "current week":
+              if current_week_el:
 
-                      card = (
-                          heading
-                          .find_next_sibling(
-                              "div",
-                              class_="card"
+                  current_week_el.string = (
+                      f"Week "
+                      f"{current_week}"
+                  )
+
+
+              else:
+
+                  for heading in headings:
+
+                      heading_text = clean_name(
+                          heading.get_text(
+                              " ",
+                              strip=True
                           )
-                      )
+                      ).lower()
 
 
-                      if card:
+                      if heading_text == "current week":
 
-                          number = card.select_one(
-                              ".stat-number"
+                          card = (
+                              heading
+                              .find_next_sibling(
+                                  "div",
+                                  class_="card"
+                              )
                           )
 
 
-                          if number:
+                          if card:
 
-                              number.string = (
-                                  f"Week "
-                                  f"{current_week}"
+                              number = card.select_one(
+                                  ".stat-number"
                               )
 
 
-                      break
+                              if number:
+
+                                  number.string = (
+                                      f"Week "
+                                      f"{current_week}"
+                                  )
+
+
+                          break
 
 
               # ======================================
-              # POWER RANKINGS
+              # POWER RANKINGS TEAM NAMES
               # ======================================
 
-              power_heading = None
+              power_heading = soup.find(
+                  id="power-rankings-heading"
+              )
 
 
-              for heading in headings:
+              if not power_heading:
 
-                  heading_text = clean_name(
-                      heading.get_text(
-                          " ",
-                          strip=True
-                      )
-                  ).lower()
+                  for heading in headings:
+
+                      heading_text = clean_name(
+                          heading.get_text(
+                              " ",
+                              strip=True
+                          )
+                      ).lower()
 
 
-                  if "power rankings" in heading_text:
+                      if "power rankings" in heading_text:
 
-                      power_heading = heading
-                      break
+                          power_heading = heading
+                          break
 
 
               if power_heading:
-
-                  # Keep Power Rankings week current.
 
                   power_heading.string = (
                       f"Week "
@@ -1911,13 +2103,20 @@ jobs:
                   )
 
 
-                  power_card = (
-                      power_heading
-                      .find_next_sibling(
-                          "div",
-                          class_="card"
-                      )
+                  power_card = soup.find(
+                      id="power-rankings"
                   )
+
+
+                  if not power_card:
+
+                      power_card = (
+                          power_heading
+                          .find_next_sibling(
+                              "div",
+                              class_="card"
+                          )
+                      )
 
 
                   if power_card:
@@ -1941,10 +2140,6 @@ jobs:
                               continue
 
 
-                          # First preference:
-                          # data-team-id saved by an
-                          # earlier automation run.
-
                           tid = row.get(
                               "data-team-id"
                           )
@@ -1953,7 +2148,9 @@ jobs:
                           if tid:
 
                               try:
-                                  tid = int(tid)
+                                  tid = int(
+                                      tid
+                                  )
 
                               except (
                                   TypeError,
@@ -1961,10 +2158,6 @@ jobs:
                               ):
                                   tid = None
 
-
-                          # If row does not have an ID yet,
-                          # identify it from the old/current
-                          # display name.
 
                           if not tid:
 
@@ -1984,12 +2177,6 @@ jobs:
                               tid in teams_by_id
                           ):
 
-                              # Save permanent ESPN team ID
-                              # directly on the ranking row.
-                              #
-                              # Future team-name changes will
-                              # therefore always update correctly.
-
                               row[
                                   "data-team-id"
                               ] = str(
@@ -2004,20 +2191,82 @@ jobs:
                               )
 
 
-                              print(
-                                  f"Power Rankings: "
-                                  f"Team {tid} -> "
-                                  f"{teams_by_id[tid]['name']}"
+              # ======================================
+              # LEAGUE TRANSACTION COUNTER
+              #
+              # $1 FOR EACH PLAYER ACQUISITION
+              # ======================================
+
+              total_league_adds = sum(
+                  safe_int(
+                      team.get(
+                          "acquisitions",
+                          0
+                      )
+                  )
+                  for team in normalized[
+                      "teams"
+                  ]
+              )
+
+
+              transaction_total = soup.find(
+                  id="league-transaction-total"
+              )
+
+
+              if not transaction_total:
+
+                  for heading in headings:
+
+                      heading_text = clean_name(
+                          heading.get_text(
+                              " ",
+                              strip=True
+                          )
+                      ).lower()
+
+
+                      if (
+                          heading_text
+                          ==
+                          "league transaction counter"
+                      ):
+
+                          transaction_card = (
+                              heading
+                              .find_next_sibling(
+                                  "div",
+                                  class_="card"
+                              )
+                          )
+
+
+                          if transaction_card:
+
+                              transaction_total = (
+                                  transaction_card
+                                  .select_one(
+                                      ".stat-number"
+                                  )
                               )
 
 
-                          else:
+                          break
 
-                              print(
-                                  "WARNING: Could not identify "
-                                  "Power Rankings team: "
-                                  f"{name_span.get_text(' ', strip=True)}"
-                              )
+
+              if transaction_total:
+
+                  transaction_total.string = (
+                      f"${total_league_adds}"
+                  )
+
+
+                  print(
+                      "League Transaction Counter: "
+                      f"{total_league_adds} adds = "
+                      f"${total_league_adds}"
+                  )
 
 
               path.write_text(
@@ -2029,13 +2278,10 @@ jobs:
               print(
                   "index.html updated: "
                   "current week + "
-                  "Power Rankings team names"
+                  "Power Rankings + "
+                  "League Transaction Counter"
               )
 
-
-          # ==========================================
-          # RUN ALL WEBSITE UPDATES
-          # ==========================================
 
           update_rosters()
 
@@ -2048,11 +2294,25 @@ jobs:
           update_home()
 
 
+          total_adds = sum(
+              safe_int(
+                  team.get(
+                      "acquisitions",
+                      0
+                  )
+              )
+              for team in normalized[
+                  "teams"
+              ]
+          )
+
+
           print(
               f"ESPN sync complete: "
               f"week {current_week}, "
               f"{len(normalized['teams'])} teams, "
-              f"{len(normalized['matchups'])} matchups."
+              f"{len(normalized['matchups'])} matchups, "
+              f"{total_adds} league acquisitions."
           )
 
           PY
