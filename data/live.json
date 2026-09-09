@@ -59,7 +59,7 @@
     },
     {
       "away": {
-        "projection": 121.77,
+        "projection": 124.1,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -230,7 +230,7 @@
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 9,
-      "projection": 121.77,
+      "projection": 124.1,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -240,11 +240,11 @@
       },
       "roster": [
         {
-          "id": "2577417",
-          "name": "Dak Prescott",
+          "id": "4038941",
+          "name": "Justin Herbert",
           "position": "QB",
-          "proTeam": "DAL",
-          "projection": 16.73405519,
+          "proTeam": "LAC",
+          "projection": 18.96759366,
           "slot": "QB",
           "slotId": 0
         },
@@ -267,11 +267,11 @@
           "slotId": 2
         },
         {
-          "id": "4685278",
-          "name": "Luther Burden III",
+          "id": "4426388",
+          "name": "Jameson Williams",
           "position": "WR",
-          "proTeam": "CHI",
-          "projection": 12.02426442,
+          "proTeam": "DET",
+          "projection": 12.12542781,
           "slot": "WR",
           "slotId": 4
         },
@@ -330,6 +330,15 @@
           "slotId": 20
         },
         {
+          "id": "2577417",
+          "name": "Dak Prescott",
+          "position": "QB",
+          "proTeam": "DAL",
+          "projection": 16.73405519,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
           "id": "3916433",
           "name": "Jakobi Meyers",
           "position": "WR",
@@ -339,20 +348,11 @@
           "slotId": 20
         },
         {
-          "id": "4426388",
-          "name": "Jameson Williams",
+          "id": "4685278",
+          "name": "Luther Burden III",
           "position": "WR",
-          "proTeam": "DET",
-          "projection": 12.12542781,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "id": "4038941",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "proTeam": "LAC",
-          "projection": 18.96759366,
+          "proTeam": "CHI",
+          "projection": 12.02426442,
           "slot": "Bench",
           "slotId": 20
         },
