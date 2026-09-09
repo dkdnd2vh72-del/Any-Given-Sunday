@@ -9,7 +9,7 @@
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 130.72,
+        "projection": 124.26,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -541,7 +541,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 7,
-      "projection": 130.72,
+      "projection": 124.26,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -560,20 +560,20 @@
           "slotId": 0
         },
         {
-          "id": "4427366",
-          "name": "Breece Hall",
+          "id": "4035538",
+          "name": "David Montgomery",
           "position": "RB",
-          "proTeam": "NYJ",
-          "projection": 16.48951511,
+          "proTeam": "HOU",
+          "projection": 12.66893268,
           "slot": "RB",
           "slotId": 2
         },
         {
-          "id": "4361579",
-          "name": "Javonte Williams",
+          "id": "4429023",
+          "name": "MarShawn Lloyd",
           "position": "RB",
-          "proTeam": "DAL",
-          "projection": 15.2171666,
+          "proTeam": "GB",
+          "projection": 12.57863157,
           "slot": "RB",
           "slotId": 2
         },
@@ -641,6 +641,15 @@
           "slotId": 20
         },
         {
+          "id": "4427366",
+          "name": "Breece Hall",
+          "position": "RB",
+          "proTeam": "NYJ",
+          "projection": 16.48951511,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
           "id": "3116165",
           "name": "Chris Godwin Jr.",
           "position": "WR",
@@ -659,20 +668,11 @@
           "slotId": 20
         },
         {
-          "id": "4035538",
-          "name": "David Montgomery",
+          "id": "4361579",
+          "name": "Javonte Williams",
           "position": "RB",
-          "proTeam": "HOU",
-          "projection": 12.66893268,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "id": "4429023",
-          "name": "MarShawn Lloyd",
-          "position": "RB",
-          "proTeam": "GB",
-          "projection": 12.57863157,
+          "proTeam": "DAL",
+          "projection": 15.2171666,
           "slot": "Bench",
           "slotId": 20
         },
