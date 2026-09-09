@@ -1,296 +1,822 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>
+
+  <meta charset="UTF-8"/>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>
     Transactions | Any Given Sunday
   </title>
-<link href="styles.css" rel="stylesheet"/>
-<link href="favicon.png" rel="icon" type="image/png"/>
-<link href="apple-touch-icon.png" rel="apple-touch-icon"/>
-<link href="manifest.json" rel="manifest"/>
-<meta content="yes" name="apple-mobile-web-app-capable"/>
-<meta content="Any Given Sunday" name="apple-mobile-web-app-title"/>
-<meta content="#0f172a" name="theme-color"/>
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  />
+
+  <link
+    rel="icon"
+    href="favicon.png"
+    type="image/png"
+  />
+
+  <link
+    rel="apple-touch-icon"
+    href="apple-touch-icon.png"
+  />
+
+  <link
+    rel="manifest"
+    href="manifest.json"
+  />
+
+  <meta
+    name="apple-mobile-web-app-capable"
+    content="yes"
+  />
+
+  <meta
+    name="apple-mobile-web-app-title"
+    content="Any Given Sunday"
+  />
+
+  <meta
+    name="theme-color"
+    content="#0f172a"
+  />
+
 </head>
+
+
 <body data-page="transactions">
+
+
 <header class="site-header">
-<div class="header-inner">
-<div class="site-title">
+
+
+  <div class="header-inner">
+
+    <div class="site-title">
       Any Given <span>Sunday</span>
-</div>
-<button aria-label="Open menu" class="nav-toggle">
-<span class="bar"></span>
-<span class="bar"></span>
-<span class="bar"></span>
-</button>
-</div>
-<nav class="main-nav">
-<a data-page="home" href="index.html">
+    </div>
+
+
+    <button
+      class="nav-toggle"
+      aria-label="Open menu"
+    >
+
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+
+    </button>
+
+  </div>
+
+
+  <nav class="main-nav">
+
+    <a
+      href="index.html"
+      data-page="home"
+    >
       Home
     </a>
-<a data-page="matchups" href="matchups.html">
+
+    <a
+      href="matchups.html"
+      data-page="matchups"
+    >
       Matchups
     </a>
-<a data-page="rosters" href="rosters.html">
+
+    <a
+      href="rosters.html"
+      data-page="rosters"
+    >
       Rosters
     </a>
-<a data-page="history" href="history.html">
+
+    <a
+      href="history.html"
+      data-page="history"
+    >
       League History
     </a>
-<a data-page="transactions" href="transactions.html">
+
+    <a
+      href="transactions.html"
+      data-page="transactions"
+    >
       Transactions
     </a>
-<a data-page="standings" href="standings.html">
+
+    <a
+      href="standings.html"
+      data-page="standings"
+    >
       Standings
     </a>
-<a data-page="rules" href="rules.html">
+
+    <a
+      href="rules.html"
+      data-page="rules"
+    >
       Rules
     </a>
-</nav>
+
+  </nav>
+
+
 </header>
+
+
 <main class="page-content">
-<h1 class="page-title">
+
+
+  <h1 class="page-title">
     Transactions
   </h1>
-<!-- ==================================== -->
-<!-- TRANSACTION COUNTER -->
-<!-- $1 PER PLAYER ADDED -->
-<!-- ==================================== -->
-<h2 class="section-title">
+
+
+  <!-- ================================= -->
+  <!-- TRANSACTION COUNTER -->
+  <!--
+       ESPN acquisition count.
+
+       1 player added = $1.
+  -->
+  <!-- ================================= -->
+
+  <h2 class="section-title">
     Transaction Counter
   </h2>
-<div class="table-scroll">
-<table class="standings-table" id="transaction-counter-table">
-<thead>
-<tr>
-<th>
+
+
+  <div class="table-scroll">
+
+
+    <table
+      class="standings-table"
+      id="transaction-counter-table"
+    >
+
+
+      <thead>
+
+        <tr>
+
+          <th>
             Team
           </th>
-<th class="num">
+
+          <th class="num">
             Adds
           </th>
-<th class="num">
+
+          <th class="num">
             $$
           </th>
-</tr>
-</thead>
-<tbody>
-<tr data-team-id="1">
-<td class="transaction-team-name">Big Blue</td>
-<td class="num transaction-adds">0</td>
-<td class="num transaction-dollars">$0</td>
-</tr>
-<tr data-team-id="3">
-<td class="transaction-team-name">Burden Of Victory IIIx</td>
-<td class="num transaction-adds">1</td>
-<td class="num transaction-dollars">$1</td>
-</tr>
-<tr data-team-id="4">
-<td class="transaction-team-name">Champagne Step-Papi</td>
-<td class="num transaction-adds">0</td>
-<td class="num transaction-dollars">$0</td>
-</tr>
-<tr data-team-id="5">
-<td class="transaction-team-name">The Bowers Rangers</td>
-<td class="num transaction-adds">0</td>
-<td class="num transaction-dollars">$0</td>
-</tr>
-<tr data-team-id="7">
-<td class="transaction-team-name">Gett'n Saucy</td>
-<td class="num transaction-adds">0</td>
-<td class="num transaction-dollars">$0</td>
-</tr>
-<tr data-team-id="8">
-<td class="transaction-team-name">King Johnson</td>
-<td class="num transaction-adds">0</td>
-<td class="num transaction-dollars">$0</td>
-</tr>
-<tr data-team-id="11">
-<td class="transaction-team-name">More Wins Than PSI</td>
-<td class="num transaction-adds">0</td>
-<td class="num transaction-dollars">$0</td>
-</tr>
-<tr data-team-id="12">
-<td class="transaction-team-name">Injured Reserve</td>
-<td class="num transaction-adds">0</td>
-<td class="num transaction-dollars">$0</td>
-</tr>
-<tr data-team-id="13">
-<td class="transaction-team-name">Pollard Express</td>
-<td class="num transaction-adds">0</td>
-<td class="num transaction-dollars">$0</td>
-</tr>
-<tr data-team-id="14">
-<td class="transaction-team-name">Chance make champions</td>
-<td class="num transaction-adds">0</td>
-<td class="num transaction-dollars">$0</td>
-</tr>
-</tbody>
-</table>
-</div>
-<!-- ==================================== -->
-<!-- KEEPERS -->
-<!-- ==================================== -->
-<h2 class="section-title">
+
+        </tr>
+
+      </thead>
+
+
+      <tbody>
+
+
+        <tr data-team-id="1">
+
+          <td class="transaction-team-name">
+            Big Blue
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+        <tr data-team-id="3">
+
+          <td class="transaction-team-name">
+            # Numbers
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+        <tr data-team-id="4">
+
+          <td class="transaction-team-name">
+            Champagne Step-Papi
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+        <tr data-team-id="5">
+
+          <td class="transaction-team-name">
+            Nabers Think I'm Sellin Dope
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+        <tr data-team-id="7">
+
+          <td class="transaction-team-name">
+            Gett'n Saucy
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+        <tr data-team-id="8">
+
+          <td class="transaction-team-name">
+            King Johnson
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+        <tr data-team-id="11">
+
+          <td class="transaction-team-name">
+            More Wins Than PSI
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+        <tr data-team-id="12">
+
+          <td class="transaction-team-name">
+            Injured Reserve
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+        <tr data-team-id="13">
+
+          <td class="transaction-team-name">
+            Pollard Express
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+        <tr data-team-id="14">
+
+          <td class="transaction-team-name">
+            Chance make champions
+          </td>
+
+          <td
+            class="num transaction-adds"
+          >
+            0
+          </td>
+
+          <td
+            class="num transaction-dollars"
+          >
+            $0
+          </td>
+
+        </tr>
+
+
+      </tbody>
+
+
+    </table>
+
+
+  </div>
+
+
+  <!-- ================================= -->
+  <!-- KEEPERS -->
+  <!-- ================================= -->
+
+  <h2 class="section-title">
     Keepers
   </h2>
-<div class="card" id="keepers-card">
-<div class="player-row" data-team-id="1">
-<div class="player-info">
-<span class="player-name text-accent">Big Blue</span>
-<span class="player-meta">
+
+
+  <div
+    class="card"
+    id="keepers-card"
+  >
+
+
+    <div
+      class="player-row"
+      data-team-id="1"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          Big Blue
+        </span>
+
+        <span class="player-meta">
           N/A
         </span>
-</div>
-</div>
-<div class="player-row" data-team-id="3">
-<div class="player-info">
-<span class="player-name text-accent">Burden Of Victory IIIx</span>
-<span class="player-meta">
-          Kenneth Walker III · Round 4
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="player-row"
+      data-team-id="3"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          # Numbers
         </span>
-</div>
-</div>
-<div class="player-row" data-team-id="4">
-<div class="player-info">
-<span class="player-name text-accent">Champagne Step-Papi</span>
-<span class="player-meta">
+
+        <span class="player-meta">
+          Kenneth Walker III
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="player-row"
+      data-team-id="4"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          Champagne Step-Papi
+        </span>
+
+        <span class="player-meta">
           N/A
         </span>
-</div>
-</div>
-<div class="player-row" data-team-id="5">
-<div class="player-info">
-<span class="player-name text-accent">The Bowers Rangers</span>
-<span class="player-meta">
-          Javonte Williams · Round 10
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="player-row"
+      data-team-id="5"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          Nabers Think I'm Sellin Dope
         </span>
-</div>
-</div>
-<div class="player-row" data-team-id="7">
-<div class="player-info">
-<span class="player-name text-accent">Gett'n Saucy</span>
-<span class="player-meta">
+
+        <span class="player-meta">
+          Javonte Williams
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="player-row"
+      data-team-id="7"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          Gett'n Saucy
+        </span>
+
+        <span class="player-meta">
           N/A
         </span>
-</div>
-</div>
-<div class="player-row" data-team-id="8">
-<div class="player-info">
-<span class="player-name text-accent">King Johnson</span>
-<span class="player-meta">
-          Drake Maye · Round 9
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="player-row"
+      data-team-id="8"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          King Johnson
         </span>
-</div>
-</div>
-<div class="player-row" data-team-id="11">
-<div class="player-info">
-<span class="player-name text-accent">More Wins Than PSI</span>
-<span class="player-meta">
+
+        <span class="player-meta">
+          Drake Maye
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="player-row"
+      data-team-id="11"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          More Wins Than PSI
+        </span>
+
+        <span class="player-meta">
           N/A
         </span>
-</div>
-</div>
-<div class="player-row" data-team-id="12">
-<div class="player-info">
-<span class="player-name text-accent">Injured Reserve</span>
-<span class="player-meta">
-          Chris Olave · Round 8
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="player-row"
+      data-team-id="12"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          Injured Reserve
         </span>
-</div>
-</div>
-<div class="player-row" data-team-id="13">
-<div class="player-info">
-<span class="player-name text-accent">Pollard Express</span>
-<span class="player-meta">
+
+        <span class="player-meta">
+          Chris Olave
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="player-row"
+      data-team-id="13"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          Pollard Express
+        </span>
+
+        <span class="player-meta">
           N/A
         </span>
-</div>
-</div>
-<div class="player-row" data-team-id="14">
-<div class="player-info">
-<span class="player-name text-accent">Chance make champions</span>
-<span class="player-meta">
-          Zay Flowers · Round 5
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="player-row"
+      data-team-id="14"
+    >
+
+      <div class="player-info">
+
+        <span class="player-name text-accent">
+          Chance make champions
         </span>
-</div>
-</div>
-</div>
-<!-- ==================================== -->
-<!-- LEAGUE DUES -->
-<!-- ==================================== -->
-<h2 class="section-title">
+
+        <span class="player-meta">
+          Zay Flowers
+        </span>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+  <!-- ================================= -->
+  <!-- LEAGUE DUES -->
+  <!-- ================================= -->
+
+  <h2 class="section-title">
     League Dues
   </h2>
-<div class="card" id="league-dues-card">
-<div class="card-row standing-row" data-team-id="1">
-<span class="standing-info">Big Blue</span>
-<span class="badge">
+
+
+  <div
+    class="card"
+    id="league-dues-card"
+  >
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="1"
+    >
+
+      <span class="standing-info">
+        Big Blue
+      </span>
+
+      <span class="badge">
         Paid
       </span>
-</div>
-<div class="card-row standing-row" data-team-id="3">
-<span class="standing-info">Burden Of Victory IIIx</span>
-<span class="badge">
+
+    </div>
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="3"
+    >
+
+      <span class="standing-info">
+        # Numbers
+      </span>
+
+      <span class="badge">
         Paid
       </span>
-</div>
-<div class="card-row standing-row" data-team-id="4">
-<span class="standing-info">Champagne Step-Papi</span>
-<span class="badge live">
+
+    </div>
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="4"
+    >
+
+      <span class="standing-info">
+        Champagne Step-Papi
+      </span>
+
+      <span class="badge live">
         Not Paid
       </span>
-</div>
-<div class="card-row standing-row" data-team-id="5">
-<span class="standing-info">The Bowers Rangers</span>
-<span class="badge">
+
+    </div>
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="5"
+    >
+
+      <span class="standing-info">
+        Nabers Think I'm Sellin Dope
+      </span>
+
+      <span class="badge">
         Paid
       </span>
-</div>
-<div class="card-row standing-row" data-team-id="7">
-<span class="standing-info">Gett'n Saucy</span>
-<span class="badge">
+
+    </div>
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="7"
+    >
+
+      <span class="standing-info">
+        Gett'n Saucy
+      </span>
+
+      <span class="badge">
         Paid
       </span>
-</div>
-<div class="card-row standing-row" data-team-id="8">
-<span class="standing-info">King Johnson</span>
-<span class="badge">
+
+    </div>
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="8"
+    >
+
+      <span class="standing-info">
+        King Johnson
+      </span>
+
+      <span class="badge">
         Paid
       </span>
-</div>
-<div class="card-row standing-row" data-team-id="11">
-<span class="standing-info">More Wins Than PSI</span>
-<span class="badge">
+
+    </div>
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="11"
+    >
+
+      <span class="standing-info">
+        More Wins Than PSI
+      </span>
+
+      <span class="badge">
         Paid
       </span>
-</div>
-<div class="card-row standing-row" data-team-id="12">
-<span class="standing-info">Injured Reserve</span>
-<span class="badge">
+
+    </div>
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="12"
+    >
+
+      <span class="standing-info">
+        Injured Reserve
+      </span>
+
+      <span class="badge">
         Paid
       </span>
-</div>
-<div class="card-row standing-row" data-team-id="13">
-<span class="standing-info">Pollard Express</span>
-<span class="badge">
+
+    </div>
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="13"
+    >
+
+      <span class="standing-info">
+        Pollard Express
+      </span>
+
+      <span class="badge">
         Paid
       </span>
-</div>
-<div class="card-row standing-row" data-team-id="14">
-<span class="standing-info">Chance make champions</span>
-<span class="badge live">
+
+    </div>
+
+
+    <div
+      class="card-row standing-row"
+      data-team-id="14"
+    >
+
+      <span class="standing-info">
+        Chance make champions
+      </span>
+
+      <span class="badge live">
         Not Paid
       </span>
-</div>
-</div>
+
+    </div>
+
+
+  </div>
+
+
 </main>
+
+
 <footer class="site-footer">
   © 2026 Any Given Sunday
 </footer>
+
+
 <script src="app.js"></script>
+
+
 </body>
 </html>
