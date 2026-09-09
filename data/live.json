@@ -9,7 +9,7 @@
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 130.72,
+        "projection": 123.97,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -545,7 +545,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 7,
-      "projection": 130.72,
+      "projection": 123.97,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -600,11 +600,11 @@
           "slotId": 4
         },
         {
-          "id": "4432665",
-          "name": "Brock Bowers",
+          "id": "3116365",
+          "name": "Mark Andrews",
           "position": "TE",
-          "proTeam": "LV",
-          "projection": 18.60065423,
+          "proTeam": "BAL",
+          "projection": 11.84727655,
           "slot": "TE",
           "slotId": 6
         },
@@ -645,6 +645,15 @@
           "slotId": 20
         },
         {
+          "id": "4432665",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "proTeam": "LV",
+          "projection": 18.60065423,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
           "id": "3116165",
           "name": "Chris Godwin Jr.",
           "position": "WR",
@@ -677,15 +686,6 @@
           "position": "RB",
           "proTeam": "GB",
           "projection": 12.57863157,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "id": "3116365",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "proTeam": "BAL",
-          "projection": 11.84727655,
           "slot": "Bench",
           "slotId": 20
         }
