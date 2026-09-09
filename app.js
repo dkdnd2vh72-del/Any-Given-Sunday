@@ -115,6 +115,20 @@ document.addEventListener("DOMContentLoaded", function () {
     return 0;
   }
 
+  function normalizeCurrentTeamNames() {
+    var renameMap = {
+      "#Numbers": "Burden Of Victory IIIx",
+      "Nabers Think I'm Sellin Dope": "The Bowers Rangers"
+    };
+
+    document.querySelectorAll(".team-name, .standing-info").forEach(function (node) {
+      var currentName = String(node.textContent || "").trim();
+      if (Object.prototype.hasOwnProperty.call(renameMap, currentName)) {
+        node.textContent = renameMap[currentName];
+      }
+    });
+  }
+
   async function renderLiveRosters() {
     if (currentPage !== "rosters") return;
 
@@ -267,6 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  normalizeCurrentTeamNames();
   renderLiveRosters();
   renderLiveStandings();
   renderTransactionData();
