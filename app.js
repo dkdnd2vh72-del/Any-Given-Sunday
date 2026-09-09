@@ -237,6 +237,37 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  async function renderTransactionData() {
+    if (currentPage !== "home" && currentPage !== "transactions") return;
+
+    try {
+      var response = await fetch("data/transactions.json?ts=" + Date.now(), {cache:"no-store"});
+      if (!response.ok) return;
+      var data = await response.json();
+      var counters = data.teamCounters || {};
+      var dollarsPerAdd = Number(data.dollarsPerAdd || 1);
+
+      if (currentPage === "home") {
+        var totalEl = document.getElementById("league-transaction-total");
+        if (totalEl) totalEl.textContent = "$" + Number(data.leagueTotal || 0).toFixed(0);
+      }
+
+      if (currentPage === "transactions") {
+        document.querySelectorAll("#transaction-counter-table tbody tr[data-team-id]").forEach(function (row) {
+          var teamId = row.getAttribute("data-team-id");
+          var adds = Number(counters[teamId] || 0);
+          var addsEl = row.querySelector(".transaction-adds");
+          var dollarsEl = row.querySelector(".transaction-dollars");
+          if (addsEl) addsEl.textContent = String(adds);
+          if (dollarsEl) dollarsEl.textContent = "$" + (adds * dollarsPerAdd).toFixed(0);
+        });
+      }
+    } catch (error) {
+      console.warn("Transaction data could not be rendered; using embedded fallback.", error);
+    }
+  }
+
   renderLiveRosters();
   renderLiveStandings();
+  renderTransactionData();
 });
