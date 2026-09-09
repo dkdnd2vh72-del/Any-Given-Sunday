@@ -1,336 +1,198 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Home | Any Given Sunday</title>
-  <link href="styles.css" rel="stylesheet"/>
-
-  <link href="favicon.png" rel="icon" type="image/png"/>
-  <link href="apple-touch-icon.png" rel="apple-touch-icon"/>
-  <link href="manifest.json" rel="manifest"/>
-
-  <meta content="yes" name="apple-mobile-web-app-capable"/>
-  <meta content="Any Given Sunday" name="apple-mobile-web-app-title"/>
-  <meta content="#0f172a" name="theme-color"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home | Any Given Sunday</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="favicon.png" rel="icon" type="image/png"/>
+<link href="apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="manifest.json" rel="manifest"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="Any Given Sunday" name="apple-mobile-web-app-title"/>
+<meta content="#0f172a" name="theme-color"/>
 </head>
-
 <body data-page="home">
-
 <header class="site-header">
-  <div class="header-inner">
-    <div class="site-title">
+<div class="header-inner">
+<div class="site-title">
       Any Given <span>Sunday</span>
-    </div>
-
-    <button aria-label="Open menu" class="nav-toggle">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
-  </div>
-
-  <nav class="main-nav">
-    <a data-page="home" href="index.html">Home</a>
-    <a data-page="matchups" href="matchups.html">Matchups</a>
-    <a data-page="rosters" href="rosters.html">Rosters</a>
-    <a data-page="history" href="history.html">League History</a>
-    <a data-page="transactions" href="transactions.html">Transactions</a>
-    <a data-page="standings" href="standings.html">Standings</a>
-    <a data-page="rules" href="rules.html">Rules</a>
-  </nav>
+</div>
+<button aria-label="Open menu" class="nav-toggle">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</button>
+</div>
+<nav class="main-nav">
+<a data-page="home" href="index.html">Home</a>
+<a data-page="matchups" href="matchups.html">Matchups</a>
+<a data-page="rosters" href="rosters.html">Rosters</a>
+<a data-page="history" href="history.html">League History</a>
+<a data-page="transactions" href="transactions.html">Transactions</a>
+<a data-page="standings" href="standings.html">Standings</a>
+<a data-page="rules" href="rules.html">Rules</a>
+</nav>
 </header>
-
-
 <main class="page-content">
-
-  <!-- ============================= -->
-  <!-- CURRENT WEEK -->
-  <!-- ============================= -->
-
-  <h2 class="section-title">Current Week</h2>
-
-  <div class="card" style="text-align: center;">
-    <div
-      class="stat-number"
-      id="current-week"
-      style="font-size: 1.6rem;"
-    >
-      Week 1
-    </div>
-  </div>
-
-
-  <!-- ============================= -->
-  <!-- POWER RANKINGS -->
-  <!-- ============================= -->
-
-  <h2
-    class="section-title"
-    id="power-rankings-heading"
-  >
-    Week 1 Power Rankings
-  </h2>
-
-  <div
-    class="card"
-    id="power-rankings"
-  >
-
-    <div
-      class="card-row standing-row"
-      data-team-id="5"
-    >
-      <span class="standing-rank">1</span>
-      <span class="standing-info">
-        Nabers Think I'm Sellin Dope
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-
-    <div
-      class="card-row standing-row"
-      data-team-id="12"
-    >
-      <span class="standing-rank">2</span>
-      <span class="standing-info">
-        Injured Reserve
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-
-    <div
-      class="card-row standing-row"
-      data-team-id="7"
-    >
-      <span class="standing-rank">3</span>
-      <span class="standing-info">
-        Gett'n Saucy
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-
-    <div
-      class="card-row standing-row"
-      data-team-id="13"
-    >
-      <span class="standing-rank">4</span>
-      <span class="standing-info">
-        Pollard Express
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-
-    <div
-      class="card-row standing-row"
-      data-team-id="14"
-    >
-      <span class="standing-rank">5</span>
-      <span class="standing-info">
-        Chance make champions
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-
-    <div
-      class="card-row standing-row"
-      data-team-id="4"
-    >
-      <span class="standing-rank">6</span>
-      <span class="standing-info">
-        Champagne Step-Papi
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-
-    <div
-      class="card-row standing-row"
-      data-team-id="1"
-    >
-      <span class="standing-rank">7</span>
-      <span class="standing-info">
-        Big Blue
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-
-    <div
-      class="card-row standing-row"
-      data-team-id="3"
-    >
-      <span class="standing-rank">8</span>
-      <span class="standing-info">
-        # Numbers
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-
-    <div
-      class="card-row standing-row"
-      data-team-id="8"
-    >
-      <span class="standing-rank">9</span>
-      <span class="standing-info">
-        King Johnson
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-
-    <div
-      class="card-row standing-row"
-      data-team-id="11"
-    >
-      <span class="standing-rank">10</span>
-      <span class="standing-info">
-        More Wins Than PSI
-      </span>
-      <span class="arrow-none">—</span>
-    </div>
-
-  </div>
-
-
-  <!-- ============================= -->
-  <!-- TEAM OF THE WEEK -->
-  <!-- ============================= -->
-
-  <h2 class="section-title">
+<!-- ============================= -->
+<!-- CURRENT WEEK -->
+<!-- ============================= -->
+<h2 class="section-title">Current Week</h2>
+<div class="card" style="text-align: center;">
+<div class="stat-number" id="current-week" style="font-size: 1.6rem;">Week 1</div>
+</div>
+<!-- ============================= -->
+<!-- POWER RANKINGS -->
+<!-- ============================= -->
+<h2 class="section-title" id="power-rankings-heading">Week 1 Power Rankings</h2>
+<div class="card" id="power-rankings">
+<div class="card-row standing-row" data-team-id="5">
+<span class="standing-rank">1</span>
+<span class="standing-info">The Bowers Rangers</span>
+<span class="arrow-none">—</span>
+</div>
+<div class="card-row standing-row" data-team-id="12">
+<span class="standing-rank">2</span>
+<span class="standing-info">Injured Reserve</span>
+<span class="arrow-none">—</span>
+</div>
+<div class="card-row standing-row" data-team-id="7">
+<span class="standing-rank">3</span>
+<span class="standing-info">Gett'n Saucy</span>
+<span class="arrow-none">—</span>
+</div>
+<div class="card-row standing-row" data-team-id="13">
+<span class="standing-rank">4</span>
+<span class="standing-info">Pollard Express</span>
+<span class="arrow-none">—</span>
+</div>
+<div class="card-row standing-row" data-team-id="14">
+<span class="standing-rank">5</span>
+<span class="standing-info">Chance make champions</span>
+<span class="arrow-none">—</span>
+</div>
+<div class="card-row standing-row" data-team-id="4">
+<span class="standing-rank">6</span>
+<span class="standing-info">Champagne Step-Papi</span>
+<span class="arrow-none">—</span>
+</div>
+<div class="card-row standing-row" data-team-id="1">
+<span class="standing-rank">7</span>
+<span class="standing-info">Big Blue</span>
+<span class="arrow-none">—</span>
+</div>
+<div class="card-row standing-row" data-team-id="3">
+<span class="standing-rank">8</span>
+<span class="standing-info">Burden Of Victory IIIx</span>
+<span class="arrow-none">—</span>
+</div>
+<div class="card-row standing-row" data-team-id="8">
+<span class="standing-rank">9</span>
+<span class="standing-info">King Johnson</span>
+<span class="arrow-none">—</span>
+</div>
+<div class="card-row standing-row" data-team-id="11">
+<span class="standing-rank">10</span>
+<span class="standing-info">More Wins Than PSI</span>
+<span class="arrow-none">—</span>
+</div>
+</div>
+<!-- ============================= -->
+<!-- TEAM OF THE WEEK -->
+<!-- ============================= -->
+<h2 class="section-title">
     Team of the Week
   </h2>
-
-  <div class="card">
-
-    <div class="player-row">
-      <div class="player-info">
-        <span class="team-name">
-          <span class="player-position pos-qb">QB</span>—
+<div class="card">
+<div class="player-row">
+<div class="player-info">
+<span class="team-name">
+<span class="player-position pos-qb">QB</span>—
         </span>
-      </div>
-      <span class="player-points">0.0</span>
-    </div>
-
-
-    <div class="player-row">
-      <div class="player-info">
-        <span class="team-name">
-          <span class="player-position pos-rb">RB</span>—
+</div>
+<span class="player-points">0.0</span>
+</div>
+<div class="player-row">
+<div class="player-info">
+<span class="team-name">
+<span class="player-position pos-rb">RB</span>—
         </span>
-      </div>
-      <span class="player-points">0.0</span>
-    </div>
-
-
-    <div class="player-row">
-      <div class="player-info">
-        <span class="team-name">
-          <span class="player-position pos-rb">RB</span>—
+</div>
+<span class="player-points">0.0</span>
+</div>
+<div class="player-row">
+<div class="player-info">
+<span class="team-name">
+<span class="player-position pos-rb">RB</span>—
         </span>
-      </div>
-      <span class="player-points">0.0</span>
-    </div>
-
-
-    <div class="player-row">
-      <div class="player-info">
-        <span class="team-name">
-          <span class="player-position pos-wr">WR</span>—
+</div>
+<span class="player-points">0.0</span>
+</div>
+<div class="player-row">
+<div class="player-info">
+<span class="team-name">
+<span class="player-position pos-wr">WR</span>—
         </span>
-      </div>
-      <span class="player-points">0.0</span>
-    </div>
-
-
-    <div class="player-row">
-      <div class="player-info">
-        <span class="team-name">
-          <span class="player-position pos-wr">WR</span>—
+</div>
+<span class="player-points">0.0</span>
+</div>
+<div class="player-row">
+<div class="player-info">
+<span class="team-name">
+<span class="player-position pos-wr">WR</span>—
         </span>
-      </div>
-      <span class="player-points">0.0</span>
-    </div>
-
-
-    <div class="player-row">
-      <div class="player-info">
-        <span class="team-name">
-          <span class="player-position pos-te">TE</span>—
+</div>
+<span class="player-points">0.0</span>
+</div>
+<div class="player-row">
+<div class="player-info">
+<span class="team-name">
+<span class="player-position pos-te">TE</span>—
         </span>
-      </div>
-      <span class="player-points">0.0</span>
-    </div>
-
-
-    <div class="player-row">
-      <div class="player-info">
-        <span class="team-name">
-          <span class="player-position pos-flex">FLEX</span>—
+</div>
+<span class="player-points">0.0</span>
+</div>
+<div class="player-row">
+<div class="player-info">
+<span class="team-name">
+<span class="player-position pos-flex">FLEX</span>—
         </span>
-      </div>
-      <span class="player-points">0.0</span>
-    </div>
-
-
-    <div class="player-row">
-      <div class="player-info">
-        <span class="team-name">
-          <span class="player-position pos-dst">D/ST</span>—
+</div>
+<span class="player-points">0.0</span>
+</div>
+<div class="player-row">
+<div class="player-info">
+<span class="team-name">
+<span class="player-position pos-dst">D/ST</span>—
         </span>
-      </div>
-      <span class="player-points">0.0</span>
-    </div>
-
-
-    <div class="player-row">
-      <div class="player-info">
-        <span class="team-name">
-          <span class="player-position pos-k">K</span>—
+</div>
+<span class="player-points">0.0</span>
+</div>
+<div class="player-row">
+<div class="player-info">
+<span class="team-name">
+<span class="player-position pos-k">K</span>—
         </span>
-      </div>
-      <span class="player-points">0.0</span>
-    </div>
-
-  </div>
-
-
-  <!-- ============================= -->
-  <!-- LEAGUE TRANSACTION COUNTER -->
-  <!-- $1 PER PLAYER ACQUISITION -->
-  <!-- ============================= -->
-
-  <h2 class="section-title">
+</div>
+<span class="player-points">0.0</span>
+</div>
+</div>
+<!-- ============================= -->
+<!-- LEAGUE TRANSACTION COUNTER -->
+<!-- $1 PER PLAYER ACQUISITION -->
+<!-- ============================= -->
+<h2 class="section-title">
     League Transaction Counter
   </h2>
-
-  <div
-    class="card"
-    style="text-align: center;"
-  >
-    <div
-      class="stat-number"
-      id="league-transaction-total"
-      style="font-size: 1.6rem;"
-    >
-      $0
-    </div>
-  </div>
-
+<div class="card" style="text-align: center;">
+<div class="stat-number" id="league-transaction-total" style="font-size: 1.6rem;">$0</div>
+</div>
 </main>
-
-
 <footer class="site-footer">
   © 2026 Any Given Sunday
 </footer>
-
 <script src="app.js"></script>
-
 </body>
 </html>
