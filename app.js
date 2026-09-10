@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return "pos-" + String(position || "").toLowerCase().replace(/[^a-z]/g, "");
   }
 
-  function playerRow(player) {
+  function playerRow(player, scoreMap) {
     var row = document.createElement("div");
     row.className = "player-row";
 
@@ -88,7 +88,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var points = document.createElement("span");
     points.className = "player-points";
-    points.textContent = "—";
+    var playerId = String(player.id || player.playerId || "");
+    var livePoints = scoreMap && Object.prototype.hasOwnProperty.call(scoreMap, playerId)
+      ? Number(scoreMap[playerId] || 0)
+      : Number(player.actual || 0);
+    points.textContent = livePoints.toFixed(2);
 
     info.appendChild(name);
     info.appendChild(meta);
@@ -137,10 +141,17 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!select || !main) return;
 
     try {
-      var response = await fetch("data/live.json?ts=" + Date.now(), {cache:"no-store"});
-      if (!response.ok) return;
+      var responses = await Promise.all([
+        fetch("data/live.json?ts=" + Date.now(), {cache:"no-store"}),
+        fetch("data/matchups.json?ts=" + Date.now(), {cache:"no-store"}),
+        fetch("data/player-scores.json?ts=" + Date.now(), {cache:"no-store"})
+      ]);
+      if (!responses[0].ok) return;
 
-      var liveData = await response.json();
+      var liveData = await responses[0].json();
+      var matchupData = responses[1].ok ? await responses[1].json() : liveData;
+      var playerScoreData = responses[2].ok ? await responses[2].json() : {scores:{}};
+      var scoreMap = playerScoreData.scores || {};
       var teams = Array.isArray(liveData.teams) ? liveData.teams : [];
       if (!teams.length) return;
 
@@ -165,9 +176,9 @@ document.addEventListener("DOMContentLoaded", function () {
         var total = document.createElement("div");
         total.className = "projection-total";
         var totalLabel = document.createElement("span");
-        totalLabel.textContent = "Week " + (liveData.week || 1) + " Projected Total";
+        totalLabel.textContent = "Week " + (matchupData.week || liveData.week || 1) + " Projected Total";
         var totalValue = document.createElement("strong");
-        var projection = Number(team.projection || projectionForTeam(liveData, teamId) || 0);
+        var projection = Number(projectionForTeam(matchupData, teamId) || team.projection || 0);
         totalValue.textContent = projection.toFixed(2);
         total.appendChild(totalLabel);
         total.appendChild(totalValue);
@@ -188,7 +199,7 @@ document.addEventListener("DOMContentLoaded", function () {
         (team.roster || []).filter(function (p) {
           return p.slot !== "Bench" && p.slot !== "IR";
         }).sort(starterSort).forEach(function (player) {
-          starterCard.appendChild(playerRow(player));
+          starterCard.appendChild(playerRow(player, scoreMap));
         });
         roster.appendChild(starterCard);
 
@@ -205,20 +216,88 @@ document.addEventListener("DOMContentLoaded", function () {
           if (a.slot !== b.slot) return a.slot === "Bench" ? -1 : 1;
           return String(a.name).localeCompare(String(b.name));
         }).forEach(function (player) {
-          reserveCard.appendChild(playerRow(player));
+          reserveCard.appendChild(playerRow(player, scoreMap));
         });
         roster.appendChild(reserveCard);
 
         main.appendChild(roster);
       });
 
-      select.onchange = function () {
+      var requestedRoster = sessionStorage.getItem("ags-selected-roster");
+      if (requestedRoster && Array.from(select.options).some(function (option) { return option.value === requestedRoster; })) {
+        select.value = requestedRoster;
+      }
+
+      function showSelectedRoster() {
         main.querySelectorAll(".roster").forEach(function (node) {
           node.style.display = node.id === select.value ? "" : "none";
         });
-      };
+        sessionStorage.setItem("ags-selected-roster", select.value);
+      }
+
+      showSelectedRoster();
+      select.onchange = showSelectedRoster;
     } catch (error) {
       console.warn("Live roster data could not be rendered; using embedded fallback.", error);
+    }
+  }
+
+  async function renderLiveMatchups() {
+    if (currentPage !== "matchups") return;
+    var weekBlock = document.getElementById("week-1");
+    if (!weekBlock) return;
+
+    try {
+      var response = await fetch("data/matchups.json?ts=" + Date.now(), {cache:"no-store"});
+      if (!response.ok) return;
+      var data = await response.json();
+      var matchups = Array.isArray(data.matchups) ? data.matchups : [];
+      if (!matchups.length) return;
+
+      var title = weekBlock.querySelector(".section-title");
+      weekBlock.innerHTML = "";
+      if (title) weekBlock.appendChild(title);
+
+      matchups.forEach(function (matchup) {
+        var card = document.createElement("div");
+        card.className = "card matchup-card";
+
+        [matchup.home, matchup.away].forEach(function (team, index) {
+          if (index === 1) {
+            var vs = document.createElement("div");
+            vs.className = "matchup-vs";
+            vs.textContent = "vs";
+            card.appendChild(vs);
+          }
+
+          var line = document.createElement("div");
+          line.className = "team-line";
+
+          var name = document.createElement("span");
+          name.className = "team-name";
+          name.textContent = team.teamName;
+
+          var score = document.createElement("span");
+          score.className = "team-score";
+          score.appendChild(document.createTextNode(Number(team.score || 0).toFixed(2)));
+          score.appendChild(document.createElement("br"));
+
+          var projection = document.createElement("span");
+          projection.style.fontSize = "0.75rem";
+          projection.style.fontStyle = "italic";
+          projection.style.fontWeight = "normal";
+          projection.textContent = Number(team.projection || 0).toFixed(2);
+          score.appendChild(projection);
+
+          line.appendChild(name);
+          line.appendChild(score);
+          card.appendChild(line);
+        });
+
+        weekBlock.appendChild(card);
+      });
+    } catch (error) {
+      console.warn("Live matchup data could not be rendered; using embedded fallback.", error);
     }
   }
 
@@ -283,6 +362,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   normalizeCurrentTeamNames();
   renderLiveRosters();
+  renderLiveMatchups();
   renderLiveStandings();
   renderTransactionData();
 });
