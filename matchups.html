@@ -11,6 +11,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="Any Given Sunday" />
   <meta name="theme-color" content="#03101f" />
+  <style>
+    .league-median-card{margin:4px 0 22px;padding:14px 18px;border:1px solid rgba(133,171,203,.22);border-radius:16px;background:linear-gradient(145deg,rgba(10,34,57,.96),rgba(5,23,40,.98));box-shadow:var(--shadow);display:flex;align-items:center;justify-content:space-between;gap:14px}
+    .league-median-label{color:#8ea6ba;font-size:.72rem;font-weight:850;text-transform:uppercase;letter-spacing:.07em}
+    .league-median-score{color:var(--lime);font-size:1.45rem;font-weight:950;letter-spacing:-.03em}
+  </style>
 </head>
 <body data-page="matchups-live">
   <header class="site-header">
@@ -39,6 +44,11 @@
       <option value="13">Week 13</option><option value="14">Week 14</option>
     </select>
 
+    <div class="league-median-card" aria-label="League median score">
+      <span class="league-median-label">League Median</span>
+      <span class="league-median-score" id="league-median-score">13.20</span>
+    </div>
+
     <div class="section-heading-row">
       <h2 id="matchups-week-title">Week 1</h2>
     </div>
@@ -51,5 +61,6 @@
   <footer class="site-footer">© 2026 Any Given Sunday</footer>
   <script src="app.js?v=20260910-8"></script>
   <script src="matchups-live.js?v=20260911-2"></script>
+  <script src="matchups-median.js?v=20260911-1"></script>
 </body>
 </html>
