@@ -1,0 +1,63 @@
+name: Install AGS Home Screen Icon
+
+on:
+  push:
+    paths:
+      - '.icon-part1.b64'
+      - '.icon-part2.b64'
+      - '.icon-part3.b64'
+      - '.icon-part4.b64'
+      - '.github/workflows/install-home-screen-icon.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  install-icon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pillow
+        run: pip install pillow
+
+      - name: Build phone and PWA icons from uploaded AGS artwork
+        run: |
+          cat .icon-part1.b64 .icon-part2.b64 .icon-part3.b64 .icon-part4.b64 | base64 --decode > /tmp/ags-icon.jpg
+          python - <<'PY'
+          from PIL import Image
+
+          src = Image.open('/tmp/ags-icon.jpg').convert('RGB')
+
+          def save_square(size, path):
+              img = src.resize((size, size), Image.Resampling.LANCZOS)
+              img.save(path, 'PNG', optimize=True)
+
+          save_square(180, 'apple-touch-icon.png')
+          save_square(192, 'icon-192.png')
+          save_square(512, 'icon-512.png')
+          save_square(64, 'favicon.png')
+          PY
+
+      - name: Commit generated icon assets
+        run: |
+          if git diff --quiet -- apple-touch-icon.png icon-192.png icon-512.png favicon.png; then
+            echo 'Icon assets already match.'
+            exit 0
+          fi
+
+          git config user.name 'Any Given Sunday Bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add apple-touch-icon.png icon-192.png icon-512.png favicon.png
+          git commit -m 'Use AGS logo for home screen app icon'
+          git pull --rebase origin main
+          git push
