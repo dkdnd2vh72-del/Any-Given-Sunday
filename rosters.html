@@ -1,50 +1,49 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Rosters | Any Given Sunday</title>
-  <link rel="stylesheet" href="styles.css?v=20260910-10" />
-  <link rel="icon" href="favicon.png" type="image/png" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Any Given Sunday" />
-  <meta name="theme-color" content="#03101f" />
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Rosters | Any Given Sunday</title>
+<link href="styles.css?v=20260910-10" rel="stylesheet"/>
+<link href="favicon.png" rel="icon" type="image/png"/>
+<link href="apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="manifest.json" rel="manifest"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="Any Given Sunday" name="apple-mobile-web-app-title"/>
+<meta content="#03101f" name="theme-color"/>
+<style>
     .roster-refresh-status{margin:-2px 0 14px;text-align:center;color:#8ea6ba;font-size:.72rem;font-weight:700}
     .bench-title{margin-top:24px}
     .player-points{min-width:52px;text-align:right}
   </style>
 </head>
 <body data-page="rosters">
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="site-title">Any Given <span>Sunday</span></div>
-    </div>
-    <nav class="main-nav">
-      <a data-page="home" href="index.html">Home</a>
-      <a data-page="matchups" href="matchups.html">Matchups</a>
-      <a data-page="rosters" href="rosters.html">Rosters</a>
-      <a data-page="history" href="history.html">League History</a>
-      <a data-page="transactions" href="transactions.html">Transactions</a>
-      <a data-page="standings" href="standings.html">Standings</a>
-      <a data-page="rules" href="rules.html">Rules</a>
-    </nav>
-  </header>
-
-  <main class="page-content">
-    <h1 class="page-title">Rosters</h1>
-    <select class="team-select" id="team-select" aria-label="Select team">
-      <option>Loading teams…</option>
-    </select>
-    <div id="roster-refresh-status" class="roster-refresh-status">Loading live roster data…</div>
-    <div id="rosters-live" aria-live="polite">
-      <div class="app-loading">Loading rosters…</div>
-    </div>
-  </main>
-
-  <footer class="site-footer">© 2026 Any Given Sunday</footer>
-  <script src="rosters-live.js?v=20260910-10"></script>
+<header class="site-header">
+<div class="header-inner">
+<div class="site-title">Any Given <span>Sunday</span></div>
+</div>
+<nav class="main-nav">
+<a data-page="home" href="index.html">Home</a>
+<a data-page="matchups" href="matchups.html">Matchups</a>
+<a data-page="rosters" href="rosters.html">Rosters</a>
+<a data-page="history" href="history.html">League History</a>
+<a data-page="transactions" href="transactions.html">Transactions</a>
+<a data-page="standings" href="standings.html">Standings</a>
+<a data-page="rules" href="rules.html">Rules</a>
+</nav>
+</header>
+<main class="page-content">
+<h1 class="page-title">Rosters</h1>
+<select aria-label="Select team" class="team-select" id="team-select">
+<option>Loading teams…</option>
+</select>
+<div class="roster-refresh-status" id="roster-refresh-status">Loading live roster data…</div>
+<div aria-live="polite" id="rosters-live">
+<div class="app-loading">Loading rosters…</div>
+</div>
+</main>
+<footer class="site-footer">© 2026 Any Given Sunday</footer>
+<script src="rosters-live.js?v=20260910-10"></script>
 </body>
 </html>
