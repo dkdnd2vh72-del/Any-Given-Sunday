@@ -1,6 +1,22 @@
 {
   "transactions": [
     {
+      "transactionId": "a9aa3106-acf3-4ace-803e-5a5530df6c87",
+      "date": "2026-09-11",
+      "week": 1,
+      "type": "add",
+      "status": "complete",
+      "teamId": 5,
+      "teamName": "The Bowers Rangers",
+      "playersAdded": [
+        {"id":"3917315","name":"Kyler Murray","position":"QB","proTeam":"MIN"}
+      ],
+      "playersDropped": [],
+      "faabBid": 0,
+      "chargedAdds": 1,
+      "charge": 1
+    },
+    {
       "transactionId": "7248960c-dba5-4881-8cd6-d35fc9b5158c",
       "date": "2026-09-09",
       "week": 1,
@@ -21,7 +37,7 @@
     "1": 0,
     "3": 1,
     "4": 0,
-    "5": 0,
+    "5": 1,
     "7": 0,
     "8": 0,
     "11": 0,
@@ -30,5 +46,5 @@
     "14": 0
   },
   "dollarsPerAdd": 1,
-  "leagueTotal": 1
+  "leagueTotal": 2
 }
