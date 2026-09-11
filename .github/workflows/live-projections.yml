@@ -1,0 +1,121 @@
+name: Any Given Sunday Live Projections
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: any-given-sunday-live-projections
+  cancel-in-progress: true
+
+jobs:
+  update-live-projections:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull ESPN live projected totals
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          import requests
+
+          LEAGUE_ID = "820399"
+          SEASON = 2026
+          BASE = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON}/segments/0/leagues/{LEAGUE_ID}"
+          headers = {"User-Agent": "Mozilla/5.0 Any-Given-Sunday-Live-Projections/1.0", "Accept": "application/json"}
+          cookies = {}
+          if os.getenv("ESPN_S2"):
+              cookies["espn_s2"] = os.environ["ESPN_S2"]
+          if os.getenv("ESPN_SWID"):
+              cookies["SWID"] = os.environ["ESPN_SWID"]
+
+          status = requests.get(BASE, params=[("view", "mStatus")], headers=headers, cookies=cookies, timeout=30)
+          status.raise_for_status()
+          status_data = status.json()
+          scoring_period = int(status_data.get("scoringPeriodId") or 1)
+          matchup_period = int((status_data.get("status") or {}).get("currentMatchupPeriod") or scoring_period)
+
+          params = [
+              ("view", "mLiveScoring"),
+              ("view", "mBoxscore"),
+              ("view", "mScoreboard"),
+              ("view", "mMatchupScore"),
+              ("scoringPeriodId", scoring_period),
+              ("matchupPeriodId", matchup_period),
+          ]
+          response = requests.get(BASE, params=params, headers=headers, cookies=cookies, timeout=30)
+          response.raise_for_status()
+          data = response.json()
+
+          projections = {}
+          matchups = []
+          for matchup in data.get("schedule", []):
+              if int(matchup.get("matchupPeriodId") or -1) != matchup_period:
+                  continue
+              out = {}
+              for side_name in ("home", "away"):
+                  side = matchup.get(side_name) or {}
+                  if "teamId" not in side:
+                      continue
+                  team_id = str(side.get("teamId"))
+                  live_projection = side.get("totalProjectedPointsLive")
+                  if live_projection is None:
+                      live_projection = side.get("totalProjectedPoints")
+                  try:
+                      live_projection = round(float(live_projection), 2)
+                  except (TypeError, ValueError):
+                      live_projection = 0.0
+                  projections[team_id] = live_projection
+                  out[side_name] = {"teamId": int(team_id), "projection": live_projection}
+              if "home" in out and "away" in out:
+                  matchups.append(out)
+
+          payload = {
+              "leagueId": LEAGUE_ID,
+              "season": SEASON,
+              "week": matchup_period,
+              "scoringPeriod": scoring_period,
+              "projections": projections,
+              "matchups": matchups,
+          }
+          Path("data").mkdir(exist_ok=True)
+          Path("data/live-projections.json").write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+          print(json.dumps(payload, indent=2))
+          PY
+
+      - name: Commit live projections
+        run: |
+          if git diff --quiet -- data/live-projections.json; then
+            echo "No live projection changes detected."
+            exit 0
+          fi
+
+          git config user.name "Any Given Sunday Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/live-projections.json
+          git commit -m "Update live ESPN projections"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed; retrying..."
+            sleep 3
+          done
+          exit 1
