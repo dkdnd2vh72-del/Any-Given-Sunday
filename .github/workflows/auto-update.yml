@@ -168,6 +168,7 @@ jobs:
 
 
           def team_name(team):
+
               direct = clean_name(
                   team.get("name")
               )
@@ -204,8 +205,7 @@ jobs:
 
 
           # ==========================================
-          # FIRST REQUEST:
-          # FIND CURRENT ESPN SCORING PERIOD
+          # FIRST REQUEST
           # ==========================================
 
           first_params = [
@@ -286,10 +286,7 @@ jobs:
 
 
           # ==========================================
-          # SECOND REQUEST:
-          # GET CURRENT LIVE TEAM / ROSTER / SCORES
-          #
-          # scoringPeriodId is important here.
+          # SECOND REQUEST
           # ==========================================
 
           params = [
@@ -334,9 +331,6 @@ jobs:
 
           # ==========================================
           # PLAYER STATS
-          #
-          # statSourceId 0 = actual
-          # statSourceId 1 = projection
           # ==========================================
 
           def get_player_stat(
@@ -400,7 +394,6 @@ jobs:
 
               if matching:
                   return matching[-1]
-
 
               return 0.0
 
@@ -648,11 +641,9 @@ jobs:
 
 
               item = {
-                  "id":
-                      tid,
+                  "id": tid,
 
-                  "name":
-                      name,
+                  "name": name,
 
                   "htmlId":
                       TEAM_HTML_ID.get(
@@ -660,8 +651,7 @@ jobs:
                           f"team-{tid}"
                       ),
 
-                  "roster":
-                      players,
+                  "roster": players,
 
                   "record": {
                       "wins":
@@ -744,19 +734,6 @@ jobs:
               )
 
 
-              for p in players:
-
-                  print(
-                      "   "
-                      f"{p['slot']} "
-                      f"{p['name']}: "
-                      f"actual "
-                      f"{p['actual']:.2f} | "
-                      f"proj "
-                      f"{p['projection']:.2f}"
-                  )
-
-
           # ==========================================
           # MATCHUPS
           # ==========================================
@@ -809,7 +786,6 @@ jobs:
                   )
 
 
-                  # ESPN schedule total
                   espn_total = safe_float(
                       side.get(
                           "totalPoints",
@@ -818,8 +794,6 @@ jobs:
                   )
 
 
-                  # Our sum of current active
-                  # lineup actual fantasy points.
                   roster_actual = safe_float(
                       team_info.get(
                           "actual",
@@ -828,11 +802,6 @@ jobs:
                   )
 
 
-                  # Prefer ESPN official total when
-                  # ESPN is supplying a real score.
-                  #
-                  # Otherwise fall back to summed
-                  # starter actual points.
                   if espn_total != 0:
                       actual_score = espn_total
                   else:
@@ -863,8 +832,7 @@ jobs:
                   normalized_matchup[
                       side_name
                   ] = {
-                      "teamId":
-                          tid,
+                      "teamId": tid,
 
                       "teamName":
                           team_info.get(
@@ -886,24 +854,10 @@ jobs:
                   }
 
 
-                  print(
-                      f"MATCHUP {side_name}: "
-                      f"{team_info.get('name', tid)} | "
-                      f"ESPN total "
-                      f"{espn_total:.2f} | "
-                      f"Roster actual "
-                      f"{roster_actual:.2f} | "
-                      f"Using "
-                      f"{actual_score:.2f}"
-                  )
-
-
               if (
-                  "home"
-                  in normalized_matchup
+                  "home" in normalized_matchup
                   and
-                  "away"
-                  in normalized_matchup
+                  "away" in normalized_matchup
               ):
 
                   normalized_matchups.append(
@@ -912,11 +866,9 @@ jobs:
 
 
           normalized = {
-              "leagueId":
-                  LEAGUE_ID,
+              "leagueId": LEAGUE_ID,
 
-              "season":
-                  SEASON,
+              "season": SEASON,
 
               "week":
                   current_matchup_period,
@@ -1170,6 +1122,19 @@ jobs:
                   )
 
 
+                  # ==================================
+                  # IMPORTANT:
+                  # Total is starters only
+                  # ==================================
+
+                  team_total = safe_float(
+                      team.get(
+                          "actual",
+                          0
+                      )
+                  )
+
+
                   inner = (
                       '<div class="projection-total">'
 
@@ -1211,6 +1176,26 @@ jobs:
 
                       +
                       '</div>'
+
+                      # ==============================
+                      # STARTING LINEUP TOTAL
+                      # ==============================
+
+                      '<div class="team-total-score">'
+
+                      '<span>Total</span>'
+
+                      '<strong>'
+
+                      f'{team_total:.2f}'
+
+                      '</strong>'
+
+                      '</div>'
+
+                      # ==============================
+                      # BENCH
+                      # ==============================
 
                       '<h2 class="section-title '
                       'bench-title">'
@@ -1279,7 +1264,8 @@ jobs:
 
               print(
                   "rosters.html updated "
-                  "with live player scores"
+                  "with live player scores "
+                  "and starter totals"
               )
 
 
@@ -1295,12 +1281,6 @@ jobs:
 
 
               if not path.exists():
-
-                  print(
-                      "WARNING: matchups.html "
-                      "not found"
-                  )
-
                   return
 
 
@@ -1326,14 +1306,6 @@ jobs:
 
 
               if not current_week_block:
-
-                  print(
-                      "WARNING: matchup block "
-                      f"week-"
-                      f"{current_matchup_period} "
-                      "not found"
-                  )
-
                   return
 
 
@@ -1465,12 +1437,6 @@ jobs:
               path.write_text(
                   str(soup),
                   encoding="utf-8"
-              )
-
-
-              print(
-                  "matchups.html updated "
-                  "with live actual scores"
               )
 
 
@@ -1672,8 +1638,6 @@ jobs:
                               )
 
 
-              # Keeper team names
-
               keepers = soup.find(
                   id="keepers-card"
               )
@@ -1708,8 +1672,6 @@ jobs:
                                   ]["name"]
                               )
 
-
-              # Dues team names
 
               dues = soup.find(
                   id="league-dues-card"
@@ -1837,9 +1799,6 @@ jobs:
                               )
 
 
-              # Total = all ESPN acquisition counts
-              # $1 per acquisition
-
               total_adds = sum(
                   safe_int(
                       team.get(
@@ -1861,12 +1820,6 @@ jobs:
               if transaction_total:
 
                   transaction_total.string = (
-                      f"${total_adds}"
-                  )
-
-
-                  print(
-                      "HOME transaction total: "
                       f"${total_adds}"
                   )
 
