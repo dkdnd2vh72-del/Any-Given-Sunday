@@ -185,7 +185,6 @@ document.addEventListener("DOMContentLoaded", function () {
         starters.forEach(function (player) {
           starterCard.appendChild(playerRow(player, scoreMap));
         });
-        roster.appendChild(starterCard);
 
         var calculatedStarterTotal = starters.reduce(function (sum, player) {
           return sum + livePlayerPoints(player, scoreMap);
@@ -194,14 +193,16 @@ document.addEventListener("DOMContentLoaded", function () {
         var teamTotal = Number.isFinite(officialTeamTotal) ? officialTeamTotal : calculatedStarterTotal;
 
         var scoreTotal = document.createElement("div");
-        scoreTotal.className = "team-total-score";
-        var scoreLabel = document.createElement("span");
+        scoreTotal.className = "player-row team-total-score";
+        var scoreLabel = document.createElement("strong");
         scoreLabel.textContent = "Total";
         var scoreValue = document.createElement("strong");
         scoreValue.textContent = teamTotal.toFixed(2);
         scoreTotal.appendChild(scoreLabel);
         scoreTotal.appendChild(scoreValue);
-        roster.appendChild(scoreTotal);
+        starterCard.appendChild(scoreTotal);
+
+        roster.appendChild(starterCard);
 
         var reserveTitle = document.createElement("h2");
         reserveTitle.className = "section-title bench-title";
