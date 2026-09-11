@@ -3,39 +3,39 @@
   "season": 2026,
   "week": 1,
   "scoringPeriod": 1,
-  "updatedAt": "2026-09-11T12:27:39Z",
+  "updatedAt": "2026-09-11T20:24:16Z",
   "projections": {
-    "1": 125.57,
-    "3": 125.01,
-    "4": 108.21,
-    "5": 115.27,
-    "7": 128.89,
-    "8": 105.99,
-    "11": 120.24,
-    "12": 124.36,
-    "13": 103.77,
-    "14": 131.87
+    "1": 124.8,
+    "3": 125.04,
+    "4": 108.24,
+    "5": 114.98,
+    "7": 128.11,
+    "8": 104.61,
+    "11": 120.15,
+    "12": 123.45,
+    "13": 103.79,
+    "14": 131.65
   },
   "matchups": [
     {
-      "home": {"teamId": 5, "projection": 115.27},
-      "away": {"teamId": 13, "projection": 103.77}
+      "home": {"teamId": 5, "projection": 114.98},
+      "away": {"teamId": 13, "projection": 103.79}
     },
     {
-      "home": {"teamId": 4, "projection": 108.21},
-      "away": {"teamId": 7, "projection": 128.89}
+      "home": {"teamId": 4, "projection": 108.24},
+      "away": {"teamId": 7, "projection": 128.11}
     },
     {
-      "home": {"teamId": 11, "projection": 120.24},
-      "away": {"teamId": 1, "projection": 125.57}
+      "home": {"teamId": 11, "projection": 120.15},
+      "away": {"teamId": 1, "projection": 124.8}
     },
     {
-      "home": {"teamId": 12, "projection": 124.36},
-      "away": {"teamId": 14, "projection": 131.87}
+      "home": {"teamId": 12, "projection": 123.45},
+      "away": {"teamId": 14, "projection": 131.65}
     },
     {
-      "home": {"teamId": 8, "projection": 105.99},
-      "away": {"teamId": 3, "projection": 125.01}
+      "home": {"teamId": 8, "projection": 104.61},
+      "away": {"teamId": 3, "projection": 125.04}
     }
   ]
 }
