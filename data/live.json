@@ -3,13 +3,13 @@
   "matchups": [
     {
       "away": {
-        "projection": 125.4,
+        "projection": 125.41,
         "score": 9.7,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 123.63,
+        "projection": 123.7,
         "score": 12.4,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -17,13 +17,13 @@
     },
     {
       "away": {
-        "projection": 126.44,
+        "projection": 126.45,
         "score": 27.2,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       },
       "home": {
-        "projection": 119.55,
+        "projection": 119.57,
         "score": 21.8,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
@@ -31,7 +31,7 @@
     },
     {
       "away": {
-        "projection": 126.08,
+        "projection": 125.9,
         "score": 22.1,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -51,7 +51,7 @@
         "teamName": "Chance make champions"
       },
       "home": {
-        "projection": 123.44,
+        "projection": 123.49,
         "score": 0.0,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -65,7 +65,7 @@
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
-        "projection": 119.07,
+        "projection": 119.06,
         "score": 25.02,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -82,7 +82,7 @@
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 10,
-      "projection": 126.08,
+      "projection": 125.9,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -137,7 +137,7 @@
           "name": "CeeDee Lamb",
           "position": "WR",
           "proTeam": "DAL",
-          "projection": 17.25,
+          "projection": 17.26,
           "slot": "WR",
           "slotId": 4
         },
@@ -167,7 +167,7 @@
           "name": "Eagles D/ST",
           "position": "D/ST",
           "proTeam": "PHI",
-          "projection": 6.65,
+          "projection": 6.46,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -365,7 +365,7 @@
           "name": "Dak Prescott",
           "position": "QB",
           "proTeam": "DAL",
-          "projection": 16.73,
+          "projection": 16.75,
           "slot": "Bench",
           "slotId": 20
         },
@@ -428,7 +428,7 @@
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 8,
-      "projection": 119.55,
+      "projection": 119.57,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -443,7 +443,7 @@
           "name": "Jayden Daniels",
           "position": "QB",
           "proTeam": "WSH",
-          "projection": 16.83,
+          "projection": 16.84,
           "slot": "QB",
           "slotId": 0
         },
@@ -473,7 +473,7 @@
           "name": "George Pickens",
           "position": "WR",
           "proTeam": "DAL",
-          "projection": 14.68,
+          "projection": 14.69,
           "slot": "WR",
           "slotId": 4
         },
@@ -573,7 +573,7 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "proTeam": "WSH",
-          "projection": 9.72,
+          "projection": 9.73,
           "slot": "Bench",
           "slotId": 20
         },
@@ -596,7 +596,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 7,
-      "projection": 123.63,
+      "projection": 123.7,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -631,7 +631,7 @@
           "name": "Javonte Williams",
           "position": "RB",
           "proTeam": "DAL",
-          "projection": 15.22,
+          "projection": 15.29,
           "slot": "RB",
           "slotId": 2
         },
@@ -774,7 +774,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 6,
-      "projection": 126.44,
+      "projection": 126.45,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -849,7 +849,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "proTeam": "WSH",
-          "projection": 12.27,
+          "projection": 12.28,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -942,7 +942,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 5,
-      "projection": 119.07,
+      "projection": 119.06,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -1027,7 +1027,7 @@
           "name": "Chargers D/ST",
           "position": "D/ST",
           "proTeam": "LAC",
-          "projection": 7.79,
+          "projection": 7.78,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -1087,7 +1087,7 @@
           "name": "Makai Lemon",
           "position": "WR",
           "proTeam": "PHI",
-          "projection": 8.53,
+          "projection": 8.54,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1155,7 +1155,7 @@
           "name": "DeVonta Smith",
           "position": "WR",
           "proTeam": "PHI",
-          "projection": 14.79,
+          "projection": 14.8,
           "slot": "WR",
           "slotId": 4
         },
@@ -1195,7 +1195,7 @@
           "name": "Lions D/ST",
           "position": "D/ST",
           "proTeam": "DET",
-          "projection": 7.72,
+          "projection": 7.71,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -1278,7 +1278,7 @@
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 3,
-      "projection": 123.44,
+      "projection": 123.49,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -1303,7 +1303,7 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "proTeam": "PHI",
-          "projection": 17.66,
+          "projection": 17.67,
           "slot": "RB",
           "slotId": 2
         },
@@ -1363,7 +1363,7 @@
           "name": "Ravens D/ST",
           "position": "D/ST",
           "proTeam": "BAL",
-          "projection": 6.95,
+          "projection": 6.99,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -1446,7 +1446,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 2,
-      "projection": 125.4,
+      "projection": 125.41,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -1511,7 +1511,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "proTeam": "PHI",
-          "projection": 12.98,
+          "projection": 12.99,
           "slot": "TE",
           "slotId": 6
         },
@@ -1591,7 +1591,7 @@
           "name": "Rachaad White",
           "position": "RB",
           "proTeam": "WSH",
-          "projection": 8.86,
+          "projection": 8.87,
           "slot": "Bench",
           "slotId": 20
         },
