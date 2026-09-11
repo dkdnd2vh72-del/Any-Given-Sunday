@@ -101,11 +101,39 @@
     if(!response.ok) throw new Error("live data unavailable"); return response.json();
   }
 
+  async function loadLiveProjections() {
+    try {
+      var response=await fetch("data/live-projections.json?ts="+Date.now(),{cache:"no-store"});
+      if(!response.ok) return null;
+      return await response.json();
+    } catch(error) {
+      return null;
+    }
+  }
+
+  function applyLiveProjections(data,projectionData) {
+    if(!projectionData || !projectionData.projections) return data;
+    var projectionWeek=Number(projectionData.week||projectionData.scoringPeriod||0);
+    var liveWeek=Number(data.week||data.scoringPeriod||0);
+    if(projectionWeek && liveWeek && projectionWeek!==liveWeek) return data;
+    var map=projectionData.projections;
+    (data.matchups||[]).forEach(function(matchup){
+      [matchup.home,matchup.away].forEach(function(side){
+        if(!side) return;
+        var key=String(side.teamId);
+        var value=Number(map[key]);
+        if(Number.isFinite(value) && value>0) side.projection=value;
+      });
+    });
+    return data;
+  }
+
   function showUnavailableWeek(week) {container.innerHTML='<div class="empty-week-card"><strong>Week '+week+'</strong><span>Live matchup cards will appear here when that week becomes available.</span></div>';}
 
   async function render() {
     try {
-      var data=await loadLive();
+      var results=await Promise.all([loadLive(),loadLiveProjections()]);
+      var data=applyLiveProjections(results[0],results[1]);
       var liveWeek=Number(data.week||data.scoringPeriod||1);
       if(select&&!select.dataset.userChanged) select.value=String(liveWeek);
       var requestedWeek=select?Number(select.value||liveWeek):liveWeek;
