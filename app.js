@@ -66,6 +66,13 @@ document.addEventListener("DOMContentLoaded", function () {
     return "pos-" + String(position || "").toLowerCase().replace(/[^a-z]/g, "");
   }
 
+  function livePlayerPoints(player, scoreMap) {
+    var playerId = String(player.id || player.playerId || "");
+    return scoreMap && Object.prototype.hasOwnProperty.call(scoreMap, playerId)
+      ? Number(scoreMap[playerId] || 0)
+      : Number(player.actual || 0);
+  }
+
   function playerRow(player, scoreMap) {
     var row = document.createElement("div");
     row.className = "player-row";
@@ -88,11 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var points = document.createElement("span");
     points.className = "player-points";
-    var playerId = String(player.id || player.playerId || "");
-    var livePoints = scoreMap && Object.prototype.hasOwnProperty.call(scoreMap, playerId)
-      ? Number(scoreMap[playerId] || 0)
-      : Number(player.actual || 0);
-    points.textContent = livePoints.toFixed(2);
+    points.textContent = livePlayerPoints(player, scoreMap).toFixed(2);
 
     info.appendChild(name);
     info.appendChild(meta);
@@ -107,16 +110,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var bo = Object.prototype.hasOwnProperty.call(order, b.slot) ? order[b.slot] : 99;
     if (ao !== bo) return ao - bo;
     return String(a.name).localeCompare(String(b.name));
-  }
-
-  function projectionForTeam(matchupData, teamId) {
-    var matchups = matchupData && matchupData.matchups ? matchupData.matchups : [];
-    for (var i = 0; i < matchups.length; i++) {
-      var matchup = matchups[i];
-      if (matchup.home && Number(matchup.home.teamId) === Number(teamId)) return Number(matchup.home.projection || 0);
-      if (matchup.away && Number(matchup.away.teamId) === Number(teamId)) return Number(matchup.away.projection || 0);
-    }
-    return 0;
   }
 
   function normalizeCurrentTeamNames() {
@@ -143,17 +136,17 @@ document.addEventListener("DOMContentLoaded", function () {
     try {
       var responses = await Promise.all([
         fetch("data/live.json?ts=" + Date.now(), {cache:"no-store"}),
-        fetch("data/matchups.json?ts=" + Date.now(), {cache:"no-store"}),
         fetch("data/player-scores.json?ts=" + Date.now(), {cache:"no-store"})
       ]);
       if (!responses[0].ok) return;
 
       var liveData = await responses[0].json();
-      var matchupData = responses[1].ok ? await responses[1].json() : liveData;
-      var playerScoreData = responses[2].ok ? await responses[2].json() : {scores:{}};
+      var playerScoreData = responses[1].ok ? await responses[1].json() : {scores:{}};
       var scoreMap = playerScoreData.scores || {};
       var teams = Array.isArray(liveData.teams) ? liveData.teams : [];
       if (!teams.length) return;
+
+      var selectedBeforeRefresh = select.value || sessionStorage.getItem("ags-selected-roster");
 
       main.querySelectorAll(".roster").forEach(function (node) { node.remove(); });
       select.innerHTML = "";
@@ -173,17 +166,6 @@ document.addEventListener("DOMContentLoaded", function () {
         roster.id = slug;
         roster.style.display = index === 0 ? "" : "none";
 
-        var total = document.createElement("div");
-        total.className = "projection-total";
-        var totalLabel = document.createElement("span");
-        totalLabel.textContent = "Week " + (matchupData.week || liveData.week || 1) + " Projected Total";
-        var totalValue = document.createElement("strong");
-        var projection = Number(projectionForTeam(matchupData, teamId) || team.projection || 0);
-        totalValue.textContent = projection.toFixed(2);
-        total.appendChild(totalLabel);
-        total.appendChild(totalValue);
-        roster.appendChild(total);
-
         var starterTitle = document.createElement("h2");
         starterTitle.className = "section-title";
         starterTitle.textContent = "Starters";
@@ -194,14 +176,32 @@ document.addEventListener("DOMContentLoaded", function () {
         note.textContent = "QB · RB · RB · WR · WR · TE · FLEX · D/ST · K";
         roster.appendChild(note);
 
+        var starters = (team.roster || []).filter(function (p) {
+          return p.slot !== "Bench" && p.slot !== "IR";
+        }).sort(starterSort);
+
         var starterCard = document.createElement("div");
         starterCard.className = "card";
-        (team.roster || []).filter(function (p) {
-          return p.slot !== "Bench" && p.slot !== "IR";
-        }).sort(starterSort).forEach(function (player) {
+        starters.forEach(function (player) {
           starterCard.appendChild(playerRow(player, scoreMap));
         });
         roster.appendChild(starterCard);
+
+        var calculatedStarterTotal = starters.reduce(function (sum, player) {
+          return sum + livePlayerPoints(player, scoreMap);
+        }, 0);
+        var officialTeamTotal = Number(team.actual);
+        var teamTotal = Number.isFinite(officialTeamTotal) ? officialTeamTotal : calculatedStarterTotal;
+
+        var scoreTotal = document.createElement("div");
+        scoreTotal.className = "team-total-score";
+        var scoreLabel = document.createElement("span");
+        scoreLabel.textContent = "Total";
+        var scoreValue = document.createElement("strong");
+        scoreValue.textContent = teamTotal.toFixed(2);
+        scoreTotal.appendChild(scoreLabel);
+        scoreTotal.appendChild(scoreValue);
+        roster.appendChild(scoreTotal);
 
         var reserveTitle = document.createElement("h2");
         reserveTitle.className = "section-title bench-title";
@@ -223,9 +223,8 @@ document.addEventListener("DOMContentLoaded", function () {
         main.appendChild(roster);
       });
 
-      var requestedRoster = sessionStorage.getItem("ags-selected-roster");
-      if (requestedRoster && Array.from(select.options).some(function (option) { return option.value === requestedRoster; })) {
-        select.value = requestedRoster;
+      if (selectedBeforeRefresh && Array.from(select.options).some(function (option) { return option.value === selectedBeforeRefresh; })) {
+        select.value = selectedBeforeRefresh;
       }
 
       function showSelectedRoster() {
@@ -365,4 +364,8 @@ document.addEventListener("DOMContentLoaded", function () {
   renderLiveMatchups();
   renderLiveStandings();
   renderTransactionData();
+
+  if (currentPage === "rosters") {
+    setInterval(renderLiveRosters, 30000);
+  }
 });
