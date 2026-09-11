@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
 <title>Home | Any Given Sunday</title>
-<link href="styles.css?v=20260910-6" rel="stylesheet"/>
+<link href="styles.css?v=20260910-7" rel="stylesheet"/>
 <link href="favicon.png" rel="icon" type="image/png"/>
 <link href="apple-touch-icon.png" rel="apple-touch-icon"/>
 <link href="manifest.json" rel="manifest"/>
@@ -13,15 +12,21 @@
 <meta content="Any Given Sunday" name="apple-mobile-web-app-title"/>
 <meta content="#03101f" name="theme-color"/>
 <style>
-.site-header .header-inner{position:relative;display:flex;justify-content:center;align-items:center;min-height:76px}
-.site-header .site-title{width:100%;text-align:center;font-size:1.2rem;font-weight:950;letter-spacing:1.3px;text-transform:uppercase}
-.site-header .nav-toggle{position:absolute;right:18px}
+  .header-inner{position:relative!important;display:flex!important;justify-content:center!important;align-items:center!important;min-height:92px!important;padding:12px 64px 10px!important}
+  .site-title{width:100%!important;text-align:center!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;line-height:1.05!important}
+  .site-title .league-name{display:block!important;color:#f7fbff!important;font-size:1.35rem!important;font-weight:950!important;letter-spacing:1.5px!important;text-transform:uppercase!important}
+  .site-title .league-name .sunday{color:#c9ff36!important}
+  .site-title .league-season{display:block!important;color:#8ea6ba!important;font-size:.65rem!important;font-weight:800!important;letter-spacing:.18em!important;margin-top:7px!important;text-transform:uppercase!important}
+  .nav-toggle{position:absolute!important;right:18px!important;top:25px!important}
 </style>
 </head>
 <body data-page="home">
 <header class="site-header">
 <div class="header-inner">
-<div class="site-title">Any Given <span>Sunday</span></div>
+<div class="site-title">
+  <span class="league-name">Any Given <span class="sunday">Sunday</span></span>
+  <span class="league-season">2026 Season</span>
+</div>
 <button aria-label="Open menu" class="nav-toggle"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
 </div>
 <nav class="main-nav">
@@ -70,6 +75,6 @@
 </div>
 </main>
 <footer class="site-footer">© 2026 Any Given Sunday</footer>
-<script src="app.js?v=20260910-6"></script>
+<script src="app.js?v=20260910-7"></script>
 </body>
 </html>
