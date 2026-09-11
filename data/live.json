@@ -590,7 +590,7 @@
       ]
     },
     {
-      "acquisitions": 0,
+      "acquisitions": 1,
       "actual": 12.4,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
@@ -707,16 +707,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4432665",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "proTeam": "LV",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "3116165",
           "name": "Chris Godwin Jr.",
           "position": "WR",
@@ -747,6 +737,16 @@
         },
         {
           "actual": 0.0,
+          "id": "3917315",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "proTeam": "MIN",
+          "projection": 16.37,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
           "id": "4429023",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -754,6 +754,16 @@
           "projection": 12.58,
           "slot": "Bench",
           "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4432665",
+          "name": "Brock Bowers",
+          "position": "TE",
+          "proTeam": "LV",
+          "projection": 0.0,
+          "slot": "IR",
+          "slotId": 21
         }
       ]
     },
