@@ -1,67 +1,62 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Any Given Sunday</title>
-  <link rel="stylesheet" href="styles.css?v=20260910-3" />
-  <link rel="icon" href="favicon.png" type="image/png" />
-  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Any Given Sunday" />
-  <meta name="theme-color" content="#03101f" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Any Given Sunday</title>
+<link href="styles.css?v=20260910-3" rel="stylesheet"/>
+<link href="favicon.png" rel="icon" type="image/png"/>
+<link href="apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="manifest.json" rel="manifest"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="Any Given Sunday" name="apple-mobile-web-app-title"/>
+<meta content="#03101f" name="theme-color"/>
 </head>
 <body data-page="home">
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="site-title">Any Given <span>Sunday</span></div>
-      <button aria-label="Open menu" class="nav-toggle"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
-    </div>
-    <nav class="main-nav">
-      <a data-page="home" href="index.html">Home</a>
-      <a data-page="matchups" href="matchups.html">Matchups</a>
-      <a data-page="rosters" href="rosters.html">Rosters</a>
-      <a data-page="history" href="history.html">League History</a>
-      <a data-page="transactions" href="transactions.html">Transactions</a>
-      <a data-page="standings" href="standings.html">Standings</a>
-      <a data-page="rules" href="rules.html">Rules</a>
-    </nav>
-  </header>
-
-  <main class="page-content home-app">
-    <section class="home-hero">
-      <div class="eyebrow">2026 SEASON</div>
-      <h1>Scores & Matchups</h1>
-      <p id="home-week-label">Week 1</p>
-    </section>
-
-    <div class="week-strip" aria-label="Week selector preview">
-      <a class="week-pill active" href="matchups.html">1<span>WEEK</span></a>
-      <a class="week-pill" href="matchups.html">2<span>WEEK</span></a>
-      <a class="week-pill" href="matchups.html">3<span>WEEK</span></a>
-      <a class="week-pill" href="matchups.html">4<span>WEEK</span></a>
-      <a class="week-pill" href="matchups.html">5<span>WEEK</span></a>
-    </div>
-
-    <div class="section-heading-row">
-      <h2>Live Now</h2>
-      <a href="matchups.html">See all</a>
-    </div>
-
-    <section id="home-live-matchups" class="matchup-stack" aria-live="polite">
-      <div class="app-loading">Loading live matchups…</div>
-    </section>
-
-    <div class="section-heading-row"><h2>League</h2></div>
-    <section class="home-shortcuts">
-      <a class="shortcut-card" href="standings.html"><span class="shortcut-icon">▥</span><span><strong>Standings</strong><small>League table & power rankings</small></span><b>›</b></a>
-      <a class="shortcut-card" href="transactions.html"><span class="shortcut-icon">$</span><span><strong>Transaction Pot</strong><small><span id="league-transaction-total">$0</span> collected</small></span><b>›</b></a>
-      <a class="shortcut-card" href="history.html"><span class="shortcut-icon">★</span><span><strong>League History</strong><small>Champions, records & more</small></span><b>›</b></a>
-    </section>
-  </main>
-
-  <footer class="site-footer">© 2026 Any Given Sunday</footer>
-  <script src="app.js?v=20260910-3"></script>
+<header class="site-header">
+<div class="header-inner">
+<div class="site-title">Any Given <span>Sunday</span></div>
+<button aria-label="Open menu" class="nav-toggle"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+</div>
+<nav class="main-nav">
+<a data-page="home" href="index.html">Home</a>
+<a data-page="matchups" href="matchups.html">Matchups</a>
+<a data-page="rosters" href="rosters.html">Rosters</a>
+<a data-page="history" href="history.html">League History</a>
+<a data-page="transactions" href="transactions.html">Transactions</a>
+<a data-page="standings" href="standings.html">Standings</a>
+<a data-page="rules" href="rules.html">Rules</a>
+</nav>
+</header>
+<main class="page-content home-app">
+<section class="home-hero">
+<div class="eyebrow">2026 SEASON</div>
+<h1>Scores &amp; Matchups</h1>
+<p id="home-week-label">Week 1</p>
+</section>
+<div aria-label="Week selector preview" class="week-strip">
+<a class="week-pill active" href="matchups.html">1<span>WEEK</span></a>
+<a class="week-pill" href="matchups.html">2<span>WEEK</span></a>
+<a class="week-pill" href="matchups.html">3<span>WEEK</span></a>
+<a class="week-pill" href="matchups.html">4<span>WEEK</span></a>
+<a class="week-pill" href="matchups.html">5<span>WEEK</span></a>
+</div>
+<div class="section-heading-row">
+<h2>Live Now</h2>
+<a href="matchups.html">See all</a>
+</div>
+<section aria-live="polite" class="matchup-stack" id="home-live-matchups">
+<div class="app-loading">Loading live matchups…</div>
+</section>
+<div class="section-heading-row"><h2>League</h2></div>
+<section class="home-shortcuts">
+<a class="shortcut-card" href="standings.html"><span class="shortcut-icon">▥</span><span><strong>Standings</strong><small>League table &amp; power rankings</small></span><b>›</b></a>
+<a class="shortcut-card" href="transactions.html"><span class="shortcut-icon">$</span><span><strong>Transaction Pot</strong><small><span id="league-transaction-total">$0</span> collected</small></span><b>›</b></a>
+<a class="shortcut-card" href="history.html"><span class="shortcut-icon">★</span><span><strong>League History</strong><small>Champions, records &amp; more</small></span><b>›</b></a>
+</section>
+</main>
+<footer class="site-footer">© 2026 Any Given Sunday</footer>
+<script src="app.js?v=20260910-3"></script>
 </body>
 </html>
