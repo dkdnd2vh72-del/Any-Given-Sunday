@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Standings | Any Given Sunday</title>
-<link href="styles.css" rel="stylesheet"/>
-<!-- Home screen / app icon setup -->
+<link href="styles.css?v=20260911-3" rel="stylesheet"/>
 <link href="favicon.png" rel="icon" type="image/png"/>
 <link href="apple-touch-icon.png" rel="apple-touch-icon"/>
 <link href="manifest.json" rel="manifest"/>
@@ -15,15 +13,10 @@
 <meta content="#0f172a" name="theme-color"/>
 </head>
 <body data-page="standings">
-<!-- ===== Header / Navigation (same on every page) ===== -->
 <header class="site-header">
 <div class="header-inner">
 <div class="site-title">Any Given <span>Sunday</span></div>
-<button aria-label="Open menu" class="nav-toggle">
-<span class="bar"></span>
-<span class="bar"></span>
-<span class="bar"></span>
-</button>
+<button aria-label="Open menu" class="nav-toggle"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
 </div>
 <nav class="main-nav">
 <a data-page="home" href="index.html">Home</a>
@@ -35,28 +28,16 @@
 <a data-page="rules" href="rules.html">Rules</a>
 </nav>
 </header>
-<!-- ===== Page Content ===== -->
 <main class="page-content">
 <h1 class="page-title">Standings</h1>
-<!-- Wrapped in .table-scroll so it scrolls sideways on narrow phones
-         instead of squishing or breaking the page layout -->
 <div class="table-scroll">
 <table class="standings-table">
-<thead>
-<tr>
-<th>Team</th>
-<th class="num">W</th>
-<th class="num">L</th>
-<th class="num">PF</th>
-</tr>
-</thead>
+<thead><tr><th>Team</th><th class="num">W</th><th class="num">L</th><th class="num">PF</th></tr></thead>
 <tbody><tr><td>Chance make champions</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr><tr><td>Pollard Express</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr><tr><td>Injured Reserve</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr><tr><td>More Wins Than PSI</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr><tr><td>King Johnson</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr><tr><td>Gett'n Saucy</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr><tr><td>The Bowers Rangers</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr><tr><td>Champagne Step-Papi</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr><tr><td>Burden Of Victory IIIx</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr><tr><td>Big Blue</td><td class="num">0</td><td class="num">0</td><td class="num">0.00</td></tr></tbody>
 </table>
 </div>
 </main>
-<footer class="site-footer">
-    © 2026 Any Given Sunday
-  </footer>
+<footer class="site-footer">© 2026 Any Given Sunday</footer>
 <script src="app.js"></script>
 </body>
 </html>
