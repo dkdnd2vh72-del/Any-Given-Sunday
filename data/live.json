@@ -4,7 +4,7 @@
     {
       "away": {
         "projection": 125.43,
-        "score": 81.2,
+        "score": 91.7,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
@@ -18,13 +18,13 @@
     {
       "away": {
         "projection": 126.03,
-        "score": 114.36,
+        "score": 126.86,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       },
       "home": {
         "projection": 119.49,
-        "score": 93.22,
+        "score": 93.34,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       }
@@ -32,13 +32,13 @@
     {
       "away": {
         "projection": 125.86,
-        "score": 79.42,
+        "score": 80.18,
         "teamId": 1,
         "teamName": "Big Blue"
       },
       "home": {
         "projection": 125.41,
-        "score": 54.7,
+        "score": 56.9,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       }
@@ -52,7 +52,7 @@
       },
       "home": {
         "projection": 124.3,
-        "score": 152.86,
+        "score": 155.46,
         "teamId": 12,
         "teamName": "Injured Reserve"
       }
@@ -60,13 +60,13 @@
     {
       "away": {
         "projection": 127.28,
-        "score": 64.84,
+        "score": 70.36,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
         "projection": 119.02,
-        "score": 122.42,
+        "score": 120.42,
         "teamId": 8,
         "teamName": "King Johnson"
       }
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 0,
-      "actual": 79.42,
+      "actual": 80.18,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -92,7 +92,7 @@
       },
       "roster": [
         {
-          "actual": 13.62,
+          "actual": 14.38,
           "id": "4040715",
           "name": "Jalen Hurts",
           "position": "QB",
@@ -244,8 +244,8 @@
       ]
     },
     {
-      "acquisitions": 2,
-      "actual": 64.84,
+      "acquisitions": 1,
+      "actual": 70.36,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -260,7 +260,7 @@
       },
       "roster": [
         {
-          "actual": 6.64,
+          "actual": 11.16,
           "id": "4038941",
           "name": "Justin Herbert",
           "position": "QB",
@@ -340,7 +340,7 @@
           "slotId": 16
         },
         {
-          "actual": 1.0,
+          "actual": 2.0,
           "id": "4362081",
           "name": "Cameron Dicker",
           "position": "K",
@@ -390,7 +390,7 @@
           "slotId": 20
         },
         {
-          "actual": 3.9,
+          "actual": 10.6,
           "id": "4360761",
           "name": "Michael Wilson",
           "position": "WR",
@@ -423,7 +423,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 93.22,
+      "actual": 93.34,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -438,7 +438,7 @@
       },
       "roster": [
         {
-          "actual": 3.32,
+          "actual": 3.44,
           "id": "4426348",
           "name": "Jayden Daniels",
           "position": "QB",
@@ -746,7 +746,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.6,
+          "actual": 1.8,
           "id": "4429023",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -769,7 +769,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 114.36,
+      "actual": 126.86,
       "htmlId": "gettn-saucy",
       "id": 7,
       "name": "Gett'n Saucy",
@@ -794,7 +794,7 @@
           "slotId": 0
         },
         {
-          "actual": 15.6,
+          "actual": 28.1,
           "id": "4890973",
           "name": "Ashton Jeanty",
           "position": "RB",
@@ -937,7 +937,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 122.42,
+      "actual": 120.42,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -1022,7 +1022,7 @@
           "slotId": 23
         },
         {
-          "actual": 5.0,
+          "actual": 3.0,
           "id": "-16024",
           "name": "Chargers D/ST",
           "position": "D/ST",
@@ -1082,7 +1082,7 @@
           "slotId": 20
         },
         {
-          "actual": 1.8,
+          "actual": 2.5,
           "id": "4870795",
           "name": "Makai Lemon",
           "position": "WR",
@@ -1105,7 +1105,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 54.7,
+      "actual": 56.9,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
@@ -1140,7 +1140,7 @@
           "slotId": 2
         },
         {
-          "actual": 7.4,
+          "actual": 7.6,
           "id": "4685382",
           "name": "Omarion Hampton",
           "position": "RB",
@@ -1150,7 +1150,7 @@
           "slotId": 2
         },
         {
-          "actual": 2.2,
+          "actual": 4.2,
           "id": "4241478",
           "name": "DeVonta Smith",
           "position": "WR",
@@ -1273,7 +1273,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 152.86,
+      "actual": 155.46,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1298,7 +1298,7 @@
           "slotId": 0
         },
         {
-          "actual": 6.4,
+          "actual": 6.3,
           "id": "3929630",
           "name": "Saquon Barkley",
           "position": "RB",
@@ -1338,7 +1338,7 @@
           "slotId": 4
         },
         {
-          "actual": 8.3,
+          "actual": 11.0,
           "id": "4572680",
           "name": "Tucker Kraft",
           "position": "TE",
@@ -1398,7 +1398,7 @@
           "slotId": 20
         },
         {
-          "actual": 10.8,
+          "actual": 11.1,
           "id": "4575131",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -1441,7 +1441,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 81.2,
+      "actual": 91.7,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
@@ -1506,7 +1506,7 @@
           "slotId": 4
         },
         {
-          "actual": 11.2,
+          "actual": 13.9,
           "id": "3121023",
           "name": "Dallas Goedert",
           "position": "TE",
@@ -1516,7 +1516,7 @@
           "slotId": 6
         },
         {
-          "actual": 11.4,
+          "actual": 19.2,
           "id": "4612826",
           "name": "Ladd McConkey",
           "position": "WR",
@@ -1586,7 +1586,7 @@
           "slotId": 20
         },
         {
-          "actual": 2.2,
+          "actual": 3.5,
           "id": "4697815",
           "name": "Rachaad White",
           "position": "RB",
@@ -1764,7 +1764,7 @@
           "slotId": 20
         },
         {
-          "actual": 1.6,
+          "actual": 4.7,
           "id": "4428718",
           "name": "Tre Tucker",
           "position": "WR",
