@@ -1,71 +1,42 @@
 {
   "leagueId": "820399",
+  "season": 2026,
+  "week": 1,
+  "scoringPeriod": 1,
+  "updatedAt": "2026-09-13T21:16:00Z",
+  "projectedMedian": 120.76,
+  "projections": {
+    "1": 118.96,
+    "3": 104.75,
+    "4": 129.59,
+    "5": 120.38,
+    "7": 132.67,
+    "8": 121.15,
+    "11": 105.71,
+    "12": 169.13,
+    "13": 117.52,
+    "14": 144.86
+  },
   "matchups": [
     {
-      "away": {
-        "projection": 125.44,
-        "teamId": 13
-      },
-      "home": {
-        "projection": 123.73,
-        "teamId": 5
-      }
+      "home": {"teamId": 5, "projection": 120.38},
+      "away": {"teamId": 13, "projection": 117.52}
     },
     {
-      "away": {
-        "projection": 126.03,
-        "teamId": 7
-      },
-      "home": {
-        "projection": 119.5,
-        "teamId": 4
-      }
+      "home": {"teamId": 4, "projection": 129.59},
+      "away": {"teamId": 7, "projection": 132.67}
     },
     {
-      "away": {
-        "projection": 125.87,
-        "teamId": 1
-      },
-      "home": {
-        "projection": 125.4,
-        "teamId": 11
-      }
+      "home": {"teamId": 11, "projection": 105.71},
+      "away": {"teamId": 1, "projection": 118.96}
     },
     {
-      "away": {
-        "projection": 125.14,
-        "teamId": 14
-      },
-      "home": {
-        "projection": 124.32,
-        "teamId": 12
-      }
+      "home": {"teamId": 12, "projection": 169.13},
+      "away": {"teamId": 14, "projection": 144.86}
     },
     {
-      "away": {
-        "projection": 127.29,
-        "teamId": 3
-      },
-      "home": {
-        "projection": 119.03,
-        "teamId": 8
-      }
+      "home": {"teamId": 8, "projection": 121.15},
+      "away": {"teamId": 3, "projection": 104.75}
     }
-  ],
-  "projections": {
-    "1": 125.87,
-    "11": 125.4,
-    "12": 124.32,
-    "13": 125.44,
-    "14": 125.14,
-    "3": 127.29,
-    "4": 119.5,
-    "5": 123.73,
-    "7": 126.03,
-    "8": 119.03
-  },
-  "scoringPeriod": 1,
-  "season": 2026,
-  "updatedAt": "2026-09-13T21:15:46.070215+00:00",
-  "week": 1
+  ]
 }
