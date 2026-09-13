@@ -1,42 +1,72 @@
 {
   "leagueId": "820399",
-  "season": 2026,
-  "week": 1,
-  "scoringPeriod": 1,
-  "updatedAt": "2026-09-13T21:16:00Z",
-  "projectedMedian": 120.76,
-  "projections": {
-    "1": 118.96,
-    "3": 104.75,
-    "4": 129.59,
-    "5": 120.38,
-    "7": 132.67,
-    "8": 121.15,
-    "11": 105.71,
-    "12": 169.13,
-    "13": 117.52,
-    "14": 144.86
-  },
   "matchups": [
     {
-      "home": {"teamId": 5, "projection": 120.38},
-      "away": {"teamId": 13, "projection": 117.52}
+      "away": {
+        "projection": 117.59,
+        "teamId": 13
+      },
+      "home": {
+        "projection": 120.38,
+        "teamId": 5
+      }
     },
     {
-      "home": {"teamId": 4, "projection": 129.59},
-      "away": {"teamId": 7, "projection": 132.67}
+      "away": {
+        "projection": 128.75,
+        "teamId": 7
+      },
+      "home": {
+        "projection": 127.74,
+        "teamId": 4
+      }
     },
     {
-      "home": {"teamId": 11, "projection": 105.71},
-      "away": {"teamId": 1, "projection": 118.96}
+      "away": {
+        "projection": 121.6,
+        "teamId": 1
+      },
+      "home": {
+        "projection": 103.1,
+        "teamId": 11
+      }
     },
     {
-      "home": {"teamId": 12, "projection": 169.13},
-      "away": {"teamId": 14, "projection": 144.86}
+      "away": {
+        "projection": 143.43,
+        "teamId": 14
+      },
+      "home": {
+        "projection": 174.35,
+        "teamId": 12
+      }
     },
     {
-      "home": {"teamId": 8, "projection": 121.15},
-      "away": {"teamId": 3, "projection": 104.75}
+      "away": {
+        "projection": 103.1,
+        "teamId": 3
+      },
+      "home": {
+        "projection": 119.97,
+        "teamId": 8
+      }
     }
-  ]
+  ],
+  "projectedMedian": 120.99,
+  "projections": {
+    "1": 121.6,
+    "11": 103.1,
+    "12": 174.35,
+    "13": 117.59,
+    "14": 143.43,
+    "3": 103.1,
+    "4": 127.74,
+    "5": 120.38,
+    "7": 128.75,
+    "8": 119.97
+  },
+  "scoringPeriod": 1,
+  "season": 2026,
+  "updatedAt": "2026-09-13T21:29:27.516924+00:00",
+  "week": 1
 }
