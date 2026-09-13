@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install updater dependencies
+        run: pip install requests
+
       - name: Pull ESPN live projected totals
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
@@ -92,9 +95,6 @@ jobs:
 
                   team_id = str(side.get("teamId"))
 
-                  # ESPN's totalProjectedPoints is the changing matchup projection.
-                  # totalProjectedPointsLive is retained only as a fallback because
-                  # it is not populated consistently in every ESPN response view.
                   live_projection = side.get("totalProjectedPoints")
                   if live_projection is None:
                       live_projection = side.get("totalProjectedPointsLive")
