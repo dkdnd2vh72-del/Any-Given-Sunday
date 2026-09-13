@@ -45,7 +45,7 @@ jobs:
           SEASON = 2026
           BASE = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON}/segments/0/leagues/{LEAGUE_ID}"
           headers = {
-              "User-Agent": "Mozilla/5.0 Any-Given-Sunday-Live-Projections/2.0",
+              "User-Agent": "Mozilla/5.0 Any-Given-Sunday-Live-Projections/3.0",
               "Accept": "application/json",
           }
           cookies = {}
@@ -66,12 +66,18 @@ jobs:
           scoring_period = int(status_data.get("scoringPeriodId") or 1)
           matchup_period = int((status_data.get("status") or {}).get("currentMatchupPeriod") or scoring_period)
 
+          # IMPORTANT: mMatchupScore by itself exposes the static/pregame totalProjectedPoints.
+          # mLiveScoring + mBoxscore + mScoreboard exposes totalProjectedPointsLive, which is
+          # the in-game projected final score shown by ESPN.
           response = requests.get(
               BASE,
               params=[
-                  ("view", "mMatchup"),
+                  ("view", "mLiveScoring"),
+                  ("view", "mBoxscore"),
+                  ("view", "mScoreboard"),
                   ("view", "mMatchupScore"),
                   ("scoringPeriodId", scoring_period),
+                  ("matchupPeriodId", matchup_period),
               ],
               headers=headers,
               cookies=cookies,
@@ -95,14 +101,21 @@ jobs:
 
                   team_id = str(side.get("teamId"))
 
-                  live_projection = side.get("totalProjectedPoints")
+                  # Prefer ESPN's true live projected final. Only fall back to the
+                  # static pregame projection when the live field is unavailable.
+                  live_projection = side.get("totalProjectedPointsLive")
                   if live_projection is None:
-                      live_projection = side.get("totalProjectedPointsLive")
+                      live_projection = side.get("totalProjectedPoints")
 
                   try:
                       live_projection = round(float(live_projection), 2)
                   except (TypeError, ValueError):
                       live_projection = 0.0
+
+                  if live_projection <= 0:
+                      raise RuntimeError(
+                          f"No valid live projection for team {team_id}; refusing to publish stale projections"
+                      )
 
                   projections[team_id] = live_projection
                   out[side_name] = {
@@ -114,7 +127,15 @@ jobs:
                   matchups.append(out)
 
           if not projections:
-              raise RuntimeError("ESPN returned no matchup projections; refusing to overwrite the last good projection file")
+              raise RuntimeError("ESPN returned no live matchup projections; refusing to overwrite the last good projection file")
+
+          values = sorted(projections.values())
+          midpoint = len(values) // 2
+          projected_median = (
+              values[midpoint]
+              if len(values) % 2
+              else round((values[midpoint - 1] + values[midpoint]) / 2, 2)
+          )
 
           payload = {
               "leagueId": LEAGUE_ID,
@@ -122,6 +143,7 @@ jobs:
               "week": matchup_period,
               "scoringPeriod": scoring_period,
               "updatedAt": datetime.now(timezone.utc).isoformat(),
+              "projectedMedian": projected_median,
               "projections": projections,
               "matchups": matchups,
           }
