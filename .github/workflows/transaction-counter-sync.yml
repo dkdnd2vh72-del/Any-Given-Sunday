@@ -1,0 +1,58 @@
+name: Any Given Sunday Transaction Counter Sync
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Any Given Sunday Auto Update
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: any-given-sunday-transaction-counter-sync
+  cancel-in-progress: true
+
+jobs:
+  sync-transactions:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Refresh cumulative acquisition counters
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        run: python scripts/update_transaction_counters.py
+
+      - name: Commit only when counters changed
+        run: |
+          if git diff --quiet; then
+            echo "No transaction counter changes detected."
+            exit 0
+          fi
+
+          git config user.name "Any Given Sunday Bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add \
+            transactions.html \
+            index.html \
+            data/live.json \
+            data/transactions.json
+
+          git commit -m "Sync cumulative ESPN acquisition counters"
+          git push

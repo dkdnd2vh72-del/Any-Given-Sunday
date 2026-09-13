@@ -1,6 +1,24 @@
 {
   "transactions": [
     {
+      "transactionId": "0f3c5abc-68d1-4a13-bd9e-ec21649cd5cd",
+      "date": "2026-09-13",
+      "week": 1,
+      "type": "add",
+      "status": "complete",
+      "teamId": 3,
+      "teamName": "Burden Of Victory IIIx",
+      "playersAdded": [
+        {"id":"-16030","name":"Jaguars D/ST","position":"D/ST","proTeam":"JAX"}
+      ],
+      "playersDropped": [
+        {"id":"3916433","name":"Jakobi Meyers","position":"WR","proTeam":"JAX"}
+      ],
+      "faabBid": 0,
+      "chargedAdds": 1,
+      "charge": 1
+    },
+    {
       "transactionId": "a9aa3106-acf3-4ace-803e-5a5530df6c87",
       "date": "2026-09-11",
       "week": 1,
@@ -35,7 +53,7 @@
   ],
   "teamCounters": {
     "1": 0,
-    "3": 1,
+    "3": 2,
     "4": 0,
     "5": 1,
     "7": 0,
@@ -46,5 +64,5 @@
     "14": 0
   },
   "dollarsPerAdd": 1,
-  "leagueTotal": 2
+  "leagueTotal": 3
 }
