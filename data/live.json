@@ -9,7 +9,7 @@
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 123.72,
+        "projection": 124.61,
         "score": 12.4,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -596,7 +596,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 7,
-      "projection": 123.72,
+      "projection": 124.61,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -607,11 +607,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "3139477",
-          "name": "Patrick Mahomes",
+          "id": "3917315",
+          "name": "Kyler Murray",
           "position": "QB",
-          "proTeam": "KC",
-          "projection": 15.48,
+          "proTeam": "MIN",
+          "projection": 16.37,
           "slot": "QB",
           "slotId": 0
         },
@@ -737,21 +737,21 @@
         },
         {
           "actual": 0.0,
-          "id": "3917315",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "proTeam": "MIN",
-          "projection": 16.37,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4429023",
           "name": "MarShawn Lloyd",
           "position": "RB",
           "proTeam": "GB",
           "projection": 12.75,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "3139477",
+          "name": "Patrick Mahomes",
+          "position": "QB",
+          "proTeam": "KC",
+          "projection": 15.48,
           "slot": "Bench",
           "slotId": 20
         },
