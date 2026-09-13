@@ -4,13 +4,13 @@
     {
       "away": {
         "projection": 125.43,
-        "score": 67.6,
+        "score": 76.8,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 124.65,
-        "score": 89.06,
+        "projection": 123.73,
+        "score": 89.6,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       }
@@ -18,13 +18,13 @@
     {
       "away": {
         "projection": 126.03,
-        "score": 98.86,
+        "score": 104.36,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       },
       "home": {
         "projection": 119.49,
-        "score": 90.62,
+        "score": 90.66,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       }
@@ -32,13 +32,13 @@
     {
       "away": {
         "projection": 125.86,
-        "score": 70.36,
+        "score": 75.04,
         "teamId": 1,
         "teamName": "Big Blue"
       },
       "home": {
         "projection": 125.41,
-        "score": 54.3,
+        "score": 53.3,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       }
@@ -46,13 +46,13 @@
     {
       "away": {
         "projection": 125.15,
-        "score": 131.96,
+        "score": 134.06,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
         "projection": 124.3,
-        "score": 123.66,
+        "score": 125.96,
         "teamId": 12,
         "teamName": "Injured Reserve"
       }
@@ -60,13 +60,13 @@
     {
       "away": {
         "projection": 127.28,
-        "score": 58.4,
+        "score": 60.38,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
         "projection": 119.02,
-        "score": 108.42,
+        "score": 110.42,
         "teamId": 8,
         "teamName": "King Johnson"
       }
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 0,
-      "actual": 70.36,
+      "actual": 75.04,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -92,7 +92,7 @@
       },
       "roster": [
         {
-          "actual": 3.56,
+          "actual": 8.24,
           "id": "4040715",
           "name": "Jalen Hurts",
           "position": "QB",
@@ -244,8 +244,8 @@
       ]
     },
     {
-      "acquisitions": 2,
-      "actual": 58.4,
+      "acquisitions": 1,
+      "actual": 60.38,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -260,7 +260,7 @@
       },
       "roster": [
         {
-          "actual": 2.9,
+          "actual": 3.38,
           "id": "4038941",
           "name": "Justin Herbert",
           "position": "QB",
@@ -270,7 +270,7 @@
           "slotId": 0
         },
         {
-          "actual": 4.5,
+          "actual": 6.0,
           "id": "4429160",
           "name": "De'Von Achane",
           "position": "RB",
@@ -423,7 +423,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 90.62,
+      "actual": 90.66,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -438,7 +438,7 @@
       },
       "roster": [
         {
-          "actual": 0.72,
+          "actual": 0.76,
           "id": "4426348",
           "name": "Jayden Daniels",
           "position": "QB",
@@ -591,12 +591,12 @@
     },
     {
       "acquisitions": 1,
-      "actual": 89.06,
+      "actual": 89.6,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 7,
-      "projection": 124.65,
+      "projection": 123.73,
       "record": {
         "losses": 0,
         "pointsAgainst": 0.0,
@@ -606,12 +606,12 @@
       },
       "roster": [
         {
-          "actual": -0.54,
-          "id": "3917315",
-          "name": "Kyler Murray",
+          "actual": 0.0,
+          "id": "3139477",
+          "name": "Patrick Mahomes",
           "position": "QB",
-          "proTeam": "MIN",
-          "projection": 16.4,
+          "proTeam": "KC",
+          "projection": 15.48,
           "slot": "QB",
           "slotId": 0
         },
@@ -736,22 +736,22 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": -0.38,
+          "id": "3917315",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "proTeam": "MIN",
+          "projection": 16.4,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.4,
           "id": "4429023",
           "name": "MarShawn Lloyd",
           "position": "RB",
           "proTeam": "GB",
           "projection": 12.75,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "3139477",
-          "name": "Patrick Mahomes",
-          "position": "QB",
-          "proTeam": "KC",
-          "projection": 15.48,
           "slot": "Bench",
           "slotId": 20
         },
@@ -769,7 +769,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 98.86,
+      "actual": 104.36,
       "htmlId": "gettn-saucy",
       "id": 7,
       "name": "Gett'n Saucy",
@@ -794,7 +794,7 @@
           "slotId": 0
         },
         {
-          "actual": 4.0,
+          "actual": 5.8,
           "id": "4890973",
           "name": "Ashton Jeanty",
           "position": "RB",
@@ -804,7 +804,7 @@
           "slotId": 2
         },
         {
-          "actual": 8.4,
+          "actual": 12.1,
           "id": "4870808",
           "name": "Jeremiyah Love",
           "position": "RB",
@@ -937,7 +937,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 108.42,
+      "actual": 110.42,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -1012,7 +1012,7 @@
           "slotId": 6
         },
         {
-          "actual": 15.1,
+          "actual": 17.1,
           "id": "4248528",
           "name": "Christian Watson",
           "position": "WR",
@@ -1062,7 +1062,7 @@
           "slotId": 20
         },
         {
-          "actual": -0.3,
+          "actual": 0.5,
           "id": "4360569",
           "name": "Jordan Mason",
           "position": "RB",
@@ -1105,7 +1105,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 54.3,
+      "actual": 53.3,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
@@ -1140,7 +1140,7 @@
           "slotId": 2
         },
         {
-          "actual": 7.0,
+          "actual": 6.0,
           "id": "4685382",
           "name": "Omarion Hampton",
           "position": "RB",
@@ -1273,7 +1273,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 123.66,
+      "actual": 125.96,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1298,7 +1298,7 @@
           "slotId": 0
         },
         {
-          "actual": 0.9,
+          "actual": 1.4,
           "id": "3929630",
           "name": "Saquon Barkley",
           "position": "RB",
@@ -1328,7 +1328,7 @@
           "slotId": 4
         },
         {
-          "actual": 3.2,
+          "actual": 5.0,
           "id": "4262921",
           "name": "Justin Jefferson",
           "position": "WR",
@@ -1408,7 +1408,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 0.3,
           "id": "4686658",
           "name": "Mike Washington Jr.",
           "position": "RB",
@@ -1441,7 +1441,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 67.6,
+      "actual": 76.8,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
@@ -1506,7 +1506,7 @@
           "slotId": 4
         },
         {
-          "actual": 0.0,
+          "actual": 9.2,
           "id": "3121023",
           "name": "Dallas Goedert",
           "position": "TE",
@@ -1609,7 +1609,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 131.96,
+      "actual": 134.06,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
@@ -1674,7 +1674,7 @@
           "slotId": 4
         },
         {
-          "actual": 9.9,
+          "actual": 12.0,
           "id": "4361307",
           "name": "Trey McBride",
           "position": "TE",
