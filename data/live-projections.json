@@ -1,41 +1,71 @@
 {
   "leagueId": "820399",
-  "season": 2026,
-  "week": 1,
-  "scoringPeriod": 1,
-  "updatedAt": "2026-09-13T20:53:32Z",
-  "projections": {
-    "1": 115.84,
-    "3": 109.29,
-    "4": 130.73,
-    "5": 118.64,
-    "7": 132.71,
-    "8": 119.35,
-    "11": 110.41,
-    "12": 171.16,
-    "13": 111.25,
-    "14": 145.14
-  },
   "matchups": [
     {
-      "home": {"teamId": 5, "projection": 118.64},
-      "away": {"teamId": 13, "projection": 111.25}
+      "away": {
+        "projection": 125.44,
+        "teamId": 13
+      },
+      "home": {
+        "projection": 124.65,
+        "teamId": 5
+      }
     },
     {
-      "home": {"teamId": 4, "projection": 130.73},
-      "away": {"teamId": 7, "projection": 132.71}
+      "away": {
+        "projection": 126.03,
+        "teamId": 7
+      },
+      "home": {
+        "projection": 119.5,
+        "teamId": 4
+      }
     },
     {
-      "home": {"teamId": 11, "projection": 110.41},
-      "away": {"teamId": 1, "projection": 115.84}
+      "away": {
+        "projection": 125.87,
+        "teamId": 1
+      },
+      "home": {
+        "projection": 125.4,
+        "teamId": 11
+      }
     },
     {
-      "home": {"teamId": 12, "projection": 171.16},
-      "away": {"teamId": 14, "projection": 145.14}
+      "away": {
+        "projection": 125.14,
+        "teamId": 14
+      },
+      "home": {
+        "projection": 124.32,
+        "teamId": 12
+      }
     },
     {
-      "home": {"teamId": 8, "projection": 119.35},
-      "away": {"teamId": 3, "projection": 109.29}
+      "away": {
+        "projection": 127.29,
+        "teamId": 3
+      },
+      "home": {
+        "projection": 119.03,
+        "teamId": 8
+      }
     }
-  ]
+  ],
+  "projections": {
+    "1": 125.87,
+    "11": 125.4,
+    "12": 124.32,
+    "13": 125.44,
+    "14": 125.14,
+    "3": 127.29,
+    "4": 119.5,
+    "5": 124.65,
+    "7": 126.03,
+    "8": 119.03
+  },
+  "scoringPeriod": 1,
+  "season": 2026,
+  "updatedAt": "2026-09-13T20:59:09.496233+00:00",
+  "week": 1
 }
