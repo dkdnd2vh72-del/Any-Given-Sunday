@@ -9,10 +9,20 @@
       "teamId": 3,
       "teamName": "Burden Of Victory IIIx",
       "playersAdded": [
-        {"id":"-16030","name":"Jaguars D/ST","position":"D/ST","proTeam":"JAX"}
+        {
+          "id": "-16030",
+          "name": "Jaguars D/ST",
+          "position": "D/ST",
+          "proTeam": "JAX"
+        }
       ],
       "playersDropped": [
-        {"id":"3916433","name":"Jakobi Meyers","position":"WR","proTeam":"JAX"}
+        {
+          "id": "3916433",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "proTeam": "JAX"
+        }
       ],
       "faabBid": 0,
       "chargedAdds": 1,
@@ -27,7 +37,12 @@
       "teamId": 5,
       "teamName": "The Bowers Rangers",
       "playersAdded": [
-        {"id":"3917315","name":"Kyler Murray","position":"QB","proTeam":"MIN"}
+        {
+          "id": "3917315",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "proTeam": "MIN"
+        }
       ],
       "playersDropped": [],
       "faabBid": 0,
@@ -43,7 +58,12 @@
       "teamId": 3,
       "teamName": "Burden Of Victory IIIx",
       "playersAdded": [
-        {"id":"4038941","name":"Justin Herbert","position":"QB","proTeam":"LAC"}
+        {
+          "id": "4038941",
+          "name": "Justin Herbert",
+          "position": "QB",
+          "proTeam": "LAC"
+        }
       ],
       "playersDropped": [],
       "faabBid": 1,
@@ -53,7 +73,7 @@
   ],
   "teamCounters": {
     "1": 0,
-    "3": 2,
+    "3": 1,
     "4": 0,
     "5": 1,
     "7": 0,
@@ -64,5 +84,5 @@
     "14": 0
   },
   "dollarsPerAdd": 1,
-  "leagueTotal": 3
+  "leagueTotal": 2
 }
