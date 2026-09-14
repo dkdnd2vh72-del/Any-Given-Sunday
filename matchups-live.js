@@ -6,7 +6,7 @@
   if (!container) return;
 
   var style = document.createElement("style");
-  style.textContent = ".matchup-expand-row{display:flex;justify-content:center;margin-top:9px;padding-top:9px;border-top:1px solid rgba(133,171,203,.12)}.matchup-expand-btn{display:flex;align-items:center;gap:5px;min-height:32px;padding:4px 12px;border:1px solid rgba(133,171,203,.2);border-radius:999px;background:rgba(255,255,255,.025);color:#9db1c2;font-size:.63rem;font-weight:850;cursor:pointer}.matchup-expand-btn .chevron{font-size:.9rem;line-height:1;transition:transform .18s ease}.matchup-expand-btn[aria-expanded=true]{color:var(--lime);border-color:rgba(201,255,54,.28);background:rgba(201,255,54,.06)}.matchup-expand-btn[aria-expanded=true] .chevron{transform:rotate(180deg)}.matchup-rosters{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px;margin-top:10px;padding-top:10px;border-top:1px solid rgba(133,171,203,.12)}.matchup-rosters[hidden]{display:none!important}.matchup-roster-team{min-width:0;padding:7px 6px;border:1px solid rgba(133,171,203,.15);border-radius:11px;background:rgba(2,13,25,.45)}.matchup-roster-title{text-align:center;font-size:.61rem;font-weight:900;line-height:1.15;margin-bottom:5px;color:#eaf4fb;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.matchup-starter-row{display:grid;grid-template-columns:25px minmax(0,1fr) 31px;align-items:center;gap:3px;min-height:27px;border-top:1px solid rgba(133,171,203,.09);font-size:.57rem}.matchup-starter-row:first-of-type{border-top:0}.matchup-starter-slot{color:var(--lime);font-size:.49rem;font-weight:900;white-space:nowrap}.matchup-starter-name{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.matchup-starter-score{text-align:right;font-size:.55rem;font-weight:900;color:#9be7ff}.matchup-roster-total{display:flex;justify-content:space-between;align-items:center;margin-top:5px;padding-top:6px;border-top:1px solid rgba(201,255,54,.22);color:var(--lime);font-size:.61rem;font-weight:950}.edge-bar{display:flex!important;position:relative!important;overflow:hidden!important;height:7px!important;background:#2a4053!important;border-radius:999px!important}.edge-segment{display:block!important;height:100%!important;min-width:0!important;transition:width .25s ease}.edge-segment-home{background:#55738a!important}.edge-segment-away{background:#55738a!important}.edge-segment.favored{background:linear-gradient(90deg,#a9ea2d,var(--lime))!important;box-shadow:0 0 10px rgba(201,255,54,.35)}.edge-divider{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:rgba(255,255,255,.55);z-index:3}@media(max-width:360px){.matchup-rosters{gap:4px}.matchup-roster-team{padding:6px 4px}.matchup-starter-row{grid-template-columns:22px minmax(0,1fr) 29px;gap:2px;font-size:.53rem}.matchup-roster-title{font-size:.57rem}}";
+  style.textContent = ".matchup-expand-row{display:flex;justify-content:center;margin-top:9px;padding-top:9px;border-top:1px solid rgba(133,171,203,.12)}.matchup-expand-btn{display:flex;align-items:center;gap:5px;min-height:32px;padding:4px 12px;border:1px solid rgba(133,171,203,.2);border-radius:999px;background:rgba(255,255,255,.025);color:#9db1c2;font-size:.63rem;font-weight:850;cursor:pointer}.matchup-expand-btn .chevron{font-size:.9rem;line-height:1;transition:transform .18s ease}.matchup-expand-btn[aria-expanded=true]{color:var(--lime);border-color:rgba(201,255,54,.28);background:rgba(201,255,54,.06)}.matchup-expand-btn[aria-expanded=true] .chevron{transform:rotate(180deg)}.matchup-rosters{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px;margin-top:10px;padding-top:10px;border-top:1px solid rgba(133,171,203,.12)}.matchup-rosters[hidden]{display:none!important}.matchup-roster-team{min-width:0;padding:7px 6px;border:1px solid rgba(133,171,203,.15);border-radius:11px;background:rgba(2,13,25,.45)}.matchup-roster-title{text-align:center;font-size:.61rem;font-weight:900;line-height:1.15;margin-bottom:5px;color:#eaf4fb;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.matchup-starter-row{display:grid;grid-template-columns:25px minmax(0,1fr) 31px;align-items:center;gap:3px;min-height:27px;border-top:1px solid rgba(133,171,203,.09);font-size:.57rem}.matchup-starter-row:first-of-type{border-top:0}.matchup-starter-slot{color:var(--lime);font-size:.49rem;font-weight:900;white-space:nowrap}.matchup-starter-name{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.matchup-starter-score{text-align:right;font-size:.55rem;font-weight:900;color:#9be7ff}.matchup-roster-total{display:flex;justify-content:space-between;align-items:center;margin-top:5px;padding-top:6px;border-top:1px solid rgba(201,255,54,.22);color:var(--lime);font-size:.61rem;font-weight:950}.edge-bar{display:flex!important;position:relative!important;overflow:hidden!important;height:7px!important;background:#2a4053!important;border-radius:999px!important}.edge-segment{display:block!important;height:100%!important;min-width:0!important;transition:width .35s ease}.edge-segment-home{background:#55738a!important}.edge-segment-away{background:#55738a!important}.edge-segment.favored{background:linear-gradient(90deg,#a9ea2d,var(--lime))!important;box-shadow:0 0 10px rgba(201,255,54,.35)}.edge-divider{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:rgba(255,255,255,.55);z-index:3}@media(max-width:360px){.matchup-rosters{gap:4px}.matchup-roster-team{padding:6px 4px}.matchup-starter-row{grid-template-columns:22px minmax(0,1fr) 29px;gap:2px;font-size:.53rem}.matchup-roster-title{font-size:.57rem}}";
   document.head.appendChild(style);
 
   function normalizeName(name) { var map={"#Numbers":"Burden Of Victory IIIx","Nabers Think I'm Sellin Dope":"The Bowers Rangers"}; return map[name]||name||"Team"; }
@@ -23,21 +23,27 @@
     side.appendChild(avatar); side.appendChild(name); side.appendChild(score); side.appendChild(projection); return side;
   }
 
+  function projectedWinPct(homeProjection, awayProjection) {
+    var diff = homeProjection - awayProjection;
+    var probability = 100 / (1 + Math.exp(-diff / 15));
+    return Math.max(5, Math.min(95, probability));
+  }
+
   function makeProjectionBar(home,away) {
     var hp=Number(home.projection), ap=Number(away.projection);
     if(!Number.isFinite(hp)||hp<0) hp=0;
     if(!Number.isFinite(ap)||ap<0) ap=0;
-    var total=hp+ap;
-    var homePct=total>0?(hp/total)*100:50;
+
+    var homePct=(hp===0&&ap===0)?50:projectedWinPct(hp,ap);
     var awayPct=100-homePct;
-    var homeFavored=hp>=ap;
+    var homeFavored=homePct>=awayPct;
 
     var wrap=document.createElement("div"); wrap.className="edge-wrap";
     var labels=document.createElement("div"); labels.className="edge-labels";
-    labels.innerHTML="<span>"+Math.round(homePct)+"%</span><small>Projection Edge</small><span>"+Math.round(awayPct)+"%</span>";
+    labels.innerHTML="<span>"+Math.round(homePct)+"%</span><small>Win Prediction</small><span>"+Math.round(awayPct)+"%</span>";
 
     var bar=document.createElement("div"); bar.className="edge-bar";
-    bar.setAttribute("aria-label",normalizeName(home.teamName||home.name)+" "+homePct.toFixed(1)+" percent, "+normalizeName(away.teamName||away.name)+" "+awayPct.toFixed(1)+" percent");
+    bar.setAttribute("aria-label",normalizeName(home.teamName||home.name)+" "+homePct.toFixed(1)+" percent predicted win chance, "+normalizeName(away.teamName||away.name)+" "+awayPct.toFixed(1)+" percent predicted win chance");
 
     var homeSegment=document.createElement("span");
     homeSegment.className="edge-segment edge-segment-home"+(homeFavored?" favored":"");
