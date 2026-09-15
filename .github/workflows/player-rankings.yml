@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Pull ESPN current-season actual positional ranks
+      - name: Rank players from completed Week 1 scores
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
@@ -31,44 +31,58 @@ jobs:
           from pathlib import Path
           from datetime import datetime, timezone
 
-          league_id="820399"; season=2026
+          league_id="820399"; season=2026; completed_week=1
           url=f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{season}/segments/0/leagues/{league_id}"
           cookies={}
           if os.getenv("ESPN_S2"): cookies["espn_s2"]=os.environ["ESPN_S2"]
           if os.getenv("ESPN_SWID"): cookies["SWID"]=os.environ["ESPN_SWID"]
           headers={"User-Agent":"Mozilla/5.0 AGS Rankings Sync","Accept":"application/json"}
-          fantasy_filter={"players":{"limit":2000,"sortPercOwned":{"sortPriority":1,"sortAsc":False}}}
-          headers["x-fantasy-filter"]=json.dumps(fantasy_filter,separators=(",",":"))
-          r=requests.get(url,params=[("view","kona_player_info"),("view","mStatus")],headers=headers,cookies=cookies,timeout=45)
-          r.raise_for_status(); data=r.json()
-          pool=data.get("players",[])
-          current_period=int(data.get("scoringPeriodId",1) or 1)
+
+          # Get every player and position from ESPN's player pool.
+          player_headers=dict(headers)
+          player_headers["x-fantasy-filter"]=json.dumps({"players":{"limit":2000,"sortPercOwned":{"sortPriority":1,"sortAsc":False}}},separators=(",",":"))
+          pr=requests.get(url,params=[("view","kona_player_info")],headers=player_headers,cookies=cookies,timeout=45)
+          pr.raise_for_status(); pdata=pr.json()
           posmap={1:"QB",2:"RB",3:"WR",4:"TE",5:"K",16:"D/ST"}
-          rows=[]
-          for item in pool:
+          players={}
+          for item in pdata.get("players",[]) or []:
             p=item.get("player",item) or {}
             pos=posmap.get(int(p.get("defaultPositionId",0) or 0))
-            if not pos: continue
-            # IMPORTANT: only ESPN ACTUAL fantasy points (statSourceId 0)
-            # from scoring periods in the CURRENT 2026 season through today.
-            # Do not use scoringPeriodId 0 because ESPN can return prior-season totals there.
-            # Do not use statSourceId 1 because those are projections.
-            total=0.0
-            for s in p.get("stats",[]) or []:
-              try:
-                source=int(s.get("statSourceId",-1))
-                period=int(s.get("scoringPeriodId",0) or 0)
-                if source==0 and 1 <= period <= current_period:
-                  total += float(s.get("appliedTotal",0) or 0)
-              except (TypeError,ValueError):
-                pass
-            rows.append({"id":str(p.get("id","")),"name":p.get("fullName") or p.get("name") or "","position":pos,"points":round(total,2)})
+            pid=str(p.get("id",""))
+            if pid and pos:
+              players[pid]={"name":p.get("fullName") or p.get("name") or "","position":pos,"points":0.0}
+
+          # Pull the completed Week 1 matchup rosters. These applied totals are the
+          # same actual fantasy scores used by the league scoreboard, not projections.
+          mr=requests.get(url,params=[("view","mMatchup"),("view","mRoster"),("scoringPeriodId",str(completed_week))],headers=headers,cookies=cookies,timeout=45)
+          mr.raise_for_status(); mdata=mr.json()
+          for team in mdata.get("teams",[]) or []:
+            for entry in ((team.get("roster") or {}).get("entries") or []):
+              p=(entry.get("playerPoolEntry") or {}).get("player") or {}
+              pid=str(p.get("id",""))
+              if not pid: continue
+              pos=posmap.get(int(p.get("defaultPositionId",0) or 0))
+              if not pos: continue
+              score=0.0
+              found=False
+              for s in p.get("stats",[]) or []:
+                try:
+                  if int(s.get("statSourceId",-1))==0 and int(s.get("scoringPeriodId",0) or 0)==completed_week:
+                    score=float(s.get("appliedTotal",0) or 0); found=True; break
+                except (TypeError,ValueError): pass
+              if pid not in players:
+                players[pid]={"name":p.get("fullName") or p.get("name") or "","position":pos,"points":0.0}
+              if found:
+                players[pid]["points"]=round(score,2)
+
+          rows=[{"id":pid,**v} for pid,v in players.items()]
           ranks={}
           for pos in posmap.values():
             group=sorted((x for x in rows if x["position"]==pos),key=lambda x:(-x["points"],x["name"]))
             for i,x in enumerate(group,1):
               ranks[x["id"]]={"position":pos,"rank":i,"label":f"{pos}{i}","seasonPoints":x["points"]}
-          out={"season":season,"throughScoringPeriod":current_period,"rankingBasis":"actual season fantasy points","updatedAt":datetime.now(timezone.utc).isoformat(),"players":ranks}
+
+          out={"season":season,"throughScoringPeriod":completed_week,"rankingBasis":"completed Week 1 actual fantasy points","updatedAt":datetime.now(timezone.utc).isoformat(),"players":ranks}
           Path("data").mkdir(exist_ok=True)
           Path("data/player-ranks.json").write_text(json.dumps(out,indent=2)+"\n")
           PY
