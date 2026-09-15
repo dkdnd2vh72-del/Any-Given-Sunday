@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 115.82,
+        "projection": 118.37,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 2,
+      "acquisitions": 1,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1110,7 +1110,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 115.82,
+      "projection": 118.37,
       "record": {
         "losses": 2,
         "pointsAgainst": 117.52,
@@ -1181,11 +1181,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4695883",
-          "name": "Jalen Coker",
+          "id": "4241478",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "proTeam": "CAR",
-          "projection": 11.44,
+          "proTeam": "PHI",
+          "projection": 13.99,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1211,21 +1211,21 @@
         },
         {
           "actual": 0.0,
-          "id": "4241478",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "proTeam": "PHI",
-          "projection": 13.99,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4241985",
           "name": "J.K. Dobbins",
           "position": "RB",
           "proTeam": "DEN",
           "projection": 10.47,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4695883",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "proTeam": "CAR",
+          "projection": 11.44,
           "slot": "Bench",
           "slotId": 20
         },
