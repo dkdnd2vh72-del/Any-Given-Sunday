@@ -51,7 +51,7 @@
         "teamName": "More Wins Than PSI"
       },
       "home": {
-        "projection": 124.78,
+        "projection": 127.41,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -244,13 +244,13 @@
       ]
     },
     {
-      "acquisitions": 2,
+      "acquisitions": 1,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 9,
-      "projection": 124.78,
+      "projection": 127.41,
       "record": {
         "losses": 2,
         "pointsAgainst": 120.02,
@@ -331,11 +331,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16030",
-          "name": "Jaguars D/ST",
+          "id": "-16007",
+          "name": "Broncos D/ST",
           "position": "D/ST",
-          "proTeam": "JAX",
-          "projection": 4.63,
+          "proTeam": "DEN",
+          "projection": 7.26,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -351,21 +351,21 @@
         },
         {
           "actual": 0.0,
-          "id": "-16007",
-          "name": "Broncos D/ST",
-          "position": "D/ST",
-          "proTeam": "DEN",
-          "projection": 7.26,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4362619",
           "name": "Chris Rodriguez Jr.",
           "position": "RB",
           "proTeam": "JAX",
           "projection": 5.58,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "-16030",
+          "name": "Jaguars D/ST",
+          "position": "D/ST",
+          "proTeam": "JAX",
+          "projection": 4.63,
           "slot": "Bench",
           "slotId": 20
         },
