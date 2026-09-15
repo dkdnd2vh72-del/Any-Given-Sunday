@@ -17,7 +17,7 @@
     },
     {
       "away": {
-        "projection": 127.86,
+        "projection": 134.12,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 2,
+      "acquisitions": 1,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -596,7 +596,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 3,
-      "projection": 127.86,
+      "projection": 134.12,
       "record": {
         "losses": 0,
         "pointsAgainst": 120.2,
@@ -657,11 +657,11 @@
         },
         {
           "actual": 0.0,
-          "id": "3116365",
-          "name": "Mark Andrews",
+          "id": "4432665",
+          "name": "Brock Bowers",
           "position": "TE",
-          "proTeam": "BAL",
-          "projection": 11.74,
+          "proTeam": "LV",
+          "projection": 18.0,
           "slot": "TE",
           "slotId": 6
         },
@@ -727,21 +727,21 @@
         },
         {
           "actual": 0.0,
-          "id": "3917315",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "proTeam": "MIN",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4429023",
           "name": "MarShawn Lloyd",
           "position": "RB",
           "proTeam": "GB",
           "projection": 11.57,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "3116365",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "proTeam": "BAL",
+          "projection": 11.74,
           "slot": "Bench",
           "slotId": 20
         },
@@ -754,16 +754,6 @@
           "projection": 12.21,
           "slot": "Bench",
           "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4432665",
-          "name": "Brock Bowers",
-          "position": "TE",
-          "proTeam": "LV",
-          "projection": 18.0,
-          "slot": "IR",
-          "slotId": 21
         }
       ]
     },
