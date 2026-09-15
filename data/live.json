@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 2,
+      "acquisitions": 1,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1043,16 +1043,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4047646",
-          "name": "A.J. Brown",
-          "position": "WR",
-          "proTeam": "NE",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4429096",
           "name": "Blake Corum",
           "position": "RB",
@@ -1100,6 +1090,16 @@
           "projection": 9.42,
           "slot": "Bench",
           "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4047646",
+          "name": "A.J. Brown",
+          "position": "WR",
+          "proTeam": "NE",
+          "projection": 0.0,
+          "slot": "IR",
+          "slotId": 21
         }
       ]
     },
