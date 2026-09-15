@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Pull ESPN season positional ranks
+      - name: Pull ESPN current-season actual positional ranks
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
@@ -39,36 +39,38 @@ jobs:
           headers={"User-Agent":"Mozilla/5.0 AGS Rankings Sync","Accept":"application/json"}
           fantasy_filter={"players":{"limit":2000,"sortPercOwned":{"sortPriority":1,"sortAsc":False}}}
           headers["x-fantasy-filter"]=json.dumps(fantasy_filter,separators=(",",":"))
-          r=requests.get(url,params=[("view","kona_player_info")],headers=headers,cookies=cookies,timeout=45)
+          r=requests.get(url,params=[("view","kona_player_info"),("view","mStatus")],headers=headers,cookies=cookies,timeout=45)
           r.raise_for_status(); data=r.json()
           pool=data.get("players",[])
+          current_period=int(data.get("scoringPeriodId",1) or 1)
           posmap={1:"QB",2:"RB",3:"WR",4:"TE",5:"K",16:"D/ST"}
           rows=[]
           for item in pool:
             p=item.get("player",item) or {}
             pos=posmap.get(int(p.get("defaultPositionId",0) or 0))
             if not pos: continue
-            total=None
+            # IMPORTANT: only ESPN ACTUAL fantasy points (statSourceId 0)
+            # from scoring periods in the CURRENT 2026 season through today.
+            # Do not use scoringPeriodId 0 because ESPN can return prior-season totals there.
+            # Do not use statSourceId 1 because those are projections.
+            total=0.0
             for s in p.get("stats",[]) or []:
               try:
-                if int(s.get("statSourceId",-1))==0 and int(s.get("scoringPeriodId",-1))==0:
-                  total=float(s.get("appliedTotal",0) or 0); break
-              except (TypeError,ValueError): pass
-            if total is None:
-              vals=[]
-              for s in p.get("stats",[]) or []:
-                try:
-                  if int(s.get("statSourceId",-1))==0 and int(s.get("scoringPeriodId",0))>0:
-                    vals.append(float(s.get("appliedTotal",0) or 0))
-                except (TypeError,ValueError): pass
-              total=sum(vals)
+                source=int(s.get("statSourceId",-1))
+                period=int(s.get("scoringPeriodId",0) or 0)
+                if source==0 and 1 <= period <= current_period:
+                  total += float(s.get("appliedTotal",0) or 0)
+              except (TypeError,ValueError):
+                pass
             rows.append({"id":str(p.get("id","")),"name":p.get("fullName") or p.get("name") or "","position":pos,"points":round(total,2)})
           ranks={}
           for pos in posmap.values():
             group=sorted((x for x in rows if x["position"]==pos),key=lambda x:(-x["points"],x["name"]))
-            for i,x in enumerate(group,1): ranks[x["id"]]={"position":pos,"rank":i,"label":f"{pos}{i}","seasonPoints":x["points"]}
-          out={"season":season,"updatedAt":datetime.now(timezone.utc).isoformat(),"players":ranks}
-          Path("data").mkdir(exist_ok=True); Path("data/player-ranks.json").write_text(json.dumps(out,indent=2)+"\n")
+            for i,x in enumerate(group,1):
+              ranks[x["id"]]={"position":pos,"rank":i,"label":f"{pos}{i}","seasonPoints":x["points"]}
+          out={"season":season,"throughScoringPeriod":current_period,"rankingBasis":"actual season fantasy points","updatedAt":datetime.now(timezone.utc).isoformat(),"players":ranks}
+          Path("data").mkdir(exist_ok=True)
+          Path("data/player-ranks.json").write_text(json.dumps(out,indent=2)+"\n")
           PY
       - name: Commit rankings
         run: |
