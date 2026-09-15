@@ -3,70 +3,70 @@
   "matchups": [
     {
       "away": {
-        "projection": 120.2,
-        "teamId": 13
-      },
-      "home": {
-        "projection": 135.46,
-        "teamId": 5
-      }
-    },
-    {
-      "away": {
-        "projection": 135.56,
+        "projection": 124.82,
         "teamId": 7
       },
       "home": {
-        "projection": 114.56,
-        "teamId": 4
+        "projection": 129.0,
+        "teamId": 13
       }
     },
     {
       "away": {
-        "projection": 117.52,
+        "projection": 127.86,
+        "teamId": 5
+      },
+      "home": {
+        "projection": 126.6,
         "teamId": 1
-      },
-      "home": {
-        "projection": 101.2,
-        "teamId": 11
       }
     },
     {
       "away": {
-        "projection": 151.06,
+        "projection": 129.22,
+        "teamId": 4
+      },
+      "home": {
+        "projection": 126.09,
         "teamId": 14
-      },
-      "home": {
-        "projection": 171.76,
-        "teamId": 12
       }
     },
     {
       "away": {
-        "projection": 109.96,
-        "teamId": 3
+        "projection": 115.82,
+        "teamId": 11
       },
       "home": {
-        "projection": 120.02,
+        "projection": 123.63,
+        "teamId": 3
+      }
+    },
+    {
+      "away": {
+        "projection": 131.14,
+        "teamId": 12
+      },
+      "home": {
+        "projection": 121.28,
         "teamId": 8
       }
     }
   ],
-  "projectedMedian": 120.11,
+  "projectedMedian": 126.34,
   "projections": {
-    "1": 117.52,
-    "11": 101.2,
-    "12": 171.76,
-    "13": 120.2,
-    "14": 151.06,
-    "3": 109.96,
-    "4": 114.56,
-    "5": 135.46,
-    "7": 135.56,
-    "8": 120.02
+    "1": 126.6,
+    "11": 115.82,
+    "12": 131.14,
+    "13": 129.0,
+    "14": 126.09,
+    "3": 123.63,
+    "4": 129.22,
+    "5": 127.86,
+    "7": 124.82,
+    "8": 121.28
   },
-  "scoringPeriod": 1,
+  "scoringPeriod": 2,
   "season": 2026,
-  "updatedAt": "2026-09-15T06:48:15.747116+00:00",
-  "week": 1
+  "updatedAt": "2026-09-15T07:02:03.626251+00:00",
+  "week": 2
 }
