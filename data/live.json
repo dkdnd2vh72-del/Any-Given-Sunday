@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 124.76,
+        "projection": 126.38,
         "score": 0.0,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 2,
+      "acquisitions": 1,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -764,7 +764,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 2,
-      "projection": 124.76,
+      "projection": 126.38,
       "record": {
         "losses": 0,
         "pointsAgainst": 114.56,
@@ -825,21 +825,21 @@
         },
         {
           "actual": 0.0,
-          "id": "4430027",
-          "name": "Sam LaPorta",
+          "id": "4361050",
+          "name": "Isaiah Likely",
           "position": "TE",
-          "proTeam": "DET",
-          "projection": 13.46,
+          "proTeam": "NYG",
+          "projection": 13.22,
           "slot": "TE",
           "slotId": 6
         },
         {
           "actual": 0.0,
-          "id": "3121422",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "proTeam": "WSH",
-          "projection": 12.44,
+          "id": "4241416",
+          "name": "Chuba Hubbard",
+          "position": "RB",
+          "proTeam": "CAR",
+          "projection": 14.3,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -862,26 +862,6 @@
           "projection": 8.39,
           "slot": "K",
           "slotId": 17
-        },
-        {
-          "actual": 0.0,
-          "id": "4241416",
-          "name": "Chuba Hubbard",
-          "position": "RB",
-          "proTeam": "CAR",
-          "projection": 14.3,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4361050",
-          "name": "Isaiah Likely",
-          "position": "TE",
-          "proTeam": "NYG",
-          "projection": 13.22,
-          "slot": "Bench",
-          "slotId": 20
         },
         {
           "actual": 0.0,
@@ -910,6 +890,26 @@
           "position": "RB",
           "proTeam": "PIT",
           "projection": 10.15,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4430027",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "proTeam": "DET",
+          "projection": 13.46,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "3121422",
+          "name": "Terry McLaurin",
+          "position": "WR",
+          "proTeam": "WSH",
+          "projection": 12.44,
           "slot": "Bench",
           "slotId": 20
         },
@@ -993,21 +993,21 @@
         },
         {
           "actual": 0.0,
-          "id": "4723086",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "proTeam": "CHI",
-          "projection": 13.41,
-          "slot": "TE",
-          "slotId": 6
-        },
-        {
-          "actual": 0.0,
           "id": "4385690",
           "name": "Dalton Kincaid",
           "position": "TE",
           "proTeam": "BUF",
           "projection": 12.43,
+          "slot": "TE",
+          "slotId": 6
+        },
+        {
+          "actual": 0.0,
+          "id": "4723086",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "proTeam": "CHI",
+          "projection": 13.41,
           "slot": "FLEX",
           "slotId": 23
         },
