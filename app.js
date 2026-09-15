@@ -2,9 +2,25 @@ document.addEventListener("DOMContentLoaded", function () {
   var currentPage = document.body.getAttribute("data-page");
   var nav = document.querySelector(".main-nav");
   var toggleButton = document.querySelector(".nav-toggle");
+  var siteTitle = document.querySelector(".site-title");
 
   if (toggleButton && nav) {
     toggleButton.addEventListener("click", function () { nav.classList.toggle("open"); });
+  }
+
+  if (siteTitle) {
+    siteTitle.setAttribute("role", "button");
+    siteTitle.setAttribute("tabindex", "0");
+    siteTitle.setAttribute("aria-label", "Refresh current page");
+    siteTitle.style.cursor = "pointer";
+    function refreshCurrentPage() { window.location.reload(); }
+    siteTitle.addEventListener("click", refreshCurrentPage);
+    siteTitle.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        refreshCurrentPage();
+      }
+    });
   }
 
   document.querySelectorAll(".main-nav a").forEach(function (link) {
