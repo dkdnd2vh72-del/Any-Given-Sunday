@@ -1,0 +1,40 @@
+name: Completed Week Snapshots
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: completed-week-snapshots
+  cancel-in-progress: true
+
+jobs:
+  snapshots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Build completed weeks from ESPN
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        run: python scripts/build_week_snapshots.py
+      - name: Commit changed snapshots
+        run: |
+          git config user.name "Any Given Sunday Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/week-*.json data/week1-live.json
+          if git diff --cached --quiet; then
+            echo "No snapshot changes"
+          else
+            git commit -m "Sync completed ESPN week snapshots"
+            git pull --rebase origin main
+            git push origin main
+          fi
