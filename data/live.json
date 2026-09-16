@@ -37,7 +37,7 @@
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 128.23,
+        "projection": 129.17,
         "score": 0.0,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -65,7 +65,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 121.44,
+        "projection": 123.85,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 3,
+      "acquisitions": 2,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -932,7 +932,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 6,
-      "projection": 121.44,
+      "projection": 123.85,
       "record": {
         "losses": 1,
         "pointsAgainst": 109.96,
@@ -943,11 +943,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "4431452",
-          "name": "Drake Maye",
+          "id": "4361741",
+          "name": "Brock Purdy",
           "position": "QB",
-          "proTeam": "NE",
-          "projection": 18.22,
+          "proTeam": "SF",
+          "projection": 20.63,
           "slot": "QB",
           "slotId": 0
         },
@@ -1043,11 +1043,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4361741",
-          "name": "Brock Purdy",
+          "id": "4431452",
+          "name": "Drake Maye",
           "position": "QB",
-          "proTeam": "SF",
-          "projection": 20.63,
+          "proTeam": "NE",
+          "projection": 18.22,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1614,7 +1614,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 4,
-      "projection": 128.23,
+      "projection": 129.17,
       "record": {
         "losses": 1,
         "pointsAgainst": 171.76,
@@ -1685,11 +1685,11 @@
         },
         {
           "actual": 0.0,
-          "id": "3126486",
-          "name": "Deebo Samuel Sr.",
-          "position": "WR",
-          "proTeam": "SF",
-          "projection": 12.01,
+          "id": "4569173",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "proTeam": "NE",
+          "projection": 12.95,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1712,6 +1712,16 @@
           "projection": 10.22,
           "slot": "K",
           "slotId": 17
+        },
+        {
+          "actual": 0.0,
+          "id": "3126486",
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "proTeam": "SF",
+          "projection": 12.01,
+          "slot": "Bench",
+          "slotId": 20
         },
         {
           "actual": 0.0,
@@ -1740,16 +1750,6 @@
           "position": "WR",
           "proTeam": "LAC",
           "projection": 9.96,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4569173",
-          "name": "Rhamondre Stevenson",
-          "position": "RB",
-          "proTeam": "NE",
-          "projection": 12.95,
           "slot": "Bench",
           "slotId": 20
         },
