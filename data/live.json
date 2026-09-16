@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 3,
+      "acquisitions": 2,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1399,16 +1399,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4710714",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "proTeam": "SF",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "3040151",
           "name": "George Kittle",
           "position": "TE",
@@ -1446,6 +1436,16 @@
           "projection": 7.12,
           "slot": "Bench",
           "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4710714",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "proTeam": "SF",
+          "projection": 0.0,
+          "slot": "IR",
+          "slotId": 21
         }
       ]
     },
