@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 118.29,
+        "projection": 121.44,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 3,
+      "acquisitions": 2,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1104,13 +1104,13 @@
       ]
     },
     {
-      "acquisitions": 0,
+      "acquisitions": 1,
       "actual": 0.0,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 118.29,
+      "projection": 121.44,
       "record": {
         "losses": 2,
         "pointsAgainst": 117.52,
@@ -1191,11 +1191,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16008",
-          "name": "Lions D/ST",
+          "id": "-16025",
+          "name": "49ers D/ST",
           "position": "D/ST",
-          "proTeam": "DET",
-          "projection": 3.84,
+          "proTeam": "SF",
+          "projection": 6.99,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -1256,6 +1256,16 @@
           "position": "WR",
           "proTeam": "CLE",
           "projection": 9.56,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "-16008",
+          "name": "Lions D/ST",
+          "position": "D/ST",
+          "proTeam": "DET",
+          "projection": 3.84,
           "slot": "Bench",
           "slotId": 20
         },
