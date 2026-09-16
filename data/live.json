@@ -17,7 +17,7 @@
     },
     {
       "away": {
-        "projection": 132.39,
+        "projection": 125.45,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 3,
+      "acquisitions": 2,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -596,7 +596,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 3,
-      "projection": 132.39,
+      "projection": 125.45,
       "record": {
         "losses": 0,
         "pointsAgainst": 120.2,
@@ -677,23 +677,13 @@
         },
         {
           "actual": 0.0,
-          "id": "-16023",
-          "name": "Steelers D/ST",
+          "id": "-16027",
+          "name": "Buccaneers D/ST",
           "position": "D/ST",
-          "proTeam": "PIT",
-          "projection": 6.47,
+          "proTeam": "TB",
+          "projection": 8.3,
           "slot": "D/ST",
           "slotId": 16
-        },
-        {
-          "actual": 0.0,
-          "id": "4689936",
-          "name": "Jake Bates",
-          "position": "K",
-          "proTeam": "DET",
-          "projection": 8.77,
-          "slot": "K",
-          "slotId": 17
         },
         {
           "actual": 0.0,
@@ -742,6 +732,16 @@
           "position": "TE",
           "proTeam": "BAL",
           "projection": 12.02,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "-16023",
+          "name": "Steelers D/ST",
+          "position": "D/ST",
+          "proTeam": "PIT",
+          "projection": 6.47,
           "slot": "Bench",
           "slotId": 20
         },
