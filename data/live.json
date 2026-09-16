@@ -65,7 +65,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 113.89,
+        "projection": 121.44,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -351,11 +351,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4362619",
-          "name": "Chris Rodriguez Jr.",
-          "position": "RB",
-          "proTeam": "JAX",
-          "projection": 5.63,
+          "id": "4869645",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "proTeam": "MIA",
+          "projection": 8.92,
           "slot": "Bench",
           "slotId": 20
         },
@@ -926,13 +926,13 @@
       ]
     },
     {
-      "acquisitions": 0,
+      "acquisitions": 2,
       "actual": 0.0,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 6,
-      "projection": 113.89,
+      "projection": 121.44,
       "record": {
         "losses": 1,
         "pointsAgainst": 109.96,
@@ -1013,6 +1013,16 @@
         },
         {
           "actual": 0.0,
+          "id": "-16012",
+          "name": "Chiefs D/ST",
+          "position": "D/ST",
+          "proTeam": "KC",
+          "projection": 7.55,
+          "slot": "D/ST",
+          "slotId": 16
+        },
+        {
+          "actual": 0.0,
           "id": "4034949",
           "name": "Eddy Pineiro",
           "position": "K",
@@ -1028,6 +1038,16 @@
           "position": "RB",
           "proTeam": "LAR",
           "projection": 9.09,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4361741",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "proTeam": "SF",
+          "projection": 20.63,
           "slot": "Bench",
           "slotId": 20
         },
