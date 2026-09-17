@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 4,
+      "acquisitions": 3,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1608,7 +1608,7 @@
       ]
     },
     {
-      "acquisitions": 0,
+      "acquisitions": 1,
       "actual": 0.0,
       "htmlId": "chance-make-champions",
       "id": 14,
@@ -1745,6 +1745,16 @@
         },
         {
           "actual": 0.0,
+          "id": "4373678",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "proTeam": "BUF",
+          "projection": 10.25,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
           "id": "4429025",
           "name": "Quentin Johnston",
           "position": "WR",
@@ -1760,16 +1770,6 @@
           "position": "WR",
           "proTeam": "CHI",
           "projection": 12.28,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4428718",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "proTeam": "LV",
-          "projection": 8.54,
           "slot": "Bench",
           "slotId": 20
         }
