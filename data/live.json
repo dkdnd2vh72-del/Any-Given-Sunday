@@ -9,7 +9,7 @@
         "teamName": "Gett'n Saucy"
       },
       "home": {
-        "projection": 129.35,
+        "projection": 128.52,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 4,
+      "acquisitions": 3,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1446,7 +1446,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 5,
-      "projection": 129.35,
+      "projection": 128.52,
       "record": {
         "losses": 1,
         "pointsAgainst": 135.46,
@@ -1517,11 +1517,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4612826",
-          "name": "Ladd McConkey",
+          "id": "16800",
+          "name": "Davante Adams",
           "position": "WR",
-          "proTeam": "LAC",
-          "projection": 14.48,
+          "proTeam": "LAR",
+          "projection": 13.65,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1567,21 +1567,21 @@
         },
         {
           "actual": 0.0,
-          "id": "16800",
-          "name": "Davante Adams",
-          "position": "WR",
-          "proTeam": "LAR",
-          "projection": 13.65,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4569987",
           "name": "Jaylen Warren",
           "position": "RB",
           "proTeam": "PIT",
           "projection": 11.37,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4612826",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "proTeam": "LAC",
+          "projection": 14.48,
           "slot": "Bench",
           "slotId": 20
         },
