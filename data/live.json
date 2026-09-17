@@ -23,7 +23,7 @@
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 128.81,
+        "projection": 129.5,
         "score": 0.0,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -82,7 +82,7 @@
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 7,
-      "projection": 128.81,
+      "projection": 129.5,
       "record": {
         "losses": 1,
         "pointsAgainst": 101.2,
@@ -153,11 +153,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4685702",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "proTeam": "CLE",
-          "projection": 11.99,
+          "id": "15847",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "proTeam": "KC",
+          "projection": 12.68,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -213,11 +213,11 @@
         },
         {
           "actual": 0.0,
-          "id": "15847",
-          "name": "Travis Kelce",
-          "position": "TE",
-          "proTeam": "KC",
-          "projection": 12.68,
+          "id": "4685702",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "proTeam": "CLE",
+          "projection": 11.99,
           "slot": "Bench",
           "slotId": 20
         },
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 3,
+      "acquisitions": 2,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
