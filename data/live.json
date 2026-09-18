@@ -17,7 +17,7 @@
     },
     {
       "away": {
-        "projection": 125.5,
+        "projection": 133.08,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 4,
+      "acquisitions": 3,
       "actual": 20.9,
       "htmlId": "numbers",
       "id": 3,
@@ -590,13 +590,13 @@
       ]
     },
     {
-      "acquisitions": 2,
+      "acquisitions": 3,
       "actual": 0.0,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 3,
-      "projection": 125.5,
+      "projection": 133.08,
       "record": {
         "losses": 0,
         "pointsAgainst": 120.2,
@@ -677,13 +677,23 @@
         },
         {
           "actual": 0.0,
-          "id": "-16027",
-          "name": "Buccaneers D/ST",
+          "id": "-16023",
+          "name": "Steelers D/ST",
           "position": "D/ST",
-          "proTeam": "TB",
-          "projection": 8.2,
+          "proTeam": "PIT",
+          "projection": 6.42,
           "slot": "D/ST",
           "slotId": 16
+        },
+        {
+          "actual": 0.0,
+          "id": "17427",
+          "name": "Cairo Santos",
+          "position": "K",
+          "proTeam": "CHI",
+          "projection": 9.36,
+          "slot": "K",
+          "slotId": 17
         },
         {
           "actual": 0.0,
@@ -732,16 +742,6 @@
           "position": "TE",
           "proTeam": "BAL",
           "projection": 12.02,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "-16023",
-          "name": "Steelers D/ST",
-          "position": "D/ST",
-          "proTeam": "PIT",
-          "projection": 6.42,
           "slot": "Bench",
           "slotId": 20
         },
