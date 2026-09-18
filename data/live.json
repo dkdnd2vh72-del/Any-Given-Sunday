@@ -37,7 +37,7 @@
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 127.13,
+        "projection": 126.48,
         "score": 0.0,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -52,7 +52,7 @@
       },
       "home": {
         "projection": 129.11,
-        "score": 0.0,
+        "score": 2.3,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       }
@@ -60,7 +60,7 @@
     {
       "away": {
         "projection": 131.13,
-        "score": 0.0,
+        "score": 10.88,
         "teamId": 12,
         "teamName": "Injured Reserve"
       },
@@ -244,8 +244,8 @@
       ]
     },
     {
-      "acquisitions": 4,
-      "actual": 0.0,
+      "acquisitions": 3,
+      "actual": 2.3,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -270,7 +270,7 @@
           "slotId": 0
         },
         {
-          "actual": 0.0,
+          "actual": 2.3,
           "id": "4379399",
           "name": "James Cook III",
           "position": "RB",
@@ -1273,7 +1273,7 @@
     },
     {
       "acquisitions": 1,
-      "actual": 0.0,
+      "actual": 10.88,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1288,7 +1288,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 10.88,
           "id": "3918298",
           "name": "Josh Allen",
           "position": "QB",
@@ -1614,7 +1614,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 4,
-      "projection": 127.13,
+      "projection": 126.48,
       "record": {
         "losses": 1,
         "pointsAgainst": 171.76,
@@ -1685,11 +1685,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4569173",
-          "name": "Rhamondre Stevenson",
-          "position": "RB",
-          "proTeam": "NE",
-          "projection": 12.93,
+          "id": "4431299",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "proTeam": "CHI",
+          "projection": 12.28,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1744,7 +1744,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 4.2,
           "id": "4373678",
           "name": "Khalil Shakir",
           "position": "WR",
@@ -1765,11 +1765,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4431299",
-          "name": "Rome Odunze",
-          "position": "WR",
-          "proTeam": "CHI",
-          "projection": 12.28,
+          "id": "4569173",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "proTeam": "NE",
+          "projection": 12.93,
           "slot": "Bench",
           "slotId": 20
         }
