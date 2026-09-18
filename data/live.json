@@ -65,7 +65,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 109.77,
+        "projection": 119.07,
         "score": 26.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 4,
+      "acquisitions": 3,
       "actual": 20.9,
       "htmlId": "numbers",
       "id": 3,
@@ -932,7 +932,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 6,
-      "projection": 109.77,
+      "projection": 119.07,
       "record": {
         "losses": 1,
         "pointsAgainst": 109.96,
@@ -983,11 +983,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4258173",
-          "name": "Nico Collins",
+          "id": "4432708",
+          "name": "Marvin Harrison Jr.",
           "position": "WR",
-          "proTeam": "HOU",
-          "projection": 0.0,
+          "proTeam": "ARI",
+          "projection": 9.3,
           "slot": "WR",
           "slotId": 4
         },
@@ -1083,11 +1083,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4432708",
-          "name": "Marvin Harrison Jr.",
+          "id": "4258173",
+          "name": "Nico Collins",
           "position": "WR",
-          "proTeam": "ARI",
-          "projection": 9.3,
+          "proTeam": "HOU",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20
         },
