@@ -10,7 +10,7 @@
       },
       "home": {
         "projection": 128.52,
-        "score": 0.0,
+        "score": 2.5,
         "teamId": 13,
         "teamName": "Pollard Express"
       }
@@ -32,7 +32,7 @@
     {
       "away": {
         "projection": 127.5,
-        "score": 0.0,
+        "score": -0.1,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       },
@@ -52,7 +52,7 @@
       },
       "home": {
         "projection": 129.11,
-        "score": 2.3,
+        "score": 2.8,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       }
@@ -60,13 +60,13 @@
     {
       "away": {
         "projection": 131.13,
-        "score": 10.88,
+        "score": 17.88,
         "teamId": 12,
         "teamName": "Injured Reserve"
       },
       "home": {
         "projection": 125.22,
-        "score": 0.0,
+        "score": 4.0,
         "teamId": 8,
         "teamName": "King Johnson"
       }
@@ -244,8 +244,8 @@
       ]
     },
     {
-      "acquisitions": 4,
-      "actual": 2.3,
+      "acquisitions": 3,
+      "actual": 2.8,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -270,7 +270,7 @@
           "slotId": 0
         },
         {
-          "actual": 2.3,
+          "actual": 2.8,
           "id": "4379399",
           "name": "James Cook III",
           "position": "RB",
@@ -423,7 +423,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 0.0,
+      "actual": -0.1,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -498,7 +498,7 @@
           "slotId": 6
         },
         {
-          "actual": 0.0,
+          "actual": -0.1,
           "id": "3915416",
           "name": "DJ Moore",
           "position": "WR",
@@ -894,7 +894,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 1.7,
           "id": "4430027",
           "name": "Sam LaPorta",
           "position": "TE",
@@ -927,7 +927,7 @@
     },
     {
       "acquisitions": 3,
-      "actual": 0.0,
+      "actual": 4.0,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -992,7 +992,7 @@
           "slotId": 4
         },
         {
-          "actual": 0.0,
+          "actual": 4.0,
           "id": "4385690",
           "name": "Dalton Kincaid",
           "position": "TE",
@@ -1273,7 +1273,7 @@
     },
     {
       "acquisitions": 1,
-      "actual": 10.88,
+      "actual": 17.88,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1288,7 +1288,7 @@
       },
       "roster": [
         {
-          "actual": 10.88,
+          "actual": 17.88,
           "id": "3918298",
           "name": "Josh Allen",
           "position": "QB",
@@ -1441,7 +1441,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 0.0,
+      "actual": 2.5,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
@@ -1476,7 +1476,7 @@
           "slotId": 2
         },
         {
-          "actual": 0.0,
+          "actual": 2.5,
           "id": "4429795",
           "name": "Jahmyr Gibbs",
           "position": "RB",
