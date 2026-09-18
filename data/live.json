@@ -10,7 +10,7 @@
       },
       "home": {
         "projection": 128.52,
-        "score": 2.5,
+        "score": 16.1,
         "teamId": 13,
         "teamName": "Pollard Express"
       }
@@ -24,7 +24,7 @@
       },
       "home": {
         "projection": 128.53,
-        "score": 0.0,
+        "score": 2.1,
         "teamId": 1,
         "teamName": "Big Blue"
       }
@@ -52,7 +52,7 @@
       },
       "home": {
         "projection": 129.11,
-        "score": 3.8,
+        "score": 3.9,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       }
@@ -60,7 +60,7 @@
     {
       "away": {
         "projection": 131.13,
-        "score": 19.4,
+        "score": 23.44,
         "teamId": 12,
         "teamName": "Injured Reserve"
       },
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 0,
-      "actual": 0.0,
+      "actual": 2.1,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -122,7 +122,7 @@
           "slotId": 2
         },
         {
-          "actual": 0.0,
+          "actual": 2.1,
           "id": "4374302",
           "name": "Amon-Ra St. Brown",
           "position": "WR",
@@ -244,8 +244,8 @@
       ]
     },
     {
-      "acquisitions": 4,
-      "actual": 3.8,
+      "acquisitions": 3,
+      "actual": 3.9,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -270,7 +270,7 @@
           "slotId": 0
         },
         {
-          "actual": 3.8,
+          "actual": 3.9,
           "id": "4379399",
           "name": "James Cook III",
           "position": "RB",
@@ -1273,7 +1273,7 @@
     },
     {
       "acquisitions": 1,
-      "actual": 19.4,
+      "actual": 23.44,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1288,7 +1288,7 @@
       },
       "roster": [
         {
-          "actual": 19.4,
+          "actual": 23.44,
           "id": "3918298",
           "name": "Josh Allen",
           "position": "QB",
@@ -1441,7 +1441,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 2.5,
+      "actual": 16.1,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
@@ -1476,7 +1476,7 @@
           "slotId": 2
         },
         {
-          "actual": 2.5,
+          "actual": 16.1,
           "id": "4429795",
           "name": "Jahmyr Gibbs",
           "position": "RB",
