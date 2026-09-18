@@ -10,7 +10,7 @@
       },
       "home": {
         "projection": 128.52,
-        "score": 21.2,
+        "score": 21.1,
         "teamId": 13,
         "teamName": "Pollard Express"
       }
@@ -52,7 +52,7 @@
       },
       "home": {
         "projection": 129.11,
-        "score": 12.2,
+        "score": 12.4,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       }
@@ -60,13 +60,13 @@
     {
       "away": {
         "projection": 131.13,
-        "score": 38.76,
+        "score": 39.64,
         "teamId": 12,
         "teamName": "Injured Reserve"
       },
       "home": {
         "projection": 125.22,
-        "score": 23.8,
+        "score": 26.0,
         "teamId": 8,
         "teamName": "King Johnson"
       }
@@ -244,8 +244,8 @@
       ]
     },
     {
-      "acquisitions": 4,
-      "actual": 12.2,
+      "acquisitions": 3,
+      "actual": 12.4,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -270,7 +270,7 @@
           "slotId": 0
         },
         {
-          "actual": 12.2,
+          "actual": 12.4,
           "id": "4379399",
           "name": "James Cook III",
           "position": "RB",
@@ -894,7 +894,7 @@
           "slotId": 20
         },
         {
-          "actual": 12.6,
+          "actual": 20.2,
           "id": "4430027",
           "name": "Sam LaPorta",
           "position": "TE",
@@ -927,7 +927,7 @@
     },
     {
       "acquisitions": 3,
-      "actual": 23.8,
+      "actual": 26.0,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -992,7 +992,7 @@
           "slotId": 4
         },
         {
-          "actual": 23.8,
+          "actual": 26.0,
           "id": "4385690",
           "name": "Dalton Kincaid",
           "position": "TE",
@@ -1273,7 +1273,7 @@
     },
     {
       "acquisitions": 1,
-      "actual": 38.76,
+      "actual": 39.64,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1288,7 +1288,7 @@
       },
       "roster": [
         {
-          "actual": 38.76,
+          "actual": 39.64,
           "id": "3918298",
           "name": "Josh Allen",
           "position": "QB",
@@ -1441,7 +1441,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 21.2,
+      "actual": 21.1,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
@@ -1476,7 +1476,7 @@
           "slotId": 2
         },
         {
-          "actual": 21.2,
+          "actual": 21.1,
           "id": "4429795",
           "name": "Jahmyr Gibbs",
           "position": "RB",
