@@ -51,7 +51,7 @@
         "teamName": "More Wins Than PSI"
       },
       "home": {
-        "projection": 128.77,
+        "projection": 128.89,
         "score": 20.9,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -244,13 +244,13 @@
       ]
     },
     {
-      "acquisitions": 4,
+      "acquisitions": 3,
       "actual": 20.9,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 9,
-      "projection": 128.77,
+      "projection": 128.89,
       "record": {
         "losses": 2,
         "pointsAgainst": 120.02,
@@ -311,11 +311,11 @@
         },
         {
           "actual": 0.0,
-          "id": "5083076",
-          "name": "Harold Fannin Jr.",
+          "id": "4036133",
+          "name": "T.J. Hockenson",
           "position": "TE",
-          "proTeam": "CLE",
-          "projection": 12.33,
+          "proTeam": "MIN",
+          "projection": 12.45,
           "slot": "TE",
           "slotId": 6
         },
@@ -361,6 +361,16 @@
         },
         {
           "actual": 0.0,
+          "id": "5083076",
+          "name": "Harold Fannin Jr.",
+          "position": "TE",
+          "proTeam": "CLE",
+          "projection": 12.33,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
           "id": "-16030",
           "name": "Jaguars D/ST",
           "position": "D/ST",
@@ -396,16 +406,6 @@
           "position": "WR",
           "proTeam": "NE",
           "projection": 10.59,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4036133",
-          "name": "T.J. Hockenson",
-          "position": "TE",
-          "proTeam": "MIN",
-          "projection": 12.45,
           "slot": "Bench",
           "slotId": 20
         },
