@@ -65,7 +65,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 119.07,
+        "projection": 120.09,
         "score": 26.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 4,
+      "acquisitions": 3,
       "actual": 20.9,
       "htmlId": "numbers",
       "id": 3,
@@ -926,13 +926,13 @@
       ]
     },
     {
-      "acquisitions": 3,
+      "acquisitions": 4,
       "actual": 26.0,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 6,
-      "projection": 119.07,
+      "projection": 120.09,
       "record": {
         "losses": 1,
         "pointsAgainst": 109.96,
@@ -983,11 +983,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4432708",
-          "name": "Marvin Harrison Jr.",
+          "id": "4360939",
+          "name": "Rashod Bateman",
           "position": "WR",
-          "proTeam": "ARI",
-          "projection": 9.3,
+          "proTeam": "BAL",
+          "projection": 10.32,
           "slot": "WR",
           "slotId": 4
         },
@@ -1073,11 +1073,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4870795",
-          "name": "Makai Lemon",
+          "id": "4432708",
+          "name": "Marvin Harrison Jr.",
           "position": "WR",
-          "proTeam": "PHI",
-          "projection": 9.0,
+          "proTeam": "ARI",
+          "projection": 9.3,
           "slot": "Bench",
           "slotId": 20
         },
