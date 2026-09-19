@@ -37,7 +37,7 @@
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 109.92,
+        "projection": 121.95,
         "score": 0.0,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 4,
+      "acquisitions": 3,
       "actual": 20.9,
       "htmlId": "numbers",
       "id": 3,
@@ -1614,7 +1614,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 4,
-      "projection": 109.92,
+      "projection": 121.95,
       "record": {
         "losses": 1,
         "pointsAgainst": 171.76,
@@ -1655,21 +1655,21 @@
         },
         {
           "actual": 0.0,
-          "id": "4426502",
-          "name": "Drake London",
+          "id": "3126486",
+          "name": "Deebo Samuel Sr.",
           "position": "WR",
-          "proTeam": "ATL",
-          "projection": 12.85,
+          "proTeam": "SF",
+          "projection": 12.03,
           "slot": "WR",
           "slotId": 4
         },
         {
           "actual": 0.0,
-          "id": "4429615",
-          "name": "Zay Flowers",
+          "id": "4426502",
+          "name": "Drake London",
           "position": "WR",
-          "proTeam": "BAL",
-          "projection": 0.0,
+          "proTeam": "ATL",
+          "projection": 12.85,
           "slot": "WR",
           "slotId": 4
         },
@@ -1712,16 +1712,6 @@
           "projection": 10.22,
           "slot": "K",
           "slotId": 17
-        },
-        {
-          "actual": 0.0,
-          "id": "3126486",
-          "name": "Deebo Samuel Sr.",
-          "position": "WR",
-          "proTeam": "SF",
-          "projection": 12.03,
-          "slot": "Bench",
-          "slotId": 20
         },
         {
           "actual": 0.0,
@@ -1770,6 +1760,16 @@
           "position": "RB",
           "proTeam": "NE",
           "projection": 12.91,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4429615",
+          "name": "Zay Flowers",
+          "position": "WR",
+          "proTeam": "BAL",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20
         }
