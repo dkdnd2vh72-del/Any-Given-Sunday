@@ -203,16 +203,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4035687",
-          "name": "Michael Pittman Jr.",
-          "position": "WR",
-          "proTeam": "PIT",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4685702",
           "name": "Quinshon Judkins",
           "position": "RB",
@@ -240,11 +230,21 @@
           "projection": 9.5,
           "slot": "Bench",
           "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4035687",
+          "name": "Michael Pittman Jr.",
+          "position": "WR",
+          "proTeam": "PIT",
+          "projection": 0.0,
+          "slot": "IR",
+          "slotId": 21
         }
       ]
     },
     {
-      "acquisitions": 4,
+      "acquisitions": 3,
       "actual": 20.9,
       "htmlId": "numbers",
       "id": 3,
