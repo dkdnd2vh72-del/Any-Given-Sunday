@@ -9,7 +9,7 @@
         "teamName": "Gett'n Saucy"
       },
       "home": {
-        "projection": 128.47,
+        "projection": 128.46,
         "score": 23.3,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -23,7 +23,7 @@
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 127.26,
+        "projection": 127.24,
         "score": 35.2,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -59,7 +59,7 @@
     },
     {
       "away": {
-        "projection": 131.17,
+        "projection": 131.73,
         "score": 40.82,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -82,7 +82,7 @@
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 7,
-      "projection": 127.26,
+      "projection": 127.24,
       "record": {
         "losses": 1,
         "pointsAgainst": 101.2,
@@ -97,7 +97,7 @@
           "name": "Jalen Hurts",
           "position": "QB",
           "proTeam": "PHI",
-          "projection": 19.97,
+          "projection": 19.95,
           "slot": "QB",
           "slotId": 0
         },
@@ -207,7 +207,7 @@
           "name": "Kyle Pitts Sr.",
           "position": "TE",
           "proTeam": "ATL",
-          "projection": 12.53,
+          "projection": 12.54,
           "slot": "Bench",
           "slotId": 20
         },
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 5,
       "actual": 20.9,
       "htmlId": "numbers",
       "id": 3,
@@ -1255,7 +1255,7 @@
           "name": "Juwan Johnson",
           "position": "TE",
           "proTeam": "NO",
-          "projection": 10.79,
+          "projection": 10.8,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1278,7 +1278,7 @@
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 1,
-      "projection": 131.17,
+      "projection": 131.73,
       "record": {
         "losses": 0,
         "pointsAgainst": 151.06,
@@ -1323,7 +1323,7 @@
           "name": "Chris Olave",
           "position": "WR",
           "proTeam": "NO",
-          "projection": 15.91,
+          "projection": 15.92,
           "slot": "WR",
           "slotId": 4
         },
@@ -1353,7 +1353,7 @@
           "name": "Travis Etienne Jr.",
           "position": "RB",
           "proTeam": "NO",
-          "projection": 12.22,
+          "projection": 12.77,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1446,7 +1446,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 5,
-      "projection": 128.47,
+      "projection": 128.46,
       "record": {
         "losses": 1,
         "pointsAgainst": 135.46,
@@ -1511,7 +1511,7 @@
           "name": "Dallas Goedert",
           "position": "TE",
           "proTeam": "PHI",
-          "projection": 12.94,
+          "projection": 12.93,
           "slot": "TE",
           "slotId": 6
         },
