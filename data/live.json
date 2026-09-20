@@ -51,7 +51,7 @@
         "teamName": "More Wins Than PSI"
       },
       "home": {
-        "projection": 128.91,
+        "projection": 129.35,
         "score": 20.9,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -250,7 +250,7 @@
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 9,
-      "projection": 128.91,
+      "projection": 129.35,
       "record": {
         "losses": 2,
         "pointsAgainst": 120.02,
@@ -311,11 +311,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4036133",
-          "name": "T.J. Hockenson",
+          "id": "5083076",
+          "name": "Harold Fannin Jr.",
           "position": "TE",
-          "proTeam": "MIN",
-          "projection": 12.45,
+          "proTeam": "CLE",
+          "projection": 12.33,
           "slot": "TE",
           "slotId": 6
         },
@@ -331,11 +331,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16007",
-          "name": "Broncos D/ST",
+          "id": "-16024",
+          "name": "Chargers D/ST",
           "position": "D/ST",
-          "proTeam": "DEN",
-          "projection": 6.58,
+          "proTeam": "LAC",
+          "projection": 7.14,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -351,31 +351,21 @@
         },
         {
           "actual": 0.0,
+          "id": "-16007",
+          "name": "Broncos D/ST",
+          "position": "D/ST",
+          "proTeam": "DEN",
+          "projection": 6.58,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
           "id": "4869645",
           "name": "Caleb Douglas",
           "position": "WR",
           "proTeam": "MIA",
           "projection": 9.4,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "5083076",
-          "name": "Harold Fannin Jr.",
-          "position": "TE",
-          "proTeam": "CLE",
-          "projection": 12.33,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "-16030",
-          "name": "Jaguars D/ST",
-          "position": "D/ST",
-          "proTeam": "JAX",
-          "projection": 4.54,
           "slot": "Bench",
           "slotId": 20
         },
@@ -406,6 +396,16 @@
           "position": "WR",
           "proTeam": "NE",
           "projection": 10.59,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4036133",
+          "name": "T.J. Hockenson",
+          "position": "TE",
+          "proTeam": "MIN",
+          "projection": 12.45,
           "slot": "Bench",
           "slotId": 20
         },
