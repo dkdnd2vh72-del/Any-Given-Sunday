@@ -17,13 +17,13 @@
     },
     {
       "away": {
-        "projection": 115.85,
+        "projection": 115.86,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 127.81,
+        "projection": 127.82,
         "score": 35.2,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -31,7 +31,7 @@
     },
     {
       "away": {
-        "projection": 128.76,
+        "projection": 128.77,
         "score": -0.1,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 121.43,
+        "projection": 121.41,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -59,7 +59,7 @@
     },
     {
       "away": {
-        "projection": 131.18,
+        "projection": 131.17,
         "score": 40.82,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -82,7 +82,7 @@
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 7,
-      "projection": 127.81,
+      "projection": 127.82,
       "record": {
         "losses": 1,
         "pointsAgainst": 101.2,
@@ -117,7 +117,7 @@
           "name": "Kyren Williams",
           "position": "RB",
           "proTeam": "LAR",
-          "projection": 14.22,
+          "projection": 14.23,
           "slot": "RB",
           "slotId": 2
         },
@@ -197,7 +197,7 @@
           "name": "Jordan Addison",
           "position": "WR",
           "proTeam": "MIN",
-          "projection": 10.59,
+          "projection": 10.58,
           "slot": "Bench",
           "slotId": 20
         },
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 5,
+      "acquisitions": 4,
       "actual": 20.9,
       "htmlId": "numbers",
       "id": 3,
@@ -405,7 +405,7 @@
           "name": "T.J. Hockenson",
           "position": "TE",
           "proTeam": "MIN",
-          "projection": 12.45,
+          "projection": 11.78,
           "slot": "Bench",
           "slotId": 20
         },
@@ -428,7 +428,7 @@
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 8,
-      "projection": 128.76,
+      "projection": 128.77,
       "record": {
         "losses": 2,
         "pointsAgainst": 135.56,
@@ -513,7 +513,7 @@
           "name": "Patriots D/ST",
           "position": "D/ST",
           "proTeam": "NE",
-          "projection": 6.91,
+          "projection": 6.92,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -596,7 +596,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 3,
-      "projection": 115.85,
+      "projection": 115.86,
       "record": {
         "losses": 0,
         "pointsAgainst": 120.2,
@@ -651,7 +651,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "proTeam": "LAR",
-          "projection": 21.25,
+          "projection": 21.26,
           "slot": "WR",
           "slotId": 4
         },
@@ -751,7 +751,7 @@
           "name": "Tee Higgins",
           "position": "WR",
           "proTeam": "CIN",
-          "projection": 12.34,
+          "projection": 12.32,
           "slot": "Bench",
           "slotId": 20
         }
@@ -1037,7 +1037,7 @@
           "name": "Blake Corum",
           "position": "RB",
           "proTeam": "LAR",
-          "projection": 9.05,
+          "projection": 9.06,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1110,7 +1110,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 121.43,
+      "projection": 121.41,
       "record": {
         "losses": 2,
         "pointsAgainst": 117.52,
@@ -1155,7 +1155,7 @@
           "name": "Ja'Marr Chase",
           "position": "WR",
           "proTeam": "CIN",
-          "projection": 19.03,
+          "projection": 19.01,
           "slot": "WR",
           "slotId": 4
         },
@@ -1278,7 +1278,7 @@
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 1,
-      "projection": 131.18,
+      "projection": 131.17,
       "record": {
         "losses": 0,
         "pointsAgainst": 151.06,
@@ -1333,7 +1333,7 @@
           "name": "Justin Jefferson",
           "position": "WR",
           "proTeam": "MIN",
-          "projection": 18.37,
+          "projection": 18.36,
           "slot": "WR",
           "slotId": 4
         },
