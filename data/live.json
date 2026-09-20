@@ -23,7 +23,7 @@
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 127.82,
+        "projection": 127.26,
         "score": 35.2,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -82,7 +82,7 @@
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 7,
-      "projection": 127.82,
+      "projection": 127.26,
       "record": {
         "losses": 1,
         "pointsAgainst": 101.2,
@@ -143,21 +143,21 @@
         },
         {
           "actual": 0.0,
-          "id": "4360248",
-          "name": "Kyle Pitts Sr.",
-          "position": "TE",
-          "proTeam": "ATL",
-          "projection": 12.53,
-          "slot": "TE",
-          "slotId": 6
-        },
-        {
-          "actual": 0.0,
           "id": "15847",
           "name": "Travis Kelce",
           "position": "TE",
           "proTeam": "KC",
           "projection": 12.65,
+          "slot": "TE",
+          "slotId": 6
+        },
+        {
+          "actual": 0.0,
+          "id": "4685702",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "proTeam": "CLE",
+          "projection": 11.97,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -203,11 +203,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4685702",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "proTeam": "CLE",
-          "projection": 11.97,
+          "id": "4360248",
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "proTeam": "ATL",
+          "projection": 12.53,
           "slot": "Bench",
           "slotId": 20
         },
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 5,
       "actual": 20.9,
       "htmlId": "numbers",
       "id": 3,
