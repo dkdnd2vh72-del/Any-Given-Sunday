@@ -10,7 +10,7 @@
       },
       "home": {
         "projection": 130.3,
-        "score": 64.0,
+        "score": 65.0,
         "teamId": 13,
         "teamName": "Pollard Express"
       }
@@ -18,13 +18,13 @@
     {
       "away": {
         "projection": 117.84,
-        "score": 78.42,
+        "score": 84.42,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       },
       "home": {
         "projection": 127.48,
-        "score": 121.66,
+        "score": 123.06,
         "teamId": 1,
         "teamName": "Big Blue"
       }
@@ -52,7 +52,7 @@
       },
       "home": {
         "projection": 129.33,
-        "score": 104.16,
+        "score": 106.86,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       }
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 0,
-      "actual": 121.66,
+      "actual": 123.06,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -142,7 +142,7 @@
           "slotId": 4
         },
         {
-          "actual": 13.4,
+          "actual": 14.8,
           "id": "15847",
           "name": "Travis Kelce",
           "position": "TE",
@@ -244,8 +244,8 @@
       ]
     },
     {
-      "acquisitions": 6,
-      "actual": 104.16,
+      "acquisitions": 5,
+      "actual": 106.86,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -280,7 +280,7 @@
           "slotId": 2
         },
         {
-          "actual": 7.6,
+          "actual": 10.3,
           "id": "4567048",
           "name": "Kenneth Walker III",
           "position": "RB",
@@ -591,7 +591,7 @@
     },
     {
       "acquisitions": 3,
-      "actual": 78.42,
+      "actual": 84.42,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
@@ -606,7 +606,7 @@
       },
       "roster": [
         {
-          "actual": 13.52,
+          "actual": 19.52,
           "id": "3139477",
           "name": "Patrick Mahomes",
           "position": "QB",
@@ -1441,7 +1441,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 64.0,
+      "actual": 65.0,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
@@ -1536,7 +1536,7 @@
           "slotId": 16
         },
         {
-          "actual": 5.6,
+          "actual": 6.6,
           "id": "3055899",
           "name": "Harrison Butker",
           "position": "K",
