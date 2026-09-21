@@ -62,8 +62,6 @@ jobs:
               # percentage from projected totals. If ESPN exposes an explicit predictor
               # field on either side, preserve it; otherwise omit percentage entirely.
               hp=None; ap=None
-              for key in ("winPercentage","matchupWinPercentage","projectedWinPercentage","winProbability","matchupWinProbability"):
-                if hp is None and side if False else False: pass
               hs=m.get("home") or {}; aws=m.get("away") or {}
               for key in ("winPercentage","matchupWinPercentage","projectedWinPercentage","winProbability","matchupWinProbability"):
                 if hp is None and hs.get(key) is not None: hp=hs.get(key)
