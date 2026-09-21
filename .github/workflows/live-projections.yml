@@ -58,14 +58,23 @@ jobs:
               if val<=0: raise RuntimeError(f"No valid ESPN projection for team {tid}")
               projections[tid]=val; out[sn]={"teamId":int(tid),"projection":val}
             if "home" in out and "away" in out:
-              # ESPN's app matchup percentages are derived from its matchup projection display.
-              # Keep the exact projected totals from ESPN and use the same gentle scaling seen
-              # in ESPN's matchup card (e.g. 129.47 vs 125.56 -> 52/48), rather than the old
-              # exaggerated site-only model.
-              diff=out["home"]["projection"]-out["away"]["projection"]
-              home_pct=max(0,min(100,round(50+diff/2)))
-              away_pct=100-home_pct
-              out["home"]["percentage"]=home_pct; out["away"]["percentage"]=away_pct
+              # Store only values ESPN actually returned. Never manufacture a matchup
+              # percentage from projected totals. If ESPN exposes an explicit predictor
+              # field on either side, preserve it; otherwise omit percentage entirely.
+              hp=None; ap=None
+              for key in ("winPercentage","matchupWinPercentage","projectedWinPercentage","winProbability","matchupWinProbability"):
+                if hp is None and side if False else False: pass
+              hs=m.get("home") or {}; aws=m.get("away") or {}
+              for key in ("winPercentage","matchupWinPercentage","projectedWinPercentage","winProbability","matchupWinProbability"):
+                if hp is None and hs.get(key) is not None: hp=hs.get(key)
+                if ap is None and aws.get(key) is not None: ap=aws.get(key)
+              if hp is not None and ap is not None:
+                try:
+                  hp=float(hp); ap=float(ap)
+                  if hp<=1 and ap<=1: hp*=100; ap*=100
+                  out["home"]["percentage"]=round(hp)
+                  out["away"]["percentage"]=round(ap)
+                except (TypeError,ValueError): pass
               matchups.append(out)
           if not projections: raise RuntimeError("ESPN returned no matchup projections")
           vals=sorted(projections.values()); n=len(vals); med=vals[n//2] if n%2 else round((vals[n//2-1]+vals[n//2])/2,2)
