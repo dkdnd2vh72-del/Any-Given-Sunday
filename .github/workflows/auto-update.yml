@@ -328,6 +328,28 @@ jobs:
 
           league = response.json()
 
+          # Standings must come from ESPN's standings view, not the live-scoring
+          # team payload. Fetch it separately so completed matchup results and
+          # playoff seeds are refreshed as soon as ESPN updates them.
+          standings_response = requests.get(
+              ESPN_URL,
+              params=[("view","mTeam"),("view","mStandings"),("view","mStatus")],
+              headers=headers,
+              cookies=cookies,
+              timeout=30,
+          )
+          standings_response.raise_for_status()
+          standings_data = standings_response.json()
+          standings_by_id = {
+              safe_int(t.get("id")): t
+              for t in standings_data.get("teams", [])
+          }
+          for t in league.get("teams", []):
+              fresh = standings_by_id.get(safe_int(t.get("id")))
+              if fresh:
+                  t["record"] = fresh.get("record", t.get("record", {}))
+                  t["playoffSeed"] = fresh.get("playoffSeed", t.get("playoffSeed", 0))
+
 
           # ==========================================
           # PLAYER STATS
