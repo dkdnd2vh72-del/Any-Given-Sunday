@@ -42,5 +42,27 @@
 <div class="player-row"><div class="player-info"><span class="team-name"><span class="player-position pos-k">K</span>Brandon Aubrey</span><span class="player-meta">Injured Reserve</span></div><span class="player-points">16.90</span></div>
 <div class="player-row" style="border-top:2px solid rgba(255,255,255,.16);margin-top:.35rem;padding-top:.85rem;"><div class="player-info"><span class="team-name" style="font-weight:900;">TEAM OF THE WEEK TOTAL</span></div><span class="player-points" style="font-size:1.15rem;font-weight:900;">280.02</span></div>
 </div>
+<h2 class="section-title">Highest Scoring Team of the Week</h2>
+<div class="card" id="highest-scoring-team-tracker">
+<div class="card-row standing-row"><span class="standing-rank">W1</span><span class="standing-info">Injured Reserve</span><span class="player-points">171.76</span></div>
+<div class="card-row standing-row"><span class="standing-rank">W2</span><span class="standing-info">Big Blue</span><span class="player-points">163.06</span></div>
+</div>
+<script>
+(async function(){
+  try{
+    var r=await fetch('data/highest-scoring-teams.json?ts='+Date.now(),{cache:'no-store'});
+    if(!r.ok)return;
+    var d=await r.json(), card=document.getElementById('highest-scoring-team-tracker');
+    if(!card||!Array.isArray(d.weeks))return;
+    card.innerHTML='';
+    d.weeks.forEach(function(x){
+      var row=document.createElement('div'); row.className='card-row standing-row';
+      row.innerHTML='<span class="standing-rank">W'+Number(x.week)+'</span><span class="standing-info"></span><span class="player-points">'+Number(x.score).toFixed(2)+'</span>';
+      row.querySelector('.standing-info').textContent=x.teamName;
+      card.appendChild(row);
+    });
+  }catch(e){}
+})();
+</script>
 <h2 class="section-title">League Transaction Counter</h2><div class="card" id="league-transaction-card" style="text-align:center;"><div class="stat-number" id="league-transaction-total" style="font-size:1.6rem;">$18</div></div>
 </main><footer class="site-footer">© 2026 Any Given Sunday</footer><script src="app.js?v=20260914-2"></script><script>(async function(){try{var r=await fetch('data/live.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)return;var d=await r.json();var w=Number(d.week||d.scoringPeriod||0);if(!w)return;var label=document.getElementById('current-week');var link=document.getElementById('current-week-link');if(label)label.textContent='Week '+w;if(link)link.href='matchups.html?week='+w;}catch(e){}})();</script></body></html>
