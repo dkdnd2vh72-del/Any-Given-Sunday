@@ -40,5 +40,30 @@
 </main>
 <footer class="site-footer">© 2026 Any Given Sunday</footer>
 <script src="app.js?v=20260914-2"></script>
+<script>
+(async function(){
+  try{
+    var r=await fetch('data/live.json?ts='+Date.now(),{cache:'no-store'});
+    if(!r.ok)return;
+    var d=await r.json(), teams=Array.isArray(d.teams)?d.teams.slice():[];
+    teams.sort(function(a,b){
+      var as=Number(a.playoffSeed||99),bs=Number(b.playoffSeed||99);
+      if(as!==bs)return as-bs;
+      var ar=a.record||{},br=b.record||{};
+      if(Number(br.wins||0)!==Number(ar.wins||0))return Number(br.wins||0)-Number(ar.wins||0);
+      return Number(br.pointsFor||0)-Number(ar.pointsFor||0);
+    });
+    var body=document.querySelector('.standings-table tbody'); if(!body)return;
+    body.innerHTML='';
+    teams.forEach(function(t){
+      var rec=t.record||{},tr=document.createElement('tr');
+      [t.name,Number(rec.wins||0),Number(rec.losses||0),Number(rec.pointsFor||0).toFixed(2)].forEach(function(v,i){
+        var td=document.createElement('td'); if(i)td.className='num'; td.textContent=v; tr.appendChild(td);
+      });
+      body.appendChild(tr);
+    });
+  }catch(e){}
+})();
+</script>
 </body>
 </html>
