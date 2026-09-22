@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 5,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1507,16 +1507,6 @@
         },
         {
           "actual": 0.0,
-          "id": "3121023",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "proTeam": "PHI",
-          "projection": 0.0,
-          "slot": "TE",
-          "slotId": 6
-        },
-        {
-          "actual": 0.0,
           "id": "16800",
           "name": "Davante Adams",
           "position": "WR",
@@ -1562,6 +1552,16 @@
           "position": "WR",
           "proTeam": "DEN",
           "projection": 11.23,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "3121023",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "proTeam": "PHI",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20
         },
