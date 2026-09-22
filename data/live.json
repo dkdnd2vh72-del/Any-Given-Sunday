@@ -4,13 +4,13 @@
     {
       "away": {
         "projection": 129.15,
-        "score": 110.8,
+        "score": 122.7,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       },
       "home": {
         "projection": 130.3,
-        "score": 80.6,
+        "score": 80.68,
         "teamId": 13,
         "teamName": "Pollard Express"
       }
@@ -24,7 +24,7 @@
       },
       "home": {
         "projection": 127.48,
-        "score": 137.86,
+        "score": 141.26,
         "teamId": 1,
         "teamName": "Big Blue"
       }
@@ -46,7 +46,7 @@
     {
       "away": {
         "projection": 121.41,
-        "score": 124.9,
+        "score": 125.7,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       },
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 0,
-      "actual": 137.86,
+      "actual": 141.26,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -102,7 +102,7 @@
           "slotId": 0
         },
         {
-          "actual": 0.0,
+          "actual": 1.9,
           "id": "4696981",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -112,7 +112,7 @@
           "slotId": 2
         },
         {
-          "actual": 0.0,
+          "actual": 1.5,
           "id": "4430737",
           "name": "Kyren Williams",
           "position": "RB",
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 5,
       "actual": 120.36,
       "htmlId": "numbers",
       "id": 3,
@@ -759,7 +759,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 110.8,
+      "actual": 122.7,
       "htmlId": "gettn-saucy",
       "id": 7,
       "name": "Gett'n Saucy",
@@ -824,7 +824,7 @@
           "slotId": 4
         },
         {
-          "actual": 0.0,
+          "actual": 1.9,
           "id": "4361050",
           "name": "Isaiah Likely",
           "position": "TE",
@@ -844,7 +844,7 @@
           "slotId": 23
         },
         {
-          "actual": 0.0,
+          "actual": 10.0,
           "id": "-16014",
           "name": "Rams D/ST",
           "position": "D/ST",
@@ -1105,7 +1105,7 @@
     },
     {
       "acquisitions": 3,
-      "actual": 124.9,
+      "actual": 125.7,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
@@ -1120,7 +1120,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 0.8,
           "id": "4689114",
           "name": "Jaxson Dart",
           "position": "QB",
@@ -1441,7 +1441,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 80.6,
+      "actual": 80.68,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
@@ -1456,7 +1456,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 0.08,
           "id": "12483",
           "name": "Matthew Stafford",
           "position": "QB",
