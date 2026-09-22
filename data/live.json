@@ -65,7 +65,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 124.06,
+        "projection": 122.71,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 5,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1110,7 +1110,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 8,
-      "projection": 124.06,
+      "projection": 122.71,
       "record": {
         "losses": 2,
         "pointsAgainst": 237.88,
@@ -1151,21 +1151,21 @@
         },
         {
           "actual": 0.0,
-          "id": "4362628",
-          "name": "Ja'Marr Chase",
+          "id": "4241478",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "proTeam": "CIN",
-          "projection": 19.03,
+          "proTeam": "PHI",
+          "projection": 15.63,
           "slot": "WR",
           "slotId": 4
         },
         {
           "actual": 0.0,
-          "id": "4595348",
-          "name": "Malik Nabers",
+          "id": "4362628",
+          "name": "Ja'Marr Chase",
           "position": "WR",
-          "proTeam": "NYG",
-          "projection": 15.22,
+          "proTeam": "CIN",
+          "projection": 19.03,
           "slot": "WR",
           "slotId": 4
         },
@@ -1181,11 +1181,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4241478",
-          "name": "DeVonta Smith",
+          "id": "4695883",
+          "name": "Jalen Coker",
           "position": "WR",
-          "proTeam": "PHI",
-          "projection": 15.63,
+          "proTeam": "CAR",
+          "projection": 13.87,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1241,16 +1241,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4695883",
-          "name": "Jalen Coker",
-          "position": "WR",
-          "proTeam": "CAR",
-          "projection": 13.87,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4678008",
           "name": "Jonathon Brooks",
           "position": "RB",
@@ -1266,6 +1256,16 @@
           "position": "TE",
           "proTeam": "NO",
           "projection": 10.96,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4595348",
+          "name": "Malik Nabers",
+          "position": "WR",
+          "proTeam": "NYG",
+          "projection": 15.22,
           "slot": "Bench",
           "slotId": 20
         }
