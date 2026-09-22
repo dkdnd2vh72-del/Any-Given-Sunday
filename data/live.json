@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 115.57,
+        "projection": 119.46,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 5,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -902,7 +902,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 5,
-      "projection": 115.57,
+      "projection": 119.46,
       "record": {
         "losses": 2,
         "pointsAgainst": 231.27999999999997,
@@ -953,11 +953,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4360939",
-          "name": "Rashod Bateman",
+          "id": "4258173",
+          "name": "Nico Collins",
           "position": "WR",
-          "proTeam": "BAL",
-          "projection": 7.62,
+          "proTeam": "HOU",
+          "projection": 15.79,
           "slot": "WR",
           "slotId": 4
         },
@@ -973,11 +973,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4723086",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "proTeam": "CHI",
-          "projection": 11.9,
+          "id": "4360939",
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "proTeam": "BAL",
+          "projection": 7.62,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1008,6 +1008,16 @@
           "position": "RB",
           "proTeam": "LAR",
           "projection": 8.56,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4723086",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "proTeam": "CHI",
+          "projection": 11.9,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1048,16 +1058,6 @@
           "position": "WR",
           "proTeam": "ARI",
           "projection": 7.03,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4258173",
-          "name": "Nico Collins",
-          "position": "WR",
-          "proTeam": "HOU",
-          "projection": 15.79,
           "slot": "Bench",
           "slotId": 20
         },
