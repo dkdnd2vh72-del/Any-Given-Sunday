@@ -1,0 +1,82 @@
+name: Highest Scoring Team Tracker
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: highest-scoring-team-tracker
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Update completed-week scoring leaders
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        run: |
+          python - <<'PY'
+          import json, os, requests
+          from pathlib import Path
+
+          LEAGUE_ID="820399"; SEASON=2026
+          url=f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON}/segments/0/leagues/{LEAGUE_ID}"
+          cookies={}
+          if os.getenv("ESPN_S2"): cookies["espn_s2"]=os.environ["ESPN_S2"]
+          if os.getenv("ESPN_SWID"): cookies["SWID"]=os.environ["ESPN_SWID"]
+          headers={"User-Agent":"Mozilla/5.0 Any-Given-Sunday-GitHub-Action/1.0","Accept":"application/json"}
+
+          status=requests.get(url,params=[("view","mStatus")],headers=headers,cookies=cookies,timeout=30)
+          status.raise_for_status()
+          s=status.json()
+          current=int(s.get("scoringPeriodId") or s.get("status",{}).get("currentMatchupPeriod") or 1)
+          completed=max(0,current-1)
+          weeks=[]
+
+          for week in range(1,completed+1):
+              r=requests.get(url,params=[("view","mMatchup"),("view","mMatchupScore"),("view","mTeam"),("scoringPeriodId",week)],headers=headers,cookies=cookies,timeout=30)
+              r.raise_for_status()
+              d=r.json()
+              names={}
+              for t in d.get("teams",[]):
+                  tid=int(t.get("id",0))
+                  name=(t.get("name") or (str(t.get("location",""))+" "+str(t.get("nickname","")))).strip()
+                  names[tid]=" ".join(name.split())
+              best=None
+              for m in d.get("schedule",[]):
+                  if int(m.get("matchupPeriodId") or 0)!=week: continue
+                  for side in ("home","away"):
+                      x=m.get(side) or {}
+                      tid=int(x.get("teamId") or 0)
+                      pts=x.get("totalPoints")
+                      if pts is None:
+                          pts=(x.get("pointsByScoringPeriod") or {}).get(str(week))
+                      try: pts=float(pts)
+                      except (TypeError,ValueError): continue
+                      if best is None or pts>best["score"]:
+                          best={"week":week,"teamId":tid,"teamName":names.get(tid,f"Team {tid}"),"score":round(pts,2)}
+              if best: weeks.append(best)
+
+          out={"updatedThroughWeek":completed,"weeks":weeks}
+          Path("data/highest-scoring-teams.json").write_text(json.dumps(out,indent=2)+"\n",encoding="utf-8")
+          PY
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- data/highest-scoring-teams.json; then exit 0; fi
+          git config user.name "Any Given Sunday Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/highest-scoring-teams.json
+          git commit -m "Update highest scoring team tracker"
+          git pull --rebase
+          git push
