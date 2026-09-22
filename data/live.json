@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 5,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1091,16 +1091,6 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "4689114",
-          "name": "Jaxson Dart",
-          "position": "QB",
-          "proTeam": "NYG",
-          "projection": 0.0,
-          "slot": "QB",
-          "slotId": 0
-        },
-        {
-          "actual": 0.0,
           "id": "4685382",
           "name": "Omarion Hampton",
           "position": "RB",
@@ -1206,6 +1196,16 @@
           "position": "RB",
           "proTeam": "SEA",
           "projection": 12.08,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4689114",
+          "name": "Jaxson Dart",
+          "position": "QB",
+          "proTeam": "NYG",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20
         },
