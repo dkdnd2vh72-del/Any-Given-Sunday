@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 114.05,
+        "projection": 124.48,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -31,7 +31,7 @@
     },
     {
       "away": {
-        "projection": 116.17,
+        "projection": 124.25,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -65,7 +65,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 102.5,
+        "projection": 121.07,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -244,13 +244,13 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 7,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 10,
-      "projection": 116.17,
+      "projection": 124.25,
       "record": {
         "losses": 4,
         "pointsAgainst": 246.82,
@@ -338,6 +338,26 @@
           "projection": 4.01,
           "slot": "D/ST",
           "slotId": 16
+        },
+        {
+          "actual": 0.0,
+          "id": "4360234",
+          "name": "Evan McPherson",
+          "position": "K",
+          "proTeam": "CIN",
+          "projection": 8.08,
+          "slot": "K",
+          "slotId": 17
+        },
+        {
+          "actual": 0.0,
+          "id": "4685720",
+          "name": "Bryce Young",
+          "position": "QB",
+          "proTeam": "CAR",
+          "projection": 16.75,
+          "slot": "Bench",
+          "slotId": 20
         },
         {
           "actual": 0.0,
@@ -896,7 +916,7 @@
       ]
     },
     {
-      "acquisitions": 4,
+      "acquisitions": 6,
       "actual": 0.0,
       "htmlId": "king-johnson",
       "id": 8,
@@ -1023,6 +1043,16 @@
         },
         {
           "actual": 0.0,
+          "id": "4832800",
+          "name": "Denzel Boston",
+          "position": "WR",
+          "proTeam": "CLE",
+          "projection": 11.31,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
           "id": "4431452",
           "name": "Drake Maye",
           "position": "QB",
@@ -1033,31 +1063,21 @@
         },
         {
           "actual": 0.0,
+          "id": "4688813",
+          "name": "Josh Downs",
+          "position": "WR",
+          "proTeam": "IND",
+          "projection": 11.47,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
           "id": "4696044",
           "name": "Kaelon Black",
           "position": "RB",
           "proTeam": "SF",
           "projection": 7.38,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4371733",
-          "name": "Kenny Gainwell",
-          "position": "RB",
-          "proTeam": "TB",
-          "projection": 7.6,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4432708",
-          "name": "Marvin Harrison Jr.",
-          "position": "WR",
-          "proTeam": "ARI",
-          "projection": 7.03,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1074,13 +1094,13 @@
       ]
     },
     {
-      "acquisitions": 3,
+      "acquisitions": 5,
       "actual": 0.0,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 8,
-      "projection": 102.5,
+      "projection": 121.07,
       "record": {
         "losses": 2,
         "pointsAgainst": 237.88,
@@ -1089,6 +1109,16 @@
         "wins": 2
       },
       "roster": [
+        {
+          "actual": 0.0,
+          "id": "4360689",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "proTeam": "NO",
+          "projection": 18.83,
+          "slot": "QB",
+          "slotId": 0
+        },
         {
           "actual": 0.0,
           "id": "4685382",
@@ -1161,11 +1191,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4686361",
-          "name": "Cam Little",
+          "id": "3150744",
+          "name": "Chase McLaughlin",
           "position": "K",
-          "proTeam": "JAX",
-          "projection": 8.98,
+          "proTeam": "TB",
+          "projection": 8.72,
           "slot": "K",
           "slotId": 17
         },
@@ -1205,16 +1235,6 @@
           "name": "Jaxson Dart",
           "position": "QB",
           "proTeam": "NYG",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4678008",
-          "name": "Jonathon Brooks",
-          "position": "RB",
-          "proTeam": "CAR",
           "projection": 0.0,
           "slot": "Bench",
           "slotId": 20
@@ -1410,13 +1430,13 @@
       ]
     },
     {
-      "acquisitions": 0,
+      "acquisitions": 1,
       "actual": 0.0,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 3,
-      "projection": 114.05,
+      "projection": 124.48,
       "record": {
         "losses": 1,
         "pointsAgainst": 268.56,
@@ -1477,6 +1497,16 @@
         },
         {
           "actual": 0.0,
+          "id": "4595342",
+          "name": "Oronde Gadsden",
+          "position": "TE",
+          "proTeam": "LAC",
+          "projection": 10.43,
+          "slot": "TE",
+          "slotId": 6
+        },
+        {
+          "actual": 0.0,
           "id": "4612826",
           "name": "Ladd McConkey",
           "position": "WR",
@@ -1504,16 +1534,6 @@
           "projection": 9.25,
           "slot": "K",
           "slotId": 17
-        },
-        {
-          "actual": 0.0,
-          "id": "4426338",
-          "name": "Bo Nix",
-          "position": "QB",
-          "proTeam": "DEN",
-          "projection": 16.56,
-          "slot": "Bench",
-          "slotId": 20
         },
         {
           "actual": 0.0,
