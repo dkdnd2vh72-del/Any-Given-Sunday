@@ -17,7 +17,7 @@
     },
     {
       "away": {
-        "projection": 131.32,
+        "projection": 133.71,
         "score": 0.0,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1634,7 +1634,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 9,
-      "projection": 131.32,
+      "projection": 133.71,
       "record": {
         "losses": 3,
         "pointsAgainst": 299.9,
@@ -1705,11 +1705,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4431299",
-          "name": "Rome Odunze",
+          "id": "3126486",
+          "name": "Deebo Samuel Sr.",
           "position": "WR",
-          "proTeam": "CHI",
-          "projection": 9.94,
+          "proTeam": "SF",
+          "projection": 12.33,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1732,16 +1732,6 @@
           "projection": 9.64,
           "slot": "K",
           "slotId": 17
-        },
-        {
-          "actual": 0.0,
-          "id": "3126486",
-          "name": "Deebo Samuel Sr.",
-          "position": "WR",
-          "proTeam": "SF",
-          "projection": 12.33,
-          "slot": "Bench",
-          "slotId": 20
         },
         {
           "actual": 0.0,
@@ -1780,6 +1770,16 @@
           "position": "RB",
           "proTeam": "NE",
           "projection": 12.05,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4431299",
+          "name": "Rome Odunze",
+          "position": "WR",
+          "proTeam": "CHI",
+          "projection": 9.94,
           "slot": "Bench",
           "slotId": 20
         },
