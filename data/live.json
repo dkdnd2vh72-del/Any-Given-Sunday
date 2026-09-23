@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 119.46,
+        "projection": 118.83,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 8,
+      "acquisitions": 7,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -922,7 +922,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 5,
-      "projection": 119.46,
+      "projection": 118.83,
       "record": {
         "losses": 2,
         "pointsAgainst": 231.27999999999997,
@@ -973,11 +973,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4258173",
-          "name": "Nico Collins",
+          "id": "4688813",
+          "name": "Josh Downs",
           "position": "WR",
-          "proTeam": "HOU",
-          "projection": 15.79,
+          "proTeam": "IND",
+          "projection": 11.47,
           "slot": "WR",
           "slotId": 4
         },
@@ -993,11 +993,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4360939",
-          "name": "Rashod Bateman",
+          "id": "4832800",
+          "name": "Denzel Boston",
           "position": "WR",
-          "proTeam": "BAL",
-          "projection": 7.62,
+          "proTeam": "CLE",
+          "projection": 11.31,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1043,16 +1043,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4832800",
-          "name": "Denzel Boston",
-          "position": "WR",
-          "proTeam": "CLE",
-          "projection": 11.31,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4431452",
           "name": "Drake Maye",
           "position": "QB",
@@ -1063,21 +1053,31 @@
         },
         {
           "actual": 0.0,
-          "id": "4688813",
-          "name": "Josh Downs",
-          "position": "WR",
-          "proTeam": "IND",
-          "projection": 11.47,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4696044",
           "name": "Kaelon Black",
           "position": "RB",
           "proTeam": "SF",
           "projection": 7.38,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4258173",
+          "name": "Nico Collins",
+          "position": "WR",
+          "proTeam": "HOU",
+          "projection": 15.79,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4360939",
+          "name": "Rashod Bateman",
+          "position": "WR",
+          "proTeam": "BAL",
+          "projection": 7.62,
           "slot": "Bench",
           "slotId": 20
         },
