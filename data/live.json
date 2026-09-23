@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -549,16 +549,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4426348",
-          "name": "Jayden Daniels",
-          "position": "QB",
-          "proTeam": "WSH",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
           "id": "4701936",
           "name": "Matthew Golden",
           "position": "WR",
@@ -586,6 +576,16 @@
           "projection": 10.54,
           "slot": "Bench",
           "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4426348",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "proTeam": "WSH",
+          "projection": 0.0,
+          "slot": "IR",
+          "slotId": 21
         }
       ]
     },
