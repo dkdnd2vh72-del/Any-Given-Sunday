@@ -51,7 +51,7 @@
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 106.61,
+        "projection": 123.95,
         "score": 0.0,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -422,13 +422,13 @@
       ]
     },
     {
-      "acquisitions": 0,
+      "acquisitions": 1,
       "actual": 0.0,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 6,
-      "projection": 106.61,
+      "projection": 123.95,
       "record": {
         "losses": 2,
         "pointsAgainst": 255.94,
@@ -439,11 +439,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "4426348",
-          "name": "Jayden Daniels",
+          "id": "3917315",
+          "name": "Kyler Murray",
           "position": "QB",
-          "proTeam": "WSH",
-          "projection": 0.0,
+          "proTeam": "MIN",
+          "projection": 17.34,
           "slot": "QB",
           "slotId": 0
         },
@@ -549,11 +549,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4608686",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "proTeam": "CHI",
-          "projection": 8.39,
+          "id": "4426348",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "proTeam": "WSH",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20
         },
