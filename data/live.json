@@ -59,7 +59,7 @@
     },
     {
       "away": {
-        "projection": 134.25,
+        "projection": 136.34,
         "score": 0.0,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1272,13 +1272,13 @@
       ]
     },
     {
-      "acquisitions": 1,
+      "acquisitions": 2,
       "actual": 0.0,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 4,
-      "projection": 134.25,
+      "projection": 136.34,
       "record": {
         "losses": 2,
         "pointsAgainst": 274.54,
@@ -1359,11 +1359,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16033",
-          "name": "Ravens D/ST",
+          "id": "-16004",
+          "name": "Bengals D/ST",
           "position": "D/ST",
-          "proTeam": "BAL",
-          "projection": 4.73,
+          "proTeam": "CIN",
+          "projection": 6.82,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -1394,6 +1394,16 @@
           "position": "RB",
           "proTeam": "WSH",
           "projection": 8.78,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "-16033",
+          "name": "Ravens D/ST",
+          "position": "D/ST",
+          "proTeam": "BAL",
+          "projection": 4.73,
           "slot": "Bench",
           "slotId": 20
         },
