@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 112.93,
+        "projection": 114.05,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 5,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1416,7 +1416,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 3,
-      "projection": 112.93,
+      "projection": 114.05,
       "record": {
         "losses": 1,
         "pointsAgainst": 268.56,
@@ -1457,11 +1457,11 @@
         },
         {
           "actual": 0.0,
-          "id": "16737",
-          "name": "Mike Evans",
+          "id": "16800",
+          "name": "Davante Adams",
           "position": "WR",
-          "proTeam": "SF",
-          "projection": 12.48,
+          "proTeam": "LAR",
+          "projection": 13.82,
           "slot": "WR",
           "slotId": 4
         },
@@ -1477,11 +1477,11 @@
         },
         {
           "actual": 0.0,
-          "id": "16800",
-          "name": "Davante Adams",
+          "id": "4612826",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "proTeam": "LAR",
-          "projection": 13.82,
+          "proTeam": "LAC",
+          "projection": 13.6,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -1547,11 +1547,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4612826",
-          "name": "Ladd McConkey",
+          "id": "16737",
+          "name": "Mike Evans",
           "position": "WR",
-          "proTeam": "LAC",
-          "projection": 13.6,
+          "proTeam": "SF",
+          "projection": 12.48,
           "slot": "Bench",
           "slotId": 20
         },
