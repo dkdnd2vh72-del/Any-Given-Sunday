@@ -31,7 +31,7 @@
     },
     {
       "away": {
-        "projection": 124.25,
+        "projection": 127.06,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -250,7 +250,7 @@
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 10,
-      "projection": 124.25,
+      "projection": 127.06,
       "record": {
         "losses": 4,
         "pointsAgainst": 246.82,
@@ -331,11 +331,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16007",
-          "name": "Broncos D/ST",
+          "id": "-16004",
+          "name": "Bengals D/ST",
           "position": "D/ST",
-          "proTeam": "DEN",
-          "projection": 4.01,
+          "proTeam": "CIN",
+          "projection": 6.82,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -348,6 +348,16 @@
           "projection": 8.08,
           "slot": "K",
           "slotId": 17
+        },
+        {
+          "actual": 0.0,
+          "id": "-16007",
+          "name": "Broncos D/ST",
+          "position": "D/ST",
+          "proTeam": "DEN",
+          "projection": 4.01,
+          "slot": "Bench",
+          "slotId": 20
         },
         {
           "actual": 0.0,
