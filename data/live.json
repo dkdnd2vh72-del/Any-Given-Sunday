@@ -3,13 +3,13 @@
   "matchups": [
     {
       "away": {
-        "projection": 124.37,
+        "projection": 127.45,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 130.6,
+        "projection": 130.99,
         "score": 0.0,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -31,13 +31,13 @@
     },
     {
       "away": {
-        "projection": 126.73,
+        "projection": 126.8,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
-        "projection": 128.58,
+        "projection": 108.64,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -65,7 +65,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 120.98,
+        "projection": 122.73,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -82,7 +82,7 @@
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 1,
-      "projection": 130.6,
+      "projection": 130.99,
       "record": {
         "losses": 1,
         "pointsAgainst": 195.07999999999998,
@@ -117,7 +117,7 @@
           "name": "Kyren Williams",
           "position": "RB",
           "proTeam": "LAR",
-          "projection": 12.58,
+          "projection": 12.97,
           "slot": "RB",
           "slotId": 2
         },
@@ -244,13 +244,13 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 10,
-      "projection": 126.73,
+      "projection": 126.8,
       "record": {
         "losses": 4,
         "pointsAgainst": 246.82,
@@ -325,7 +325,7 @@
           "name": "De'Von Achane",
           "position": "RB",
           "proTeam": "MIA",
-          "projection": 19.4,
+          "projection": 19.47,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -355,7 +355,7 @@
           "name": "Broncos D/ST",
           "position": "D/ST",
           "proTeam": "DEN",
-          "projection": 4.01,
+          "projection": 4.1,
           "slot": "Bench",
           "slotId": 20
         },
@@ -375,7 +375,7 @@
           "name": "Caleb Douglas",
           "position": "WR",
           "proTeam": "MIA",
-          "projection": 8.75,
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20
         },
@@ -606,7 +606,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 7,
-      "projection": 128.58,
+      "projection": 108.64,
       "record": {
         "losses": 2,
         "pointsAgainst": 283.26,
@@ -661,7 +661,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "proTeam": "LAR",
-          "projection": 19.94,
+          "projection": 0.0,
           "slot": "WR",
           "slotId": 4
         },
@@ -741,7 +741,7 @@
           "name": "David Montgomery",
           "position": "RB",
           "proTeam": "HOU",
-          "projection": 11.91,
+          "projection": 12.01,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1057,7 +1057,7 @@
           "name": "Blake Corum",
           "position": "RB",
           "proTeam": "LAR",
-          "projection": 8.56,
+          "projection": 8.98,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1097,7 +1097,7 @@
           "name": "Nico Collins",
           "position": "WR",
           "proTeam": "HOU",
-          "projection": 15.79,
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1130,7 +1130,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 8,
-      "projection": 120.98,
+      "projection": 122.73,
       "record": {
         "losses": 2,
         "pointsAgainst": 237.88,
@@ -1195,7 +1195,7 @@
           "name": "Dalton Schultz",
           "position": "TE",
           "proTeam": "HOU",
-          "projection": 11.64,
+          "projection": 13.39,
           "slot": "TE",
           "slotId": 6
         },
@@ -1463,7 +1463,7 @@
           "name": "Woody Marks",
           "position": "RB",
           "proTeam": "HOU",
-          "projection": 8.6,
+          "projection": 8.75,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1486,7 +1486,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 3,
-      "projection": 124.37,
+      "projection": 127.45,
       "record": {
         "losses": 1,
         "pointsAgainst": 268.56,
@@ -1501,7 +1501,7 @@
           "name": "Matthew Stafford",
           "position": "QB",
           "proTeam": "LAR",
-          "projection": 15.72,
+          "projection": 15.73,
           "slot": "QB",
           "slotId": 0
         },
@@ -1531,7 +1531,7 @@
           "name": "Davante Adams",
           "position": "WR",
           "proTeam": "LAR",
-          "projection": 13.82,
+          "projection": 16.89,
           "slot": "WR",
           "slotId": 4
         },
