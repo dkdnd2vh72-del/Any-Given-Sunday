@@ -51,7 +51,7 @@
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 123.95,
+        "projection": 123.89,
         "score": 0.0,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -422,13 +422,13 @@
       ]
     },
     {
-      "acquisitions": 1,
+      "acquisitions": 2,
       "actual": 0.0,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 6,
-      "projection": 123.95,
+      "projection": 123.89,
       "record": {
         "losses": 2,
         "pointsAgainst": 255.94,
@@ -439,11 +439,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "3917315",
-          "name": "Kyler Murray",
+          "id": "4036378",
+          "name": "Jordan Love",
           "position": "QB",
-          "proTeam": "MIN",
-          "projection": 17.34,
+          "proTeam": "GB",
+          "projection": 17.28,
           "slot": "QB",
           "slotId": 0
         },
@@ -544,6 +544,16 @@
           "position": "WR",
           "proTeam": "TEN",
           "projection": 11.78,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "3917315",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "proTeam": "MIN",
+          "projection": 17.34,
           "slot": "Bench",
           "slotId": 20
         },
