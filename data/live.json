@@ -17,13 +17,13 @@
     },
     {
       "away": {
-        "projection": 133.71,
+        "projection": 133.76,
         "score": 28.4,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
-        "projection": 131.65,
+        "projection": 131.66,
         "score": 0.0,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
@@ -31,13 +31,13 @@
     },
     {
       "away": {
-        "projection": 126.8,
+        "projection": 126.75,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
-        "projection": 108.51,
+        "projection": 121.19,
         "score": 1.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -45,13 +45,13 @@
     },
     {
       "away": {
-        "projection": 119.35,
+        "projection": 119.36,
         "score": 57.9,
         "teamId": 8,
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 123.88,
+        "projection": 123.9,
         "score": 18.48,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
@@ -65,7 +65,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 122.73,
+        "projection": 122.49,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -244,13 +244,13 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 10,
-      "projection": 126.8,
+      "projection": 126.75,
       "record": {
         "losses": 4,
         "pointsAgainst": 246.82,
@@ -325,7 +325,7 @@
           "name": "De'Von Achane",
           "position": "RB",
           "proTeam": "MIA",
-          "projection": 19.47,
+          "projection": 19.42,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -395,7 +395,7 @@
           "name": "Michael Wilson",
           "position": "WR",
           "proTeam": "ARI",
-          "projection": 11.28,
+          "projection": 11.31,
           "slot": "Bench",
           "slotId": 20
         },
@@ -428,7 +428,7 @@
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 6,
-      "projection": 123.88,
+      "projection": 123.9,
       "record": {
         "losses": 2,
         "pointsAgainst": 255.94,
@@ -493,7 +493,7 @@
           "name": "Tyler Warren",
           "position": "TE",
           "proTeam": "IND",
-          "projection": 14.63,
+          "projection": 14.65,
           "slot": "TE",
           "slotId": 6
         },
@@ -553,7 +553,7 @@
           "name": "Kyler Murray",
           "position": "QB",
           "proTeam": "MIN",
-          "projection": 17.34,
+          "projection": 17.35,
           "slot": "Bench",
           "slotId": 20
         },
@@ -573,7 +573,7 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "proTeam": "WSH",
-          "projection": 10.83,
+          "projection": 10.81,
           "slot": "Bench",
           "slotId": 20
         },
@@ -606,7 +606,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 7,
-      "projection": 108.51,
+      "projection": 121.19,
       "record": {
         "losses": 2,
         "pointsAgainst": 283.26,
@@ -657,11 +657,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4426515",
-          "name": "Puka Nacua",
+          "id": "4239993",
+          "name": "Tee Higgins",
           "position": "WR",
-          "proTeam": "LAR",
-          "projection": 0.0,
+          "proTeam": "CIN",
+          "projection": 12.68,
           "slot": "WR",
           "slotId": 4
         },
@@ -757,11 +757,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4239993",
-          "name": "Tee Higgins",
+          "id": "4426515",
+          "name": "Puka Nacua",
           "position": "WR",
-          "proTeam": "CIN",
-          "projection": 12.68,
+          "proTeam": "LAR",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20
         },
@@ -784,7 +784,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 2,
-      "projection": 131.65,
+      "projection": 131.66,
       "record": {
         "losses": 1,
         "pointsAgainst": 261.64,
@@ -859,7 +859,7 @@
           "name": "Jeremiyah Love",
           "position": "RB",
           "proTeam": "ARI",
-          "projection": 12.75,
+          "projection": 12.76,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -929,7 +929,7 @@
           "name": "Terry McLaurin",
           "position": "WR",
           "proTeam": "WSH",
-          "projection": 11.89,
+          "projection": 11.81,
           "slot": "Bench",
           "slotId": 20
         },
@@ -952,7 +952,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 5,
-      "projection": 119.35,
+      "projection": 119.36,
       "record": {
         "losses": 2,
         "pointsAgainst": 231.27999999999997,
@@ -1007,7 +1007,7 @@
           "name": "Josh Downs",
           "position": "WR",
           "proTeam": "IND",
-          "projection": 11.99,
+          "projection": 12.0,
           "slot": "WR",
           "slotId": 4
         },
@@ -1130,7 +1130,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 8,
-      "projection": 122.73,
+      "projection": 122.49,
       "record": {
         "losses": 2,
         "pointsAgainst": 237.88,
@@ -1215,7 +1215,7 @@
           "name": "49ers D/ST",
           "position": "D/ST",
           "proTeam": "SF",
-          "projection": 7.87,
+          "projection": 7.63,
           "slot": "D/ST",
           "slotId": 16
         },
@@ -1423,7 +1423,7 @@
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
           "proTeam": "WSH",
-          "projection": 8.78,
+          "projection": 8.77,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1631,7 +1631,7 @@
           "name": "Rachaad White",
           "position": "RB",
           "proTeam": "WSH",
-          "projection": 9.33,
+          "projection": 9.3,
           "slot": "Bench",
           "slotId": 20
         },
@@ -1654,7 +1654,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 9,
-      "projection": 133.71,
+      "projection": 133.76,
       "record": {
         "losses": 3,
         "pointsAgainst": 299.9,
@@ -1719,7 +1719,7 @@
           "name": "Trey McBride",
           "position": "TE",
           "proTeam": "ARI",
-          "projection": 20.15,
+          "projection": 20.2,
           "slot": "TE",
           "slotId": 6
         },
