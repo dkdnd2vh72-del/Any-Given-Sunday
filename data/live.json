@@ -37,7 +37,7 @@
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
-        "projection": 108.64,
+        "projection": 108.51,
         "score": 1.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -606,7 +606,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 7,
-      "projection": 108.64,
+      "projection": 108.51,
       "record": {
         "losses": 2,
         "pointsAgainst": 283.26,
@@ -677,11 +677,11 @@
         },
         {
           "actual": 0.0,
-          "id": "3116365",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "proTeam": "BAL",
-          "projection": 12.14,
+          "id": "4035538",
+          "name": "David Montgomery",
+          "position": "RB",
+          "proTeam": "HOU",
+          "projection": 12.01,
           "slot": "FLEX",
           "slotId": 23
         },
@@ -736,22 +736,22 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
-          "id": "4035538",
-          "name": "David Montgomery",
-          "position": "RB",
-          "proTeam": "HOU",
-          "projection": 12.01,
-          "slot": "Bench",
-          "slotId": 20
-        },
-        {
           "actual": 3.8,
           "id": "4429023",
           "name": "MarShawn Lloyd",
           "position": "RB",
           "proTeam": "GB",
           "projection": 8.63,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "3116365",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "proTeam": "BAL",
+          "projection": 12.14,
           "slot": "Bench",
           "slotId": 20
         },
