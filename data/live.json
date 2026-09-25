@@ -38,7 +38,7 @@
       },
       "home": {
         "projection": 108.64,
-        "score": 0.0,
+        "score": 1.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       }
@@ -46,13 +46,13 @@
     {
       "away": {
         "projection": 119.35,
-        "score": 0.0,
+        "score": 23.4,
         "teamId": 8,
         "teamName": "King Johnson"
       },
       "home": {
         "projection": 123.88,
-        "score": 0.0,
+        "score": 7.28,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       }
@@ -202,12 +202,22 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 2.0,
           "id": "4360248",
           "name": "Kyle Pitts Sr.",
           "position": "TE",
           "proTeam": "ATL",
           "projection": 11.93,
+          "slot": "Bench",
+          "slotId": 20
+        },
+        {
+          "actual": 0.0,
+          "id": "4035687",
+          "name": "Michael Pittman Jr.",
+          "position": "WR",
+          "proTeam": "PIT",
+          "projection": 11.36,
           "slot": "Bench",
           "slotId": 20
         },
@@ -230,21 +240,11 @@
           "projection": 8.02,
           "slot": "Bench",
           "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4035687",
-          "name": "Michael Pittman Jr.",
-          "position": "WR",
-          "proTeam": "PIT",
-          "projection": 11.36,
-          "slot": "IR",
-          "slotId": 21
         }
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -423,7 +423,7 @@
     },
     {
       "acquisitions": 2,
-      "actual": 0.0,
+      "actual": 7.28,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -438,7 +438,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 7.28,
           "id": "4036378",
           "name": "Jordan Love",
           "position": "QB",
@@ -558,7 +558,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 5.5,
           "id": "4701936",
           "name": "Matthew Golden",
           "position": "WR",
@@ -601,7 +601,7 @@
     },
     {
       "acquisitions": 5,
-      "actual": 0.0,
+      "actual": 1.0,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
@@ -696,7 +696,7 @@
           "slotId": 16
         },
         {
-          "actual": 0.0,
+          "actual": 1.0,
           "id": "4869461",
           "name": "Trey Smack",
           "position": "K",
@@ -746,7 +746,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 2.7,
           "id": "4429023",
           "name": "MarShawn Lloyd",
           "position": "RB",
@@ -947,7 +947,7 @@
     },
     {
       "acquisitions": 6,
-      "actual": 0.0,
+      "actual": 23.4,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -982,7 +982,7 @@
           "slotId": 2
         },
         {
-          "actual": 0.0,
+          "actual": 16.0,
           "id": "4430807",
           "name": "Bijan Robinson",
           "position": "RB",
@@ -992,7 +992,7 @@
           "slotId": 2
         },
         {
-          "actual": 0.0,
+          "actual": 7.4,
           "id": "4248528",
           "name": "Christian Watson",
           "position": "WR",
@@ -1448,7 +1448,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 4.4,
           "id": "4572680",
           "name": "Tucker Kraft",
           "position": "TE",
