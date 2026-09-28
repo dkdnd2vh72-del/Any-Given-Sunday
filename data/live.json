@@ -4,13 +4,13 @@
     {
       "away": {
         "projection": 126.19,
-        "score": 120.76,
+        "score": 127.16,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
       "home": {
         "projection": 131.0,
-        "score": 77.2,
+        "score": 92.3,
         "teamId": 1,
         "teamName": "Big Blue"
       }
@@ -18,13 +18,13 @@
     {
       "away": {
         "projection": 131.9,
-        "score": 122.08,
+        "score": 128.18,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
         "projection": 133.27,
-        "score": 142.88,
+        "score": 161.3,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       }
@@ -32,7 +32,7 @@
     {
       "away": {
         "projection": 126.49,
-        "score": 128.0,
+        "score": 132.34,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       },
@@ -52,7 +52,7 @@
       },
       "home": {
         "projection": 123.9,
-        "score": 109.08,
+        "score": 119.08,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       }
@@ -60,13 +60,13 @@
     {
       "away": {
         "projection": 136.4,
-        "score": 87.36,
+        "score": 94.46,
         "teamId": 12,
         "teamName": "Injured Reserve"
       },
       "home": {
         "projection": 122.44,
-        "score": 82.56,
+        "score": 82.4,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       }
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 0,
-      "actual": 77.2,
+      "actual": 92.3,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -112,7 +112,7 @@
           "slotId": 2
         },
         {
-          "actual": 0.0,
+          "actual": 12.7,
           "id": "4430737",
           "name": "Kyren Williams",
           "position": "RB",
@@ -132,7 +132,7 @@
           "slotId": 4
         },
         {
-          "actual": 17.8,
+          "actual": 20.2,
           "id": "4241389",
           "name": "CeeDee Lamb",
           "position": "WR",
@@ -244,8 +244,8 @@
       ]
     },
     {
-      "acquisitions": 10,
-      "actual": 128.0,
+      "acquisitions": 9,
+      "actual": 132.34,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -260,7 +260,7 @@
       },
       "roster": [
         {
-          "actual": 16.6,
+          "actual": 18.94,
           "id": "2577417",
           "name": "Dak Prescott",
           "position": "QB",
@@ -330,7 +330,7 @@
           "slotId": 23
         },
         {
-          "actual": 17.0,
+          "actual": 19.0,
           "id": "-16016",
           "name": "Vikings D/ST",
           "position": "D/ST",
@@ -350,7 +350,7 @@
           "slotId": 17
         },
         {
-          "actual": 0.0,
+          "actual": 6.0,
           "id": "-16007",
           "name": "Broncos D/ST",
           "position": "D/ST",
@@ -413,7 +413,7 @@
     },
     {
       "acquisitions": 2,
-      "actual": 109.08,
+      "actual": 119.08,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -468,7 +468,7 @@
           "slotId": 4
         },
         {
-          "actual": 0.0,
+          "actual": 1.9,
           "id": "4372016",
           "name": "Jaylen Waddle",
           "position": "WR",
@@ -508,7 +508,7 @@
           "slotId": 16
         },
         {
-          "actual": 0.0,
+          "actual": 8.1,
           "id": "4574716",
           "name": "Harrison Mevis",
           "position": "K",
@@ -769,7 +769,7 @@
     },
     {
       "acquisitions": 0,
-      "actual": 142.88,
+      "actual": 161.3,
       "htmlId": "gettn-saucy",
       "id": 7,
       "name": "Gett'n Saucy",
@@ -784,7 +784,7 @@
       },
       "roster": [
         {
-          "actual": 14.72,
+          "actual": 20.44,
           "id": "3916387",
           "name": "Lamar Jackson",
           "position": "QB",
@@ -794,7 +794,7 @@
           "slotId": 0
         },
         {
-          "actual": 10.6,
+          "actual": 12.3,
           "id": "4890973",
           "name": "Ashton Jeanty",
           "position": "RB",
@@ -854,7 +854,7 @@
           "slotId": 23
         },
         {
-          "actual": 0.0,
+          "actual": 11.0,
           "id": "-16014",
           "name": "Rams D/ST",
           "position": "D/ST",
@@ -884,7 +884,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 6.6,
           "id": "4568490",
           "name": "RJ Harvey",
           "position": "RB",
@@ -1042,7 +1042,7 @@
           "slotId": 17
         },
         {
-          "actual": 0.0,
+          "actual": 2.8,
           "id": "4429096",
           "name": "Blake Corum",
           "position": "RB",
@@ -1115,7 +1115,7 @@
     },
     {
       "acquisitions": 6,
-      "actual": 82.56,
+      "actual": 82.4,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
@@ -1130,7 +1130,7 @@
       },
       "roster": [
         {
-          "actual": 23.96,
+          "actual": 23.8,
           "id": "4360689",
           "name": "Tyler Shough",
           "position": "QB",
@@ -1240,7 +1240,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 2.3,
           "id": "4241985",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -1260,7 +1260,7 @@
           "slotId": 20
         },
         {
-          "actual": 23.0,
+          "actual": 27.3,
           "id": "3929645",
           "name": "Juwan Johnson",
           "position": "TE",
@@ -1293,7 +1293,7 @@
     },
     {
       "acquisitions": 2,
-      "actual": 87.36,
+      "actual": 94.46,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1338,7 +1338,7 @@
           "slotId": 2
         },
         {
-          "actual": 14.9,
+          "actual": 19.7,
           "id": "4361370",
           "name": "Chris Olave",
           "position": "WR",
@@ -1388,7 +1388,7 @@
           "slotId": 16
         },
         {
-          "actual": 7.6,
+          "actual": 9.9,
           "id": "3953687",
           "name": "Brandon Aubrey",
           "position": "K",
@@ -1418,7 +1418,7 @@
           "slotId": 20
         },
         {
-          "actual": 4.0,
+          "actual": 2.0,
           "id": "-16033",
           "name": "Ravens D/ST",
           "position": "D/ST",
@@ -1471,7 +1471,7 @@
     },
     {
       "acquisitions": 2,
-      "actual": 120.76,
+      "actual": 127.16,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
@@ -1516,7 +1516,7 @@
           "slotId": 2
         },
         {
-          "actual": 0.0,
+          "actual": 6.4,
           "id": "16800",
           "name": "Davante Adams",
           "position": "WR",
@@ -1576,7 +1576,7 @@
           "slotId": 17
         },
         {
-          "actual": 0.0,
+          "actual": 2.0,
           "id": "3128429",
           "name": "Courtland Sutton",
           "position": "WR",
@@ -1596,7 +1596,7 @@
           "slotId": 20
         },
         {
-          "actual": 0.0,
+          "actual": 11.12,
           "id": "12483",
           "name": "Matthew Stafford",
           "position": "QB",
@@ -1649,7 +1649,7 @@
     },
     {
       "acquisitions": 3,
-      "actual": 122.08,
+      "actual": 128.18,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
@@ -1704,7 +1704,7 @@
           "slotId": 4
         },
         {
-          "actual": 9.3,
+          "actual": 15.4,
           "id": "4429615",
           "name": "Zay Flowers",
           "position": "WR",
