@@ -1745,7 +1745,7 @@ jobs:
                               )
 
 
-              # Live Trade Block: only players ESPN marks "Definitely".
+              # Live Trade Block: players ESPN marks as willing to trade (Likely or Definitely).
               trade_body = soup.find(id="trade-block-card")
               if trade_body:
                   # Keep manually confirmed ESPN "Definitely" rows until the
@@ -1765,7 +1765,7 @@ jobs:
                               value = str(raw.get("name") or raw.get("value") or raw.get("status") or raw.get("interest") or "")
                           elif raw is not None:
                               value = str(raw)
-                          if value.strip().lower() in ("definitely", "definite", "2", "high"):
+                          if value.strip().lower() in ("definitely", "definite", "likely", "likely to trade", "2", "high", "1", "medium"):
                               trade_rows.append((team["name"], p))
                   for manual_row in manual_rows:
                       trade_body.append(manual_row)
