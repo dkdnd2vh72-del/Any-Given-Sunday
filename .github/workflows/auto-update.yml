@@ -1748,6 +1748,13 @@ jobs:
               # Live Trade Block: only players ESPN marks "Definitely".
               trade_body = soup.find(id="trade-block-card")
               if trade_body:
+                  # Keep manually confirmed ESPN "Definitely" rows until the
+                  # exact ESPN trade-interest API field is verified. The prior
+                  # guessed mapping was deleting valid entries such as Puka.
+                  manual_rows = [
+                      row.extract()
+                      for row in trade_body.select("[data-trade-block-manual]")
+                  ]
                   trade_body.clear()
                   trade_rows = []
                   for team in normalized["teams"]:
@@ -1760,8 +1767,12 @@ jobs:
                               value = str(raw)
                           if value.strip().lower() in ("definitely", "definite", "2", "high"):
                               trade_rows.append((team["name"], p))
+                  for manual_row in manual_rows:
+                      trade_body.append(manual_row)
                   if trade_rows:
                       for team_name_value, p in sorted(trade_rows, key=lambda x: (x[0].lower(), x[1]["name"].lower())):
+                          if any(p["name"] == row.get_text(" ", strip=True).replace(p["position"], "", 1).replace(team_name_value, "", 1).strip() for row in manual_rows):
+                              continue
                           pos_class = "pos-dst" if p["position"] == "D/ST" else "pos-" + p["position"].lower().replace("/", "").replace(" ", "")
                           html = (
                               '<div class="player-row"><div class="player-info">'
@@ -1772,7 +1783,7 @@ jobs:
                           row = BeautifulSoup(html, "html.parser").find("div", class_="player-row")
                           if row:
                               trade_body.append(row)
-                  else:
+                  elif not manual_rows:
                       row = BeautifulSoup(
                           '<div class="player-row"><div class="player-info"><span class="player-meta">No players marked Definitely yet</span></div></div>',
                           "html.parser"
