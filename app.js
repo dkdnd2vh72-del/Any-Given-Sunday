@@ -270,22 +270,11 @@ document.addEventListener("DOMContentLoaded", function () {
     } catch (error) {}
   }
 
+  // Standings are rendered by standings.html directly from data/live.json.
+  // Do not fetch the legacy data/standings.json here; it can overwrite current
+  // standings with an older snapshot after the page first loads.
   async function renderLiveStandings() {
-    if (currentPage !== "standings") return;
-    var tbody = document.querySelector(".standings-table tbody");
-    if (!tbody) return;
-    try {
-      var response = await fetch("data/standings.json?ts=" + Date.now(), { cache:"no-store" });
-      if (!response.ok) return;
-      var data = await response.json(); tbody.innerHTML = "";
-      (data.teams || []).forEach(function (team) {
-        var tr = document.createElement("tr");
-        [normalizeName(team.teamName), team.wins, team.losses, Number(team.pointsFor || 0).toFixed(1)].forEach(function (value, i) {
-          var td = document.createElement("td"); if (i > 0) td.className = "num"; td.textContent = value; tr.appendChild(td);
-        });
-        tbody.appendChild(tr);
-      });
-    } catch (error) {}
+    return;
   }
 
   async function renderTransactionData() {
