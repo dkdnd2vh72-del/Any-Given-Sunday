@@ -23,7 +23,7 @@
         "teamName": "Big Blue"
       },
       "home": {
-        "projection": 126.35,
+        "projection": 129.29,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -45,13 +45,13 @@
     },
     {
       "away": {
-        "projection": 114.69,
+        "projection": 128.15,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 134.68,
+        "projection": 137.31,
         "score": 0.0,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -99,7 +99,8 @@
           "proTeam": "PHI",
           "projection": 18.09,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -109,7 +110,8 @@
           "proTeam": "NYG",
           "projection": 16.32,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -119,7 +121,8 @@
           "proTeam": "LAR",
           "projection": 12.92,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -129,7 +132,8 @@
           "proTeam": "DET",
           "projection": 20.15,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -139,7 +143,8 @@
           "proTeam": "DAL",
           "projection": 16.89,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -149,7 +154,8 @@
           "proTeam": "KC",
           "projection": 14.04,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -159,7 +165,8 @@
           "proTeam": "CLE",
           "projection": 12.46,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -169,7 +176,8 @@
           "proTeam": "PHI",
           "projection": 4.74,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -179,7 +187,8 @@
           "proTeam": "SEA",
           "projection": 10.11,
           "slot": "K",
-          "slotId": 17
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -189,7 +198,8 @@
           "proTeam": "JAX",
           "projection": 8.22,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -199,7 +209,8 @@
           "proTeam": "MIN",
           "projection": 11.52,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -209,7 +220,8 @@
           "proTeam": "ATL",
           "projection": 8.86,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -219,7 +231,8 @@
           "proTeam": "PIT",
           "projection": 9.78,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -229,7 +242,8 @@
           "proTeam": "JAX",
           "projection": 18.45,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -239,18 +253,19 @@
           "proTeam": "TEN",
           "projection": 9.15,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         }
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 7,
-      "projection": 126.35,
+      "projection": 129.29,
       "record": {
         "losses": 4,
         "pointsAgainst": 366.65999999999997,
@@ -261,13 +276,14 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "2577417",
-          "name": "Dak Prescott",
+          "id": "4685720",
+          "name": "Bryce Young",
           "position": "QB",
-          "proTeam": "DAL",
-          "projection": 17.17,
+          "proTeam": "CAR",
+          "projection": 20.11,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -277,7 +293,8 @@
           "proTeam": "BUF",
           "projection": 17.46,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -287,7 +304,8 @@
           "proTeam": "KC",
           "projection": 20.48,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -297,7 +315,8 @@
           "proTeam": "ARI",
           "projection": 13.36,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -307,7 +326,8 @@
           "proTeam": "CAR",
           "projection": 14.94,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -317,7 +337,8 @@
           "proTeam": "CLE",
           "projection": 13.55,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -327,7 +348,8 @@
           "proTeam": "CHI",
           "projection": 11.78,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -337,7 +359,8 @@
           "proTeam": "MIN",
           "projection": 8.9,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -347,7 +370,8 @@
           "proTeam": "CIN",
           "projection": 8.71,
           "slot": "K",
-          "slotId": 17
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -357,27 +381,19 @@
           "proTeam": "DEN",
           "projection": 3.43,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4685720",
-          "name": "Bryce Young",
+          "id": "2577417",
+          "name": "Dak Prescott",
           "position": "QB",
-          "proTeam": "CAR",
-          "projection": 20.11,
+          "proTeam": "DAL",
+          "projection": 17.17,
           "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4429160",
-          "name": "De'Von Achane",
-          "position": "RB",
-          "proTeam": "MIA",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -387,7 +403,8 @@
           "proTeam": "DET",
           "projection": 10.39,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -397,7 +414,8 @@
           "proTeam": "NE",
           "projection": 9.77,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -407,7 +425,8 @@
           "proTeam": "NO",
           "projection": 0.0,
           "slot": "IR",
-          "slotId": 21
+          "slotId": 21,
+          "tradeInterest": null
         }
       ]
     },
@@ -435,7 +454,8 @@
           "proTeam": "MIN",
           "projection": 19.26,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -445,7 +465,8 @@
           "proTeam": "SF",
           "projection": 20.24,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -455,7 +476,8 @@
           "proTeam": "BAL",
           "projection": 20.26,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -465,7 +487,8 @@
           "proTeam": "DAL",
           "projection": 13.74,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -475,7 +498,8 @@
           "proTeam": "DEN",
           "projection": 11.92,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -485,7 +509,8 @@
           "proTeam": "IND",
           "projection": 15.67,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -495,7 +520,8 @@
           "proTeam": "BUF",
           "projection": 12.96,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -505,7 +531,8 @@
           "proTeam": "NE",
           "projection": 3.27,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -515,7 +542,8 @@
           "proTeam": "LAR",
           "projection": 8.7,
           "slot": "K",
-          "slotId": 17
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -525,7 +553,8 @@
           "proTeam": "CHI",
           "projection": 0.0,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -535,7 +564,8 @@
           "proTeam": "TEN",
           "projection": 11.85,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -545,7 +575,8 @@
           "proTeam": "GB",
           "projection": 14.95,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -555,7 +586,8 @@
           "proTeam": "GB",
           "projection": 12.85,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -565,7 +597,8 @@
           "proTeam": "WSH",
           "projection": 11.57,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -575,7 +608,8 @@
           "proTeam": "TEN",
           "projection": 11.72,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -585,7 +619,8 @@
           "proTeam": "WSH",
           "projection": 0.0,
           "slot": "IR",
-          "slotId": 21
+          "slotId": 21,
+          "tradeInterest": null
         }
       ]
     },
@@ -596,7 +631,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 8,
-      "projection": 114.69,
+      "projection": 128.15,
       "record": {
         "losses": 4,
         "pointsAgainst": 415.6,
@@ -613,17 +648,19 @@
           "proTeam": "KC",
           "projection": 18.65,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4427366",
-          "name": "Breece Hall",
+          "id": "4035538",
+          "name": "David Montgomery",
           "position": "RB",
-          "proTeam": "NYJ",
-          "projection": 0.0,
+          "proTeam": "HOU",
+          "projection": 13.46,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -633,7 +670,8 @@
           "proTeam": "DAL",
           "projection": 14.59,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -643,7 +681,8 @@
           "proTeam": "LAR",
           "projection": 20.35,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -653,7 +692,8 @@
           "proTeam": "CIN",
           "projection": 13.69,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -663,7 +703,8 @@
           "proTeam": "LV",
           "projection": 19.18,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -673,7 +714,8 @@
           "proTeam": "TB",
           "projection": 11.25,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -683,7 +725,8 @@
           "proTeam": "PIT",
           "projection": 8.59,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -693,7 +736,8 @@
           "proTeam": "GB",
           "projection": 8.39,
           "slot": "K",
-          "slotId": 17
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -703,7 +747,19 @@
           "proTeam": "NYJ",
           "projection": 10.64,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4427366",
+          "name": "Breece Hall",
+          "position": "RB",
+          "proTeam": "NYJ",
+          "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -713,7 +769,8 @@
           "proTeam": "TB",
           "projection": 6.46,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -723,17 +780,8 @@
           "proTeam": "PIT",
           "projection": 10.15,
           "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "4035538",
-          "name": "David Montgomery",
-          "position": "RB",
-          "proTeam": "HOU",
-          "projection": 13.46,
-          "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -743,7 +791,8 @@
           "proTeam": "GB",
           "projection": 6.49,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -753,7 +802,8 @@
           "proTeam": "BAL",
           "projection": 11.9,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -763,7 +813,8 @@
           "proTeam": "IND",
           "projection": 0.0,
           "slot": "IR",
-          "slotId": 21
+          "slotId": 21,
+          "tradeInterest": null
         }
       ]
     },
@@ -791,7 +842,8 @@
           "proTeam": "BAL",
           "projection": 21.14,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -801,7 +853,8 @@
           "proTeam": "LV",
           "projection": 18.82,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -811,7 +864,8 @@
           "proTeam": "CAR",
           "projection": 16.34,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -821,7 +875,8 @@
           "proTeam": "NYJ",
           "projection": 15.54,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -831,7 +886,8 @@
           "proTeam": "SEA",
           "projection": 20.98,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -841,7 +897,8 @@
           "proTeam": "NYG",
           "projection": 13.89,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -851,7 +908,8 @@
           "proTeam": "ARI",
           "projection": 15.51,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -861,7 +919,8 @@
           "proTeam": "LAR",
           "projection": 6.25,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -871,17 +930,8 @@
           "proTeam": "PIT",
           "projection": 8.39,
           "slot": "K",
-          "slotId": 17
-        },
-        {
-          "actual": 0.0,
-          "id": "4362249",
-          "name": "Jayden Reed",
-          "position": "WR",
-          "proTeam": "GB",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -891,7 +941,8 @@
           "proTeam": "DEN",
           "projection": 10.18,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -901,7 +952,8 @@
           "proTeam": "PIT",
           "projection": 8.86,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -911,7 +963,8 @@
           "proTeam": "DET",
           "projection": 13.4,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -921,7 +974,8 @@
           "proTeam": "WSH",
           "projection": 12.94,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -931,7 +985,19 @@
           "proTeam": "KC",
           "projection": 9.82,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4362249",
+          "name": "Jayden Reed",
+          "position": "WR",
+          "proTeam": "GB",
+          "projection": 0.0,
+          "slot": "IR",
+          "slotId": 21,
+          "tradeInterest": null
         }
       ]
     },
@@ -959,7 +1025,8 @@
           "proTeam": "SF",
           "projection": 18.65,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -969,7 +1036,8 @@
           "proTeam": "JAX",
           "projection": 12.64,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -979,7 +1047,8 @@
           "proTeam": "ATL",
           "projection": 21.49,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -989,7 +1058,8 @@
           "proTeam": "GB",
           "projection": 14.44,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -999,7 +1069,8 @@
           "proTeam": "IND",
           "projection": 13.67,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1009,7 +1080,8 @@
           "proTeam": "BUF",
           "projection": 12.76,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1019,7 +1091,8 @@
           "proTeam": "HOU",
           "projection": 15.29,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1029,7 +1102,8 @@
           "proTeam": "KC",
           "projection": 6.88,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1039,7 +1113,8 @@
           "proTeam": "SF",
           "projection": 9.6,
           "slot": "K",
-          "slotId": 17
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1049,7 +1124,8 @@
           "proTeam": "LAR",
           "projection": 8.06,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1059,7 +1135,8 @@
           "proTeam": "CHI",
           "projection": 11.89,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1069,7 +1146,8 @@
           "proTeam": "CLE",
           "projection": 10.56,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1079,7 +1157,8 @@
           "proTeam": "NE",
           "projection": 17.51,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1089,7 +1168,8 @@
           "proTeam": "SF",
           "projection": 5.45,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1099,7 +1179,8 @@
           "proTeam": "BAL",
           "projection": 7.91,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1109,7 +1190,8 @@
           "proTeam": "NE",
           "projection": 0.0,
           "slot": "IR",
-          "slotId": 21
+          "slotId": 21,
+          "tradeInterest": null
         }
       ]
     },
@@ -1137,7 +1219,8 @@
           "proTeam": "NO",
           "projection": 18.86,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1147,7 +1230,8 @@
           "proTeam": "SEA",
           "projection": 9.98,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1157,7 +1241,19 @@
           "proTeam": "LAC",
           "projection": 10.89,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4241478",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "proTeam": "PHI",
+          "projection": 15.11,
+          "slot": "WR",
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1167,17 +1263,8 @@
           "proTeam": "CIN",
           "projection": 20.46,
           "slot": "WR",
-          "slotId": 4
-        },
-        {
-          "actual": 0.0,
-          "id": "4595348",
-          "name": "Malik Nabers",
-          "position": "WR",
-          "proTeam": "NYG",
-          "projection": 13.61,
-          "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1187,17 +1274,19 @@
           "proTeam": "NO",
           "projection": 12.55,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4241478",
-          "name": "DeVonta Smith",
+          "id": "4595348",
+          "name": "Malik Nabers",
           "position": "WR",
-          "proTeam": "PHI",
-          "projection": 15.11,
+          "proTeam": "NYG",
+          "projection": 13.61,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1207,7 +1296,8 @@
           "proTeam": "SF",
           "projection": 6.12,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1217,7 +1307,8 @@
           "proTeam": "TB",
           "projection": 8.83,
           "slot": "K",
-          "slotId": 17
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1227,7 +1318,8 @@
           "proTeam": "HOU",
           "projection": 11.08,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1237,7 +1329,8 @@
           "proTeam": "NO",
           "projection": 10.63,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1247,7 +1340,8 @@
           "proTeam": "SEA",
           "projection": 9.6,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1257,7 +1351,8 @@
           "proTeam": "DEN",
           "projection": 10.09,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1267,7 +1362,8 @@
           "proTeam": "CAR",
           "projection": 13.79,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1277,7 +1373,8 @@
           "proTeam": "NE",
           "projection": 9.54,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1287,7 +1384,8 @@
           "proTeam": "NYG",
           "projection": 0.0,
           "slot": "IR",
-          "slotId": 21
+          "slotId": 21,
+          "tradeInterest": null
         }
       ]
     },
@@ -1298,7 +1396,7 @@
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 4,
-      "projection": 134.68,
+      "projection": 137.31,
       "record": {
         "losses": 3,
         "pointsAgainst": 369.44000000000005,
@@ -1315,7 +1413,8 @@
           "proTeam": "BUF",
           "projection": 22.27,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1325,7 +1424,8 @@
           "proTeam": "CHI",
           "projection": 13.7,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1335,7 +1435,8 @@
           "proTeam": "PHI",
           "projection": 15.72,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1345,7 +1446,8 @@
           "proTeam": "NO",
           "projection": 18.26,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1355,7 +1457,8 @@
           "proTeam": "JAX",
           "projection": 15.34,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1365,7 +1468,8 @@
           "proTeam": "SF",
           "projection": 16.15,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1375,17 +1479,19 @@
           "proTeam": "MIN",
           "projection": 18.63,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "-16004",
-          "name": "Bengals D/ST",
+          "id": "-16033",
+          "name": "Ravens D/ST",
           "position": "D/ST",
-          "proTeam": "CIN",
-          "projection": 4.71,
+          "proTeam": "BAL",
+          "projection": 7.34,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1395,7 +1501,8 @@
           "proTeam": "DAL",
           "projection": 9.9,
           "slot": "K",
-          "slotId": 17
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1405,7 +1512,19 @@
           "proTeam": "MIN",
           "projection": 17.23,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "-16004",
+          "name": "Bengals D/ST",
+          "position": "D/ST",
+          "proTeam": "CIN",
+          "projection": 4.71,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1415,17 +1534,8 @@
           "proTeam": "WSH",
           "projection": 9.24,
           "slot": "Bench",
-          "slotId": 20
-        },
-        {
-          "actual": 0.0,
-          "id": "-16033",
-          "name": "Ravens D/ST",
-          "position": "D/ST",
-          "proTeam": "BAL",
-          "projection": 7.34,
-          "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1435,7 +1545,8 @@
           "proTeam": "NO",
           "projection": 0.0,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1445,7 +1556,8 @@
           "proTeam": "GB",
           "projection": 10.87,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1455,7 +1567,8 @@
           "proTeam": "HOU",
           "projection": 8.32,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1465,7 +1578,8 @@
           "proTeam": "SF",
           "projection": 0.0,
           "slot": "IR",
-          "slotId": 21
+          "slotId": 21,
+          "tradeInterest": null
         }
       ]
     },
@@ -1493,7 +1607,8 @@
           "proTeam": "SEA",
           "projection": 16.06,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1503,7 +1618,8 @@
           "proTeam": "CIN",
           "projection": 16.17,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1513,7 +1629,8 @@
           "proTeam": "DET",
           "projection": 26.15,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1523,7 +1640,8 @@
           "proTeam": "LAR",
           "projection": 14.53,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1533,7 +1651,8 @@
           "proTeam": "KC",
           "projection": 14.9,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1543,7 +1662,8 @@
           "proTeam": "LAC",
           "projection": 8.62,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1553,7 +1673,8 @@
           "proTeam": "PIT",
           "projection": 14.06,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1563,7 +1684,8 @@
           "proTeam": "HOU",
           "projection": 5.37,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1573,7 +1695,8 @@
           "proTeam": "KC",
           "projection": 9.02,
           "slot": "K",
-          "slotId": 17
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1583,7 +1706,8 @@
           "proTeam": "DEN",
           "projection": 10.56,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1593,7 +1717,8 @@
           "proTeam": "LAC",
           "projection": 11.8,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1603,7 +1728,8 @@
           "proTeam": "LAR",
           "projection": 16.21,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1613,7 +1739,8 @@
           "proTeam": "SF",
           "projection": 12.4,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1623,7 +1750,8 @@
           "proTeam": "WSH",
           "projection": 8.34,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1633,7 +1761,8 @@
           "proTeam": "SEA",
           "projection": 8.22,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1643,7 +1772,8 @@
           "proTeam": "PHI",
           "projection": 0.0,
           "slot": "IR",
-          "slotId": 21
+          "slotId": 21,
+          "tradeInterest": null
         }
       ]
     },
@@ -1671,7 +1801,8 @@
           "proTeam": "CIN",
           "projection": 18.17,
           "slot": "QB",
-          "slotId": 0
+          "slotId": 0,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1681,7 +1812,8 @@
           "proTeam": "TB",
           "projection": 16.72,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1691,7 +1823,8 @@
           "proTeam": "IND",
           "projection": 20.38,
           "slot": "RB",
-          "slotId": 2
+          "slotId": 2,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1701,7 +1834,8 @@
           "proTeam": "ATL",
           "projection": 16.71,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1711,7 +1845,8 @@
           "proTeam": "BAL",
           "projection": 15.35,
           "slot": "WR",
-          "slotId": 4
+          "slotId": 4,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1721,7 +1856,8 @@
           "proTeam": "ARI",
           "projection": 21.08,
           "slot": "TE",
-          "slotId": 6
+          "slotId": 6,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1731,7 +1867,8 @@
           "proTeam": "SF",
           "projection": 10.74,
           "slot": "FLEX",
-          "slotId": 23
+          "slotId": 23,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1741,7 +1878,8 @@
           "proTeam": "SEA",
           "projection": 8.17,
           "slot": "D/ST",
-          "slotId": 16
+          "slotId": 16,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1751,7 +1889,8 @@
           "proTeam": "HOU",
           "projection": 10.26,
           "slot": "K",
-          "slotId": 17
+          "slotId": 17,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1761,7 +1900,8 @@
           "proTeam": "PHI",
           "projection": 9.71,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1771,7 +1911,8 @@
           "proTeam": "DAL",
           "projection": 9.91,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1781,7 +1922,8 @@
           "proTeam": "GB",
           "projection": 0.0,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1791,7 +1933,8 @@
           "proTeam": "NE",
           "projection": 11.6,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1801,7 +1944,8 @@
           "proTeam": "CHI",
           "projection": 10.46,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         },
         {
           "actual": 0.0,
@@ -1811,7 +1955,8 @@
           "proTeam": "LV",
           "projection": 9.85,
           "slot": "Bench",
-          "slotId": 20
+          "slotId": 20,
+          "tradeInterest": null
         }
       ]
     }
