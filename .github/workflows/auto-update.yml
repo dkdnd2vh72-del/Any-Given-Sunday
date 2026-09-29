@@ -546,6 +546,18 @@ jobs:
                   )
 
 
+                  # ESPN trade-interest metadata lives on the raw roster/player payload.
+                  # Preserve it so the Transactions page can build a live trade block.
+                  trade_interest = (
+                      entry.get("tradeInterest")
+                      or entry.get("tradeStatus")
+                      or entry.get("tradeAvailability")
+                      or player.get("tradeInterest")
+                      or player.get("tradeStatus")
+                      or player.get("tradeAvailability")
+                      or entry.get("playerPoolEntry", {}).get("tradeInterest")
+                  )
+
                   players.append({
                       "id":
                           str(
@@ -589,6 +601,9 @@ jobs:
                               actual,
                               2
                           ),
+
+                      "tradeInterest":
+                          trade_interest,
                   })
 
 
@@ -1729,6 +1744,40 @@ jobs:
                                   ]["name"]
                               )
 
+
+              # Live Trade Block: only players ESPN marks "Definitely".
+              trade_body = soup.find(id="trade-block-body")
+              if trade_body:
+                  trade_body.clear()
+                  trade_rows = []
+                  for team in normalized["teams"]:
+                      for p in team.get("roster", []):
+                          raw = p.get("tradeInterest")
+                          value = ""
+                          if isinstance(raw, dict):
+                              value = str(raw.get("name") or raw.get("value") or raw.get("status") or raw.get("interest") or "")
+                          elif raw is not None:
+                              value = str(raw)
+                          if value.strip().lower() in ("definitely", "definite", "2", "high"):
+                              trade_rows.append((team["name"], p))
+                  if trade_rows:
+                      for team_name_value, p in sorted(trade_rows, key=lambda x: (x[0].lower(), x[1]["name"].lower())):
+                          html = (
+                              "<tr>"
+                              f"<td>{escape(p['name'])}</td>"
+                              f"<td>{escape(p['position'])}</td>"
+                              f"<td>{escape(team_name_value)}</td>"
+                              "</tr>"
+                          )
+                          row = BeautifulSoup(html, "html.parser").find("tr")
+                          if row:
+                              trade_body.append(row)
+                  else:
+                      row = BeautifulSoup(
+                          '<tr><td colspan="3" style="text-align:center;">No players marked Definitely yet</td></tr>',
+                          "html.parser"
+                      ).find("tr")
+                      trade_body.append(row)
 
               path.write_text(
                   str(soup),
