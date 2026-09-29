@@ -1746,7 +1746,7 @@ jobs:
 
 
               # Live Trade Block: only players ESPN marks "Definitely".
-              trade_body = soup.find(id="trade-block-body")
+              trade_body = soup.find(id="trade-block-card")
               if trade_body:
                   trade_body.clear()
                   trade_rows = []
@@ -1762,21 +1762,21 @@ jobs:
                               trade_rows.append((team["name"], p))
                   if trade_rows:
                       for team_name_value, p in sorted(trade_rows, key=lambda x: (x[0].lower(), x[1]["name"].lower())):
+                          pos_class = "pos-dst" if p["position"] == "D/ST" else "pos-" + p["position"].lower().replace("/", "").replace(" ", "")
                           html = (
-                              "<tr>"
-                              f"<td>{escape(p['name'])}</td>"
-                              f"<td>{escape(p['position'])}</td>"
-                              f"<td>{escape(team_name_value)}</td>"
-                              "</tr>"
+                              '<div class="player-row"><div class="player-info">'
+                              f'<span class="team-name"><span class="player-position {escape(pos_class)}">{escape(p["position"])}</span>{escape(p["name"])}</span>'
+                              f'<span class="player-meta">{escape(team_name_value)}</span>'
+                              '</div></div>'
                           )
-                          row = BeautifulSoup(html, "html.parser").find("tr")
+                          row = BeautifulSoup(html, "html.parser").find("div", class_="player-row")
                           if row:
                               trade_body.append(row)
                   else:
                       row = BeautifulSoup(
-                          '<tr><td colspan="3" style="text-align:center;">No players marked Definitely yet</td></tr>',
+                          '<div class="player-row"><div class="player-info"><span class="player-meta">No players marked Definitely yet</span></div></div>',
                           "html.parser"
-                      ).find("tr")
+                      ).find("div", class_="player-row")
                       trade_body.append(row)
 
               path.write_text(
