@@ -1,5 +1,7 @@
 name: Any Given Sunday Auto Update
 
+# Run-now trigger: 2026-09-29T17:29:00-04:00
+
 on:
   workflow_dispatch:
   schedule:
