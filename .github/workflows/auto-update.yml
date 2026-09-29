@@ -328,6 +328,52 @@ jobs:
 
           league = response.json()
 
+          # Authenticated ESPN Recent Activity diagnostic for trade-interest
+          # events. Writes sanitized matching paths/scalars only; never secrets.
+          activity_views = ["mTransactions2", "mPendingTransactions", "mTeam", "mRoster"]
+          activity_debug = {"views": {}, "matches": []}
+
+          def scan_trade_activity(value, path="$"):
+              if isinstance(value, dict):
+                  scalar_text = " ".join(
+                      str(v) for v in value.values()
+                      if isinstance(v, (str, int, float, bool))
+                  )
+                  key_text = " ".join(str(k) for k in value.keys())
+                  if re.search(r"trade|interest|likely|definit|availab", key_text + " " + scalar_text, re.I):
+                      safe = {
+                          str(k): v for k, v in value.items()
+                          if isinstance(v, (str, int, float, bool, type(None)))
+                          and not re.search(r"cookie|token|auth|swid|s2", str(k), re.I)
+                      }
+                      activity_debug["matches"].append({"path": path, "values": safe})
+                  for k, v in value.items():
+                      scan_trade_activity(v, f"{path}.{k}")
+              elif isinstance(value, list):
+                  for n, v in enumerate(value):
+                      scan_trade_activity(v, f"{path}[{n}]")
+
+          for activity_view in activity_views:
+              try:
+                  ar = requests.get(
+                      ESPN_URL,
+                      params=[("view", activity_view)],
+                      headers=headers,
+                      cookies=cookies,
+                      timeout=30,
+                  )
+                  activity_debug["views"][activity_view] = ar.status_code
+                  if ar.ok:
+                      scan_trade_activity(ar.json(), f"$.{activity_view}")
+              except Exception as exc:
+                  activity_debug["views"][activity_view] = f"error:{type(exc).__name__}"
+
+          Path("data").mkdir(exist_ok=True)
+          Path("data/trade-interest-debug.json").write_text(
+              json.dumps(activity_debug, indent=2, sort_keys=True),
+              encoding="utf-8",
+          )
+
           # Standings must come from ESPN's standings view, not the live-scoring
           # team payload. Fetch it separately so completed matchup results and
           # playoff seeds are refreshed as soon as ESPN updates them.
