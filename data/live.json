@@ -59,13 +59,13 @@
     },
     {
       "away": {
-        "projection": 126.21,
+        "projection": 127.15,
         "score": 0.0,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 116.99,
+        "projection": 116.56,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -437,7 +437,7 @@
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 6,
-      "projection": 126.21,
+      "projection": 127.15,
       "record": {
         "losses": 3,
         "pointsAgainst": 401.91999999999996,
@@ -492,11 +492,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4372016",
-          "name": "Jaylen Waddle",
+          "id": "4701936",
+          "name": "Matthew Golden",
           "position": "WR",
-          "proTeam": "DEN",
-          "projection": 11.91,
+          "proTeam": "GB",
+          "projection": 12.85,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -569,22 +569,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4036378",
-          "name": "Jordan Love",
-          "position": "QB",
-          "proTeam": "GB",
-          "projection": 14.95,
+          "id": "4372016",
+          "name": "Jaylen Waddle",
+          "position": "WR",
+          "proTeam": "DEN",
+          "projection": 11.91,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4701936",
-          "name": "Matthew Golden",
-          "position": "WR",
+          "id": "4036378",
+          "name": "Jordan Love",
+          "position": "QB",
           "proTeam": "GB",
-          "projection": 12.85,
+          "projection": 14.95,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1202,7 +1202,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 9,
-      "projection": 116.99,
+      "projection": 116.56,
       "record": {
         "losses": 4,
         "pointsAgainst": 352.14,
@@ -1224,22 +1224,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4685512",
-          "name": "Jadarian Price",
+          "id": "4685382",
+          "name": "Omarion Hampton",
           "position": "RB",
-          "proTeam": "SEA",
-          "projection": 9.97,
+          "proTeam": "LAC",
+          "projection": 10.88,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4685382",
-          "name": "Omarion Hampton",
+          "id": "4432710",
+          "name": "TreVeyon Henderson",
           "position": "RB",
-          "proTeam": "LAC",
-          "projection": 10.88,
+          "proTeam": "NE",
+          "projection": 9.54,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1356,22 +1356,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4695883",
-          "name": "Jalen Coker",
-          "position": "WR",
-          "proTeam": "CAR",
-          "projection": 13.8,
+          "id": "4685512",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "proTeam": "SEA",
+          "projection": 9.97,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4432710",
-          "name": "TreVeyon Henderson",
-          "position": "RB",
-          "proTeam": "NE",
-          "projection": 9.54,
+          "id": "4695883",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "proTeam": "CAR",
+          "projection": 13.8,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
