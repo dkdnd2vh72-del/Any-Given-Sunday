@@ -2002,7 +2002,8 @@ jobs:
             standings.html \
             transactions.html \
             index.html \
-            data/live.json
+            data/live.json \
+            data/trade-interest-debug.json
 
           git commit \
             -m "Auto-update Any Given Sunday league data"
