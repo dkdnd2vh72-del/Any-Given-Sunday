@@ -903,8 +903,8 @@
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 3,
-        "drops": 3,
+        "acquisitions": 5,
+        "drops": 5,
         "misc": 0,
         "moveToActive": 6,
         "moveToIR": 0,
@@ -1389,7 +1389,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Doubs",
         "lastNewsDate": 1790641095000,
-        "lastVideoDate": 1790005554000,
+        "lastVideoDate": 1790865542000,
         "proTeamId": 17,
         "seasonOutlook": "Doubs signed with the Patriots during free agency after spending his first four NFL seasons with the Packers. He was a serviceable player during his Green Bay tenure, but he never finished a season in the top 30 among receivers in targets, catches, yards or fantasy points. Consistently mediocre, Doubs has averaged either 10.2 or 10.3 fantasy PPG each of the last three seasons. In New England, Doubs is likely to settle in as Drake Maye's No. 2 target behind A.J. Brown, though his target ceiling figures to be capped with the likes of DeMario Douglas, Mack Hollins and Kyle Williams also in the mix at receiver. Doubs, 26, is a fine addition to your bench, but his upside is limited.",
         "universeId": 1
@@ -2062,6 +2062,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Andrews",
         "lastNewsDate": 1790643849000,
+        "lastVideoDate": 1790867129000,
         "proTeamId": 33,
         "seasonOutlook": "One of fantasy's biggest mysteries, Andrews' usage has dipped substantially over the past two seasons. After finishing in the top five in fantasy PPG five seasons in a row from 2019 to 2023, Andrews slipped to eighth in 2024 (it would've been much worse if not for 11 touchdowns on 68 targets) and fell even further to 24th last season. Andrews appeared in all 17 of Baltimore's games but ranked 18th among tight ends in targets and outside the top 20 in catches and yards. The combination of a new coaching staff, a healthy Lamar Jackson and the departure of Isaiah Likely could lead to a rebound season for Andrews, but we now have two straight seasons of underperformance. The 31-year-old remains a force near the goal line (top 10 in end zone targets seven years in a row), but he's now more of a fringe TE1 than a fantasy star.",
         "universeId": 1
@@ -2644,7 +2645,7 @@
         "injuryStatus": "INJURY_RESERVE",
         "lastName": "Brown",
         "lastNewsDate": 1790614873000,
-        "lastVideoDate": 1789049697000,
+        "lastVideoDate": 1790865542000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
         "universeId": 1
@@ -4218,9 +4219,9 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.3,
-        "id": 4428718,
-        "keeperValue": 0,
+        "appliedStatTotal": 19.4,
+        "id": 3916433,
+        "keeperValue": 9,
         "keeperValueFuture": 0,
         "lineupLocked": false,
         "onTeamId": 14,
@@ -4230,19 +4231,38 @@
       }
     },
     {
+      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry.player",
+      "values": {
+        "active": true,
+        "defaultPositionId": 3,
+        "droppable": true,
+        "firstName": "Jakobi",
+        "fullName": "Jakobi Meyers",
+        "id": 3916433,
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
+        "lastName": "Meyers",
+        "lastNewsDate": 1790799579000,
+        "lastVideoDate": 1790533083000,
+        "proTeamId": 30,
+        "seasonOutlook": "One of the league's most underrated players, Meyers is entering his first full season with Jacksonville after being acquired via trade in November. The 2019 UDFA has produced 800-plus receiving yards in five consecutive seasons while operating primarily as a short-to-intermediate target. More of a solid producer than a high-ceiling contributor, Meyers has finished no lower than 32nd in fantasy points over the last five seasons, but has yet to do better than 19th. The 29-year-old isn't much of a touchdown scorer (23 TDs in 78 games since 2021) and has substantial target competition via Parker Washington, Brian Thomas Jr., Brenton Strange and Travis Hunter. Meyers is a good player, but is likely to cap out as a flex option.",
+        "universeId": 1
+      }
+    },
+    {
       "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
-        "2": "Tre Tucker was fairly quiet in the Raiders' season-opening win over the Dolphins, catching two of four targets for 27 yards. All three of the team's top wideouts, including Jalen Nailor and Jack Bech, produced very similar numbers, with Bech catching the trio's only TD. The group figures to remain secondary pieces in the passing game as RB Ashton Jeanty and TE Brock Bowers, when healthy, project to be the top weapons for Kirk Cousins and, eventually, Fernando Mendoza. Tucker isn't likely to break out in Week 2 against a Chargers' secondary that finished last season tied for eighth in points per game allowed to WRs.",
-        "3": "Tre Tucker produced his first ceiling game of 2026 in the Raiders' Week 2 win over the Chargers. churning out a 5-119-1 line on seven targets. The volatile wideout is showing some early chemistry with new quarterback Kirk Cousins, and no one else has yet shown any indication that they'll be able to challenge him for the top spot on the depth chart, even if Tucker's skill set would be better suited for a WR2 or even WR3 role. Tucker will try to build on last week's effort in Week 3 against a Saints secondary that ranks in the middle of the pack in terms of volume allowed to wide receivers so far, but which has given up three TDs to the position in two games.",
-        "4": "Tre Tucker remains in the top spot on the Raiders' wide receiver depth chart, but he's a boom-or-bust option. After popping for a big game in Week 2, Tucker fell back to a 4-43-0 line on just four targets in a Week 3 win over the Saints. With Las Vegas off to a 3-0 start, changes in the offensive mix aren't likely, but Tucker simply doesn't have the physical tools to consistently get open and win 1-on-1 matchups in the NFL. Another rare ceiling game is unlikely in Week 4 against a Kansas City secondary that ranks first in the league in fantasy points allowed to WRs."
+        "2": "Jakobi Meyers maintains a high floor, though he's a low-ceiling fantasy WR3 or flex play for Jacksonville's Week 2 home game against Denver's elite defense. Meyers has posted at least 39 receiving yards in all 10 of his games with the Jaguars since coming over in a midseason trade last year, including 40 receiving yards and a TD in the Week 1 win over Cleveland. Parker Washington and Brian Thomas have more downfield playmaking capability, but Meyers should see his share of short targets with Trevor Lawrence likely looking to get the ball out quickly to counter a Broncos pass rush that led the league with 68 sacks last season.",
+        "3": "Jakobi Meyers has been targeted just three times through Jacksonville's first two games. That lack of volume makes him hard to trust as anything more than a deep-league dart throw in Week 3 against a Patriots defense that held the Seahawks and Steelers to a combined 16 points. Parker Washington (18 targets), Brian Thomas (11 targets), and even TE Brenton Strange (five targets) have all been higher on Trevor Lawrence's priority list than Meyers. To the veteran wide receiver's credit, Meyers's 28-yard effort on one target in the Week 2 loss to Denver marked the first time in 11 games as a member of the Jaguars that he failed to record at least 39 receiving yards. Therefore, he could rebuild a solid fantasy floor if Lawrence starts looking Meyers's way more frequently.",
+        "4": "Jakobi Meyers led the Jaguars with seven catches for 64 yards and a touchdown on eight targets in Week 3 against the Patriots after catching all three of his targets for 68 yards and a TD across Jacksonville's first two games. The veteran wideout has been playing alongside Parker Washington in two-WR sets and working ahead of Brian Thomas, as Meyers' 79% snap share this season is nearly double Thomas' mark. Washington is the clear No. 1 receiving option for the Jaguars, but Meyers is shaping up as the team's next-most reliable pass catcher, which is enough to be deployed as a WR3 or flex option in Week 4 against the Bengals, who didn't allow a touchdown pass through Week 2 before giving up TDs to three separate Steelers wideouts in Week 3."
       }
     },
     {
       "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.2,
-        "id": 4428850,
-        "keeperValue": 0,
+        "appliedStatTotal": 5.1,
+        "id": 3054850,
+        "keeperValue": 4,
         "keeperValueFuture": 0,
         "lineupLocked": false,
         "onTeamId": 14,
@@ -4255,18 +4275,26 @@
       "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry.player",
       "values": {
         "active": true,
-        "defaultPositionId": 3,
+        "defaultPositionId": 2,
         "droppable": true,
-        "firstName": "Dontayvion",
-        "fullName": "Dontayvion Wicks",
-        "id": 4428850,
+        "firstName": "Alvin",
+        "fullName": "Alvin Kamara",
+        "id": 3054850,
         "injured": false,
         "injuryStatus": "ACTIVE",
-        "lastName": "Wicks",
-        "lastNewsDate": 1790722607000,
-        "proTeamId": 21,
-        "seasonOutlook": "Wicks was traded to the Eagles after spending his first three NFL seasons in Green Bay. The 2023 fifth-round pick was limited to situational work during his Packers tenure, never finishing a season among the top 50 receivers in snaps, routes, targets, catches or yards. Wicks flashed at times (exactly one game of 24-plus points in each season), but otherwise scored 5.3 PPG. Even after the Eagles traded A.J. Brown, Wicks' path to targets may not be any easier in Philly. DeVonta Smith, Dallas Goedert and Saquon Barkley are all assured substantial roles, with first-round rookie Makai Lemon and Hollywood Brown also very much in the mix. Wicks, 25, will need to win the team's No. 2 receiver gig in order to have any shot at weekly flex consideration. He's barely worth late-round consideration in deep leagues.",
+        "lastName": "Kamara",
+        "lastNewsDate": 1790558394000,
+        "proTeamId": 18,
+        "seasonOutlook": "Kamara is entering his age-31 season set to play a change-of-pace role behind Travis Etienne and is unlikely to be a fantasy option. Over the past seven seasons, only two backs age 31 or older have posted a top-30 fantasy campaign, and both required 16-plus touchdowns. (Kamara hasn't cleared nine TDs since 2020 and scored once in 2025). Injuries limited Kamara to career-low marks across the board last season (including a 10% target share, considerably worse than his previous career low of 18%), and he hasn't played a full season since his rookie year (2017). A longtime fantasy star, Kamara is worth no more than a late flier.",
         "universeId": 2
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Alvin Kamara (knee) is expected to serve as one of the Saints' top running backs if active for the Week 2 matchup against the Ravens. Kamara was sidelined for Week 1 but is expected to return for Week 2, likely operating as the Saints' top receiving back. He could take work away from Travis Etienne, who caught seven of eight targets in last week's overtime loss. Tyler Shough attempted 56 passes in Week 1, which bodes well for Kamara's potential upside as a receiver. He's in for a solid Week 2 matchup as well, with the Ravens defense giving up 5.3 yards per touch to RBs in Week 1.",
+        "3": "Alvin Kamara is expected to operate as the Saints' top pass-catching back in the Week 3 matchup against the Raiders. In his return from a sprained MCL in the Week 2 win over the Ravens, Kamara led the Saints' backfield in carries (nine), targets (six) and receptions (five). Despite this, Travis Etienne was more efficient with his opportunities, averaging 3.1 yards per carry compared to Kamara's 1.7. Even so, the Saints' backfield is in for a tough Week 3 matchup against a Las Vegas defense that's allowed just 3.8 yards per carry thus far.",
+        "4": "Alvin Kamara will likely be in for a larger offensive role with Travis Etienne (hamstring)  sidelined for New Orleans' Week 4 matchup against the Falcons. Kamara has received nine carries in each of the last two weeks after sitting out Week 1, but he's struggled with efficiency, averaging just 2.8 yards per carry. Additionally, he saw just one target in the Week 3 loss to the Raiders, suggesting he may not have the same receiving volume as in past years. Regardless, this receiving volume should increase with Etienne out for Week 4. Kamara could still struggle against a Falcons defense that's given up 13.5 PPR fantasy points per game to RBs this season."
       }
     }
   ],
