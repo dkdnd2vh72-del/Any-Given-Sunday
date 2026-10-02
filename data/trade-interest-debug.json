@@ -76,25 +76,6 @@
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
-        "id": "eed79022-53a2-4385-9340-b5b8b6070c95",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": false,
-        "memberId": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
-        "proposedDate": 1790711407361,
-        "rating": 0,
-        "relatedTransactionId": "1a8b623a-d86a-4b17-83df-1efb63a50687",
-        "scoringPeriodId": 4,
-        "status": "EXECUTED",
-        "teamId": 8,
-        "type": "TRADE_DECLINE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[15]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
         "id": "0bbf5bab-ad22-4666-931b-6c71ea4f3dd5",
         "isActingAsTeamOwner": false,
         "isLeagueManager": false,
@@ -109,104 +90,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[22]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "CANCEL",
-        "id": "d6cd5261-c40d-4310-85d5-e9842bcf8e7a",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": false,
-        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
-        "proposedDate": 1790947519686,
-        "rating": 0,
-        "relatedTransactionId": "b6486ca3-292b-4bf0-acf9-e637e141c90b",
-        "scoringPeriodId": 4,
-        "status": "CANCELED",
-        "teamId": 14,
-        "type": "TRADE_PROPOSAL"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 3916433,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22].items[1]",
-      "values": {
-        "fromLineupSlotId": 4,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4429615,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22].items[2]",
-      "values": {
-        "fromLineupSlotId": 2,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4242335,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22].items[3]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4567750,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22].items[4]",
-      "values": {
-        "fromLineupSlotId": 4,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4426515,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22].items[5]",
-      "values": {
-        "fromLineupSlotId": 2,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4361579,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[24]",
+      "path": "$.mTransactions2.transactions[14]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -225,7 +109,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47]",
+      "path": "$.mTransactions2.transactions[28]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -244,7 +128,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[0]",
+      "path": "$.mTransactions2.transactions[28].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -257,7 +141,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[1]",
+      "path": "$.mTransactions2.transactions[28].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -270,7 +154,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[2]",
+      "path": "$.mTransactions2.transactions[28].items[2]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -283,7 +167,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[3]",
+      "path": "$.mTransactions2.transactions[28].items[3]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -296,7 +180,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[4]",
+      "path": "$.mTransactions2.transactions[28].items[4]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -309,7 +193,123 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[5]",
+      "path": "$.mTransactions2.transactions[28].items[5]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[34]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "eed79022-53a2-4385-9340-b5b8b6070c95",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
+        "proposedDate": 1790711407361,
+        "rating": 0,
+        "relatedTransactionId": "1a8b623a-d86a-4b17-83df-1efb63a50687",
+        "scoringPeriodId": 4,
+        "status": "EXECUTED",
+        "teamId": 8,
+        "type": "TRADE_DECLINE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[41]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "CANCEL",
+        "id": "d6cd5261-c40d-4310-85d5-e9842bcf8e7a",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1790947519686,
+        "rating": 0,
+        "relatedTransactionId": "b6486ca3-292b-4bf0-acf9-e637e141c90b",
+        "scoringPeriodId": 4,
+        "status": "CANCELED",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[41].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 3916433,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[41].items[1]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4429615,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[41].items[2]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4242335,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[41].items[3]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[41].items[4]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426515,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[41].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -948,11 +948,11 @@
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 50,
-        "acquisitions": 7,
-        "drops": 6,
+        "acquisitions": 8,
+        "drops": 7,
         "misc": 0,
-        "moveToActive": 15,
-        "moveToIR": 2,
+        "moveToActive": 16,
+        "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -990,7 +990,7 @@
         "acquisitions": 3,
         "drops": 2,
         "misc": 0,
-        "moveToActive": 5,
+        "moveToActive": 6,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1816,9 +1816,9 @@
         "fullName": "DJ Moore",
         "id": 3915416,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Moore",
-        "lastNewsDate": 1790960614000,
+        "lastNewsDate": 1790968989000,
         "lastVideoDate": 1789344254000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -3173,7 +3173,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 109.8,
+        "appliedStatTotal": 105.6,
         "tradeReservedEntries": 0
       }
     },
@@ -3258,10 +3258,10 @@
         "firstName": "DeVonta",
         "fullName": "DeVonta Smith",
         "id": 4241478,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Smith",
-        "lastNewsDate": 1790958526000,
+        "lastNewsDate": 1790971407000,
         "lastVideoDate": 1789942112000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3340,45 +3340,6 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": 4689114,
-        "keeperValue": 0,
-        "keeperValueFuture": 9,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 1,
-        "droppable": true,
-        "firstName": "Jaxson",
-        "fullName": "Jaxson Dart",
-        "id": 4689114,
-        "injured": true,
-        "injuryStatus": "INJURY_RESERVE",
-        "lastName": "Dart",
-        "lastNewsDate": 1790800520000,
-        "lastVideoDate": 1789563652000,
-        "proTeamId": 19,
-        "seasonOutlook": "Dart is a strong 2026 breakout candidate following an impressive rookie campaign in which he delivered eight top-10 fantasy weeks (tied for fifth most) despite playing the bulk of the snaps in only 12 games. Dart was solid as a passer but elite as a rusher, finishing in the top five at the position in rushing attempts, yards, TDs and carries inside the 5-yard line. Dart's aggressive playing style raises concerns about his durability, but it also provides the 23-year-old with elite fantasy upside. With a new coaching staff led by John Harbaugh and a new playcaller in Matt Nagy, as well as an improved supporting cast that includes a healthy Malik Nabers and newcomers Isaiah Likely and Darnell Mooney, Dart is best valued as a midrange QB1 with a high ceiling.",
-        "universeId": 2
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Jaxson Dart was electric in Week 1 for the New York Giants. Dart threw for 230 yards and three touchdowns, while also rushing for an additional 54 yards in the stunning 28-20 win over the Cowboys. Dart threw just five incompletions and showed excellent rapport with new tight end Isaiah Likely. Dart was accurate, decisive and poised in what amounted to an extremely promising start to the season for the G-Men. In Week 2, the Giants will face a Los Angeles Rams defense that was surprisingly poor in their opener, allowing 379 scrimmage yards, which ranks them in the bottom third of the NFL. The Rams were torched on the ground in particular to the tune of 174 yards. While Myles Garrett will be sidelined due to a knee injury, the Rams will get Aaron Donald back from retirement when they host the Giants on Monday Night Football."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 3.8,
         "id": 4695883,
         "keeperValue": 0,
@@ -3391,7 +3352,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.player",
+      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -3410,7 +3371,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 27.3,
         "id": 3929645,
@@ -3424,7 +3385,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": -16025,
@@ -3438,7 +3399,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 6.9,
         "id": 4569559,
@@ -3452,7 +3413,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Devaughn Vele is expected to remain an important part of the Saints' offense in the Week 2 matchup against the Ravens. Vele saw nine targets in the Week 1 overtime loss, tying his career high and trailing only Chris Olave in the Saints' receiving corps. Vele should continue to benefit from the absence of Jordyn Tyson (hamstring) and is expected to see consistent volume until Tyson returns. It'll be a tough Week 2 matchup for Vele, however, as the Ravens' defense has given up just 4.8 yards per pass attempt this season, which is tied for the second-best mark in the NFL.",
         "3": "Devaughn Vele is expected to remain the Saints' No. 2 wideout in the Week 3 matchup against the Raiders, whose defense has given up just 15 receptions to WRs through two contests. Vele has clearly positioned himself as one of New Orleans' top receiving options early in the season, catching 12 of 16 targets for 133 yards and one touchdown thus far. He's expected to continue benefitting from the Saints' high volume of pass attempts, as Tyler Shough has already thrown the ball 90 times in two games, the second-most in the NFL. Despite this, Vele is in for a difficult Week 3 matchup against a Las Vegas defense that has yet to allow a receiving touchdown this season.",
@@ -3460,7 +3421,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.5,
         "id": 3117256,
@@ -3474,7 +3435,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 23.8,
         "id": 4360689,
@@ -3488,7 +3449,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.0,
         "id": 3150744,
@@ -3502,7 +3463,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chase McLaughlin will look to remain perfect in the Buccaneers' Week 2 matchup against the Browns. McLaughlin made all five of his kicks during last week's loss, including a 51-yard field goal. With the Browns defense allowing 34 total points and 10 kicking points in a Week 1 loss, McLaughlin is likely in for lots more scoring opportunities in Week 2.",
         "3": "Chase McLaughlin could remain one of the top kickers in fantasy despite the Buccaneers' tough Week 3 matchup against the Vikings. McLaughlin remained perfect in the Week 2 loss to the Browns, as he's now converted on all six field-goal tries this season, including two from 50-plus yards. Despite McLaughlin being tied for the league-lead in field-goals made this season, he could struggle against a Minnesota defense that's allowed just 6.5 kicking points per game thus far.",
@@ -3510,7 +3471,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 14.5,
         "id": 4711533,
@@ -3524,9 +3485,23 @@
       }
     },
     {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 1.4000000000000001,
+        "id": 4887558,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 11,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 116.26000000000002,
+        "appliedStatTotal": 125.26000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -3618,9 +3593,9 @@
         "fullName": "D'Andre Swift",
         "id": 4259545,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Swift",
-        "lastNewsDate": 1790960096000,
+        "lastNewsDate": 1790967907000,
         "lastVideoDate": 1790348799000,
         "proTeamId": 3,
         "seasonOutlook": "Swift is entering his seventh NFL season and third with Chicago. The veteran back was busy as both a rusher and receiver en route to clearing 1,300 scrimmage yards in each of his first two seasons with the Bears. Though he found the end zone 10 times and finished 17th among backs in fantasy points per game last season, Swift deferred substantial work to Kyle Monangai and is likely to be in even more of a timeshare in 2026. Still in his prime at age 27, Swift continues to play at a high level (4.87 yards per carry last season), but his role in the Chicago offense figures to limit him to low-ceiling RB2/flex production.",
@@ -4055,10 +4030,10 @@
         "firstName": "Dallas",
         "fullName": "Dallas Goedert",
         "id": 3121023,
-        "injured": false,
-        "injuryStatus": "DOUBTFUL",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Goedert",
-        "lastNewsDate": 1790891951000,
+        "lastNewsDate": 1790971237000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
         "universeId": 2
@@ -4491,9 +4466,9 @@
         "fullName": "Jakobi Meyers",
         "id": 3916433,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Meyers",
-        "lastNewsDate": 1790886378000,
+        "lastNewsDate": 1790971456000,
         "lastVideoDate": 1790533083000,
         "proTeamId": 30,
         "seasonOutlook": "One of the league's most underrated players, Meyers is entering his first full season with Jacksonville after being acquired via trade in November. The 2019 UDFA has produced 800-plus receiving yards in five consecutive seasons while operating primarily as a short-to-intermediate target. More of a solid producer than a high-ceiling contributor, Meyers has finished no lower than 32nd in fantasy points over the last five seasons, but has yet to do better than 19th. The 29-year-old isn't much of a touchdown scorer (23 TDs in 78 games since 2021) and has substantial target competition via Parker Washington, Brian Thomas Jr., Brenton Strange and Travis Hunter. Meyers is a good player, but is likely to cap out as a flex option.",
