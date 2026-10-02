@@ -110,7 +110,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40]",
+      "path": "$.mTransactions2.transactions[42]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -129,7 +129,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[0]",
+      "path": "$.mTransactions2.transactions[42].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -142,7 +142,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[1]",
+      "path": "$.mTransactions2.transactions[42].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -155,7 +155,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[2]",
+      "path": "$.mTransactions2.transactions[42].items[2]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -168,7 +168,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[3]",
+      "path": "$.mTransactions2.transactions[42].items[3]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -181,7 +181,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[4]",
+      "path": "$.mTransactions2.transactions[42].items[4]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -194,7 +194,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[5]",
+      "path": "$.mTransactions2.transactions[42].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -594,7 +594,7 @@
       "path": "$.mTeam.teams[0]",
       "values": {
         "abbrev": "KATZ",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 4,
         "divisionId": 1,
         "draftDayProjectedRank": 7,
         "eliminated": false,
@@ -961,7 +961,7 @@
       "path": "$.mTeam.teams[5]",
       "values": {
         "abbrev": "KING",
-        "currentProjectedRank": 4,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 9,
         "eliminated": false,
@@ -1028,7 +1028,7 @@
         "acquisitions": 7,
         "drops": 6,
         "misc": 0,
-        "moveToActive": 14,
+        "moveToActive": 15,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -3333,7 +3333,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 118.5,
+        "appliedStatTotal": 109.8,
         "tradeReservedEntries": 0
       }
     },

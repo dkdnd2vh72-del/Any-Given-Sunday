@@ -9,7 +9,7 @@
         "teamName": "Chance make champions"
       },
       "home": {
-        "projection": 130.29,
+        "projection": 130.74,
         "score": 15.6,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -51,7 +51,7 @@
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 136.87,
+        "projection": 136.96,
         "score": 0.0,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -65,7 +65,7 @@
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 116.09,
+        "projection": 113.61,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "acquisitions": 10,
+      "acquisitions": 9,
       "actual": 13.2,
       "htmlId": "numbers",
       "id": 3,
@@ -1213,7 +1213,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 9,
-      "projection": 116.09,
+      "projection": 113.61,
       "record": {
         "losses": 4,
         "pointsAgainst": 352.14,
@@ -1257,22 +1257,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4241478",
-          "name": "DeVonta Smith",
+          "id": "4362628",
+          "name": "Ja'Marr Chase",
           "position": "WR",
-          "proTeam": "PHI",
-          "projection": 15.55,
+          "proTeam": "CIN",
+          "projection": 20.43,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4362628",
-          "name": "Ja'Marr Chase",
+          "id": "4595348",
+          "name": "Malik Nabers",
           "position": "WR",
-          "proTeam": "CIN",
-          "projection": 20.43,
+          "proTeam": "NYG",
+          "projection": 13.62,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1290,11 +1290,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4595348",
-          "name": "Malik Nabers",
+          "id": "4695883",
+          "name": "Jalen Coker",
           "position": "WR",
-          "proTeam": "NYG",
-          "projection": 13.62,
+          "proTeam": "CAR",
+          "projection": 13.07,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1334,6 +1334,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4241478",
+          "name": "DeVonta Smith",
+          "position": "WR",
+          "proTeam": "PHI",
+          "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4569559",
           "name": "Devaughn Vele",
           "position": "WR",
@@ -1361,17 +1372,6 @@
           "position": "RB",
           "proTeam": "SEA",
           "projection": 9.97,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4695883",
-          "name": "Jalen Coker",
-          "position": "WR",
-          "proTeam": "CAR",
-          "projection": 13.07,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1407,7 +1407,7 @@
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 4,
-      "projection": 136.87,
+      "projection": 136.96,
       "record": {
         "losses": 3,
         "pointsAgainst": 369.44000000000005,
@@ -1444,7 +1444,7 @@
           "name": "Saquon Barkley",
           "position": "RB",
           "proTeam": "PHI",
-          "projection": 14.2,
+          "projection": 14.29,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1601,7 +1601,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 2,
-      "projection": 130.29,
+      "projection": 130.74,
       "record": {
         "losses": 1,
         "pointsAgainst": 382.08,
@@ -1638,7 +1638,7 @@
           "name": "Jaylen Warren",
           "position": "RB",
           "proTeam": "PIT",
-          "projection": 16.51,
+          "projection": 16.96,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
