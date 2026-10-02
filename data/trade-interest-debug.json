@@ -110,6 +110,103 @@
       }
     },
     {
+      "path": "$.mTransactions2.transactions[40]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1791080670745,
+        "id": "b6486ca3-292b-4bf0-acf9-e637e141c90b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1790907870722,
+        "rating": 0,
+        "scoringPeriodId": 4,
+        "status": "PENDING",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[40].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 3916433,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[40].items[1]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4429615,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[40].items[2]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4242335,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[40].items[3]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[40].items[4]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426515,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[40].items[5]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mPendingTransactions.pendingTransactions[0]",
       "values": {
         "bidAmount": 0,
@@ -175,6 +272,103 @@
         "isKeeper": false,
         "overallPickNumber": 0,
         "playerId": 4426515,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[1]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1791080670745,
+        "id": "b6486ca3-292b-4bf0-acf9-e637e141c90b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1790907870722,
+        "rating": 0,
+        "scoringPeriodId": 4,
+        "status": "PENDING",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[1].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 3916433,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[1].items[1]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4429615,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[1].items[2]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4242335,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[1].items[3]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[1].items[4]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426515,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[1].items[5]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
         "toLineupSlotId": -1,
         "toTeamId": 14,
         "type": "TRADE"
@@ -612,6 +806,105 @@
       }
     },
     {
+      "path": "$.mTeam.teams[3].pendingTransactions[1]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1791080670745,
+        "id": "b6486ca3-292b-4bf0-acf9-e637e141c90b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1790907870722,
+        "rating": 0,
+        "scoringPeriodId": 4,
+        "skipTransactionCounters": false,
+        "status": "PENDING",
+        "subOrder": 0,
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[1].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 3916433,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[1].items[1]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4429615,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[1].items[2]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4242335,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[1].items[3]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[1].items[4]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426515,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[1].items[5]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mTeam.teams[3].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 55,
@@ -919,6 +1212,105 @@
       }
     },
     {
+      "path": "$.mTeam.teams[9].pendingTransactions[1]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1791080670745,
+        "id": "b6486ca3-292b-4bf0-acf9-e637e141c90b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1790907870722,
+        "rating": 0,
+        "scoringPeriodId": 4,
+        "skipTransactionCounters": false,
+        "status": "PENDING",
+        "subOrder": 0,
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[1].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 3916433,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[1].items[1]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4429615,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[1].items[2]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4242335,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[1].items[3]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[1].items[4]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426515,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[1].items[5]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
@@ -935,7 +1327,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 113.82000000000002,
+        "appliedStatTotal": 135.12,
         "tradeReservedEntries": 0
       }
     },
@@ -1014,7 +1406,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.200000000000001,
+        "appliedStatTotal": 31.5,
         "id": 4685702,
         "keeperValue": 0,
         "keeperValueFuture": 5,
@@ -1096,7 +1488,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.5,
+        "appliedStatTotal": 7.1,
         "id": 4035687,
         "keeperValue": 10,
         "keeperValueFuture": 9,
@@ -1229,7 +1621,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 162.14000000000004,
+        "appliedStatTotal": 175.34000000000003,
         "tradeReservedEntries": 0
       }
     },
@@ -1314,7 +1706,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.6,
+        "appliedStatTotal": 40.8,
         "id": 5083076,
         "keeperValue": 0,
         "keeperValueFuture": 7,
@@ -1811,7 +2203,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 114.84,
+        "appliedStatTotal": 110.84,
         "tradeReservedEntries": 0
       }
     },
@@ -1982,7 +2374,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.3,
+        "appliedStatTotal": 28.6,
         "id": 4047650,
         "keeperValue": 4,
         "keeperValueFuture": 8,
@@ -2098,7 +2490,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.5,
+        "appliedStatTotal": 10.5,
         "id": -16023,
         "keeperValue": 0,
         "keeperValueFuture": 14,
@@ -2208,7 +2600,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 156.80000000000004,
+        "appliedStatTotal": 158.90000000000003,
         "tradeReservedEntries": 0
       }
     },
@@ -2591,7 +2983,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.3,
+        "appliedStatTotal": 17.400000000000002,
         "id": 17372,
         "keeperValue": 15,
         "keeperValueFuture": 15,
@@ -2869,7 +3261,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.600000000000001,
+        "appliedStatTotal": 21.0,
         "id": 4832800,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3679,7 +4071,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 164.2,
+        "appliedStatTotal": 172.9,
         "tradeReservedEntries": 0
       }
     },
@@ -3756,7 +4148,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.5,
+        "appliedStatTotal": 36.2,
         "id": 4569987,
         "keeperValue": 10,
         "keeperValueFuture": 6,
@@ -3779,7 +4171,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Warren",
-        "lastNewsDate": 1790545668000,
+        "lastNewsDate": 1790915586000,
         "lastVideoDate": 1790614659000,
         "proTeamId": 23,
         "seasonOutlook": "Warren reached career-high marks in touches (251), yardage (1,291) and touchdowns (eight) last season, his fourth in the league. The former undrafted free agent put up 13.6 fantasy points per game (19th among backs) and PFF tracked him with 56 forced missed tackles (seventh). Pittsburgh swapped out Kenneth Gainwell for Rico Dowdle as Warren's running mate, and the two are expected to split work in a Mike McCarthy offense that rarely deploys its backs in the passing game. Warren is capable and effective as a rusher and receiver, but his ceiling figures to be limited in this committee. He's likely to cap out as a flex.",
