@@ -91,6 +91,25 @@
       }
     },
     {
+      "path": "$.mTransactions2.transactions[22]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "39d3f50e-9238-4b3d-a836-dfe561e91049",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{6DFCEF0A-EDE4-4244-BCEF-0AEDE4924420}",
+        "proposedDate": 1790894517245,
+        "rating": 0,
+        "relatedTransactionId": "018f75b0-2cef-4616-87f1-b83408e4d20e",
+        "scoringPeriodId": 4,
+        "status": "EXECUTED",
+        "teamId": 11,
+        "type": "TRADE_DECLINE"
+      }
+    },
+    {
       "path": "$.mPendingTransactions.pendingTransactions[0]",
       "values": {
         "bidAmount": 0,
@@ -916,7 +935,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 113.52000000000002,
+        "appliedStatTotal": 113.82000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -995,13 +1014,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.9,
+        "appliedStatTotal": 10.200000000000001,
         "id": 4685702,
         "keeperValue": 0,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1077,13 +1096,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.6,
+        "appliedStatTotal": 5.5,
         "id": 4035687,
         "keeperValue": 10,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1299,9 +1318,9 @@
         "id": 5083076,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1567,7 +1586,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
-        "lastNewsDate": 1790803178000,
+        "lastNewsDate": 1790887643000,
         "lastVideoDate": 1789344254000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -1792,7 +1811,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 104.84,
+        "appliedStatTotal": 114.84,
         "tradeReservedEntries": 0
       }
     },
@@ -1963,13 +1982,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.1,
+        "appliedStatTotal": 16.3,
         "id": 4047650,
         "keeperValue": 4,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2079,13 +2098,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.5,
+        "appliedStatTotal": 14.5,
         "id": -16023,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2189,7 +2208,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 155.80000000000004,
+        "appliedStatTotal": 156.80000000000004,
         "tradeReservedEntries": 0
       }
     },
@@ -2357,9 +2376,9 @@
         "id": 4038815,
         "keeperValue": 0,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2572,13 +2591,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.3,
+        "appliedStatTotal": 15.3,
         "id": 17372,
         "keeperValue": 15,
         "keeperValueFuture": 15,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2850,13 +2869,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.100000000000001,
+        "appliedStatTotal": 9.600000000000001,
         "id": 4832800,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3010,7 +3029,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1790880026000,
+        "lastNewsDate": 1790896268000,
         "lastVideoDate": 1789942112000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3660,7 +3679,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 157.3,
+        "appliedStatTotal": 164.2,
         "tradeReservedEntries": 0
       }
     },
@@ -3737,13 +3756,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.6,
+        "appliedStatTotal": 27.5,
         "id": 4569987,
         "keeperValue": 10,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3807,7 +3826,7 @@
         "injured": false,
         "injuryStatus": "DOUBTFUL",
         "lastName": "Goedert",
-        "lastNewsDate": 1790880927000,
+        "lastNewsDate": 1790891951000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
         "universeId": 2
