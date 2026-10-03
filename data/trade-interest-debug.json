@@ -322,6 +322,51 @@
       }
     },
     {
+      "path": "$.mTransactions2.transactions[50]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "CANCEL",
+        "id": "aeab302d-1ada-4ebf-80f4-77bbf336f9c1",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1790997840364,
+        "rating": 0,
+        "relatedTransactionId": "47462490-5e8f-40c4-ad51-32b9f0d3d760",
+        "scoringPeriodId": 4,
+        "status": "CANCELED",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[50].items[0]",
+      "values": {
+        "fromLineupSlotId": 23,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 3126486,
+        "toLineupSlotId": -1,
+        "toTeamId": 4,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[50].items[1]",
+      "values": {
+        "fromLineupSlotId": 23,
+        "fromTeamId": 4,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 3915416,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mPendingTransactions.pendingTransactions[0]",
       "values": {
         "acceptedDate": 1790952584692,
