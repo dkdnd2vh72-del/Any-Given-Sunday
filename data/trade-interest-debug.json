@@ -72,7 +72,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[12]",
+      "path": "$.mTransactions2.transactions[16]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[15]",
+      "path": "$.mTransactions2.transactions[20]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16]",
+      "path": "$.mTransactions2.transactions[21]",
       "values": {
         "acceptedDate": 1790952584692,
         "bidAmount": 0,
@@ -131,7 +131,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[0]",
+      "path": "$.mTransactions2.transactions[21].items[0]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -144,7 +144,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[1]",
+      "path": "$.mTransactions2.transactions[21].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -157,7 +157,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[2]",
+      "path": "$.mTransactions2.transactions[21].items[2]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -170,7 +170,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[3]",
+      "path": "$.mTransactions2.transactions[21].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -183,7 +183,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30]",
+      "path": "$.mTransactions2.transactions[38]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -202,7 +202,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30].items[0]",
+      "path": "$.mTransactions2.transactions[38].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30].items[1]",
+      "path": "$.mTransactions2.transactions[38].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30].items[2]",
+      "path": "$.mTransactions2.transactions[38].items[2]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -241,7 +241,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30].items[3]",
+      "path": "$.mTransactions2.transactions[38].items[3]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -254,7 +254,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30].items[4]",
+      "path": "$.mTransactions2.transactions[38].items[4]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -267,7 +267,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30].items[5]",
+      "path": "$.mTransactions2.transactions[38].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -280,7 +280,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36]",
+      "path": "$.mTransactions2.transactions[44]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -299,7 +299,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[37]",
+      "path": "$.mTransactions2.transactions[45]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -318,7 +318,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[44]",
+      "path": "$.mTransactions2.transactions[52]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -337,7 +337,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[44].items[0]",
+      "path": "$.mTransactions2.transactions[52].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -350,7 +350,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[44].items[1]",
+      "path": "$.mTransactions2.transactions[52].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -363,7 +363,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[44].items[2]",
+      "path": "$.mTransactions2.transactions[52].items[2]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -376,7 +376,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[44].items[3]",
+      "path": "$.mTransactions2.transactions[52].items[3]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -389,7 +389,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[44].items[4]",
+      "path": "$.mTransactions2.transactions[52].items[4]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -402,7 +402,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[44].items[5]",
+      "path": "$.mTransactions2.transactions[52].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -415,7 +415,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53]",
+      "path": "$.mTransactions2.transactions[61]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -434,7 +434,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[0]",
+      "path": "$.mTransactions2.transactions[61].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -447,7 +447,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[1]",
+      "path": "$.mTransactions2.transactions[61].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 4,
@@ -743,8 +743,8 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 23,
-        "acquisitions": 10,
-        "drops": 11,
+        "acquisitions": 12,
+        "drops": 12,
         "misc": 0,
         "moveToActive": 22,
         "moveToIR": 1,
@@ -1600,8 +1600,8 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.9,
-        "id": 4870795,
+        "appliedStatTotal": 5.2,
+        "id": 4428850,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -1609,6 +1609,46 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player",
+      "values": {
+        "active": true,
+        "defaultPositionId": 3,
+        "droppable": true,
+        "firstName": "Dontayvion",
+        "fullName": "Dontayvion Wicks",
+        "id": 4428850,
+        "injured": false,
+        "injuryStatus": "ACTIVE",
+        "lastName": "Wicks",
+        "lastNewsDate": 1790987075000,
+        "proTeamId": 21,
+        "seasonOutlook": "Wicks was traded to the Eagles after spending his first three NFL seasons in Green Bay. The 2023 fifth-round pick was limited to situational work during his Packers tenure, never finishing a season among the top 50 receivers in snaps, routes, targets, catches or yards. Wicks flashed at times (exactly one game of 24-plus points in each season), but otherwise scored 5.3 PPG. Even after the Eagles traded A.J. Brown, Wicks' path to targets may not be any easier in Philly. DeVonta Smith, Dallas Goedert and Saquon Barkley are all assured substantial roles, with first-round rookie Makai Lemon and Hollywood Brown also very much in the mix. Wicks, 25, will need to win the team's No. 2 receiver gig in order to have any shot at weekly flex consideration. He's barely worth late-round consideration in deep leagues.",
+        "universeId": 2
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 10.8,
+        "id": 4429835,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "George Holani looks set as Seattle's No. 2 RB heading into a Week 2 matchup versus the Cardinals. Holani somewhat surprisingly logged eight carries in a tight Week 1 win over the Patriots, recording only two fewer totes than rookie Jadarian Price. However, Price was much more efficient with 5.2 YPC to Holani's 3.6. Price could get a larger share of the workload against the Cardinals, who limited the Chargers to 81 rushing yards on 21 carries in a season-opening victory.",
+        "3": "George Holani may be asked to take on a bigger offensive role for Seattle in a Week 3 matchup against the Commanders. Jadarian Price suffered a shoulder injury late in a Week 2 win against Arizona, and if he isn't able to suit up versus Washington, Holani would figure to see more work, though Emanuel Wilson would presumably take over No. 1 RB duties. As it is, Holani has gotten involved on offense in each of Seattle's contests so far, combining to produce 42 yards on 12 carries and two yards on one reception. The Commanders have been decimated through the air this season, but they haven't surrendered a rushing touchdown so far.",
+        "4": "George Holani appears to be settled in as Seattle's No. 3 backfield option heading into a Week 4 matchup against the Chargers. Holani logged 10 yards on three carries against Washington in Week 3, but he had by far his best game of the season as a pass catcher, recording five receptions on five targets for 48 yards. Both Jadarian Price and Emanuel Wilson seem to be firmly ahead of Holani in the competition for carries, so work as a receiver will likely be the key to Holani being able to make an offensive impact. The Chargers haven't been hurt much by RBs as pass catchers, yielding just 4.37 yard per target to the position."
       }
     },
     {
