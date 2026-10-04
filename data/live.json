@@ -3,13 +3,13 @@
   "matchups": [
     {
       "away": {
-        "projection": 133.64,
+        "projection": 133.66,
         "score": 0.0,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
-        "projection": 131.72,
+        "projection": 132.71,
         "score": 15.6,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -17,13 +17,13 @@
     },
     {
       "away": {
-        "projection": 124.93,
+        "projection": 124.92,
         "score": 21.6,
         "teamId": 1,
         "teamName": "Big Blue"
       },
       "home": {
-        "projection": 129.96,
+        "projection": 130.87,
         "score": 13.2,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -31,13 +31,13 @@
     },
     {
       "away": {
-        "projection": 139.21,
+        "projection": 139.45,
         "score": 3.1,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       },
       "home": {
-        "projection": 125.03,
+        "projection": 125.04,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -65,7 +65,7 @@
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 114.9,
+        "projection": 101.83,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -82,7 +82,7 @@
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 5,
-      "projection": 124.93,
+      "projection": 124.92,
       "record": {
         "losses": 3,
         "pointsAgainst": 336.53999999999996,
@@ -108,7 +108,7 @@
           "name": "Cam Skattebo",
           "position": "RB",
           "proTeam": "NYG",
-          "projection": 16.12,
+          "projection": 16.11,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -218,7 +218,7 @@
           "name": "Kyle Pitts Sr.",
           "position": "TE",
           "proTeam": "ATL",
-          "projection": 8.85,
+          "projection": 8.86,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -259,13 +259,13 @@
       ]
     },
     {
-      "acquisitions": 11,
+      "acquisitions": 10,
       "actual": 13.2,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 7,
-      "projection": 129.96,
+      "projection": 130.87,
       "record": {
         "losses": 4,
         "pointsAgainst": 366.65999999999997,
@@ -280,7 +280,7 @@
           "name": "Bryce Young",
           "position": "QB",
           "proTeam": "CAR",
-          "projection": 20.21,
+          "projection": 20.2,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -324,7 +324,7 @@
           "name": "Tetairoa McMillan",
           "position": "WR",
           "proTeam": "CAR",
-          "projection": 14.93,
+          "projection": 15.85,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -836,7 +836,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 1,
-      "projection": 139.21,
+      "projection": 139.45,
       "record": {
         "losses": 1,
         "pointsAgainst": 389.82,
@@ -873,7 +873,7 @@
           "name": "Chuba Hubbard",
           "position": "RB",
           "proTeam": "CAR",
-          "projection": 16.36,
+          "projection": 16.6,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1030,7 +1030,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 3,
-      "projection": 125.03,
+      "projection": 125.04,
       "record": {
         "losses": 2,
         "pointsAgainst": 364.65999999999997,
@@ -1067,7 +1067,7 @@
           "name": "Bijan Robinson",
           "position": "RB",
           "proTeam": "ATL",
-          "projection": 21.44,
+          "projection": 21.45,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1224,7 +1224,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 9,
-      "projection": 114.9,
+      "projection": 101.83,
       "record": {
         "losses": 4,
         "pointsAgainst": 352.14,
@@ -1305,7 +1305,7 @@
           "name": "Jalen Coker",
           "position": "WR",
           "proTeam": "CAR",
-          "projection": 13.07,
+          "projection": 0.0,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1612,7 +1612,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 2,
-      "projection": 131.72,
+      "projection": 132.71,
       "record": {
         "losses": 1,
         "pointsAgainst": 382.08,
@@ -1682,7 +1682,7 @@
           "name": "Darren Waller",
           "position": "TE",
           "proTeam": "CAR",
-          "projection": 11.05,
+          "projection": 12.04,
           "slot": "TE",
           "slotId": 6,
           "tradeInterest": null
@@ -1806,7 +1806,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 10,
-      "projection": 133.64,
+      "projection": 133.66,
       "record": {
         "losses": 5,
         "pointsAgainst": 455.7,
@@ -1854,7 +1854,7 @@
           "name": "Drake London",
           "position": "WR",
           "proTeam": "ATL",
-          "projection": 16.71,
+          "projection": 16.73,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
