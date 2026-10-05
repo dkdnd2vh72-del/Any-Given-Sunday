@@ -72,7 +72,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[21]",
+      "path": "$.mTransactions2.transactions[22]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[25]",
+      "path": "$.mTransactions2.transactions[26]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -109,7 +109,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26]",
+      "path": "$.mTransactions2.transactions[27]",
       "values": {
         "acceptedDate": 1790952584692,
         "bidAmount": 0,
@@ -131,7 +131,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26].items[0]",
+      "path": "$.mTransactions2.transactions[27].items[0]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -144,7 +144,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26].items[1]",
+      "path": "$.mTransactions2.transactions[27].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -157,7 +157,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26].items[2]",
+      "path": "$.mTransactions2.transactions[27].items[2]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -170,7 +170,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26].items[3]",
+      "path": "$.mTransactions2.transactions[27].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -183,7 +183,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47]",
+      "path": "$.mTransactions2.transactions[51]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -202,7 +202,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[0]",
+      "path": "$.mTransactions2.transactions[51].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[1]",
+      "path": "$.mTransactions2.transactions[51].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[2]",
+      "path": "$.mTransactions2.transactions[51].items[2]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -241,7 +241,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[3]",
+      "path": "$.mTransactions2.transactions[51].items[3]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -254,7 +254,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[4]",
+      "path": "$.mTransactions2.transactions[51].items[4]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -267,7 +267,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[5]",
+      "path": "$.mTransactions2.transactions[51].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -280,7 +280,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54]",
+      "path": "$.mTransactions2.transactions[58]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -299,7 +299,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[56]",
+      "path": "$.mTransactions2.transactions[61]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -318,7 +318,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65]",
+      "path": "$.mTransactions2.transactions[70]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -337,7 +337,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65].items[0]",
+      "path": "$.mTransactions2.transactions[70].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -350,7 +350,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65].items[1]",
+      "path": "$.mTransactions2.transactions[70].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -363,7 +363,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65].items[2]",
+      "path": "$.mTransactions2.transactions[70].items[2]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -376,7 +376,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65].items[3]",
+      "path": "$.mTransactions2.transactions[70].items[3]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -389,7 +389,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65].items[4]",
+      "path": "$.mTransactions2.transactions[70].items[4]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -402,7 +402,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65].items[5]",
+      "path": "$.mTransactions2.transactions[70].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -415,7 +415,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[75]",
+      "path": "$.mTransactions2.transactions[81]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -434,7 +434,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[75].items[0]",
+      "path": "$.mTransactions2.transactions[81].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -447,7 +447,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[75].items[1]",
+      "path": "$.mTransactions2.transactions[81].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 4,
@@ -2533,7 +2533,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
-        "lastNewsDate": 1791148205000,
+        "lastNewsDate": 1791208323000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
