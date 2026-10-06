@@ -332,7 +332,7 @@ jobs:
 
           # Authenticated ESPN Recent Activity diagnostic for trade-interest
           # events. Writes sanitized matching paths/scalars only; never secrets.
-          activity_views = ["mTransactions2", "mPendingTransactions", "mTeam", "mRoster"]
+          activity_views = ["mTransactions2", "mPendingTransactions", "mTeam", "mRoster", "mActivity", "mRecentActivity", "mPlayerAvailability", "kona_player_info"]
           activity_debug = {"views": {}, "matches": []}
 
           def scan_trade_activity(value, path="$"):
@@ -342,7 +342,7 @@ jobs:
                       if isinstance(v, (str, int, float, bool))
                   )
                   key_text = " ".join(str(k) for k in value.keys())
-                  if re.search(r"trade|interest|likely|definit|availab", key_text + " " + scalar_text, re.I):
+                  if re.search(r"trade|interest|likely|definit|availab|TEAM_PLAYER_AVAILABILITY", key_text + " " + scalar_text, re.I):
                       safe = {
                           str(k): v for k, v in value.items()
                           if isinstance(v, (str, int, float, bool, type(None)))
