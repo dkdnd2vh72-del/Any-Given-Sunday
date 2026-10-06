@@ -1161,13 +1161,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.0,
+        "appliedStatTotal": 11.2,
         "id": 4360248,
         "keeperValue": 13,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1466,9 +1466,9 @@
         "id": 4880281,
         "keeperValue": 0,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1624,7 +1624,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Wicks",
-        "lastNewsDate": 1790987075000,
+        "lastNewsDate": 1791252013000,
         "proTeamId": 21,
         "seasonOutlook": "Wicks was traded to the Eagles after spending his first three NFL seasons in Green Bay. The 2023 fifth-round pick was limited to situational work during his Packers tenure, never finishing a season among the top 50 receivers in snaps, routes, targets, catches or yards. Wicks flashed at times (exactly one game of 24-plus points in each season), but otherwise scored 5.3 PPG. Even after the Eagles traded A.J. Brown, Wicks' path to targets may not be any easier in Philly. DeVonta Smith, Dallas Goedert and Saquon Barkley are all assured substantial roles, with first-round rookie Makai Lemon and Hollywood Brown also very much in the mix. Wicks, 25, will need to win the team's No. 2 receiver gig in order to have any shot at weekly flex consideration. He's barely worth late-round consideration in deep leagues.",
         "universeId": 2
@@ -2834,20 +2834,20 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 245.80000000000004,
+        "appliedStatTotal": 273.5,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[5].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.300000000000004,
+        "appliedStatTotal": 63.0,
         "id": 4430807,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3156,7 +3156,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 177.3,
+        "appliedStatTotal": 208.56,
         "tradeReservedEntries": 0
       }
     },
@@ -3356,13 +3356,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.3,
+        "appliedStatTotal": 40.1,
         "id": 3929645,
         "keeperValue": 0,
         "keeperValueFuture": 13,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3370,13 +3370,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.9,
+        "appliedStatTotal": 15.500000000000002,
         "id": 4569559,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3406,13 +3406,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.8,
+        "appliedStatTotal": 33.66,
         "id": 4360689,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3484,7 +3484,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 209.38000000000002,
+        "appliedStatTotal": 222.68,
         "tradeReservedEntries": 0
       }
     },
@@ -3531,9 +3531,9 @@
         "id": 4239996,
         "keeperValue": 12,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3649,13 +3649,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 19.700000000000003,
+        "appliedStatTotal": 33.0,
         "id": 4361370,
         "keeperValue": 9,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3730,7 +3730,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Marks",
-        "lastNewsDate": 1790645175000,
+        "lastNewsDate": 1791247834000,
         "lastVideoDate": 1790540169000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -4179,7 +4179,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 264.5,
+        "appliedStatTotal": 279.1,
         "tradeReservedEntries": 0
       }
     },
@@ -4200,13 +4200,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 28.400000000000002,
+        "appliedStatTotal": 43.0,
         "id": 4426502,
         "keeperValue": 2,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4422,13 +4422,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.1,
+        "appliedStatTotal": 27.9,
         "id": 3054850,
         "keeperValue": 4,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
