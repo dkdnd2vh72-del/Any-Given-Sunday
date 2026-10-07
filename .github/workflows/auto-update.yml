@@ -376,6 +376,50 @@ jobs:
               encoding="utf-8",
           )
 
+          # Probe ESPN Recent Activity as a separate request surface.
+          # Any player availability/trade-interest designation qualifies.
+          recent_activity_debug = {"requests": {}, "matches": []}
+
+          def scan_recent_activity(value, path="$"):
+              if isinstance(value, dict):
+                  scalar_text = " ".join(str(v) for v in value.values() if isinstance(v, (str, int, float, bool)))
+                  key_text = " ".join(str(k) for k in value.keys())
+                  if re.search(r"trade|interest|availab|player|activity", key_text + " " + scalar_text, re.I):
+                      safe = {
+                          str(k): v for k, v in value.items()
+                          if isinstance(v, (str, int, float, bool, type(None)))
+                          and not re.search(r"cookie|token|auth|swid|s2", str(k), re.I)
+                      }
+                      recent_activity_debug["matches"].append({"path": path, "values": safe})
+                  for k, v in value.items():
+                      scan_recent_activity(v, f"{path}.{k}")
+              elif isinstance(value, list):
+                  for n, v in enumerate(value):
+                      scan_recent_activity(v, f"{path}[{n}]")
+
+          activity_requests = {
+              "league_activity": ESPN_URL + "/activity",
+              "league_recent_activity": ESPN_URL + "/recentActivity",
+              "league_recent_activity_hyphen": ESPN_URL + "/recent-activity",
+              "league_communication": ESPN_URL + "/communication",
+          }
+          for activity_name, activity_url in activity_requests.items():
+              try:
+                  ar = requests.get(activity_url, headers=headers, cookies=cookies, timeout=30)
+                  recent_activity_debug["requests"][activity_name] = {
+                      "status": ar.status_code,
+                      "contentType": ar.headers.get("content-type", ""),
+                  }
+                  if ar.ok and "json" in ar.headers.get("content-type", "").lower():
+                      scan_recent_activity(ar.json(), f"$.{activity_name}")
+              except Exception as exc:
+                  recent_activity_debug["requests"][activity_name] = {"error": type(exc).__name__}
+
+          Path("data/trade-interest-recent-activity-debug.json").write_text(
+              json.dumps(recent_activity_debug, indent=2, sort_keys=True),
+              encoding="utf-8",
+          )
+
           # Standings must come from ESPN's standings view, not the live-scoring
           # team payload. Fetch it separately so completed matchup results and
           # playoff seeds are refreshed as soon as ESPN updates them.
@@ -2003,7 +2047,8 @@ jobs:
             transactions.html \
             index.html \
             data/live.json \
-            data/trade-interest-debug.json
+            data/trade-interest-debug.json \
+            data/trade-interest-recent-activity-debug.json
 
           git commit \
             -m "Auto-update Any Given Sunday league data"
