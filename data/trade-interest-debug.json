@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[4]",
+      "path": "$.mTransactions2.transactions[5]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[4].items[0]",
+      "path": "$.mTransactions2.transactions[5].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -92,7 +92,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[4].items[1]",
+      "path": "$.mTransactions2.transactions[5].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -105,7 +105,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[4].items[2]",
+      "path": "$.mTransactions2.transactions[5].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -118,7 +118,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[14]",
+      "path": "$.mTransactions2.transactions[16]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -658,7 +658,7 @@
         "drops": 2,
         "misc": 0,
         "moveToActive": 7,
-        "moveToIR": 1,
+        "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -2401,7 +2401,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Likely",
         "lastNewsDate": 1791159087000,
-        "lastVideoDate": 1789564923000,
+        "lastVideoDate": 1791301457000,
         "proTeamId": 19,
         "seasonOutlook": "Likely signed with the Giants after four years of backing up Mark Andrews in Baltimore. Likely is reuniting with coach John Harbaugh and is finally expected to play a consistent offensive role. During his time in Baltimore, Likely was limited to 50% of the team's offensive snaps and never finished a season better than 20th among tight ends in snaps, routes, targets, catches, yards or fantasy PPG. His only extensive stretch with Andrews sidelined came back in 2023. During the seven-game span, Likely posted a 23-356-6 receiving line on a 16% target share and averaged a solid 13.5 fantasy PPG. The 26-year-old is obviously unproven, but his receiving skills in New York's ascending offense are enough to put him on the TE2 radar.",
         "universeId": 2
