@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[14]",
+      "path": "$.mTransactions2.transactions[17]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[14].items[0]",
+      "path": "$.mTransactions2.transactions[17].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[14].items[1]",
+      "path": "$.mTransactions2.transactions[17].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[14].items[2]",
+      "path": "$.mTransactions2.transactions[17].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18]",
+      "path": "$.mTransactions2.transactions[22]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18].items[0]",
+      "path": "$.mTransactions2.transactions[22].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -92,7 +92,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18].items[1]",
+      "path": "$.mTransactions2.transactions[22].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -105,7 +105,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18].items[2]",
+      "path": "$.mTransactions2.transactions[22].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -118,7 +118,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[29]",
+      "path": "$.mTransactions2.transactions[33]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -420,10 +420,10 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 43,
-        "acquisitions": 13,
+        "acquisitions": 14,
         "drops": 14,
         "misc": 0,
-        "moveToActive": 24,
+        "moveToActive": 25,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -537,10 +537,10 @@
       "path": "$.mTeam.teams[4].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 1,
-        "acquisitions": 2,
-        "drops": 1,
+        "acquisitions": 3,
+        "drops": 2,
         "misc": 0,
-        "moveToActive": 4,
+        "moveToActive": 5,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -931,9 +931,9 @@
         "fullName": "Michael Pittman Jr.",
         "id": 4035687,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Pittman Jr.",
-        "lastNewsDate": 1790982760000,
+        "lastNewsDate": 1791399280000,
         "lastVideoDate": 1786634821000,
         "proTeamId": 23,
         "seasonOutlook": "Pittman was traded to the Steelers after spending his first six NFL seasons with the Colts. The 2020 second-round pick handled a hefty 23.6% of Indianapolis' targets during his tenure, which helped him to four top-20 fantasy campaigns. Pittman has reached 800 receiving yards in five consecutive seasons while primarily operating as a short-to-intermediate target. The role has limited his scoring (he has 25 TDs in 95 games) and that may not change much with DK Metcalf on the other side in Pittsburgh. Of course, Pittman will be a featured target in an offense led by Aaron Rodgers. That's enough to put the 28-year-old squarely in the weekly WR3 mix.",
@@ -1054,7 +1054,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 138.00000000000003,
+        "appliedStatTotal": 109.40000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -1320,6 +1320,29 @@
         "2": "Will Shipley managed just three touches for the Eagles in Week 1.  Meanwhile, fellow backup Tank Bigsby had just one carry for three yards in the 24-22 win over Washington. Both rushers remain firmly behind Saquon Barkley on the depth chart, though could see extra run in Week 2 if the game gets out of hand versus the Titans. Tennessee allowed 367 yards from scrimmage to the Jets in their season opener. Tennessee was torched on the ground in particular, allowing 152 rushing yards and two touchdowns.",
         "3": "Will Shipley managed nine touches for 29 yards in Week 2 versus the Titans after Saquon Barkley suffered a stinger injury. Saquon missed portions of the game due to the ailment, leaving his status in question for Week 3 versus the Bears. Barkley is slated to undergo an MRI to determine if he will miss any time. Shipley and Tank Bigsby would likely split touches if Barkley cannot go, with Bigsby getting the slight edge, as the latter had 15 touches and a touchdown to outpace Shipley. In Week 3, the Eagles will face a Bears run defense allowing 122 yards per clash on the ground, which is 22nd in the league.",
         "5": "Will Shipley may be the only healthy running back left for the Eagles. Tank Bigsby replaced an injured Saquon Barkley last game for the Eagles, only to suffer an injury of his own late in the contest. Bigsby rushed 14 times for 55 yards to lead the Eagles before exiting with a lower-body issue. His status is up in the air for Week 5 versus the Jags, as is Barkley's due to a hamstring ailment. If neither Bigsby nor Barkley can play, Shipley would be in line for an expanded role. Shipley did have six rushes for 23 yards following the injury to Bigsby. However, Jacksonville has played the run extremely well thus far in 2026. The Jags are allowing just 74.3 rushing yards per tote, which us second in the NFL."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 23.6,
+        "id": 4635008,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Keon Coleman doesn't appear to have a meaningful role in the Bills' offense entering Week 2 against the Lions. Despite playing 52% of the team's offensive snaps, Coleman drew only one target, which resulted in a one-yard catch. Always a candidate for an end-zone jump ball, Coleman is no better than fourth in the target pecking order, suggesting he's unlikely to contribute despite an inviting matchup against a secondary that allowed 410 passing yards in Week 1.",
+        "3": "Keon Coleman will look to build on a mild breakout when the Bills face the Chargers in Week 3. He hauled in six passes last week, his highest total since Week 1 of 2025, as the Bills lost DJ Moore (shoulder) early in Week 2. The Chargers have been more vulnerable to slot options than bigger outside receivers, and Moore's availability remains in flux. With the Bills offense clicking at all levels, Coleman can still garner enough volume to be a deep-league flex consideration.",
+        "4": "Keon Coleman's role in the Bills offense remains limited ahead of a Week 4 matchup with the Patriots. Dealing with a Week 3 ankle injury, Coleman caught a 37-yard pass on two targets, a significant decrease in volume with DJ Moore healthy. Moore dominates targets and Buffalo is a run-first offense. Facing a defense that's allowing a mere 6.6 yards per target, there may not be enough opportunities for Coleman to contribute.",
+        "5": "Keon Coleman's role in the Bills offense remains unsettled ahead of a Week 5 matchup with the Rams. DJ Moore exited Week 4 after aggravating a shoulder injury that forced a similar result in Week 2, and Coleman again shined. In the two games with Moore leaving early, Coleman has 12 catches on 13 targets for 179 yards and a touchdown. With Moore playing four quarters, Coleman has two catches for 38 yards. Facing a defense that hasn't allowed an opposing receiver to top 50 yards leaves Coleman as a fantasy risk regardless of Moore's status."
       }
     },
     {
@@ -2096,7 +2119,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 133.28,
+        "appliedStatTotal": 137.0,
         "tradeReservedEntries": 0
       }
     },
@@ -2202,14 +2225,14 @@
       "values": {
         "active": true,
         "defaultPositionId": 1,
-        "droppable": false,
+        "droppable": true,
         "firstName": "Lamar",
         "fullName": "Lamar Jackson",
         "id": 3916387,
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
-        "lastNewsDate": 1791319856000,
+        "lastNewsDate": 1791393576000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -2288,7 +2311,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Dowdle",
-        "lastNewsDate": 1791232712000,
+        "lastNewsDate": 1791388868000,
         "lastVideoDate": 1789052073000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
@@ -2488,9 +2511,9 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": 15818,
-        "keeperValue": 12,
+        "appliedStatTotal": 20.0,
+        "id": 4567104,
+        "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
         "onTeamId": 7,
@@ -2502,8 +2525,8 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.0,
-        "id": 4567104,
+        "appliedStatTotal": 22.6,
+        "id": 14880,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -2569,7 +2592,7 @@
         "injured": true,
         "injuryStatus": "INJURY_RESERVE",
         "lastName": "Brown",
-        "lastNewsDate": 1790614873000,
+        "lastNewsDate": 1791396427000,
         "lastVideoDate": 1790865542000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -2962,7 +2985,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1791121674000,
+        "lastNewsDate": 1791398818000,
         "lastVideoDate": 1789942112000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3065,7 +3088,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Coker",
-        "lastNewsDate": 1791154821000,
+        "lastNewsDate": 1791384839000,
         "lastVideoDate": 1790107378000,
         "proTeamId": 29,
         "seasonOutlook": "After missing nearly the entire first half of 2025, Coker passed Xavier Legette and took on a larger offensive role opposite Tetairoa McMillan. From Week 8 onward (11 games, including the playoffs), Coker played 73% of the snaps and handled a 17.8% target share. The fantasy output was inconsistent (below 11.5 points in seven games), but he peaked down the stretch (more than 14 points in four of his final six, including a 9-134-1 showing against the Rams in the playoffs). Coker's strong finish is encouraging, though his rookie season went similarly (14-plus points three times, but under 11 in the other nine games). A healthy 2026 could get Coker to the next level, but flex production is his likely ceiling as long as McMillan is commanding one-quarter (if not more) of the targets in Carolina's Bryce Young-led offense.",
@@ -3318,7 +3341,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Swift",
         "lastNewsDate": 1791145393000,
-        "lastVideoDate": 1791149287000,
+        "lastVideoDate": 1791384224000,
         "proTeamId": 3,
         "seasonOutlook": "Swift is entering his seventh NFL season and third with Chicago. The veteran back was busy as both a rusher and receiver en route to clearing 1,300 scrimmage yards in each of his first two seasons with the Bears. Though he found the end zone 10 times and finished 17th among backs in fantasy points per game last season, Swift deferred substantial work to Kyle Monangai and is likely to be in even more of a timeshare in 2026. Still in his prime at age 27, Swift continues to play at a high level (4.87 yards per carry last season), but his role in the Chicago offense figures to limit him to low-ceiling RB2/flex production.",
         "universeId": 2
@@ -3757,9 +3780,9 @@
         "fullName": "Dallas Goedert",
         "id": 3121023,
         "injured": false,
-        "injuryStatus": "DOUBTFUL",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Goedert",
-        "lastNewsDate": 1790971237000,
+        "lastNewsDate": 1791398318000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
         "universeId": 2
@@ -4684,10 +4707,11 @@
         "keeperValue": 12,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 7,
+        "onTeamId": 0,
         "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791529200000
       }
     },
     {
