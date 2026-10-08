@@ -17,7 +17,7 @@
     },
     {
       "away": {
-        "projection": 121.58,
+        "projection": 122.14,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -65,7 +65,7 @@
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 113.4,
+        "projection": 127.53,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "acquisitions": 15,
+      "acquisitions": 14,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -653,7 +653,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 6,
-      "projection": 113.4,
+      "projection": 127.53,
       "record": {
         "losses": 4,
         "pointsAgainst": 519.32,
@@ -675,11 +675,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4427366",
-          "name": "Breece Hall",
+          "id": "4685247",
+          "name": "Braelon Allen",
           "position": "RB",
           "proTeam": "NYJ",
-          "projection": 0.0,
+          "projection": 14.13,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -763,11 +763,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4685247",
-          "name": "Braelon Allen",
+          "id": "4427366",
+          "name": "Breece Hall",
           "position": "RB",
           "proTeam": "NYJ",
-          "projection": 14.13,
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1041,7 +1041,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 1,
-      "projection": 121.58,
+      "projection": 122.14,
       "record": {
         "losses": 2,
         "pointsAgainst": 480.53999999999996,
@@ -1052,11 +1052,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "4361741",
-          "name": "Brock Purdy",
+          "id": "4431452",
+          "name": "Drake Maye",
           "position": "QB",
-          "proTeam": "SF",
-          "projection": 17.9,
+          "proTeam": "NE",
+          "projection": 18.46,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -1162,6 +1162,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4361741",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "proTeam": "SF",
+          "projection": 17.9,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4385690",
           "name": "Dalton Kincaid",
           "position": "TE",
@@ -1178,17 +1189,6 @@
           "position": "WR",
           "proTeam": "CLE",
           "projection": 11.91,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4431452",
-          "name": "Drake Maye",
-          "position": "QB",
-          "proTeam": "NE",
-          "projection": 18.46,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
