@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[19]",
+      "path": "$.mTransactions2.transactions[20]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[19].items[0]",
+      "path": "$.mTransactions2.transactions[20].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[19].items[1]",
+      "path": "$.mTransactions2.transactions[20].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[19].items[2]",
+      "path": "$.mTransactions2.transactions[20].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -60,6 +60,25 @@
     },
     {
       "path": "$.mTransactions2.transactions[24]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "c0cf0378-755f-483e-885a-a3ad6cfb4df4",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
+        "proposedDate": 1791476798636,
+        "rating": 0,
+        "relatedTransactionId": "cda0f8bb-85eb-4833-b9b2-7413b26b7e68",
+        "scoringPeriodId": 5,
+        "status": "EXECUTED",
+        "teamId": 8,
+        "type": "TRADE_DECLINE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[26]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -79,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[24].items[0]",
+      "path": "$.mTransactions2.transactions[26].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -92,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[24].items[1]",
+      "path": "$.mTransactions2.transactions[26].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -105,7 +124,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[24].items[2]",
+      "path": "$.mTransactions2.transactions[26].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -118,7 +137,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36]",
+      "path": "$.mTransactions2.transactions[38]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -579,7 +598,7 @@
         "acquisitions": 10,
         "drops": 9,
         "misc": 0,
-        "moveToActive": 28,
+        "moveToActive": 29,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -930,10 +949,10 @@
         "firstName": "Michael",
         "fullName": "Michael Pittman Jr.",
         "id": 4035687,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Pittman Jr.",
-        "lastNewsDate": 1791404179000,
+        "lastNewsDate": 1791474755000,
         "lastVideoDate": 1786634821000,
         "proTeamId": 23,
         "seasonOutlook": "Pittman was traded to the Steelers after spending his first six NFL seasons with the Colts. The 2020 second-round pick handled a hefty 23.6% of Indianapolis' targets during his tenure, which helped him to four top-20 fantasy campaigns. Pittman has reached 800 receiving yards in five consecutive seasons while primarily operating as a short-to-intermediate target. The role has limited his scoring (he has 25 TDs in 95 games) and that may not change much with DK Metcalf on the other side in Pittsburgh. Of course, Pittman will be a featured target in an offense led by Aaron Rodgers. That's enough to put the 28-year-old squarely in the weekly WR3 mix.",
@@ -2232,7 +2251,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
-        "lastNewsDate": 1791407717000,
+        "lastNewsDate": 1791479357000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -2311,7 +2330,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Dowdle",
-        "lastNewsDate": 1791403608000,
+        "lastNewsDate": 1791475010000,
         "lastVideoDate": 1789052073000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
@@ -2539,7 +2558,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 171.56000000000003,
+        "appliedStatTotal": 165.02,
         "tradeReservedEntries": 0
       }
     },
