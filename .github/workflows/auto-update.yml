@@ -423,7 +423,7 @@ jobs:
                   for key, val in obj.items():
                       p = f"{path}.{key}"
                       if "trade" in str(key).lower() or "block" in str(key).lower():
-                          preview = str(val)[:160] if isinstance(val, (str, int, float, bool, type(None))) else f"<{type(val).__name__}>"
+                          preview = json.dumps(val, ensure_ascii=False)[:3000] if str(key) == "tradeBlock" else (str(val)[:160] if isinstance(val, (str, int, float, bool, type(None))) else f"<{type(val).__name__}>")
                           trade_key_scan["hits"].append({"path": p, "preview": preview})
                       walk_trade_keys(val, p)
               elif isinstance(obj, list):
