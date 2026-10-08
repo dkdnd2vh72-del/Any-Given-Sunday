@@ -1,0 +1,962 @@
+{
+  "views": {
+    "mRoster": 200,
+    "kona_player_info": 200,
+    "mTeam": 200,
+    "mTransactions2": 200
+  },
+  "hits": [
+    {
+      "path": "$.mRoster.teams[0].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[0].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[1].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[2].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[3].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[4].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[6].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[7].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[8].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[9].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.tradeReservedEntries",
+      "preview": "0"
+    },
+    {
+      "path": "$.kona_player_info.players[0].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[1].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[2].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[3].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[4].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[5].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[6].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[7].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[8].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[9].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[10].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[11].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[12].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[13].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[14].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[15].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[16].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[17].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[18].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[19].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[20].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[21].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[22].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[23].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[24].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[25].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[26].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[27].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[28].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[29].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[30].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[31].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[32].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[33].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[34].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[35].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[36].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[37].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[38].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[39].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[40].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[41].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[42].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[43].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[44].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[45].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[46].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[47].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[48].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.kona_player_info.players[49].tradeLocked",
+      "preview": "False"
+    },
+    {
+      "path": "$.mTeam.teams[0].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[0].transactionCounter.trades",
+      "preview": "0"
+    },
+    {
+      "path": "$.mTeam.teams[1].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[1].transactionCounter.trades",
+      "preview": "0"
+    },
+    {
+      "path": "$.mTeam.teams[2].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[2].transactionCounter.trades",
+      "preview": "0"
+    },
+    {
+      "path": "$.mTeam.teams[3].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[3].transactionCounter.trades",
+      "preview": "1"
+    },
+    {
+      "path": "$.mTeam.teams[4].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[4].transactionCounter.trades",
+      "preview": "0"
+    },
+    {
+      "path": "$.mTeam.teams[5].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[5].transactionCounter.trades",
+      "preview": "0"
+    },
+    {
+      "path": "$.mTeam.teams[6].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[6].transactionCounter.trades",
+      "preview": "0"
+    },
+    {
+      "path": "$.mTeam.teams[7].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[7].transactionCounter.trades",
+      "preview": "0"
+    },
+    {
+      "path": "$.mTeam.teams[8].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[8].transactionCounter.trades",
+      "preview": "0"
+    },
+    {
+      "path": "$.mTeam.teams[9].tradeBlock",
+      "preview": "<dict>"
+    },
+    {
+      "path": "$.mTeam.teams[9].transactionCounter.trades",
+      "preview": "1"
+    }
+  ]
+}

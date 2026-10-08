@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[17]",
+      "path": "$.mTransactions2.transactions[18]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[17].items[0]",
+      "path": "$.mTransactions2.transactions[18].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[17].items[1]",
+      "path": "$.mTransactions2.transactions[18].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[17].items[2]",
+      "path": "$.mTransactions2.transactions[18].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[22]",
+      "path": "$.mTransactions2.transactions[23]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[22].items[0]",
+      "path": "$.mTransactions2.transactions[23].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -92,7 +92,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[22].items[1]",
+      "path": "$.mTransactions2.transactions[23].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -105,7 +105,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[22].items[2]",
+      "path": "$.mTransactions2.transactions[23].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -118,7 +118,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33]",
+      "path": "$.mTransactions2.transactions[34]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -615,8 +615,8 @@
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 55,
-        "acquisitions": 10,
-        "drops": 9,
+        "acquisitions": 11,
+        "drops": 10,
         "misc": 0,
         "moveToActive": 21,
         "moveToIR": 4,
@@ -3144,20 +3144,6 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.9,
-        "id": 3117256,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 15.94,
         "id": 4360689,
         "keeperValue": 0,
@@ -3170,7 +3156,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 2.0,
         "id": 3150744,
@@ -3184,7 +3170,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chase McLaughlin will look to remain perfect in the Buccaneers' Week 2 matchup against the Browns. McLaughlin made all five of his kicks during last week's loss, including a 51-yard field goal. With the Browns defense allowing 34 total points and 10 kicking points in a Week 1 loss, McLaughlin is likely in for lots more scoring opportunities in Week 2.",
         "3": "Chase McLaughlin could remain one of the top kickers in fantasy despite the Buccaneers' tough Week 3 matchup against the Vikings. McLaughlin remained perfect in the Week 2 loss to the Browns, as he's now converted on all six field-goal tries this season, including two from 50-plus yards. Despite McLaughlin being tied for the league-lead in field-goals made this season, he could struggle against a Minnesota defense that's allowed just 6.5 kicking points per game thus far.",
@@ -3193,7 +3179,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 18.0,
         "id": 4711533,
@@ -3207,7 +3193,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 27.0,
         "id": 4887558,
@@ -3221,7 +3207,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "3": "Emanuel Wilson will look to build upon a big performance when Seattle faces Washington in Week 3. With Jadarian Price suffering a shoulder injury against Arizona on Sunday, Wilson stepped up and led the Seahawks with 21 rushes for 92 yards. Price's injury isn't considered serious, but it's not certain that he'll be able to return to action in Week 3. Whoever leads Seattle's backfield will be looking to score the first rushing touchdown against the Commanders this season.",
         "4": "Emanuel Wilson may be moving into a timeshare at running back for Seattle heading into a Week 4 matchup against the Chargers. An early fumble by rookie Jadarian Price was partly responsible for Wilson leading the Seahawks with nine carries in a Week 3 win over Washington, with Price logging just five totes and George Holani three. With that said, Wilson managed a paltry 14 yards on his carries, so he didn't exactly make a loud statement in a bid for more work. The Chargers just gave up 154 rushing yards to Buffalo's James Cook in Week 3, so they could be vulnerable on the ground.",
@@ -3229,10 +3215,24 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 4.5,
         "id": -16004,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 11,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 16.4,
+        "id": 4431492,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
