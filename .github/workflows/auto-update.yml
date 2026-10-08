@@ -1875,6 +1875,8 @@ jobs:
                       for player_id, designation in marked.items():
                           if str(designation).upper() != "ON_THE_BLOCK":
                               continue
+                          if player_id == "4426515":  # Exclude Puka Nacua by request
+                              continue
                           player_id = str(player_id)
                           player_info = next(
                               (p for t in normalized["teams"] for p in t.get("roster", []) if str(p.get("id")) == player_id),
