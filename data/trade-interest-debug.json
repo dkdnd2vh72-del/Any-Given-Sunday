@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[24]",
+      "path": "$.mTransactions2.transactions[25]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26]",
+      "path": "$.mTransactions2.transactions[27]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26].items[0]",
+      "path": "$.mTransactions2.transactions[27].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26].items[1]",
+      "path": "$.mTransactions2.transactions[27].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -124,7 +124,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26].items[2]",
+      "path": "$.mTransactions2.transactions[27].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -137,7 +137,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38]",
+      "path": "$.mTransactions2.transactions[39]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -595,10 +595,10 @@
       "path": "$.mTeam.teams[5].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 70,
-        "acquisitions": 10,
-        "drops": 9,
+        "acquisitions": 11,
+        "drops": 10,
         "misc": 0,
-        "moveToActive": 29,
+        "moveToActive": 30,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1495,7 +1495,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
-        "lastNewsDate": 1791160956000,
+        "lastNewsDate": 1791484760000,
         "lastVideoDate": 1789344254000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -1581,9 +1581,9 @@
         "fullName": "Tony Pollard",
         "id": 3916148,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Pollard",
-        "lastNewsDate": 1791406315000,
+        "lastNewsDate": 1791493126000,
         "lastVideoDate": 1791135353000,
         "proTeamId": 10,
         "seasonOutlook": "Pollard has handled a hefty 67.2% of the Titans' designed rushing attempts since his arrival two seasons ago (15.2 per game) and, even with solid efficiency, he has finished 22nd and 30th in fantasy points per game. The culprits? Tennessee's struggling offense (Pollard has exactly five TDs in both seasons) and a limited receiving role when Tyjae Spears has been healthy (Pollard's targets fell from 3.5 per game in 2024 to 2.5 per game in 2025). Barring a major leap from quarterback Cam Ward, Pollard is unlikely to deliver only the second top-20 fantasy campaign (in points per game) of his career. The 29-year-old, entering his eighth NFL season (third with Tennessee), is a low-ceiling flex.",
@@ -2330,7 +2330,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Dowdle",
-        "lastNewsDate": 1791475010000,
+        "lastNewsDate": 1791490646000,
         "lastVideoDate": 1789052073000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
@@ -2436,7 +2436,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Likely",
-        "lastNewsDate": 1791405580000,
+        "lastNewsDate": 1791492870000,
         "lastVideoDate": 1791301457000,
         "proTeamId": 19,
         "seasonOutlook": "Likely signed with the Giants after four years of backing up Mark Andrews in Baltimore. Likely is reuniting with coach John Harbaugh and is finally expected to play a consistent offensive role. During his time in Baltimore, Likely was limited to 50% of the team's offensive snaps and never finished a season better than 20th among tight ends in snaps, routes, targets, catches, yards or fantasy PPG. His only extensive stretch with Andrews sidelined came back in 2023. During the seven-game span, Likely posted a 23-356-6 receiving line on a 16% target share and averaged a solid 13.5 fantasy PPG. The 26-year-old is obviously unproven, but his receiving skills in New York's ascending offense are enough to put him on the TE2 radar.",
@@ -2558,7 +2558,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 165.02,
+        "appliedStatTotal": 161.52,
         "tradeReservedEntries": 0
       }
     },
@@ -2884,8 +2884,8 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.0,
-        "id": -16005,
+        "appliedStatTotal": 4.5,
+        "id": -16030,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -2901,13 +2901,13 @@
         "active": true,
         "defaultPositionId": 16,
         "droppable": true,
-        "firstName": "Browns",
-        "fullName": "Browns D/ST",
-        "id": -16005,
+        "firstName": "Jaguars",
+        "fullName": "Jaguars D/ST",
+        "id": -16030,
         "injured": false,
         "lastName": "D/ST",
-        "proTeamId": 5,
-        "seasonOutlook": "The June trade of Myles Garrett quashed much of the enthusiasm surrounding the Browns' D/ST, though the team still has a trio of strong front-line defenders in Mason Graham, Jared Verse (the big return in the Garrett deal) and Carson Schwesinger and finished fourth at the position in fantasy points in 2025. Don't underestimate this unit, which has one of the softer early-season schedules, especially over the first five weeks (@JAX, @TB, CAR, PIT, @NYJ).",
+        "proTeamId": 30,
+        "seasonOutlook": "Anthony Campanile's defense was one of the most surprisingly productive of 2025, finishing fifth in fantasy points, and the team was fortunate to get him back for this year. That said, the team had modest sack and fumble recovery numbers, and it did lose LB Devin Lloyd and CB Greg Newsome over the offseason. Fantasy managers can still freely select this defense, knowing it has one of the best opening-week matchups by hosting the Browns, but they'll likely need to swap them out for Weeks 2 through 6 (@DEN, NE, @CIN, PHI, HOU).",
         "universeId": 1
       }
     },
@@ -3004,7 +3004,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1791398818000,
+        "lastNewsDate": 1791493538000,
         "lastVideoDate": 1789942112000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3359,7 +3359,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Swift",
-        "lastNewsDate": 1791403132000,
+        "lastNewsDate": 1791487512000,
         "lastVideoDate": 1791384224000,
         "proTeamId": 3,
         "seasonOutlook": "Swift is entering his seventh NFL season and third with Chicago. The veteran back was busy as both a rusher and receiver en route to clearing 1,300 scrimmage yards in each of his first two seasons with the Bears. Though he found the end zone 10 times and finished 17th among backs in fantasy points per game last season, Swift deferred substantial work to Kyle Monangai and is likely to be in even more of a timeshare in 2026. Still in his prime at age 27, Swift continues to play at a high level (4.87 yards per carry last season), but his role in the Chicago offense figures to limit him to low-ceiling RB2/flex production.",
@@ -3801,7 +3801,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Goedert",
-        "lastNewsDate": 1791412863000,
+        "lastNewsDate": 1791494115000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
         "universeId": 2
@@ -4251,7 +4251,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Kamara",
-        "lastNewsDate": 1791405026000,
+        "lastNewsDate": 1791491549000,
         "proTeamId": 18,
         "seasonOutlook": "Kamara is entering his age-31 season set to play a change-of-pace role behind Travis Etienne and is unlikely to be a fantasy option. Over the past seven seasons, only two backs age 31 or older have posted a top-30 fantasy campaign, and both required 16-plus touchdowns. (Kamara hasn't cleared nine TDs since 2020 and scored once in 2025). Injuries limited Kamara to career-low marks across the board last season (including a 10% target share, considerably worse than his previous career low of 18%), and he hasn't played a full season since his rookie year (2017). A longtime fantasy star, Kamara is worth no more than a late flier.",
         "universeId": 2
@@ -5193,10 +5193,10 @@
         "fullName": "Rashod Bateman",
         "id": 4360939,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1791408492000,
+        "lastNewsDate": 1791490162000,
         "lastVideoDate": 1790001549000,
         "proTeamId": 33,
         "seasonOutlook": "Bateman is entering his sixth season in Baltimore following an injury-plagued 2025 campaign in which he was limited to a career-low 224 receiving yards in 13 games. After scoring nine touchdowns on only 45 receptions in 2024, Bateman had \"regression\" written all over him entering last season, but it was worse than expected. The 2021 first-round pick saw his target share fall from 15.4% to a career-low 11.4% and his only double-digit fantasy effort came in Week 3. The 26-year-old remains second on Baltimore's depth chart behind Zay Flowers, but even in a new scheme and with a healthy Lamar Jackson under center, he's unlikely to produce his first top-35 fantasy campaign. Bateman isn't the most appealing late-round draft pick."
