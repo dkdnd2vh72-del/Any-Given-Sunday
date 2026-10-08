@@ -1863,50 +1863,41 @@ jobs:
                               )
 
 
-              # Live Trade Block: players ESPN marks as willing to trade (Likely or Definitely).
+              # ESPN authoritative tradeBlock: include every ON_THE_BLOCK player.
               trade_body = soup.find(id="trade-block-card")
               if trade_body:
-                  # Keep manually confirmed ESPN "Definitely" rows until the
-                  # exact ESPN trade-interest API field is verified. The prior
-                  # guessed mapping was deleting valid entries such as Puka.
-                  manual_rows = [
-                      row.extract()
-                      for row in trade_body.select("[data-trade-block-manual]")
-                  ]
                   trade_body.clear()
                   trade_rows = []
-                  for team in normalized["teams"]:
-                      for p in team.get("roster", []):
-                          raw = p.get("tradeInterest")
-                          value = ""
-                          if isinstance(raw, dict):
-                              value = str(raw.get("name") or raw.get("value") or raw.get("status") or raw.get("interest") or "")
-                          elif raw is not None:
-                              value = str(raw)
-                          if value.strip().lower() in ("definitely", "definite", "likely", "likely to trade", "2", "high", "1", "medium"):
-                              trade_rows.append((team["name"], p))
-                  for manual_row in manual_rows:
-                      trade_body.append(manual_row)
-                  if trade_rows:
-                      for team_name_value, p in sorted(trade_rows, key=lambda x: (x[0].lower(), x[1]["name"].lower())):
-                          if any(p["name"] == row.get_text(" ", strip=True).replace(p["position"], "", 1).replace(team_name_value, "", 1).strip() for row in manual_rows):
+                  for team in league.get("teams", []):
+                      tid = safe_int(team.get("id"))
+                      team_name_value = teams_by_id.get(tid, {}).get("name", team_name(team))
+                      marked = (team.get("tradeBlock") or {}).get("players") or {}
+                      for player_id, designation in marked.items():
+                          if str(designation).upper() != "ON_THE_BLOCK":
                               continue
-                          pos_class = "pos-dst" if p["position"] == "D/ST" else "pos-" + p["position"].lower().replace("/", "").replace(" ", "")
-                          html = (
-                              '<div class="player-row"><div class="player-info">'
-                              f'<span class="team-name"><span class="player-position {escape(pos_class)}">{escape(p["position"])}</span>{escape(p["name"])}</span>'
-                              f'<span class="player-meta">{escape(team_name_value)}</span>'
-                              '</div></div>'
+                          player_id = str(player_id)
+                          player_info = next(
+                              (p for t in normalized["teams"] for p in t.get("roster", []) if str(p.get("id")) == player_id),
+                              None
                           )
-                          row = BeautifulSoup(html, "html.parser").find("div", class_="player-row")
-                          if row:
-                              trade_body.append(row)
-                  elif not manual_rows:
-                      row = BeautifulSoup(
-                          '<div class="player-row"><div class="player-info"><span class="player-meta">No players marked Definitely yet</span></div></div>',
+                          player_name = player_info["name"] if player_info else f"ESPN Player {player_id}"
+                          position = player_info.get("position", "") if player_info else ""
+                          trade_rows.append((team_name_value, player_name, position))
+                  for team_name_value, player_name, position in sorted(trade_rows):
+                      pos_class = "pos-dst" if position == "D/ST" else "pos-" + position.lower().replace("/", "").replace(" ", "")
+                      badge = f'<span class="player-position {escape(pos_class)}">{escape(position)}</span>' if position else ""
+                      html = (
+                          '<div class="player-row"><div class="player-info">'
+                          f'<span class="team-name">{badge}{escape(player_name)}</span>'
+                          f'<span class="player-meta">{escape(team_name_value)}</span>'
+                          '</div></div>'
+                      )
+                      trade_body.append(BeautifulSoup(html, "html.parser").find("div", class_="player-row"))
+                  if not trade_rows:
+                      trade_body.append(BeautifulSoup(
+                          '<div class="player-row"><div class="player-info"><span class="player-meta">No players currently on the trade block</span></div></div>',
                           "html.parser"
-                      ).find("div", class_="player-row")
-                      trade_body.append(row)
+                      ).find("div", class_="player-row"))
 
               path.write_text(
                   str(soup),
