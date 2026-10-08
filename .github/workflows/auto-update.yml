@@ -415,6 +415,32 @@ jobs:
               except Exception as exc:
                   recent_activity_debug["requests"][activity_name] = {"error": type(exc).__name__}
 
+          # Inspect every JSON key (not just first three array entries) for trade/block fields.
+          # Save only paths and short scalar previews; never publish full payloads.
+          trade_key_scan = {"views": {}, "hits": []}
+          def walk_trade_keys(obj, path="$"):
+              if isinstance(obj, dict):
+                  for key, val in obj.items():
+                      p = f"{path}.{key}"
+                      if "trade" in str(key).lower() or "block" in str(key).lower():
+                          preview = str(val)[:160] if isinstance(val, (str, int, float, bool, type(None))) else f"<{type(val).__name__}>"
+                          trade_key_scan["hits"].append({"path": p, "preview": preview})
+                      walk_trade_keys(val, p)
+              elif isinstance(obj, list):
+                  for i, val in enumerate(obj):
+                      walk_trade_keys(val, f"{path}[{i}]")
+          for view in ["mRoster", "kona_player_info", "mTeam", "mTransactions2"]:
+              try:
+                  resp = requests.get(ESPN_URL, params={"view": view}, headers=headers, cookies=cookies, timeout=45)
+                  trade_key_scan["views"][view] = resp.status_code
+                  if resp.ok:
+                      walk_trade_keys(resp.json(), f"$.{view}")
+              except Exception as exc:
+                  trade_key_scan["views"][view] = type(exc).__name__
+          Path("data/trade-key-scan.json").write_text(
+              json.dumps(trade_key_scan, indent=2), encoding="utf-8"
+          )
+
           Path("data/trade-interest-recent-activity-debug.json").write_text(
               json.dumps(recent_activity_debug, indent=2, sort_keys=True),
               encoding="utf-8",
@@ -2048,7 +2074,8 @@ jobs:
             index.html \
             data/live.json \
             data/trade-interest-debug.json \
-            data/trade-interest-recent-activity-debug.json
+            data/trade-interest-recent-activity-debug.json \
+            data/trade-key-scan.json
 
           git commit \
             -m "Auto-update Any Given Sunday league data"
