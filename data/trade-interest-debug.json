@@ -1,65 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[20]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1791465759181,
-        "id": "619f4796-c408-4279-a8fd-53536a285710",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
-        "proposedDate": 1791292959155,
-        "rating": 0,
-        "scoringPeriodId": 5,
-        "status": "PENDING",
-        "teamId": 5,
-        "type": "TRADE_PROPOSAL"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[20].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4429023,
-        "toLineupSlotId": -1,
-        "toTeamId": 8,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[20].items[1]",
-      "values": {
-        "fromLineupSlotId": 17,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4869461,
-        "toLineupSlotId": -1,
-        "toTeamId": 8,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[20].items[2]",
-      "values": {
-        "fromLineupSlotId": 17,
-        "fromTeamId": 8,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4571557,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[25]",
+      "path": "$.mTransactions2.transactions[12]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -78,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[28]",
+      "path": "$.mTransactions2.transactions[14]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -98,7 +40,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[28].items[0]",
+      "path": "$.mTransactions2.transactions[14].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -111,7 +53,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[28].items[1]",
+      "path": "$.mTransactions2.transactions[14].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -124,7 +66,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[28].items[2]",
+      "path": "$.mTransactions2.transactions[14].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -137,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42]",
+      "path": "$.mTransactions2.transactions[22]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -153,6 +95,64 @@
         "status": "EXECUTED",
         "teamId": 8,
         "type": "TRADE_DECLINE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[36]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1791465759181,
+        "id": "619f4796-c408-4279-a8fd-53536a285710",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
+        "proposedDate": 1791292959155,
+        "rating": 0,
+        "scoringPeriodId": 5,
+        "status": "PENDING",
+        "teamId": 5,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[36].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4429023,
+        "toLineupSlotId": -1,
+        "toTeamId": 8,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[36].items[1]",
+      "values": {
+        "fromLineupSlotId": 17,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4869461,
+        "toLineupSlotId": -1,
+        "toTeamId": 8,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[36].items[2]",
+      "values": {
+        "fromLineupSlotId": 17,
+        "fromTeamId": 8,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4571557,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
       }
     },
     {
@@ -598,7 +598,7 @@
         "acquisitions": 11,
         "drops": 10,
         "misc": 0,
-        "moveToActive": 31,
+        "moveToActive": 32,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1495,7 +1495,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
-        "lastNewsDate": 1791504289000,
+        "lastNewsDate": 1791571455000,
         "lastVideoDate": 1789344254000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -2248,10 +2248,10 @@
         "firstName": "Lamar",
         "fullName": "Lamar Jackson",
         "id": 3916387,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Jackson",
-        "lastNewsDate": 1791563414000,
+        "lastNewsDate": 1791567251000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -2330,7 +2330,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Dowdle",
-        "lastNewsDate": 1791490646000,
+        "lastNewsDate": 1791576870000,
         "lastVideoDate": 1789052073000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
@@ -2434,9 +2434,9 @@
         "fullName": "Isaiah Likely",
         "id": 4361050,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Likely",
-        "lastNewsDate": 1791492870000,
+        "lastNewsDate": 1791578576000,
         "lastVideoDate": 1791301457000,
         "proTeamId": 19,
         "seasonOutlook": "Likely signed with the Giants after four years of backing up Mark Andrews in Baltimore. Likely is reuniting with coach John Harbaugh and is finally expected to play a consistent offensive role. During his time in Baltimore, Likely was limited to 50% of the team's offensive snaps and never finished a season better than 20th among tight ends in snaps, routes, targets, catches, yards or fantasy PPG. His only extensive stretch with Andrews sidelined came back in 2023. During the seven-game span, Likely posted a 23-356-6 receiving line on a 16% target share and averaged a solid 13.5 fantasy PPG. The 26-year-old is obviously unproven, but his receiving skills in New York's ascending offense are enough to put him on the TE2 radar.",
@@ -2558,7 +2558,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 146.42000000000002,
+        "appliedStatTotal": 152.96,
         "tradeReservedEntries": 0
       }
     },
@@ -3001,10 +3001,10 @@
         "firstName": "DeVonta",
         "fullName": "DeVonta Smith",
         "id": 4241478,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Smith",
-        "lastNewsDate": 1791560091000,
+        "lastNewsDate": 1791577092000,
         "lastVideoDate": 1789942112000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3357,9 +3357,9 @@
         "fullName": "D'Andre Swift",
         "id": 4259545,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Swift",
-        "lastNewsDate": 1791487512000,
+        "lastNewsDate": 1791572515000,
         "lastVideoDate": 1791384224000,
         "proTeamId": 3,
         "seasonOutlook": "Swift is entering his seventh NFL season and third with Chicago. The veteran back was busy as both a rusher and receiver en route to clearing 1,300 scrimmage yards in each of his first two seasons with the Bears. Though he found the end zone 10 times and finished 17th among backs in fantasy points per game last season, Swift deferred substantial work to Kyle Monangai and is likely to be in even more of a timeshare in 2026. Still in his prime at age 27, Swift continues to play at a high level (4.87 yards per carry last season), but his role in the Chicago offense figures to limit him to low-ceiling RB2/flex production.",
@@ -3799,9 +3799,9 @@
         "fullName": "Dallas Goedert",
         "id": 3121023,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Goedert",
-        "lastNewsDate": 1791494115000,
+        "lastNewsDate": 1791579205000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
         "universeId": 2
@@ -4251,7 +4251,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Kamara",
-        "lastNewsDate": 1791491549000,
+        "lastNewsDate": 1791569581000,
         "proTeamId": 18,
         "seasonOutlook": "Kamara is entering his age-31 season set to play a change-of-pace role behind Travis Etienne and is unlikely to be a fantasy option. Over the past seven seasons, only two backs age 31 or older have posted a top-30 fantasy campaign, and both required 16-plus touchdowns. (Kamara hasn't cleared nine TDs since 2020 and scored once in 2025). Injuries limited Kamara to career-low marks across the board last season (including a 10% target share, considerably worse than his previous career low of 18%), and he hasn't played a full season since his rookie year (2017). A longtime fantasy star, Kamara is worth no more than a late flier.",
         "universeId": 2
