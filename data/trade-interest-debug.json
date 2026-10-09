@@ -375,7 +375,7 @@
       "path": "$.mTeam.teams[0]",
       "values": {
         "abbrev": "KATZ",
-        "currentProjectedRank": 4,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 7,
         "eliminated": false,
@@ -414,7 +414,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 9,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -453,7 +453,7 @@
       "path": "$.mTeam.teams[2]",
       "values": {
         "abbrev": "BURK",
-        "currentProjectedRank": 9,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 6,
         "eliminated": false,
@@ -492,7 +492,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -648,7 +648,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -726,7 +726,7 @@
       "path": "$.mTeam.teams[9]",
       "values": {
         "abbrev": "CMC ",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 4,
         "divisionId": 1,
         "draftDayProjectedRank": 5,
         "eliminated": false,
@@ -1073,7 +1073,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 116.92000000000002,
+        "appliedStatTotal": 122.04,
         "tradeReservedEntries": 0
       }
     },
@@ -1196,7 +1196,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.62,
+        "appliedStatTotal": 30.740000000000002,
         "id": 2577417,
         "keeperValue": 14,
         "keeperValueFuture": 9,
@@ -1367,7 +1367,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 133.78,
+        "appliedStatTotal": 146.18,
         "tradeReservedEntries": 0
       }
     },
@@ -1402,7 +1402,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.1,
+        "appliedStatTotal": 37.5,
         "id": 4426354,
         "keeperValue": 5,
         "keeperValueFuture": 3,
@@ -1718,7 +1718,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 139.04,
+        "appliedStatTotal": 137.04,
         "tradeReservedEntries": 0
       }
     },
@@ -2110,7 +2110,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": -2.0,
         "id": -16006,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3982,7 +3982,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 208.12,
+        "appliedStatTotal": 211.02,
         "tradeReservedEntries": 0
       }
     },
@@ -4017,7 +4017,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 34.9,
+        "appliedStatTotal": 37.6,
         "id": 4596448,
         "keeperValue": 3,
         "keeperValueFuture": 4,
@@ -4130,7 +4130,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.899999999999999,
+        "appliedStatTotal": 12.0,
         "id": 4242355,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -4281,7 +4281,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 45.3,
+        "appliedStatTotal": 45.5,
         "id": 4361579,
         "keeperValue": 11,
         "keeperValueFuture": 10,
@@ -4728,9 +4728,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1791529200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
