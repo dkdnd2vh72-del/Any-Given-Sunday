@@ -10,21 +10,21 @@
       },
       "home": {
         "projection": 114.17,
-        "score": 0.0,
+        "score": 7.52,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       }
     },
     {
       "away": {
-        "projection": 123.05,
+        "projection": 124.37,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
       },
       "home": {
         "projection": 139.75,
-        "score": 0.0,
+        "score": 42.8,
         "teamId": 14,
         "teamName": "Chance make champions"
       }
@@ -32,13 +32,13 @@
     {
       "away": {
         "projection": 131.4,
-        "score": 0.0,
+        "score": 5.1,
         "teamId": 12,
         "teamName": "Injured Reserve"
       },
       "home": {
         "projection": 122.66,
-        "score": 0.0,
+        "score": 2.9,
         "teamId": 1,
         "teamName": "Big Blue"
       }
@@ -46,7 +46,7 @@
     {
       "away": {
         "projection": 115.42,
-        "score": 0.0,
+        "score": 7.1,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       },
@@ -60,12 +60,12 @@
     {
       "away": {
         "projection": 124.74,
-        "score": 0.0,
+        "score": 15.6,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 113.29,
+        "projection": 125.68,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 0,
-      "actual": 0.0,
+      "actual": 2.9,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -136,7 +136,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 2.9,
           "id": "4241389",
           "name": "CeeDee Lamb",
           "position": "WR",
@@ -259,8 +259,8 @@
       ]
     },
     {
-      "acquisitions": 15,
-      "actual": 0.0,
+      "acquisitions": 14,
+      "actual": 7.52,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -275,7 +275,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 7.52,
           "id": "2577417",
           "name": "Dak Prescott",
           "position": "QB",
@@ -454,7 +454,7 @@
     },
     {
       "acquisitions": 4,
-      "actual": 0.0,
+      "actual": 15.6,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -502,7 +502,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 15.6,
           "id": "4426354",
           "name": "George Pickens",
           "position": "WR",
@@ -653,7 +653,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 6,
-      "projection": 113.29,
+      "projection": 125.68,
       "record": {
         "losses": 4,
         "pointsAgainst": 519.32,
@@ -697,11 +697,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4239993",
-          "name": "Tee Higgins",
+          "id": "4047650",
+          "name": "DK Metcalf",
           "position": "WR",
-          "proTeam": "CIN",
-          "projection": 0.0,
+          "proTeam": "PIT",
+          "projection": 12.39,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -774,17 +774,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4047650",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "proTeam": "PIT",
-          "projection": 12.39,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4035538",
           "name": "David Montgomery",
           "position": "RB",
@@ -795,7 +784,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 17.2,
           "id": "4567750",
           "name": "Emeka Egbuka",
           "position": "WR",
@@ -823,6 +812,17 @@
           "position": "D/ST",
           "proTeam": "PIT",
           "projection": 7.23,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4239993",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "proTeam": "CIN",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1041,7 +1041,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 1,
-      "projection": 123.05,
+      "projection": 124.37,
       "record": {
         "losses": 2,
         "pointsAgainst": 480.53999999999996,
@@ -1118,11 +1118,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4608686",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "proTeam": "CHI",
-          "projection": 10.59,
+          "id": "4832800",
+          "name": "Denzel Boston",
+          "position": "WR",
+          "proTeam": "CLE",
+          "projection": 11.91,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1173,17 +1173,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4832800",
-          "name": "Denzel Boston",
-          "position": "WR",
-          "proTeam": "CLE",
-          "projection": 11.91,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4431452",
           "name": "Drake Maye",
           "position": "QB",
@@ -1217,6 +1206,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4608686",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "proTeam": "CHI",
+          "projection": 10.59,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4047646",
           "name": "A.J. Brown",
           "position": "WR",
@@ -1230,7 +1230,7 @@
     },
     {
       "acquisitions": 11,
-      "actual": 0.0,
+      "actual": 7.1,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
@@ -1333,7 +1333,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 7.1,
           "id": "3150744",
           "name": "Chase McLaughlin",
           "position": "K",
@@ -1424,7 +1424,7 @@
     },
     {
       "acquisitions": 4,
-      "actual": 0.0,
+      "actual": 5.1,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1527,7 +1527,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 5.1,
           "id": "3953687",
           "name": "Brandon Aubrey",
           "position": "K",
@@ -1812,7 +1812,7 @@
     },
     {
       "acquisitions": 5,
-      "actual": 0.0,
+      "actual": 42.8,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
@@ -1838,7 +1838,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 28.8,
           "id": "4596448",
           "name": "Bucky Irving",
           "position": "RB",
@@ -1849,7 +1849,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 14.0,
           "id": "4361579",
           "name": "Javonte Williams",
           "position": "RB",
@@ -1948,7 +1948,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 4.3,
           "id": "4242355",
           "name": "Jake Ferguson",
           "position": "TE",
