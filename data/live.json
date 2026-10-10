@@ -9,7 +9,7 @@
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 114.22,
+        "projection": 114.27,
         "score": 12.64,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -23,7 +23,7 @@
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 139.78,
+        "projection": 139.77,
         "score": 45.7,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -31,7 +31,7 @@
     },
     {
       "away": {
-        "projection": 133.58,
+        "projection": 133.6,
         "score": 5.1,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -51,7 +51,7 @@
         "teamName": "More Wins Than PSI"
       },
       "home": {
-        "projection": 127.21,
+        "projection": 127.2,
         "score": 0.0,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
@@ -259,13 +259,13 @@
       ]
     },
     {
-      "acquisitions": 16,
+      "acquisitions": 15,
       "actual": 12.64,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 5,
-      "projection": 114.22,
+      "projection": 114.27,
       "record": {
         "losses": 4,
         "pointsAgainst": 514.88,
@@ -346,7 +346,7 @@
           "name": "Michael Wilson",
           "position": "WR",
           "proTeam": "ARI",
-          "projection": 16.78,
+          "projection": 16.83,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -584,7 +584,7 @@
           "name": "DJ Moore",
           "position": "WR",
           "proTeam": "BUF",
-          "projection": 0.0,
+          "projection": 12.57,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -847,7 +847,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 2,
-      "projection": 127.21,
+      "projection": 127.2,
       "record": {
         "losses": 3,
         "pointsAgainst": 512.44,
@@ -884,7 +884,7 @@
           "name": "Jeremiyah Love",
           "position": "RB",
           "proTeam": "ARI",
-          "projection": 14.38,
+          "projection": 14.37,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1188,7 +1188,7 @@
           "name": "Dalton Kincaid",
           "position": "TE",
           "proTeam": "BUF",
-          "projection": 11.98,
+          "projection": 10.65,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1210,7 +1210,7 @@
           "name": "Marvin Harrison Jr.",
           "position": "WR",
           "proTeam": "ARI",
-          "projection": 6.69,
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1429,7 +1429,7 @@
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 8,
-      "projection": 133.58,
+      "projection": 133.6,
       "record": {
         "losses": 5,
         "pointsAgainst": 512.0400000000001,
@@ -1444,7 +1444,7 @@
           "name": "Josh Allen",
           "position": "QB",
           "proTeam": "BUF",
-          "projection": 19.88,
+          "projection": 19.9,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -1817,7 +1817,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 7,
-      "projection": 139.78,
+      "projection": 139.77,
       "record": {
         "losses": 5,
         "pointsAgainst": 541.88,
@@ -1887,7 +1887,7 @@
           "name": "Trey McBride",
           "position": "TE",
           "proTeam": "ARI",
-          "projection": 22.52,
+          "projection": 22.51,
           "slot": "TE",
           "slotId": 6,
           "tradeInterest": null
