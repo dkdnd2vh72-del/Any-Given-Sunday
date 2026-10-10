@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38]",
+      "path": "$.mTransactions2.transactions[39]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[0]",
+      "path": "$.mTransactions2.transactions[39].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[1]",
+      "path": "$.mTransactions2.transactions[39].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[2]",
+      "path": "$.mTransactions2.transactions[39].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -492,7 +492,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -520,7 +520,7 @@
         "acquisitions": 9,
         "drops": 8,
         "misc": 0,
-        "moveToActive": 47,
+        "moveToActive": 48,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -531,7 +531,7 @@
       "path": "$.mTeam.teams[4]",
       "values": {
         "abbrev": "Sauc",
-        "currentProjectedRank": 1,
+        "currentProjectedRank": 2,
         "divisionId": 1,
         "draftDayProjectedRank": 3,
         "eliminated": false,
@@ -648,7 +648,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -687,7 +687,7 @@
       "path": "$.mTeam.teams[8]",
       "values": {
         "abbrev": "ZJAM",
-        "currentProjectedRank": 2,
+        "currentProjectedRank": 1,
         "divisionId": 1,
         "draftDayProjectedRank": 4,
         "eliminated": false,
@@ -1709,7 +1709,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 137.04,
+        "appliedStatTotal": 147.54000000000002,
         "tradeReservedEntries": 0
       }
     },

@@ -65,7 +65,7 @@
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 125.72,
+        "projection": 126.89,
         "score": -2.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "acquisitions": 16,
+      "acquisitions": 15,
       "actual": 12.64,
       "htmlId": "numbers",
       "id": 3,
@@ -653,7 +653,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 6,
-      "projection": 125.72,
+      "projection": 126.89,
       "record": {
         "losses": 4,
         "pointsAgainst": 519.32,
@@ -730,11 +730,11 @@
         },
         {
           "actual": 0.0,
-          "id": "3116365",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "proTeam": "BAL",
-          "projection": 11.64,
+          "id": "4239993",
+          "name": "Tee Higgins",
+          "position": "WR",
+          "proTeam": "CIN",
+          "projection": 12.81,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -796,6 +796,17 @@
         },
         {
           "actual": 0.0,
+          "id": "3116365",
+          "name": "Mark Andrews",
+          "position": "TE",
+          "proTeam": "BAL",
+          "projection": 11.64,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "3139477",
           "name": "Patrick Mahomes",
           "position": "QB",
@@ -812,17 +823,6 @@
           "position": "D/ST",
           "proTeam": "PIT",
           "projection": 7.23,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4239993",
-          "name": "Tee Higgins",
-          "position": "WR",
-          "proTeam": "CIN",
-          "projection": 12.81,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
