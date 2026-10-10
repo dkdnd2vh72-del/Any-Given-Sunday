@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[22]",
+      "path": "$.mTransactions2.transactions[23]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36]",
+      "path": "$.mTransactions2.transactions[38]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36].items[0]",
+      "path": "$.mTransactions2.transactions[38].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36].items[1]",
+      "path": "$.mTransactions2.transactions[38].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36].items[2]",
+      "path": "$.mTransactions2.transactions[38].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -439,8 +439,8 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 43,
-        "acquisitions": 14,
-        "drops": 14,
+        "acquisitions": 15,
+        "drops": 15,
         "misc": 0,
         "moveToActive": 25,
         "moveToIR": 1,
@@ -751,8 +751,8 @@
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 5,
-        "drops": 5,
+        "acquisitions": 6,
+        "drops": 6,
         "misc": 0,
         "moveToActive": 10,
         "moveToIR": 0,
@@ -1344,8 +1344,8 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.6,
-        "id": 4635008,
+        "appliedStatTotal": 0.0,
+        "id": 4360238,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -1353,15 +1353,6 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Keon Coleman doesn't appear to have a meaningful role in the Bills' offense entering Week 2 against the Lions. Despite playing 52% of the team's offensive snaps, Coleman drew only one target, which resulted in a one-yard catch. Always a candidate for an end-zone jump ball, Coleman is no better than fourth in the target pecking order, suggesting he's unlikely to contribute despite an inviting matchup against a secondary that allowed 410 passing yards in Week 1.",
-        "3": "Keon Coleman will look to build on a mild breakout when the Bills face the Chargers in Week 3. He hauled in six passes last week, his highest total since Week 1 of 2025, as the Bills lost DJ Moore (shoulder) early in Week 2. The Chargers have been more vulnerable to slot options than bigger outside receivers, and Moore's availability remains in flux. With the Bills offense clicking at all levels, Coleman can still garner enough volume to be a deep-league flex consideration.",
-        "4": "Keon Coleman's role in the Bills offense remains limited ahead of a Week 4 matchup with the Patriots. Dealing with a Week 3 ankle injury, Coleman caught a 37-yard pass on two targets, a significant decrease in volume with DJ Moore healthy. Moore dominates targets and Buffalo is a run-first offense. Facing a defense that's allowing a mere 6.6 yards per target, there may not be enough opportunities for Coleman to contribute.",
-        "5": "Keon Coleman's role in the Bills offense remains unsettled ahead of a Week 5 matchup with the Rams. DJ Moore exited Week 4 after aggravating a shoulder injury that forced a similar result in Week 2, and Coleman again shined. In the two games with Moore leaving early, Coleman has 12 catches on 13 targets for 179 yards and a touchdown. With Moore playing four quarters, Coleman has two catches for 38 yards. Facing a defense that hasn't allowed an opposing receiver to top 50 yards leaves Coleman as a fantasy risk regardless of Moore's status."
       }
     },
     {
@@ -4186,48 +4177,6 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.300000000000001,
-        "id": 3916433,
-        "keeperValue": 9,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 14,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 3,
-        "droppable": true,
-        "firstName": "Jakobi",
-        "fullName": "Jakobi Meyers",
-        "id": 3916433,
-        "injured": false,
-        "injuryStatus": "ACTIVE",
-        "lastName": "Meyers",
-        "lastNewsDate": 1791174876000,
-        "lastVideoDate": 1790533083000,
-        "proTeamId": 30,
-        "seasonOutlook": "One of the league's most underrated players, Meyers is entering his first full season with Jacksonville after being acquired via trade in November. The 2019 UDFA has produced 800-plus receiving yards in five consecutive seasons while operating primarily as a short-to-intermediate target. More of a solid producer than a high-ceiling contributor, Meyers has finished no lower than 32nd in fantasy points over the last five seasons, but has yet to do better than 19th. The 29-year-old isn't much of a touchdown scorer (23 TDs in 78 games since 2021) and has substantial target competition via Parker Washington, Brian Thomas Jr., Brenton Strange and Travis Hunter. Meyers is a good player, but is likely to cap out as a flex option.",
-        "universeId": 1
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Jakobi Meyers maintains a high floor, though he's a low-ceiling fantasy WR3 or flex play for Jacksonville's Week 2 home game against Denver's elite defense. Meyers has posted at least 39 receiving yards in all 10 of his games with the Jaguars since coming over in a midseason trade last year, including 40 receiving yards and a TD in the Week 1 win over Cleveland. Parker Washington and Brian Thomas have more downfield playmaking capability, but Meyers should see his share of short targets with Trevor Lawrence likely looking to get the ball out quickly to counter a Broncos pass rush that led the league with 68 sacks last season.",
-        "3": "Jakobi Meyers has been targeted just three times through Jacksonville's first two games. That lack of volume makes him hard to trust as anything more than a deep-league dart throw in Week 3 against a Patriots defense that held the Seahawks and Steelers to a combined 16 points. Parker Washington (18 targets), Brian Thomas (11 targets), and even TE Brenton Strange (five targets) have all been higher on Trevor Lawrence's priority list than Meyers. To the veteran wide receiver's credit, Meyers's 28-yard effort on one target in the Week 2 loss to Denver marked the first time in 11 games as a member of the Jaguars that he failed to record at least 39 receiving yards. Therefore, he could rebuild a solid fantasy floor if Lawrence starts looking Meyers's way more frequently.",
-        "4": "Jakobi Meyers led the Jaguars with seven catches for 64 yards and a touchdown on eight targets in Week 3 against the Patriots after catching all three of his targets for 68 yards and a TD across Jacksonville's first two games. The veteran wideout has been playing alongside Parker Washington in two-WR sets and working ahead of Brian Thomas, as Meyers' 79% snap share this season is nearly double Thomas' mark. Washington is the clear No. 1 receiving option for the Jaguars, but Meyers is shaping up as the team's next-most reliable pass catcher, which is enough to be deployed as a WR3 or flex option in Week 4 against the Bengals, who didn't allow a touchdown pass through Week 2 before giving up TDs to three separate Steelers wideouts in Week 3.",
-        "5": "Jakobi Meyers has been efficient with his opportunities for the Jaguars, catching 13 of 15 targets for 165 yards and two touchdowns heading into a Week 5 trip to London to face the Eagles. His usage has fluctuated in a Jacksonville passing game with many mouths to feed, but Meyers is a viable flex option for Week 5, especially in deeper leagues. The Eagles are giving up 164 yards and one receiving touchdown per game to WRs, and they could be without top CB Quinyon Mitchell (knee) in Week 5, which would make things easier for some combination of Meyers, Parker Washington, Brian Thomas, and Josh Cameron."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 22.8,
         "id": 3054850,
         "keeperValue": 4,
@@ -4240,7 +4189,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry.player",
+      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -4258,7 +4207,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Alvin Kamara (knee) is expected to serve as one of the Saints' top running backs if active for the Week 2 matchup against the Ravens. Kamara was sidelined for Week 1 but is expected to return for Week 2, likely operating as the Saints' top receiving back. He could take work away from Travis Etienne, who caught seven of eight targets in last week's overtime loss. Tyler Shough attempted 56 passes in Week 1, which bodes well for Kamara's potential upside as a receiver. He's in for a solid Week 2 matchup as well, with the Ravens defense giving up 5.3 yards per touch to RBs in Week 1.",
         "3": "Alvin Kamara is expected to operate as the Saints' top pass-catching back in the Week 3 matchup against the Raiders. In his return from a sprained MCL in the Week 2 win over the Ravens, Kamara led the Saints' backfield in carries (nine), targets (six) and receptions (five). Despite this, Travis Etienne was more efficient with his opportunities, averaging 3.1 yards per carry compared to Kamara's 1.7. Even so, the Saints' backfield is in for a tough Week 3 matchup against a Las Vegas defense that's allowed just 3.8 yards per carry thus far.",
@@ -4267,7 +4216,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[13]",
+      "path": "$.mRoster.teams[9].roster.entries[12]",
       "values": {
         "acquisitionDate": 1791030385012,
         "acquisitionType": "TRADE",
@@ -4279,7 +4228,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 45.5,
         "id": 4361579,
@@ -4293,7 +4242,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[14]",
+      "path": "$.mRoster.teams[9].roster.entries[13]",
       "values": {
         "acquisitionDate": 1791030385012,
         "acquisitionType": "TRADE",
@@ -4305,7 +4254,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 27.7,
         "id": 4426515,
@@ -4319,12 +4268,26 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Puka Nacua managed to put up decent numbers despite the Rams' dismal offensive performance in their season opener, and he'll look to ramp up his production further in Week 2 against the Giants. Nacua recorded 74 of Matthew Stafford's 155 passing yards in Week 1 versus San Francisco, though he caught just five of nine targets. No other Rams pass catcher had more than three catches or 26 yards, so there's little doubt that Nacua unsurprisingly remains Stafford's favorite target. The Giants' defense looked good in a win over Dallas in Week 1, with top wideout CeeDee Lamb posting a modest 5-44-1 receiving line.",
         "3": "Puka Nacua (hip) is uncertain to play in the Rams' Week 3 clash against Denver. Nacua missed Monday's Week 2 game versus the Giants, though he wasn't ruled out until game day. That lends some hope that Nacua could return soon, though his availability for practice during the week should provide more insight about his potential to return versus the Broncos. Should Nacua suit up, he'll draw a tough Denver secondary that have given up just 203 receiving yards to wideouts so far, tied for third-fewest in the league.",
         "4": "Puka Nacua (hip) could return to action when the Rams face Philadelphia in Week 4. Nacua has missed Los Angeles' past two games due to a hip injury, but there is some hope that he can return against the Eagles. While Nacua has been out, Davante Adams has thrived statistically as the Rams' top wideout. The team's receiving corps as a whole could find success against an Eagles squad that ranks 24th in the NFL through three weeks by giving up an average of 24.0 fantasy points per game to wideouts.",
         "5": "Puka Nacua appears to be past his early-season injury woes as the Rams prepare to host Buffalo in Week 5. The star wideout missed Weeks 2 and 3 due to a hip/groin issue, but he returned this past Sunday against the Eagles and put up a 9-125-0 receiving line on 12 targets while adding a two-yard rushing touchdown. Nacua logged a 90% percent offensive snap share in the contest, so it doesn't appear that he is going to be inhibited by the injury, at least in terms of playing time, moving forward. The Bills present a good matchup on paper, as they've given up the fourth-most fantasy points (27.8) to wideouts so far this season."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 14.5,
+        "id": 3116164,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 14,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
       }
     },
     {
