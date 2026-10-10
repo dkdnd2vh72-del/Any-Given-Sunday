@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[23]",
+      "path": "$.mTransactions2.transactions[25]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39]",
+      "path": "$.mTransactions2.transactions[42]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[0]",
+      "path": "$.mTransactions2.transactions[42].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[1]",
+      "path": "$.mTransactions2.transactions[42].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[2]",
+      "path": "$.mTransactions2.transactions[42].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -595,11 +595,11 @@
       "path": "$.mTeam.teams[5].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 70,
-        "acquisitions": 11,
-        "drops": 10,
+        "acquisitions": 12,
+        "drops": 11,
         "misc": 0,
         "moveToActive": 32,
-        "moveToIR": 1,
+        "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -634,8 +634,8 @@
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 55,
-        "acquisitions": 11,
-        "drops": 10,
+        "acquisitions": 12,
+        "drops": 11,
         "misc": 0,
         "moveToActive": 21,
         "moveToIR": 4,
@@ -1486,7 +1486,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
-        "lastNewsDate": 1791587319000,
+        "lastNewsDate": 1791651529000,
         "lastVideoDate": 1789344254000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -2806,29 +2806,6 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": 5083315,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 8,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Kenyon Sadiq could have an emerging role for the Jets in Week 2 against the Packers. Sadiq notched four touches in his NFL debut, including a three-yard rushing score, out-gaining starter Mason Taylor handsomely in a run-heavy game for the Jets. They'll likely need to throw more to keep up with Green Bay's offense in Week 2, and the Packers allowed a touchdown to a tight end last week. The floor is volatile, but Sadiq offers high ceiling potential for those in need at tight end.",
-        "3": "Kenyon Sadiq could be poised for a major breakout for the Jets in Week 3 if Mason Taylor (thumb) is unable to play against the Lions. Sadiq has played just 42% and 38% of the offensive snaps through two games, easing into the rotation after recovering from hernia surgery prior to the year. The Jets' offense isn't prolific, but the matchup with a porous Lions' defense could change that. Detroit has allowed two touchdown catches to opposing tight ends in each of the first two weeks and 187 total yards, the second-highest total across the league.",
-        "4": "Kenyon Sadiq could struggle to build on a breakout performance in Week 4 when the Jets face the Bears. After recording just six targets in his first two games, Sadiq shined in Week 3, catching seven of eight targets for 105 yards and a touchdown, despite playing just 56% of the offensive snaps in Mason Taylor's absence. The Bears have not allowed an opposing tight end to top 30 yards this season, with teams finding more success targeting their corners, so a repeat performance may be challenging.",
-        "5": "Kenyon Sadiq faces an unsettled role in the Jets' limited passing game ahead of a Week 5 matchup with the Browns. After a Week 3 breakthrough performance, Sadiq failed to record a catch on four targets in Week 4 and now has 21 or fewer yards in three of his first four games. The Browns haven't allowed an opposing tight end to top 51 yards while surrendering just 6.7 yards per target, not boding well for Sadiq in Week 5. A potential Mason Taylor return would further dampen Sadiq's potential."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 28.0,
         "id": 4608686,
         "keeperValue": 0,
@@ -2841,7 +2818,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Kyle Monangai will look to be a big contributor once again for the Bears in Week 2 against the Vikings. While Monangai still took a back-seat role to D'Andre Swift in Week 1 against the Panthers, he still finished the game with 10 carries for 100 yards and a touchdown, along with 24 yards off two catches. The second-year ball carrier should still have plenty of a share in Chicago's rushing game to be fantasy relevant, especially given how much potential their offense showed for the season. Monangai will face a Minnesota defense that shelled Green Bay on the ground in their opener, but the Bears have a much superior RB room as of now.",
         "3": "Kyle Monangai should remain a high-volume RB2 as the Bears take on the Eagles in Week 3. Monangai saw double-digit carries once again in Week 2, but he totaled just 47 yards on the ground and tacked on 11 yards off two catches. The second-year running back has now seen 12 touches in each of Chicago's two outings this year, and he could see even more with Tyson Bagent slated to start under center. Philly has also ceded 216 rushing yards to RBs this season, a bottom-10 mark in the league.",
@@ -2850,7 +2827,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 17.4,
         "id": 4571557,
@@ -2864,7 +2841,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Spencer Shrader made a 58-yard field goal but also missed an extra point in a confounding performance during the Colts' season-opening loss. The big-legged kicker may not get many opportunities in Week 2 against the Chiefs, especially since the Colts are one of the league's most efficient red-zone teams thanks to the presence of star RB Jonathan Taylor. Shrader is a middling fantasy option, and you can likely find a kicker in a more appealing situation on your league's waiver wire.",
         "3": "Spencer Shrader has made all four of his field-goal attempts and five of six extra point tries through two games this season. The Colts are averaging a robust 26.5 points per game, but their success on offense has been overshadowed by a league-worst defensive performance en route to a 0-2 start. Shrader is gaining some streaming appeal heading into a Week 3 home game against the Texans, who are allowing 28.0 points per game in the early going after giving up just 17.4 points per game last season. He's a borderline fantasy starter at this point.",
@@ -2873,7 +2850,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 4.5,
         "id": -16030,
@@ -2887,7 +2864,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player",
+      "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 16,
@@ -2900,6 +2877,20 @@
         "proTeamId": 30,
         "seasonOutlook": "Anthony Campanile's defense was one of the most surprisingly productive of 2025, finishing fifth in fantasy points, and the team was fortunate to get him back for this year. That said, the team had modest sack and fumble recovery numbers, and it did lose LB Devin Lloyd and CB Greg Newsome over the offseason. Fantasy managers can still freely select this defense, knowing it has one of the best opening-week matchups by hosting the Browns, but they'll likely need to swap them out for Weeks 2 through 6 (@DEN, NE, @CIN, PHI, HOU).",
         "universeId": 1
+      }
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 8.2,
+        "id": 4432708,
+        "keeperValue": 4,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 8,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
       }
     },
     {
@@ -3241,8 +3232,8 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.4,
-        "id": 4431492,
+        "appliedStatTotal": 15.200000000000001,
+        "id": 4384852,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
