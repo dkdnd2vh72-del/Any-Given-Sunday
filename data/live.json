@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 135.33,
+        "projection": 138.49,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -17,7 +17,7 @@
     },
     {
       "away": {
-        "projection": 125.06,
+        "projection": 125.07,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -37,7 +37,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 122.6,
+        "projection": 124.14,
         "score": 2.9,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 115.37,
+        "projection": 115.81,
         "score": 7.1,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -65,7 +65,7 @@
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 126.89,
+        "projection": 126.82,
         "score": -2.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -76,13 +76,13 @@
   "season": 2026,
   "teams": [
     {
-      "acquisitions": 0,
+      "acquisitions": 2,
       "actual": 2.9,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 4,
-      "projection": 122.6,
+      "projection": 124.14,
       "record": {
         "losses": 4,
         "pointsAgainst": 506.9,
@@ -148,11 +148,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4360248",
-          "name": "Kyle Pitts Sr.",
+          "id": "4429086",
+          "name": "Michael Mayer",
           "position": "TE",
-          "proTeam": "ATL",
-          "projection": 8.5,
+          "proTeam": "LV",
+          "projection": 10.04,
           "slot": "TE",
           "slotId": 6,
           "tradeInterest": null
@@ -192,11 +192,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4432773",
-          "name": "Brian Thomas Jr.",
+          "id": "3916433",
+          "name": "Jakobi Meyers",
           "position": "WR",
           "proTeam": "JAX",
-          "projection": 7.57,
+          "projection": 10.71,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -214,11 +214,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4035687",
-          "name": "Michael Pittman Jr.",
-          "position": "WR",
-          "proTeam": "PIT",
-          "projection": 0.0,
+          "id": "4360248",
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "proTeam": "ATL",
+          "projection": 8.5,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -254,6 +254,17 @@
           "projection": 8.99,
           "slot": "Bench",
           "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4035687",
+          "name": "Michael Pittman Jr.",
+          "position": "WR",
+          "proTeam": "PIT",
+          "projection": 0.0,
+          "slot": "IR",
+          "slotId": 21,
           "tradeInterest": null
         }
       ]
@@ -397,11 +408,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4360238",
-          "name": "Dameon Pierce",
+          "id": "4596334",
+          "name": "Keaton Mitchell",
           "position": "RB",
-          "proTeam": "PHI",
-          "projection": 7.34,
+          "proTeam": "LAC",
+          "projection": 8.26,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -653,7 +664,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 6,
-      "projection": 126.89,
+      "projection": 126.82,
       "record": {
         "losses": 4,
         "pointsAgainst": 519.32,
@@ -701,18 +712,18 @@
           "name": "DK Metcalf",
           "position": "WR",
           "proTeam": "PIT",
-          "projection": 12.4,
+          "projection": 12.33,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4429615",
-          "name": "Zay Flowers",
+          "id": "4239993",
+          "name": "Tee Higgins",
           "position": "WR",
-          "proTeam": "BAL",
-          "projection": 13.99,
+          "proTeam": "CIN",
+          "projection": 12.8,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -730,11 +741,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4239993",
-          "name": "Tee Higgins",
+          "id": "4429615",
+          "name": "Zay Flowers",
           "position": "WR",
-          "proTeam": "CIN",
-          "projection": 12.8,
+          "proTeam": "BAL",
+          "projection": 13.99,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -994,7 +1005,7 @@
           "name": "Rico Dowdle",
           "position": "RB",
           "proTeam": "PIT",
-          "projection": 7.92,
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1041,7 +1052,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 1,
-      "projection": 125.06,
+      "projection": 125.07,
       "record": {
         "losses": 2,
         "pointsAgainst": 480.53999999999996,
@@ -1133,7 +1144,7 @@
           "name": "Jaguars D/ST",
           "position": "D/ST",
           "proTeam": "JAX",
-          "projection": 7.55,
+          "projection": 7.56,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1235,7 +1246,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 115.37,
+      "projection": 115.81,
       "record": {
         "losses": 5,
         "pointsAgainst": 455.02,
@@ -1272,7 +1283,7 @@
           "name": "Omarion Hampton",
           "position": "RB",
           "proTeam": "LAC",
-          "projection": 11.57,
+          "projection": 12.01,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1623,7 +1634,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 3,
-      "projection": 135.33,
+      "projection": 138.49,
       "record": {
         "losses": 3,
         "pointsAgainst": 535.3,
@@ -1704,7 +1715,7 @@
           "name": "Jaylen Warren",
           "position": "RB",
           "proTeam": "PIT",
-          "projection": 14.42,
+          "projection": 17.58,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1744,11 +1755,11 @@
         },
         {
           "actual": 0.0,
-          "id": "2973405",
-          "name": "Kalif Raymond",
-          "position": "WR",
-          "proTeam": "CHI",
-          "projection": 7.94,
+          "id": "3121023",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "proTeam": "PHI",
+          "projection": 13.26,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1759,7 +1770,7 @@
           "name": "Ladd McConkey",
           "position": "WR",
           "proTeam": "LAC",
-          "projection": 10.45,
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1795,17 +1806,6 @@
           "projection": 15.54,
           "slot": "Bench",
           "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "3121023",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "proTeam": "PHI",
-          "projection": 13.26,
-          "slot": "IR",
-          "slotId": 21,
           "tradeInterest": null
         }
       ]

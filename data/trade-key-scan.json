@@ -67,6 +67,10 @@
       "preview": "False"
     },
     {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.tradeLocked",
+      "preview": "False"
+    },
+    {
       "path": "$.mRoster.teams[0].roster.tradeReservedEntries",
       "preview": "0"
     },
@@ -604,10 +608,6 @@
     },
     {
       "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry.tradeLocked",
-      "preview": "False"
-    },
-    {
-      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry.tradeLocked",
       "preview": "False"
     },
     {
