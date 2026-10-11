@@ -3,13 +3,13 @@
   "matchups": [
     {
       "away": {
-        "projection": 135.34,
+        "projection": 135.33,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 114.27,
+        "projection": 114.26,
         "score": 12.64,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -17,13 +17,13 @@
     },
     {
       "away": {
-        "projection": 125.05,
+        "projection": 125.06,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 139.77,
+        "projection": 139.76,
         "score": 45.7,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -51,7 +51,7 @@
         "teamName": "More Wins Than PSI"
       },
       "home": {
-        "projection": 127.2,
+        "projection": 127.08,
         "score": 0.0,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
@@ -59,13 +59,13 @@
     },
     {
       "away": {
-        "projection": 124.81,
+        "projection": 124.82,
         "score": 28.0,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 126.88,
+        "projection": 126.89,
         "score": -2.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -259,13 +259,13 @@
       ]
     },
     {
-      "acquisitions": 16,
+      "acquisitions": 15,
       "actual": 12.64,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 5,
-      "projection": 114.27,
+      "projection": 114.26,
       "record": {
         "losses": 4,
         "pointsAgainst": 514.88,
@@ -346,7 +346,7 @@
           "name": "Michael Wilson",
           "position": "WR",
           "proTeam": "ARI",
-          "projection": 16.83,
+          "projection": 16.82,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -423,7 +423,7 @@
           "name": "Romeo Doubs",
           "position": "WR",
           "proTeam": "NE",
-          "projection": 12.16,
+          "projection": 12.15,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -459,7 +459,7 @@
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 9,
-      "projection": 124.81,
+      "projection": 124.82,
       "record": {
         "losses": 5,
         "pointsAgainst": 513.76,
@@ -518,7 +518,7 @@
           "name": "Matthew Golden",
           "position": "WR",
           "proTeam": "GB",
-          "projection": 12.76,
+          "projection": 12.77,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -573,7 +573,7 @@
           "name": "Bears D/ST",
           "position": "D/ST",
           "proTeam": "CHI",
-          "projection": 5.83,
+          "projection": 5.88,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -653,7 +653,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 6,
-      "projection": 126.88,
+      "projection": 126.89,
       "record": {
         "losses": 4,
         "pointsAgainst": 519.32,
@@ -679,7 +679,7 @@
           "name": "Braelon Allen",
           "position": "RB",
           "proTeam": "NYJ",
-          "projection": 14.13,
+          "projection": 14.1,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -701,7 +701,7 @@
           "name": "DK Metcalf",
           "position": "WR",
           "proTeam": "PIT",
-          "projection": 12.39,
+          "projection": 12.4,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -712,7 +712,7 @@
           "name": "Zay Flowers",
           "position": "WR",
           "proTeam": "BAL",
-          "projection": 13.96,
+          "projection": 13.99,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -800,7 +800,7 @@
           "name": "Mark Andrews",
           "position": "TE",
           "proTeam": "BAL",
-          "projection": 11.64,
+          "projection": 11.67,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -847,7 +847,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 2,
-      "projection": 127.2,
+      "projection": 127.08,
       "record": {
         "losses": 3,
         "pointsAgainst": 512.44,
@@ -895,7 +895,7 @@
           "name": "Garrett Wilson",
           "position": "WR",
           "proTeam": "NYJ",
-          "projection": 14.76,
+          "projection": 14.64,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1041,7 +1041,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 1,
-      "projection": 125.05,
+      "projection": 125.06,
       "record": {
         "losses": 2,
         "pointsAgainst": 480.53999999999996,
@@ -1089,7 +1089,7 @@
           "name": "Christian Watson",
           "position": "WR",
           "proTeam": "GB",
-          "projection": 13.82,
+          "projection": 13.83,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1623,7 +1623,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 3,
-      "projection": 135.34,
+      "projection": 135.33,
       "record": {
         "losses": 3,
         "pointsAgainst": 535.3,
@@ -1682,7 +1682,7 @@
           "name": "Mike Evans",
           "position": "WR",
           "proTeam": "SF",
-          "projection": 12.78,
+          "projection": 12.77,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1817,7 +1817,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 7,
-      "projection": 139.77,
+      "projection": 139.76,
       "record": {
         "losses": 5,
         "pointsAgainst": 541.88,
@@ -1909,7 +1909,7 @@
           "name": "Seahawks D/ST",
           "position": "D/ST",
           "proTeam": "SEA",
-          "projection": 4.18,
+          "projection": 4.17,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
