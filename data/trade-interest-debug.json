@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[15]",
+      "path": "$.mTransactions2.transactions[18]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18]",
+      "path": "$.mTransactions2.transactions[21]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18].items[0]",
+      "path": "$.mTransactions2.transactions[21].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -53,7 +53,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18].items[1]",
+      "path": "$.mTransactions2.transactions[21].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -66,7 +66,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18].items[2]",
+      "path": "$.mTransactions2.transactions[21].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[32]",
+      "path": "$.mTransactions2.transactions[35]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54]",
+      "path": "$.mTransactions2.transactions[60]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -117,7 +117,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54].items[0]",
+      "path": "$.mTransactions2.transactions[60].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54].items[1]",
+      "path": "$.mTransactions2.transactions[60].items[1]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 5,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54].items[2]",
+      "path": "$.mTransactions2.transactions[60].items[2]",
       "values": {
         "fromLineupSlotId": 17,
         "fromTeamId": 8,
@@ -153,6 +153,25 @@
         "toLineupSlotId": -1,
         "toTeamId": 5,
         "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[72]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "9f94e312-ee9d-4811-acc7-876ec0c257e7",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1791809077194,
+        "rating": 0,
+        "relatedTransactionId": "4395e627-dd27-4811-8f8e-2d032f821e05",
+        "scoringPeriodId": 5,
+        "status": "EXECUTED",
+        "teamId": 14,
+        "type": "TRADE_DECLINE"
       }
     },
     {
@@ -375,7 +394,7 @@
       "path": "$.mTeam.teams[0]",
       "values": {
         "abbrev": "KATZ",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 7,
         "eliminated": false,
@@ -492,7 +511,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -648,7 +667,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -3075,7 +3094,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Henderson",
-        "lastNewsDate": 1791745963000,
+        "lastNewsDate": 1791815304000,
         "lastVideoDate": 1790261969000,
         "proTeamId": 17,
         "seasonOutlook": "Henderson enters Year 2 after a roller-coaster rookie campaign in which he delivered three huge fantasy performances (28-plus points in all three) but otherwise played second fiddle to Rhamondre Stevenson (8.3 points per game in his other 14 games). Though his role was limited, Henderson was effective, averaging 5.1 yards per carry (eighth best) and catching 83% of his targets while scoring 10 touchdowns. The 2025 second-round pick is a candidate for a similar role in 2026, but it's unlikely that Stevenson will completely disappear after he also had a strong 2025. Henderson is safest as a bench option, but there's upside for a lot more if the 23-year-old is promoted to a lead role.",
