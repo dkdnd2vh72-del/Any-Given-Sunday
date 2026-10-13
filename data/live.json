@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 128.95,
+        "projection": 130.09,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 17,
+      "acquisitions": 16,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1008,7 +1008,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 3,
-      "projection": 128.95,
+      "projection": 130.09,
       "record": {
         "losses": 3,
         "pointsAgainst": 680.3399999999999,
@@ -1019,11 +1019,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "4431452",
-          "name": "Drake Maye",
+          "id": "4361741",
+          "name": "Brock Purdy",
           "position": "QB",
-          "proTeam": "NE",
-          "projection": 20.24,
+          "proTeam": "SF",
+          "projection": 21.38,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -1140,22 +1140,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4361741",
-          "name": "Brock Purdy",
-          "position": "QB",
-          "proTeam": "SF",
-          "projection": 21.38,
+          "id": "4723086",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "proTeam": "CHI",
+          "projection": 10.11,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4723086",
-          "name": "Colston Loveland",
-          "position": "TE",
-          "proTeam": "CHI",
-          "projection": 10.11,
+          "id": "4431452",
+          "name": "Drake Maye",
+          "position": "QB",
+          "proTeam": "NE",
+          "projection": 20.24,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
