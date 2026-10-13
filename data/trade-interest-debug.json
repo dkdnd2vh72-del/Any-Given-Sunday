@@ -1,6 +1,64 @@
 {
   "matches": [
     {
+      "path": "$.mTransactions2.transactions[8]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "CANCEL",
+        "id": "a988c891-ffa3-49e5-9702-bf7bcae4bd45",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{6DFCEF0A-EDE4-4244-BCEF-0AEDE4924420}",
+        "proposedDate": 1791907275198,
+        "rating": 0,
+        "relatedTransactionId": "7fdfe3d1-267a-442b-a3ad-b240dfcc922a",
+        "scoringPeriodId": 6,
+        "status": "CANCELED",
+        "teamId": 11,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[8].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 11,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4362628,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[8].items[1]",
+      "values": {
+        "fromLineupSlotId": 23,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4569173,
+        "toLineupSlotId": -1,
+        "toTeamId": 11,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[8].items[2]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 11,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mTeam.members[0].notificationSettings[1]",
       "values": {
         "enabled": true,
@@ -285,7 +343,7 @@
       "values": {
         "acquisitionBudgetSpent": 43,
         "acquisitions": 16,
-        "drops": 16,
+        "drops": 17,
         "misc": 0,
         "moveToActive": 29,
         "moveToIR": 1,
@@ -363,9 +421,9 @@
       "values": {
         "acquisitionBudgetSpent": 57,
         "acquisitions": 9,
-        "drops": 8,
+        "drops": 10,
         "misc": 0,
-        "moveToActive": 52,
+        "moveToActive": 53,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -402,10 +460,10 @@
       "values": {
         "acquisitionBudgetSpent": 1,
         "acquisitions": 3,
-        "drops": 2,
+        "drops": 3,
         "misc": 0,
         "moveToActive": 7,
-        "moveToIR": 1,
+        "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -480,7 +538,7 @@
       "values": {
         "acquisitionBudgetSpent": 55,
         "acquisitions": 13,
-        "drops": 12,
+        "drops": 13,
         "misc": 0,
         "moveToActive": 24,
         "moveToIR": 4,
@@ -1181,28 +1239,6 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.3,
-        "id": 4431545,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 3,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Will Shipley managed just three touches for the Eagles in Week 1.  Meanwhile, fellow backup Tank Bigsby had just one carry for three yards in the 24-22 win over Washington. Both rushers remain firmly behind Saquon Barkley on the depth chart, though could see extra run in Week 2 if the game gets out of hand versus the Titans. Tennessee allowed 367 yards from scrimmage to the Jets in their season opener. Tennessee was torched on the ground in particular, allowing 152 rushing yards and two touchdowns.",
-        "3": "Will Shipley managed nine touches for 29 yards in Week 2 versus the Titans after Saquon Barkley suffered a stinger injury. Saquon missed portions of the game due to the ailment, leaving his status in question for Week 3 versus the Bears. Barkley is slated to undergo an MRI to determine if he will miss any time. Shipley and Tank Bigsby would likely split touches if Barkley cannot go, with Bigsby getting the slight edge, as the latter had 15 touches and a touchdown to outpace Shipley. In Week 3, the Eagles will face a Bears run defense allowing 122 yards per clash on the ground, which is 22nd in the league.",
-        "5": "Will Shipley may be the only healthy running back left for the Eagles. Tank Bigsby replaced an injured Saquon Barkley last game for the Eagles, only to suffer an injury of his own late in the contest. Bigsby rushed 14 times for 55 yards to lead the Eagles before exiting with a lower-body issue. His status is up in the air for Week 5 versus the Jags, as is Barkley's due to a hamstring ailment. If neither Bigsby nor Barkley can play, Shipley would be in line for an expanded role. Shipley did have six rushes for 23 yards following the injury to Bigsby. However, Jacksonville has played the run extremely well thus far in 2026. The Jags are allowing just 74.3 rushing yards per tote, which us second in the NFL."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 5.9,
         "id": 4596334,
         "keeperValue": 0,
@@ -1215,7 +1251,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.player",
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -1234,7 +1270,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Keaton Mitchell couldn't capitalize on his preseason buzz in the Chargers' season-opening loss to the Cardinals. He got only four carries, turning them into a mere nine yards, and failed to see a target. The former Raven is the clear backup to Omarion Hampton in the backfield, but Mitchell may need much more favorable game scripts to get meaningful volume. He'll try to contribute in Week 2 against a Raiders defense that ranked 21st last season in points per game allowed to RBs.",
         "3": "Keaton Mitchell has taken a clear backseat to Omarion Hampton in the Chargers' backfield to begin the season, getting 10 touches to his teammate's 37 through two games. Mitchell has yet to do much to earn a larger role, averaging just 3.7 yards per carry, although he does have a 15-yard gain on his only catch. Hampton has lost a fumble in each game so far in 2026, and these ball security issues could open the door for Mitchell to get more involved. If he does see more volume in Week 3, Mitchell could hit paydirt against a Bills defense that's allowed four touchdowns to RBs so far, two on the ground and two through the air.",
@@ -1370,8 +1406,8 @@
         "firstName": "DJ",
         "fullName": "DJ Moore",
         "id": 3915416,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
         "lastNewsDate": 1791845381000,
         "lastVideoDate": 1789344254000,
@@ -1596,7 +1632,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 85.50000000000001,
+        "appliedStatTotal": 88.50000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -1955,53 +1991,6 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.28,
-        "id": 2578570,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 5,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 1,
-        "droppable": true,
-        "firstName": "Jacoby",
-        "fullName": "Jacoby Brissett",
-        "id": 2578570,
-        "injured": false,
-        "injuryStatus": "ACTIVE",
-        "lastName": "Brissett",
-        "lastNewsDate": 1791769181000,
-        "lastVideoDate": 1791297276000,
-        "proTeamId": 22,
-        "seasonOutlook": "Brissett is back for his second season in Arizona and is currently positioned as the team's probable Week 1 starter. One of the biggest fantasy surprises of 2025, Brissett reeled off nine consecutive top-12 fantasy outings spanning Weeks 6 to 15. He averaged 18.9 fantasy points across 12 starts, which was a big surprise considering his prior career high was 12.9, and that was way back in 2017. Brissett played solid ball, but he's not a major contributor with his legs (260 yards is his career high for a season). He certainly benefited from the league's pass-heaviest offense, a luxury he's unlikely to have with Mike LaFleur now calling plays. Expect the 33-year-old to regress to fringe QB2 production, and keep in mind that it's possible Arizona will turn to rookie Carson Beck at some point this season.",
-        "universeId": 2
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": -2.0,
-        "id": -16006,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 5,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 10.700000000000001,
         "id": 5082424,
         "keeperValue": 0,
@@ -2126,8 +2115,8 @@
         "firstName": "Lamar",
         "fullName": "Lamar Jackson",
         "id": 3916387,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
         "lastNewsDate": 1791832423000,
         "lastVideoDate": 1791142597000,
@@ -2205,8 +2194,8 @@
         "firstName": "Rico",
         "fullName": "Rico Dowdle",
         "id": 4038815,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Dowdle",
         "lastNewsDate": 1791835664000,
         "lastVideoDate": 1789052073000,
@@ -2228,48 +2217,6 @@
       "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
-        "id": 4362249,
-        "keeperValue": 11,
-        "keeperValueFuture": 9,
-        "lineupLocked": false,
-        "onTeamId": 7,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 3,
-        "droppable": true,
-        "firstName": "Jayden",
-        "fullName": "Jayden Reed",
-        "id": 4362249,
-        "injured": true,
-        "injuryStatus": "INJURY_RESERVE",
-        "lastName": "Reed",
-        "lastNewsDate": 1790803396000,
-        "lastVideoDate": 1786665416000,
-        "proTeamId": 9,
-        "seasonOutlook": "Reed began his NFL career with a pair of top-30 fantasy campaigns, but the Green Bay slot receiver was limited to only seven appearances last season due to injury. Even when active, Reed wasn't as effective as in years past, averaging 6.9 fantasy PPG and finding the end zone once (Week 1). This comes after the 2023 second-round pick produced 75 touches, 900-plus yards and seven-plus touchdowns in each of his first two seasons. The 26-year-old signed a contract extension in April and will battle the likes of Christian Watson, Matthew Golden and Savion Williams for targets this season. While he'll likely hit for the occasional solid game, his limited usage (career-high 18% target share) will put a cap on his fantasy upside. He's barely in the flex conversation in PPR leagues.",
-        "universeId": 2
-      }
-    },
-    {
-      "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Jayden Reed will look to make more of his opportunities as the Packers take on the Jets in Week 2. Reed struggled even with seven targets in a loss to the Vikings, logging just three catches for 20 yards. The fourth-year playmaker could start to slip into a WR3 role if he continues to play similarly, but luckily there appears to be plenty of targets to go around in the short term. Reed will face a New York defense that ranked middle-of-the-pack against wide receivers this past Sunday.",
-        "3": "Jayden Reed's status is up in the air as the Packers play the Falcons in Week 3. Reed was carted off the field after injuring his back on the first drive of Week 2, which in itself makes it unlikely that he'll be rushed back for a TNF matchup. The fourth-year playmaker's absence would give Matthew Golden even more looks, with Skyy Moore and Bo Melton slotting in as supplementary options for Jordan Love. If Reed somehow does play, he'll face an Atlanta defense that's allowed a middle-of-the-pack 30.3 PPR points per game to WRs.",
-        "4": "Jayden Reed is unlikely to play in Week 4 as the Packers take on the Falcons. Reed sustained a neck injury against the Jets in Week 2, and he hasn't seen the field since. The fourth-year wide receiver also has no current return timeline. His absence should continue to pave the way for Skyy Moore and Bo Melton to get more opportunities in Green Bay's passing game.",
-        "5": "Jayden Reed will not play in Week 5 as the Packers play the Bears. Reed sustained a neck injury against the Jets in Week 2, and he'll now require season-ending surgery. His absence should continue to pave the way for Skyy Moore and Bo Melton to get more opportunities in Green Bay's passing game."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 0.0,
         "id": 4241416,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -2281,7 +2228,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chuba Hubbard is expected to continue leading the Panthers' backfield in the Week 2 matchup against the Falcons. Hubbard out-touched Jonathon Brooks 13 to five in the Week 1 loss, which is a good sign for his fantasy outlook going forward. Hubbard also found the end zone twice and looked very efficient, averaging 6.7 yards per touch. He's in for a tougher Week 2 matchup, however, as Atlanta allowed just 16.4 PPR fantasy points to the running back position last week.",
         "3": "Chuba Hubbard is expected to remain the Panthers' top running back in the Week 3 matchup against the Browns. Hubbard appears to have returned to his 2024 form over Carolina's first two games this season, rushing for 102 yards (4.6 yards per carry) and a touchdown while catching all five of his targets for 49 yards and a score. Additionally, with Jonathon Brooks (groin) exiting the Week 2 win in the fourth quarter, Hubbard's role could continue growing. He faces a difficult matchup, however, as the Browns' defense has given up just 16.9 PPR fantasy points per game through two weeks.",
@@ -2289,7 +2236,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 37.9,
         "id": 4361050,
@@ -2303,7 +2250,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry.player",
+      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 4,
@@ -2322,7 +2269,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Isaiah Likely scored twice in his debut for the Giants in Week 1, leading a stunning victory over the Cowboys. Likely caught all eight of his targets for 78 yards and the two scores to lead the Giants in receiving. Especially in the red zone and on third down, quarterback Jaxson Dart leaned heavily on his new tight end, something that should continue in Week 2 versus the Rams. Los Angeles allowed 205 passing yards and three touchdowns in its dismal season-opening loss to the 49ers, while also losing star acquisition Myles Garrett to a knee injury. Aaron Donald will make his return from retirement to help out the defensive line, though.",
         "3": "Isaiah Likely led the Giants in both receptions and targets last game. Despite seeing 10 opportunities, though, Likely caught five passes for just 33 yards in the dismal loss to the Rams. The bigger news may be that starting quarterback Jaxson Dart could be lost for the season due to a knee injury. With Jameis Winston under center, Likely will likely see his stock take a hit. However, in Week 3, the Giants will face a lackluster Titans defense allowing 233.5 passing yards per clash, which is 20th in the league.",
@@ -2331,7 +2278,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": -16014,
@@ -2345,7 +2292,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry.player",
+      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 16,
@@ -2361,7 +2308,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4683062,
@@ -2375,7 +2322,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Xavier Worthy captured three of his six Week 1 targets for only 18 yards. The workload was low, but Kansas City QB Patrick Mahomes completed only five passes to wideouts in the Monday night opener. The third-year pro has the speed to stretch the field, but he's generally used more underneath, along with occasionally carrying the ball. Worthy is a Week 2 flex option when the Chiefs host the Colts. Indianapolis was one of five defenses to allow over 300 yards passing in Week 1.\n",
         "3": "Xavier Worthy scored his first touchdown of the season in Kansas City's Week 2 overtime win over the Colts, snagging a one-yard toss from Patrick Mahomes in the second quarter. Worthy has notched steady target volume early in the season, with 13 total looks, but that has resulted in just an 8-43-1 line, and he has yet to get a carry. With Mahomes spreading the ball around and the offense prioritizing Kenneth Walker and the run game, Worthy will need some big plays to make a real fantasy contribution. The third-year speedster will face a Dolphins defense in Week 3 that's given up five passing TDs through two games, but only one to a wide receiver.",
@@ -2383,7 +2330,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.7000000000000001,
         "id": 4568490,
@@ -2397,7 +2344,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "RJ Harvey's workload was limited in the Broncos' season-opening loss to Kansas City. He gained 18 rushing yards on three carries and caught all four of his targets for 23 yards. That volume was comparable to J.K. Dobbins, who got eight touches-all carries-to Harvey's seven. Turnovers and game flow played a part in limiting their opportunities. Harvey's role as the primary pass-catching back still bodes well for his production in his second NFL season after posting a 47-356-5 line on 58 targets over 17 regular-season games in 2025. He'll get a potentially tough matchup in Week 2 against a Jaguars defense that ranked third in points per game allowed to RBs in 2025.",
         "3": "RJ Harvey wasn't able to suit up in Week 2's win over the Jaguars due to a hamstring strain, putting his availability for a Week 3 matchup against the Rams in question. The second-year back was expected to be the pass-catching complement to J.K. Dobbins for the Broncos, but rookie Jonah Coleman handled that role and didn't look out of place. If Harvey misses too much time, Coleman could take his job, but Dobbins' own checkered injury history could leave Denver patching together a backfield from whoever is healthy.",
@@ -2406,7 +2353,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 16.9,
         "id": 4567104,
@@ -2420,7 +2367,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.72,
         "id": 14880,
@@ -2870,8 +2817,8 @@
         "firstName": "DeVonta",
         "fullName": "DeVonta Smith",
         "id": 4241478,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
         "lastNewsDate": 1791835151000,
         "lastVideoDate": 1789942112000,
@@ -2918,10 +2865,10 @@
         "fullName": "TreVeyon Henderson",
         "id": 4432710,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "DOUBTFUL",
         "lastName": "Henderson",
-        "lastNewsDate": 1791815304000,
-        "lastVideoDate": 1790261969000,
+        "lastNewsDate": 1791901584000,
+        "lastVideoDate": 1791904465000,
         "proTeamId": 17,
         "seasonOutlook": "Henderson enters Year 2 after a roller-coaster rookie campaign in which he delivered three huge fantasy performances (28-plus points in all three) but otherwise played second fiddle to Rhamondre Stevenson (8.3 points per game in his other 14 games). Though his role was limited, Henderson was effective, averaging 5.1 yards per carry (eighth best) and catching 83% of his targets while scoring 10 touchdowns. The 2025 second-round pick is a candidate for a similar role in 2026, but it's unlikely that Stevenson will completely disappear after he also had a strong 2025. Henderson is safest as a bench option, but there's upside for a lot more if the 23-year-old is promoted to a lead role.",
         "universeId": 1
@@ -3114,38 +3061,6 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 3.6,
-        "id": 4686612,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 3,
-        "droppable": true,
-        "firstName": "Tre'",
-        "fullName": "Tre' Harris",
-        "id": 4686612,
-        "injured": false,
-        "injuryStatus": "DOUBTFUL",
-        "lastName": "Harris",
-        "lastNewsDate": 1791846748000,
-        "proTeamId": 24,
-        "seasonOutlook": "Harris is a Year 2 breakout candidate after flashing in a limited role as a rookie. The 2025 second-round pick quietly played 49% of the Chargers' offensive snaps, but he spent a lot of that blocking and was limited to an 8% target share. Harris is likely to open the 2026 season behind Ladd McConkey and Quentin Johnston, but with Keenan Allen gone, his competition for No. 3 duties is 2025 fifth-round pick KeAndre Lambert-Smith and rookie Brenen Thompson. A potential starter in new playcaller Mike McDaniel's offense, the 24-year-old Harris is an intriguing late-round sleeper.",
-        "universeId": 1
       }
     },
     {
@@ -3401,8 +3316,8 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Marks",
-        "lastNewsDate": 1791760324000,
-        "lastVideoDate": 1790540169000,
+        "lastNewsDate": 1791905457000,
+        "lastVideoDate": 1791904684000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
         "universeId": 1
