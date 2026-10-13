@@ -1,180 +1,6 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[18]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "id": "c0cf0378-755f-483e-885a-a3ad6cfb4df4",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": false,
-        "memberId": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
-        "proposedDate": 1791476798636,
-        "rating": 0,
-        "relatedTransactionId": "cda0f8bb-85eb-4833-b9b2-7413b26b7e68",
-        "scoringPeriodId": 5,
-        "status": "EXECUTED",
-        "teamId": 8,
-        "type": "TRADE_DECLINE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "CANCEL",
-        "expirationDate": 1791465759181,
-        "id": "2073881c-380e-4a15-9062-87b14364f665",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
-        "proposedDate": 1791293008133,
-        "rating": 0,
-        "relatedTransactionId": "619f4796-c408-4279-a8fd-53536a285710",
-        "scoringPeriodId": 5,
-        "status": "CANCELED",
-        "teamId": 5,
-        "type": "TRADE_PROPOSAL"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4429023,
-        "toLineupSlotId": -1,
-        "toTeamId": 8,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22].items[1]",
-      "values": {
-        "fromLineupSlotId": 17,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4869461,
-        "toLineupSlotId": -1,
-        "toTeamId": 8,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[22].items[2]",
-      "values": {
-        "fromLineupSlotId": 17,
-        "fromTeamId": 8,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4571557,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[40]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "id": "0268de32-edd6-4091-adb5-2a877fc41bda",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": false,
-        "memberId": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
-        "proposedDate": 1791293008133,
-        "rating": 0,
-        "relatedTransactionId": "619f4796-c408-4279-a8fd-53536a285710",
-        "scoringPeriodId": 5,
-        "status": "EXECUTED",
-        "teamId": 8,
-        "type": "TRADE_DECLINE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[67]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1791465759181,
-        "id": "619f4796-c408-4279-a8fd-53536a285710",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
-        "proposedDate": 1791292959155,
-        "rating": 0,
-        "scoringPeriodId": 5,
-        "status": "PENDING",
-        "teamId": 5,
-        "type": "TRADE_PROPOSAL"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[67].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4429023,
-        "toLineupSlotId": -1,
-        "toTeamId": 8,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[67].items[1]",
-      "values": {
-        "fromLineupSlotId": 17,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4869461,
-        "toLineupSlotId": -1,
-        "toTeamId": 8,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[67].items[2]",
-      "values": {
-        "fromLineupSlotId": 17,
-        "fromTeamId": 8,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4571557,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTransactions2.transactions[81]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "id": "9f94e312-ee9d-4811-acc7-876ec0c257e7",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": false,
-        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
-        "proposedDate": 1791809077194,
-        "rating": 0,
-        "relatedTransactionId": "4395e627-dd27-4811-8f8e-2d032f821e05",
-        "scoringPeriodId": 5,
-        "status": "EXECUTED",
-        "teamId": 14,
-        "type": "TRADE_DECLINE"
-      }
-    },
-    {
       "path": "$.mTeam.members[0].notificationSettings[1]",
       "values": {
         "enabled": true,
@@ -394,7 +220,7 @@
       "path": "$.mTeam.teams[0]",
       "values": {
         "abbrev": "KATZ",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 7,
         "eliminated": false,
@@ -405,8 +231,8 @@
         "logo": "https://g.espncdn.com/s/ffllm/logos/MickeyAndDonald-Disney/Disney-11.svg",
         "logoType": "VECTOR",
         "name": "Big Blue",
-        "playoffSeed": 4,
-        "points": 542.3199999999999,
+        "playoffSeed": 7,
+        "points": 643.26,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{4CD46359-D278-4167-9ED9-F5BA8519237B}",
@@ -444,8 +270,8 @@
         "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Referee-MartinLaksman/referee-05.svg",
         "logoType": "VECTOR",
         "name": "Burden Of Victory IIIx ",
-        "playoffSeed": 5,
-        "points": 533.02,
+        "playoffSeed": 8,
+        "points": 633.64,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
@@ -461,7 +287,7 @@
         "acquisitions": 16,
         "drops": 16,
         "misc": 0,
-        "moveToActive": 25,
+        "moveToActive": 29,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -472,7 +298,7 @@
       "path": "$.mTeam.teams[2]",
       "values": {
         "abbrev": "BURK",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 6,
         "eliminated": false,
@@ -483,8 +309,8 @@
         "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
         "logoType": "VECTOR",
         "name": "Champagne Step-Papi",
-        "playoffSeed": 9,
-        "points": 478.96,
+        "playoffSeed": 5,
+        "points": 630.0,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{689C6304-D941-4316-8C0E-89C21B8C9FEB}",
@@ -500,7 +326,7 @@
         "acquisitions": 4,
         "drops": 3,
         "misc": 0,
-        "moveToActive": 10,
+        "moveToActive": 12,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -511,7 +337,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -522,8 +348,8 @@
         "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/2e7ff0a0-ab86-11f1-9537-5bd778d76252",
         "logoType": "CUSTOM_UPLOAD",
         "name": "The Bowers Rangers",
-        "playoffSeed": 6,
-        "points": 491.78,
+        "playoffSeed": 9,
+        "points": 606.66,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
@@ -539,7 +365,7 @@
         "acquisitions": 9,
         "drops": 8,
         "misc": 0,
-        "moveToActive": 48,
+        "moveToActive": 52,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -561,8 +387,8 @@
         "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
         "logoType": "VECTOR",
         "name": "Gett'n Saucy",
-        "playoffSeed": 2,
-        "points": 540.3399999999999,
+        "playoffSeed": 1,
+        "points": 690.2599999999999,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{113D06BF-E687-4014-BD06-BFE687C014C5}",
@@ -578,7 +404,7 @@
         "acquisitions": 3,
         "drops": 2,
         "misc": 0,
-        "moveToActive": 5,
+        "moveToActive": 7,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -600,8 +426,8 @@
         "logo": "https://i.pinimg.com/originals/83/41/39/834139b429d51451ab4890fa39a6c92d.jpg",
         "logoType": "CUSTOM_VALID",
         "name": "King Johnson",
-        "playoffSeed": 1,
-        "points": 512.1,
+        "playoffSeed": 3,
+        "points": 664.96,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
@@ -640,7 +466,7 @@
         "logoType": "CUSTOM_VALID",
         "name": "More Wins Than PSI",
         "playoffSeed": 10,
-        "points": 434.74,
+        "points": 540.48,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{6DFCEF0A-EDE4-4244-BCEF-0AEDE4924420}",
@@ -656,7 +482,7 @@
         "acquisitions": 13,
         "drops": 12,
         "misc": 0,
-        "moveToActive": 21,
+        "moveToActive": 24,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -667,7 +493,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -678,8 +504,8 @@
         "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
         "logoType": "VECTOR",
         "name": "Injured Reserve",
-        "playoffSeed": 8,
-        "points": 511.05999999999995,
+        "playoffSeed": 6,
+        "points": 644.8599999999999,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{55557D11-0BB9-4FB9-957D-110BB9EFB9E5}",
@@ -695,7 +521,7 @@
         "acquisitions": 5,
         "drops": 4,
         "misc": 0,
-        "moveToActive": 8,
+        "moveToActive": 10,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -717,8 +543,8 @@
         "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarWarsTheForceAwakens-ToddDetwiler/ESPN_Star_Wars_05a.svg",
         "logoType": "VECTOR",
         "name": "Pollard Express",
-        "playoffSeed": 3,
-        "points": 494.92,
+        "playoffSeed": 2,
+        "points": 678.94,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{B9D0D9CD-0373-43B0-B535-9F31B41A51F8}",
@@ -734,7 +560,7 @@
         "acquisitions": 7,
         "drops": 7,
         "misc": 0,
-        "moveToActive": 12,
+        "moveToActive": 15,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -756,8 +582,8 @@
         "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/SmackTalk-LeoEspinosa/any-sunday-05.svg",
         "logoType": "VECTOR",
         "name": "Chance make champions ",
-        "playoffSeed": 7,
-        "points": 552.84,
+        "playoffSeed": 4,
+        "points": 752.6400000000001,
         "pointsAdjusted": 0.0,
         "pointsDelta": 0.0,
         "primaryOwner": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
@@ -783,20 +609,20 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 264.11999999999995,
+        "appliedStatTotal": 100.94000000000001,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[0].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 28.4,
+        "appliedStatTotal": 12.9,
         "id": 4374302,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -804,13 +630,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 44.199999999999996,
+        "appliedStatTotal": 2.9,
         "id": 4241389,
         "keeperValue": 1,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -818,13 +644,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 56.0,
+        "appliedStatTotal": 19.6,
         "id": 4430737,
         "keeperValue": 3,
         "keeperValueFuture": 3,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -841,13 +667,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.700000000000001,
+        "appliedStatTotal": 7.1000000000000005,
         "id": 4696981,
         "keeperValue": 0,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -864,13 +690,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 29.6,
+        "appliedStatTotal": 8.0,
         "id": 4685702,
         "keeperValue": 0,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -878,13 +704,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.9,
+        "appliedStatTotal": 17.7,
         "id": 4360248,
         "keeperValue": 13,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -892,13 +718,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.520000000000003,
+        "appliedStatTotal": 13.0,
         "id": 4040715,
         "keeperValue": 4,
         "keeperValueFuture": 7,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -906,13 +732,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.5,
+        "appliedStatTotal": 0.0,
         "id": 4035687,
         "keeperValue": 10,
         "keeperValueFuture": 9,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -939,13 +765,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.100000000000001,
+        "appliedStatTotal": 0.0,
         "id": 4429205,
         "keeperValue": 10,
         "keeperValueFuture": 10,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -962,7 +788,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.5,
+        "appliedStatTotal": 0.0,
         "id": 15847,
         "keeperValue": 9,
         "keeperValueFuture": 11,
@@ -976,13 +802,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 34.82,
+        "appliedStatTotal": 21.740000000000002,
         "id": 4360310,
         "keeperValue": 0,
         "keeperValueFuture": 12,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -999,13 +825,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 30.5,
+        "appliedStatTotal": 25.0,
         "id": 2473037,
         "keeperValue": 0,
         "keeperValueFuture": 13,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1013,13 +839,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.0,
+        "appliedStatTotal": 2.0,
         "id": -16021,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1027,13 +853,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.3,
+        "appliedStatTotal": 11.3,
         "id": 4569587,
         "keeperValue": 0,
         "keeperValueFuture": 15,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1050,13 +876,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 21.900000000000002,
+        "appliedStatTotal": 1.7,
         "id": 4429086,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1064,13 +890,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.0,
+        "appliedStatTotal": 5.7,
         "id": 3916433,
         "keeperValue": 9,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1106,20 +932,20 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 211.42,
+        "appliedStatTotal": 62.980000000000004,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[1].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 40.5,
+        "appliedStatTotal": 22.8,
         "id": 4379399,
         "keeperValue": 4,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1136,7 +962,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 45.2,
+        "appliedStatTotal": 0.0,
         "id": 4685472,
         "keeperValue": 6,
         "keeperValueFuture": 3,
@@ -1150,7 +976,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 30.9,
+        "appliedStatTotal": 0.0,
         "id": 4567048,
         "keeperValue": 5,
         "keeperValueFuture": 4,
@@ -1164,13 +990,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.3,
+        "appliedStatTotal": 8.9,
         "id": 4685278,
         "keeperValue": 0,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1187,13 +1013,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 34.900000000000006,
+        "appliedStatTotal": 18.7,
         "id": 4426388,
         "keeperValue": 0,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1201,13 +1027,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.1,
+        "appliedStatTotal": 1.9,
         "id": 5083076,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1219,9 +1045,9 @@
         "id": 4880281,
         "keeperValue": 0,
         "keeperValueFuture": 8,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1229,13 +1055,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 30.740000000000002,
+        "appliedStatTotal": 12.64,
         "id": 2577417,
         "keeperValue": 14,
         "keeperValueFuture": 9,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1243,13 +1069,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.78,
+        "appliedStatTotal": 7.28,
         "id": 4360761,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1257,13 +1083,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.0,
+        "appliedStatTotal": 15.5,
         "id": -16007,
         "keeperValue": 12,
         "keeperValueFuture": 11,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1271,13 +1097,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.400000000000002,
+        "appliedStatTotal": 2.6,
         "id": 4361432,
         "keeperValue": 0,
         "keeperValueFuture": 15,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1313,7 +1139,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 21.46,
+        "appliedStatTotal": 0.0,
         "id": 4685720,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -1327,13 +1153,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.5,
+        "appliedStatTotal": 6.6,
         "id": 4360234,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1341,13 +1167,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.0,
+        "appliedStatTotal": 13.5,
         "id": -16016,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1355,13 +1181,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.600000000000001,
+        "appliedStatTotal": 8.3,
         "id": 4431545,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1377,13 +1203,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.200000000000003,
+        "appliedStatTotal": 5.9,
         "id": 4596334,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 3,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1419,20 +1245,20 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 270.21999999999997,
+        "appliedStatTotal": 157.96,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[2].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 33.3,
+        "appliedStatTotal": 17.3,
         "id": 3117251,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1440,13 +1266,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 36.9,
+        "appliedStatTotal": 21.0,
         "id": 3043078,
         "keeperValue": 2,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1454,13 +1280,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 37.5,
+        "appliedStatTotal": 28.0,
         "id": 4426354,
         "keeperValue": 5,
         "keeperValueFuture": 3,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1477,13 +1303,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 36.5,
+        "appliedStatTotal": 24.9,
         "id": 4431459,
         "keeperValue": 7,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1491,13 +1317,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 19.3,
+        "appliedStatTotal": 4.800000000000001,
         "id": 4372016,
         "keeperValue": 8,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1524,13 +1350,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.7,
+        "appliedStatTotal": 0.0,
         "id": 3915416,
         "keeperValue": 7,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1570,9 +1396,9 @@
         "id": 4426348,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1589,13 +1415,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.1,
+        "appliedStatTotal": 1.6,
         "id": 4871023,
         "keeperValue": 0,
         "keeperValueFuture": 8,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1612,13 +1438,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.2,
+        "appliedStatTotal": 5.2,
         "id": 3916148,
         "keeperValue": 0,
         "keeperValueFuture": 9,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1654,13 +1480,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 32.0,
+        "appliedStatTotal": 20.3,
         "id": 4701936,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1672,9 +1498,9 @@
         "id": 4431611,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1691,13 +1517,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.5,
+        "appliedStatTotal": 0.0,
         "id": 2976212,
         "keeperValue": 0,
         "keeperValueFuture": 13,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1714,13 +1540,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.0,
+        "appliedStatTotal": 2.0,
         "id": 4574716,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1728,13 +1554,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.5,
+        "appliedStatTotal": 7.0,
         "id": -16017,
         "keeperValue": 0,
         "keeperValueFuture": 15,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1742,13 +1568,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 49.42,
+        "appliedStatTotal": 28.94,
         "id": 3046779,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1756,13 +1582,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.5,
+        "appliedStatTotal": -1.5,
         "id": -16003,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 4,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1770,20 +1596,20 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 264.42,
+        "appliedStatTotal": 85.50000000000001,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[3].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 50.6,
+        "appliedStatTotal": 27.0,
         "id": 4432665,
         "keeperValue": 2,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1804,9 +1630,9 @@
         "id": 4427366,
         "keeperValue": 5,
         "keeperValueFuture": 3,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1823,13 +1649,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.500000000000004,
+        "appliedStatTotal": 17.200000000000003,
         "id": 4567750,
         "keeperValue": 7,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1846,13 +1672,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 30.900000000000002,
+        "appliedStatTotal": 4.2,
         "id": 4239993,
         "keeperValue": 3,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1869,13 +1695,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.4,
+        "appliedStatTotal": 1.1,
         "id": 4035538,
         "keeperValue": 7,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1915,9 +1741,9 @@
         "id": 4360078,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1932,13 +1758,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 21.8,
+        "appliedStatTotal": 5.300000000000001,
         "id": 4047650,
         "keeperValue": 4,
         "keeperValueFuture": 8,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1946,7 +1772,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.0,
+        "appliedStatTotal": 0.0,
         "id": 3139477,
         "keeperValue": 6,
         "keeperValueFuture": 11,
@@ -1960,13 +1786,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.0,
+        "appliedStatTotal": 6.800000000000001,
         "id": 3116365,
         "keeperValue": 6,
         "keeperValueFuture": 12,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2002,13 +1828,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.0,
+        "appliedStatTotal": 1.0,
         "id": -16023,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2016,13 +1842,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.3,
+        "appliedStatTotal": 18.6,
         "id": 4685247,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2070,13 +1896,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 33.9,
+        "appliedStatTotal": 11.2,
         "id": 4242335,
         "keeperValue": 2,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2106,7 +1932,7 @@
         "acquisitionDate": 1791030385012,
         "acquisitionType": "TRADE",
         "injuryStatus": "NORMAL",
-        "lineupSlotId": 23,
+        "lineupSlotId": 4,
         "pendingTransactionIds": null,
         "playerId": 4429615,
         "status": "NORMAL"
@@ -2115,13 +1941,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 40.400000000000006,
+        "appliedStatTotal": 14.600000000000001,
         "id": 4429615,
         "keeperValue": 6,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2129,13 +1955,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.72,
+        "appliedStatTotal": 25.28,
         "id": 2578570,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2166,9 +1992,9 @@
         "id": -16006,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2176,13 +2002,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.800000000000004,
+        "appliedStatTotal": 10.700000000000001,
         "id": 5082424,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2190,20 +2016,20 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 289.42,
+        "appliedStatTotal": 113.9,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[4].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.400000000000006,
+        "appliedStatTotal": 22.8,
         "id": 4430878,
         "keeperValue": 4,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2220,13 +2046,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.700000000000001,
+        "appliedStatTotal": 2.2,
         "id": 4870808,
         "keeperValue": 0,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2243,13 +2069,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 29.3,
+        "appliedStatTotal": 10.7,
         "id": 4890973,
         "keeperValue": 2,
         "keeperValueFuture": 3,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2257,13 +2083,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 29.099999999999998,
+        "appliedStatTotal": 23.4,
         "id": 4569618,
         "keeperValue": 0,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2280,13 +2106,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.880000000000003,
+        "appliedStatTotal": 0.0,
         "id": 3916387,
         "keeperValue": 3,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2322,13 +2148,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 48.7,
+        "appliedStatTotal": 22.3,
         "id": 4430027,
         "keeperValue": 6,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2340,9 +2166,9 @@
         "id": 3121422,
         "keeperValue": 4,
         "keeperValueFuture": 7,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2363,9 +2189,9 @@
         "id": 4038815,
         "keeperValue": 0,
         "keeperValueFuture": 8,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2405,9 +2231,9 @@
         "id": 4362249,
         "keeperValue": 11,
         "keeperValueFuture": 9,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2443,7 +2269,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.9,
+        "appliedStatTotal": 0.0,
         "id": 4241416,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -2465,13 +2291,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 55.0,
+        "appliedStatTotal": 37.9,
         "id": 4361050,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2507,13 +2333,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.0,
+        "appliedStatTotal": 0.0,
         "id": -16014,
         "keeperValue": 0,
         "keeperValueFuture": 12,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2537,7 +2363,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.0,
+        "appliedStatTotal": 0.0,
         "id": 4683062,
         "keeperValue": 5,
         "keeperValueFuture": 13,
@@ -2559,13 +2385,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.0,
+        "appliedStatTotal": 0.7000000000000001,
         "id": 4568490,
         "keeperValue": 7,
         "keeperValueFuture": 14,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2582,13 +2408,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 36.9,
+        "appliedStatTotal": 16.9,
         "id": 4567104,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2596,13 +2422,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 36.32,
+        "appliedStatTotal": 13.72,
         "id": 14880,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 7,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2610,20 +2436,20 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 293.32000000000005,
+        "appliedStatTotal": 152.86,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[5].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 43.5,
+        "appliedStatTotal": 15.8,
         "id": 4430807,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2644,9 +2470,9 @@
         "id": 4047646,
         "keeperValue": 3,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2673,13 +2499,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 41.400000000000006,
+        "appliedStatTotal": 10.600000000000001,
         "id": 4258173,
         "keeperValue": 2,
         "keeperValueFuture": 3,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2696,13 +2522,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 19.6,
+        "appliedStatTotal": 4.9,
         "id": 4723086,
         "keeperValue": 0,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2719,13 +2545,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.700000000000003,
+        "appliedStatTotal": 11.600000000000001,
         "id": 4882093,
         "keeperValue": 0,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2742,13 +2568,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 40.0,
+        "appliedStatTotal": 32.3,
         "id": 4248528,
         "keeperValue": 0,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2756,13 +2582,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 65.62,
+        "appliedStatTotal": 39.46,
         "id": 4431452,
         "keeperValue": 10,
         "keeperValueFuture": 9,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2779,13 +2605,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 19.300000000000004,
+        "appliedStatTotal": 16.200000000000003,
         "id": 4429096,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2793,13 +2619,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.4,
+        "appliedStatTotal": 4.2,
         "id": 4385690,
         "keeperValue": 0,
         "keeperValueFuture": 12,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2816,13 +2642,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.78,
+        "appliedStatTotal": 16.16,
         "id": 4361741,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2830,13 +2656,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.3,
+        "appliedStatTotal": 7.7,
         "id": 4688813,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2853,13 +2679,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.5,
+        "appliedStatTotal": 13.600000000000001,
         "id": 4832800,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2867,13 +2693,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 28.0,
+        "appliedStatTotal": 0.0,
         "id": 4608686,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2890,13 +2716,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 38.7,
+        "appliedStatTotal": 21.3,
         "id": 4571557,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2913,13 +2739,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.5,
+        "appliedStatTotal": 4.0,
         "id": -16030,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2943,13 +2769,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.2,
+        "appliedStatTotal": 0.0,
         "id": 4432708,
         "keeperValue": 4,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 8,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2957,20 +2783,20 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 230.27999999999997,
+        "appliedStatTotal": 81.74,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[6].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.4,
+        "appliedStatTotal": 19.7,
         "id": 4362628,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2978,13 +2804,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.200000000000003,
+        "appliedStatTotal": 4.9,
         "id": 4685382,
         "keeperValue": 3,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3001,13 +2827,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 52.300000000000004,
+        "appliedStatTotal": 29.1,
         "id": 4595348,
         "keeperValue": 0,
         "keeperValueFuture": 3,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3028,9 +2854,9 @@
         "id": 4241478,
         "keeperValue": 8,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3061,9 +2887,9 @@
         "id": 4685512,
         "keeperValue": 0,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3071,13 +2897,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.0,
+        "appliedStatTotal": 4.800000000000001,
         "id": 4432710,
         "keeperValue": 3,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3113,13 +2939,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.6,
+        "appliedStatTotal": 15.4,
         "id": 4241985,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3160,13 +2986,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.5,
+        "appliedStatTotal": 7.6,
         "id": 3929645,
         "keeperValue": 0,
         "keeperValueFuture": 13,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3183,13 +3009,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.0,
+        "appliedStatTotal": 6.6,
         "id": 4569559,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3206,13 +3032,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.78,
+        "appliedStatTotal": -0.16000000000000014,
         "id": 4360689,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3220,13 +3046,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.100000000000001,
+        "appliedStatTotal": 7.1000000000000005,
         "id": 3150744,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3243,13 +3069,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 32.8,
+        "appliedStatTotal": 14.8,
         "id": 4711533,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3257,13 +3083,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 40.2,
+        "appliedStatTotal": 13.2,
         "id": 4887558,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3279,13 +3105,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.0,
+        "appliedStatTotal": 9.5,
         "id": -16004,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3293,13 +3119,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.6,
+        "appliedStatTotal": 3.6,
         "id": 4686612,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 11,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3325,7 +3151,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 222.50000000000003,
+        "appliedStatTotal": 140.09999999999997,
         "tradeReservedEntries": 0
       }
     },
@@ -3336,9 +3162,9 @@
         "id": 4262921,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3346,13 +3172,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.0,
+        "appliedStatTotal": 0.0,
         "id": 3929630,
         "keeperValue": 1,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3373,9 +3199,9 @@
         "id": 4239996,
         "keeperValue": 12,
         "keeperValueFuture": 3,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3383,13 +3209,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 43.5,
+        "appliedStatTotal": 30.5,
         "id": 3918298,
         "keeperValue": 3,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3397,13 +3223,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.700000000000003,
+        "appliedStatTotal": 17.3,
         "id": 4259545,
         "keeperValue": 6,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3430,13 +3256,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 32.4,
+        "appliedStatTotal": 30.4,
         "id": 4432620,
         "keeperValue": 0,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3457,9 +3283,9 @@
         "id": 4710714,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3492,13 +3318,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 28.200000000000003,
+        "appliedStatTotal": 8.600000000000001,
         "id": 4361370,
         "keeperValue": 9,
         "keeperValueFuture": 8,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3515,13 +3341,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 28.9,
+        "appliedStatTotal": 9.9,
         "id": 3040151,
         "keeperValue": 0,
         "keeperValueFuture": 9,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3529,13 +3355,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 33.6,
+        "appliedStatTotal": 14.100000000000001,
         "id": 4572680,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3552,13 +3378,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.7,
+        "appliedStatTotal": 12.5,
         "id": 4429059,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3594,13 +3420,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.0,
+        "appliedStatTotal": 5.1000000000000005,
         "id": 3953687,
         "keeperValue": 12,
         "keeperValueFuture": 12,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3617,13 +3443,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.0,
+        "appliedStatTotal": 5.5,
         "id": -16033,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3631,13 +3457,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 21.200000000000003,
+        "appliedStatTotal": 14.200000000000001,
         "id": 4575131,
         "keeperValue": 0,
         "keeperValueFuture": 15,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3654,13 +3480,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.5,
+        "appliedStatTotal": 18.700000000000003,
         "id": 3042519,
         "keeperValue": 8,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3700,9 +3526,9 @@
         "id": -16013,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3710,20 +3536,20 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 313.12,
+        "appliedStatTotal": 151.51999999999998,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[8].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 55.400000000000006,
+        "appliedStatTotal": 37.7,
         "id": 4429795,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3731,13 +3557,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.1,
+        "appliedStatTotal": 7.0,
         "id": 4362238,
         "keeperValue": 3,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3759,13 +3585,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 29.3,
+        "appliedStatTotal": 22.1,
         "id": 16800,
         "keeperValue": 5,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3777,9 +3603,9 @@
         "id": 4612826,
         "keeperValue": 4,
         "keeperValueFuture": 5,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3787,13 +3613,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 52.400000000000006,
+        "appliedStatTotal": 36.800000000000004,
         "id": 4569987,
         "keeperValue": 10,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3824,9 +3650,9 @@
         "id": 3121023,
         "keeperValue": 13,
         "keeperValueFuture": 8,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3852,13 +3678,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 38.900000000000006,
+        "appliedStatTotal": 26.3,
         "id": 16737,
         "keeperValue": 5,
         "keeperValueFuture": 9,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3875,13 +3701,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.5,
+        "appliedStatTotal": 15.5,
         "id": -16034,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3893,9 +3719,9 @@
         "id": 4697815,
         "keeperValue": 0,
         "keeperValueFuture": 12,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3903,13 +3729,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.12,
+        "appliedStatTotal": 27.32,
         "id": 12483,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3926,7 +3752,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Stafford",
-        "lastNewsDate": 1791148096000,
+        "lastNewsDate": 1791867514000,
         "lastVideoDate": 1790566128000,
         "proTeamId": 14,
         "seasonOutlook": "The reigning NFL MVP, Stafford returns for his 18th NFL season and his fifth with the Rams. The 38-year-old is fresh off an elite season in which he led the NFL in passing yards and touchdowns, which allowed him nine top-10 fantasy weeks (tied for third most at the position). Stafford's third-place finish in fantasy points per game was his first top-10 finish since 2019, and some regression is likely due to a complete lack of rushing (65 or fewer rushing yards in five straight seasons and one rushing touchdown since 2017). Stafford still has receivers Puka Nacua and Davante Adams and a strong offensive line at his disposal, so another big passing season is possible. That's just enough to keep him in the fringe QB1 mix.",
@@ -3936,13 +3762,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 21.62,
+        "appliedStatTotal": 8.3,
         "id": 3912547,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3959,13 +3785,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 33.6,
+        "appliedStatTotal": 2.2,
         "id": 4036133,
         "keeperValue": 6,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3982,13 +3808,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.8,
+        "appliedStatTotal": 9.1,
         "id": 4686361,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3996,13 +3822,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.3,
+        "appliedStatTotal": 1.6,
         "id": 4241474,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4010,20 +3836,20 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 360.52000000000004,
+        "appliedStatTotal": 199.8,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[9].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 39.7,
+        "appliedStatTotal": 26.1,
         "id": 4361307,
         "keeperValue": 2,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4031,13 +3857,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 33.400000000000006,
+        "appliedStatTotal": 18.8,
         "id": 4426502,
         "keeperValue": 2,
         "keeperValueFuture": 3,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4045,13 +3871,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 37.6,
+        "appliedStatTotal": 31.5,
         "id": 4596448,
         "keeperValue": 3,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4068,13 +3894,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.4,
+        "appliedStatTotal": 5.0,
         "id": 4431299,
         "keeperValue": 9,
         "keeperValueFuture": 6,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4082,13 +3908,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 48.32,
+        "appliedStatTotal": 24.6,
         "id": 3915511,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4096,13 +3922,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.9,
+        "appliedStatTotal": 17.5,
         "id": 4569173,
         "keeperValue": 12,
         "keeperValueFuture": 8,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4123,9 +3949,9 @@
         "id": 4047365,
         "keeperValue": 2,
         "keeperValueFuture": 9,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4158,13 +3984,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.0,
+        "appliedStatTotal": 6.4,
         "id": 4242355,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4172,13 +3998,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.0,
+        "appliedStatTotal": 11.5,
         "id": -16026,
         "keeperValue": 0,
         "keeperValueFuture": 12,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4186,13 +4012,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.5,
+        "appliedStatTotal": 2.5,
         "id": 3126486,
         "keeperValue": 8,
         "keeperValueFuture": 13,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4200,13 +4026,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.3,
+        "appliedStatTotal": 17.9,
         "id": 2971573,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4214,13 +4040,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.400000000000002,
+        "appliedStatTotal": 2.6,
         "id": 3054850,
         "keeperValue": 4,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4267,13 +4093,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 45.5,
+        "appliedStatTotal": 14.2,
         "id": 4361579,
         "keeperValue": 11,
         "keeperValueFuture": 10,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4293,13 +4119,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 60.8,
+        "appliedStatTotal": 37.7,
         "id": 4426515,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4316,13 +4142,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.4,
+        "appliedStatTotal": 7.9,
         "id": 3116164,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 14,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4338,8 +4164,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4350,9 +4177,9 @@
         "id": 2576336,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4366,9 +4193,9 @@
         "id": 4429160,
         "keeperValue": 2,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4390,9 +4217,9 @@
         "id": 16800,
         "keeperValue": 5,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 13,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4405,9 +4232,9 @@
         "id": 4429205,
         "keeperValue": 10,
         "keeperValueFuture": 10,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 1,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4429,9 +4256,9 @@
         "id": 4383440,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4448,8 +4275,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4463,8 +4291,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4478,8 +4307,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4490,9 +4320,9 @@
         "id": 4360438,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4509,8 +4339,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4524,8 +4355,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4539,8 +4371,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4551,9 +4384,9 @@
         "id": 4690013,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4567,9 +4400,9 @@
         "id": 2998565,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4583,9 +4416,9 @@
         "id": 4427834,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4599,9 +4432,9 @@
         "id": 4714771,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4615,9 +4448,9 @@
         "id": 4685247,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4661,8 +4494,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4676,8 +4510,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4688,9 +4523,9 @@
         "id": 4426553,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4704,9 +4539,9 @@
         "id": 3918298,
         "keeperValue": 3,
         "keeperValueFuture": 4,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4719,9 +4554,9 @@
         "id": 4685246,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4735,9 +4570,9 @@
         "id": 15818,
         "keeperValue": 12,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4751,9 +4586,9 @@
         "id": 3115293,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4767,9 +4602,9 @@
         "id": 4911851,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4801,9 +4636,9 @@
         "id": 4373626,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4826,9 +4661,9 @@
         "id": 3116365,
         "keeperValue": 6,
         "keeperValueFuture": 12,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 5,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4869,9 +4704,9 @@
         "id": 4683308,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4885,9 +4720,9 @@
         "id": 4678006,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4901,9 +4736,9 @@
         "id": 4360797,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4917,9 +4752,9 @@
         "id": 3953687,
         "keeperValue": 12,
         "keeperValueFuture": 12,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4941,9 +4776,9 @@
         "id": 4243389,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -4960,8 +4795,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -4978,9 +4814,9 @@
         "id": 4883647,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -5006,8 +4842,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -5018,9 +4855,9 @@
         "id": 3919510,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -5037,8 +4874,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -5049,9 +4887,9 @@
         "id": 4362748,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -5065,9 +4903,9 @@
         "id": 4434153,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -5092,8 +4930,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -5107,8 +4946,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -5119,9 +4959,9 @@
         "id": 3929630,
         "keeperValue": 1,
         "keeperValueFuture": 2,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 12,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5143,9 +4983,9 @@
         "id": 4576297,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -5159,9 +4999,9 @@
         "id": 4708049,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -5175,9 +5015,9 @@
         "id": 3917232,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -5200,9 +5040,9 @@
         "id": 4360939,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -5247,8 +5087,9 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1791961200000
       }
     },
     {
@@ -5259,9 +5100,9 @@
         "id": 4689936,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
@@ -5275,9 +5116,9 @@
         "id": 4048228,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": true,
+        "lineupLocked": false,
         "onTeamId": 0,
-        "rosterLocked": true,
+        "rosterLocked": false,
         "status": "WAIVERS",
         "tradeLocked": false,
         "waiverProcessDate": 1791961200000
