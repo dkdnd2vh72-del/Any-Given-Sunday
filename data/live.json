@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 130.54,
+        "projection": 132.78,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -31,13 +31,13 @@
     },
     {
       "away": {
-        "projection": 125.34,
+        "projection": 139.46,
         "score": 0.0,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
-        "projection": 108.87,
+        "projection": 120.23,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 17,
+      "acquisitions": 19,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -375,6 +375,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4360238",
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "proTeam": "PHI",
+          "projection": 4.97,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4426388",
           "name": "Jameson Williams",
           "position": "WR",
@@ -391,6 +402,28 @@
           "position": "RB",
           "proTeam": "LAC",
           "projection": 7.66,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "5083315",
+          "name": "Kenyon Sadiq",
+          "position": "TE",
+          "proTeam": "NYJ",
+          "projection": 7.79,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4429023",
+          "name": "MarShawn Lloyd",
+          "position": "RB",
+          "proTeam": "GB",
+          "projection": 10.85,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -625,7 +658,7 @@
       ]
     },
     {
-      "acquisitions": 9,
+      "acquisitions": 11,
       "actual": 0.0,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
@@ -774,10 +807,32 @@
         },
         {
           "actual": 0.0,
+          "id": "4685261",
+          "name": "Germie Bernard",
+          "position": "WR",
+          "proTeam": "PIT",
+          "projection": 10.55,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4239993",
           "name": "Tee Higgins",
           "position": "WR",
           "proTeam": "CIN",
+          "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4426385",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "proTeam": "SEA",
           "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
@@ -797,7 +852,7 @@
       ]
     },
     {
-      "acquisitions": 3,
+      "acquisitions": 4,
       "actual": 0.0,
       "htmlId": "gettn-saucy",
       "id": 7,
@@ -924,6 +979,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4249087",
+          "name": "Matt Gay",
+          "position": "K",
+          "proTeam": "LV",
+          "projection": 11.03,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4568490",
           "name": "RJ Harvey",
           "position": "RB",
@@ -980,13 +1046,13 @@
       ]
     },
     {
-      "acquisitions": 12,
+      "acquisitions": 13,
       "actual": 0.0,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 3,
-      "projection": 130.54,
+      "projection": 132.78,
       "record": {
         "losses": 3,
         "pointsAgainst": 680.3399999999999,
@@ -1052,11 +1118,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4723086",
-          "name": "Colston Loveland",
+          "id": "4361411",
+          "name": "Pat Freiermuth",
           "position": "TE",
-          "proTeam": "CHI",
-          "projection": 10.11,
+          "proTeam": "PIT",
+          "projection": 12.35,
           "slot": "TE",
           "slotId": 6,
           "tradeInterest": null
@@ -1118,6 +1184,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4723086",
+          "name": "Colston Loveland",
+          "position": "TE",
+          "proTeam": "CHI",
+          "projection": 10.11,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4385690",
           "name": "Dalton Kincaid",
           "position": "TE",
@@ -1134,17 +1211,6 @@
           "position": "QB",
           "proTeam": "NE",
           "projection": 20.24,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4688813",
-          "name": "Josh Downs",
-          "position": "WR",
-          "proTeam": "IND",
-          "projection": 9.73,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1174,13 +1240,13 @@
       ]
     },
     {
-      "acquisitions": 13,
+      "acquisitions": 15,
       "actual": 0.0,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 108.87,
+      "projection": 120.23,
       "record": {
         "losses": 7,
         "pointsAgainst": 604.9399999999999,
@@ -1191,11 +1257,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "4360689",
-          "name": "Tyler Shough",
+          "id": "4036378",
+          "name": "Jordan Love",
           "position": "QB",
-          "proTeam": "NO",
-          "projection": 16.82,
+          "proTeam": "GB",
+          "projection": 20.87,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -1268,11 +1334,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16004",
-          "name": "Bengals D/ST",
+          "id": "-16012",
+          "name": "Chiefs D/ST",
           "position": "D/ST",
-          "proTeam": "CIN",
-          "projection": 0.0,
+          "proTeam": "KC",
+          "projection": 7.31,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1339,6 +1405,17 @@
           "position": "RB",
           "proTeam": "NE",
           "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4360689",
+          "name": "Tyler Shough",
+          "position": "QB",
+          "proTeam": "NO",
+          "projection": 16.82,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1540,7 +1617,7 @@
       ]
     },
     {
-      "acquisitions": 7,
+      "acquisitions": 8,
       "actual": 0.0,
       "htmlId": "pollard-express",
       "id": 13,
@@ -1656,6 +1733,17 @@
         },
         {
           "actual": 0.0,
+          "id": "-16025",
+          "name": "49ers D/ST",
+          "position": "D/ST",
+          "proTeam": "SF",
+          "projection": 5.2,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4362238",
           "name": "Chase Brown",
           "position": "RB",
@@ -1700,17 +1788,6 @@
         },
         {
           "actual": 0.0,
-          "id": "3912547",
-          "name": "Sam Darnold",
-          "position": "QB",
-          "proTeam": "SEA",
-          "projection": 13.62,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4036133",
           "name": "T.J. Hockenson",
           "position": "TE",
@@ -1723,13 +1800,13 @@
       ]
     },
     {
-      "acquisitions": 6,
+      "acquisitions": 7,
       "actual": 0.0,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 4,
-      "projection": 125.34,
+      "projection": 139.46,
       "record": {
         "losses": 5,
         "pointsAgainst": 694.74,
@@ -1740,11 +1817,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "3915511",
-          "name": "Joe Burrow",
+          "id": "4432577",
+          "name": "C.J. Stroud",
           "position": "QB",
-          "proTeam": "CIN",
-          "projection": 0.0,
+          "proTeam": "HOU",
+          "projection": 14.12,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -1872,10 +1949,10 @@
         },
         {
           "actual": 0.0,
-          "id": "4047365",
-          "name": "Josh Jacobs",
-          "position": "RB",
-          "proTeam": "GB",
+          "id": "3915511",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "proTeam": "CIN",
           "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
@@ -1883,10 +1960,10 @@
         },
         {
           "actual": 0.0,
-          "id": "3116164",
-          "name": "Mike Gesicki",
-          "position": "TE",
-          "proTeam": "CIN",
+          "id": "4047365",
+          "name": "Josh Jacobs",
+          "position": "RB",
+          "proTeam": "GB",
           "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
