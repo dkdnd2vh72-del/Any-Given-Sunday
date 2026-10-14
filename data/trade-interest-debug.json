@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[10]",
+      "path": "$.mTransactions2.transactions[11]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[0]",
+      "path": "$.mTransactions2.transactions[11].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[1]",
+      "path": "$.mTransactions2.transactions[11].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[2]",
+      "path": "$.mTransactions2.transactions[11].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[3]",
+      "path": "$.mTransactions2.transactions[11].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -72,7 +72,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[4]",
+      "path": "$.mTransactions2.transactions[11].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -85,7 +85,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[5]",
+      "path": "$.mTransactions2.transactions[11].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[6]",
+      "path": "$.mTransactions2.transactions[11].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42]",
+      "path": "$.mTransactions2.transactions[45]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42].items[0]",
+      "path": "$.mTransactions2.transactions[45].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42].items[1]",
+      "path": "$.mTransactions2.transactions[45].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -156,7 +156,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42].items[2]",
+      "path": "$.mTransactions2.transactions[45].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -762,7 +762,7 @@
         "acquisitions": 11,
         "drops": 10,
         "misc": 0,
-        "moveToActive": 53,
+        "moveToActive": 55,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -801,7 +801,7 @@
         "acquisitions": 4,
         "drops": 3,
         "misc": 0,
-        "moveToActive": 7,
+        "moveToActive": 8,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1911,7 +1911,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Waddle",
         "lastNewsDate": 1791767249000,
-        "lastVideoDate": 1791156138000,
+        "lastVideoDate": 1791996496000,
         "proTeamId": 7,
         "seasonOutlook": "Waddle was traded to Denver after spending his first five seasons in Miami. The 2021 first-round pick was solid during his Dolphins tenure, finishing in the top 30 among receivers in fantasy PPG four times, though never reaching the top 10 while often playing second fiddle to Tyreek Hill. Although he has been a reliable target and has missed only seven games in five years, Waddle hasn't finished a season higher than 20th in targets or catches since 2021. In Denver, the 27-year-old Waddle will compete with Courtland Sutton for the team lead in targets in a scheme that likes to spread the ball around. Not utilized near the goal line much at 5-foot-10 and 180 pounds (he's yet to clear seven end zone targets in a season), Waddle is likely to max out as a back-end WR2 in Denver.",
         "universeId": 1
@@ -2032,7 +2032,7 @@
         "fullName": "Tony Pollard",
         "id": 3916148,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Pollard",
         "lastNewsDate": 1791761098000,
         "lastVideoDate": 1791135353000,
@@ -2172,7 +2172,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 88.50000000000001,
+        "appliedStatTotal": 85.7,
         "tradeReservedEntries": 0
       }
     },
@@ -2608,7 +2608,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 113.9,
+        "appliedStatTotal": 102.6,
         "tradeReservedEntries": 0
       }
     },
@@ -2724,7 +2724,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
-        "lastNewsDate": 1791832423000,
+        "lastNewsDate": 1791985216000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
