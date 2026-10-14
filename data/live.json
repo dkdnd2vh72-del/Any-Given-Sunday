@@ -9,7 +9,7 @@
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 117.76,
+        "projection": 119.27,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 20,
+      "acquisitions": 19,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1290,11 +1290,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4241478",
-          "name": "DeVonta Smith",
+          "id": "4695883",
+          "name": "Jalen Coker",
           "position": "WR",
-          "proTeam": "PHI",
-          "projection": 14.62,
+          "proTeam": "CAR",
+          "projection": 13.91,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1323,11 +1323,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4695883",
-          "name": "Jalen Coker",
+          "id": "4241478",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "proTeam": "CAR",
-          "projection": 13.91,
+          "proTeam": "PHI",
+          "projection": 14.62,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1617,13 +1617,13 @@
       ]
     },
     {
-      "acquisitions": 8,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 2,
-      "projection": 117.76,
+      "projection": 119.27,
       "record": {
         "losses": 3,
         "pointsAgainst": 635.92,
@@ -1645,22 +1645,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4241474",
-          "name": "Brian Robinson Jr.",
+          "id": "4569987",
+          "name": "Jaylen Warren",
           "position": "RB",
-          "proTeam": "ATL",
-          "projection": 7.56,
+          "proTeam": "PIT",
+          "projection": 14.91,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4569987",
-          "name": "Jaylen Warren",
+          "id": "4599739",
+          "name": "Kendre Miller",
           "position": "RB",
-          "proTeam": "PIT",
-          "projection": 14.91,
+          "proTeam": "NO",
+          "projection": 9.07,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1744,6 +1744,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4241474",
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "proTeam": "ATL",
+          "projection": 7.56,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4362238",
           "name": "Chase Brown",
           "position": "RB",
@@ -1771,17 +1782,6 @@
           "position": "WR",
           "proTeam": "LAC",
           "projection": 10.15,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4697815",
-          "name": "Rachaad White",
-          "position": "RB",
-          "proTeam": "WSH",
-          "projection": 7.41,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null

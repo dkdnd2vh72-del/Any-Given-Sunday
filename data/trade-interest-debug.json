@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[11]",
+      "path": "$.mTransactions2.transactions[12]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[11].items[0]",
+      "path": "$.mTransactions2.transactions[12].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[11].items[1]",
+      "path": "$.mTransactions2.transactions[12].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[11].items[2]",
+      "path": "$.mTransactions2.transactions[12].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[11].items[3]",
+      "path": "$.mTransactions2.transactions[12].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -72,7 +72,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[11].items[4]",
+      "path": "$.mTransactions2.transactions[12].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -85,7 +85,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[11].items[5]",
+      "path": "$.mTransactions2.transactions[12].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[11].items[6]",
+      "path": "$.mTransactions2.transactions[12].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[45]",
+      "path": "$.mTransactions2.transactions[48]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[45].items[0]",
+      "path": "$.mTransactions2.transactions[48].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[45].items[1]",
+      "path": "$.mTransactions2.transactions[48].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -156,7 +156,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[45].items[2]",
+      "path": "$.mTransactions2.transactions[48].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -1066,10 +1066,10 @@
       "path": "$.mTeam.teams[8].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 42,
-        "acquisitions": 8,
-        "drops": 8,
+        "acquisitions": 9,
+        "drops": 9,
         "misc": 0,
-        "moveToActive": 15,
+        "moveToActive": 16,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -2032,9 +2032,9 @@
         "fullName": "Tony Pollard",
         "id": 3916148,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Pollard",
-        "lastNewsDate": 1791761098000,
+        "lastNewsDate": 1791997584000,
         "lastVideoDate": 1791135353000,
         "proTeamId": 10,
         "seasonOutlook": "Pollard has handled a hefty 67.2% of the Titans' designed rushing attempts since his arrival two seasons ago (15.2 per game) and, even with solid efficiency, he has finished 22nd and 30th in fantasy points per game. The culprits? Tennessee's struggling offense (Pollard has exactly five TDs in both seasons) and a limited receiving role when Tyjae Spears has been healthy (Pollard's targets fell from 3.5 per game in 2024 to 2.5 per game in 2025). Barring a major leap from quarterback Cam Ward, Pollard is unlikely to deliver only the second top-20 fantasy campaign (in points per game) of his career. The 29-year-old, entering his eighth NFL season (third with Tennessee), is a low-ceiling flex.",
@@ -2297,7 +2297,7 @@
         "injured": false,
         "injuryStatus": "DOUBTFUL",
         "lastName": "Montgomery",
-        "lastNewsDate": 1791822795000,
+        "lastNewsDate": 1792001074000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -2724,7 +2724,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
-        "lastNewsDate": 1791985216000,
+        "lastNewsDate": 1791999075000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -2805,7 +2805,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Dowdle",
-        "lastNewsDate": 1791835664000,
+        "lastNewsDate": 1792008676000,
         "lastVideoDate": 1789052073000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
@@ -2872,7 +2872,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Likely",
         "lastNewsDate": 1791761442000,
-        "lastVideoDate": 1791755476000,
+        "lastVideoDate": 1791997241000,
         "proTeamId": 19,
         "seasonOutlook": "Likely signed with the Giants after four years of backing up Mark Andrews in Baltimore. Likely is reuniting with coach John Harbaugh and is finally expected to play a consistent offensive role. During his time in Baltimore, Likely was limited to 50% of the team's offensive snaps and never finished a season better than 20th among tight ends in snaps, routes, targets, catches, yards or fantasy PPG. His only extensive stretch with Andrews sidelined came back in 2023. During the seven-game span, Likely posted a 23-356-6 receiving line on a 16% target share and averaged a solid 13.5 fantasy PPG. The 26-year-old is obviously unproven, but his receiving skills in New York's ascending offense are enough to put him on the TE2 radar.",
         "universeId": 2
@@ -3074,7 +3074,7 @@
         "injured": true,
         "injuryStatus": "INJURY_RESERVE",
         "lastName": "Brown",
-        "lastNewsDate": 1791819641000,
+        "lastNewsDate": 1791997948000,
         "lastVideoDate": 1790865542000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3468,7 +3468,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1791835151000,
+        "lastNewsDate": 1792004094000,
         "lastVideoDate": 1789942112000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3515,7 +3515,7 @@
         "injured": false,
         "injuryStatus": "DOUBTFUL",
         "lastName": "Henderson",
-        "lastNewsDate": 1791901584000,
+        "lastNewsDate": 1792003405000,
         "lastVideoDate": 1791904465000,
         "proTeamId": 17,
         "seasonOutlook": "Henderson enters Year 2 after a roller-coaster rookie campaign in which he delivered three huge fantasy performances (28-plus points in all three) but otherwise played second fiddle to Rhamondre Stevenson (8.3 points per game in his other 14 games). Though his role was limited, Henderson was effective, averaging 5.1 yards per carry (eighth best) and catching 83% of his targets while scoring 10 touchdowns. The 2025 second-round pick is a candidate for a similar role in 2026, but it's unlikely that Stevenson will completely disappear after he also had a strong 2025. Henderson is safest as a bench option, but there's upside for a lot more if the 23-year-old is promoted to a lead role.",
@@ -3570,9 +3570,9 @@
         "fullName": "Jalen Coker",
         "id": 4695883,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Coker",
-        "lastNewsDate": 1791915666000,
+        "lastNewsDate": 1792008660000,
         "lastVideoDate": 1790107378000,
         "proTeamId": 29,
         "seasonOutlook": "After missing nearly the entire first half of 2025, Coker passed Xavier Legette and took on a larger offensive role opposite Tetairoa McMillan. From Week 8 onward (11 games, including the playoffs), Coker played 73% of the snaps and handled a 17.8% target share. The fantasy output was inconsistent (below 11.5 points in seven games), but he peaked down the stretch (more than 14 points in four of his final six, including a 9-134-1 showing against the Rams in the playoffs). Coker's strong finish is encouraging, though his rookie season went similarly (14-plus points three times, but under 11 in the other nine games). A healthy 2026 could get Coker to the next level, but flex production is his likely ceiling as long as McMillan is commanding one-quarter (if not more) of the targets in Carolina's Bryce Young-led offense.",
@@ -4033,7 +4033,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Marks",
         "lastNewsDate": 1791905457000,
-        "lastVideoDate": 1791904684000,
+        "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
         "universeId": 1
@@ -4156,7 +4156,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 151.51999999999998,
+        "appliedStatTotal": 158.92,
         "tradeReservedEntries": 0
       }
     },
@@ -4346,20 +4346,6 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.0,
-        "id": 4697815,
-        "keeperValue": 0,
-        "keeperValueFuture": 12,
-        "lineupLocked": false,
-        "onTeamId": 13,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 27.32,
         "id": 12483,
         "keeperValue": 0,
@@ -4372,7 +4358,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry.player",
+      "path": "$.mRoster.teams[8].roster.entries[9].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 1,
@@ -4391,7 +4377,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 2.2,
         "id": 4036133,
@@ -4405,7 +4391,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "T.J. Hockenson will look to build off a solid Week 1 performance as the Vikings travel to Chicago in Week 2. Hockenson was second in targets against the Packers behind Justin Jefferson, reeling in four of five targets for 36 yards and a touchdown. The veteran tight end was a go-to outlet for veteran Carson Wentz, and he could continue to be one no matter who lines up under center moving forward. He'll take on a Bears defense that allowed a middle-of-the-pack 11.5 PPR points to Carolina tight ends in a high-scoring season opener.",
         "3": "T.J. Hockenson will look to stay involved as the Vikings travel to Tampa Bay in Week 3. Hockenson saw his volume go down a bit in Week 2 against the Bears, reeling in just three catches for 29 yards. The starting tight end looks like he'll be a touchdown-dependent fantasy option. With that being said, Kyler Murray is slated to start Sunday, and he's been known to rely on his tight ends in the past. The Bucs have allowed 22.1 PPR points per game to TEs so far this season, 31st in the lerague.",
@@ -4414,7 +4400,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.1,
         "id": 4686361,
@@ -4428,7 +4414,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 1.6,
         "id": 4241474,
@@ -4442,7 +4428,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 21.0,
         "id": -16025,
@@ -4453,6 +4439,29 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 9.0,
+        "id": 4599739,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 13,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Kendre Miller could operate as the Saints' No. 2 running back if Alvin Kamara (knee) remains sidelined for the Week 2 matchup against the Ravens. Miller was surprisingly involved in New Orleans' Week 1 gameplan, tying Travis Etienne for the most carries on the team while finding the end zone. Despite averaging only 3.3 yards per carry, Miller could have a similar role if Kamara remains out for Week 2. It's also a favorable matchup for running backs, as the Ravens defense allowed 5.2 yards per carry and two rushing touchdowns in Week 1.",
+        "4": "Kendre Miller is expected to split carries with Alvin Kamara in the Saints' Week 4 matchup  against the Falcons, with Travis Etienne (hamstring) out. Miller tallied 19 yards on six touches during the Week 3 loss, playing behind both Alvin Kamara and Etienne. As Etienne deals with an ongoing hamstring injury, Miller is likely to split work on the ground with Kamara in the Week 4 contest, operating as one of the Saints' leading rushers. Despite this, Miller is in for a tough matchup against a Falcons defense that's allowed just 3.1 yards per carry this season.",
+        "5": "Kendre Miller is likely to remain one of the Saints' top rushers while Travis Etienne (hamstring) is out during the Week 5 matchup against the Vikings. Miller received the second-most carries (six) on New Orleans in the Week 4 loss to the Falcons but was largely ineffective, averaging just 1.5 yards per carry. Even if Miller continues splitting work with Alvin Kamara, he likely won't have much fantasy value, as the Saints' offense is averaging a whopping 45 pass attempts per game. Additionally, Miller is in for a difficult Week 5 matchup against a Vikings defense that's allowed just 307 rushing yards all season.",
+        "6": "Kendre Miller is expected to remain a large part of the Saints' rushing attack in the Week 6 matchup against the Giants. Miller operated as New Orleans' top running back in the Week 5 loss to the Vikings, receiving more carries (six) and targets (three) while playing more snaps (13) than Alvin Kamara (three carries and two targets on 12 snaps). While Travis Etienne (hamstring) remains sidelined, Miller appears to have assumed the role as the Saints' top rusher. He could thrive in Week 6 against a Giants defense that's given up 21.3 fantasy points per game to opposing RBs this season."
       }
     },
     {
