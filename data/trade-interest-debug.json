@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[48]",
+      "path": "$.mTransactions2.transactions[50]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[48].items[0]",
+      "path": "$.mTransactions2.transactions[50].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[48].items[1]",
+      "path": "$.mTransactions2.transactions[50].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -156,7 +156,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[48].items[2]",
+      "path": "$.mTransactions2.transactions[50].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -569,10 +569,10 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 69,
-        "acquisitions": 19,
-        "drops": 19,
+        "acquisitions": 20,
+        "drops": 20,
         "misc": 0,
-        "moveToActive": 29,
+        "moveToActive": 30,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -608,10 +608,10 @@
       "path": "$.mTeam.teams[2].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 4,
-        "drops": 3,
+        "acquisitions": 5,
+        "drops": 4,
         "misc": 0,
-        "moveToActive": 12,
+        "moveToActive": 13,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1466,7 +1466,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 40.88,
+        "appliedStatTotal": 54.18000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -1790,8 +1790,8 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.3,
-        "id": 5083315,
+        "appliedStatTotal": 13.3,
+        "id": 4697745,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -1802,19 +1802,9 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Kenyon Sadiq could have an emerging role for the Jets in Week 2 against the Packers. Sadiq notched four touches in his NFL debut, including a three-yard rushing score, out-gaining starter Mason Taylor handsomely in a run-heavy game for the Jets. They'll likely need to throw more to keep up with Green Bay's offense in Week 2, and the Packers allowed a touchdown to a tight end last week. The floor is volatile, but Sadiq offers high ceiling potential for those in need at tight end.",
-        "3": "Kenyon Sadiq could be poised for a major breakout for the Jets in Week 3 if Mason Taylor (thumb) is unable to play against the Lions. Sadiq has played just 42% and 38% of the offensive snaps through two games, easing into the rotation after recovering from hernia surgery prior to the year. The Jets' offense isn't prolific, but the matchup with a porous Lions' defense could change that. Detroit has allowed two touchdown catches to opposing tight ends in each of the first two weeks and 187 total yards, the second-highest total across the league.",
-        "4": "Kenyon Sadiq could struggle to build on a breakout performance in Week 4 when the Jets face the Bears. After recording just six targets in his first two games, Sadiq shined in Week 3, catching seven of eight targets for 105 yards and a touchdown, despite playing just 56% of the offensive snaps in Mason Taylor's absence. The Bears have not allowed an opposing tight end to top 30 yards this season, with teams finding more success targeting their corners, so a repeat performance may be challenging.",
-        "5": "Kenyon Sadiq faces an unsettled role in the Jets' limited passing game ahead of a Week 5 matchup with the Browns. After a Week 3 breakthrough performance, Sadiq failed to record a catch on four targets in Week 4 and now has 21 or fewer yards in three of his first four games. The Browns haven't allowed an opposing tight end to top 51 yards while surrendering just 6.7 yards per target, not boding well for Sadiq in Week 5. A potential Mason Taylor return would further dampen Sadiq's potential.",
-        "6": "Kenyon Sadiq will need to clear the league's concussion protocol to help the Jets against the Patriots in Week 6. After a breakout Week 3 performance, Sadiq has just two catches for three yards (seven targets) over the last two games. New England struggled against Brock Bowers in Week 5 but had previously not allowed more than 32 yards or a touchdown to opposing tight ends. With Geno Smith not throwing a plethora of passes, Sadiq has minimal fantasy allure. Mason Taylor would elevate if Sadiq sits."
-      }
-    },
-    {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 157.96,
+        "appliedStatTotal": 155.96,
         "tradeReservedEntries": 0
       }
     },
@@ -2034,7 +2024,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Pollard",
-        "lastNewsDate": 1791997584000,
+        "lastNewsDate": 1792010276000,
         "lastVideoDate": 1791135353000,
         "proTeamId": 10,
         "seasonOutlook": "Pollard has handled a hefty 67.2% of the Titans' designed rushing attempts since his arrival two seasons ago (15.2 per game) and, even with solid efficiency, he has finished 22nd and 30th in fantasy points per game. The culprits? Tennessee's struggling offense (Pollard has exactly five TDs in both seasons) and a limited receiving role when Tyjae Spears has been healthy (Pollard's targets fell from 3.5 per game in 2024 to 2.5 per game in 2025). Barring a major leap from quarterback Cam Ward, Pollard is unlikely to deliver only the second top-20 fantasy campaign (in points per game) of his career. The 29-year-old, entering his eighth NFL season (third with Tennessee), is a low-ceiling flex.",
@@ -2116,20 +2106,6 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.0,
-        "id": 4574716,
-        "keeperValue": 0,
-        "keeperValueFuture": 14,
-        "lineupLocked": false,
-        "onTeamId": 4,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[2].roster.entries[13].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 7.0,
         "id": -16017,
         "keeperValue": 0,
@@ -2142,7 +2118,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[2].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 28.94,
         "id": 3046779,
@@ -2156,7 +2132,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": -1.5,
         "id": -16003,
@@ -2167,6 +2143,29 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 3055899,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 4,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Harrison Butker was perfect in Kansas City's season-opening win over the Broncos, connecting on all four of his extra points and converting his only field-goal attempt from 28 yards. The offense looked more potent with a healthy Patrick Mahomes under center, Kenneth Walker as the new bell-cow back, and a returning Eric Bieniemy as offensive coordinator, and Butker should see his opportunities rise if that trend holds. He could be busy in Week 2 against a Colts team that just got routed by the Ravens and was tied for 20th in points per game allowed in 2025.",
+        "3": "Harrison Butker missed a 51-yard field-goal attempt in the second quarter of Week 2, but he made up for it by converting the rest of his opportunities, including a 40-yard FG that gave Kansas City the overtime win over the Colts. The veteran kicker has been busy in the early going with six FG attempts and seven PATs, and a resurgent offense led by a healthy Patrick Mahomes and new bell-cow back Kenneth Walker should continue to supply Butker with volume. He'll face a Dolphins team in Week 3 that's giving up 31.0 points a game in the early going.",
+        "4": "Harrison Butker missed a field goal for a second straight game in Kansas City's Week 3 win over the Dolphins. A resurgent offense under a healthy Patrick Mahomes has given the veteran kicker a solid floor in terms of PATs, and he's a perfect 10-for-10 to begin the year with at least three in each contest. Butker's two FG misses have also been from 50-plus yards, and he's a perfect 8-for-8 from shorter distances. He may not be able to squander any chances in Week 4 against a Raiders team that's allowed 18.0 points a game, seventh in the league.",
+        "6": "Harrison Butker has been more floor than ceiling to begin the season. The Kansas City kicker has kicked at least three extra points in all four games, but he's logged more than one field goal only once, going 7-for-9 over that span with both his misses coming from 50-plus yards. With Patrick Mahomes and Kenneth Walker having the offense operating at a very high level, Butker's mix of opportunities isn't likely to change much. He could be busy in Week 6 against a Chargers team allowing 25.8 points per game, tied for 22nd in the league."
       }
     },
     {
@@ -2724,7 +2723,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
-        "lastNewsDate": 1791999075000,
+        "lastNewsDate": 1792015286000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -3074,7 +3073,7 @@
         "injured": true,
         "injuryStatus": "INJURY_RESERVE",
         "lastName": "Brown",
-        "lastNewsDate": 1791997948000,
+        "lastNewsDate": 1792011644000,
         "lastVideoDate": 1790865542000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3468,7 +3467,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1792004094000,
+        "lastNewsDate": 1792016856000,
         "lastVideoDate": 1789942112000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3513,9 +3512,9 @@
         "fullName": "TreVeyon Henderson",
         "id": 4432710,
         "injured": false,
-        "injuryStatus": "DOUBTFUL",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Henderson",
-        "lastNewsDate": 1792003405000,
+        "lastNewsDate": 1792012071000,
         "lastVideoDate": 1791904465000,
         "proTeamId": 17,
         "seasonOutlook": "Henderson enters Year 2 after a roller-coaster rookie campaign in which he delivered three huge fantasy performances (28-plus points in all three) but otherwise played second fiddle to Rhamondre Stevenson (8.3 points per game in his other 14 games). Though his role was limited, Henderson was effective, averaging 5.1 yards per carry (eighth best) and catching 83% of his targets while scoring 10 touchdowns. The 2025 second-round pick is a candidate for a similar role in 2026, but it's unlikely that Stevenson will completely disappear after he also had a strong 2025. Henderson is safest as a bench option, but there's upside for a lot more if the 23-year-old is promoted to a lead role.",
@@ -4724,9 +4723,9 @@
         "fullName": "Alvin Kamara",
         "id": 3054850,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Kamara",
-        "lastNewsDate": 1791757064000,
+        "lastNewsDate": 1792014099000,
         "proTeamId": 18,
         "seasonOutlook": "Kamara is entering his age-31 season set to play a change-of-pace role behind Travis Etienne and is unlikely to be a fantasy option. Over the past seven seasons, only two backs age 31 or older have posted a top-30 fantasy campaign, and both required 16-plus touchdowns. (Kamara hasn't cleared nine TDs since 2020 and scored once in 2025). Injuries limited Kamara to career-low marks across the board last season (including a 10% target share, considerably worse than his previous career low of 18%), and he hasn't played a full season since his rookie year (2017). A longtime fantasy star, Kamara is worth no more than a late flier.",
         "universeId": 2
@@ -5711,10 +5710,10 @@
         "fullName": "Rashod Bateman",
         "id": 4360939,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1791935013000,
+        "lastNewsDate": 1792016566000,
         "lastVideoDate": 1790001549000,
         "proTeamId": 33,
         "seasonOutlook": "Bateman is entering his sixth season in Baltimore following an injury-plagued 2025 campaign in which he was limited to a career-low 224 receiving yards in 13 games. After scoring nine touchdowns on only 45 receptions in 2024, Bateman had \"regression\" written all over him entering last season, but it was worse than expected. The 2021 first-round pick saw his target share fall from 15.4% to a career-low 11.4% and his only double-digit fantasy effort came in Week 3. The 26-year-old remains second on Baltimore's depth chart behind Zay Flowers, but even in a new scheme and with a healthy Lamar Jackson under center, he's unlikely to produce his first top-35 fantasy campaign. Bateman isn't the most appealing late-round draft pick."
