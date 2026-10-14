@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[10]",
+      "path": "$.mTransactions2.transactions[12]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[0]",
+      "path": "$.mTransactions2.transactions[12].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[1]",
+      "path": "$.mTransactions2.transactions[12].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[2]",
+      "path": "$.mTransactions2.transactions[12].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[3]",
+      "path": "$.mTransactions2.transactions[12].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -72,7 +72,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[4]",
+      "path": "$.mTransactions2.transactions[12].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -85,7 +85,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[5]",
+      "path": "$.mTransactions2.transactions[12].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[6]",
+      "path": "$.mTransactions2.transactions[12].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[24]",
+      "path": "$.mTransactions2.transactions[27]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[24].items[0]",
+      "path": "$.mTransactions2.transactions[27].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[24].items[1]",
+      "path": "$.mTransactions2.transactions[27].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -156,7 +156,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[24].items[2]",
+      "path": "$.mTransactions2.transactions[27].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -840,7 +840,7 @@
         "acquisitions": 12,
         "drops": 11,
         "misc": 0,
-        "moveToActive": 34,
+        "moveToActive": 35,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1028,9 +1028,9 @@
       "values": {
         "acquisitionBudgetSpent": 1,
         "acquisitions": 5,
-        "drops": 4,
+        "drops": 5,
         "misc": 0,
-        "moveToActive": 10,
+        "moveToActive": 11,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -2878,7 +2878,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 129.56,
+        "appliedStatTotal": 130.26,
         "tradeReservedEntries": 0
       }
     },
@@ -3606,7 +3606,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 140.09999999999997,
+        "appliedStatTotal": 133.89999999999998,
         "tradeReservedEntries": 0
       }
     },
@@ -3989,20 +3989,6 @@
         "3": "Aaron Jones should continue to have a high-usage role as the Vikings travel to Tampa Bay in Week 3. Jones saw a big workload in Week 2 with Jordan Mason (thumb) on IR, rushing the ball 23 times for 105 yards. The veteran running back should continue to have a huge role in the coming weeks, while questions remain with the passing game under returning quarterback Kyler Murray. Jones will face a Buccaneers defense that's allowed a middle-of-the-pack 19.5 PPR points per game to RBs.",
         "4": "Aaron Jones should remain a high-volume option as the Vikings play Miami in Week 3. Jones saw a big workload in Week 3 once again with Jordan Mason (thumb) on IR, rushing the ball 17 times for 58 yards and recording five catches for 34 yards. The veteran running back's high share in the backfield doesn't look to be changing with Mason out another week, even with DeeJay Dallas and Demond Claiborne fighting for touches. Jones will face a Miami defense that's allowed the most fantasy points per game (32.9) to running backs so far this season.",
         "5": "Aaron Jones will remain a high-usage option as the Vikings travel to New Orleans in Week 5. Jones saw a big workload in Week 4 once again with Jordan Mason (thumb) on IR, rushing the ball 20 times for 94 yards and recording four catches for 34 yards. The veteran running back's high share in the backfield shouldn't change with Mason out another week, even with DeeJay Dallas and Demond Claiborne fighting for touches. Jones will face a Saints defense that's ranked middle-of-the-pack versus fantasy RBs this campaign."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": -5.5,
-        "id": -16013,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 12,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
       }
     },
     {
