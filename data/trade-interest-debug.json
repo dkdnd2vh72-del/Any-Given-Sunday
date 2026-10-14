@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[12]",
+      "path": "$.mTransactions2.transactions[24]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[12].items[0]",
+      "path": "$.mTransactions2.transactions[24].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[12].items[1]",
+      "path": "$.mTransactions2.transactions[24].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -156,7 +156,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[12].items[2]",
+      "path": "$.mTransactions2.transactions[24].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -570,7 +570,7 @@
       "values": {
         "acquisitionBudgetSpent": 43,
         "acquisitions": 16,
-        "drops": 17,
+        "drops": 19,
         "misc": 0,
         "moveToActive": 29,
         "moveToIR": 1,
@@ -1466,7 +1466,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 62.980000000000004,
+        "appliedStatTotal": 40.88,
         "tradeReservedEntries": 0
       }
     },
@@ -1629,20 +1629,6 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.5,
-        "id": -16007,
-        "keeperValue": 12,
-        "keeperValueFuture": 11,
-        "lineupLocked": false,
-        "onTeamId": 3,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 2.6,
         "id": 4361432,
         "keeperValue": 0,
@@ -1655,7 +1641,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry.player",
+      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -1674,7 +1660,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Romeo Doubs will seek a larger role in the Patriots' passing game in Week 2 against the Steelers. Doubs failed to record a catch on three targets in his team debut, playing only 56% of the snaps despite New England losing A.J. Brown to a high-ankle sprain. With Brown set to miss significant time, Doubs should garner more opportunities, but it looks as though he's still developing chemistry with Drake Maye. Questions remain regarding the Steelers' secondary, which is likely to remain without Joey Porter Jr. They weren't tested last week, but counting on a breakthrough from Doubs is risky.",
         "3": "Romeo Doubs will look to build on Week 2's uptick in workload in the Patriots offense when they face the Jaguars in Week 3. After not catching a pass in his Week 1 debut, Doubs snagged three of four targets for a team-high 96 yards in Week 2. New England's passing game is sputtering, and despite A.J. Brown missing the last game and a half, Doubs has not logged heavy volume. Jacksonville's secondary was just beaten for 138 yards by Jaylen Waddle, but otherwise, has held up with only one touchdown to opposing wideouts. Until his opportunities increase, Doubs presents a risky profile.",
@@ -1684,7 +1670,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4685720,
@@ -1698,21 +1684,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 6.6,
-        "id": 4360234,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 3,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.5,
         "id": -16016,
@@ -1726,7 +1698,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 5.9,
         "id": 4596334,
@@ -1740,7 +1712,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player",
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -1759,7 +1731,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Keaton Mitchell couldn't capitalize on his preseason buzz in the Chargers' season-opening loss to the Cardinals. He got only four carries, turning them into a mere nine yards, and failed to see a target. The former Raven is the clear backup to Omarion Hampton in the backfield, but Mitchell may need much more favorable game scripts to get meaningful volume. He'll try to contribute in Week 2 against a Raiders defense that ranked 21st last season in points per game allowed to RBs.",
         "3": "Keaton Mitchell has taken a clear backseat to Omarion Hampton in the Chargers' backfield to begin the season, getting 10 touches to his teammate's 37 through two games. Mitchell has yet to do much to earn a larger role, averaging just 3.7 yards per carry, although he does have a 15-yard gain on his only catch. Hampton has lost a fumble in each game so far in 2026, and these ball security issues could open the door for Mitchell to get more involved. If he does see more volume in Week 3, Mitchell could hit paydirt against a Bills defense that's allowed four touchdowns to RBs so far, two on the ground and two through the air.",
@@ -5625,7 +5597,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1791490162000,
+        "lastNewsDate": 1791935013000,
         "lastVideoDate": 1790001549000,
         "proTeamId": 33,
         "seasonOutlook": "Bateman is entering his sixth season in Baltimore following an injury-plagued 2025 campaign in which he was limited to a career-low 224 receiving yards in 13 games. After scoring nine touchdowns on only 45 receptions in 2024, Bateman had \"regression\" written all over him entering last season, but it was worse than expected. The 2021 first-round pick saw his target share fall from 15.4% to a career-low 11.4% and his only double-digit fantasy effort came in Week 3. The 26-year-old remains second on Baltimore's depth chart behind Zay Flowers, but even in a new scheme and with a healthy Lamar Jackson under center, he's unlikely to produce his first top-35 fantasy campaign. Bateman isn't the most appealing late-round draft pick."
