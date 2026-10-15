@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53]",
+      "path": "$.mTransactions2.transactions[56]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[0]",
+      "path": "$.mTransactions2.transactions[56].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[1]",
+      "path": "$.mTransactions2.transactions[56].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -156,7 +156,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[2]",
+      "path": "$.mTransactions2.transactions[56].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -530,10 +530,10 @@
       "path": "$.mTeam.teams[0].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 2,
-        "drops": 1,
+        "acquisitions": 3,
+        "drops": 2,
         "misc": 0,
-        "moveToActive": 5,
+        "moveToActive": 6,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1118,7 +1118,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 100.94000000000001,
+        "appliedStatTotal": 86.34,
         "tradeReservedEntries": 0
       }
     },
@@ -1409,20 +1409,6 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.7,
-        "id": 4429086,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 1,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 5.7,
         "id": 3916433,
         "keeperValue": 9,
@@ -1435,7 +1421,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -1454,13 +1440,37 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Jakobi Meyers maintains a high floor, though he's a low-ceiling fantasy WR3 or flex play for Jacksonville's Week 2 home game against Denver's elite defense. Meyers has posted at least 39 receiving yards in all 10 of his games with the Jaguars since coming over in a midseason trade last year, including 40 receiving yards and a TD in the Week 1 win over Cleveland. Parker Washington and Brian Thomas have more downfield playmaking capability, but Meyers should see his share of short targets with Trevor Lawrence likely looking to get the ball out quickly to counter a Broncos pass rush that led the league with 68 sacks last season.",
         "3": "Jakobi Meyers has been targeted just three times through Jacksonville's first two games. That lack of volume makes him hard to trust as anything more than a deep-league dart throw in Week 3 against a Patriots defense that held the Seahawks and Steelers to a combined 16 points. Parker Washington (18 targets), Brian Thomas (11 targets), and even TE Brenton Strange (five targets) have all been higher on Trevor Lawrence's priority list than Meyers. To the veteran wide receiver's credit, Meyers's 28-yard effort on one target in the Week 2 loss to Denver marked the first time in 11 games as a member of the Jaguars that he failed to record at least 39 receiving yards. Therefore, he could rebuild a solid fantasy floor if Lawrence starts looking Meyers's way more frequently.",
         "4": "Jakobi Meyers led the Jaguars with seven catches for 64 yards and a touchdown on eight targets in Week 3 against the Patriots after catching all three of his targets for 68 yards and a TD across Jacksonville's first two games. The veteran wideout has been playing alongside Parker Washington in two-WR sets and working ahead of Brian Thomas, as Meyers' 79% snap share this season is nearly double Thomas' mark. Washington is the clear No. 1 receiving option for the Jaguars, but Meyers is shaping up as the team's next-most reliable pass catcher, which is enough to be deployed as a WR3 or flex option in Week 4 against the Bengals, who didn't allow a touchdown pass through Week 2 before giving up TDs to three separate Steelers wideouts in Week 3.",
         "5": "Jakobi Meyers has been efficient with his opportunities for the Jaguars, catching 13 of 15 targets for 165 yards and two touchdowns heading into a Week 5 trip to London to face the Eagles. His usage has fluctuated in a Jacksonville passing game with many mouths to feed, but Meyers is a viable flex option for Week 5, especially in deeper leagues. The Eagles are giving up 164 yards and one receiving touchdown per game to WRs, and they could be without top CB Quinyon Mitchell (knee) in Week 5, which would make things easier for some combination of Meyers, Parker Washington, Brian Thomas, and Josh Cameron.",
         "6": "Jakobi Meyers is averaging 40 yards per game and has scored twice through five outings heading into Jacksonville's Week 6 matchup with the Texans in London. Houston has struggled to cover wide receivers, having allowed 193 yards per game and six TDs to the position through five games. Meyers is a distant second on the WR depth chart behind Parker Washington, but the plus matchup makes Meyers a viable flex option."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 17.3,
+        "id": 4430539,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 1,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Brenton Strange was one of four Jaguars to catch a touchdown pass from Trevor Lawrence in the season-opening win over the Browns, and the starting tight end should remain involved in the Week 2 game plan against the Broncos. The Broncos excelled at defending wide receivers last season but gave up the ninth-most receiving yards to TEs. Strange is a decent fantasy option in multi-TE formats or those with a tight end premium. However, with many mouths to feed in Jacksonville's passing game, Strange is tough to trust as a starter in standard single-TE leagues. Strange has exceeded 61 receiving yards just once since the start of last season while scoring four TDs in 13 appearances over that span.",
+        "3": "Brenton Strange was a non-factor during the Jaguars' Week 2 loss at Denver, but that was the case for every member of Jacksonville's passing game except for Parker Washington, who accounted for more than half of Trevor Lawrence's 189 passing yards. It won't be easy for Strange to bounce back in Week 3 against the Patriots, who are allowing just 8.0 points per game and have limited TEs to seven catches for 52 yards this season. There are likely better Week 3 options.",
+        "4": "Brenton Strange remains a complementary piece in Jacksonville's passing game heading into a Week 4 road game against the Bengals. He's locked in atop the Jaguars' TE depth chart, but Strange has just seven catches for 72 yards and a TD on 10 targets in three games-numbers elite options at his position often reach in one game. The Bengals have allowed 23 catches (third-most) and 299 yards (second-most) to TEs, so Strange has more fantasy appeal than usual in Week 4 and is a viable option in multi-TE or TE-premium formats. Even the favorable matchup isn't enough to propel him into the starting range in most one-TE leagues.",
+        "5": "Brenton Strange became the latest TE to take advantage of a Bengals defense that has allowed the most yards in the league to the position. He compiled 95 receiving yards in Week 4 against Cincinnati to lead the Jaguars. Strange had recorded just 72 yards over the preceding three games combined, and he's likely to return to a reduced role in Week 5 against an Eagles defense that's holding TEs to 39 yards per game and has yet to allow a TD to the position. While Strange can be worth streaming in the right matchups, Week 5 isn't one of those.",
+        "6": "Brenton Strange became the latest TE to take advantage of a Bengals defense that has allowed the most yards in the league to the position. He compiled 95 receiving yards in Week 4 against Cincinnati to lead the Jaguars. Strange had recorded just 72 yards over the preceding three games combined, and he's likely to return to a reduced role in Week 5 against an Eagles defense that's holding TEs to 39 yards per game and has yet to allow a TD to the position. While Strange can be worth streaming in the right matchups, Week 5 isn't one of them."
       }
     },
     {
@@ -2723,7 +2733,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
-        "lastNewsDate": 1792015286000,
+        "lastNewsDate": 1792085076000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -3073,7 +3083,7 @@
         "injured": true,
         "injuryStatus": "INJURY_RESERVE",
         "lastName": "Brown",
-        "lastNewsDate": 1792011644000,
+        "lastNewsDate": 1792086220000,
         "lastVideoDate": 1790865542000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3467,7 +3477,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1792016856000,
+        "lastNewsDate": 1792088457000,
         "lastVideoDate": 1789942112000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3514,7 +3524,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Henderson",
-        "lastNewsDate": 1792012071000,
+        "lastNewsDate": 1792087447000,
         "lastVideoDate": 1791904465000,
         "proTeamId": 17,
         "seasonOutlook": "Henderson enters Year 2 after a roller-coaster rookie campaign in which he delivered three huge fantasy performances (28-plus points in all three) but otherwise played second fiddle to Rhamondre Stevenson (8.3 points per game in his other 14 games). Though his role was limited, Henderson was effective, averaging 5.1 yards per carry (eighth best) and catching 83% of his targets while scoring 10 touchdowns. The 2025 second-round pick is a candidate for a similar role in 2026, but it's unlikely that Stevenson will completely disappear after he also had a strong 2025. Henderson is safest as a bench option, but there's upside for a lot more if the 23-year-old is promoted to a lead role.",
@@ -4620,7 +4630,7 @@
         "injured": false,
         "injuryStatus": "DAY_TO_DAY",
         "lastName": "Jacobs",
-        "lastNewsDate": 1789312159000,
+        "lastNewsDate": 1792088113000,
         "lastVideoDate": 1788878698000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
