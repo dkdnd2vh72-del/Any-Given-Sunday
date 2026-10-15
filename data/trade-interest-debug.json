@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[51]",
+      "path": "$.mTransactions2.transactions[52]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[51].items[0]",
+      "path": "$.mTransactions2.transactions[52].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[51].items[1]",
+      "path": "$.mTransactions2.transactions[52].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -156,7 +156,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[51].items[2]",
+      "path": "$.mTransactions2.transactions[52].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -505,7 +505,7 @@
       "path": "$.mTeam.teams[0]",
       "values": {
         "abbrev": "KATZ",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 7,
         "eliminated": false,
@@ -544,7 +544,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 10,
+        "currentProjectedRank": 9,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -568,11 +568,11 @@
     {
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 69,
-        "acquisitions": 20,
-        "drops": 20,
+        "acquisitionBudgetSpent": 72,
+        "acquisitions": 21,
+        "drops": 21,
         "misc": 0,
-        "moveToActive": 30,
+        "moveToActive": 31,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -583,7 +583,7 @@
       "path": "$.mTeam.teams[2]",
       "values": {
         "abbrev": "BURK",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 6,
         "eliminated": false,
@@ -622,7 +622,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -851,7 +851,7 @@
       "path": "$.mTeam.teams[6]",
       "values": {
         "abbrev": "RENZ",
-        "currentProjectedRank": 9,
+        "currentProjectedRank": 10,
         "divisionId": 1,
         "draftDayProjectedRank": 10,
         "eliminated": false,
@@ -1002,7 +1002,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -1466,7 +1466,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 54.18000000000001,
+        "appliedStatTotal": 69.68,
         "tradeReservedEntries": 0
       }
     },
@@ -1776,8 +1776,8 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.2,
-        "id": 4360238,
+        "appliedStatTotal": 13.3,
+        "id": 4697745,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -1790,9 +1790,9 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.3,
-        "id": 4697745,
-        "keeperValue": 0,
+        "appliedStatTotal": 15.5,
+        "id": -16007,
+        "keeperValue": 12,
         "keeperValueFuture": 0,
         "lineupLocked": false,
         "onTeamId": 3,

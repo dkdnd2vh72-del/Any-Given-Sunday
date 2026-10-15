@@ -17,7 +17,7 @@
     },
     {
       "away": {
-        "projection": 124.91,
+        "projection": 130.73,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -276,7 +276,7 @@
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 8,
-      "projection": 124.91,
+      "projection": 130.73,
       "record": {
         "losses": 6,
         "pointsAgainst": 698.9,
@@ -364,6 +364,17 @@
         },
         {
           "actual": 0.0,
+          "id": "-16007",
+          "name": "Broncos D/ST",
+          "position": "D/ST",
+          "proTeam": "DEN",
+          "projection": 5.82,
+          "slot": "D/ST",
+          "slotId": 16,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4697745",
           "name": "Tyler Loop",
           "position": "K",
@@ -380,17 +391,6 @@
           "position": "QB",
           "proTeam": "DAL",
           "projection": 17.12,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4360238",
-          "name": "Dameon Pierce",
-          "position": "RB",
-          "proTeam": "PHI",
-          "projection": 4.97,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
