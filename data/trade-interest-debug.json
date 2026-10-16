@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50]",
+      "path": "$.mTransactions2.transactions[51]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[0]",
+      "path": "$.mTransactions2.transactions[51].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -144,7 +144,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[1]",
+      "path": "$.mTransactions2.transactions[51].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -157,7 +157,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[2]",
+      "path": "$.mTransactions2.transactions[51].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -170,7 +170,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[3]",
+      "path": "$.mTransactions2.transactions[51].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -183,7 +183,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[4]",
+      "path": "$.mTransactions2.transactions[51].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -196,7 +196,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[5]",
+      "path": "$.mTransactions2.transactions[51].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -209,7 +209,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[6]",
+      "path": "$.mTransactions2.transactions[51].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -222,7 +222,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[73]",
+      "path": "$.mTransactions2.transactions[74]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -241,7 +241,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[73].items[0]",
+      "path": "$.mTransactions2.transactions[74].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -254,7 +254,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[73].items[1]",
+      "path": "$.mTransactions2.transactions[74].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -267,7 +267,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[73].items[2]",
+      "path": "$.mTransactions2.transactions[74].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -280,7 +280,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[79]",
+      "path": "$.mTransactions2.transactions[80]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -816,7 +816,7 @@
       "path": "$.mTeam.teams[7].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 1,
-        "acquisitions": 5,
+        "acquisitions": 6,
         "drops": 5,
         "misc": 0,
         "moveToActive": 11,
@@ -1750,7 +1750,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
-        "lastNewsDate": 1792183620000,
+        "lastNewsDate": 1792185557000,
         "lastVideoDate": 1789344254000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -3970,6 +3970,30 @@
       }
     },
     {
+      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 3.6,
+        "id": 4373626,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 12,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Tyler Allgeier heads into a Week 2 clash against Seattle with a big role in Arizona's backfield. Allgeier logged 17 carries for 61 yards in a season-opening win against the Chargers, getting more totes and producing more yards than rookie Jeremiyah Love. It remains to be seen if that will hold true throughout the campaign, but for the time being Allgeier seems set to be heavily involved in the Cardinals' ground game. With that said, both Allgeier and Love could find the sledding tough in Week 2 versus a Seahawks defense that yielded the third-fewest rushing yards per game during the regular season last year.",
+        "3": "Tyler Allgeier will seek to improve his efficiency on the ground during Arizona's Week 3 visit to San Francisco. Allgeier gained just 10 yards on five carries Sunday in a loss against Seattle, and he's averaging a meager 3.2 YPC through two contests. He paced the Cardinals with 17 carries in the team's season opener, but  Jeremiyah Love jumped ahead with him with nine carries Week 2 and could continue to settle in as the club's clear No. 1 RB moving forward. The 49ers have yielded 4.04 YPC to running backs so far, but that's led to just one rushing TD.",
+        "4": "Tyler Allgeier seems to have fallen well behind Jeremiyah Love for ball-carrying opportunities heading into Arizona's Week 4 matchup with the Giants. Love carried the ball 21 times against San Francisco this past Sunday, while Allgeier handled a season-low two totes. The latter did reel in a season-best four catches, but they amounted to just 10 receiving yards. Though the Giants are struggling against the run, ranking in the bottom half of the league in allowing 18.5 fantasy points per game to RBs, Allgeier will likely need to see more opportunities in order to make an impact.",
+        "5": "Tyler Allgeier may be lined up for a big role for Arizona in Week 5 against the Lions. Rookie Jeremiyah Love is dealing with an ankle injury, and if he can't suit up Sunday, Allgeier will likely lead the team's backfield. Even with Love healthy for nearly the entire game in Week 4, Allgeier posted good production, recording an 8-42-1 rushing line and two catches for seven yards. The Cardinals' RB group could find success against a Lions defense that is giving up 4.64 yards per carry to running backs, eighth-worst in the league.",
+        "6": "Tyler Allgeier's role in Arizona's backfield seems to be fading ahead of a Week 6 matchup against the Rams. Allgeier logged just three carries for seven yards this past Sunday against Detroit while adding nine yards on two catches. The veteran running back has logged three or fewer totes two of the past three weeks and seems to be far behind rookie Jeremiyah Love, who got 12 carries versus the Lions, in the pecking order. With that said, he could get some opportunities as a pass catcher against the Rams, who have given up the fourth-most receiving yards per game (42.6) to running backs through five weeks."
+      }
+    },
+    {
       "path": "$.mRoster.teams[8].roster",
       "values": {
         "appliedStatTotal": 153.11999999999998,
@@ -5118,9 +5142,9 @@
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 0,
+        "onTeamId": 12,
         "rosterLocked": false,
-        "status": "FREEAGENT",
+        "status": "ONTEAM",
         "tradeLocked": false
       }
     },
