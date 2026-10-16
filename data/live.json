@@ -9,7 +9,7 @@
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 104.38,
+        "projection": 114.78,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -17,8 +17,8 @@
     },
     {
       "away": {
-        "projection": 131.71,
-        "score": 0.0,
+        "projection": 131.64,
+        "score": 11.5,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       },
@@ -32,13 +32,13 @@
     {
       "away": {
         "projection": 139.07,
-        "score": 0.0,
+        "score": 4.0,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
-        "projection": 105.84,
-        "score": 0.0,
+        "projection": 117.02,
+        "score": 11.4,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       }
@@ -46,7 +46,7 @@
     {
       "away": {
         "projection": 110.66,
-        "score": 0.0,
+        "score": 5.5,
         "teamId": 1,
         "teamName": "Big Blue"
       },
@@ -60,7 +60,7 @@
     {
       "away": {
         "projection": 134.56,
-        "score": 0.0,
+        "score": 3.1,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       },
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 3,
-      "actual": 0.0,
+      "actual": 5.5,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -169,7 +169,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 5.5,
           "id": "2473037",
           "name": "Jason Myers",
           "position": "K",
@@ -271,12 +271,12 @@
     },
     {
       "acquisitions": 23,
-      "actual": 0.0,
+      "actual": 11.5,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 8,
-      "projection": 131.71,
+      "projection": 131.64,
       "record": {
         "losses": 6,
         "pointsAgainst": 698.9,
@@ -363,12 +363,12 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
-          "id": "-16029",
-          "name": "Panthers D/ST",
+          "actual": 11.5,
+          "id": "-16007",
+          "name": "Broncos D/ST",
           "position": "D/ST",
-          "proTeam": "CAR",
-          "projection": 5.89,
+          "proTeam": "DEN",
+          "projection": 5.82,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -623,7 +623,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 3.5,
           "id": "4372016",
           "name": "Jaylen Waddle",
           "position": "WR",
@@ -853,7 +853,7 @@
     },
     {
       "acquisitions": 4,
-      "actual": 0.0,
+      "actual": 3.1,
       "htmlId": "gettn-saucy",
       "id": 7,
       "name": "Gett'n Saucy",
@@ -912,7 +912,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 3.1,
           "id": "4430878",
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
@@ -978,7 +978,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 13.1,
           "id": "4568490",
           "name": "RJ Harvey",
           "position": "RB",
@@ -1241,12 +1241,12 @@
     },
     {
       "acquisitions": 15,
-      "actual": 0.0,
+      "actual": 11.4,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 105.84,
+      "projection": 117.02,
       "record": {
         "losses": 7,
         "pointsAgainst": 604.9399999999999,
@@ -1267,7 +1267,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 1.9,
           "id": "4887558",
           "name": "Emanuel Wilson",
           "position": "RB",
@@ -1278,7 +1278,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 9.5,
           "id": "4241985",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -1323,11 +1323,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4241478",
-          "name": "DeVonta Smith",
+          "id": "4569559",
+          "name": "Devaughn Vele",
           "position": "WR",
-          "proTeam": "PHI",
-          "projection": 0.0,
+          "proTeam": "NO",
+          "projection": 11.18,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1356,11 +1356,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4569559",
-          "name": "Devaughn Vele",
+          "id": "4241478",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "proTeam": "NO",
-          "projection": 11.18,
+          "proTeam": "PHI",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1623,7 +1623,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 2,
-      "projection": 104.38,
+      "projection": 114.78,
       "record": {
         "losses": 3,
         "pointsAgainst": 635.92,
@@ -1700,11 +1700,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4428331",
-          "name": "Rashee Rice",
+          "id": "4612826",
+          "name": "Ladd McConkey",
           "position": "WR",
-          "proTeam": "KC",
-          "projection": 0.0,
+          "proTeam": "LAC",
+          "projection": 10.4,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1777,11 +1777,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4612826",
-          "name": "Ladd McConkey",
+          "id": "4428331",
+          "name": "Rashee Rice",
           "position": "WR",
-          "proTeam": "LAC",
-          "projection": 10.4,
+          "proTeam": "KC",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1801,7 +1801,7 @@
     },
     {
       "acquisitions": 7,
-      "actual": 0.0,
+      "actual": 4.0,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
@@ -1893,7 +1893,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 4.0,
           "id": "-16026",
           "name": "Seahawks D/ST",
           "position": "D/ST",

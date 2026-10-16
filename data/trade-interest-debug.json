@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[13]",
+      "path": "$.mTransactions2.transactions[15]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[0]",
+      "path": "$.mTransactions2.transactions[15].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[1]",
+      "path": "$.mTransactions2.transactions[15].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[2]",
+      "path": "$.mTransactions2.transactions[15].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[3]",
+      "path": "$.mTransactions2.transactions[15].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -72,7 +72,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[4]",
+      "path": "$.mTransactions2.transactions[15].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -85,7 +85,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[5]",
+      "path": "$.mTransactions2.transactions[15].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[6]",
+      "path": "$.mTransactions2.transactions[15].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38]",
+      "path": "$.mTransactions2.transactions[41]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[0]",
+      "path": "$.mTransactions2.transactions[41].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -144,7 +144,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[1]",
+      "path": "$.mTransactions2.transactions[41].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -157,7 +157,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[2]",
+      "path": "$.mTransactions2.transactions[41].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -170,7 +170,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[3]",
+      "path": "$.mTransactions2.transactions[41].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -183,7 +183,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[4]",
+      "path": "$.mTransactions2.transactions[41].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -196,7 +196,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[5]",
+      "path": "$.mTransactions2.transactions[41].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -209,7 +209,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[6]",
+      "path": "$.mTransactions2.transactions[41].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -222,7 +222,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[58]",
+      "path": "$.mTransactions2.transactions[61]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -241,7 +241,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[58].items[0]",
+      "path": "$.mTransactions2.transactions[61].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -254,7 +254,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[58].items[1]",
+      "path": "$.mTransactions2.transactions[61].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -267,7 +267,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[58].items[2]",
+      "path": "$.mTransactions2.transactions[61].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -280,7 +280,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[63]",
+      "path": "$.mTransactions2.transactions[66]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -582,10 +582,10 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 72,
-        "acquisitions": 22,
-        "drops": 22,
+        "acquisitions": 23,
+        "drops": 23,
         "misc": 0,
-        "moveToActive": 32,
+        "moveToActive": 33,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -780,7 +780,7 @@
         "acquisitions": 15,
         "drops": 14,
         "misc": 0,
-        "moveToActive": 26,
+        "moveToActive": 27,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -858,7 +858,7 @@
         "acquisitions": 9,
         "drops": 9,
         "misc": 0,
-        "moveToActive": 16,
+        "moveToActive": 17,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -907,7 +907,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 86.34,
+        "appliedStatTotal": 91.84,
         "tradeReservedEntries": 0
       }
     },
@@ -1136,13 +1136,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.0,
+        "appliedStatTotal": 30.5,
         "id": 2473037,
         "keeperValue": 0,
         "keeperValueFuture": 13,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1265,7 +1265,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 54.18000000000001,
+        "appliedStatTotal": 81.18,
         "tradeReservedEntries": 0
       }
     },
@@ -1589,13 +1589,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": -16029,
-        "keeperValue": 0,
+        "appliedStatTotal": 27.0,
+        "id": -16007,
+        "keeperValue": 12,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1676,13 +1676,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.800000000000001,
+        "appliedStatTotal": 8.3,
         "id": 4372016,
         "keeperValue": 8,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1732,7 +1732,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
-        "lastNewsDate": 1792101040000,
+        "lastNewsDate": 1792109277000,
         "lastVideoDate": 1789344254000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -2396,9 +2396,9 @@
         "id": 4426385,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2406,20 +2406,20 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 102.6,
+        "appliedStatTotal": 105.69999999999999,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[4].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.8,
+        "appliedStatTotal": 25.900000000000002,
         "id": 4430878,
         "keeperValue": 4,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2742,13 +2742,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.7000000000000001,
+        "appliedStatTotal": 13.799999999999999,
         "id": 4568490,
         "keeperValue": 7,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3174,7 +3174,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 97.68,
+        "appliedStatTotal": 115.67999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -3280,9 +3280,9 @@
         "id": 4685512,
         "keeperValue": 0,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3333,13 +3333,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.4,
+        "appliedStatTotal": 24.9,
         "id": 4241985,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3499,13 +3499,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.2,
+        "appliedStatTotal": 15.1,
         "id": 4887558,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4265,7 +4265,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 196.14,
+        "appliedStatTotal": 200.14,
         "tradeReservedEntries": 0
       }
     },
@@ -4459,13 +4459,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.5,
+        "appliedStatTotal": 15.5,
         "id": -16026,
         "keeperValue": 0,
         "keeperValueFuture": 12,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4726,11 +4726,12 @@
         "id": 4383440,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1792566000000
       }
     },
     {
@@ -5182,11 +5183,12 @@
         "id": 4678006,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1792566000000
       }
     },
     {
@@ -5343,11 +5345,12 @@
         "id": 4362748,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1792566000000
       }
     },
     {
@@ -5437,11 +5440,12 @@
         "id": 4576297,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1792566000000
       }
     },
     {
