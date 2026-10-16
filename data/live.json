@@ -18,7 +18,7 @@
     {
       "away": {
         "projection": 131.64,
-        "score": 11.5,
+        "score": 12.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       },
@@ -32,21 +32,21 @@
     {
       "away": {
         "projection": 139.07,
-        "score": 4.0,
+        "score": 6.0,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
         "projection": 117.02,
-        "score": 11.4,
+        "score": 18.8,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       }
     },
     {
       "away": {
-        "projection": 110.66,
-        "score": 5.5,
+        "projection": 121.09,
+        "score": 7.9,
         "teamId": 1,
         "teamName": "Big Blue"
       },
@@ -60,7 +60,7 @@
     {
       "away": {
         "projection": 134.56,
-        "score": 3.1,
+        "score": 25.4,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       },
@@ -76,13 +76,13 @@
   "season": 2026,
   "teams": [
     {
-      "acquisitions": 3,
-      "actual": 5.5,
+      "acquisitions": 4,
+      "actual": 7.9,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 7,
-      "projection": 110.66,
+      "projection": 121.09,
       "record": {
         "losses": 6,
         "pointsAgainst": 640.7,
@@ -137,6 +137,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4428850",
+          "name": "Dontayvion Wicks",
+          "position": "WR",
+          "proTeam": "PHI",
+          "projection": 10.43,
+          "slot": "WR",
+          "slotId": 4,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "15847",
           "name": "Travis Kelce",
           "position": "TE",
@@ -169,7 +180,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 5.5,
+          "actual": 7.9,
           "id": "2473037",
           "name": "Jason Myers",
           "position": "K",
@@ -247,17 +258,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4569587",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "proTeam": "TEN",
-          "projection": 9.37,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4035687",
           "name": "Michael Pittman Jr.",
           "position": "WR",
@@ -270,8 +270,8 @@
       ]
     },
     {
-      "acquisitions": 24,
-      "actual": 11.5,
+      "acquisitions": 23,
+      "actual": 12.0,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -363,7 +363,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 11.5,
+          "actual": 12.0,
           "id": "-16007",
           "name": "Broncos D/ST",
           "position": "D/ST",
@@ -623,7 +623,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 3.5,
+          "actual": 6.4,
           "id": "4372016",
           "name": "Jaylen Waddle",
           "position": "WR",
@@ -853,7 +853,7 @@
     },
     {
       "acquisitions": 4,
-      "actual": 3.1,
+      "actual": 25.4,
       "htmlId": "gettn-saucy",
       "id": 7,
       "name": "Gett'n Saucy",
@@ -912,7 +912,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 3.1,
+          "actual": 25.4,
           "id": "4430878",
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
@@ -978,7 +978,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 13.1,
+          "actual": 14.6,
           "id": "4568490",
           "name": "RJ Harvey",
           "position": "RB",
@@ -1241,7 +1241,7 @@
     },
     {
       "acquisitions": 15,
-      "actual": 11.4,
+      "actual": 18.8,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
@@ -1267,7 +1267,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 1.9,
+          "actual": 5.2,
           "id": "4887558",
           "name": "Emanuel Wilson",
           "position": "RB",
@@ -1278,7 +1278,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 9.5,
+          "actual": 13.6,
           "id": "4241985",
           "name": "J.K. Dobbins",
           "position": "RB",
@@ -1801,7 +1801,7 @@
     },
     {
       "acquisitions": 7,
-      "actual": 4.0,
+      "actual": 6.0,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
@@ -1893,7 +1893,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 4.0,
+          "actual": 6.0,
           "id": "-16026",
           "name": "Seahawks D/ST",
           "position": "D/ST",

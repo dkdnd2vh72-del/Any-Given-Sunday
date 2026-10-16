@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[15]",
+      "path": "$.mTransactions2.transactions[16]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[15].items[0]",
+      "path": "$.mTransactions2.transactions[16].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[15].items[1]",
+      "path": "$.mTransactions2.transactions[16].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[15].items[2]",
+      "path": "$.mTransactions2.transactions[16].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[15].items[3]",
+      "path": "$.mTransactions2.transactions[16].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -72,7 +72,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[15].items[4]",
+      "path": "$.mTransactions2.transactions[16].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -85,7 +85,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[15].items[5]",
+      "path": "$.mTransactions2.transactions[16].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[15].items[6]",
+      "path": "$.mTransactions2.transactions[16].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41]",
+      "path": "$.mTransactions2.transactions[47]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -131,7 +131,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[0]",
+      "path": "$.mTransactions2.transactions[47].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -144,7 +144,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[1]",
+      "path": "$.mTransactions2.transactions[47].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -157,7 +157,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[2]",
+      "path": "$.mTransactions2.transactions[47].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -170,7 +170,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[3]",
+      "path": "$.mTransactions2.transactions[47].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -183,7 +183,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[4]",
+      "path": "$.mTransactions2.transactions[47].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -196,7 +196,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[5]",
+      "path": "$.mTransactions2.transactions[47].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -209,7 +209,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[6]",
+      "path": "$.mTransactions2.transactions[47].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -222,7 +222,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[61]",
+      "path": "$.mTransactions2.transactions[67]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -241,7 +241,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[61].items[0]",
+      "path": "$.mTransactions2.transactions[67].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -254,7 +254,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[61].items[1]",
+      "path": "$.mTransactions2.transactions[67].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -267,7 +267,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[61].items[2]",
+      "path": "$.mTransactions2.transactions[67].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -280,7 +280,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[66]",
+      "path": "$.mTransactions2.transactions[72]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -543,10 +543,10 @@
       "path": "$.mTeam.teams[0].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 3,
-        "drops": 2,
+        "acquisitions": 4,
+        "drops": 3,
         "misc": 0,
-        "moveToActive": 6,
+        "moveToActive": 7,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -907,7 +907,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 91.84,
+        "appliedStatTotal": 105.54,
         "tradeReservedEntries": 0
       }
     },
@@ -1136,7 +1136,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 30.5,
+        "appliedStatTotal": 32.9,
         "id": 2473037,
         "keeperValue": 0,
         "keeperValueFuture": 13,
@@ -1174,30 +1174,6 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.3,
-        "id": 4569587,
-        "keeperValue": 0,
-        "keeperValueFuture": 15,
-        "lineupLocked": false,
-        "onTeamId": 1,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Wan'Dale Robinson had at least a share of the team lead in targets, catches, and receiving yards in his Titans debut, though he had a modest five catches for 38 yards on six targets. Tennessee's passing offense may not improve much, if at all, in Week 2 against an Eagles defense that allowed just six touchdowns to wide receivers last season, which tied for the fewest in the NFL. Robinson relies on target volume to make up for a lack of downfield playmaking capabilities, and the Titans may not throw often or effectively enough for him to make much of a fantasy difference. He's a low-end flex option for Week 2.",
-        "3": "Wan'Dale Robinson is off to a slow start with the Titans, but he'll try to recapture his magic from last season with the Giants when he faces the Giants in Week 3. The shifty WR was peppered with short targets during his last couple seasons with the Giants, racking up 140 targets apiece in 2024 and 2025. After exceeding 1,000 receiving yards in 2025, Robinson signed a four-year, $78 million contract to join former Giants head coach and current Titans offensive coordinator Brian Daboll in Tennessee. Robinson is on pace for just 60 targets with his new team, so his involvement is likely to grow moving forward. It will be tough to trust Robinson until Tennessee's passing game shows some signs of life, but there is some deep-league fantasy flex appeal here for Week 3, especially in PPR formats, against a banged-up Giants secondary.",
-        "4": "Wan'Dale Robinson stepped up against his former team in Week 3 with seven catches for 57 yards and a touchdown on 11 targets against the Giants, but he had just 47 yards on seven targets in his first two games with the Titans. The 5-foot-8 wide receiver gets almost all of his production on short passes, but Robinson is a viable Week 4 flex option on the road against the heavily favored Ravens. The winless Titans may find themselves in another deep hole, which could allow Tennessee's low-octane passing game to make up for a lack of quality with quantity. Baltimore has allowed the second-most catches to wide receivers this season.",
-        "5": "Wan'Dale Robinson takes a two-game touchdown streak into Tennessee's Week 5 home game against the Texans, but he's averaging just 31 receiving yards per game as a Titan after coming over from the Giants in free agency. Houston has been surprisingly poor at defending wide receivers, allowing the second-most catches (60), receiving yards (830), and TDs (six) to the position. Robinson's inconsistent usage in a low-octane passing game makes him hard to trust, but he's a viable flex option for Week 5 given the Texans' struggles against his position.",
-        "6": "Wan'Dale Robinson is averaging just 35 receiving yards per game for the Titans heading into a Week 6 road affair against the Colts, who are allowing 160 receiving yards per game to wide receivers. Robinson has drawn at least five targets from Cam Ward in all but one game this season, and his steady involvement makes him a viable flex play for Week 6 against the Colts' beatable pass defense. However, Robinson's ceiling is capped due to the poor play of Tennessee's entire offense, which ranks last leaguewide with 11.6 points per game. Two of Ward's three touchdown passes through five games have gone to Robinson."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 5.7,
         "id": 3916433,
         "keeperValue": 9,
@@ -1210,7 +1186,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -1229,7 +1205,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Jakobi Meyers maintains a high floor, though he's a low-ceiling fantasy WR3 or flex play for Jacksonville's Week 2 home game against Denver's elite defense. Meyers has posted at least 39 receiving yards in all 10 of his games with the Jaguars since coming over in a midseason trade last year, including 40 receiving yards and a TD in the Week 1 win over Cleveland. Parker Washington and Brian Thomas have more downfield playmaking capability, but Meyers should see his share of short targets with Trevor Lawrence likely looking to get the ball out quickly to counter a Broncos pass rush that led the league with 68 sacks last season.",
         "3": "Jakobi Meyers has been targeted just three times through Jacksonville's first two games. That lack of volume makes him hard to trust as anything more than a deep-league dart throw in Week 3 against a Patriots defense that held the Seahawks and Steelers to a combined 16 points. Parker Washington (18 targets), Brian Thomas (11 targets), and even TE Brenton Strange (five targets) have all been higher on Trevor Lawrence's priority list than Meyers. To the veteran wide receiver's credit, Meyers's 28-yard effort on one target in the Week 2 loss to Denver marked the first time in 11 games as a member of the Jaguars that he failed to record at least 39 receiving yards. Therefore, he could rebuild a solid fantasy floor if Lawrence starts looking Meyers's way more frequently.",
@@ -1239,7 +1215,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 17.3,
         "id": 4430539,
@@ -1253,7 +1229,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Brenton Strange was one of four Jaguars to catch a touchdown pass from Trevor Lawrence in the season-opening win over the Browns, and the starting tight end should remain involved in the Week 2 game plan against the Broncos. The Broncos excelled at defending wide receivers last season but gave up the ninth-most receiving yards to TEs. Strange is a decent fantasy option in multi-TE formats or those with a tight end premium. However, with many mouths to feed in Jacksonville's passing game, Strange is tough to trust as a starter in standard single-TE leagues. Strange has exceeded 61 receiving yards just once since the start of last season while scoring four TDs in 13 appearances over that span.",
         "3": "Brenton Strange was a non-factor during the Jaguars' Week 2 loss at Denver, but that was the case for every member of Jacksonville's passing game except for Parker Washington, who accounted for more than half of Trevor Lawrence's 189 passing yards. It won't be easy for Strange to bounce back in Week 3 against the Patriots, who are allowing just 8.0 points per game and have limited TEs to seven catches for 52 yards this season. There are likely better Week 3 options.",
@@ -1263,9 +1239,51 @@
       }
     },
     {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 11.3,
+        "id": 4428850,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 1,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player",
+      "values": {
+        "active": true,
+        "defaultPositionId": 3,
+        "droppable": true,
+        "firstName": "Dontayvion",
+        "fullName": "Dontayvion Wicks",
+        "id": 4428850,
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
+        "lastName": "Wicks",
+        "lastNewsDate": 1792100789000,
+        "proTeamId": 21,
+        "seasonOutlook": "Wicks was traded to the Eagles after spending his first three NFL seasons in Green Bay. The 2023 fifth-round pick was limited to situational work during his Packers tenure, never finishing a season among the top 50 receivers in snaps, routes, targets, catches or yards. Wicks flashed at times (exactly one game of 24-plus points in each season), but otherwise scored 5.3 PPG. Even after the Eagles traded A.J. Brown, Wicks' path to targets may not be any easier in Philly. DeVonta Smith, Dallas Goedert and Saquon Barkley are all assured substantial roles, with first-round rookie Makai Lemon and Hollywood Brown also very much in the mix. Wicks, 25, will need to win the team's No. 2 receiver gig in order to have any shot at weekly flex consideration. He's barely worth late-round consideration in deep leagues.",
+        "universeId": 2
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Dontayvion Wicks made his presence felt in his Eagles debut in Week 1. Wicks reeled in two passes for 73 yards and a touchdown in the 24-22 win over Washington. Only Dallas Goedert had more receiving yards than Wicks for the game. Wicks also notched four targets in his premiere for the Birds. In Week 2, Wicks will face a dismal Titans defense. Tennessee allowed 30 passing scores a season ago, which was tied for 23rd in the NFL",
+        "3": "Dontayvion Wicks continues to cement himself as the No. 2 wideout in the Eagles offense. Wicks caught five passes for 74 yards in the 24-20 win over the Titans. Wicks was second on the team in targets for the game. In Week 3, Philadelphia will face a Bears defense allowing 240 passing yards per tilt thus far this season, which is 25th in the NFL. The Eagles could also rely even more on the passing game if Saquon Barkley is sidelined due to injury, and with Dallas Goedert also banged up, Wicks could be one of the chief beneficiaries.",
+        "4": "Dontayvion Wicks had his first subpar game of the season for the Eagles. Wicks had five targets but caught just two passes for 32 yards in the ugly 27-7 loss to the Bears. Wicks had a crucial drop en route to being held under 73 yards receiving for the first time in 2026. In Week 4, he will face a rather stingy Rams pass defense allowing just 171.3 yards per game through the air, which is fourth in the NFL.",
+        "5": "Dontayvion Wicks was expected to operate as the No. 1 wideout for the Eagles last game due to the injury to DeVonta Smith. Unfortunately, Philadelphia's offense was stymied, and Wicks managed three catches for just 18 yards in the 24-20 loss to the Rams. Smith appears unlikely to play in Week 5 versus the Jags, so Wicks should continue to play a prominent role in the offense. However, it was Darius Cooper who scored twice last game, and rookie Makai Lemon outpaced Wicks in both targets as well as receiving yards. An intriguing matchup lurks in Week 5 against the Jags. Jacksonville has surrendered 280.3 passing yards per game this season, which is second-to-last in the league. In an odd twist, though, the Jags have yielded just three passing scores, which is tied for first in the NFL.",
+        "6": "Dontayvion Wicks led all Eagles wideouts in targets last game. Wicks was targeted eight times en route to five catches for 63 yards in the 19-17 loss to the Jags. The continued absence of DeVonta Smith with a hamstring injury has boosted the opportunities for Wicks, a trend that could continue in Week 6 versus Carolina. In addition, the Panthers are allowing 230.8 passing yards per tilt, which is 22nd in the league."
+      }
+    },
+    {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 81.18,
+        "appliedStatTotal": 81.68,
         "tradeReservedEntries": 0
       }
     },
@@ -1589,7 +1607,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.0,
+        "appliedStatTotal": 27.5,
         "id": -16007,
         "keeperValue": 12,
         "keeperValueFuture": 0,
@@ -1676,7 +1694,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.3,
+        "appliedStatTotal": 11.200000000000001,
         "id": 4372016,
         "keeperValue": 8,
         "keeperValueFuture": 5,
@@ -1699,7 +1717,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Waddle",
-        "lastNewsDate": 1791767249000,
+        "lastNewsDate": 1792126726000,
         "lastVideoDate": 1791996496000,
         "proTeamId": 7,
         "seasonOutlook": "Waddle was traded to Denver after spending his first five seasons in Miami. The 2021 first-round pick was solid during his Dolphins tenure, finishing in the top 30 among receivers in fantasy PPG four times, though never reaching the top 10 while often playing second fiddle to Tyreek Hill. Although he has been a reliable target and has missed only seven games in five years, Waddle hasn't finished a season higher than 20th in targets or catches since 2021. In Denver, the 27-year-old Waddle will compete with Courtland Sutton for the team lead in targets in a scheme that likes to spread the ball around. Not utilized near the goal line much at 5-foot-10 and 180 pounds (he's yet to clear seven end zone targets in a season), Waddle is likely to max out as a back-end WR2 in Denver.",
@@ -2406,14 +2424,14 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 105.69999999999999,
+        "appliedStatTotal": 128.0,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[4].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.900000000000002,
+        "appliedStatTotal": 48.2,
         "id": 4430878,
         "keeperValue": 4,
         "keeperValueFuture": 1,
@@ -2742,7 +2760,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.799999999999999,
+        "appliedStatTotal": 15.299999999999999,
         "id": 4568490,
         "keeperValue": 7,
         "keeperValueFuture": 14,
@@ -3174,7 +3192,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 115.67999999999999,
+        "appliedStatTotal": 123.07999999999998,
         "tradeReservedEntries": 0
       }
     },
@@ -3333,7 +3351,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.9,
+        "appliedStatTotal": 29.0,
         "id": 4241985,
         "keeperValue": 0,
         "keeperValueFuture": 7,
@@ -3499,7 +3517,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.1,
+        "appliedStatTotal": 18.4,
         "id": 4887558,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -4265,7 +4283,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 200.14,
+        "appliedStatTotal": 202.14,
         "tradeReservedEntries": 0
       }
     },
@@ -4459,7 +4477,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.5,
+        "appliedStatTotal": 17.5,
         "id": -16026,
         "keeperValue": 0,
         "keeperValueFuture": 12,
