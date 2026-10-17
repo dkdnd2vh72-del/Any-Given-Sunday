@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 118.87,
+        "projection": 119.93,
         "score": 7.9,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -76,13 +76,13 @@
   "season": 2026,
   "teams": [
     {
-      "acquisitions": 4,
+      "acquisitions": 5,
       "actual": 7.9,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 7,
-      "projection": 118.87,
+      "projection": 119.93,
       "record": {
         "losses": 6,
         "pointsAgainst": 640.7,
@@ -170,11 +170,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16021",
-          "name": "Eagles D/ST",
+          "id": "-16027",
+          "name": "Buccaneers D/ST",
           "position": "D/ST",
-          "proTeam": "PHI",
-          "projection": 4.92,
+          "proTeam": "TB",
+          "projection": 5.98,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -225,17 +225,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4040715",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "proTeam": "PHI",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4429205",
           "name": "Jordan Addison",
           "position": "WR",
@@ -263,6 +252,17 @@
           "position": "WR",
           "proTeam": "PIT",
           "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4040715",
+          "name": "Jalen Hurts",
+          "position": "QB",
+          "proTeam": "PHI",
+          "projection": 0.0,
           "slot": "IR",
           "slotId": 21,
           "tradeInterest": null
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 24,
+      "acquisitions": 23,
       "actual": 12.0,
       "htmlId": "numbers",
       "id": 3,
