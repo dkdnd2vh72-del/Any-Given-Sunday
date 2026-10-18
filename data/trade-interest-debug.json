@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[16]",
+      "path": "$.mTransactions2.transactions[4]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[0]",
+      "path": "$.mTransactions2.transactions[4].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[1]",
+      "path": "$.mTransactions2.transactions[4].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[2]",
+      "path": "$.mTransactions2.transactions[4].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -59,7 +59,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[3]",
+      "path": "$.mTransactions2.transactions[4].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -72,7 +72,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[4]",
+      "path": "$.mTransactions2.transactions[4].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -85,7 +85,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[5]",
+      "path": "$.mTransactions2.transactions[4].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[16].items[6]",
+      "path": "$.mTransactions2.transactions[4].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[24]",
+      "path": "$.mTransactions2.transactions[8]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53]",
+      "path": "$.mTransactions2.transactions[24]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -150,7 +150,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[0]",
+      "path": "$.mTransactions2.transactions[24].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 11,
@@ -163,7 +163,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[1]",
+      "path": "$.mTransactions2.transactions[24].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -176,7 +176,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[2]",
+      "path": "$.mTransactions2.transactions[24].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -189,7 +189,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[3]",
+      "path": "$.mTransactions2.transactions[24].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -202,7 +202,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[4]",
+      "path": "$.mTransactions2.transactions[24].items[4]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[5]",
+      "path": "$.mTransactions2.transactions[24].items[5]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 5,
@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[6]",
+      "path": "$.mTransactions2.transactions[24].items[6]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -241,7 +241,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[78]",
+      "path": "$.mTransactions2.transactions[35]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -260,7 +260,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[78].items[0]",
+      "path": "$.mTransactions2.transactions[35].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -273,7 +273,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[78].items[1]",
+      "path": "$.mTransactions2.transactions[35].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -286,7 +286,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[78].items[2]",
+      "path": "$.mTransactions2.transactions[35].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -299,7 +299,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[84]",
+      "path": "$.mTransactions2.transactions[97]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -604,7 +604,7 @@
         "acquisitions": 23,
         "drops": 23,
         "misc": 0,
-        "moveToActive": 33,
+        "moveToActive": 35,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -640,11 +640,11 @@
       "path": "$.mTeam.teams[2].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 5,
-        "drops": 4,
+        "acquisitions": 6,
+        "drops": 5,
         "misc": 0,
-        "moveToActive": 13,
-        "moveToIR": 2,
+        "moveToActive": 15,
+        "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -926,7 +926,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 110.04,
+        "appliedStatTotal": 137.38000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -1131,13 +1131,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 21.740000000000002,
+        "appliedStatTotal": 49.080000000000005,
         "id": 4360310,
         "keeperValue": 0,
         "keeperValueFuture": 12,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1179,13 +1179,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.7,
+        "appliedStatTotal": 19.0,
         "id": 3916433,
         "keeperValue": 9,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1222,13 +1222,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.3,
+        "appliedStatTotal": 29.200000000000003,
         "id": 4430539,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1640,7 +1640,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 155.96,
+        "appliedStatTotal": 113.7,
         "tradeReservedEntries": 0
       }
     },
@@ -1970,20 +1970,6 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": -1.5,
-        "id": -16003,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 4,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 0.0,
         "id": 3055899,
         "keeperValue": 0,
@@ -1996,12 +1982,36 @@
       }
     },
     {
-      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Harrison Butker was perfect in Kansas City's season-opening win over the Broncos, connecting on all four of his extra points and converting his only field-goal attempt from 28 yards. The offense looked more potent with a healthy Patrick Mahomes under center, Kenneth Walker as the new bell-cow back, and a returning Eric Bieniemy as offensive coordinator, and Butker should see his opportunities rise if that trend holds. He could be busy in Week 2 against a Colts team that just got routed by the Ravens and was tied for 20th in points per game allowed in 2025.",
         "3": "Harrison Butker missed a 51-yard field-goal attempt in the second quarter of Week 2, but he made up for it by converting the rest of his opportunities, including a 40-yard FG that gave Kansas City the overtime win over the Colts. The veteran kicker has been busy in the early going with six FG attempts and seven PATs, and a resurgent offense led by a healthy Patrick Mahomes and new bell-cow back Kenneth Walker should continue to supply Butker with volume. He'll face a Dolphins team in Week 3 that's giving up 31.0 points a game in the early going.",
         "4": "Harrison Butker missed a field goal for a second straight game in Kansas City's Week 3 win over the Dolphins. A resurgent offense under a healthy Patrick Mahomes has given the veteran kicker a solid floor in terms of PATs, and he's a perfect 10-for-10 to begin the year with at least three in each contest. Butker's two FG misses have also been from 50-plus yards, and he's a perfect 8-for-8 from shorter distances. He may not be able to squander any chances in Week 4 against a Raiders team that's allowed 18.0 points a game, seventh in the league.",
         "6": "Harrison Butker has been more floor than ceiling to begin the season. The Kansas City kicker has kicked at least three extra points in all four games, but he's logged more than one field goal only once, going 7-for-9 over that span with both his misses coming from 50-plus yards. With Patrick Mahomes and Kenneth Walker having the offense operating at a very high level, Butker's mix of opportunities isn't likely to change much. He could be busy in Week 6 against a Chargers team allowing 25.8 points per game, tied for 22nd in the league."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 14.9,
+        "id": 3046439,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 4,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Hunter Henry will look for more opportunities in Week 2 when New England hosts Pittsburgh. Henry caught all three of his targets to open 2026, and with the Patriots losing A.J. Brown (ankle) for the foreseeable future, additional targets could come Henry's way. Pittsburgh didn't allow a catch to tight ends last week, but that was a product of poor opponent quarterback play. Henry can be considered a back-end option at the position with the potential for far more against a defense he posted two touchdowns and 90 yards against a season ago.",
+        "3": "Hunter Henry will look to keep expanding his role for the Patriots in Week 3 against the Jaguars. In their first full game without A.J. Brown in Week 2, Henry logged a 92% snap share but drew only five targets, turning them into three catches for 40 yards. Drake Maye has struggled to open the season, posting a 1:4 TD:INT ratio, and while someone has to catch the limited passes, Henry faces a challenging matchup against a defense that hasn't allowed an opposing tight end to top 32 yards against them so far.",
+        "4": "Hunter Henry is laboring for opportunity in a sputtering Patriots passing offense ahead of a Week 4 game against the Bills. Henry caught just one of two targets in Week 3, finishing with five yards, and has yet to score or top 40 yards. There are likely better Week 4 options with Henry facing a defense that's allowed one opposing tight end to top 35 yards.",
+        "5": "Hunter Henry could have an expanded role in Week 5 when the Patriots face the Raiders with Eli Raridon (ankle) uncertain. Henry was already playing at least 70% of the snaps, and he posted a season-high five catches for 62 yards in Week 4, collecting five targets for the second time this season. Las Vegas has allowed five touchdown catches to opposing tight ends, but also just 6.1 yards per target through four games, suggesting Henry may need to find the end zone for the first time in 2026 to be a fantasy asset.",
+        "6": "Hunter Henry has been steady in the Patriots passing game ahead of a potentially difficult Week 6 matchup with the Jets. He has three catches in four of the Patriots' first five games, three times recording at least 40 yards, and he posted 45 and 49 yards in two matchups last season against this divisional opponent. However, the Jets have been stingy against tight ends, allowing just 191 yards (6.0 yards per target) and zero touchdowns through five games."
       }
     },
     {
@@ -2113,9 +2123,9 @@
         "id": 4035538,
         "keeperValue": 7,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2638,7 +2648,7 @@
         "fullName": "Rico Dowdle",
         "id": 4038815,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Dowdle",
         "lastNewsDate": 1792321972000,
         "lastVideoDate": 1789052073000,
@@ -2855,7 +2865,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 149.36,
+        "appliedStatTotal": 184.96,
         "tradeReservedEntries": 0
       }
     },
@@ -2907,9 +2917,9 @@
         "fullName": "A.J. Brown",
         "id": 4047646,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Brown",
-        "lastNewsDate": 1792267978000,
+        "lastNewsDate": 1792337751000,
         "lastVideoDate": 1790865542000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -2919,13 +2929,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.600000000000001,
+        "appliedStatTotal": 21.5,
         "id": 4258173,
         "keeperValue": 2,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2967,13 +2977,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.600000000000001,
+        "appliedStatTotal": 36.300000000000004,
         "id": 4882093,
         "keeperValue": 0,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3147,9 +3157,9 @@
         "id": -16030,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3173,13 +3183,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 6.4,
         "id": 4432708,
         "keeperValue": 4,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3348,9 +3358,9 @@
         "fullName": "TreVeyon Henderson",
         "id": 4432710,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Henderson",
-        "lastNewsDate": 1792323530000,
+        "lastNewsDate": 1792338069000,
         "lastVideoDate": 1791904465000,
         "proTeamId": 17,
         "seasonOutlook": "Henderson enters Year 2 after a roller-coaster rookie campaign in which he delivered three huge fantasy performances (28-plus points in all three) but otherwise played second fiddle to Rhamondre Stevenson (8.3 points per game in his other 14 games). Though his role was limited, Henderson was effective, averaging 5.1 yards per carry (eighth best) and catching 83% of his targets while scoring 10 touchdowns. The 2025 second-round pick is a candidate for a similar role in 2026, but it's unlikely that Stevenson will completely disappear after he also had a strong 2025. Henderson is safest as a bench option, but there's upside for a lot more if the 23-year-old is promoted to a lead role.",
@@ -3603,7 +3613,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 133.89999999999998,
+        "appliedStatTotal": 149.49999999999997,
         "tradeReservedEntries": 0
       }
     },
@@ -3719,13 +3729,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 30.4,
+        "appliedStatTotal": 40.8,
         "id": 4432620,
         "keeperValue": 0,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3844,13 +3854,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.5,
+        "appliedStatTotal": 17.7,
         "id": 4429059,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4015,7 +4025,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 153.11999999999998,
+        "appliedStatTotal": 155.11999999999998,
         "tradeReservedEntries": 0
       }
     },
@@ -4191,13 +4201,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.5,
+        "appliedStatTotal": 13.5,
         "id": -16034,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4261,13 +4271,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.1,
+        "appliedStatTotal": 13.1,
         "id": 4686361,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4326,7 +4336,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 202.14,
+        "appliedStatTotal": 230.62,
         "tradeReservedEntries": 0
       }
     },
@@ -4548,13 +4558,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.9,
+        "appliedStatTotal": 24.4,
         "id": 2971573,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4583,9 +4593,9 @@
         "fullName": "Alvin Kamara",
         "id": 3054850,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Kamara",
-        "lastNewsDate": 1792324153000,
+        "lastNewsDate": 1792338235000,
         "proTeamId": 18,
         "seasonOutlook": "Kamara is entering his age-31 season set to play a change-of-pace role behind Travis Etienne and is unlikely to be a fantasy option. Over the past seven seasons, only two backs age 31 or older have posted a top-30 fantasy campaign, and both required 16-plus touchdowns. (Kamara hasn't cleared nine TDs since 2020 and scored once in 2025). Injuries limited Kamara to career-low marks across the board last season (including a 10% target share, considerably worse than his previous career low of 18%), and he hasn't played a full season since his rookie year (2017). A longtime fantasy star, Kamara is worth no more than a late flier.",
         "universeId": 2
@@ -4666,13 +4676,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.939999999999998,
+        "appliedStatTotal": 42.92,
         "id": 4432577,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4710,11 +4720,12 @@
         "id": 2576336,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1792566000000
       }
     },
     {
@@ -5127,11 +5138,12 @@
         "id": 4911851,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1792566000000
       }
     },
     {
