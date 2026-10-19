@@ -926,7 +926,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 169.78,
+        "appliedStatTotal": 173.98,
         "tradeReservedEntries": 0
       }
     },
@@ -947,13 +947,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.9,
+        "appliedStatTotal": 7.1,
         "id": 4241389,
         "keeperValue": 1,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1427,13 +1427,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.64,
+        "appliedStatTotal": 12.68,
         "id": 2577417,
         "keeperValue": 14,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1579,13 +1579,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.7,
+        "appliedStatTotal": 16.5,
         "id": 4429023,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1640,7 +1640,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 176.0,
+        "appliedStatTotal": 190.0,
         "tradeReservedEntries": 0
       }
     },
@@ -1679,9 +1679,9 @@
         "id": 4426354,
         "keeperValue": 5,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1860,7 +1860,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Pollard",
-        "lastNewsDate": 1792010276000,
+        "lastNewsDate": 1792365840000,
         "lastVideoDate": 1792162916000,
         "proTeamId": 10,
         "seasonOutlook": "Pollard has handled a hefty 67.2% of the Titans' designed rushing attempts since his arrival two seasons ago (15.2 per game) and, even with solid efficiency, he has finished 22nd and 30th in fantasy points per game. The culprits? Tennessee's struggling offense (Pollard has exactly five TDs in both seasons) and a limited receiving role when Tyjae Spears has been healthy (Pollard's targets fell from 3.5 per game in 2024 to 2.5 per game in 2025). Barring a major leap from quarterback Cam Ward, Pollard is unlikely to deliver only the second top-20 fantasy campaign (in points per game) of his career. The 29-year-old, entering his eighth NFL season (third with Tennessee), is a low-ceiling flex.",
@@ -1880,13 +1880,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.3,
+        "appliedStatTotal": 34.3,
         "id": 4701936,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2017,7 +2017,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 221.38000000000002,
+        "appliedStatTotal": 221.08,
         "tradeReservedEntries": 0
       }
     },
@@ -2197,7 +2197,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.780000000000001,
+        "appliedStatTotal": 10.48,
         "id": 3139477,
         "keeperValue": 6,
         "keeperValueFuture": 11,
@@ -2346,7 +2346,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Taylor",
-        "lastNewsDate": 1791762073000,
+        "lastNewsDate": 1792366851000,
         "lastVideoDate": 1792354325000,
         "proTeamId": 11,
         "seasonOutlook": "Taylor enters the 2026 season having improved in fantasy points per game in each of the past three years. Last season, he delivered his best production since his huge 2021 campaign, as he paced the NFL in carries and TDs while finishing second in carries inside the 5-yard line (19) and fourth in fantasy points. A piece of the step forward was increased usage in the passing game, as he ranked in the top 10 among backs in routes, targets, catches and receiving yards, setting career highs in each. Taylor's season likely would've been even better had QB Daniel Jones not been injured, as the running back averaged 24.8 points with Jones but 12.9 without him. Jones is expected to be ready to play in Week 1, so the 27-year-old Taylor is safe to value as a mid- to high-end RB1.",
@@ -2429,7 +2429,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Bernard",
-        "lastNewsDate": 1792194848000,
+        "lastNewsDate": 1792369818000,
         "lastVideoDate": 1792162440000,
         "proTeamId": 23,
         "seasonOutlook": "Bernard was selected by the Steelers in the second round of April's draft. Bernard is a solid, reliable receiver with good size who can align all over the formation (55% slot in 53 collegiate games). Despite playing at three schools in four years, Bernard's production increased each season, including a strong 64-862-7 receiving line (plus 18-101-2 rushing) in 2025. He dropped only four of 240 career targets. Bernard is likely to open his career third or fourth in line at receiver behind Michael Pittman Jr., DK Metcalf and perhaps Roman Wilson. That will create a tough path to consistent rookie-season usage and production, so he's only worth draft consideration in the later rounds.",
@@ -2453,7 +2453,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 247.68,
+        "appliedStatTotal": 254.44000000000003,
         "tradeReservedEntries": 0
       }
     },
@@ -2827,7 +2827,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.48,
+        "appliedStatTotal": 32.24,
         "id": 14880,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2841,7 +2841,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.1,
+        "appliedStatTotal": 17.1,
         "id": 4249087,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2865,7 +2865,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 205.86,
+        "appliedStatTotal": 213.36,
         "tradeReservedEntries": 0
       }
     },
@@ -3001,13 +3001,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 32.3,
+        "appliedStatTotal": 39.8,
         "id": 4248528,
         "keeperValue": 0,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3221,7 +3221,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 214.28000000000003,
+        "appliedStatTotal": 223.90000000000003,
         "tradeReservedEntries": 0
       }
     },
@@ -3569,13 +3569,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.28,
+        "appliedStatTotal": 34.900000000000006,
         "id": 4036378,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3613,7 +3613,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 220.29999999999998,
+        "appliedStatTotal": 221.49999999999997,
         "tradeReservedEntries": 0
       }
     },
@@ -3672,7 +3672,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 49.1,
+        "appliedStatTotal": 48.8,
         "id": 3918298,
         "keeperValue": 3,
         "keeperValueFuture": 4,
@@ -3830,13 +3830,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.100000000000001,
+        "appliedStatTotal": 15.600000000000001,
         "id": 4572680,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3901,9 +3901,9 @@
         "id": 3953687,
         "keeperValue": 12,
         "keeperValueFuture": 12,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4239,7 +4239,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Stafford",
         "lastNewsDate": 1791867514000,
-        "lastVideoDate": 1792357407000,
+        "lastVideoDate": 1792364715000,
         "proTeamId": 14,
         "seasonOutlook": "The reigning NFL MVP, Stafford returns for his 18th NFL season and his fifth with the Rams. The 38-year-old is fresh off an elite season in which he led the NFL in passing yards and touchdowns, which allowed him nine top-10 fantasy weeks (tied for third most at the position). Stafford's third-place finish in fantasy points per game was his first top-10 finish since 2019, and some regression is likely due to a complete lack of rushing (65 or fewer rushing yards in five straight seasons and one rushing touchdown since 2017). Stafford still has receivers Puka Nacua and Davante Adams and a strong offensive line at his disposal, so another big passing season is possible. That's just enough to keep him in the fringe QB1 mix.",
         "universeId": 2
@@ -4336,7 +4336,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 289.02,
+        "appliedStatTotal": 292.92,
         "tradeReservedEntries": 0
       }
     },
@@ -4471,9 +4471,9 @@
         "id": 4047365,
         "keeperValue": 2,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4510,9 +4510,9 @@
         "id": 4242355,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4627,13 +4627,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.2,
+        "appliedStatTotal": 18.099999999999998,
         "id": 4361579,
         "keeperValue": 11,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5262,7 +5262,7 @@
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
-        "id": 4678006,
+        "id": 5093923,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": true,
@@ -5278,7 +5278,7 @@
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
-        "id": 4360797,
+        "id": 4678006,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": true,
@@ -5294,18 +5294,34 @@
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
+        "id": 4360797,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": true,
+        "onTeamId": 0,
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1792566000000
+      }
+    },
+    {
+      "path": "$.kona_player_info.players[32]",
+      "values": {
+        "draftAuctionValue": 0,
+        "droppedByEliminatedTeam": false,
         "id": 3953687,
         "keeperValue": 12,
         "keeperValueFuture": 12,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
     },
     {
-      "path": "$.kona_player_info.players[31].player.outlooks.outlooksByWeek",
+      "path": "$.kona_player_info.players[32].player.outlooks.outlooksByWeek",
       "values": {
         "2": "Brandon Aubrey was surprisingly quiet in Week 1 for the Cowboys versus the Giants. With New York dominating time of possession, Aubrey did not even attempt a field goal. He also missed one of his extra points when Javonte Williams was assessed a taunting penalty following a touchdown, leading to a 48-yard PAT try. Aubrey has nowhere to go but up in Week 2 versus the Commanders, though. Washington allowed 26.5 points per game just a season ago, which was 27th in the NFL.",
         "3": "Brandon Aubrey connected on all three of his field goals last game for Dallas, including a 60-yarder. Aubrey also booted four extra points, shaking off a surprising miss in Week 1 versus the Giants. In Week 3, the Cowboys clash with the Ravens. Baltimore is allowing 23.5 points per tilt, which is in the middle of the pack so far in 2026.",
@@ -5315,7 +5331,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[32]",
+      "path": "$.kona_player_info.players[33]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5331,7 +5347,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[33]",
+      "path": "$.kona_player_info.players[34]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5346,13 +5362,13 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[33].player.outlooks.outlooksByWeek",
+      "path": "$.kona_player_info.players[34].player.outlooks.outlooksByWeek",
       "values": {
         "5": "Kevin Austin could play a depth role in New Orleans' wide-receiver corps in the Week 5 matchup against the Vikings. Austin played just 12% of the Saints' offensive snaps in the Week 4 loss to the Falcons, suggesting he's firmly behind Chris Olave, Devaughn Vele and Bryce Lance in the WR corps. Austin likely won't be fantasy relevant without finding the end zone, which is a tough task against a Vikings secondary that's given up just three receiving touchdowns to wideouts all season."
       }
     },
     {
-      "path": "$.kona_player_info.players[34]",
+      "path": "$.kona_player_info.players[35]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5368,7 +5384,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[34].player.outlooks.outlooksByWeek",
+      "path": "$.kona_player_info.players[35].player.outlooks.outlooksByWeek",
       "values": {
         "2": "Elic Ayomanor caught an 11-yard touchdown in garbage time during the Titans' season opener. That was the only catch of the game for the 2025 fourth-round pick, and Ayomanor is expected to maintain a supporting role in Tennessee's underwhelming offense in Week 2 against the Eagles, keeping him well outside of the fantasy lineup conversation in most leagues. The Titans struggled to move the ball while the game was in doubt in Week 1 against the Jets, with Carnell Tate and Wan'Dale Robinson both working ahead of Ayomanor at WR.",
         "3": "Elic Ayomanor leads the Titans with 80 receiving yards and has the team's lone touchdown through the air this season heading into a Week 3 road game against the Giants. The second-year WR's success has come despite him working as a depth option behind Carnell Tate, Wan'Dale Robinson and Calvin Ridley. Ayomanor could earn an expanded role if he continues to make the most of his opportunities, but unless that happens, he's unlikely to find sustained success given the substantial competition for targets in one of the league's least productive passing offenses. The Giants are banged up in the secondary, but Ayomanor remains a speculative deep-league dart throw.",
@@ -5378,7 +5394,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[35]",
+      "path": "$.kona_player_info.players[36]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5393,7 +5409,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[36]",
+      "path": "$.kona_player_info.players[37]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5409,7 +5425,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[37]",
+      "path": "$.kona_player_info.players[38]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5424,7 +5440,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[38]",
+      "path": "$.kona_player_info.players[39]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5440,7 +5456,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[39]",
+      "path": "$.kona_player_info.players[40]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5456,7 +5472,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[39].player.outlooks.outlooksByWeek",
+      "path": "$.kona_player_info.players[40].player.outlooks.outlooksByWeek",
       "values": {
         "3": "Tyson Bagent is set to get the start for Chicago in Week 3 versus the Eagles. With Caleb Williams currently week-to-week with a hamstring injury and doubtful against Philly, Bagent is primed to get his first start since the 2023 season. The D2 product completed five of nine passes for 54 yards in the fourth quarter against the Vikings this past week after filling in for Williams, but he was unable to deliver a win for the Bears in the end. Bagent's most notable stats trail back to 2023, when he completed 94 of 143 passing attempts for 859 yards with three touchdowns and six interceptions across five games while filling in for Justin Fields. He'll face an Eagles offense that's allowed a middle-of-the-pack 20.6 fantasy points per game to quarterbacks across two games.",
         "4": "Tyson Bagent will likely be Chicago's backup quarterback again in Week 4 against the Jets. Bagent didn't get the start in Week 3 after getting next-to-no practice reps with a concussion, and Case Keenum throwing for 247 yards and two touchdowns should keep it that way. The D2 product will now only face New York's defense if something were to happen to the veteran.",
@@ -5465,7 +5481,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[40]",
+      "path": "$.kona_player_info.players[41]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5480,7 +5496,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[41]",
+      "path": "$.kona_player_info.players[42]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5495,7 +5511,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[42]",
+      "path": "$.kona_player_info.players[43]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5510,7 +5526,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[42].player.outlooks.outlooksByWeek",
+      "path": "$.kona_player_info.players[43].player.outlooks.outlooksByWeek",
       "values": {
         "2": "Saquon Barkley averaged 5.5 yards per tote in Week 1 for the Eagles. Barkley rushed 15 times for 83 yards, though was held out of the end zone in the 24-22 win over Washington. Barkley should have even greater success in Week 2 versus a dismal Titans squad. Tennessee allowed 367 yards from scrimmage to the Jets in their season opener. Tennessee was torched on the ground in particular, allowing 152 rushing yards and two touchdowns.",
         "3": "Saquon Barkley missed portions of Philadelphia's last game due to a stinger, leaving his status in question for Week 3 versus the Bears. Barkley is slated to undergo an MRI to determine if he will miss any time. Saquon had five carries for just 20 yards in the 24-20 win over the Titans. Meanwhile, Tank Bigsby had 15 touches and a touchdown, while Will Shipley saw nine touches and managed 29 yards overall. Bigsby and Shipley would likely split touches if Barkley cannot go, with Bigsby getting the slight edge. The Eagles will face a Bears run defense in Week 3 allowing 122 yards per clash on the ground, which is 22nd in the league.",
@@ -5520,7 +5536,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[43]",
+      "path": "$.kona_player_info.players[44]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5536,7 +5552,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[44]",
+      "path": "$.kona_player_info.players[45]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5551,7 +5567,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[45]",
+      "path": "$.kona_player_info.players[46]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5567,7 +5583,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[45].player.outlooks.outlooksByWeek",
+      "path": "$.kona_player_info.players[46].player.outlooks.outlooksByWeek",
       "values": {
         "2": "Tyler Bass continues to be busy for the high-scoring Bills' offense as they enter a Week 2 matchup with the Lions. In Week 1, Bass made three extra points and three field goals, though none were 50-plus yards. Detroit's defense, particularly the secondary, was suspect a week ago, and the Bills should score plenty, making Bass appealing.",
         "3": "Tyler Bass will attempt to bounce back from his first miss of the season when the Bills host the Chargers in Week 3. Bass wasn't afforded a field goal try in Week 2, with Buffalo's offense finding the end zone with ease, but still provided a reasonable floor, hitting five of six extra points. The Bills' offensive efficiency could cap Bass' scoring potential, but historically, the highest-scoring kickers come from the highest-scoring teams.",
@@ -5577,7 +5593,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[46]",
+      "path": "$.kona_player_info.players[47]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5593,7 +5609,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[46].player",
+      "path": "$.kona_player_info.players[47].player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -5612,7 +5628,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[46].player.outlooks.outlooksByWeek",
+      "path": "$.kona_player_info.players[47].player.outlooks.outlooksByWeek",
       "values": {
         "2": "Rashod Bateman and the Ravens host the Saints in Week 2. Despite leading Baltimore's receivers with 53 offensive snaps, he logged just one target and did not record a reception. With Zay Flowers' (hamstring) status up in the air and rookie Ja'Kobi Lane out with a fractured wrist suffered in the opener, Bateman's opportunities to contribute could increase. Regardless of who's active, he'll aim to bounce back against New Orleans' 21st-ranked defense in fantasy points allowed (37.2) to WRs.",
         "3": "Rashod Bateman and the Ravens are on the road for a Week 3 matchup against the Cowboys. In the absence of top wideout Zay Flowers (hamstring), Bateman caught seven of nine targets for 88 yards and a touchdown during Baltimore's Week 2 loss. He'll likely slide back to a supporting role if Flowers is able to suit up this Sunday. However, if he's unable to do so, Bateman will have the chance to replicate his solid outing versus a Dallas defense that ranks 18th in fantasy points per game (31.2) allowed to WRs.",
@@ -5622,7 +5638,7 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[47]",
+      "path": "$.kona_player_info.players[48]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
@@ -5637,26 +5653,11 @@
       }
     },
     {
-      "path": "$.kona_player_info.players[48]",
-      "values": {
-        "draftAuctionValue": 0,
-        "droppedByEliminatedTeam": false,
-        "id": 4689936,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
-      }
-    },
-    {
       "path": "$.kona_player_info.players[49]",
       "values": {
         "draftAuctionValue": 0,
         "droppedByEliminatedTeam": false,
-        "id": 4048228,
+        "id": 4689936,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
