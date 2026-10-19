@@ -241,7 +241,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39]",
+      "path": "$.mTransactions2.transactions[40]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -260,7 +260,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[0]",
+      "path": "$.mTransactions2.transactions[40].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -273,7 +273,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[1]",
+      "path": "$.mTransactions2.transactions[40].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -286,7 +286,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[2]",
+      "path": "$.mTransactions2.transactions[40].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 14,
@@ -299,7 +299,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[105]",
+      "path": "$.mTransactions2.transactions[107]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -926,7 +926,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 173.98,
+        "appliedStatTotal": 185.78,
         "tradeReservedEntries": 0
       }
     },
@@ -947,7 +947,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.1,
+        "appliedStatTotal": 18.9,
         "id": 4241389,
         "keeperValue": 1,
         "keeperValueFuture": 2,
@@ -1427,7 +1427,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.68,
+        "appliedStatTotal": 23.66,
         "id": 2577417,
         "keeperValue": 14,
         "keeperValueFuture": 9,
@@ -1579,7 +1579,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.5,
+        "appliedStatTotal": 17.7,
         "id": 4429023,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -1602,7 +1602,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Lloyd",
-        "lastNewsDate": 1791773732000,
+        "lastNewsDate": 1792383657000,
         "lastVideoDate": 1791903478000,
         "proTeamId": 9,
         "seasonOutlook": "Due to a variety of injuries, Lloyd has appeared in one game since being selected in the third round of the 2024 draft. Now healthy, he appears to have a hold on No. 2 RB duties in Green Bay, which is notable with Josh Jacobs facing a potential suspension. Lloyd is likely to open the season on the RB2/flex radar and should be on your radar in the middle rounds, though note that he'll fade back to no more than an insurance stash once Jacobs returns.",
@@ -1640,7 +1640,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 190.0,
+        "appliedStatTotal": 211.7,
         "tradeReservedEntries": 0
       }
     },
@@ -1675,7 +1675,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 28.0,
+        "appliedStatTotal": 41.3,
         "id": 4426354,
         "keeperValue": 5,
         "keeperValueFuture": 3,
@@ -1880,7 +1880,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 34.3,
+        "appliedStatTotal": 42.7,
         "id": 4701936,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -2650,7 +2650,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Dowdle",
-        "lastNewsDate": 1792339106000,
+        "lastNewsDate": 1792375928000,
         "lastVideoDate": 1789052073000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
@@ -2716,7 +2716,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Likely",
-        "lastNewsDate": 1791761442000,
+        "lastNewsDate": 1792373708000,
         "lastVideoDate": 1792355923000,
         "proTeamId": 19,
         "seasonOutlook": "Likely signed with the Giants after four years of backing up Mark Andrews in Baltimore. Likely is reuniting with coach John Harbaugh and is finally expected to play a consistent offensive role. During his time in Baltimore, Likely was limited to 50% of the team's offensive snaps and never finished a season better than 20th among tight ends in snaps, routes, targets, catches, yards or fantasy PPG. His only extensive stretch with Andrews sidelined came back in 2023. During the seven-game span, Likely posted a 23-356-6 receiving line on a 16% target share and averaged a solid 13.5 fantasy PPG. The 26-year-old is obviously unproven, but his receiving skills in New York's ascending offense are enough to put him on the TE2 radar.",
@@ -2865,7 +2865,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 213.36,
+        "appliedStatTotal": 215.26,
         "tradeReservedEntries": 0
       }
     },
@@ -2919,7 +2919,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Brown",
-        "lastNewsDate": 1792337751000,
+        "lastNewsDate": 1792389093000,
         "lastVideoDate": 1790865542000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3001,7 +3001,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 39.8,
+        "appliedStatTotal": 41.699999999999996,
         "id": 4248528,
         "keeperValue": 0,
         "keeperValueFuture": 6,
@@ -3221,7 +3221,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 223.90000000000003,
+        "appliedStatTotal": 234.52000000000004,
         "tradeReservedEntries": 0
       }
     },
@@ -3569,7 +3569,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 34.900000000000006,
+        "appliedStatTotal": 45.52,
         "id": 4036378,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3613,7 +3613,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 221.49999999999997,
+        "appliedStatTotal": 232.2,
         "tradeReservedEntries": 0
       }
     },
@@ -3830,7 +3830,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.600000000000001,
+        "appliedStatTotal": 25.3,
         "id": 4572680,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -3897,7 +3897,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.1000000000000005,
+        "appliedStatTotal": 6.1000000000000005,
         "id": 3953687,
         "keeperValue": 12,
         "keeperValueFuture": 12,
@@ -4125,7 +4125,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Warren",
-        "lastNewsDate": 1791833239000,
+        "lastNewsDate": 1792375638000,
         "lastVideoDate": 1791761692000,
         "proTeamId": 23,
         "seasonOutlook": "Warren reached career-high marks in touches (251), yardage (1,291) and touchdowns (eight) last season, his fourth in the league. The former undrafted free agent put up 13.6 fantasy points per game (19th among backs) and PFF tracked him with 56 forced missed tackles (seventh). Pittsburgh swapped out Kenneth Gainwell for Rico Dowdle as Warren's running mate, and the two are expected to split work in a Mike McCarthy offense that rarely deploys its backs in the passing game. Warren is capable and effective as a rusher and receiver, but his ceiling figures to be limited in this committee. He's likely to cap out as a flex.",
@@ -4168,7 +4168,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Goedert",
-        "lastNewsDate": 1791746828000,
+        "lastNewsDate": 1792372445000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
         "universeId": 2
@@ -4238,7 +4238,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Stafford",
-        "lastNewsDate": 1791867514000,
+        "lastNewsDate": 1792372258000,
         "lastVideoDate": 1792364715000,
         "proTeamId": 14,
         "seasonOutlook": "The reigning NFL MVP, Stafford returns for his 18th NFL season and his fifth with the Rams. The 38-year-old is fresh off an elite season in which he led the NFL in passing yards and touchdowns, which allowed him nine top-10 fantasy weeks (tied for third most at the position). Stafford's third-place finish in fantasy points per game was his first top-10 finish since 2019, and some regression is likely due to a complete lack of rushing (65 or fewer rushing yards in five straight seasons and one rushing touchdown since 2017). Stafford still has receivers Puka Nacua and Davante Adams and a strong offensive line at his disposal, so another big passing season is possible. That's just enough to keep him in the fringe QB1 mix.",
@@ -4336,7 +4336,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 292.92,
+        "appliedStatTotal": 302.02,
         "tradeReservedEntries": 0
       }
     },
@@ -4506,7 +4506,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.4,
+        "appliedStatTotal": 10.7,
         "id": 4242355,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -4595,7 +4595,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Kamara",
-        "lastNewsDate": 1792348115000,
+        "lastNewsDate": 1792370854000,
         "lastVideoDate": 1792349932000,
         "proTeamId": 18,
         "seasonOutlook": "Kamara is entering his age-31 season set to play a change-of-pace role behind Travis Etienne and is unlikely to be a fantasy option. Over the past seven seasons, only two backs age 31 or older have posted a top-30 fantasy campaign, and both required 16-plus touchdowns. (Kamara hasn't cleared nine TDs since 2020 and scored once in 2025). Injuries limited Kamara to career-low marks across the board last season (including a 10% target share, considerably worse than his previous career low of 18%), and he hasn't played a full season since his rookie year (2017). A longtime fantasy star, Kamara is worth no more than a late flier.",
@@ -4627,7 +4627,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.099999999999998,
+        "appliedStatTotal": 27.2,
         "id": 4361579,
         "keeperValue": 11,
         "keeperValueFuture": 10,
