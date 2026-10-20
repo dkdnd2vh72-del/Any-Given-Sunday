@@ -1867,11 +1867,17 @@ jobs:
 
                           if el:
 
-                              el.string = (
-                                  teams_by_id[
-                                      tid
-                                  ]["name"]
-                              )
+                              el.clear()
+                              name_el = soup.new_tag("span")
+                              name_el["class"] = "power-team-name"
+                              name_el.string = teams_by_id[tid]["name"]
+                              el.append(name_el)
+                              rec = teams_by_id[tid].get("record", {})
+                              small = soup.new_tag("small")
+                              small["class"] = "power-team-record"
+                              small["style"] = "display:block;font-size:.72rem;opacity:.78;line-height:1.4;"
+                              small.string = str(safe_int(rec.get("wins"))) + "-" + str(safe_int(rec.get("losses")))
+                              el.append(small)
 
 
               # ESPN authoritative tradeBlock: include every ON_THE_BLOCK player.
