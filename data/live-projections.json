@@ -3,80 +3,80 @@
   "matchups": [
     {
       "away": {
-        "percentage": 0,
-        "projection": 83.26,
-        "teamId": 8
-      },
-      "home": {
-        "percentage": 100,
-        "projection": 86.78,
+        "percentage": 55,
+        "projection": 114.02,
         "teamId": 13
-      }
-    },
-    {
-      "away": {
-        "percentage": 100,
-        "projection": 129.14,
-        "teamId": 3
       },
       "home": {
-        "percentage": 0,
-        "projection": 118.7,
+        "percentage": 45,
+        "projection": 104.38,
         "teamId": 12
       }
     },
     {
       "away": {
-        "percentage": 0,
-        "projection": 105.88,
-        "teamId": 14
-      },
-      "home": {
-        "percentage": 100,
-        "projection": 136.84,
+        "percentage": 52,
+        "projection": 127.75,
         "teamId": 11
-      }
-    },
-    {
-      "away": {
-        "percentage": 0,
-        "projection": 83.64,
-        "teamId": 1
       },
       "home": {
-        "percentage": 100,
-        "projection": 128.7,
-        "teamId": 4
+        "percentage": 48,
+        "projection": 122.88,
+        "teamId": 8
       }
     },
     {
       "away": {
-        "percentage": 100,
-        "projection": 131.82,
+        "percentage": 66,
+        "projection": 126.25,
+        "teamId": 4
+      },
+      "home": {
+        "percentage": 34,
+        "projection": 96.06,
+        "teamId": 3
+      }
+    },
+    {
+      "away": {
+        "percentage": 37,
+        "projection": 115.6,
+        "teamId": 5
+      },
+      "home": {
+        "percentage": 63,
+        "projection": 140.89,
+        "teamId": 14
+      }
+    },
+    {
+      "away": {
+        "percentage": 72,
+        "projection": 113.79,
         "teamId": 7
       },
       "home": {
-        "percentage": 0,
-        "projection": 116.78,
-        "teamId": 5
+        "percentage": 28,
+        "projection": 78.57,
+        "teamId": 1
       }
     }
   ],
-  "projectedMedian": 117.74,
+  "projectedMedian": 114.81,
   "projections": {
-    "1": 83.64,
-    "11": 136.84,
-    "12": 118.7,
-    "13": 86.78,
-    "14": 105.88,
-    "3": 129.14,
-    "4": 128.7,
-    "5": 116.78,
-    "7": 131.82,
-    "8": 83.26
+    "1": 78.57,
+    "11": 127.75,
+    "12": 104.38,
+    "13": 114.02,
+    "14": 140.89,
+    "3": 96.06,
+    "4": 126.25,
+    "5": 115.6,
+    "7": 113.79,
+    "8": 122.88
   },
-  "scoringPeriod": 6,
+  "scoringPeriod": 7,
   "season": 2026,
-  "updatedAt": "2026-10-20T06:40:50.402241+00:00",
-  "week": 6
+  "updatedAt": "2026-10-20T12:13:46.205090+00:00",
+  "week": 7
 }
