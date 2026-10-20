@@ -1727,6 +1727,11 @@ jobs:
               )
 
 
+              total_adds = sum(safe_int(t.get("acquisitions", 0)) for t in normalized["teams"])
+              total_el = soup.find(id="league-transaction-total")
+              if total_el:
+                  total_el.string = f"${total_adds}"
+
               table = soup.find(
                   "table",
                   id="transaction-counter-table"
@@ -1821,11 +1826,17 @@ jobs:
 
                           if el:
 
-                              el.string = (
-                                  teams_by_id[
-                                      tid
-                                  ]["name"]
-                              )
+                              el.clear()
+                              name_span = soup.new_tag("span")
+                              name_span["class"] = "power-team-name"
+                              name_span.string = teams_by_id[tid]["name"]
+                              el.append(name_span)
+                              record = teams_by_id[tid].get("record", {})
+                              record_small = soup.new_tag("small")
+                              record_small["class"] = "power-team-record"
+                              record_small["style"] = "display:block;font-size:.72rem;opacity:.7;line-height:1.35;margin-top:2px;"
+                              record_small.string = f'{safe_int(record.get("wins"))}-{safe_int(record.get("losses"))}' + (f'-{safe_int(record.get("ties"))}' if safe_int(record.get("ties")) else "")
+                              el.append(record_small)
 
 
               dues = soup.find(
