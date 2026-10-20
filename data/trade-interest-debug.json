@@ -293,10 +293,10 @@
       "values": {
         "acquisitionBudgetSpent": 0,
         "acquisitions": 5,
-        "drops": 4,
+        "drops": 5,
         "misc": 0,
-        "moveToActive": 8,
-        "moveToIR": 3,
+        "moveToActive": 9,
+        "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -371,9 +371,9 @@
       "values": {
         "acquisitionBudgetSpent": 0,
         "acquisitions": 6,
-        "drops": 5,
+        "drops": 6,
         "misc": 0,
-        "moveToActive": 15,
+        "moveToActive": 17,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -496,9 +496,9 @@
       "values": {
         "acquisitionBudgetSpent": 2,
         "acquisitions": 4,
-        "drops": 3,
+        "drops": 5,
         "misc": 0,
-        "moveToActive": 12,
+        "moveToActive": 13,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -750,7 +750,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 83.64000000000001,
+        "appliedStatTotal": 51.9,
         "tradeReservedEntries": 0
       }
     },
@@ -872,20 +872,6 @@
       "path": "$.mRoster.teams[0].roster.entries[6].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
-        "id": 4040715,
-        "keeperValue": 4,
-        "keeperValueFuture": 7,
-        "lineupLocked": false,
-        "onTeamId": 1,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 0.0,
         "id": 4035687,
         "keeperValue": 10,
         "keeperValueFuture": 9,
@@ -897,7 +883,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[6].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -916,7 +902,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4429205,
@@ -930,7 +916,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Jordan Addison will look to record his first reception of the year as the Vikings travel to Chicago in Week 2. Addison ran the second-most routes for Minnesota in Week 1 against the Packers, but he was unable to convert on either of his two targets. Veteran quarterback Carson Wentz, who filled in for an injured Kyler Murray (concussion), relied more on tight ends T.J. Hockenson and Josh Oliver behind Justin Jefferson. This could make Addison's role remains small as long as Wentz remains under center. With that being said, the Bears' defense did allow the fourth-most PPR points to wide receivers (46.3) in Week 1, which could open up Minnesota's passing game.",
         "3": "Jordan Addison will seek to ramp things up as the Vikings travel to Tampa Bay in Week 3. Addison bounced back from a zero-catch performance in Week 1 this past Sunday, logging two catches for 21 yards against the Bears. Still, his output is nowhere near sufficient for fantasy owners, especially since he's put up WR2 numbers many times throughout the last three seasons. He'll face a Bucs defense that's allowed 24.9 PPR points per game against wide receivers this season, a top-10 mark.",
@@ -939,7 +925,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 11.3,
         "id": 15847,
@@ -953,7 +939,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 27.340000000000003,
         "id": 4360310,
@@ -967,7 +953,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Trevor Lawrence threw four touchdown passes in the first 33 minutes of Jacksonville's lopsided Week 1 win over the Browns before the Jaguars took their foot off the gas. He has 22 touchdown passes in his last eight starts, but the surging QB could face a stiffer test in a Week 2 road game against the Broncos. They boasted the NFL's third-stingiest scoring defense last season but just gave up 31 points to the Chiefs in Week 1. Lawrence has been effective enough recently to warrant starting in fantasy despite the daunting matchup, but he's unlikely to give managers a top-five performance in Week 2.",
         "3": "Trevor Lawrence crashed back down to earth with 189 passing yards and no TDs in the Jaguars' Week 2 loss at Denver after tossing four touchdown passes in the season-opening win over Cleveland. Lawrence and the Jaguars return home for a Week 3 showdown with the Patriots, who have allowed just 16 total points in two games. The daunting matchup drops Lawrence to the QB1/QB2 borderline, so this could be the week to plug in an alternative option if available. Lawrence threw 22 touchdown passes in the eight starts preceding his Week 2 dud, so the 2021 first-overall pick maintains elite upside.",
@@ -977,7 +963,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.9,
         "id": 2473037,
@@ -991,7 +977,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Jason Myers will look to remain perfect this season when the Seahawks visit Arizona in Week 2. Myers made his lone PAT try and both field-goal attempts in a season-opening win over New England, though his FGs were relative chip shots from 30 and 26 yards. Myers made nine field goals from 50-plus yards out each of the previous two seasons, however, so he has plenty of leg to convert from that distance when called upon. The Cardinals aren't expected to be a top NFL defense this year, but they performed well in limiting the Chargers to 14 points in a Week 1 victory.",
         "3": "Jason Myers has provided Seattle with a steady boot this season heading into a Week 3 matchup against Washington. The veteran kicker has made all three of his field-goal tries and all five of his PAT attempts through two weeks. However, he hasn't yet been asked to hit from distance, as none of his FG tries have been from 40 yards or greater. The Commanders have yielded a whopping 30.5 points per game through two weeks, so Myers could get plenty of opportunities to kick in Week 3.",
@@ -1001,7 +987,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.3,
         "id": 3916433,
@@ -1015,7 +1001,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -1034,7 +1020,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Jakobi Meyers maintains a high floor, though he's a low-ceiling fantasy WR3 or flex play for Jacksonville's Week 2 home game against Denver's elite defense. Meyers has posted at least 39 receiving yards in all 10 of his games with the Jaguars since coming over in a midseason trade last year, including 40 receiving yards and a TD in the Week 1 win over Cleveland. Parker Washington and Brian Thomas have more downfield playmaking capability, but Meyers should see his share of short targets with Trevor Lawrence likely looking to get the ball out quickly to counter a Broncos pass rush that led the league with 68 sacks last season.",
         "3": "Jakobi Meyers has been targeted just three times through Jacksonville's first two games. That lack of volume makes him hard to trust as anything more than a deep-league dart throw in Week 3 against a Patriots defense that held the Seahawks and Steelers to a combined 16 points. Parker Washington (18 targets), Brian Thomas (11 targets), and even TE Brenton Strange (five targets) have all been higher on Trevor Lawrence's priority list than Meyers. To the veteran wide receiver's credit, Meyers's 28-yard effort on one target in the Week 2 loss to Denver marked the first time in 11 games as a member of the Jaguars that he failed to record at least 39 receiving yards. Therefore, he could rebuild a solid fantasy floor if Lawrence starts looking Meyers's way more frequently.",
@@ -1044,7 +1030,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 11.9,
         "id": 4430539,
@@ -1058,7 +1044,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Brenton Strange was one of four Jaguars to catch a touchdown pass from Trevor Lawrence in the season-opening win over the Browns, and the starting tight end should remain involved in the Week 2 game plan against the Broncos. The Broncos excelled at defending wide receivers last season but gave up the ninth-most receiving yards to TEs. Strange is a decent fantasy option in multi-TE formats or those with a tight end premium. However, with many mouths to feed in Jacksonville's passing game, Strange is tough to trust as a starter in standard single-TE leagues. Strange has exceeded 61 receiving yards just once since the start of last season while scoring four TDs in 13 appearances over that span.",
         "3": "Brenton Strange was a non-factor during the Jaguars' Week 2 loss at Denver, but that was the case for every member of Jacksonville's passing game except for Parker Washington, who accounted for more than half of Trevor Lawrence's 189 passing yards. It won't be easy for Strange to bounce back in Week 3 against the Patriots, who are allowing just 8.0 points per game and have limited TEs to seven catches for 52 yards this season. There are likely better Week 3 options.",
@@ -1068,7 +1054,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 4.4,
         "id": 4428850,
@@ -1082,7 +1068,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -1100,7 +1086,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Dontayvion Wicks made his presence felt in his Eagles debut in Week 1. Wicks reeled in two passes for 73 yards and a touchdown in the 24-22 win over Washington. Only Dallas Goedert had more receiving yards than Wicks for the game. Wicks also notched four targets in his premiere for the Birds. In Week 2, Wicks will face a dismal Titans defense. Tennessee allowed 30 passing scores a season ago, which was tied for 23rd in the NFL",
         "3": "Dontayvion Wicks continues to cement himself as the No. 2 wideout in the Eagles offense. Wicks caught five passes for 74 yards in the 24-20 win over the Titans. Wicks was second on the team in targets for the game. In Week 3, Philadelphia will face a Bears defense allowing 240 passing yards per tilt thus far this season, which is 25th in the NFL. The Eagles could also rely even more on the passing game if Saquon Barkley is sidelined due to injury, and with Dallas Goedert also banged up, Wicks could be one of the chief beneficiaries.",
@@ -1110,7 +1096,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.0,
         "id": -16027,
@@ -1331,7 +1317,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 128.70000000000002,
+        "appliedStatTotal": 95.4,
         "tradeReservedEntries": 0
       }
     },
@@ -1457,8 +1443,8 @@
         "firstName": "DJ",
         "fullName": "DJ Moore",
         "id": 3915416,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
         "lastNewsDate": 1792349858000,
         "lastVideoDate": 1789344254000,
@@ -1682,30 +1668,6 @@
       }
     },
     {
-      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 16.8,
-        "id": 3046439,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 4,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Hunter Henry will look for more opportunities in Week 2 when New England hosts Pittsburgh. Henry caught all three of his targets to open 2026, and with the Patriots losing A.J. Brown (ankle) for the foreseeable future, additional targets could come Henry's way. Pittsburgh didn't allow a catch to tight ends last week, but that was a product of poor opponent quarterback play. Henry can be considered a back-end option at the position with the potential for far more against a defense he posted two touchdowns and 90 yards against a season ago.",
-        "3": "Hunter Henry will look to keep expanding his role for the Patriots in Week 3 against the Jaguars. In their first full game without A.J. Brown in Week 2, Henry logged a 92% snap share but drew only five targets, turning them into three catches for 40 yards. Drake Maye has struggled to open the season, posting a 1:4 TD:INT ratio, and while someone has to catch the limited passes, Henry faces a challenging matchup against a defense that hasn't allowed an opposing tight end to top 32 yards against them so far.",
-        "4": "Hunter Henry is laboring for opportunity in a sputtering Patriots passing offense ahead of a Week 4 game against the Bills. Henry caught just one of two targets in Week 3, finishing with five yards, and has yet to score or top 40 yards. There are likely better Week 4 options with Henry facing a defense that's allowed one opposing tight end to top 35 yards.",
-        "5": "Hunter Henry could have an expanded role in Week 5 when the Patriots face the Raiders with Eli Raridon (ankle) uncertain. Henry was already playing at least 70% of the snaps, and he posted a season-high five catches for 62 yards in Week 4, collecting five targets for the second time this season. Las Vegas has allowed five touchdown catches to opposing tight ends, but also just 6.1 yards per target through four games, suggesting Henry may need to find the end zone for the first time in 2026 to be a fantasy asset.",
-        "6": "Hunter Henry has been steady in the Patriots passing game ahead of a potentially difficult Week 6 matchup with the Jets. He has three catches in four of the Patriots' first five games, three times recording at least 40 yards, and he posted 45 and 49 yards in two matchups last season against this divisional opponent. However, the Jets have been stingy against tight ends, allowing just 191 yards (6.0 yards per target) and zero touchdowns through five games."
-      }
-    },
-    {
       "path": "$.mRoster.teams[3].roster",
       "values": {
         "appliedStatTotal": 102.48,
@@ -1830,8 +1792,8 @@
         "firstName": "David",
         "fullName": "David Montgomery",
         "id": 4035538,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Montgomery",
         "lastNewsDate": 1792100090000,
         "lastVideoDate": 1790951846000,
@@ -2144,7 +2106,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 109.6,
+        "appliedStatTotal": 98.1,
         "tradeReservedEntries": 0
       }
     },
@@ -2257,8 +2219,8 @@
         "firstName": "Lamar",
         "fullName": "Lamar Jackson",
         "id": 3916387,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
         "lastNewsDate": 1792436917000,
         "lastVideoDate": 1791142597000,
@@ -2294,30 +2256,6 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.7,
-        "id": 3121422,
-        "keeperValue": 4,
-        "keeperValueFuture": 7,
-        "lineupLocked": false,
-        "onTeamId": 7,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[4].roster.entries[6].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Terry McLaurin had a rough Week 1 for the Commanders. On only four targets, McLaurin caught a mere two passes for 14 yards in the 24-22 loss to the Eagles. Meanwhile, both Stefon Diggs and rookie Antonio Williams found the end zone in their respective debuts for Washington. It will be interesting to see if the presence of Diggs in particular impacts McLaurin, as Diggs more than doubled McLaurin in targets with nine. Both wideouts should see plenty of action in Week 2 versus a poor Cowboys defense, though. Dallas allowed 229 passing yards and three touchdowns through the air to Jaxson Dart in their season opener.",
-        "3": "Terry McLaurin led the Commanders in targets last game with nine opportunities. Unfortunately, Scary Terry could only cash in two of those chances for 50 yards in a loss to the Cowboys. Starting quarterback Jayden Daniels only played a half due to injury, and veteran backup Marcus Mariota will likely start in Week 3 versus a devastating Seattle defense. The Seahawks are allowing just 8.5 points per game thus far in 2026, which is second in the league. Seattle is also allowing the fewest passing yards per contest at 124.5 per tilt. None of this appears to be a recipe for success for McLaurin and the rest of the Washington offense.",
-        "4": "Terry McLaurin is coming off his best game of the season for the Commanders. Scary Terry had six catches for 77 yards and a touchdown in the shocking 33-31 victory over the Seattle Seahawks. McLaurin has posted nine targets in back-to-back contests.  McLaurin caught all of his passes from backup Marcus Mariota, who will likely also line up under center in Week 4 versus the Colts. Indianapolis has been rather poor against the pass in 2026, allowing 276 yards per tilt through the air, which is 30th in the league.",
-        "5": "Terry McLaurin missed last game for the Commanders due to a hamstring injury. McLaurin allegedly pushed hard to play, though, meaning he could very well return to the field in Week 5 versus the Giants. He also could have his starting quarterback Jayden Daniels back under center. New York has been stingy against the pass in 2026 thus far, allowing just 205.3 passing yards per tilt, which is 10th in the NFL. Likewise, the G-Men are tied for the league-lead with six picks.",
-        "6": "Terry McLaurin returned to the lineup for Washington following a one-game absence due to a hamstring issue. McLaurin led the squad in receiving with 62 yards on four catches in the 27-27 tie with the Giants. Fellow wideout Stefon Diggs was inactive with a hamstring ailment of his own, and if Diggs misses more time, McLaurin would certainly benefit in terms of additional looks. In Week 6, the Commanders face the undefeated San Francisco 49ers. The Niners are allowing just 199.6 passing yards per tilt, which is eighth in the league. In addition, San Fran has given up just five passing touchdowns, which is tied for fourth in the NFL."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[4].roster.entries[7].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 7.9,
         "id": 4038815,
         "keeperValue": 0,
@@ -2330,7 +2268,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[7].playerPoolEntry.player",
+      "path": "$.mRoster.teams[4].roster.entries[6].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -2349,7 +2287,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[4].roster.entries[6].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Rico Dowdle and the Steelers are on the road for a Week 2 matchup against the Patriots. He rushed eight times for 15 yards and caught two of five targets for another six yards during Pittsburgh's Week 1 20-13 win over Atlanta. Dowdle's backfield partner, Jaylen Warren, was much more efficient with his 15 touches, which he turned into 73 scrimmage yards. It will be difficult to trust Dowdle in a tilt versus New England's 14th-ranked defense, which has allowed 84 rushing yards to the position.",
         "3": "Rico Dowdle and the Steelers host the Bengals and their 14th-ranked run defense in Week 3. He finished Pittsburgh's loss last week with seven carries for 22 yards and caught both targets for 22 yards. Dowdle left the game in the second quarter with a toe injury, was cleared and returned to play in the second half but then left for good after appearing to re-injure the same toe. Keep an eye on his status in practice this week, as there's a good chance he'll be limited, thus leaving his status for Sunday's contest against the Bengals in question.",
@@ -2359,7 +2297,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[7].playerPoolEntry",
       "values": {
         "appliedStatTotal": 19.1,
         "id": 4241416,
@@ -2373,7 +2311,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[4].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chuba Hubbard is expected to continue leading the Panthers' backfield in the Week 2 matchup against the Falcons. Hubbard out-touched Jonathon Brooks 13 to five in the Week 1 loss, which is a good sign for his fantasy outlook going forward. Hubbard also found the end zone twice and looked very efficient, averaging 6.7 yards per touch. He's in for a tougher Week 2 matchup, however, as Atlanta allowed just 16.4 PPR fantasy points to the running back position last week.",
         "3": "Chuba Hubbard is expected to remain the Panthers' top running back in the Week 3 matchup against the Browns. Hubbard appears to have returned to his 2024 form over Carolina's first two games this season, rushing for 102 yards (4.6 yards per carry) and a touchdown while catching all five of his targets for 49 yards and a score. Additionally, with Jonathon Brooks (groin) exiting the Week 2 win in the fourth quarter, Hubbard's role could continue growing. He faces a difficult matchup, however, as the Browns' defense has given up just 16.9 PPR fantasy points per game through two weeks.",
@@ -2382,7 +2320,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 26.9,
         "id": 4361050,
@@ -2396,7 +2334,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry.player",
+      "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 4,
@@ -2415,7 +2353,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Isaiah Likely scored twice in his debut for the Giants in Week 1, leading a stunning victory over the Cowboys. Likely caught all eight of his targets for 78 yards and the two scores to lead the Giants in receiving. Especially in the red zone and on third down, quarterback Jaxson Dart leaned heavily on his new tight end, something that should continue in Week 2 versus the Rams. Los Angeles allowed 205 passing yards and three touchdowns in its dismal season-opening loss to the 49ers, while also losing star acquisition Myles Garrett to a knee injury. Aaron Donald will make his return from retirement to help out the defensive line, though.",
         "3": "Isaiah Likely led the Giants in both receptions and targets last game. Despite seeing 10 opportunities, though, Likely caught five passes for just 33 yards in the dismal loss to the Rams. The bigger news may be that starting quarterback Jaxson Dart could be lost for the season due to a knee injury. With Jameis Winston under center, Likely will likely see his stock take a hit. However, in Week 3, the Giants will face a lackluster Titans defense allowing 233.5 passing yards per clash, which is 20th in the league.",
@@ -2425,7 +2363,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 2.5,
         "id": -16014,
@@ -2439,7 +2377,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry.player",
+      "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 16,
@@ -2455,7 +2393,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 14.3,
         "id": 4683062,
@@ -2469,7 +2407,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Xavier Worthy captured three of his six Week 1 targets for only 18 yards. The workload was low, but Kansas City QB Patrick Mahomes completed only five passes to wideouts in the Monday night opener. The third-year pro has the speed to stretch the field, but he's generally used more underneath, along with occasionally carrying the ball. Worthy is a Week 2 flex option when the Chiefs host the Colts. Indianapolis was one of five defenses to allow over 300 yards passing in Week 1.\n",
         "3": "Xavier Worthy scored his first touchdown of the season in Kansas City's Week 2 overtime win over the Colts, snagging a one-yard toss from Patrick Mahomes in the second quarter. Worthy has notched steady target volume early in the season, with 13 total looks, but that has resulted in just an 8-43-1 line, and he has yet to get a carry. With Mahomes spreading the ball around and the offense prioritizing Kenneth Walker and the run game, Worthy will need some big plays to make a real fantasy contribution. The third-year speedster will face a Dolphins defense in Week 3 that's given up five passing TDs through two games, but only one to a wide receiver.",
@@ -2478,7 +2416,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 14.6,
         "id": 4568490,
@@ -2492,7 +2430,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "RJ Harvey's workload was limited in the Broncos' season-opening loss to Kansas City. He gained 18 rushing yards on three carries and caught all four of his targets for 23 yards. That volume was comparable to J.K. Dobbins, who got eight touches-all carries-to Harvey's seven. Turnovers and game flow played a part in limiting their opportunities. Harvey's role as the primary pass-catching back still bodes well for his production in his second NFL season after posting a 47-356-5 line on 58 targets over 17 regular-season games in 2025. He'll get a potentially tough matchup in Week 2 against a Jaguars defense that ranked third in points per game allowed to RBs in 2025.",
         "3": "RJ Harvey wasn't able to suit up in Week 2's win over the Jaguars due to a hamstring strain, putting his availability for a Week 3 matchup against the Rams in question. The second-year back was expected to be the pass-catching complement to J.K. Dobbins for the Broncos, but rookie Jonah Coleman handled that role and didn't look out of place. If Harvey misses too much time, Coleman could take his job, but Dobbins' own checkered injury history could leave Denver patching together a backfield from whoever is healthy.",
@@ -2502,7 +2440,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4567104,
@@ -2516,7 +2454,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[4].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 18.52,
         "id": 14880,
@@ -2527,30 +2465,6 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 11.5,
-        "id": 4249087,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 7,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Matt Gay was perfect in his Raiders debut, converting field goals from 30 and 47 yards and all three extra points in a season-opening win over the Dolphins. A rebuilding opponent certainly provided Gay with extra opportunities, but the Las Vegas offense could also be better than expected. New head coach Klint Kubiak and an improved quarterback situation, with Kirk Cousins steadying the ship until rookie Fernando Mendoza is ready, should help. The pending return of Brock Bowers will also help generate more scoring drives. Gay may not be able to squander any chances in Week 2 against a Chargers team that ranked ninth in points per game allowed in 2025.",
-        "3": "Matt Gay has been busy to begin his Raiders' career, converting all three of his field-goal attempts and all six of his extra points through the first two games of the season. The outlook for the offense should improve once Brock Bowers is cleared for his 2026 debut, and while there's additional uncertainly on the horizon once first overall pick Fernando Mendoza is deemed ready to replace Kirk Cousins under center, Gay could actually benefit if the young QB struggles to get the ball into the end zone while he figures out NFL defenses. Gay will face a Saints team in Week 3 that's allowed an exact mirror to his production so far, with opposition kickers getting three FGs and six PATs.",
-        "4": "Matt Gay has been both busy and perfect for the surprising 3-0 Raiders, connecting on all six of his field goal attempts and all eight of his PATs. The veteran kicker was also successful on his only attempt from 50-plus yards, as he looks to boot at least three long-range FGs for a sixth straight season. Gay has also benefited from a favorable early schedule, as all three of Las Vegas' games so far have been played indoors. The team will get a fourth straight game under a roof in a Week 4 home tilt against Kansas City, but Gay likely won't be able to afford to squander any opportunities versus an opponent that has given up just 16.7 points per game, tied for third in the league.",
-        "5": "Matt Gay continues to benefit from the Raiders' surprisingly strong start to the season on offense with Kirk Cousins under center. In a Week 4 loss to Kansas City, Gay was a perfect 4-for-4 on FG tries while also converting his only PAT. The veteran has yet to miss an attempt in 2026, going 10-for-10 on FGs and 9-for-9 on extra points, putting him third in the NFL in kicker scoring behind the Vikings' Will Reichard and the Colts' Spencer Shrader. Gay likely won't be able to afford to start squandering opportunities in Week 5 against a Patriots team that's allowed 19.3 points per game so far, tied for sixth in the league.",
-        "6": "Matt Gay missed his first kick of the season in the Raiders' Week 5 loss to the Patriots, pinging the upright on a field goal attempt from 48 yards out. He's still having a strong season, converting all 11 of his PATs and going 11-for-12 on FG attempts, including his only attempt from 50-plus yards. Gay has benefited from a surprisingly potent offense under Kirk Cousins, but the veteran QB may be reverting to his usual level, perhaps opening the door for first overall pick Fernando Mendoza to take the reins, so it's not necessarily bad news for Gay's long-term outlook. Gay will take on a Bills team in Week 6 that's allowing 28.2 points per game, 28th in the league."
       }
     },
     {
@@ -3005,7 +2919,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Smith",
         "lastNewsDate": 1792395023000,
-        "lastVideoDate": 1789942112000,
+        "lastVideoDate": 1792512538000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
         "universeId": 2
