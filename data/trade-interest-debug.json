@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[5]",
+      "path": "$.mTransactions2.transactions[3]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[5].items[0]",
+      "path": "$.mTransactions2.transactions[3].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[5].items[1]",
+      "path": "$.mTransactions2.transactions[3].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -398,7 +398,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 9,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -416,7 +416,7 @@
         "primaryOwner": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 9
+        "waiverRank": 6
       }
     },
     {
@@ -476,7 +476,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 9,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -494,7 +494,7 @@
         "primaryOwner": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 5
+        "waiverRank": 4
       }
     },
     {
@@ -633,8 +633,8 @@
     {
       "path": "$.mTeam.teams[4].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 2,
-        "acquisitions": 4,
+        "acquisitionBudgetSpent": 7,
+        "acquisitions": 5,
         "drops": 5,
         "misc": 0,
         "moveToActive": 13,
@@ -666,15 +666,15 @@
         "primaryOwner": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 7
+        "waiverRank": 9
       }
     },
     {
       "path": "$.mTeam.teams[5].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 72,
-        "acquisitions": 13,
-        "drops": 12,
+        "acquisitionBudgetSpent": 74,
+        "acquisitions": 14,
+        "drops": 13,
         "misc": 0,
         "moveToActive": 40,
         "moveToIR": 2,
@@ -687,7 +687,7 @@
       "path": "$.mTeam.teams[6]",
       "values": {
         "abbrev": "RENZ",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 10,
         "eliminated": false,
@@ -705,7 +705,7 @@
         "primaryOwner": "{6DFCEF0A-EDE4-4244-BCEF-0AEDE4924420}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 6
+        "waiverRank": 5
       }
     },
     {
@@ -744,14 +744,14 @@
         "primaryOwner": "{55557D11-0BB9-4FB9-957D-110BB9EFB9E5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 4
+        "waiverRank": 10
       }
     },
     {
       "path": "$.mTeam.teams[7].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 1,
-        "acquisitions": 6,
+        "acquisitionBudgetSpent": 2,
+        "acquisitions": 7,
         "drops": 6,
         "misc": 0,
         "moveToActive": 12,
@@ -783,7 +783,7 @@
         "primaryOwner": "{B9D0D9CD-0373-43B0-B535-9F31B41A51F8}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 10
+        "waiverRank": 7
       }
     },
     {
@@ -840,8 +840,8 @@
         "acquisitions": 10,
         "drops": 10,
         "misc": 0,
-        "moveToActive": 21,
-        "moveToIR": 1,
+        "moveToActive": 22,
+        "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -2702,6 +2702,20 @@
       }
     },
     {
+      "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 4.5,
+        "id": -16020,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 7,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
       "path": "$.mRoster.teams[5].roster",
       "values": {
         "appliedStatTotal": 99.6,
@@ -3053,8 +3067,8 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.1,
-        "id": 4361411,
+        "appliedStatTotal": 10.5,
+        "id": -16005,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -3065,14 +3079,19 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player",
       "values": {
-        "2": "Pat Freiermuth and the Steelers hope to improve to 2-0 when they visit the Patriots in Week 2. He secured all five targets for 46 yards and Aaron Rodgers' lone passing TD, and finished second on the team in receiving yards while tying for first in receptions. Freiermuth led Pittsburgh's TEs in offensive snaps (49), but Darnell Washington was a close second with 43. He and the Steelers will try to scheme up a way to beat a New England defense that is tied for second in receiving yards allowed to the position (13).",
-        "3": "Pat Freiermuth and the Steelers play host to the Bengals for an AFC North clash in Week 3. He paced the team's tight ends in snaps (46), receptions (4), yards (32) and targets (5) during Pittsburgh's 20-3 loss to the Patriots. Freiermuth appears to have the upper hand over Darnell Washington (1-7-0) in the passing game, but his fantasy floor and ceiling are relatively low in an underwhelming Steelers offense. He'll have the added benefit of facing a Cincinnati defense that allows 18.5 fantasy points per game to TEs (27th) and just got torched for 12 receptions and 140 yards by Dalton Schultz.",
-        "4": "Pat Freiermuth and the Steelers are on the road for a Week 4 AFC North clash against the Browns. He caught two of four targets for 30 yards and rushed once for one yard during Pittsburgh's Week 3 victory. Aaron Rodgers continues to spread the ball around, as six different Steelers receivers registered at least four targets, and four tied for the team lead in receptions with three. Freiermuth could be a sneaky play versus a Cleveland defense that ranks 20th in fantasy points allowed (14.9) to TEs and gave up eight receptions (on 12 targets) for 92 yards to the position in Week 3.",
-        "5": "Pat Freiermuth and the Steelers welcome the Colts to town for a Week 5 home tilt. He played 75% of snaps on offense and caught three of five targets for 17 yards and his second touchdown of the season. Fellow tight end Darnell Washington (3-27-1) was slightly more productive while playing 70% of the offensive snaps during Pittsburgh's 27-24 loss in Week 4. They're both listed as starting tight ends for the Steelers, and it looks like it'll be a toss-up between the two on any given week as long as they're healthy. Indianapolis allows 13.7 fantasy points per game to TEs, which ranks 17th.",
-        "6": "Pat Freiermuth and the Steelers visit the Buccaneers for an interconference clash in Week 6. He played 38 snaps on offense (70%) and was highly productive, catching five of seven targets for 44 yards and two of Aaron Rodgers' three TD passes during Pittsburgh's Week 5 victory. Freiermuth finished third on the team in receptions and yardage, while his seven looks were the second-most. Fellow starting tight end Darnell Washington was on the field for 34 offensive snaps (63%) and caught two of three targets for 12 yards. Freiermuth recorded a second consecutive outing with a score and now has four TDs on the season, and he'll aim to take advantage of a Tampa Bay defense allowing 15.7 fantasy points per game (22nd) to TEs.",
-        "7": "Pat Freiermuth and the Steelers travel to Paris to take on the Saints in Week 7. He caught two of three targets for 11 yards during Pittsburgh's 26-19 comeback win in overtime in Week 6. Freiermuth and fellow tight end Darnell Washington each played 71% of snaps on offense, but it was the latter who made the bigger impact in this one, as Washington tallied a 4-25-1 line on six targets. Freiermuth will try to rebound versus a New Orleans defense that just surrendered six receptions for 99 yards and a TD to Isaiah Likely."
+        "active": true,
+        "defaultPositionId": 16,
+        "droppable": true,
+        "firstName": "Browns",
+        "fullName": "Browns D/ST",
+        "id": -16005,
+        "injured": false,
+        "lastName": "D/ST",
+        "proTeamId": 5,
+        "seasonOutlook": "The June trade of Myles Garrett quashed much of the enthusiasm surrounding the Browns' D/ST, though the team still has a trio of strong front-line defenders in Mason Graham, Jared Verse (the big return in the Garrett deal) and Carson Schwesinger and finished fourth at the position in fantasy points in 2025. Don't underestimate this unit, which has one of the softer early-season schedules, especially over the first five weeks (@JAX, @TB, CAR, PIT, @NYJ).",
+        "universeId": 1
       }
     },
     {
@@ -3879,9 +3898,23 @@
       }
     },
     {
+      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 16.020000000000003,
+        "id": 8439,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 12,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 62.18000000000001,
+        "appliedStatTotal": 49.78,
         "tradeReservedEntries": 0
       }
     },
@@ -4587,9 +4620,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4603,9 +4635,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4619,9 +4650,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4683,9 +4713,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4699,9 +4728,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4715,9 +4743,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4731,9 +4758,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4747,9 +4773,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4763,9 +4788,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4779,9 +4803,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4795,9 +4818,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4811,9 +4833,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4827,9 +4848,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4843,9 +4863,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4859,9 +4878,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4920,9 +4938,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4936,9 +4953,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4952,9 +4968,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4993,9 +5008,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5009,9 +5023,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5036,9 +5049,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5052,9 +5064,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5158,9 +5169,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5174,9 +5184,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5190,9 +5199,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5206,9 +5214,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5248,9 +5255,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5264,9 +5270,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5286,9 +5291,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5313,9 +5317,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5329,9 +5332,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5345,9 +5347,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5361,9 +5362,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5377,9 +5377,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5402,9 +5401,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5418,9 +5416,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5460,9 +5457,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5476,9 +5472,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5492,9 +5487,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5518,9 +5512,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5564,9 +5557,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5580,9 +5572,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792566000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     }
   ],
