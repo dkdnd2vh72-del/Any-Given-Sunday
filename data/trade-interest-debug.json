@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[3]",
+      "path": "$.mTransactions2.transactions[4]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[3].items[0]",
+      "path": "$.mTransactions2.transactions[4].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[3].items[1]",
+      "path": "$.mTransactions2.transactions[4].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -598,7 +598,7 @@
         "acquisitions": 11,
         "drops": 10,
         "misc": 0,
-        "moveToActive": 58,
+        "moveToActive": 59,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -676,7 +676,7 @@
         "acquisitions": 14,
         "drops": 13,
         "misc": 0,
-        "moveToActive": 40,
+        "moveToActive": 41,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1869,7 +1869,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 102.48,
+        "appliedStatTotal": 97.08,
         "tradeReservedEntries": 0
       }
     },
@@ -2229,7 +2229,7 @@
         "acquisitionDate": 1791030385012,
         "acquisitionType": "TRADE",
         "injuryStatus": "NORMAL",
-        "lineupSlotId": 4,
+        "lineupSlotId": 23,
         "pendingTransactionIds": null,
         "playerId": 4429615,
         "status": "NORMAL"
@@ -2718,7 +2718,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 99.6,
+        "appliedStatTotal": 112.1,
         "tradeReservedEntries": 0
       }
     },

@@ -23,7 +23,7 @@
         "teamName": "More Wins Than PSI"
       },
       "home": {
-        "projection": 122.89,
+        "projection": 129.69,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 131.1,
+        "projection": 132.55,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "acquisitions": 24,
+      "acquisitions": 23,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -598,7 +598,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 10,
-      "projection": 131.1,
+      "projection": 132.55,
       "record": {
         "losses": 8,
         "pointsAgainst": 802.1800000000001,
@@ -642,22 +642,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4239993",
-          "name": "Tee Higgins",
+          "id": "4047650",
+          "name": "DK Metcalf",
           "position": "WR",
-          "proTeam": "CIN",
-          "projection": 14.42,
+          "proTeam": "PIT",
+          "projection": 14.86,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4429615",
-          "name": "Zay Flowers",
+          "id": "4239993",
+          "name": "Tee Higgins",
           "position": "WR",
-          "proTeam": "BAL",
-          "projection": 17.41,
+          "proTeam": "CIN",
+          "projection": 14.42,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -675,11 +675,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4685261",
-          "name": "Germie Bernard",
+          "id": "4429615",
+          "name": "Zay Flowers",
           "position": "WR",
-          "proTeam": "PIT",
-          "projection": 13.41,
+          "proTeam": "BAL",
+          "projection": 17.41,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -719,17 +719,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4047650",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "proTeam": "PIT",
-          "projection": 14.86,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4035538",
           "name": "David Montgomery",
           "position": "RB",
@@ -746,6 +735,17 @@
           "position": "WR",
           "proTeam": "TB",
           "projection": 13.65,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4685261",
+          "name": "Germie Bernard",
+          "position": "WR",
+          "proTeam": "PIT",
+          "projection": 13.41,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -975,7 +975,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 4,
-      "projection": 122.89,
+      "projection": 129.69,
       "record": {
         "losses": 5,
         "pointsAgainst": 767.1199999999999,
@@ -1063,11 +1063,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16030",
-          "name": "Jaguars D/ST",
+          "id": "-16005",
+          "name": "Browns D/ST",
           "position": "D/ST",
-          "proTeam": "JAX",
-          "projection": 0.0,
+          "proTeam": "CLE",
+          "projection": 6.8,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1107,17 +1107,6 @@
         },
         {
           "actual": 0.0,
-          "id": "-16005",
-          "name": "Browns D/ST",
-          "position": "D/ST",
-          "proTeam": "CLE",
-          "projection": 6.8,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4385690",
           "name": "Dalton Kincaid",
           "position": "TE",
@@ -1134,6 +1123,17 @@
           "position": "WR",
           "proTeam": "CLE",
           "projection": 12.14,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "-16030",
+          "name": "Jaguars D/ST",
+          "position": "D/ST",
+          "proTeam": "JAX",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
