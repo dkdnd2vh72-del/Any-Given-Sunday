@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[4]",
+      "path": "$.mTransactions2.transactions[31]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[4].items[0]",
+      "path": "$.mTransactions2.transactions[31].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[4].items[1]",
+      "path": "$.mTransactions2.transactions[31].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -423,10 +423,10 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 72,
-        "acquisitions": 23,
-        "drops": 27,
+        "acquisitions": 29,
+        "drops": 29,
         "misc": 0,
-        "moveToActive": 36,
+        "moveToActive": 41,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -837,10 +837,10 @@
       "path": "$.mTeam.teams[8].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 44,
-        "acquisitions": 10,
-        "drops": 10,
+        "acquisitions": 13,
+        "drops": 12,
         "misc": 0,
-        "moveToActive": 22,
+        "moveToActive": 25,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1304,7 +1304,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 89.44,
+        "appliedStatTotal": 116.12,
         "tradeReservedEntries": 0
       }
     },
@@ -1500,6 +1500,73 @@
         "appliedStatTotal": 12.0,
         "id": -16007,
         "keeperValue": 12,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 20.0,
+        "id": 4429086,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Michael Mayer led the Raiders in targets with seven in a season-opening win over the Dolphins, although he turned that volume into just six catches for 32 yards. That opportunity came as Brock Bowers was sidelined following minor knee surgery, and while the third-year star isn't expected to be out long, he has yet to be cleared for Week 2. If Mayer does get the start at tight end, he'll be facing a Chargers defense that finished fifth in points allowed to TEs last year, although it couldn't contain Trey McBride to begin the current campaign.",
+        "3": "Michael Mayer hasn't made much of an impact as the Raiders' top tight end through the first two weeks of the season, catching nine of 11 targets for 55 yards without scoring a touchdown. That role has come while Brock Bowers was recovering from minor knee surgery at the end of training camp, but with Bowers expected to return in Week 3, Mayer will see even his modest volume collapse. If Bowers' 2026 debut does get delayed further, Mayer will still be facing a Saints defense that has yet to allow a TD to a tight end so far.",
+        "4": "Michael Mayer's stint as the Raiders' starting TE ended in Week 3 with the return of Brock Bowers, but he stayed involved in a win over the Saints, catching all three of his targets for 32 yards and his first touchdown of the season. A lack of options at wide receiver could mean Klint Kubiak will continue to lean on both his tight ends for offense, keeping Mayer relevant even with Bowers as the clear No. 1 target for Kirk Cousins. Mayer could make a splash again in Week 4 against a Kansas City defense that's been the stingiest in the league against WRs so far, but which ranks just 19th in fantasy points per game allowed to TEs.",
+        "5": "Michael Mayer was busy in the Raiders' Week 4 loss to Kansas City, turning a season-high 10 targets into eight catches for 82 yards. The additional volume came after wide receiver Jalen Nailor left the game with a concussion, forcing Kirk Cousins to lean even more heavily on his tight end duo of Mayer and Brock Bowers to move the chains. Even with a healthy Bowers back in action the last two weeks, Mayer has delivered an 11-114-1 line on 13 targets. However, he'll struggle to maintain that pace in Week 5 against a Patriots defense that has allowed the fewest fantasy points per game to TEs in 2026.",
+        "6": "Michael Mayer's volume took a significant step backward in the Raiders' Week 5 loss to the Patriots. After turning 10 targets into an 8-82-0 line in Week 4, Mayer got only one look from Kirk Cousins in New England, turning it into a two-yard gain. Brock Bowers is the unquestioned top option in the team's passing game, but a lack of established wide receivers has created an opening for Mayer to be more than just injury insurance. Through five games, he's delivered a 21-171-1 line on 25 targets, putting him on pace for career-best numbers in 2026. Mayer will face a Bills defense in Week 6 that ranks 15th in fantasy points per game allowed to TEs.",
+        "7": "Michael Mayer took advantage of the extra defensive attention the Bills paid to Brock Bowers in Week 6, catching seven of nine targets for a season-high 95 yards. While Bowers remains the top option in the Raiders' passing attack, Mayer is on pace for a career-best year of his own, producing a 28-266-1 line on 34 targets through six games. He is eight receptions and 63 yards away from establishing new personal bests. Mayer will likely struggle to reach those marks in Week 7 against a Rams defense that ranks second in fantasy points per game allowed to TEs."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 17.900000000000002,
+        "id": 17372,
+        "keeperValue": 15,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 4360569,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 14.5,
+        "id": 4426386,
+        "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
         "onTeamId": 3,
@@ -1998,7 +2065,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Montgomery",
-        "lastNewsDate": 1792100090000,
+        "lastNewsDate": 1792606273000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -2439,7 +2506,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
-        "lastNewsDate": 1792602330000,
+        "lastNewsDate": 1792615048000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -2771,9 +2838,9 @@
         "fullName": "A.J. Brown",
         "id": 4047646,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Brown",
-        "lastNewsDate": 1792533710000,
+        "lastNewsDate": 1792610579000,
         "lastVideoDate": 1790865542000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3914,7 +3981,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 49.78,
+        "appliedStatTotal": 65.88,
         "tradeReservedEntries": 0
       }
     },
@@ -4163,20 +4230,6 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.0,
-        "id": 4686361,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 13,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 5.0,
         "id": -16025,
         "keeperValue": 0,
@@ -4189,7 +4242,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.0,
         "id": 4599739,
@@ -4203,7 +4256,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Kendre Miller could operate as the Saints' No. 2 running back if Alvin Kamara (knee) remains sidelined for the Week 2 matchup against the Ravens. Miller was surprisingly involved in New Orleans' Week 1 gameplan, tying Travis Etienne for the most carries on the team while finding the end zone. Despite averaging only 3.3 yards per carry, Miller could have a similar role if Kamara remains out for Week 2. It's also a favorable matchup for running backs, as the Ravens defense allowed 5.2 yards per carry and two rushing touchdowns in Week 1.",
         "4": "Kendre Miller is expected to split carries with Alvin Kamara in the Saints' Week 4 matchup  against the Falcons, with Travis Etienne (hamstring) out. Miller tallied 19 yards on six touches during the Week 3 loss, playing behind both Alvin Kamara and Etienne. As Etienne deals with an ongoing hamstring injury, Miller is likely to split work on the ground with Kamara in the Week 4 contest, operating as one of the Saints' leading rushers. Despite this, Miller is in for a tough matchup against a Falcons defense that's allowed just 3.1 yards per carry this season.",
@@ -4213,10 +4266,10 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.0,
-        "id": 4360238,
+        "appliedStatTotal": 0.0,
+        "id": 4569603,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -4224,6 +4277,84 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player",
+      "values": {
+        "active": true,
+        "defaultPositionId": 3,
+        "droppable": true,
+        "firstName": "Malik",
+        "fullName": "Malik Washington",
+        "id": 4569603,
+        "injured": false,
+        "injuryStatus": "ACTIVE",
+        "lastName": "Washington",
+        "lastNewsDate": 1791762868000,
+        "lastVideoDate": 1791489195000,
+        "proTeamId": 15,
+        "seasonOutlook": "Washington was a sixth-round flier back in 2024, but that didn't stop him from working his way into a substantial offensive role last season. Washington finished third on the Dolphins in targets, trailing only Jaylen Waddle and De'Von Achane. Of course, Miami's shaky group of offensive personnel was an obvious factor and Washington's efficiency wasn't very good (5.0 yards per target, 7.0 yards per reception, 0.9 yards per route run). The 25-year-old is fine as a short-range target and occasional rusher, but that's likely his ceiling with newcomers Jalen Tolbert, Chris Bell, Caleb Douglas and Kevin Coleman Jr. expected to factor in at wide receiver.",
+        "universeId": 1
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Malik Washington hopes for more efficiency when the Dolphins face the 49ers in Week 2. Washington recorded a healthy eight targets in the team's opener, and while 17.7 yards per catch is encouraging, he caught only three balls. Washington has value as a returner in some leagues, and passing volume will likely remain high with Miami forced to throw from behind in the second half. Even so, Week 2's matchup against a defense that held more talented receivers to just 6.4 yards per target in their opener is a risky endeavor.",
+        "3": "Malik Washington brings steady volume ahead of the Dolphins' Week 3 matchup with the Chiefs. With Malik Willis under center, Miami has completed just 29 passes through two games, but seven have gone to Washington, who's averaging 6.5 targets. Kansas City's rebuilt secondary has been terrific through two games, allowing just 204 yards to opposing wideouts. Washington seems unlikely to produce any massive numbers, but he also appears to be a steady cog in this limited offense, keeping him on WR3/Flex radars.",
+        "4": "Malik Washington remains heavily involved in the Dolphins' low-profile passing game heading into Week 4 against the Vikings. Washington is coming off of a season-high 10 targets in Week 3, and has collected three rushing attempts over the last two weeks while also being involved in kickoff returns, but he's yet to top 61 rushing/receiving yards per game or score. Washington's workload creates a viable floor, and Minnesota is allowing a healthy 8.2 yards per target to opposing receivers.",
+        "5": "Malik Washington's volume continues to be steady for the Dolphins as they enter a Week 5 matchup with the Bengals. He hauled in five of QB Malik WIllis' nine completions in Week 4, his fourth-straight week with at least five targets while increasing his yardage in each of the last three outings. Cincinnati's secondary hasn't allowed an opposing receiver to top 63 yards, and while Washington's workload shouldn't be questioned, his potential remains capped by Miami's low-scoring offense.",
+        "7": "Malik Washington brings a steady workload but limited yardage potential into the Dolphins' Week 7 matchup with the Jets. Washington has commanded at least five targets in all five games, three times reaching eight or more, but has topped out at 67 yards, operating mainly on short, slot routes while Miami struggles to find a vertical passing game. The Jets are allowing just 7.3 yards per target; Washington too is averaging 7.3 yards per target, setting him up for a rather predictable Week 7 outing where he'll need a heavy target share to offer anything more than bye-week replacement scoring."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 9.9,
+        "id": 4568263,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 13,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Ryan Fitzgerald is in for a favorable Week 2 matchup when the Panthers face the Falcons, who gave up 8.0 kicking points in a Week 1 loss. Fitzgerald made five of his six kicks last week, drilling his only field-goal attempt while going four-for-five on point-after tries. He's expected to continue seeing plenty of scoring opportunities in Week 2, as he averaged 11.0 kicking points per game in two games against Atlanta in 2025.",
+        "3": "Ryan Fitzgerald is expected to have plenty of scoring opportunities in the Panthers' Week 3 matchup against the Browns. Fitzgerald has started the season strong, converting on all three of his field-goal tries and eight of nine point-after attempts. Additionally, he could continue to benefit from the Panthers' offensive success, as the team currently ranks second in points per game (35.5). Fitzgerald is in for a great Week 3 matchup as well, with Cleveland allowing 11.5 kicking points per game through two contests this season.",
+        "4": "Ryan Fitzgerald will look to continue building on an impressive performance in the Panthers' Week 4 matchup against the Lions. Fitzgerald was perfect in Carolina's Week 3 loss, converting on all four of his field-goal tries. On the season, he's made all seven field-goal attempts and eight of nine point-after tries. Fitzgerald expected to continue seeing plenty of scoring opportunities in Week 4, as Detroit's defense has allowed 31.7 points per game this season, despite giving up just 5.0 kicking points per game.",
+        "6": "Ryan Fitzgerald will look to bounce back from a poor performance in Carolina's Week 6 matchup against the Eagles. Despite an upset win over the Lions in Week 4, Fitzgerald made just two of four point-after attempts. On the season, the second-year pro has made all nine field goals but has struggled on extra points, converting on just 10 of 13 tries. He's in for a tougher Week 6 matchup as well, with Philadelphia's defense allowing just 6.8 kicking pints per game this year.",
+        "7": "Ryan Fitzgerald will likely have plenty of scoring opportunities in Carolina's Week 7 matchup against the Buccaneers. Fitzgerald has struggled over the last two contests, making just three of six point-after attempts. On the season, Fitzgerald is a perfect 11-for-11 on field-goal tries but just 11 of 15 on extra-point attempts. He's in for a very favorable Week 7 matchup against a Buccaneers defense that's given up 10.0 kicking points per game this season."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 16.200000000000003,
+        "id": 15818,
+        "keeperValue": 12,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 13,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Keenan Allen can still get open on short passes, but the 34-year-old WR's lack of big-play potential limits his fantasy relevance to deeper formats heading into the Colts' Week 2 road game against the Chiefs. Allen caught all six of his targets in his Colts debut, leading the team in receptions, but he totaled just 32 receiving yards. Expect him to post plenty of similar stat lines this season after averaging a career-low 9.6 yards per catch with the Chargers last year.",
+        "3": "Keenan Allen should get plenty of playing time in Week 3 against the Texans with the Colts' banged-up WR room, but the 34-year-old wideout may not have enough gas in the tank to make much of the opportunity. Allen has exceeded 44 yards just once and failed to score a TD in his last 12 games. Despite that lack of recent production, he's a viable deep-league dart throw, as Indianapolis will be without Alec Pierce (heel) and possibly Ashton Dulin (ankle), leaving Allen as the top option for snaps at WR alongside Josh Downs.",
+        "4": "Keenan Allen turned back the clock in the Colts' Week 3 win over the Texans, catching six of nine targets for 63 yards and his first TD since Week 7 of the previous season. The 34-year-old WR is poised to maintain an expanded role in Week 4 against Washington's weak secondary as the Colts continue to play without starting WR Alec Pierce (heel), who is on IR. A repeat effort may be too much to ask from Allen, who averaged just 32 yards per game during his 12-game touchdown drought, but he's a viable flex option considering the Commanders have allowed league-high totals in catches and touchdowns to WRs, with 46 and six, respectively.",
+        "5": "Keenan Allen missed the Colts' Week 4 win over the Commanders due to a groin injury. If the 34-year-old WR is cleared to return in Week 5, he could play a prominent role opposite Josh Downs in a Colts WR room that remains without Alec Pierce (heel), who is on IR. Concerns about Allen's injury and performance limit his viability to deeper formats, even against a Steelers secondary that's giving up 149 receiving yards per game to wide receivers. Allen snapped a 12-game touchdown drought in the Colts' Week 3 win over Houston.",
+        "6": "Keenan Allen has caught 11 of 18 targets for 108 yards and a TD in his last two outings for the Colts, sandwiched around a Week 4 absence due to a groin injury. The 34-year-old wideout has stepped up in the absence of WR Alec Pierce (heel), who remains on injured reserve ahead of a Week 6 home game against the Titans. Allen lacks Pierce's ability to stretch the field, but a steady diet of short targets should put Allen back into the flex mix in Week 6 against a Titans defense that ranks among the 10 most generous units in terms of catches and yards allowed to WRs.",
+        "7": "Keenan Allen has turned back the clock over his past three appearances for the Colts, securing 19 of 29 targets for 190 yards and a TD over that span while drawing at least nine targets in every game. The 34-year-old wideout should continue to fill a high-volume role in a Colts WR room that lacks appealing alternatives in the continued absence of Alec Pierce (heel). Allen is a high-floor fantasy WR3 in Week 7 against the Vikings, who are allowing 10 catches for 133 yards per game to WRs. Minnesota's aggressive blitz packages will likely force the Colts into plenty of the quick and short throws on which Allen thrives."
       }
     },
     {
@@ -4397,7 +4528,7 @@
         "injured": false,
         "injuryStatus": "DAY_TO_DAY",
         "lastName": "Jacobs",
-        "lastNewsDate": 1792445542000,
+        "lastNewsDate": 1792604427000,
         "lastVideoDate": 1792593425000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
@@ -5046,9 +5177,9 @@
         "keeperValue": 12,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 0,
+        "onTeamId": 13,
         "rosterLocked": false,
-        "status": "FREEAGENT",
+        "status": "ONTEAM",
         "tradeLocked": false
       }
     },
