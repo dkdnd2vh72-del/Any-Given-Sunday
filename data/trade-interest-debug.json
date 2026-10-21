@@ -752,7 +752,7 @@
       "values": {
         "acquisitionBudgetSpent": 1,
         "acquisitions": 6,
-        "drops": 5,
+        "drops": 6,
         "misc": 0,
         "moveToActive": 12,
         "moveToIR": 2,
@@ -3879,31 +3879,6 @@
       }
     },
     {
-      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 5.800000000000001,
-        "id": 4373626,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 12,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Tyler Allgeier heads into a Week 2 clash against Seattle with a big role in Arizona's backfield. Allgeier logged 17 carries for 61 yards in a season-opening win against the Chargers, getting more totes and producing more yards than rookie Jeremiyah Love. It remains to be seen if that will hold true throughout the campaign, but for the time being Allgeier seems set to be heavily involved in the Cardinals' ground game. With that said, both Allgeier and Love could find the sledding tough in Week 2 versus a Seahawks defense that yielded the third-fewest rushing yards per game during the regular season last year.",
-        "3": "Tyler Allgeier will seek to improve his efficiency on the ground during Arizona's Week 3 visit to San Francisco. Allgeier gained just 10 yards on five carries Sunday in a loss against Seattle, and he's averaging a meager 3.2 YPC through two contests. He paced the Cardinals with 17 carries in the team's season opener, but  Jeremiyah Love jumped ahead with him with nine carries Week 2 and could continue to settle in as the club's clear No. 1 RB moving forward. The 49ers have yielded 4.04 YPC to running backs so far, but that's led to just one rushing TD.",
-        "4": "Tyler Allgeier seems to have fallen well behind Jeremiyah Love for ball-carrying opportunities heading into Arizona's Week 4 matchup with the Giants. Love carried the ball 21 times against San Francisco this past Sunday, while Allgeier handled a season-low two totes. The latter did reel in a season-best four catches, but they amounted to just 10 receiving yards. Though the Giants are struggling against the run, ranking in the bottom half of the league in allowing 18.5 fantasy points per game to RBs, Allgeier will likely need to see more opportunities in order to make an impact.",
-        "5": "Tyler Allgeier may be lined up for a big role for Arizona in Week 5 against the Lions. Rookie Jeremiyah Love is dealing with an ankle injury, and if he can't suit up Sunday, Allgeier will likely lead the team's backfield. Even with Love healthy for nearly the entire game in Week 4, Allgeier posted good production, recording an 8-42-1 rushing line and two catches for seven yards. The Cardinals' RB group could find success against a Lions defense that is giving up 4.64 yards per carry to running backs, eighth-worst in the league.",
-        "6": "Tyler Allgeier's role in Arizona's backfield seems to be fading ahead of a Week 6 matchup against the Rams. Allgeier logged just three carries for seven yards this past Sunday against Detroit while adding nine yards on two catches. The veteran running back has logged three or fewer totes two of the past three weeks and seems to be far behind rookie Jeremiyah Love, who got 12 carries versus the Lions, in the pecking order. With that said, he could get some opportunities as a pass catcher against the Rams, who have given up the fourth-most receiving yards per game (42.6) to running backs through five weeks.",
-        "7": "Tyler Allgeier could continue handling a significant share of Arizona's backfield workload in Week 7 against Denver, regardless of whether Jeremiyah Love remains sidelined with an ankle injury or returns after a one-game absence. Allgeier has rushed 53 times for 157 yards and a touchdown through six games, but he's averaging just 3.0 yards per carry, so he needs to be more efficient when he gets the ball. Bam Knight's emergence adds another obstacle to consistent fantasy production. However, Denver has allowed the sixth-most fantasy points per game to opposing RBs in 2026, so Allgeier should have flex appeal if he has an expanded role for a second consecutive week."
-      }
-    },
-    {
       "path": "$.mRoster.teams[8].roster",
       "values": {
         "appliedStatTotal": 62.18000000000001,
@@ -5109,10 +5084,11 @@
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 12,
+        "onTeamId": 0,
         "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1792652400000
       }
     },
     {
