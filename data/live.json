@@ -51,7 +51,7 @@
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 140.83,
+        "projection": 140.61,
         "score": 0.0,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -59,7 +59,7 @@
     },
     {
       "away": {
-        "projection": 135.75,
+        "projection": 138.44,
         "score": 0.0,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "acquisitions": 24,
+      "acquisitions": 23,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -792,7 +792,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 1,
-      "projection": 135.75,
+      "projection": 138.44,
       "record": {
         "losses": 3,
         "pointsAgainst": 734.96,
@@ -880,11 +880,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16014",
-          "name": "Rams D/ST",
+          "id": "-16020",
+          "name": "Jets D/ST",
           "position": "D/ST",
-          "proTeam": "LAR",
-          "projection": 5.03,
+          "proTeam": "NYJ",
+          "projection": 7.72,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -913,17 +913,6 @@
         },
         {
           "actual": 0.0,
-          "id": "-16020",
-          "name": "Jets D/ST",
-          "position": "D/ST",
-          "proTeam": "NYJ",
-          "projection": 7.72,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "14880",
           "name": "Kirk Cousins",
           "position": "QB",
@@ -940,6 +929,17 @@
           "position": "RB",
           "proTeam": "DEN",
           "projection": 11.43,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "-16014",
+          "name": "Rams D/ST",
+          "position": "D/ST",
+          "proTeam": "LAR",
+          "projection": 5.03,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1734,13 +1734,13 @@
       ]
     },
     {
-      "acquisitions": 7,
+      "acquisitions": 8,
       "actual": 0.0,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 6,
-      "projection": 140.83,
+      "projection": 140.61,
       "record": {
         "losses": 7,
         "pointsAgainst": 831.58,
@@ -1751,11 +1751,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "3915511",
-          "name": "Joe Burrow",
+          "id": "4432577",
+          "name": "C.J. Stroud",
           "position": "QB",
-          "proTeam": "CIN",
-          "projection": 19.44,
+          "proTeam": "HOU",
+          "projection": 19.22,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -1861,11 +1861,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4432577",
-          "name": "C.J. Stroud",
-          "position": "QB",
-          "proTeam": "HOU",
-          "projection": 19.22,
+          "id": "4427095",
+          "name": "DeMario Douglas",
+          "position": "WR",
+          "proTeam": "NE",
+          "projection": 10.53,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1877,6 +1877,17 @@
           "position": "TE",
           "proTeam": "DAL",
           "projection": 7.19,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "3915511",
+          "name": "Joe Burrow",
+          "position": "QB",
+          "proTeam": "CIN",
+          "projection": 19.44,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
