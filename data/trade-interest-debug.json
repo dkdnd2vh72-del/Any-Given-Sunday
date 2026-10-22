@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[33]",
+      "path": "$.mTransactions2.transactions[35]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33].items[0]",
+      "path": "$.mTransactions2.transactions[35].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33].items[1]",
+      "path": "$.mTransactions2.transactions[35].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40]",
+      "path": "$.mTransactions2.transactions[42]",
       "values": {
         "bidAmount": 1,
         "executionType": "EXECUTE",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[0]",
+      "path": "$.mTransactions2.transactions[42].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 4,
@@ -78,7 +78,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[1]",
+      "path": "$.mTransactions2.transactions[42].items[1]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 4,
@@ -91,7 +91,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[2]",
+      "path": "$.mTransactions2.transactions[42].items[2]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 5,
@@ -104,7 +104,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[55]",
+      "path": "$.mTransactions2.transactions[57]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[55].items[0]",
+      "path": "$.mTransactions2.transactions[57].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -137,7 +137,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[55].items[1]",
+      "path": "$.mTransactions2.transactions[57].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -828,7 +828,7 @@
         "acquisitions": 5,
         "drops": 5,
         "misc": 0,
-        "moveToActive": 14,
+        "moveToActive": 15,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -945,7 +945,7 @@
         "acquisitions": 7,
         "drops": 6,
         "misc": 0,
-        "moveToActive": 12,
+        "moveToActive": 13,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -2209,7 +2209,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Montgomery",
-        "lastNewsDate": 1792606273000,
+        "lastNewsDate": 1792691138000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -2531,7 +2531,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 100.1,
+        "appliedStatTotal": 118.61999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -2650,7 +2650,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jackson",
-        "lastNewsDate": 1792615048000,
+        "lastNewsDate": 1792688971000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -3718,7 +3718,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 108.30000000000001,
+        "appliedStatTotal": 106.02000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -4673,7 +4673,7 @@
         "injured": false,
         "injuryStatus": "DAY_TO_DAY",
         "lastName": "Jacobs",
-        "lastNewsDate": 1792604427000,
+        "lastNewsDate": 1792689349000,
         "lastVideoDate": 1792593425000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
