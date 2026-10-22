@@ -104,7 +104,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53]",
+      "path": "$.mTransactions2.transactions[54]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[0]",
+      "path": "$.mTransactions2.transactions[54].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -137,7 +137,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53].items[1]",
+      "path": "$.mTransactions2.transactions[54].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -516,7 +516,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 9,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -534,7 +534,7 @@
         "primaryOwner": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 6
+        "waiverRank": 5
       }
     },
     {
@@ -654,7 +654,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 9,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -818,7 +818,7 @@
         "primaryOwner": "{113D06BF-E687-4014-BD06-BFE687C014C5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 8
+        "waiverRank": 7
       }
     },
     {
@@ -857,7 +857,7 @@
         "primaryOwner": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 9
+        "waiverRank": 8
       }
     },
     {
@@ -878,7 +878,7 @@
       "path": "$.mTeam.teams[6]",
       "values": {
         "abbrev": "RENZ",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 10,
         "eliminated": false,
@@ -896,15 +896,15 @@
         "primaryOwner": "{6DFCEF0A-EDE4-4244-BCEF-0AEDE4924420}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 5
+        "waiverRank": 10
       }
     },
     {
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 70,
-        "acquisitions": 15,
-        "drops": 14,
+        "acquisitionBudgetSpent": 72,
+        "acquisitions": 16,
+        "drops": 15,
         "misc": 0,
         "moveToActive": 30,
         "moveToIR": 4,
@@ -935,7 +935,7 @@
         "primaryOwner": "{55557D11-0BB9-4FB9-957D-110BB9EFB9E5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 10
+        "waiverRank": 9
       }
     },
     {
@@ -974,7 +974,7 @@
         "primaryOwner": "{B9D0D9CD-0373-43B0-B535-9F31B41A51F8}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 7
+        "waiverRank": 6
       }
     },
     {
@@ -3649,30 +3649,6 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.2,
-        "id": 4887558,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "3": "Emanuel Wilson will look to build upon a big performance when Seattle faces Washington in Week 3. With Jadarian Price suffering a shoulder injury against Arizona on Sunday, Wilson stepped up and led the Seahawks with 21 rushes for 92 yards. Price's injury isn't considered serious, but it's not certain that he'll be able to return to action in Week 3. Whoever leads Seattle's backfield will be looking to score the first rushing touchdown against the Commanders this season.",
-        "4": "Emanuel Wilson may be moving into a timeshare at running back for Seattle heading into a Week 4 matchup against the Chargers. An early fumble by rookie Jadarian Price was partly responsible for Wilson leading the Seahawks with nine carries in a Week 3 win over Washington, with Price logging just five totes and George Holani three. With that said, Wilson managed a paltry 14 yards on his carries, so he didn't exactly make a loud statement in a bid for more work. The Chargers just gave up 154 rushing yards to Buffalo's James Cook in Week 3, so they could be vulnerable on the ground.",
-        "5": "Emanuel Wilson will look to build upon a big Week 4 performance when Seattle faces San Francisco in Week 5. Wilson led his team's backfield this past Sunday against the Chargers, posting a 21-81-1 line on the ground. Equally promising was his 3-39-1 line as a pass catcher after he logged zero receptions over the first three weeks of the campaign. With Jadarian Price (chest) on IR, Wilson figures to continue to work as Seattle's No. 1 RB, though the eventual return of Zach Charbonnet (knee) could shake up the backfield. Charbonnet isn't expected to be ready for Week 5, however, so Wilson will likely get plenty of work against the 49ers, who are middle-of-the-pack so far in giving up 17.4 fantasy points per game to running backs.",
-        "6": "Emanuel Wilson will look to get into the end zone for a third straight game when the Seahawks travel to Denver in Week 6. Wilson has emerged as Seattle's clear top RB over the past two weeks, registering 41 carries for 142 yards and two touchdowns on the ground along with five catches for 50 yards and another score through the air in that span. He figures to continue working as the team's No. 1 RB at least until one or both of Zach Charbonnet (knee) or Jadarian Price (chest) is able to return, but that won't happen in Week 6. The Broncos have been vulnerable against the run this season, surrendering 4.51 yards per carry to running backs (eighth-worst in the league).",
-        "7": "Emanuel Wilson and the Seahawks play host to the Chiefs for a Week 7 clash on Sunday Night Football. He had 14 carries for 52 yards and failed to catch his only target during Seattle's 17-14 overtime loss in Week 6. It was an underwhelming performance for Wilson, who had scored three touchdowns over his previous two outings. With Zach Charbonnet (knee) practicing and likely to make his 2026 season debut in Week 7, it's probably best to avoid the Seahawks backfield versus Kansas City's defense that's tied for ninth in fantasy points allowed per game (19.0) to RBs."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 20.240000000000002,
         "id": 4036378,
         "keeperValue": 0,
@@ -3685,7 +3661,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 14.5,
         "id": -16012,
@@ -3699,7 +3675,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 16,
@@ -3712,6 +3688,31 @@
         "proTeamId": 12,
         "seasonOutlook": "The Chiefs have fielded a middling fantasy D/ST the past two seasons, scoring in double-digits only seven times  but finishing with zero or negative fantasy points only five times . Top draftee Mansoor Delane replaces CB Trent McDuffie, who was traded to the Rams, but the team otherwise returns largely the same starting lineup. An opening-week matchup against the Broncos should be avoided, but there are pockets of the schedule where the Chiefs would be great for streaming: Weeks 3-4 (@MIA, @LV) and Weeks 9-11 (NYJ, @ATL, ARI) especially.",
         "universeId": 1
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 16.8,
+        "id": 3046439,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 11,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Hunter Henry will look for more opportunities in Week 2 when New England hosts Pittsburgh. Henry caught all three of his targets to open 2026, and with the Patriots losing A.J. Brown (ankle) for the foreseeable future, additional targets could come Henry's way. Pittsburgh didn't allow a catch to tight ends last week, but that was a product of poor opponent quarterback play. Henry can be considered a back-end option at the position with the potential for far more against a defense he posted two touchdowns and 90 yards against a season ago.",
+        "3": "Hunter Henry will look to keep expanding his role for the Patriots in Week 3 against the Jaguars. In their first full game without A.J. Brown in Week 2, Henry logged a 92% snap share but drew only five targets, turning them into three catches for 40 yards. Drake Maye has struggled to open the season, posting a 1:4 TD:INT ratio, and while someone has to catch the limited passes, Henry faces a challenging matchup against a defense that hasn't allowed an opposing tight end to top 32 yards against them so far.",
+        "4": "Hunter Henry is laboring for opportunity in a sputtering Patriots passing offense ahead of a Week 4 game against the Bills. Henry caught just one of two targets in Week 3, finishing with five yards, and has yet to score or top 40 yards. There are likely better Week 4 options with Henry facing a defense that's allowed one opposing tight end to top 35 yards.",
+        "5": "Hunter Henry could have an expanded role in Week 5 when the Patriots face the Raiders with Eli Raridon (ankle) uncertain. Henry was already playing at least 70% of the snaps, and he posted a season-high five catches for 62 yards in Week 4, collecting five targets for the second time this season. Las Vegas has allowed five touchdown catches to opposing tight ends, but also just 6.1 yards per target through four games, suggesting Henry may need to find the end zone for the first time in 2026 to be a fantasy asset.",
+        "6": "Hunter Henry has been steady in the Patriots passing game ahead of a potentially difficult Week 6 matchup with the Jets. He has three catches in four of the Patriots' first five games, three times recording at least 40 yards, and he posted 45 and 49 yards in two matchups last season against this divisional opponent. However, the Jets have been stingy against tight ends, allowing just 191 yards (6.0 yards per target) and zero touchdowns through five games.",
+        "7": "Hunter Henry brings a two-game scoring streak into the Patriots' Week 7 matchup with the Bears. With Drake Maye clicking on all cylinders over the last three weeks (10 touchdown passes), Henry has posted at least three catches and 44 yards during that stretch. Chicago has defended tight ends well for most of the season, but over the last two weeks, an opposing tight end has gone for 60 or more yards, and they've surrendered their first two touchdowns of the year to the position. Henry's volume is steady, giving him a bit more of a reliable floor than high potential."
       }
     },
     {
@@ -5397,9 +5398,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1792652400000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
