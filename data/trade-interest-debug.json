@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[35]",
+      "path": "$.mTransactions2.transactions[37]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35].items[0]",
+      "path": "$.mTransactions2.transactions[37].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35].items[1]",
+      "path": "$.mTransactions2.transactions[37].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42]",
+      "path": "$.mTransactions2.transactions[45]",
       "values": {
         "bidAmount": 1,
         "executionType": "EXECUTE",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42].items[0]",
+      "path": "$.mTransactions2.transactions[45].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 4,
@@ -78,7 +78,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42].items[1]",
+      "path": "$.mTransactions2.transactions[45].items[1]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 4,
@@ -91,7 +91,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42].items[2]",
+      "path": "$.mTransactions2.transactions[45].items[2]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 5,
@@ -104,7 +104,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[57]",
+      "path": "$.mTransactions2.transactions[61]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -124,7 +124,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[57].items[0]",
+      "path": "$.mTransactions2.transactions[61].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -137,7 +137,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[57].items[1]",
+      "path": "$.mTransactions2.transactions[61].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -150,7 +150,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[63]",
+      "path": "$.mTransactions2.transactions[67]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -170,7 +170,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[63].items[0]",
+      "path": "$.mTransactions2.transactions[67].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -183,7 +183,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[63].items[1]",
+      "path": "$.mTransactions2.transactions[67].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -501,10 +501,10 @@
       "path": "$.mTeam.teams[0].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 5,
+        "acquisitions": 6,
         "drops": 5,
         "misc": 0,
-        "moveToActive": 9,
+        "moveToActive": 11,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -780,7 +780,7 @@
         "acquisitions": 5,
         "drops": 5,
         "misc": 0,
-        "moveToActive": 15,
+        "moveToActive": 16,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -985,7 +985,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 51.9,
+        "appliedStatTotal": 77.4,
         "tradeReservedEntries": 0
       }
     },
@@ -1317,9 +1317,9 @@
         "fullName": "Dontayvion Wicks",
         "id": 4428850,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Wicks",
-        "lastNewsDate": 1792697835000,
+        "lastNewsDate": 1792710865000,
         "proTeamId": 21,
         "seasonOutlook": "Wicks was traded to the Eagles after spending his first three NFL seasons in Green Bay. The 2023 fifth-round pick was limited to situational work during his Packers tenure, never finishing a season among the top 50 receivers in snaps, routes, targets, catches or yards. Wicks flashed at times (exactly one game of 24-plus points in each season), but otherwise scored 5.3 PPG. Even after the Eagles traded A.J. Brown, Wicks' path to targets may not be any easier in Philly. DeVonta Smith, Dallas Goedert and Saquon Barkley are all assured substantial roles, with first-round rookie Makai Lemon and Hollywood Brown also very much in the mix. Wicks, 25, will need to win the team's No. 2 receiver gig in order to have any shot at weekly flex consideration. He's barely worth late-round consideration in deep leagues.",
         "universeId": 2
@@ -1351,9 +1351,33 @@
       }
     },
     {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 3917315,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 1,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Kyler Murray's status is up in the air as the Vikings travel to Chicago in Week 2. Murray went down early in Week 1 against the Packers after taking a hard hit to the head. Before his exit, Murray completed three of five passes for 18 yards and one interception, tacking on two rushes for nine yards on the ground. The veteran is now under evaluation for a concussion, which could very likely keep him sidelined for an extended period. Backup quarterback Carson Wentz delivered the win for Minnesota, and he's set to assume QB duties once again. The Bears gave up 361 passing yards, three touchdowns and one interception to Bryce Young in Week 1, so big output could definitely be in the cards for whoever lines up under center for the Vikings.",
+        "3": "Kyler Murray will return to the field as the Vikings travel to Tampa Bay in Week 3. Murray has cleared concussion protocol after suffering a nasty hit early in Week 1. The veteran quarterback will finally get the chance to prove himself, especially given that he completed just three of five passes for 18 yards and one interception before his opening-game departure. He'll face a Bucs defense that's allowed a middle-of-the-pack 20.4 fantasy points per game to QBs across its first two games.",
+        "4": "Kyler Murray will aim to build on a serviceable performance as the Vikings play the Dolphins in Week 4. Murray returned to the field in Week 3 versus the Buccaneers, completing 15 of 29 passes for 168 yards with a 1:1 TD:INT ratio, along with rushing the ball twice for 17 yards. The veteran quarterback also lost star wideout Justin Jefferson in the first half, so his final output and delivery of a win were more impressive. Miami has been much more favorable against quarterbacks than Tampa so far this season, allowing the seventh-most fantasy points per game (23.7) to the position.",
+        "5": "Kyler Murray will look to do more as the Vikings travel to New Orleans in Week 5. In his second full start of the year, Murray completed 27 of 37 passes for 247 yards, but he was unable to find the end zone. The veteran quarterback also now holds a 1:2 TD:INT through his three appearances this season, so he'll need to do more for Minnesota to lock him down as a long-term option. The Saints have ranked middle-of-the-pack against fantasy quarterbacks this season.",
+        "7": "Kyler Murray will look to keep the Vikings rolling in Week 7 against the Colts. Murray recorded his best game of the season against the Saints heading into Minnesota's bye, completing 80 percent of passes for 229 yards and a touchdown, with 10 rushes for 51 yards. The veteran quarterback could be a dangerous threat moving forward, especially if he can get it going on the ground once again. He'll face an Indy defense that's ranked 21st in fantasy points allowed to QBs."
+      }
+    },
+    {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 130.62,
+        "appliedStatTotal": 134.22000000000003,
         "tradeReservedEntries": 0
       }
     },
@@ -1412,13 +1436,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.5,
+        "appliedStatTotal": 21.1,
         "id": 4685278,
         "keeperValue": 0,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1617,9 +1641,9 @@
         "id": 4426386,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1724,7 +1748,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Waddle",
-        "lastNewsDate": 1792700388000,
+        "lastNewsDate": 1792711463000,
         "lastVideoDate": 1791996496000,
         "proTeamId": 7,
         "seasonOutlook": "Waddle was traded to Denver after spending his first five seasons in Miami. The 2021 first-round pick was solid during his Dolphins tenure, finishing in the top 30 among receivers in fantasy PPG four times, though never reaching the top 10 while often playing second fiddle to Tyreek Hill. Although he has been a reliable target and has missed only seven games in five years, Waddle hasn't finished a season higher than 20th in targets or catches since 2021. In Denver, the 27-year-old Waddle will compete with Courtland Sutton for the team lead in targets in a scheme that likes to spread the ball around. Not utilized near the goal line much at 5-foot-10 and 180 pounds (he's yet to clear seven end zone targets in a season), Waddle is likely to max out as a back-end WR2 in Denver.",
@@ -1884,13 +1908,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.5,
+        "appliedStatTotal": 17.54,
         "id": 4431611,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2436,7 +2460,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 118.61999999999999,
+        "appliedStatTotal": 100.1,
         "tradeReservedEntries": 0
       }
     },
@@ -2834,7 +2858,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 112.1,
+        "appliedStatTotal": 113.42,
         "tradeReservedEntries": 0
       }
     },
@@ -2870,9 +2894,9 @@
         "id": 4047646,
         "keeperValue": 3,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2928,9 +2952,9 @@
         "id": 4723086,
         "keeperValue": 0,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2987,13 +3011,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.8,
+        "appliedStatTotal": 25.12,
         "id": 4431452,
         "keeperValue": 10,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3082,9 +3106,9 @@
         "id": 4608686,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3304,9 +3328,9 @@
         "fullName": "DeVonta Smith",
         "id": 4241478,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1792697571000,
+        "lastNewsDate": 1792710345000,
         "lastVideoDate": 1792512538000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3330,13 +3354,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.0,
+        "appliedStatTotal": 6.5,
         "id": 4432710,
         "keeperValue": 3,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3602,9 +3626,9 @@
         "id": 3046439,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3623,7 +3647,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 106.02000000000001,
+        "appliedStatTotal": 106.32000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -3707,13 +3731,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.0,
+        "appliedStatTotal": 23.3,
         "id": 4259545,
         "keeperValue": 6,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4173,9 +4197,9 @@
         "fullName": "Dallas Goedert",
         "id": 3121023,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Goedert",
-        "lastNewsDate": 1792697847000,
+        "lastNewsDate": 1792711256000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
         "universeId": 2
@@ -4485,9 +4509,9 @@
         "id": 4431299,
         "keeperValue": 9,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4530,13 +4554,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.6,
+        "appliedStatTotal": 6.6,
         "id": 4569173,
         "keeperValue": 12,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4797,9 +4821,9 @@
         "id": 4427095,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5371,11 +5395,12 @@
         "id": 4683308,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793170800000
       }
     },
     {
@@ -5579,11 +5604,12 @@
         "id": 4434153,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793170800000
       }
     },
     {

@@ -10,7 +10,7 @@
       },
       "home": {
         "projection": 131.58,
-        "score": 0.0,
+        "score": 0.3,
         "teamId": 12,
         "teamName": "Injured Reserve"
       }
@@ -24,7 +24,7 @@
       },
       "home": {
         "projection": 129.57,
-        "score": 0.0,
+        "score": 1.32,
         "teamId": 8,
         "teamName": "King Johnson"
       }
@@ -38,7 +38,7 @@
       },
       "home": {
         "projection": 116.47,
-        "score": 0.0,
+        "score": 3.6,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       }
@@ -59,13 +59,13 @@
     },
     {
       "away": {
-        "projection": 134.98,
+        "projection": 138.54,
         "score": 0.0,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       },
       "home": {
-        "projection": 104.34,
+        "projection": 127.53,
         "score": 0.0,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -76,13 +76,13 @@
   "season": 2026,
   "teams": [
     {
-      "acquisitions": 5,
+      "acquisitions": 6,
       "actual": 0.0,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 9,
-      "projection": 104.34,
+      "projection": 127.53,
       "record": {
         "losses": 8,
         "pointsAgainst": 769.4000000000001,
@@ -93,13 +93,13 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "4696981",
-          "name": "Cam Skattebo",
-          "position": "RB",
-          "proTeam": "NYG",
-          "projection": 6.52,
-          "slot": "RB",
-          "slotId": 2,
+          "id": "3917315",
+          "name": "Kyler Murray",
+          "position": "QB",
+          "proTeam": "MIN",
+          "projection": 18.0,
+          "slot": "QB",
+          "slotId": 0,
           "tradeInterest": null
         },
         {
@@ -109,6 +109,17 @@
           "position": "RB",
           "proTeam": "LAR",
           "projection": 19.61,
+          "slot": "RB",
+          "slotId": 2,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4685702",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "proTeam": "CLE",
+          "projection": 13.24,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -148,11 +159,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4685702",
-          "name": "Quinshon Judkins",
-          "position": "RB",
-          "proTeam": "CLE",
-          "projection": 13.24,
+          "id": "4360248",
+          "name": "Kyle Pitts Sr.",
+          "position": "TE",
+          "proTeam": "ATL",
+          "projection": 11.71,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -192,6 +203,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4696981",
+          "name": "Cam Skattebo",
+          "position": "RB",
+          "proTeam": "NYG",
+          "projection": 6.52,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4428850",
           "name": "Dontayvion Wicks",
           "position": "WR",
@@ -225,17 +247,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4360248",
-          "name": "Kyle Pitts Sr.",
-          "position": "TE",
-          "proTeam": "ATL",
-          "projection": 11.71,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4360310",
           "name": "Trevor Lawrence",
           "position": "QB",
@@ -259,8 +270,8 @@
       ]
     },
     {
-      "acquisitions": 30,
-      "actual": 0.0,
+      "acquisitions": 29,
+      "actual": 3.6,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
@@ -308,7 +319,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 3.6,
           "id": "4685278",
           "name": "Luther Burden III",
           "position": "WR",
@@ -568,7 +579,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 1.04,
           "id": "4431611",
           "name": "Caleb Williams",
           "position": "QB",
@@ -836,7 +847,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 1,
-      "projection": 134.98,
+      "projection": 138.54,
       "record": {
         "losses": 3,
         "pointsAgainst": 734.96,
@@ -847,11 +858,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "14880",
-          "name": "Kirk Cousins",
+          "id": "3916387",
+          "name": "Lamar Jackson",
           "position": "QB",
-          "proTeam": "LV",
-          "projection": 16.39,
+          "proTeam": "BAL",
+          "projection": 19.95,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -957,11 +968,11 @@
         },
         {
           "actual": 0.0,
-          "id": "3916387",
-          "name": "Lamar Jackson",
+          "id": "14880",
+          "name": "Kirk Cousins",
           "position": "QB",
-          "proTeam": "BAL",
-          "projection": 19.95,
+          "proTeam": "LV",
+          "projection": 16.39,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1014,7 +1025,7 @@
     },
     {
       "acquisitions": 14,
-      "actual": 0.0,
+      "actual": 1.32,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -1029,7 +1040,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 1.32,
           "id": "4431452",
           "name": "Drake Maye",
           "position": "QB",
@@ -1366,7 +1377,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 3.5,
           "id": "4432710",
           "name": "TreVeyon Henderson",
           "position": "RB",
@@ -1402,7 +1413,7 @@
     },
     {
       "acquisitions": 7,
-      "actual": 0.0,
+      "actual": 0.3,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1428,7 +1439,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 0.3,
           "id": "4259545",
           "name": "D'Andre Swift",
           "position": "RB",
@@ -1948,7 +1959,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 3.0,
           "id": "4569173",
           "name": "Rhamondre Stevenson",
           "position": "RB",
