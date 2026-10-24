@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[81]",
+      "path": "$.mTransactions2.transactions[83]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -248,7 +248,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[81].items[0]",
+      "path": "$.mTransactions2.transactions[83].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -261,7 +261,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[81].items[1]",
+      "path": "$.mTransactions2.transactions[83].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -677,7 +677,7 @@
         "acquisitions": 5,
         "drops": 5,
         "misc": 0,
-        "moveToActive": 17,
+        "moveToActive": 19,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
