@@ -182,7 +182,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[68]",
+      "path": "$.mTransactions2.transactions[71]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -202,7 +202,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[68].items[0]",
+      "path": "$.mTransactions2.transactions[71].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[68].items[1]",
+      "path": "$.mTransactions2.transactions[71].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[78]",
+      "path": "$.mTransactions2.transactions[81]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -248,7 +248,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[78].items[0]",
+      "path": "$.mTransactions2.transactions[81].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -261,7 +261,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[78].items[1]",
+      "path": "$.mTransactions2.transactions[81].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -677,7 +677,7 @@
         "acquisitions": 5,
         "drops": 5,
         "misc": 0,
-        "moveToActive": 16,
+        "moveToActive": 17,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -830,10 +830,10 @@
       "path": "$.mTeam.teams[8].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 44,
-        "acquisitions": 13,
-        "drops": 12,
+        "acquisitions": 14,
+        "drops": 13,
         "misc": 0,
-        "moveToActive": 25,
+        "moveToActive": 26,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1213,10 +1213,10 @@
         "firstName": "Dontayvion",
         "fullName": "Dontayvion Wicks",
         "id": 4428850,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Wicks",
-        "lastNewsDate": 1792859089000,
+        "lastNewsDate": 1792872258000,
         "proTeamId": 21,
         "seasonOutlook": "Wicks was traded to the Eagles after spending his first three NFL seasons in Green Bay. The 2023 fifth-round pick was limited to situational work during his Packers tenure, never finishing a season among the top 50 receivers in snaps, routes, targets, catches or yards. Wicks flashed at times (exactly one game of 24-plus points in each season), but otherwise scored 5.3 PPG. Even after the Eagles traded A.J. Brown, Wicks' path to targets may not be any easier in Philly. DeVonta Smith, Dallas Goedert and Saquon Barkley are all assured substantial roles, with first-round rookie Makai Lemon and Hollywood Brown also very much in the mix. Wicks, 25, will need to win the team's No. 2 receiver gig in order to have any shot at weekly flex consideration. He's barely worth late-round consideration in deep leagues.",
         "universeId": 2
@@ -2382,7 +2382,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 100.1,
+        "appliedStatTotal": 118.61999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -2498,10 +2498,10 @@
         "firstName": "Lamar",
         "fullName": "Lamar Jackson",
         "id": 3916387,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Jackson",
-        "lastNewsDate": 1792784980000,
+        "lastNewsDate": 1792870557000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -3249,10 +3249,10 @@
         "firstName": "DeVonta",
         "fullName": "DeVonta Smith",
         "id": 4241478,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Smith",
-        "lastNewsDate": 1792858862000,
+        "lastNewsDate": 1792871690000,
         "lastVideoDate": 1792512538000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3977,7 +3977,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 65.88,
+        "appliedStatTotal": 57.38,
         "tradeReservedEntries": 0
       }
     },
@@ -4119,9 +4119,9 @@
         "fullName": "Dallas Goedert",
         "id": 3121023,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Goedert",
-        "lastNewsDate": 1792864743000,
+        "lastNewsDate": 1792871853000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
         "universeId": 2
@@ -4240,30 +4240,6 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.0,
-        "id": 4599739,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 13,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Kendre Miller could operate as the Saints' No. 2 running back if Alvin Kamara (knee) remains sidelined for the Week 2 matchup against the Ravens. Miller was surprisingly involved in New Orleans' Week 1 gameplan, tying Travis Etienne for the most carries on the team while finding the end zone. Despite averaging only 3.3 yards per carry, Miller could have a similar role if Kamara remains out for Week 2. It's also a favorable matchup for running backs, as the Ravens defense allowed 5.2 yards per carry and two rushing touchdowns in Week 1.",
-        "4": "Kendre Miller is expected to split carries with Alvin Kamara in the Saints' Week 4 matchup  against the Falcons, with Travis Etienne (hamstring) out. Miller tallied 19 yards on six touches during the Week 3 loss, playing behind both Alvin Kamara and Etienne. As Etienne deals with an ongoing hamstring injury, Miller is likely to split work on the ground with Kamara in the Week 4 contest, operating as one of the Saints' leading rushers. Despite this, Miller is in for a tough matchup against a Falcons defense that's allowed just 3.1 yards per carry this season.",
-        "5": "Kendre Miller is likely to remain one of the Saints' top rushers while Travis Etienne (hamstring) is out during the Week 5 matchup against the Vikings. Miller received the second-most carries (six) on New Orleans in the Week 4 loss to the Falcons but was largely ineffective, averaging just 1.5 yards per carry. Even if Miller continues splitting work with Alvin Kamara, he likely won't have much fantasy value, as the Saints' offense is averaging a whopping 45 pass attempts per game. Additionally, Miller is in for a difficult Week 5 matchup against a Vikings defense that's allowed just 307 rushing yards all season.",
-        "6": "Kendre Miller is expected to remain a large part of the Saints' rushing attack in the Week 6 matchup against the Giants. Miller operated as New Orleans' top running back in the Week 5 loss to the Vikings, receiving more carries (six) and targets (three) while playing more snaps (13) than Alvin Kamara (three carries and two targets on 12 snaps). While Travis Etienne (hamstring) remains sidelined, Miller appears to have assumed the role as the Saints' top rusher. He could thrive in Week 6 against a Giants defense that's given up 21.3 fantasy points per game to opposing RBs this season.",
-        "7": "Kendre Miller appears to have emerged as the Saints' top running back ahead of the Week 7 matchup against the Steelers. While Travis Etienne (hamstring) remains sidelined, Miller has taken over as New Orleans' primary rusher, logging 22 touches and 70 total yards in the Week 6 win over the Giants. Additionally, Miller played a season-high 46% of the Saints' offensive snaps, which is partially due to Alvin Kamara's injury in the first half, but still remains a positive sign for his outlook going forward. Miller could struggle in Week 7, however, as Pittsburgh's defense has allowed just 4.0 yards per carry this year."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 0.0,
         "id": 4569603,
         "keeperValue": 0,
@@ -4276,7 +4252,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player",
+      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -4295,7 +4271,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Malik Washington hopes for more efficiency when the Dolphins face the 49ers in Week 2. Washington recorded a healthy eight targets in the team's opener, and while 17.7 yards per catch is encouraging, he caught only three balls. Washington has value as a returner in some leagues, and passing volume will likely remain high with Miami forced to throw from behind in the second half. Even so, Week 2's matchup against a defense that held more talented receivers to just 6.4 yards per target in their opener is a risky endeavor.",
         "3": "Malik Washington brings steady volume ahead of the Dolphins' Week 3 matchup with the Chiefs. With Malik Willis under center, Miami has completed just 29 passes through two games, but seven have gone to Washington, who's averaging 6.5 targets. Kansas City's rebuilt secondary has been terrific through two games, allowing just 204 yards to opposing wideouts. Washington seems unlikely to produce any massive numbers, but he also appears to be a steady cog in this limited offense, keeping him on WR3/Flex radars.",
@@ -4305,7 +4281,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.9,
         "id": 4568263,
@@ -4319,7 +4295,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Ryan Fitzgerald is in for a favorable Week 2 matchup when the Panthers face the Falcons, who gave up 8.0 kicking points in a Week 1 loss. Fitzgerald made five of his six kicks last week, drilling his only field-goal attempt while going four-for-five on point-after tries. He's expected to continue seeing plenty of scoring opportunities in Week 2, as he averaged 11.0 kicking points per game in two games against Atlanta in 2025.",
         "3": "Ryan Fitzgerald is expected to have plenty of scoring opportunities in the Panthers' Week 3 matchup against the Browns. Fitzgerald has started the season strong, converting on all three of his field-goal tries and eight of nine point-after attempts. Additionally, he could continue to benefit from the Panthers' offensive success, as the team currently ranks second in points per game (35.5). Fitzgerald is in for a great Week 3 matchup as well, with Cleveland allowing 11.5 kicking points per game through two contests this season.",
@@ -4329,7 +4305,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 16.200000000000003,
         "id": 15818,
@@ -4343,7 +4319,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Keenan Allen can still get open on short passes, but the 34-year-old WR's lack of big-play potential limits his fantasy relevance to deeper formats heading into the Colts' Week 2 road game against the Chiefs. Allen caught all six of his targets in his Colts debut, leading the team in receptions, but he totaled just 32 receiving yards. Expect him to post plenty of similar stat lines this season after averaging a career-low 9.6 yards per catch with the Chargers last year.",
         "3": "Keenan Allen should get plenty of playing time in Week 3 against the Texans with the Colts' banged-up WR room, but the 34-year-old wideout may not have enough gas in the tank to make much of the opportunity. Allen has exceeded 44 yards just once and failed to score a TD in his last 12 games. Despite that lack of recent production, he's a viable deep-league dart throw, as Indianapolis will be without Alec Pierce (heel) and possibly Ashton Dulin (ankle), leaving Allen as the top option for snaps at WR alongside Josh Downs.",
@@ -4351,6 +4327,31 @@
         "5": "Keenan Allen missed the Colts' Week 4 win over the Commanders due to a groin injury. If the 34-year-old WR is cleared to return in Week 5, he could play a prominent role opposite Josh Downs in a Colts WR room that remains without Alec Pierce (heel), who is on IR. Concerns about Allen's injury and performance limit his viability to deeper formats, even against a Steelers secondary that's giving up 149 receiving yards per game to wide receivers. Allen snapped a 12-game touchdown drought in the Colts' Week 3 win over Houston.",
         "6": "Keenan Allen has caught 11 of 18 targets for 108 yards and a TD in his last two outings for the Colts, sandwiched around a Week 4 absence due to a groin injury. The 34-year-old wideout has stepped up in the absence of WR Alec Pierce (heel), who remains on injured reserve ahead of a Week 6 home game against the Titans. Allen lacks Pierce's ability to stretch the field, but a steady diet of short targets should put Allen back into the flex mix in Week 6 against a Titans defense that ranks among the 10 most generous units in terms of catches and yards allowed to WRs.",
         "7": "Keenan Allen has turned back the clock over his past three appearances for the Colts, securing 19 of 29 targets for 190 yards and a TD over that span while drawing at least nine targets in every game. The 34-year-old wideout should continue to fill a high-volume role in a Colts WR room that lacks appealing alternatives in the continued absence of Alec Pierce (heel). Allen is a high-floor fantasy WR3 in Week 7 against the Vikings, who are allowing 10 catches for 133 yards per game to WRs. Minnesota's aggressive blitz packages will likely force the Colts into plenty of the quick and short throws on which Allen thrives."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 7.7,
+        "id": 3116165,
+        "keeperValue": 11,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 13,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Chris Godwin is expected to remain one of the Buccaneers' top receiving options in the Week 2 matchup against the Browns. The 30-year-old was Tampa Bay's second-most productive wideout in the Week 1 loss, hauling in all four of his targets for 40 yards. Godwin likely won't have many big plays after sustaining multiple serious lower-body injuries throughout his career, but he should remain a reliable PPR option and an important part of the Buccaneers' offense moving forward. Additionally, he's in for a great Week 2 matchup, as the Browns defense allowed 13.6 yards per target to WRs in Week 1, the second-most in the NFL.",
+        "3": "Chris Godwin will look to bounce back from a slow start in the Buccaneers' Week 3 matchup against the Vikings. Godwin leads Tampa Bay's receiving corps in offensive snaps played (101) and has caught all seven of his targets through two weeks. However, this hasn't translated to much production, as he's accumulated just 86 receiving yards. Expect Godwin to remain one of the Buccaneers' most reliable targets in a difficult matchup against a Vikings defense that's given up just 27 receptions to wideouts through two games.",
+        "4": "Chris Godwin is expected to remain one of the Buccaneers' most reliable targets in the Week 4 matchup against the Packers. Godwin had a quiet Week 3 performance (3-25-0), though he had an 85-yard touchdown reception called back for holding. The veteran wideout has struggled along with the rest of Tampa Bay's offense, and those struggles could be amplified with Baker Mayfield (thumb) sidelined for the Week 4 contest. However, Godwin is in for a favorable matchup against a Packers defense that's allowed 6.7 yards per pass attempt this season.",
+        "5": "Chris Godwin is expected to remain one of the Buccaneers' top weapons in the Week 5 matchup against the Cowboys. Godwin was targeted a season-high seven times in the Week 4 loss to the Packers, catching six of them for just 31 yards. The veteran wideout may actually benefit from Jalon Daniels acting as Tampa Bay's starting quarterback while Baker Mayfield (thumb) is sidelined, as Godwin could act as the rookie's safety blanket. Additionally, Godwin is in for a good Week 5 matchup against a Dallas defense that's allowed five receiving touchdowns to WRs through four contests this year.",
+        "6": "Chris Godwin is expected to remain Tampa Bay's top safety blanket in the Week 6 matchup against the Steelers. Godwin has caught 19 of 22 targets this season, totaling 179 yards. Despite ranking second on the Buccaneers in receptions and third in targets, he's gotten just one red-zone target all season and could struggle finding fantasy relevance without a touchdown. Regardless, Godwin is in for a tough Week 6 matchup against a Steelers defense that's given up 220.8 passing yards per game this year.",
+        "7": "Chris Godwin is expected to remain one of the Buccaneers' top receiving options in the Week 7 matchup against the Panthers. Godwin was targeted a season-high eight times during the Week 6 loss to the Steelers, recording four receptions for 37 yards. The veteran wideout ranks second on Tampa Bay in targets (30), receptions (23) and yards (216) through the first six games and could benefit from the potential return of Baker Mayfield (thumb) in Week 7. However, Godwin is in for a tough matchup against a Panthers secondary that's allowed just 5.9 yards per pass attempt this season."
       }
     },
     {
@@ -4524,7 +4525,7 @@
         "injured": false,
         "injuryStatus": "DAY_TO_DAY",
         "lastName": "Jacobs",
-        "lastNewsDate": 1792771524000,
+        "lastNewsDate": 1792872558000,
         "lastVideoDate": 1792593425000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
