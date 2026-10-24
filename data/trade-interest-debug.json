@@ -182,7 +182,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[66]",
+      "path": "$.mTransactions2.transactions[68]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -202,7 +202,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[66].items[0]",
+      "path": "$.mTransactions2.transactions[68].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[66].items[1]",
+      "path": "$.mTransactions2.transactions[68].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[75]",
+      "path": "$.mTransactions2.transactions[78]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -248,7 +248,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[75].items[0]",
+      "path": "$.mTransactions2.transactions[78].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -261,7 +261,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[75].items[1]",
+      "path": "$.mTransactions2.transactions[78].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -596,11 +596,11 @@
       "path": "$.mTeam.teams[2].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 7,
+        "acquisitions": 8,
         "drops": 7,
         "misc": 0,
-        "moveToActive": 18,
-        "moveToIR": 3,
+        "moveToActive": 19,
+        "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -1548,7 +1548,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 109.9,
+        "appliedStatTotal": 114.0,
         "tradeReservedEntries": 0
       }
     },
@@ -1901,6 +1901,31 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 4.1,
+        "id": 4361411,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 4,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Pat Freiermuth and the Steelers hope to improve to 2-0 when they visit the Patriots in Week 2. He secured all five targets for 46 yards and Aaron Rodgers' lone passing TD, and finished second on the team in receiving yards while tying for first in receptions. Freiermuth led Pittsburgh's TEs in offensive snaps (49), but Darnell Washington was a close second with 43. He and the Steelers will try to scheme up a way to beat a New England defense that is tied for second in receiving yards allowed to the position (13).",
+        "3": "Pat Freiermuth and the Steelers play host to the Bengals for an AFC North clash in Week 3. He paced the team's tight ends in snaps (46), receptions (4), yards (32) and targets (5) during Pittsburgh's 20-3 loss to the Patriots. Freiermuth appears to have the upper hand over Darnell Washington (1-7-0) in the passing game, but his fantasy floor and ceiling are relatively low in an underwhelming Steelers offense. He'll have the added benefit of facing a Cincinnati defense that allows 18.5 fantasy points per game to TEs (27th) and just got torched for 12 receptions and 140 yards by Dalton Schultz.",
+        "4": "Pat Freiermuth and the Steelers are on the road for a Week 4 AFC North clash against the Browns. He caught two of four targets for 30 yards and rushed once for one yard during Pittsburgh's Week 3 victory. Aaron Rodgers continues to spread the ball around, as six different Steelers receivers registered at least four targets, and four tied for the team lead in receptions with three. Freiermuth could be a sneaky play versus a Cleveland defense that ranks 20th in fantasy points allowed (14.9) to TEs and gave up eight receptions (on 12 targets) for 92 yards to the position in Week 3.",
+        "5": "Pat Freiermuth and the Steelers welcome the Colts to town for a Week 5 home tilt. He played 75% of snaps on offense and caught three of five targets for 17 yards and his second touchdown of the season. Fellow tight end Darnell Washington (3-27-1) was slightly more productive while playing 70% of the offensive snaps during Pittsburgh's 27-24 loss in Week 4. They're both listed as starting tight ends for the Steelers, and it looks like it'll be a toss-up between the two on any given week as long as they're healthy. Indianapolis allows 13.7 fantasy points per game to TEs, which ranks 17th.",
+        "6": "Pat Freiermuth and the Steelers visit the Buccaneers for an interconference clash in Week 6. He played 38 snaps on offense (70%) and was highly productive, catching five of seven targets for 44 yards and two of Aaron Rodgers' three TD passes during Pittsburgh's Week 5 victory. Freiermuth finished third on the team in receptions and yardage, while his seven looks were the second-most. Fellow starting tight end Darnell Washington was on the field for 34 offensive snaps (63%) and caught two of three targets for 12 yards. Freiermuth recorded a second consecutive outing with a score and now has four TDs on the season, and he'll aim to take advantage of a Tampa Bay defense allowing 15.7 fantasy points per game (22nd) to TEs.",
+        "7": "Pat Freiermuth and the Steelers travel to Paris to take on the Saints in Week 7. He caught two of three targets for 11 yards during Pittsburgh's 26-19 comeback win in overtime in Week 6. Freiermuth and fellow tight end Darnell Washington each played 71% of snaps on offense, but it was the latter who made the bigger impact in this one, as Washington tallied a 4-25-1 line on six targets. Freiermuth will try to rebound versus a New Orleans defense that just surrendered six receptions for 99 yards and a TD to Isaiah Likely."
       }
     },
     {
