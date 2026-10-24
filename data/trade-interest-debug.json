@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41]",
+      "path": "$.mTransactions2.transactions[42]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[0]",
+      "path": "$.mTransactions2.transactions[42].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[1]",
+      "path": "$.mTransactions2.transactions[42].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -124,7 +124,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[49]",
+      "path": "$.mTransactions2.transactions[50]",
       "values": {
         "bidAmount": 1,
         "executionType": "EXECUTE",
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[49].items[0]",
+      "path": "$.mTransactions2.transactions[50].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 4,
@@ -156,7 +156,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[49].items[1]",
+      "path": "$.mTransactions2.transactions[50].items[1]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 4,
@@ -169,7 +169,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[49].items[2]",
+      "path": "$.mTransactions2.transactions[50].items[2]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 5,
@@ -182,7 +182,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65]",
+      "path": "$.mTransactions2.transactions[66]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -202,7 +202,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65].items[0]",
+      "path": "$.mTransactions2.transactions[66].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[65].items[1]",
+      "path": "$.mTransactions2.transactions[66].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[74]",
+      "path": "$.mTransactions2.transactions[75]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -248,7 +248,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[74].items[0]",
+      "path": "$.mTransactions2.transactions[75].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -261,7 +261,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[74].items[1]",
+      "path": "$.mTransactions2.transactions[75].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -755,7 +755,7 @@
         "acquisitions": 16,
         "drops": 15,
         "misc": 0,
-        "moveToActive": 31,
+        "moveToActive": 32,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1216,7 +1216,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Wicks",
-        "lastNewsDate": 1792710865000,
+        "lastNewsDate": 1792793802000,
         "proTeamId": 21,
         "seasonOutlook": "Wicks was traded to the Eagles after spending his first three NFL seasons in Green Bay. The 2023 fifth-round pick was limited to situational work during his Packers tenure, never finishing a season among the top 50 receivers in snaps, routes, targets, catches or yards. Wicks flashed at times (exactly one game of 24-plus points in each season), but otherwise scored 5.3 PPG. Even after the Eagles traded A.J. Brown, Wicks' path to targets may not be any easier in Philly. DeVonta Smith, Dallas Goedert and Saquon Barkley are all assured substantial roles, with first-round rookie Makai Lemon and Hollywood Brown also very much in the mix. Wicks, 25, will need to win the team's No. 2 receiver gig in order to have any shot at weekly flex consideration. He's barely worth late-round consideration in deep leagues.",
         "universeId": 2
@@ -2186,7 +2186,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Allen",
-        "lastNewsDate": 1792397672000,
+        "lastNewsDate": 1792801109000,
         "lastVideoDate": 1791748985000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar.",
@@ -3134,7 +3134,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 150.34,
+        "appliedStatTotal": 145.54000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -3227,7 +3227,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1792779737000,
+        "lastNewsDate": 1792793424000,
         "lastVideoDate": 1792512538000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3811,7 +3811,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Marks",
-        "lastNewsDate": 1792344330000,
+        "lastNewsDate": 1792798669000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -3918,7 +3918,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Jones Sr.",
-        "lastNewsDate": 1791753965000,
+        "lastNewsDate": 1792800151000,
         "lastVideoDate": 1791746818000,
         "proTeamId": 16,
         "seasonOutlook": "Jones is back for a third season in Minnesota after an injury-plagued 2025 campaign limited him to 747 yards (his fewest since his rookie season in 2017) and three touchdowns in 12 games. Jones remained fairly busy (11.0 carries and 3.4 targets per game) but didn't perform well, ranking dead last among 65 backs with 50-plus carries in forced missed tackle rate and elusive rating, per PFF. Jones failed to record a single top-10 fantasy outing. Now 31 years old, Jones remains a starter and will get some run, but he's well past his prime and unlikely to return to consistent fantasy output. Jones is best valued as a bench player with occasional flex appeal.",
@@ -4096,7 +4096,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Goedert",
-        "lastNewsDate": 1792779813000,
+        "lastNewsDate": 1792793604000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
         "universeId": 2
@@ -5037,7 +5037,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "0",
         "lastName": "Allen",
-        "lastNewsDate": 1792397672000,
+        "lastNewsDate": 1792801109000,
         "lastVideoDate": 1791748985000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar."
