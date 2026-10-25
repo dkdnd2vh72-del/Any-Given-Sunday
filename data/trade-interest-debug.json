@@ -182,7 +182,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[71]",
+      "path": "$.mTransactions2.transactions[72]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -202,7 +202,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[71].items[0]",
+      "path": "$.mTransactions2.transactions[72].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[71].items[1]",
+      "path": "$.mTransactions2.transactions[72].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[83]",
+      "path": "$.mTransactions2.transactions[84]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -248,7 +248,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[83].items[0]",
+      "path": "$.mTransactions2.transactions[84].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -261,7 +261,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[83].items[1]",
+      "path": "$.mTransactions2.transactions[84].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -610,7 +610,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 9,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -638,7 +638,7 @@
         "acquisitions": 11,
         "drops": 10,
         "misc": 0,
-        "moveToActive": 59,
+        "moveToActive": 60,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -727,7 +727,7 @@
       "path": "$.mTeam.teams[6]",
       "values": {
         "abbrev": "RENZ",
-        "currentProjectedRank": 9,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 10,
         "eliminated": false,
@@ -1931,7 +1931,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 97.08,
+        "appliedStatTotal": 109.48,
         "tradeReservedEntries": 0
       }
     },
@@ -2557,7 +2557,7 @@
         "fullName": "Rico Dowdle",
         "id": 4038815,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Dowdle",
         "lastNewsDate": 1792787122000,
         "lastVideoDate": 1789052073000,
