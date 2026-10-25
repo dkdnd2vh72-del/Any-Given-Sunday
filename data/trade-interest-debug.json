@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[25]",
+      "path": "$.mTransactions2.transactions[26]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35]",
+      "path": "$.mTransactions2.transactions[37]",
       "values": {
         "bidAmount": 1,
         "executionType": "CANCEL",
@@ -40,7 +40,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35].items[0]",
+      "path": "$.mTransactions2.transactions[37].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 4,
@@ -53,7 +53,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35].items[1]",
+      "path": "$.mTransactions2.transactions[37].items[1]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 4,
@@ -66,7 +66,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35].items[2]",
+      "path": "$.mTransactions2.transactions[37].items[2]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 5,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42]",
+      "path": "$.mTransactions2.transactions[44]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -98,7 +98,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42].items[0]",
+      "path": "$.mTransactions2.transactions[44].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[42].items[1]",
+      "path": "$.mTransactions2.transactions[44].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -124,7 +124,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50]",
+      "path": "$.mTransactions2.transactions[53]",
       "values": {
         "bidAmount": 1,
         "executionType": "EXECUTE",
@@ -143,7 +143,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[0]",
+      "path": "$.mTransactions2.transactions[53].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 4,
@@ -156,7 +156,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[1]",
+      "path": "$.mTransactions2.transactions[53].items[1]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 4,
@@ -169,7 +169,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[2]",
+      "path": "$.mTransactions2.transactions[53].items[2]",
       "values": {
         "fromLineupSlotId": 6,
         "fromTeamId": 5,
@@ -182,7 +182,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[72]",
+      "path": "$.mTransactions2.transactions[76]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -202,7 +202,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[72].items[0]",
+      "path": "$.mTransactions2.transactions[76].items[0]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 14,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[72].items[1]",
+      "path": "$.mTransactions2.transactions[76].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -228,7 +228,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[84]",
+      "path": "$.mTransactions2.transactions[88]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -248,7 +248,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[84].items[0]",
+      "path": "$.mTransactions2.transactions[88].items[0]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -261,7 +261,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[84].items[1]",
+      "path": "$.mTransactions2.transactions[88].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 13,
@@ -560,7 +560,7 @@
         "acquisitions": 29,
         "drops": 29,
         "misc": 0,
-        "moveToActive": 42,
+        "moveToActive": 44,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -638,7 +638,7 @@
         "acquisitions": 11,
         "drops": 10,
         "misc": 0,
-        "moveToActive": 60,
+        "moveToActive": 61,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1010,9 +1010,9 @@
         "id": 4035687,
         "keeperValue": 10,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1274,7 +1274,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 155.62,
+        "appliedStatTotal": 169.64000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -1390,9 +1390,9 @@
         "id": 4880281,
         "keeperValue": 0,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1506,13 +1506,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.900000000000002,
+        "appliedStatTotal": 30.300000000000004,
         "id": 17372,
         "keeperValue": 15,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1548,7 +1548,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 114.0,
+        "appliedStatTotal": 119.0,
         "tradeReservedEntries": 0
       }
     },
@@ -1906,13 +1906,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.1,
+        "appliedStatTotal": 9.1,
         "id": 4361411,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1931,7 +1931,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 109.48,
+        "appliedStatTotal": 130.08,
         "tradeReservedEntries": 0
       }
     },
@@ -2102,13 +2102,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.3,
+        "appliedStatTotal": 27.900000000000002,
         "id": 4047650,
         "keeperValue": 4,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2174,13 +2174,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.0,
+        "appliedStatTotal": 20.5,
         "id": -16023,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2211,7 +2211,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Allen",
-        "lastNewsDate": 1792801109000,
+        "lastNewsDate": 1792943063000,
         "lastVideoDate": 1791748985000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar.",
@@ -2328,13 +2328,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.700000000000003,
+        "appliedStatTotal": 31.400000000000002,
         "id": 4685261,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2501,7 +2501,7 @@
         "injured": true,
         "injuryStatus": "OUT",
         "lastName": "Jackson",
-        "lastNewsDate": 1792870557000,
+        "lastNewsDate": 1792932816000,
         "lastVideoDate": 1791142597000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -2536,13 +2536,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.9,
+        "appliedStatTotal": 22.5,
         "id": 4038815,
         "keeperValue": 0,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2559,7 +2559,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Dowdle",
-        "lastNewsDate": 1792787122000,
+        "lastNewsDate": 1792930414000,
         "lastVideoDate": 1789052073000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
@@ -3377,13 +3377,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 2.2,
         "id": 3929645,
         "keeperValue": 0,
         "keeperValueFuture": 13,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3402,13 +3402,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.2,
+        "appliedStatTotal": 23.599999999999998,
         "id": 4569559,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3427,13 +3427,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.96,
+        "appliedStatTotal": 40.78,
         "id": 4360689,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3569,7 +3569,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 125.02000000000001,
+        "appliedStatTotal": 149.70000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -3619,9 +3619,9 @@
         "id": 4239996,
         "keeperValue": 12,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3749,13 +3749,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.3,
+        "appliedStatTotal": 25.900000000000002,
         "id": 4361370,
         "keeperValue": 9,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3963,13 +3963,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.020000000000003,
+        "appliedStatTotal": 29.1,
         "id": 8439,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3977,7 +3977,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 57.38,
+        "appliedStatTotal": 74.08000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -4054,13 +4054,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.8,
+        "appliedStatTotal": 26.500000000000004,
         "id": 4569987,
         "keeperValue": 10,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4525,7 +4525,7 @@
         "injured": false,
         "injuryStatus": "DAY_TO_DAY",
         "lastName": "Jacobs",
-        "lastNewsDate": 1792872558000,
+        "lastNewsDate": 1792941856000,
         "lastVideoDate": 1792593425000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
@@ -4608,13 +4608,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.9,
+        "appliedStatTotal": 28.1,
         "id": 3054850,
         "keeperValue": 4,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5028,11 +5028,12 @@
         "id": 4714771,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793170800000
       }
     },
     {
@@ -5063,7 +5064,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "0",
         "lastName": "Allen",
-        "lastNewsDate": 1792801109000,
+        "lastNewsDate": 1792943063000,
         "lastVideoDate": 1791748985000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar."
