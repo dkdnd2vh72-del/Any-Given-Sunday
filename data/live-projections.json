@@ -3,13 +3,13 @@
   "matchups": [
     {
       "away": {
-        "percentage": 2,
-        "projection": 88.37,
+        "percentage": 1,
+        "projection": 85.39,
         "teamId": 13
       },
       "home": {
-        "percentage": 98,
-        "projection": 102.7,
+        "percentage": 99,
+        "projection": 107.39,
         "teamId": 12
       }
     },
@@ -27,12 +27,12 @@
     },
     {
       "away": {
-        "percentage": 91,
-        "projection": 114.02,
+        "percentage": 99,
+        "projection": 119.48,
         "teamId": 4
       },
       "home": {
-        "percentage": 9,
+        "percentage": 1,
         "projection": 105.32,
         "teamId": 3
       }
@@ -45,7 +45,7 @@
       },
       "home": {
         "percentage": 99,
-        "projection": 172.95,
+        "projection": 168.64,
         "teamId": 14
       }
     },
@@ -57,26 +57,26 @@
       },
       "home": {
         "percentage": 99,
-        "projection": 160.73,
+        "projection": 164.4,
         "teamId": 1
       }
     }
   ],
-  "projectedMedian": 111.06,
+  "projectedMedian": 111.57,
   "projections": {
-    "1": 160.73,
+    "1": 164.4,
     "11": 107.96,
-    "12": 102.7,
-    "13": 88.37,
-    "14": 172.95,
+    "12": 107.39,
+    "13": 85.39,
+    "14": 168.64,
     "3": 105.32,
-    "4": 114.02,
+    "4": 119.48,
     "5": 131.4,
     "7": 108.1,
     "8": 115.04
   },
   "scoringPeriod": 7,
   "season": 2026,
-  "updatedAt": "2026-10-26T23:23:20.994499+00:00",
+  "updatedAt": "2026-10-27T02:14:30.280794+00:00",
   "week": 7
 }
