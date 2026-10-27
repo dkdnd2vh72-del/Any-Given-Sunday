@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 116.95,
+        "projection": 118.75,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -23,7 +23,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 113.01,
+        "projection": 119.74,
         "score": 0.0,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 30,
+      "acquisitions": 29,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -459,7 +459,7 @@
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 2,
-      "projection": 113.01,
+      "projection": 119.74,
       "record": {
         "losses": 5,
         "pointsAgainst": 817.5999999999999,
@@ -470,11 +470,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "3046779",
-          "name": "Jared Goff",
+          "id": "4426348",
+          "name": "Jayden Daniels",
           "position": "QB",
-          "proTeam": "DET",
-          "projection": 16.09,
+          "proTeam": "WSH",
+          "projection": 22.82,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -613,11 +613,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4426348",
-          "name": "Jayden Daniels",
+          "id": "3046779",
+          "name": "Jared Goff",
           "position": "QB",
-          "proTeam": "WSH",
-          "projection": 22.82,
+          "proTeam": "DET",
+          "projection": 16.09,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1224,7 +1224,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 116.95,
+      "projection": 118.75,
       "record": {
         "losses": 9,
         "pointsAgainst": 825.8599999999999,
@@ -1246,22 +1246,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4241985",
-          "name": "J.K. Dobbins",
+          "id": "4711533",
+          "name": "Ollie Gordon II",
           "position": "RB",
-          "proTeam": "DEN",
-          "projection": 6.35,
+          "proTeam": "MIA",
+          "projection": 14.39,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4711533",
-          "name": "Ollie Gordon II",
+          "id": "4685382",
+          "name": "Omarion Hampton",
           "position": "RB",
-          "proTeam": "MIA",
-          "projection": 14.39,
+          "proTeam": "LAC",
+          "projection": 8.15,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1345,6 +1345,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4241985",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "proTeam": "DEN",
+          "projection": 6.35,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "3929645",
           "name": "Juwan Johnson",
           "position": "TE",
@@ -1361,17 +1372,6 @@
           "position": "WR",
           "proTeam": "NYG",
           "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4685382",
-          "name": "Omarion Hampton",
-          "position": "RB",
-          "proTeam": "LAC",
-          "projection": 8.15,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
