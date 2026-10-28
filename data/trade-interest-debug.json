@@ -245,10 +245,10 @@
       "path": "$.mTeam.teams[0].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 6,
-        "drops": 5,
+        "acquisitions": 7,
+        "drops": 6,
         "misc": 0,
-        "moveToActive": 11,
+        "moveToActive": 12,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -287,7 +287,7 @@
         "acquisitions": 30,
         "drops": 30,
         "misc": 0,
-        "moveToActive": 49,
+        "moveToActive": 51,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -440,8 +440,8 @@
       "path": "$.mTeam.teams[5].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 74,
-        "acquisitions": 14,
-        "drops": 13,
+        "acquisitions": 15,
+        "drops": 14,
         "misc": 0,
         "moveToActive": 45,
         "moveToIR": 2,
@@ -479,8 +479,8 @@
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 73,
-        "acquisitions": 17,
-        "drops": 16,
+        "acquisitions": 18,
+        "drops": 17,
         "misc": 0,
         "moveToActive": 35,
         "moveToIR": 4,
@@ -557,10 +557,10 @@
       "path": "$.mTeam.teams[8].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 60,
-        "acquisitions": 16,
-        "drops": 15,
+        "acquisitions": 17,
+        "drops": 16,
         "misc": 0,
-        "moveToActive": 29,
+        "moveToActive": 31,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -596,10 +596,10 @@
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 8,
-        "drops": 7,
+        "acquisitions": 9,
+        "drops": 8,
         "misc": 0,
-        "moveToActive": 15,
+        "moveToActive": 16,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -609,7 +609,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 166.60000000000002,
+        "appliedStatTotal": 152.70000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -927,50 +927,6 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": 4428850,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 1,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 3,
-        "droppable": true,
-        "firstName": "Dontayvion",
-        "fullName": "Dontayvion Wicks",
-        "id": 4428850,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
-        "lastName": "Wicks",
-        "lastNewsDate": 1792872258000,
-        "proTeamId": 21,
-        "seasonOutlook": "Wicks was traded to the Eagles after spending his first three NFL seasons in Green Bay. The 2023 fifth-round pick was limited to situational work during his Packers tenure, never finishing a season among the top 50 receivers in snaps, routes, targets, catches or yards. Wicks flashed at times (exactly one game of 24-plus points in each season), but otherwise scored 5.3 PPG. Even after the Eagles traded A.J. Brown, Wicks' path to targets may not be any easier in Philly. DeVonta Smith, Dallas Goedert and Saquon Barkley are all assured substantial roles, with first-round rookie Makai Lemon and Hollywood Brown also very much in the mix. Wicks, 25, will need to win the team's No. 2 receiver gig in order to have any shot at weekly flex consideration. He's barely worth late-round consideration in deep leagues.",
-        "universeId": 2
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Dontayvion Wicks made his presence felt in his Eagles debut in Week 1. Wicks reeled in two passes for 73 yards and a touchdown in the 24-22 win over Washington. Only Dallas Goedert had more receiving yards than Wicks for the game. Wicks also notched four targets in his premiere for the Birds. In Week 2, Wicks will face a dismal Titans defense. Tennessee allowed 30 passing scores a season ago, which was tied for 23rd in the NFL",
-        "3": "Dontayvion Wicks continues to cement himself as the No. 2 wideout in the Eagles offense. Wicks caught five passes for 74 yards in the 24-20 win over the Titans. Wicks was second on the team in targets for the game. In Week 3, Philadelphia will face a Bears defense allowing 240 passing yards per tilt thus far this season, which is 25th in the NFL. The Eagles could also rely even more on the passing game if Saquon Barkley is sidelined due to injury, and with Dallas Goedert also banged up, Wicks could be one of the chief beneficiaries.",
-        "4": "Dontayvion Wicks had his first subpar game of the season for the Eagles. Wicks had five targets but caught just two passes for 32 yards in the ugly 27-7 loss to the Bears. Wicks had a crucial drop en route to being held under 73 yards receiving for the first time in 2026. In Week 4, he will face a rather stingy Rams pass defense allowing just 171.3 yards per game through the air, which is fourth in the NFL.",
-        "5": "Dontayvion Wicks was expected to operate as the No. 1 wideout for the Eagles last game due to the injury to DeVonta Smith. Unfortunately, Philadelphia's offense was stymied, and Wicks managed three catches for just 18 yards in the 24-20 loss to the Rams. Smith appears unlikely to play in Week 5 versus the Jags, so Wicks should continue to play a prominent role in the offense. However, it was Darius Cooper who scored twice last game, and rookie Makai Lemon outpaced Wicks in both targets as well as receiving yards. An intriguing matchup lurks in Week 5 against the Jags. Jacksonville has surrendered 280.3 passing yards per game this season, which is second-to-last in the league. In an odd twist, though, the Jags have yielded just three passing scores, which is tied for first in the NFL.",
-        "6": "Dontayvion Wicks led all Eagles wideouts in targets last game. Wicks was targeted eight times en route to five catches for 63 yards in the 19-17 loss to the Jags. The continued absence of DeVonta Smith with a hamstring injury has boosted the opportunities for Wicks, a trend that could continue in Week 6 versus Carolina. In addition, the Panthers are allowing 230.8 passing yards per tilt, which is 22nd in the league.",
-        "7": "Dontayvion Wicks caught two passes for 24 yards last game for the Eagles. Lemon had just four targets overall, as the return of DeVonta Smith to the lineup may have limited his production overall. Tanner McKee should start at quarterback for the foreseeable future, which could cap the upside for Wicks as well. However, in Week 7, the Eagles will face a Dallas defense that has struggled to defend the pass in 2026. The Cowboys are allowing 232.7 passing yards per game, which is 23rd in the NFL. In addition, Dallas has surrendered 11 passing touchdowns, which is tied for 24th in the league.",
-        "8": "Dontayvion Wicks missed Philadelphia's last game due to an ankle injury. It was the first missed game of the season for Wicks, though he could also be sidelined in Week 8 versus the Commanders. If he is able to suit up, Wicks could have a delectable matchup, even with backup quarterback Tanner McKee under center. Washington is allowing 254 passing yards per game, which is 28th in the NFL. In addition, the Commanders have surrendered 15 passing scores, which is tied for 28th in the league."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 28.5,
         "id": -16027,
         "keeperValue": 0,
@@ -983,7 +939,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.9,
         "id": 3917315,
@@ -997,7 +953,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Kyler Murray's status is up in the air as the Vikings travel to Chicago in Week 2. Murray went down early in Week 1 against the Packers after taking a hard hit to the head. Before his exit, Murray completed three of five passes for 18 yards and one interception, tacking on two rushes for nine yards on the ground. The veteran is now under evaluation for a concussion, which could very likely keep him sidelined for an extended period. Backup quarterback Carson Wentz delivered the win for Minnesota, and he's set to assume QB duties once again. The Bears gave up 361 passing yards, three touchdowns and one interception to Bryce Young in Week 1, so big output could definitely be in the cards for whoever lines up under center for the Vikings.",
         "3": "Kyler Murray will return to the field as the Vikings travel to Tampa Bay in Week 3. Murray has cleared concussion protocol after suffering a nasty hit early in Week 1. The veteran quarterback will finally get the chance to prove himself, especially given that he completed just three of five passes for 18 yards and one interception before his opening-game departure. He'll face a Bucs defense that's allowed a middle-of-the-pack 20.4 fantasy points per game to QBs across its first two games.",
@@ -1008,9 +964,34 @@
       }
     },
     {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 4373678,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 1,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Khalil Shakir will look to remain Josh Allen's security blanket in Week 2 when the Bills host the Lions. Shakir managed four grabs on six targets to open the season, finishing with 50 yards. He operated underneath while newly acquired DJ Moore stretched the field. The Lions' vulnerable secondary gave up 410 yards passing in Week 1, but Shakir will likely be limited by shorter routes, creating a safe but uninspiring fantasy option.",
+        "3": "Khalil Shakir remains a steady, stable cog in Buffalo's passing game entering a Week 3 matchup with the Chargers. Shakir logged six targets in each of the Bills' first two games but hasn't topped 50 yards or scored. Shakir didn't take on an elevated role in Week 2 following DJ Moore's (shoulder) early exit, but he faces a secondary that allowed 75 yards to Kendrick Bourne and 119 yards to Tre Tucker, and both operate in a similar slot role to Shakir.",
+        "4": "Khalil Shakir seeks more opportunities in Week 4 when the Bills face the Patriots. Despite a season-high 71% snap share in Week 3, Shakir had his lowest output of 2026, catching just a six-yard pass on three targets in a game where Josh Allen struggled. Shakir could benefit from additional looks in Week 4 if DJ Moore is matched up consistently with CB Christian Gonzalez. Operating primarily out of the slot tempers high yardage totals.",
+        "5": "Khalil Shakir maintains a steady role out of the slot for Buffalo as they prepare to face the Rams in Week 5. Shakir is coming off a season-high 82 yards in Week 4, his third game with at least six targets. His workload is independent of DJ Moore's shoulder status. Shakir will either garner more targets if Moore is out, or benefit from the attention Moore usually draws. However, the Rams defense hasn't allowed an opposing receiver to top 50 yards, suggesting Shakir is a risky floor and limited ceiling option.",
+        "6": "Khalil Shakir continues to play a minimal role in the Bills' passing game as they enter a Week 6 matchup with the Raiders. Shakir had just three targets in Week 5, the second time he's experienced that limited volume in three weeks despite the continued absence of DJ Moore (shoulder). Shakir is averaging a career-best 14.2 yards per catch and with Las Vegas proving vulnerable over the middle (nine catches, 122 yards, two touchdowns last week to DeMario Douglas and Efton Chism), Shakir could exploit a favorable matchup despite a lack of heavy volume.",
+        "8": "Khalil Shakir will reprise his slot role in Week 8 when the Bills host the Ravens. Shakir hasn't directly benefited from DJ Moore's (shoulder) absence, with a largely unchanged role prior to Buffalo's Week 7 bye, logging six or more targets in four of six contests. While he's topped four catches just once, he's averaging 13.2 yards per catch, his highest mark since 2023. Baltimore's secondary has been more vulnerable to larger, outside X receivers, with Drake London, Tee Higgins, and Carnell Tate all topping 100 yards against them. Shakir will need to continue to take advantage of his opportunities to be a viable fantasy option."
+      }
+    },
+    {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 130.28,
+        "appliedStatTotal": 106.78,
         "tradeReservedEntries": 0
       }
     },
@@ -1392,7 +1373,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Waddle",
-        "lastNewsDate": 1792971960000,
+        "lastNewsDate": 1793196493000,
         "lastVideoDate": 1792767413000,
         "proTeamId": 7,
         "seasonOutlook": "Waddle was traded to Denver after spending his first five seasons in Miami. The 2021 first-round pick was solid during his Dolphins tenure, finishing in the top 30 among receivers in fantasy PPG four times, though never reaching the top 10 while often playing second fiddle to Tyreek Hill. Although he has been a reliable target and has missed only seven games in five years, Waddle hasn't finished a season higher than 20th in targets or catches since 2021. In Denver, the 27-year-old Waddle will compete with Courtland Sutton for the team lead in targets in a scheme that likes to spread the ball around. Not utilized near the goal line much at 5-foot-10 and 180 pounds (he's yet to clear seven end zone targets in a season), Waddle is likely to max out as a back-end WR2 in Denver.",
@@ -2621,7 +2602,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Brown",
         "lastNewsDate": 1792729162000,
-        "lastVideoDate": 1792766133000,
+        "lastVideoDate": 1793198871000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
         "universeId": 1
@@ -2920,8 +2901,8 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.5,
-        "id": -16005,
+        "appliedStatTotal": 5.800000000000001,
+        "id": 4686468,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -2932,19 +2913,15 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player",
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
-        "active": true,
-        "defaultPositionId": 16,
-        "droppable": true,
-        "firstName": "Browns",
-        "fullName": "Browns D/ST",
-        "id": -16005,
-        "injured": false,
-        "lastName": "D/ST",
-        "proTeamId": 5,
-        "seasonOutlook": "The June trade of Myles Garrett quashed much of the enthusiasm surrounding the Browns' D/ST, though the team still has a trio of strong front-line defenders in Mason Graham, Jared Verse (the big return in the Garrett deal) and Carson Schwesinger and finished fourth at the position in fantasy points in 2025. Don't underestimate this unit, which has one of the softer early-season schedules, especially over the first five weeks (@JAX, @TB, CAR, PIT, @NYJ).",
-        "universeId": 1
+        "2": "Seth McGowan had the only touch by a Colts RB other than Jonathan Taylor in the season opener. McGowan and fellow backup DJ Giddens are irrelevant for fantasy purposes as long as Taylor is available. Taylor handled 22 touches in Week 1 and is expected to maintain a workhorse role in Week 2 at Kansas City.",
+        "3": "Seth McGowan is locked in as the little-used backup to workhorse Colts RB Jonathan Taylor, having beaten out DJ Giddens (knee) for the No. 2 spot on the depth chart. McGowan has just two carries and one target through two games. With Taylor healthy for a Week 3 home game against the AFC South rival Texans, McGowan remains a non-factor in fantasy.",
+        "4": "Seth McGowan has seven career touches heading into the Colts' Week 4 game against the Commanders in London, four of which came in the Week 3 win over Houston. With star RB Jonathan Taylor healthy, McGowan's workload is expected to remain limited in Week 4 against Washington's stout run defense. McGowan's fantasy value is purely as a bench insurance policy in case of a Taylor injury.",
+        "5": "Seth McGowan got seven touches in the Week 4 win over the Commanders, as the Colts built a big enough lead to give Jonathan Taylor some late-game rest for the first time this season. Those seven touches equaled McGowan's touch total from his first three games combined. The rookie seventh-round pick remains a distant second behind Taylor on the Colts' RB depth chart heading into a Week 5 road game against the Steelers. McGowan has minimal standalone fantasy value as long as Taylor is healthy.",
+        "6": "Seth McGowan has 20 touches for 71 yards through five NFL games with the Colts. The rookie seventh-round pick is a distant second on Indianapolis' RB depth chart behind Jonathan Taylor. There is a greater chance than usual of the Colts pulling away and resting Taylor in a Week 6 home game against the 0-5 Titans, but banking on a lopsided game is an unreliable strategy, so McGowan is best left out of fantasy lineups in Week 6.",
+        "7": "Seth McGowan has turned 21 carries and four targets into 98 scrimmage yards through six NFL appearances with the Colts. With starter Jonathan Taylor healthy heading into a Week 7 trip to Minnesota, McGowan projects to remain in a low-volume, change-of-pace role. The rookie seventh-round pick has minimal standalone fantasy potential and isn't a recommended option against the Vikings, who boast the league's stingiest scoring defense at 12.8 points allowed per game.",
+        "8": "Seth McGowan set career highs with 48 scrimmage yards on 12 touches in the Colts' Week 7 loss to Minnesota, but the rookie seventh-round pick has yet to score a TD and is averaging a meager 21 scrimmage yards per game as Jonathan Taylor's backup. McGowan has become a popular fantasy waiver target as the possibility of Taylor being traded comes into focus, but McGowan is nothing more than a speculative bench stash as long as Taylor stays put and is healthy. The rookie's standalone appeal for Week 8 is minimal against a league-best Jaguars run defense that's yielding just 72 yards per game on the ground."
       }
     },
     {
@@ -3171,31 +3148,6 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.2,
-        "id": 3929645,
-        "keeperValue": 0,
-        "keeperValueFuture": 13,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Juwan Johnson is expected to remain one of the Saints' top receiving options in the Week 2 matchup against the Ravens. Johnson paced New Orleans' tight ends in yards (53) during the Week 1 overtime loss but trailed Noah Fant in receptions (three to four) and targets (seven to eight). Despite this, Johnson was on the field for 72 of the Saints' 90 offensive snaps, where Fant played just 37. Thus, Johnson is expected to remain New Orleans' top TE option against a Ravens defense that allowed just 10.3 PPR fantasy points to the position in Week 1.",
-        "3": "Juwan Johnson is expected to remain one of New Orleans' top receiving options in the Week 3 matchup against the Raiders. Despite a dip in snap rate and route share compared to Week 1, Johnson paced the Saints' tight end corps in receptions, targets and yards in Week 2. He ranks third on the team in targets and yards, which is a positive outlook for his value going forward. However, Johnson is in for an unfavorable matchup, as Las Vegas' defense has allowed just 10.3 PPR fantasy points per game to tight ends this season.",
-        "4": "Juwan Johnson is expected to remain one of the Saints' top weapons in the Week 4 matchup against the Falcons. Johnson has been New Orleans' second-most productive receiver this season, catching 15 of 19 targets for 173 yards and three touchdowns. With head coach Kellen Moore's offense throwing the ball an average of 44 times per game through three weeks, Johnson is expected to remain one of fantasy's top tight ends going forward. Additionally, he's in for a terrific Week 4 matchup against a Falcons defense that's allowed 17.2 PPR fantasy points per game to the TE position this season.",
-        "5": "Juwan Johnson is expected to remain one of the Saints' top pass catchers in the Week 5 matchup against the Vikings. Johnson had another productive outing in the Week 4 loss to the Falcons, catching six of eight targets for 59 yards. He's now tallied 232 receiving yards through four contests this season, the fourth-most amongst tight ends. Johnson will likely continue to benefit from head coach Kellen Moore's pass-heavy offense that's averaged 45 pass attempts per game this year. Despite this, Johnson is in for a difficult Week 5 matchup against a Vikings defense that's given up just 7.7 fantasy points per game to opposing TEs.",
-        "6": "Juwan Johnson is expected to remain one of the Saints' top pass catchers in the Week 6 matchup against the Giants. Johnson tallied just 16 yards on four receptions in the Week 5 loss to the Vikings, struggling alongside the rest of New Orleans' offense. Despite this, he's tied for the second-most receptions (25) on the Saints through five weeks, accumulating 248 yards and three touchdowns. Expect Johnson to bounce back in Week 6 against a Giants defense that's allowed 14.2 fantasy points per game to opposing tight ends this year.",
-        "7": "Juwan Johnson will look to bounce back from a lackluster performance in the Saints' Week 7 matchup against the Steelers. Johnson has struggled over the last two weeks, catching just four of seven targets for 16 yards. Despite this, he remains third on the team in targets (35), receptions (25) and yards (248) through six games, suggesting more fantasy production in the near future. Johnson is in for a difficult Week 7 matchup, however, as Pittsburgh's defense has allowed just 11.7 fantasy points per game to opposing tight ends this season."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 16.4,
         "id": 4569559,
         "keeperValue": 0,
@@ -3208,7 +3160,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Devaughn Vele is expected to remain an important part of the Saints' offense in the Week 2 matchup against the Ravens. Vele saw nine targets in the Week 1 overtime loss, tying his career high and trailing only Chris Olave in the Saints' receiving corps. Vele should continue to benefit from the absence of Jordyn Tyson (hamstring) and is expected to see consistent volume until Tyson returns. It'll be a tough Week 2 matchup for Vele, however, as the Ravens' defense has given up just 4.8 yards per pass attempt this season, which is tied for the second-best mark in the NFL.",
         "3": "Devaughn Vele is expected to remain the Saints' No. 2 wideout in the Week 3 matchup against the Raiders, whose defense has given up just 15 receptions to WRs through two contests. Vele has clearly positioned himself as one of New Orleans' top receiving options early in the season, catching 12 of 16 targets for 133 yards and one touchdown thus far. He's expected to continue benefitting from the Saints' high volume of pass attempts, as Tyler Shough has already thrown the ball 90 times in two games, the second-most in the NFL. Despite this, Vele is in for a difficult Week 3 matchup against a Las Vegas defense that has yet to allow a receiving touchdown this season.",
@@ -3219,7 +3171,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.82,
         "id": 4360689,
@@ -3233,7 +3185,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Tyler Shough will lead the Saints' offense into a tough Week 2 matchup against the Ravens, whose defense gave up just 12.7 fantasy points to quarterbacks in Week 1. Despite a poor first half, Shough threw for 410 yards and three touchdowns in last week's overtime loss, making him the league's leading passer. However, Shough was prone to turnovers, throwing two interceptions and losing a fumble, which is something Baltimore could capitalize on. It'll be a tough Week 2 matchup, as the Ravens allowed just 166 passing yards in Week 1.",
         "3": "Tyler Shough will lead the Saints' offense into a Week 3 matchup against the Raiders, whose defense has allowed just 17.4 fantasy points per game to opposing quarterbacks this season. Shough has been one of the NFL's most productive QBs through two weeks, leading the league in passing yards (662) while producing five total touchdowns. Despite throwing the ball 90 times in his first two contests, Shough remains one of the league leaders in completion percentage (68.9 percent). He's in for a difficult Week 3 matchup, however, with the Raiders' allowing just one passing touchdowns this season.",
@@ -3244,7 +3196,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 11.600000000000001,
         "id": 3150744,
@@ -3258,7 +3210,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chase McLaughlin will look to remain perfect in the Buccaneers' Week 2 matchup against the Browns. McLaughlin made all five of his kicks during last week's loss, including a 51-yard field goal. With the Browns defense allowing 34 total points and 10 kicking points in a Week 1 loss, McLaughlin is likely in for lots more scoring opportunities in Week 2.",
         "3": "Chase McLaughlin could remain one of the top kickers in fantasy despite the Buccaneers' tough Week 3 matchup against the Vikings. McLaughlin remained perfect in the Week 2 loss to the Browns, as he's now converted on all six field-goal tries this season, including two from 50-plus yards. Despite McLaughlin being tied for the league-lead in field-goals made this season, he could struggle against a Minnesota defense that's allowed just 6.5 kicking points per game thus far.",
@@ -3270,7 +3222,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 17.3,
         "id": 4711533,
@@ -3284,7 +3236,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "3": "Ollie Gordon's workload could increase if Jaylen Wright misses the Dolphins' Week 3 game against the Chiefs. Despite being No. 3 on the depth chart, Gordon has outsnapped Wright behind Miami's workhorse, De'Von Achane. Kansas City allowed stud Jonathan Taylor to rush for two scores in Week 2 but kept Denver's backs under control in Week 1. Barring an injury to Achane, it's difficult to envision a path to meaningful production for Gordon.",
         "4": "Jaylen Wright will have an elevated role for the Dolphins in Week 4 against the Vikings if he's able to overcome a foot issue that kept him out in Week 3. Miami lost De'Von Achane for the season due to a knee injury, leaving just Wright and Ollie Gordon to handle carries. With the Dolphins often falling behind in most matchups, Wright has the chance to be the preferred pass-catching option. Confidence isn't inspired facing a Vikings defense that's allowing just 3.1 yards per carry and 11 catches to running backs.",
@@ -3294,7 +3246,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 16.96,
         "id": 4036378,
@@ -3308,7 +3260,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 17.6,
         "id": 3046439,
@@ -3322,7 +3274,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Hunter Henry will look for more opportunities in Week 2 when New England hosts Pittsburgh. Henry caught all three of his targets to open 2026, and with the Patriots losing A.J. Brown (ankle) for the foreseeable future, additional targets could come Henry's way. Pittsburgh didn't allow a catch to tight ends last week, but that was a product of poor opponent quarterback play. Henry can be considered a back-end option at the position with the potential for far more against a defense he posted two touchdowns and 90 yards against a season ago.",
         "3": "Hunter Henry will look to keep expanding his role for the Patriots in Week 3 against the Jaguars. In their first full game without A.J. Brown in Week 2, Henry logged a 92% snap share but drew only five targets, turning them into three catches for 40 yards. Drake Maye has struggled to open the season, posting a 1:4 TD:INT ratio, and while someone has to catch the limited passes, Henry faces a challenging matchup against a defense that hasn't allowed an opposing tight end to top 32 yards against them so far.",
@@ -3334,7 +3286,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 8.0,
         "id": -16004,
@@ -3345,6 +3297,31 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 18.5,
+        "id": 4887558,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 11,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "3": "Emanuel Wilson will look to build upon a big performance when Seattle faces Washington in Week 3. With Jadarian Price suffering a shoulder injury against Arizona on Sunday, Wilson stepped up and led the Seahawks with 21 rushes for 92 yards. Price's injury isn't considered serious, but it's not certain that he'll be able to return to action in Week 3. Whoever leads Seattle's backfield will be looking to score the first rushing touchdown against the Commanders this season.",
+        "4": "Emanuel Wilson may be moving into a timeshare at running back for Seattle heading into a Week 4 matchup against the Chargers. An early fumble by rookie Jadarian Price was partly responsible for Wilson leading the Seahawks with nine carries in a Week 3 win over Washington, with Price logging just five totes and George Holani three. With that said, Wilson managed a paltry 14 yards on his carries, so he didn't exactly make a loud statement in a bid for more work. The Chargers just gave up 154 rushing yards to Buffalo's James Cook in Week 3, so they could be vulnerable on the ground.",
+        "5": "Emanuel Wilson will look to build upon a big Week 4 performance when Seattle faces San Francisco in Week 5. Wilson led his team's backfield this past Sunday against the Chargers, posting a 21-81-1 line on the ground. Equally promising was his 3-39-1 line as a pass catcher after he logged zero receptions over the first three weeks of the campaign. With Jadarian Price (chest) on IR, Wilson figures to continue to work as Seattle's No. 1 RB, though the eventual return of Zach Charbonnet (knee) could shake up the backfield. Charbonnet isn't expected to be ready for Week 5, however, so Wilson will likely get plenty of work against the 49ers, who are middle-of-the-pack so far in giving up 17.4 fantasy points per game to running backs.",
+        "6": "Emanuel Wilson will look to get into the end zone for a third straight game when the Seahawks travel to Denver in Week 6. Wilson has emerged as Seattle's clear top RB over the past two weeks, registering 41 carries for 142 yards and two touchdowns on the ground along with five catches for 50 yards and another score through the air in that span. He figures to continue working as the team's No. 1 RB at least until one or both of Zach Charbonnet (knee) or Jadarian Price (chest) is able to return, but that won't happen in Week 6. The Broncos have been vulnerable against the run this season, surrendering 4.51 yards per carry to running backs (eighth-worst in the league).",
+        "7": "Emanuel Wilson and the Seahawks play host to the Chiefs for a Week 7 clash on Sunday Night Football. He had 14 carries for 52 yards and failed to catch his only target during Seattle's 17-14 overtime loss in Week 6. It was an underwhelming performance for Wilson, who had scored three touchdowns over his previous two outings. With Zach Charbonnet (knee) practicing and likely to make his 2026 season debut in Week 7, it's probably best to avoid the Seahawks backfield versus Kansas City's defense that's tied for ninth in fantasy points allowed per game (19.0) to RBs.",
+        "8": "Emanuel Wilson's role for Week 8 against the Bears could depend on whether Zach Charbonnet (knee) and/or Jadarian Price (chest) is ready to rejoin Seattle's backfield. As the Seahawks' lead RB in Week 7 against Kansas City, Wilson racked up 100 yards and a touchdown on a hearty 24 carries and added one catch for 15 yards. It was the third time over his past four contests that Wilson logged 20 or more totes, but should Charbonnet and/or Price be ready to return to the fold, Wilson will likely handle a reduced workload. Either way, he could find room to run against a Chicago defense that ranks 25th in the league with 4.33 yards per carry allowed to running backs."
       }
     },
     {
@@ -3739,7 +3716,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 76.80000000000001,
+        "appliedStatTotal": 99.30000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -3918,20 +3895,6 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": -16034,
-        "keeperValue": 0,
-        "keeperValueFuture": 11,
-        "lineupLocked": false,
-        "onTeamId": 13,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[8].roster.entries[9].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 17.5,
         "id": 12483,
         "keeperValue": 0,
@@ -3944,7 +3907,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[9].playerPoolEntry.player",
+      "path": "$.mRoster.teams[8].roster.entries[8].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 1,
@@ -3963,7 +3926,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 15.5,
         "id": 4036133,
@@ -3977,7 +3940,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "T.J. Hockenson will look to build off a solid Week 1 performance as the Vikings travel to Chicago in Week 2. Hockenson was second in targets against the Packers behind Justin Jefferson, reeling in four of five targets for 36 yards and a touchdown. The veteran tight end was a go-to outlet for veteran Carson Wentz, and he could continue to be one no matter who lines up under center moving forward. He'll take on a Bears defense that allowed a middle-of-the-pack 11.5 PPR points to Carolina tight ends in a high-scoring season opener.",
         "3": "T.J. Hockenson will look to stay involved as the Vikings travel to Tampa Bay in Week 3. Hockenson saw his volume go down a bit in Week 2 against the Bears, reeling in just three catches for 29 yards. The starting tight end looks like he'll be a touchdown-dependent fantasy option. With that being said, Kyler Murray is slated to start Sunday, and he's been known to rely on his tight ends in the past. The Bucs have allowed 22.1 PPR points per game to TEs so far this season, 31st in the lerague.",
@@ -3988,7 +3951,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 1.0,
         "id": -16025,
@@ -4002,7 +3965,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 6.5,
         "id": 4569603,
@@ -4016,7 +3979,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry.player",
+      "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -4035,7 +3998,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Malik Washington hopes for more efficiency when the Dolphins face the 49ers in Week 2. Washington recorded a healthy eight targets in the team's opener, and while 17.7 yards per catch is encouraging, he caught only three balls. Washington has value as a returner in some leagues, and passing volume will likely remain high with Miami forced to throw from behind in the second half. Even so, Week 2's matchup against a defense that held more talented receivers to just 6.4 yards per target in their opener is a risky endeavor.",
         "3": "Malik Washington brings steady volume ahead of the Dolphins' Week 3 matchup with the Chiefs. With Malik Willis under center, Miami has completed just 29 passes through two games, but seven have gone to Washington, who's averaging 6.5 targets. Kansas City's rebuilt secondary has been terrific through two games, allowing just 204 yards to opposing wideouts. Washington seems unlikely to produce any massive numbers, but he also appears to be a steady cog in this limited offense, keeping him on WR3/Flex radars.",
@@ -4046,7 +4009,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4568263,
@@ -4060,7 +4023,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Ryan Fitzgerald is in for a favorable Week 2 matchup when the Panthers face the Falcons, who gave up 8.0 kicking points in a Week 1 loss. Fitzgerald made five of his six kicks last week, drilling his only field-goal attempt while going four-for-five on point-after tries. He's expected to continue seeing plenty of scoring opportunities in Week 2, as he averaged 11.0 kicking points per game in two games against Atlanta in 2025.",
         "3": "Ryan Fitzgerald is expected to have plenty of scoring opportunities in the Panthers' Week 3 matchup against the Browns. Fitzgerald has started the season strong, converting on all three of his field-goal tries and eight of nine point-after attempts. Additionally, he could continue to benefit from the Panthers' offensive success, as the team currently ranks second in points per game (35.5). Fitzgerald is in for a great Week 3 matchup as well, with Cleveland allowing 11.5 kicking points per game through two contests this season.",
@@ -4071,7 +4034,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 22.5,
         "id": 4723820,
@@ -4085,7 +4048,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry.player",
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -4104,7 +4067,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Omar Cooper is uncertain to play for the Jets in Week 2 against the Packers due to an ankle sprain. In his NFL debut, he caught his only target for 30 yards. The Jets ran a heavy ground game to open the year, and while they will likely need to throw more in Week 2 to keep up, Cooper's role, even if healthy, is uncertain. The passing game should continue to flow heavily through Garrett Wilson, leaving Cooper's fantasy value volatile.",
         "7": "Omar Cooper brings momentum into the Jets' Week 7 matchup with the Dolphins. Returning from a four-week absence due to an ankle issue, Cooper flashed with 103 yards and a touchdown on seven targets. The Jets remain a low-volume passing attack, and Miami has allowed the second-fewest fantasy points to opposing wide receivers, but Cooper provides a big-play option, averaging 19.0 yards per catch in limited action. He could offer a high-upside bye-week fill-in.",
@@ -4112,7 +4075,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 23.200000000000003,
         "id": 4870653,
@@ -4126,9 +4089,23 @@
       }
     },
     {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": -16028,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 13,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 189.98000000000002,
+        "appliedStatTotal": 177.48000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -4302,7 +4279,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Jacobs",
         "lastNewsDate": 1792974762000,
-        "lastVideoDate": 1792966768000,
+        "lastVideoDate": 1793198730000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
         "universeId": 2
@@ -4494,31 +4471,6 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.52,
-        "id": 4432577,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 14,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "C.J. Stroud has turned the ball over nine times in Houston's last three games, dating back to the start of last season's playoffs. He'll face a Bengals defense in Week 2 that just forced three turnovers from Buccaneers QB Baker Mayfield. Stroud threw for 274 yards and two TDs in Week 1 against the Bills but fumbled away Houston's chance to win the game in the final minute. The Texans' vaunted defense faces another tough test against Joe Burrow and the Bengals, so Stroud and the offense will be relied upon to keep pace. Stroud is a viable fantasy option in superflex or two-QB formats but ranks outside the starting range in single-QB leagues.",
-        "3": "C.J. Stroud threw for 353 yards but led the Texans to just six points in the absence of top WR Nico Collins (hamstring) during Week 2's loss to the Bengals. If Houston remains without Collins in Week 3 against the Colts, Stroud will likely lean heavily on TE Dalton Schultz once more against a Colts defense that allowed 41 points to the Ravens and then 33 to the Chiefs. Considering the Colts have surrendered the most points and yards in the NFL, Stroud is worth a look in superflex or multi-QB lineups, but he will likely remain ranked outside the starting range in single-QB formats, at least until Collins returns.",
-        "4": "C.J. Stroud has missed top WR Nico Collins (hamstring) over Houston's past two games, failing to throw a touchdown pass in Week 2 and producing just 167 passing yards in Week 3. The Texans fell to 0-3 heading into a Week 4 home game against the Cowboys. On the bright side, the Texans rebounded from an 0-3 start last season to finish 12-5, and Collins has a realistic chance to return versus Dallas. If Stroud gets his top target back, the slumping QB would have a nice opportunity to get on track as a strong superflex or second fantasy QB against a weak Cowboys secondary that has allowed a 7:0 TD:INT through three games in 2026 after giving up the most QB production in the league last season. Should Collins sit again, Stroud would be a risky choice in all formats despite the favorable matchup.",
-        "5": "C.J. Stroud has some streaming appeal in single-QB formats for Week 5, when the Texans travel to Tennessee for a battle between 0-4 AFC South squads. He has thrown for at least 347 yards in two of Houston's four losses and has a 5:0 TD:INT. The Titans have been respectable against the pass, with only four touchdowns allowed through the air this season, but other teams were able to build leads and run effectively on Tennessee. The Texans are unlikely to find as much success on the ground, considering RBs David Montgomery and Woody Marks have combined to average 2.9 yards per carry this season. Stroud has been asked to throw the ball 38 times per game, and he's likely to remain busy in Week 5. The Texans got top WR Nico Collins (hamstring) back from a two-game absence in Week 4, and Collins contributed immediately in his return by catching both of Stroud's touchdown passes in a 34-30 loss to the Cowboys.",
-        "6": "C.J. Stroud could have a key new target for Houston's pivotal Week 6 clash with the AFC South-leading Jaguars in London. The Texans are just 1-4 and have already fallen three games behind Jacksonville in the standings, but Stroud is quietly averaging a career-high 280 passing yards per game to go with a 6:0 TD:INT. Jacksonville gives up the fewest rushing yards and second-most passing yards per game, so Stroud will likely be asked to carry Houston's offense again in Week 6, making him a viable starting QB in fantasy. The Texans notched their first win of the season in Week 5 over the Titans and promptly traded for disgruntled Cardinals WR Marvin Harrison, who hasn't lived up to the hype as the fourth overall pick in the 2024 NFL Draft but excelled at Ohio State while catching passes from Stroud in 2022. Harrison likely won't be fully up to speed, but he could still provide an upgrade over Houston's current wideouts behind Nico Collins.",
-        "7": "C.J. Stroud is averaging a career-high 286 passing yards per game and has posted a 9:1 TD:INT heading into Houston's Week 7 home game against the Giants. He threw a season-high three touchdown passes in the Week 6 win over Jacksonville while topping 300 yards for the third time in six starts. The Giants have surrendered 12 passing TDs, which is sixth-most in the NFL, and their three rushing scores allowed to QBs are tied for the most in the league, though they have also notched six interceptions. Stroud has consistently been asked to put the Texans' offense on his back due to the team's weak running game, and he has mostly been up to the challenge, so he remains a fringe fantasy starter for Week 7."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 5.300000000000001,
         "id": 4427095,
         "keeperValue": 0,
@@ -4531,7 +4483,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "DeMario Douglas will seek more production in Week 2 when the Patriots face the Steelers. He logged a reasonable seven targets to open the season but turned that into just 20 yards on five grabs. Douglas has a rapport with QB Drake Maye as a safety valve, and while snaps seem safe with A.J. Brown (ankle) sidelined for the foreseeable future, Douglas topped 40 yards just four times last season.",
         "3": "DeMario Douglas' role in New England's struggling passing offense is questionable ahead of a Week 3 game at Jacksonville. In Week 2, Douglas logged just two targets in his first full game without A.J. Brown after a seven-target opener, and he's averaging just 4.8 yards per reception to start the season. Jacksonville is allowing a hefty 10.3 yards per target to opposing wideouts, but Douglas' inability to stretch the field would require uncharacteristic heavy volume to provide a modest fantasy return.",
@@ -4540,6 +4492,31 @@
         "6": "DeMario Douglas faces an uphill battle to match Week 5's success when the Patriots face the Jets in Week 6. Douglas shined with two touchdowns and a season-high 65 yards against the Raiders, but he's still hauled in no more than two balls in three of five outings while being held to 38 yards or fewer in his first four games. New England is spreading the ball around in its surging passing attack, so Douglas seems unlikely to retain heavy volume. The Jets have allowed four opposing receivers to register 63 yards or more in the last two weeks, giving Douglas a shot at some upside.",
         "7": "DeMario Douglas is emerging as a viable option for the Patriots ahead of a Week 7 matchup with the Bears. Over the past two weeks, Douglas has garnered 13 targets, turning them into 11 catches and three touchdowns. Though A.J. Brown is back from an ankle injury, New England could be without Romeo Doubs due to a shoulder ailment, suggesting Douglas' place in the receiving pecking order may be unchanged, giving him a chance to post solid numbers against a secondary that's allowed nine opposing receivers to gain at least 55 yards.",
         "8": "DeMario Douglas will seek a rebound in Week 8 when New England travels to Miami. He was on a two-game heater entering Week 7, but finished with just three catches for 23 yards and has been held to 38 yards or fewer in five of seven outings. Miami is allowing an attractive 8.8 yards per target, the eighth-highest total league-wide, but because of vulnerabilities to tight ends and running backs in the passing game, opposing wideouts have the second-fewest yards, suggesting it may be better to look elsewhere for meaningful production."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 3917232,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 14,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Tyler Bass continues to be busy for the high-scoring Bills' offense as they enter a Week 2 matchup with the Lions. In Week 1, Bass made three extra points and three field goals, though none were 50-plus yards. Detroit's defense, particularly the secondary, was suspect a week ago, and the Bills should score plenty, making Bass appealing.",
+        "3": "Tyler Bass will attempt to bounce back from his first miss of the season when the Bills host the Chargers in Week 3. Bass wasn't afforded a field goal try in Week 2, with Buffalo's offense finding the end zone with ease, but still provided a reasonable floor, hitting five of six extra points. The Bills' offensive efficiency could cap Bass' scoring potential, but historically, the highest-scoring kickers come from the highest-scoring teams.",
+        "4": "Tyler Bass' opportunities have been limited ahead of a Week 4 matchup between the Bills and Patriots. Through three weeks, Bass has attempted only four field goals, though Buffalo's high-powered offense has generated 12 extra points. New England's defense remains stingy, allowing just 15 total points to opposing kickers, likely keeping Bass out of Week 4 consideration.",
+        "5": "Tyler Bass remains a stable floor, low ceiling kicking option for the Bills as they enter a Week 5 matchup with the Rams. Bass has collected 14 extra points through four weeks as Buffalo routinely converts drives into touchdowns, but only six field goal attempts, where he's perfect, keeping his scoring capacity limited. The Rams' defense has been stingy to opposing kickers, so don't expect Week 5 to be Bass' breakout party.",
+        "6": "Tyler Bass is trending up as the Bills get set to face the Raiders in Week 6. Extra points will remain consistent in Buffalo's efficient offense, as Bass has at least three attempts in four of five games, but his field goals increased each of the last three weeks. Las Vegas, however, has been stingy to opposing kicker scoring, surrendering 16 PATs but just six field-goal tries as teams routinely convert drives into touchdowns. Bass' floor Sunday looks stable, but the ceiling may be low.",
+        "8": "Tyler Bass has increased his workload over the last three weeks as Buffalo gets set to face Baltimore in Week 8. Always a steady source for PATs in Buffalo's high-scoring offense (Bass has made at least two in every game), he went from four field goals across his first three games to nine over his last three. None have come from 50-plus yards, potentially keeping bonus scoring off the table. Baltimore is a mid-tier defense for points allowed to kickers, but they've allowed as many field goal attempts as extra points through seven games, setting Bass up for a strong Week 8."
       }
     },
     {
@@ -5426,9 +5403,9 @@
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 0,
+        "onTeamId": 14,
         "rosterLocked": false,
-        "status": "FREEAGENT",
+        "status": "ONTEAM",
         "tradeLocked": false
       }
     },
