@@ -519,7 +519,7 @@
       "values": {
         "acquisitionBudgetSpent": 2,
         "acquisitions": 7,
-        "drops": 6,
+        "drops": 8,
         "misc": 0,
         "moveToActive": 17,
         "moveToIR": 2,
@@ -3664,30 +3664,6 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": 4575131,
-        "keeperValue": 0,
-        "keeperValueFuture": 15,
-        "lineupLocked": false,
-        "onTeamId": 12,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Jacory Croskey-Merritt found the end zone in Week 1 for Washington.  Bill served as the primary ballcarrier, toting the pigskin 16 times for 63 yards and the score. Meanwhile, fellow running back Rachaad White had seven carries for only 22 years. In Week 2, Croskey-Merritt will have a favorable matchup versus the Cowboys. Dallas allowed 165 yards rushing and one score on the ground to the Giants in the season opener.",
-        "3": "Jacory Croskey-Merritt took 12 carries for 43 yards in Washington's loss to Dallas last game. Meanwhile, fellow running back Rachaad White took seven carries for 43 yards, while also catching six passes for 40 yards as a receiver with Washington playing from behind. Croskey-Merritt looks like the preferred back between the tackles, with White acting as the pass-catching or third-down option. The timeshare will likely continue against a devastating Seattle defense in Week 3. The Seahawks are allowing just 8.5 points per game thus far in 2026, which is second in the league. In addition, Seattle has yet to allow a rushing touchdown to the opposition, and the Commanders will be without their starting quarterback, Jayden Daniels due to injury.",
-        "4": "Jacory Croskey-Merritt was perhaps predictably stymied by the Seattle Seahawks last game. However, the touches were a silver lining, as Croskey-Merritt garnered 20 opportunities in the 33-31 win over the defending champions. Bill rushed 19 times for 36 yards, while also catching a seven-yard pass out of the backfield. However, fellow running back Rachaad White  averaged more than double Croskey-Meritt's yards per carry, while also finding the end zone through the air. However, there could be plenty of room to roam in Week 4 versus the Colts. Indianapolis has been dreadful against the run in 2026, allowing 141.3 yards per contest on he ground, which is 29th in the league.",
-        "5": "Jacory Croskey-Merritt was stymied last game in a dismal loss for the Commanders. Bill had nine carries for a season-low 15 yards in the 30-13 defeat to the Colts. Even with Rachaad White sidelined due to injury, Croskey-Merritt could find little room to roam. Bill is struggling overall this season, averaging just 2.8 yards per tote. In Week 5, Washington will face a Giants run defense that has vastly improved from a season ago. New York is allowing 109 rushing yards per tilt, which is tied for 15th in the league. In addition, the G-Men have surrendered only two rushing touchdowns through four contests.",
-        "6": "Jacory Croskey-Merritt rushed for a season-high 82 yards last game for the Commanders. Bill also found the end zone for the second time this season. Croskey-Merritt has seen double-digit touches in every contest thus far in 2026. In Week 6, Washington will face the San Francisco 49ers. The Niners are allowing 97.6 rushing yards per tilt, which is 10th in the NFL. San Francisco has also given up just three rushing touchdowns through five outings, which is tied for sixth in the league."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[7].roster.entries[14].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 3.6,
         "id": 3042519,
         "keeperValue": 8,
@@ -3700,7 +3676,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[7].roster.entries[14].playerPoolEntry.player",
+      "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -3719,7 +3695,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[7].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Aaron Jones is primed to lead Minnesota's backfield in Week 2 at Chicago. Jones (29 of 65 offensive snaps) and Jordan Mason (30 snaps) had a near-even split of the backfield reps in Week 1, but Mason led the ground attack with 59 yards and a touchdown on 15 carries. Jones still remained heavily involved, as he logged 12 rushes for 40 yards and one touchdown. This week and beyond, Jones will be set to lead the backfield with Mason on IR for a thumb injury. Jones will look to make the most of his likely increased opportunities against a Bears defense that allowed 33.7 PPR points to Panthers running backs in Week 1.",
         "3": "Aaron Jones should continue to have a high-usage role as the Vikings travel to Tampa Bay in Week 3. Jones saw a big workload in Week 2 with Jordan Mason (thumb) on IR, rushing the ball 23 times for 105 yards. The veteran running back should continue to have a huge role in the coming weeks, while questions remain with the passing game under returning quarterback Kyler Murray. Jones will face a Buccaneers defense that's allowed a middle-of-the-pack 19.5 PPR points per game to RBs.",
@@ -3727,20 +3703,6 @@
         "5": "Aaron Jones will remain a high-usage option as the Vikings travel to New Orleans in Week 5. Jones saw a big workload in Week 4 once again with Jordan Mason (thumb) on IR, rushing the ball 20 times for 94 yards and recording four catches for 34 yards. The veteran running back's high share in the backfield shouldn't change with Mason out another week, even with DeeJay Dallas and Demond Claiborne fighting for touches. Jones will face a Saints defense that's ranked middle-of-the-pack versus fantasy RBs this campaign.",
         "7": "Aaron Jones could be set to share the backfield in Week 7 as the Vikings play the Colts. Jones logged his best game of the season in Week 5 against the Saints before Minnesota's bye, rushing the ball 25 times for 113 yards and a touchdown. The veteran could unfortunately now be in store for a shared role again, as position mate Jordan Mason is primed to return from IR, but the two have proven to be productive together in the past. Indy's defense has ranked 23rd in fantasy points allowed to RBs so far this campaign.",
         "8": "Aaron Jones could be at risk of missing Week 8 as the Vikings travel to Detroit. Jones suffered a knee injury in Minnesota's Week 7 win over the Colts, and he's currently day-to-day. What this means for his status moving forward is unknown until practices start up this week, but it is promising that he avoided a significant injury. The veteran running back logged eight carries for 26 yards before his departure, and it appeared he was still holding a prominent role even with Jordan Mason back on the field. If Jones can get healthy, he'll face a Lions defense that's ranked 11th in fantasy points allowed to RBs."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 13.08,
-        "id": 8439,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 12,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
       }
     },
     {
