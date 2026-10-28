@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 118.75,
+        "projection": 119.63,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -408,6 +408,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4702555",
+          "name": "Jonah Coleman",
+          "position": "RB",
+          "proTeam": "DEN",
+          "projection": 7.57,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4360569",
           "name": "Jordan Mason",
           "position": "RB",
@@ -647,7 +658,7 @@
       ]
     },
     {
-      "acquisitions": 11,
+      "acquisitions": 12,
       "actual": 0.0,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
@@ -752,17 +763,6 @@
         },
         {
           "actual": 0.0,
-          "id": "5082424",
-          "name": "Dominic Zvada",
-          "position": "K",
-          "proTeam": "NYG",
-          "projection": 0.0,
-          "slot": "K",
-          "slotId": 17,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4685247",
           "name": "Braelon Allen",
           "position": "RB",
@@ -812,6 +812,17 @@
           "position": "TE",
           "proTeam": "BAL",
           "projection": 11.51,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4428718",
+          "name": "Tre Tucker",
+          "position": "WR",
+          "proTeam": "LV",
+          "projection": 10.84,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1218,13 +1229,13 @@
       ]
     },
     {
-      "acquisitions": 16,
+      "acquisitions": 17,
       "actual": 0.0,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 118.75,
+      "projection": 119.63,
       "record": {
         "losses": 9,
         "pointsAgainst": 825.8599999999999,
@@ -1312,11 +1323,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16012",
-          "name": "Chiefs D/ST",
+          "id": "-16004",
+          "name": "Bengals D/ST",
           "position": "D/ST",
-          "proTeam": "KC",
-          "projection": 5.43,
+          "proTeam": "CIN",
+          "projection": 6.31,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1412,7 +1423,7 @@
       ]
     },
     {
-      "acquisitions": 7,
+      "acquisitions": 8,
       "actual": 0.0,
       "htmlId": "injured-reserve",
       "id": 12,
@@ -1561,6 +1572,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4697815",
+          "name": "Rachaad White",
+          "position": "RB",
+          "proTeam": "WSH",
+          "projection": 12.43,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4429059",
           "name": "Woody Marks",
           "position": "RB",
@@ -1584,7 +1606,7 @@
       ]
     },
     {
-      "acquisitions": 14,
+      "acquisitions": 16,
       "actual": 0.0,
       "htmlId": "pollard-express",
       "id": 13,
@@ -1711,17 +1733,6 @@
         },
         {
           "actual": 0.0,
-          "id": "3116165",
-          "name": "Chris Godwin Jr.",
-          "position": "WR",
-          "proTeam": "TB",
-          "projection": 8.96,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "3121023",
           "name": "Dallas Goedert",
           "position": "TE",
@@ -1733,11 +1744,11 @@
         },
         {
           "actual": 0.0,
-          "id": "15818",
-          "name": "Keenan Allen",
+          "id": "4870653",
+          "name": "KC Concepcion",
           "position": "WR",
-          "proTeam": "IND",
-          "projection": 9.2,
+          "proTeam": "CLE",
+          "projection": 10.2,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1760,6 +1771,17 @@
           "position": "WR",
           "proTeam": "SF",
           "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4723820",
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "proTeam": "NYJ",
+          "projection": 10.54,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
