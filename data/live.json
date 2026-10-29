@@ -17,7 +17,7 @@
     },
     {
       "away": {
-        "projection": 122.21,
+        "projection": 126.65,
         "score": 0.0,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 31,
+      "acquisitions": 30,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1423,13 +1423,13 @@
       ]
     },
     {
-      "acquisitions": 8,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 7,
-      "projection": 122.21,
+      "projection": 126.65,
       "record": {
         "losses": 8,
         "pointsAgainst": 828.92,
@@ -1506,22 +1506,22 @@
         },
         {
           "actual": 0.0,
-          "id": "3042519",
-          "name": "Aaron Jones Sr.",
+          "id": "4697815",
+          "name": "Rachaad White",
           "position": "RB",
-          "proTeam": "MIN",
-          "projection": 10.48,
+          "proTeam": "WSH",
+          "projection": 12.43,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "-16033",
-          "name": "Ravens D/ST",
+          "id": "-16017",
+          "name": "Patriots D/ST",
           "position": "D/ST",
-          "proTeam": "BAL",
-          "projection": 3.56,
+          "proTeam": "NE",
+          "projection": 6.05,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1535,6 +1535,17 @@
           "projection": 10.32,
           "slot": "K",
           "slotId": 17,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "3042519",
+          "name": "Aaron Jones Sr.",
+          "position": "RB",
+          "proTeam": "MIN",
+          "projection": 10.48,
+          "slot": "Bench",
+          "slotId": 20,
           "tradeInterest": null
         },
         {
@@ -1572,11 +1583,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4697815",
-          "name": "Rachaad White",
-          "position": "RB",
-          "proTeam": "WSH",
-          "projection": 12.43,
+          "id": "-16033",
+          "name": "Ravens D/ST",
+          "position": "D/ST",
+          "proTeam": "BAL",
+          "projection": 3.56,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null

@@ -518,10 +518,10 @@
       "path": "$.mTeam.teams[7].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 37,
-        "acquisitions": 8,
+        "acquisitions": 9,
         "drops": 8,
         "misc": 0,
-        "moveToActive": 17,
+        "moveToActive": 19,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -3327,7 +3327,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 74.0,
+        "appliedStatTotal": 71.9,
         "tradeReservedEntries": 0
       }
     },
@@ -3704,6 +3704,20 @@
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4697815,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 12,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": -1.0,
+        "id": -16017,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
