@@ -23,7 +23,7 @@
         "teamName": "Injured Reserve"
       },
       "home": {
-        "projection": 119.74,
+        "projection": 126.28,
         "score": 0.0,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
@@ -37,7 +37,7 @@
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 121.3,
+        "projection": 131.73,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -397,6 +397,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4360635",
+          "name": "Chig Okonkwo",
+          "position": "TE",
+          "proTeam": "WSH",
+          "projection": 10.01,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4426388",
           "name": "Jameson Williams",
           "position": "WR",
@@ -430,17 +441,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4429086",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "proTeam": "LV",
-          "projection": 9.11,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "-16016",
           "name": "Vikings D/ST",
           "position": "D/ST",
@@ -464,13 +464,13 @@
       ]
     },
     {
-      "acquisitions": 8,
+      "acquisitions": 9,
       "actual": 0.0,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 2,
-      "projection": 119.74,
+      "projection": 126.28,
       "record": {
         "losses": 5,
         "pointsAgainst": 817.5999999999999,
@@ -536,11 +536,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4361411",
-          "name": "Pat Freiermuth",
+          "id": "4431459",
+          "name": "Tyler Warren",
           "position": "TE",
-          "proTeam": "PIT",
-          "projection": 10.03,
+          "proTeam": "IND",
+          "projection": 14.05,
           "slot": "TE",
           "slotId": 6,
           "tradeInterest": null
@@ -558,11 +558,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16010",
-          "name": "Titans D/ST",
+          "id": "-16008",
+          "name": "Lions D/ST",
           "position": "D/ST",
-          "proTeam": "TEN",
-          "projection": 3.48,
+          "proTeam": "DET",
+          "projection": 6.0,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -643,28 +643,17 @@
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4431459",
-          "name": "Tyler Warren",
-          "position": "TE",
-          "proTeam": "IND",
-          "projection": 14.05,
-          "slot": "IR",
-          "slotId": 21,
-          "tradeInterest": null
         }
       ]
     },
     {
-      "acquisitions": 12,
+      "acquisitions": 13,
       "actual": 0.0,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 9,
-      "projection": 121.3,
+      "projection": 131.73,
       "record": {
         "losses": 9,
         "pointsAgainst": 979.8000000000001,
@@ -763,6 +752,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4249087",
+          "name": "Matt Gay",
+          "position": "K",
+          "proTeam": "LV",
+          "projection": 10.43,
+          "slot": "K",
+          "slotId": 17,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4685247",
           "name": "Braelon Allen",
           "position": "RB",
@@ -801,17 +801,6 @@
           "position": "WR",
           "proTeam": "PIT",
           "projection": 10.77,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "3116365",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "proTeam": "BAL",
-          "projection": 11.51,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null

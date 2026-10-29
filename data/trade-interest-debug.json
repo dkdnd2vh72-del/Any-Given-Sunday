@@ -284,8 +284,8 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 98,
-        "acquisitions": 30,
-        "drops": 30,
+        "acquisitions": 31,
+        "drops": 31,
         "misc": 0,
         "moveToActive": 51,
         "moveToIR": 1,
@@ -323,10 +323,10 @@
       "path": "$.mTeam.teams[2].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 8,
-        "drops": 7,
+        "acquisitions": 9,
+        "drops": 9,
         "misc": 0,
-        "moveToActive": 22,
+        "moveToActive": 24,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -362,10 +362,10 @@
       "path": "$.mTeam.teams[3].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 100,
-        "acquisitions": 12,
-        "drops": 11,
+        "acquisitions": 13,
+        "drops": 12,
         "misc": 0,
-        "moveToActive": 63,
+        "moveToActive": 64,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1201,31 +1201,6 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.7,
-        "id": 4429086,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 3,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Michael Mayer led the Raiders in targets with seven in a season-opening win over the Dolphins, although he turned that volume into just six catches for 32 yards. That opportunity came as Brock Bowers was sidelined following minor knee surgery, and while the third-year star isn't expected to be out long, he has yet to be cleared for Week 2. If Mayer does get the start at tight end, he'll be facing a Chargers defense that finished fifth in points allowed to TEs last year, although it couldn't contain Trey McBride to begin the current campaign.",
-        "3": "Michael Mayer hasn't made much of an impact as the Raiders' top tight end through the first two weeks of the season, catching nine of 11 targets for 55 yards without scoring a touchdown. That role has come while Brock Bowers was recovering from minor knee surgery at the end of training camp, but with Bowers expected to return in Week 3, Mayer will see even his modest volume collapse. If Bowers' 2026 debut does get delayed further, Mayer will still be facing a Saints defense that has yet to allow a TD to a tight end so far.",
-        "4": "Michael Mayer's stint as the Raiders' starting TE ended in Week 3 with the return of Brock Bowers, but he stayed involved in a win over the Saints, catching all three of his targets for 32 yards and his first touchdown of the season. A lack of options at wide receiver could mean Klint Kubiak will continue to lean on both his tight ends for offense, keeping Mayer relevant even with Bowers as the clear No. 1 target for Kirk Cousins. Mayer could make a splash again in Week 4 against a Kansas City defense that's been the stingiest in the league against WRs so far, but which ranks just 19th in fantasy points per game allowed to TEs.",
-        "5": "Michael Mayer was busy in the Raiders' Week 4 loss to Kansas City, turning a season-high 10 targets into eight catches for 82 yards. The additional volume came after wide receiver Jalen Nailor left the game with a concussion, forcing Kirk Cousins to lean even more heavily on his tight end duo of Mayer and Brock Bowers to move the chains. Even with a healthy Bowers back in action the last two weeks, Mayer has delivered an 11-114-1 line on 13 targets. However, he'll struggle to maintain that pace in Week 5 against a Patriots defense that has allowed the fewest fantasy points per game to TEs in 2026.",
-        "6": "Michael Mayer's volume took a significant step backward in the Raiders' Week 5 loss to the Patriots. After turning 10 targets into an 8-82-0 line in Week 4, Mayer got only one look from Kirk Cousins in New England, turning it into a two-yard gain. Brock Bowers is the unquestioned top option in the team's passing game, but a lack of established wide receivers has created an opening for Mayer to be more than just injury insurance. Through five games, he's delivered a 21-171-1 line on 25 targets, putting him on pace for career-best numbers in 2026. Mayer will face a Bills defense in Week 6 that ranks 15th in fantasy points per game allowed to TEs.",
-        "7": "Michael Mayer took advantage of the extra defensive attention the Bills paid to Brock Bowers in Week 6, catching seven of nine targets for a season-high 95 yards. While Bowers remains the top option in the Raiders' passing attack, Mayer is on pace for a career-best year of his own, producing a 28-266-1 line on 34 targets through six games. He is eight receptions and 63 yards away from establishing new personal bests. Mayer will likely struggle to reach those marks in Week 7 against a Rams defense that ranks second in fantasy points per game allowed to TEs."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 12.4,
         "id": 17372,
         "keeperValue": 15,
@@ -1238,7 +1213,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 6.800000000000001,
         "id": 4360569,
@@ -1252,7 +1227,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 8.9,
         "id": 4702555,
@@ -1266,16 +1241,41 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "3": "Jonah Coleman didn't see the ball in his NFL debut during the Broncos' opener, but his role increased in Week 2's win over the Jaguars due to RJ Harvey's hamstring strain. Coleman ended up getting more touches than J.K. Dobbins, with the 2026 fourth-round pick turning 10 carries into 39 yards and his first career touchdown while also catching all three of his targets for 19 yards. It's not clear how much time Harvey might miss, but Coleman's solid showing in his first opportunity could begin the process of turning the backfield into a three-man committee, with the workload dependent on whoever happens to be healthy. Coleman could be a risky play in Week 3 against a Rams defense that just saw the return of Aaron Donald in Week 2 and has yet to allow a rushing TD this year.",
         "8": "Jonah Coleman had the biggest share of the backfield workload in the Broncos' Week 7 win over the Cardinals, handling 11 touches to J.K. Dobbins' six and RJ Harvey's five. Coleman's 69 scrimmage yards led the trio, but the other two each made trips to the end zone while the rookie RB was held out. It was still an impressive effort in his return from an IR stint due to an ankle injury, and Coleman might be the most likely player from the group to emerge as the lead back. A messy committee is the more probable arrangement, however, heading into a Week 8 clash with a Kansas City defense that ranks seventh in fantasy points per game allowed to RBs."
       }
     },
     {
+      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 4360635,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Chig Okonkwo had a rough debut Week 1 for the Commanders. On only three targets, the former Titan caught a mere two passes for 16 yards in the 24-22 loss to the Eagles. He subsequently injured his hamstring and did not return. Meanwhile, both Stefon Diggs and rookie Antonio Williams found the end zone in their respective debuts for Washington. John Bates and Ben Sinnott would step in at tight end if Chig misses Week 2 versus Dallas. If he suits up, Okonkwo would have a favorable matchup against a Cowboys defense that allowed two touchdowns to Giants tight end Isaiah Likely in the season opener.",
+        "3": "Chig Okonkwo did not play in Week 2 for the Commanders. Washington's active tight ends did not fare well, catching a combined two passes for 20 yards in the 37-20 loss to Dallas. Starting quarterback Jayden Daniels only played a half due to injury, and veteran backup Marcus Mariota will likely start in Week 3 versus a devastating Seattle defense. The Seahawks are allowing just 8.5 points per game thus far in 2026, which is second in the league. Seattle is also allowing the fewest passing yards per contest at 124.5 per tilt. None of this appears to be a recipe for success for Okonkwo, even if he is able to suit up.",
+        "4": "Chig Okonkwo is set to practice with the Commanders as the squad heads to London for Week 4. John Bates has handled the tight end slot amid limited fanfare without Okonkwo, as Bates caught a nine-yard pass last game in Okonkwo's absence. If Okonkwo can suit up in Week 4, he may have an intriguing matchup versus the Colts, even with backup quarterback Marcus Mariota under center. Indianapolis is allowing 276 passing yards per tilt, which is 30th in the NFL.",
+        "5": "Chig Okonkwo returned to the lineup for the Commanders following a two-game absence due to a hamstring ailment. Okonkwo was targeted four times, but managed two catches for a mere five yards in the dismal 30-13 loss to the Colts. Starting quarterback Jayden Daniels could return to the fold in Week 5 versus the Giants, though, which would certainly be a boost for the passing game. However, New York has been fairly stingy against the pass in 2026, allowing just 205.3 passing yards per tilt, which is 10th in the NFL.",
+        "6": "Chig Okonkwo made his presence felt for Washington in his return to the lineup. Following a two-game absence due to a hamstring ailment, Okonkwo led the team with six targets en route to four catches for 60 yards in the 27-27 tie with the Giants. In Week 6, the Commanders face the undefeated San Francisco 49ers. The Niners are allowing just 199.6 passing yards per tilt, which is eighth in the league. In addition, San Fran has given up just five passing touchdowns, which is tied for fourth in the NFL.",
+        "8": "Chig Okonkwo has posted back-to-back 60-plus yard outings for Washington, and could see an uptick in targets for the remainder of the season.  No. 1 wideout Terry McLaurin will miss the rest of the 2026 campaign for the Commanders due to a knee injury. Okonkwo has amassed 13 targets in the last two games alone. In Week 8, Washington will face division rival Philadelphia. The reeling Eagles have been suspect in defending the pass this season. Philadelphia is giving up 244.5 passing yards per tilt, which is 27th in the league."
+      }
+    },
+    {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 76.5,
+        "appliedStatTotal": 77.0,
         "tradeReservedEntries": 0
       }
     },
@@ -1627,8 +1627,8 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.5,
-        "id": -16010,
+        "appliedStatTotal": 6.0,
+        "id": -16008,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -1636,38 +1636,12 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 5.0,
-        "id": 4361411,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 4,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Pat Freiermuth and the Steelers hope to improve to 2-0 when they visit the Patriots in Week 2. He secured all five targets for 46 yards and Aaron Rodgers' lone passing TD, and finished second on the team in receiving yards while tying for first in receptions. Freiermuth led Pittsburgh's TEs in offensive snaps (49), but Darnell Washington was a close second with 43. He and the Steelers will try to scheme up a way to beat a New England defense that is tied for second in receiving yards allowed to the position (13).",
-        "3": "Pat Freiermuth and the Steelers play host to the Bengals for an AFC North clash in Week 3. He paced the team's tight ends in snaps (46), receptions (4), yards (32) and targets (5) during Pittsburgh's 20-3 loss to the Patriots. Freiermuth appears to have the upper hand over Darnell Washington (1-7-0) in the passing game, but his fantasy floor and ceiling are relatively low in an underwhelming Steelers offense. He'll have the added benefit of facing a Cincinnati defense that allows 18.5 fantasy points per game to TEs (27th) and just got torched for 12 receptions and 140 yards by Dalton Schultz.",
-        "4": "Pat Freiermuth and the Steelers are on the road for a Week 4 AFC North clash against the Browns. He caught two of four targets for 30 yards and rushed once for one yard during Pittsburgh's Week 3 victory. Aaron Rodgers continues to spread the ball around, as six different Steelers receivers registered at least four targets, and four tied for the team lead in receptions with three. Freiermuth could be a sneaky play versus a Cleveland defense that ranks 20th in fantasy points allowed (14.9) to TEs and gave up eight receptions (on 12 targets) for 92 yards to the position in Week 3.",
-        "5": "Pat Freiermuth and the Steelers welcome the Colts to town for a Week 5 home tilt. He played 75% of snaps on offense and caught three of five targets for 17 yards and his second touchdown of the season. Fellow tight end Darnell Washington (3-27-1) was slightly more productive while playing 70% of the offensive snaps during Pittsburgh's 27-24 loss in Week 4. They're both listed as starting tight ends for the Steelers, and it looks like it'll be a toss-up between the two on any given week as long as they're healthy. Indianapolis allows 13.7 fantasy points per game to TEs, which ranks 17th.",
-        "6": "Pat Freiermuth and the Steelers visit the Buccaneers for an interconference clash in Week 6. He played 38 snaps on offense (70%) and was highly productive, catching five of seven targets for 44 yards and two of Aaron Rodgers' three TD passes during Pittsburgh's Week 5 victory. Freiermuth finished third on the team in receptions and yardage, while his seven looks were the second-most. Fellow starting tight end Darnell Washington was on the field for 34 offensive snaps (63%) and caught two of three targets for 12 yards. Freiermuth recorded a second consecutive outing with a score and now has four TDs on the season, and he'll aim to take advantage of a Tampa Bay defense allowing 15.7 fantasy points per game (22nd) to TEs.",
-        "7": "Pat Freiermuth and the Steelers travel to Paris to take on the Saints in Week 7. He caught two of three targets for 11 yards during Pittsburgh's 26-19 comeback win in overtime in Week 6. Freiermuth and fellow tight end Darnell Washington each played 71% of snaps on offense, but it was the latter who made the bigger impact in this one, as Washington tallied a 4-25-1 line on six targets. Freiermuth will try to rebound versus a New Orleans defense that just surrendered six receptions for 99 yards and a TD to Isaiah Likely.",
-        "8": "Pat Freiermuth and the Steelers return home to host the Browns for an AFC North showdown in Week 8. He caught two of four targets for 20 yards during Pittsburgh's Week 7 win in Paris. Freiermuth played 34 offensive snaps to fellow TE Darnell Washington's 36, but the two have been essentially neck-and-neck in playing time through seven outings this season. Freiermuth will aim to stand out versus Cleveland's 20th-ranked defense in fantasy points allowed per game (13.9) to the position."
       }
     },
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 105.3,
+        "appliedStatTotal": 113.6,
         "tradeReservedEntries": 0
       }
     },
@@ -1870,51 +1844,6 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.800000000000001,
-        "id": 3116365,
-        "keeperValue": 6,
-        "keeperValueFuture": 12,
-        "lineupLocked": false,
-        "onTeamId": 5,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[8].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 4,
-        "droppable": true,
-        "firstName": "Mark",
-        "fullName": "Mark Andrews",
-        "id": 3116365,
-        "injured": false,
-        "injuryStatus": "ACTIVE",
-        "lastName": "Andrews",
-        "lastNewsDate": 1792980522000,
-        "lastVideoDate": 1792591940000,
-        "proTeamId": 33,
-        "seasonOutlook": "One of fantasy's biggest mysteries, Andrews' usage has dipped substantially over the past two seasons. After finishing in the top five in fantasy PPG five seasons in a row from 2019 to 2023, Andrews slipped to eighth in 2024 (it would've been much worse if not for 11 touchdowns on 68 targets) and fell even further to 24th last season. Andrews appeared in all 17 of Baltimore's games but ranked 18th among tight ends in targets and outside the top 20 in catches and yards. The combination of a new coaching staff, a healthy Lamar Jackson and the departure of Isaiah Likely could lead to a rebound season for Andrews, but we now have two straight seasons of underperformance. The 31-year-old remains a force near the goal line (top 10 in end zone targets seven years in a row), but he's now more of a fringe TE1 than a fantasy star.",
-        "universeId": 1
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "Mark Andrews and the Ravens host the Saints and their defense, which ranks 13th in fantasy points allowed per game (11.3) to TEs, in Week 2. Andrews caught four of his six targets for 49 yards during Baltimore's 41-23 win in the season opener. He tied with Zay Flowers (hamstring) for the team lead in targets and finished second behind him in receptions. With Flowers and a host of other receivers dealing with injuries, Andrews could be in line for additional looks as a safety net for Lamar Jackson.",
-        "3": "Mark Andrews and the Ravens look to rebound from an upset defeat when they visit the Cowboys in Week 3. He caught six of seven targets for 49 yards during Baltimore's 24-17 Week 2 loss, making it two straight outings with exactly 49 receiving yards for the 31-year-old. Andrews draws a favorable matchup versus a Dallas defense that surrendered eight receptions for 78 yards and two TDs to Isaiah Likely in the season opener. The Cowboys rank 26th in fantasy points allowed (16.9) and are one of two teams with a catch rate of 100% to TEs.",
-        "4": "Mark Andrews and the Ravens welcome the 0-3 Titans to town for a Week 4 showdown. After missing some time with a hand injury during Baltimore's 34-31 Week 3 win, Andrews returned and ultimately finished with three catches for 24 yards on five targets. He's still in search of his first TD of 2026, but he's been consistently involved on offense, totaling 18 targets across three contests. Andrews could find it difficult to break through in the scoring department against the Titans' third-ranked defense in fantasy points allowed (7.4) to TEs, as they're one of nine teams yet to surrender a receiving touchdown to the position.",
-        "5": "Mark Andrews and the Ravens are on the road for the first time since the season opener to face the Falcons in Week 5. He corralled five of six targets for 27 yards and his first touchdown of the season in Baltimore's Week 4 win. Andrews has yet to top 50 yards receiving through four outings to date, and that trend could continue if Lamar Jackson (ankle) is unable to play on Sunday Night Football. The veteran tight end will aim to find paydirt for the second straight week against Atlanta's 21st-ranked defense in fantasy points allowed (15.9) per game to the position.",
-        "6": "Mark Andrews and the Ravens are in Cleveland for an AFC North divisional clash in Week 6. He caught four of six targets for 28 yards and lost a fumble during Baltimore's overtime victory in Week 5. Andrews is averaging a solid six targets through five outings in 2026, but he's yet to top 50 receiving yards, only has one touchdown, and tallies 35.4 yards per contest. He'll look to break out versus a Browns defense that's tied for 19th in fantasy points allowed per game (15.0) to TEs.",
-        "7": "Mark Andrews and the Ravens are back home to square off against the Bengals in Week 7. He caught one of three targets for four yards during Baltimore's 13-10 loss in Week 6. Andrews turned in his worst performance of the season on a day the Ravens tallied a meager 252 total yards of offense. Fellow tight end Josh Cuevas, a rookie fifth-round pick in 2026, recorded a 4-44-1 line on five targets, finishing second on the team in yardage while tying for second in receptions and targets. Andrews will look to rebound versus Cincinnati's 25th-ranked defense in fantasy points allowed per game (16.2) to TEs.",
-        "8": "Mark Andrews and the Ravens travel to face the Bills in Week 8. He caught three of four targets for 23 yards during Baltimore's 35-13 defeat in Week 7. Andrews was unable to take advantage of game flow, as Tyler Huntley attempted 34 passes and threw for a career-high 298 yards. Andrews has failed to top 30 receiving yards in five straight outings, making him a tough start in fantasy despite the potential return of Lamar Jackson (ankle)."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[9].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 9.5,
         "id": -16023,
         "keeperValue": 0,
@@ -1927,7 +1856,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[3].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 19.4,
         "id": 4685247,
@@ -1941,7 +1870,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry.player",
+      "path": "$.mRoster.teams[3].roster.entries[9].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -1960,7 +1889,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[3].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Braelon Allen will look to build on a solid opener when the Jets face the Packers in Week 2. Allen had 10 carries in Week 1 under new OC Frank Reich, after totaling 18 carries in four games before injury in 2025. The volume resulted from the Jets playing with a lead, a game script that's unlikely to repeat in Week 2. Allen remains a secondary option to Breece Hall, so patience is warranted, particularly against a defense that allowed only 3.7 yards per carry in Week 1 and is more vulnerable through the air.",
         "3": "Braelon Allen's usage remains questionable as the Jets prepare to face the Lions in Week 3. After a run-heavy Week 1 where Allen had 10 attempts, that number was cut in half in Week 2. He has also only seen two targets through two games. Breece Hall remains the workhorse, and the Lions' vulnerability to chunk plays in the passing game could further phase Allen out of meaningful touches, despite Detroit allowing 5.2 yards per carry.",
@@ -1972,7 +1901,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[11]",
+      "path": "$.mRoster.teams[3].roster.entries[10]",
       "values": {
         "acquisitionDate": 1791030385012,
         "acquisitionType": "TRADE",
@@ -1984,7 +1913,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 19.0,
         "id": 4242335,
@@ -1998,7 +1927,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[11].playerPoolEntry.player",
+      "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -2017,7 +1946,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Jonathan Taylor carried the Colts' offense with 121 scrimmage yards and two TDs on 22 touches in the season opener. His heavy Week 1 workload was encouraging considering the Colts trailed by 18 points at halftime and lost by that same margin to the Ravens. Indianapolis could face another negative game script in Week 2 at Kansas City, but Taylor remains locked in as a fantasy RB1, even with the team around him looking shaky. Taylor led the NFL with 323 carries and 18 rushing TDs last season while compiling 1,963 scrimmage yards.",
         "3": "Jonathan Taylor has scored multiple rushing TDs in both of the Colts' games heading into a Week 3 home tilt against the Texans. The star RB led the NFL with 20 scrimmage TDs last season and looks poised to finish near the top of the leaderboard again this season. Taylor is a set-and-forget fantasy RB1, even against a stout Texans front seven that allowed the fourth-fewest rushing yards to RBs last season and has yet to allow a TD to the position.",
@@ -2029,7 +1958,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[12]",
+      "path": "$.mRoster.teams[3].roster.entries[11]",
       "values": {
         "acquisitionDate": 1791030385012,
         "acquisitionType": "TRADE",
@@ -2041,7 +1970,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[3].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 27.700000000000003,
         "id": 4429615,
@@ -2055,7 +1984,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[3].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 5.7,
         "id": 4685261,
@@ -2069,7 +1998,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry.player",
+      "path": "$.mRoster.teams[3].roster.entries[12].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -2088,7 +2017,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4426385,
@@ -2102,7 +2031,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "6": "Zach Charbonnet continues to rehab from a torn ACL and isn't expected to play in Seattle's Week 6 matchup in Denver. Charbonnet did have his 21-day practice window opened last week, and he got in a couple limited practice sessions, but the fact that the Seahawks are playing on Thursday night this week complicates his outlook for a return to action. As such, Emanuel Wilson and George Holani are slated to lead Seattle's RB corps again. Charbonnet does have a chance to make his 2026 debut in Week 7 against Kansas City.",
         "7": "Zach Charbonnet (knee) and the Seahawks welcome the Chiefs to town for Sunday Night Football in Week 7. He's been on the physically unable to perform (PUP)/reserve list to begin 2026, but Seattle opened his three-week practice window back on Oct. 1. With that being said, Charbonnet will need to be activated by Thursday in order to avoid him being out for the rest of the season. He's expected to join the official roster after practicing in a limited fashion the last couple weeks. However, Charbonnet will likely be eased into the backfield rotation if he is indeed able to make his debut, so it would be wise to wait until after the meeting with Kansas City's defense that's tied for ninth in fantasy points allowed per game (19.0) to RBs.",
@@ -2110,7 +2039,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 21.3,
         "id": 4428718,
@@ -2124,7 +2053,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Tre Tucker was fairly quiet in the Raiders' season-opening win over the Dolphins, catching two of four targets for 27 yards. All three of the team's top wideouts, including Jalen Nailor and Jack Bech, produced very similar numbers, with Bech catching the trio's only TD. The group figures to remain secondary pieces in the passing game as RB Ashton Jeanty and TE Brock Bowers, when healthy, project to be the top weapons for Kirk Cousins and, eventually, Fernando Mendoza. Tucker isn't likely to break out in Week 2 against a Chargers' secondary that finished last season tied for eighth in points per game allowed to WRs.",
         "3": "Tre Tucker produced his first ceiling game of 2026 in the Raiders' Week 2 win over the Chargers. churning out a 5-119-1 line on seven targets. The volatile wideout is showing some early chemistry with new quarterback Kirk Cousins, and no one else has yet shown any indication that they'll be able to challenge him for the top spot on the depth chart, even if Tucker's skill set would be better suited for a WR2 or even WR3 role. Tucker will try to build on last week's effort in Week 3 against a Saints secondary that ranks in the middle of the pack in terms of volume allowed to wide receivers so far, but which has given up three TDs to the position in two games.",
@@ -2133,6 +2062,31 @@
         "6": "Tre Tucker has hauled in at least four passes in four straight games as the Raiders' top wide receiver, although he plays a clear second fiddle to tight end Brock Bowers in the passing game. Tucker has failed to reach 50 receiving yards in three of those games, and his only touchdown came during his Week 2 eruption against the Chargers. The fourth-year wideout will have a ceiling game once in a blue moon, but his weekly floor is low, at least while Kirk Cousins remains under center instead of rookie Fernando Mendoza. Tucker will try to get enough volume to take advantage of a Week 6 matchup against a Bills secondary that ranks last in the league in fantasy points per game allowed to WRs.",
         "7": "Tre Tucker continues to build chemistry with Kirk Cousins. The Raiders' No. 1 wide receiver hauled in two touchdowns in the Raiders' Week 6 loss to the Bills, and through six games Tucker has produced a 24-371-3 line on 35 targets, putting him on pace for his first 1,000-yard effort. Tight end Brock Bowers remains the top option in the passing game, and Tucker has yet to record more than eight targets in a game in 2026. The prospect of Fernando Mendoza replacing Cousins under center at some point offers additional uncertainty for Tucker. He'll have a hard time delivering another ceiling game in Week 7 against a Rams secondary that ranks fourth in fantasy points per game allowed to WRs.",
         "8": "Tre Tucker is on his way to a career-best season with Kirk Cousins under center for the Raiders. The fourth-year wideout has caught 10 of 19 targets for 200 yards and three touchdowns over the last two games, and through seven contests Tucker sports a 29-474-4 line on 47 targets. Brock Bowers is still the team's top downfield threat, but Tucker is establishing himself as a strong No. 2 option, although the eventual switch at QB to rookie Fernando Mendoza could change things. Tucker will look to keep rolling in Week 8 against a Jets secondary that is tied for 15th in fantasy points per game allowed to WRs."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 8.3,
+        "id": 4249087,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 5,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Matt Gay was perfect in his Raiders debut, converting field goals from 30 and 47 yards and all three extra points in a season-opening win over the Dolphins. A rebuilding opponent certainly provided Gay with extra opportunities, but the Las Vegas offense could also be better than expected. New head coach Klint Kubiak and an improved quarterback situation, with Kirk Cousins steadying the ship until rookie Fernando Mendoza is ready, should help. The pending return of Brock Bowers will also help generate more scoring drives. Gay may not be able to squander any chances in Week 2 against a Chargers team that ranked ninth in points per game allowed in 2025.",
+        "3": "Matt Gay has been busy to begin his Raiders' career, converting all three of his field-goal attempts and all six of his extra points through the first two games of the season. The outlook for the offense should improve once Brock Bowers is cleared for his 2026 debut, and while there's additional uncertainly on the horizon once first overall pick Fernando Mendoza is deemed ready to replace Kirk Cousins under center, Gay could actually benefit if the young QB struggles to get the ball into the end zone while he figures out NFL defenses. Gay will face a Saints team in Week 3 that's allowed an exact mirror to his production so far, with opposition kickers getting three FGs and six PATs.",
+        "4": "Matt Gay has been both busy and perfect for the surprising 3-0 Raiders, connecting on all six of his field goal attempts and all eight of his PATs. The veteran kicker was also successful on his only attempt from 50-plus yards, as he looks to boot at least three long-range FGs for a sixth straight season. Gay has also benefited from a favorable early schedule, as all three of Las Vegas' games so far have been played indoors. The team will get a fourth straight game under a roof in a Week 4 home tilt against Kansas City, but Gay likely won't be able to afford to squander any opportunities versus an opponent that has given up just 16.7 points per game, tied for third in the league.",
+        "5": "Matt Gay continues to benefit from the Raiders' surprisingly strong start to the season on offense with Kirk Cousins under center. In a Week 4 loss to Kansas City, Gay was a perfect 4-for-4 on FG tries while also converting his only PAT. The veteran has yet to miss an attempt in 2026, going 10-for-10 on FGs and 9-for-9 on extra points, putting him third in the NFL in kicker scoring behind the Vikings' Will Reichard and the Colts' Spencer Shrader. Gay likely won't be able to afford to start squandering opportunities in Week 5 against a Patriots team that's allowed 19.3 points per game so far, tied for sixth in the league.",
+        "6": "Matt Gay missed his first kick of the season in the Raiders' Week 5 loss to the Patriots, pinging the upright on a field goal attempt from 48 yards out. He's still having a strong season, converting all 11 of his PATs and going 11-for-12 on FG attempts, including his only attempt from 50-plus yards. Gay has benefited from a surprisingly potent offense under Kirk Cousins, but the veteran QB may be reverting to his usual level, perhaps opening the door for first overall pick Fernando Mendoza to take the reins, so it's not necessarily bad news for Gay's long-term outlook. Gay will take on a Bills team in Week 6 that's allowing 28.2 points per game, 28th in the league.",
+        "7": "Matt Gay stayed busy in the Raiders' Week 6 loss to the Bills, going a perfect 3-for-3 on both field goal attempts and extra points. The veteran kicker has benefited from the team's offensive resurgence under new head coach Klint Kubiak, and Gay sits third in scoring in the NFL behind the Colts' Spencer Shrader and the Bills' Tyler Bass. Gay will face a Rams team in Week 7 that's allowed 23.0 points per game, tied for 17th in the league."
       }
     },
     {
@@ -3967,7 +3921,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.0,
+        "appliedStatTotal": 1.5,
         "id": -16025,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -4939,9 +4893,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793257200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5038,12 +4991,13 @@
         "droppedByEliminatedTeam": false,
         "id": 3116365,
         "keeperValue": 6,
-        "keeperValueFuture": 12,
+        "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 5,
+        "onTeamId": 0,
         "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793430000000
       }
     },
     {
