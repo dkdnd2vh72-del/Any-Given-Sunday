@@ -991,7 +991,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 106.78,
+        "appliedStatTotal": 112.97999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -1023,13 +1023,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.0,
+        "appliedStatTotal": 14.2,
         "id": 4685472,
         "keeperValue": 6,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1159,13 +1159,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.42,
+        "appliedStatTotal": 7.58,
         "id": 4685720,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1275,7 +1275,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 77.0,
+        "appliedStatTotal": 97.9,
         "tradeReservedEntries": 0
       }
     },
@@ -1523,13 +1523,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.9,
+        "appliedStatTotal": 30.799999999999997,
         "id": 4701936,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2092,7 +2092,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 84.50000000000001,
+        "appliedStatTotal": 104.4,
         "tradeReservedEntries": 0
       }
     },
@@ -2295,13 +2295,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.0,
+        "appliedStatTotal": 29.9,
         "id": 4241416,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2499,7 +2499,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 106.94000000000001,
+        "appliedStatTotal": 120.94000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -2641,13 +2641,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.7,
+        "appliedStatTotal": 24.7,
         "id": 4248528,
         "keeperValue": 0,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2881,7 +2881,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 90.56,
+        "appliedStatTotal": 113.03999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -3062,9 +3062,9 @@
         "id": 4695883,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3202,13 +3202,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.96,
+        "appliedStatTotal": 39.44,
         "id": 4036378,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3281,7 +3281,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 71.9,
+        "appliedStatTotal": 89.9,
         "tradeReservedEntries": 0
       }
     },
@@ -3503,13 +3503,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.8,
+        "appliedStatTotal": 34.8,
         "id": 4572680,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4062,7 +4062,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 177.48000000000002,
+        "appliedStatTotal": 198.58,
         "tradeReservedEntries": 0
       }
     },
@@ -4212,13 +4212,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.1,
+        "appliedStatTotal": 41.2,
         "id": 4047365,
         "keeperValue": 2,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4952,7 +4952,7 @@
         "injuryStatus": "QUESTIONABLE",
         "jersey": "5",
         "lastName": "Allen Jr.",
-        "lastNewsDate": 1790980822000,
+        "lastNewsDate": 1793316412000,
         "proTeamId": 30,
         "seasonOutlook": "A 2025 seventh-round pick, Allen is set to compete with fellow second-year back Bhayshul Tuten and newcomer Chris Rodriguez Jr. for work in the Jacksonville backfield. As a rookie, Allen played 22% of the Jaguars' offensive snaps (82% of which were pass plays), but was limited to just 33 touches and failed to find the end zone or reach 4.0 fantasy points in a single game. It's likely that Tuten will operate as the Jaguars' primary back, with Rodriguez busy on early downs and short-yardage situations, and Allen used as a passing-down specialist, same as in 2025. That said, none of the three are established as lead backs, so there's an opportunity for Allen to force his way into a larger role. The 22-year-old is worth no more than a late-round flier."
       }
