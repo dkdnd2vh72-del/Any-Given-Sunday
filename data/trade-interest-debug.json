@@ -298,7 +298,7 @@
       "path": "$.mTeam.teams[2]",
       "values": {
         "abbrev": "BURK",
-        "currentProjectedRank": 3,
+        "currentProjectedRank": 2,
         "divisionId": 1,
         "draftDayProjectedRank": 6,
         "eliminated": false,
@@ -415,7 +415,7 @@
       "path": "$.mTeam.teams[5]",
       "values": {
         "abbrev": "KING",
-        "currentProjectedRank": 2,
+        "currentProjectedRank": 3,
         "divisionId": 1,
         "draftDayProjectedRank": 9,
         "eliminated": false,
@@ -532,7 +532,7 @@
       "path": "$.mTeam.teams[8]",
       "values": {
         "abbrev": "ZJAM",
-        "currentProjectedRank": 4,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 4,
         "eliminated": false,
@@ -571,7 +571,7 @@
       "path": "$.mTeam.teams[9]",
       "values": {
         "abbrev": "CMC ",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 4,
         "divisionId": 1,
         "draftDayProjectedRank": 5,
         "eliminated": false,
@@ -991,7 +991,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 112.97999999999999,
+        "appliedStatTotal": 118.58000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -1023,7 +1023,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.2,
+        "appliedStatTotal": 19.8,
         "id": 4685472,
         "keeperValue": 6,
         "keeperValueFuture": 3,
@@ -1159,7 +1159,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.58,
+        "appliedStatTotal": 15.78,
         "id": 4685720,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2092,7 +2092,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 104.4,
+        "appliedStatTotal": 109.4,
         "tradeReservedEntries": 0
       }
     },
@@ -2295,7 +2295,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 29.9,
+        "appliedStatTotal": 34.9,
         "id": 4241416,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -2499,7 +2499,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 120.94000000000001,
+        "appliedStatTotal": 124.24,
         "tradeReservedEntries": 0
       }
     },
@@ -2641,7 +2641,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.7,
+        "appliedStatTotal": 28.0,
         "id": 4248528,
         "keeperValue": 0,
         "keeperValueFuture": 6,
@@ -2881,7 +2881,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 113.03999999999999,
+        "appliedStatTotal": 121.68,
         "tradeReservedEntries": 0
       }
     },
@@ -3058,7 +3058,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.9,
+        "appliedStatTotal": 11.5,
         "id": 4695883,
         "keeperValue": 0,
         "keeperValueFuture": 11,
@@ -3081,7 +3081,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Coker",
-        "lastNewsDate": 1793129002000,
+        "lastNewsDate": 1793334196000,
         "lastVideoDate": 1792359746000,
         "proTeamId": 29,
         "seasonOutlook": "After missing nearly the entire first half of 2025, Coker passed Xavier Legette and took on a larger offensive role opposite Tetairoa McMillan. From Week 8 onward (11 games, including the playoffs), Coker played 73% of the snaps and handled a 17.8% target share. The fantasy output was inconsistent (below 11.5 points in seven games), but he peaked down the stretch (more than 14 points in four of his final six, including a 9-134-1 showing against the Rams in the playoffs). Coker's strong finish is encouraging, though his rookie season went similarly (14-plus points three times, but under 11 in the other nine games). A healthy 2026 could get Coker to the next level, but flex production is his likely ceiling as long as McMillan is commanding one-quarter (if not more) of the targets in Carolina's Bryce Young-led offense.",
@@ -3202,7 +3202,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 39.44,
+        "appliedStatTotal": 38.480000000000004,
         "id": 4036378,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3281,7 +3281,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 89.9,
+        "appliedStatTotal": 92.19999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -3503,7 +3503,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 34.8,
+        "appliedStatTotal": 37.1,
         "id": 4572680,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -4062,7 +4062,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 198.58,
+        "appliedStatTotal": 200.68,
         "tradeReservedEntries": 0
       }
     },
@@ -4212,7 +4212,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 41.2,
+        "appliedStatTotal": 43.3,
         "id": 4047365,
         "keeperValue": 2,
         "keeperValueFuture": 9,
@@ -4235,7 +4235,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Jacobs",
-        "lastNewsDate": 1792974762000,
+        "lastNewsDate": 1793331227000,
         "lastVideoDate": 1793198730000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
