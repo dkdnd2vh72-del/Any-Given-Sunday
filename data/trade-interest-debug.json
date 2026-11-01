@@ -609,14 +609,14 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 201.52,
+        "appliedStatTotal": 238.50000000000003,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[0].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 31.900000000000002,
+        "appliedStatTotal": 36.800000000000004,
         "id": 4374302,
         "keeperValue": 1,
         "keeperValueFuture": 1,
@@ -630,7 +630,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 32.8,
+        "appliedStatTotal": 37.2,
         "id": 4241389,
         "keeperValue": 1,
         "keeperValueFuture": 2,
@@ -644,13 +644,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.1,
+        "appliedStatTotal": 26.5,
         "id": 4430737,
         "keeperValue": 3,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -695,7 +695,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.1,
+        "appliedStatTotal": 30.300000000000004,
         "id": 4685702,
         "keeperValue": 0,
         "keeperValueFuture": 5,
@@ -721,7 +721,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.7,
+        "appliedStatTotal": 19.3,
         "id": 4360248,
         "keeperValue": 13,
         "keeperValueFuture": 6,
@@ -768,7 +768,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.3,
+        "appliedStatTotal": 15.900000000000002,
         "id": 4429205,
         "keeperValue": 10,
         "keeperValueFuture": 10,
@@ -793,13 +793,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.4,
+        "appliedStatTotal": 17.5,
         "id": 15847,
         "keeperValue": 9,
         "keeperValueFuture": 11,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -807,7 +807,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.02,
+        "appliedStatTotal": 19.4,
         "id": 4360310,
         "keeperValue": 0,
         "keeperValueFuture": 12,
@@ -927,7 +927,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 44.5,
+        "appliedStatTotal": 43.5,
         "id": -16027,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -941,7 +941,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.04,
+        "appliedStatTotal": 33.8,
         "id": 3917315,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -966,7 +966,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.9,
+        "appliedStatTotal": 11.4,
         "id": 4373678,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -991,14 +991,14 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 155.38000000000002,
+        "appliedStatTotal": 226.28,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[1].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.4,
+        "appliedStatTotal": 18.1,
         "id": 4379399,
         "keeperValue": 4,
         "keeperValueFuture": 1,
@@ -1037,13 +1037,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.7,
+        "appliedStatTotal": 13.6,
         "id": 4567048,
         "keeperValue": 5,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1077,7 +1077,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 31.700000000000003,
+        "appliedStatTotal": 43.1,
         "id": 4426388,
         "keeperValue": 0,
         "keeperValueFuture": 6,
@@ -1091,7 +1091,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 29.6,
+        "appliedStatTotal": 44.5,
         "id": 5083076,
         "keeperValue": 0,
         "keeperValueFuture": 7,
@@ -1119,7 +1119,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 30.98,
+        "appliedStatTotal": 43.08,
         "id": 2577417,
         "keeperValue": 14,
         "keeperValueFuture": 9,
@@ -1133,7 +1133,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.1,
+        "appliedStatTotal": 37.4,
         "id": 4360761,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -1173,7 +1173,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.0,
+        "appliedStatTotal": 16.0,
         "id": -16016,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -1187,13 +1187,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.0,
+        "appliedStatTotal": 6.0,
         "id": -16007,
         "keeperValue": 12,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1201,7 +1201,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.1,
+        "appliedStatTotal": 20.1,
         "id": 17372,
         "keeperValue": 15,
         "keeperValueFuture": 0,
@@ -1215,7 +1215,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.9,
+        "appliedStatTotal": 8.8,
         "id": 4360569,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -1229,13 +1229,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.9,
+        "appliedStatTotal": 13.600000000000001,
         "id": 4702555,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1275,7 +1275,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 136.10000000000002,
+        "appliedStatTotal": 169.7,
         "tradeReservedEntries": 0
       }
     },
@@ -1296,7 +1296,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.200000000000003,
+        "appliedStatTotal": 19.9,
         "id": 3043078,
         "keeperValue": 2,
         "keeperValueFuture": 2,
@@ -1310,7 +1310,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.7,
+        "appliedStatTotal": 22.5,
         "id": 4426354,
         "keeperValue": 5,
         "keeperValueFuture": 3,
@@ -1336,7 +1336,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.9,
+        "appliedStatTotal": 7.8,
         "id": 4431459,
         "keeperValue": 7,
         "keeperValueFuture": 4,
@@ -1350,13 +1350,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.8,
+        "appliedStatTotal": 20.4,
         "id": 4372016,
         "keeperValue": 8,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1371,9 +1371,9 @@
         "fullName": "Jaylen Waddle",
         "id": 4372016,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Waddle",
-        "lastNewsDate": 1793535484000,
+        "lastNewsDate": 1793563104000,
         "lastVideoDate": 1792767413000,
         "proTeamId": 7,
         "seasonOutlook": "Waddle was traded to Denver after spending his first five seasons in Miami. The 2021 first-round pick was solid during his Dolphins tenure, finishing in the top 30 among receivers in fantasy PPG four times, though never reaching the top 10 while often playing second fiddle to Tyreek Hill. Although he has been a reliable target and has missed only seven games in five years, Waddle hasn't finished a season higher than 20th in targets or catches since 2021. In Denver, the 27-year-old Waddle will compete with Courtland Sutton for the team lead in targets in a scheme that likes to spread the ball around. Not utilized near the goal line much at 5-foot-10 and 180 pounds (he's yet to clear seven end zone targets in a season), Waddle is likely to max out as a back-end WR2 in Denver.",
@@ -1383,7 +1383,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.4,
+        "appliedStatTotal": 16.6,
         "id": 3915416,
         "keeperValue": 7,
         "keeperValueFuture": 6,
@@ -1404,9 +1404,9 @@
         "fullName": "DJ Moore",
         "id": 3915416,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
-        "lastNewsDate": 1793550412000,
+        "lastNewsDate": 1793571203000,
         "lastVideoDate": 1789344254000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -1478,7 +1478,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 52.5,
+        "appliedStatTotal": 65.2,
         "id": 3916148,
         "keeperValue": 0,
         "keeperValueFuture": 9,
@@ -1502,7 +1502,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Pollard",
         "lastNewsDate": 1793401579000,
-        "lastVideoDate": 1792963567000,
+        "lastVideoDate": 1793558746000,
         "proTeamId": 10,
         "seasonOutlook": "Pollard has handled a hefty 67.2% of the Titans' designed rushing attempts since his arrival two seasons ago (15.2 per game) and, even with solid efficiency, he has finished 22nd and 30th in fantasy points per game. The culprits? Tennessee's struggling offense (Pollard has exactly five TDs in both seasons) and a limited receiving role when Tyjae Spears has been healthy (Pollard's targets fell from 3.5 per game in 2024 to 2.5 per game in 2025). Barring a major leap from quarterback Cam Ward, Pollard is unlikely to deliver only the second top-20 fantasy campaign (in points per game) of his career. The 29-year-old, entering his eighth NFL season (third with Tennessee), is a low-ceiling flex.",
         "universeId": 1
@@ -1588,7 +1588,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 19.620000000000005,
+        "appliedStatTotal": 27.060000000000002,
         "id": 3046779,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -1602,13 +1602,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.0,
+        "appliedStatTotal": 9.5,
         "id": 3055899,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1627,7 +1627,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.0,
+        "appliedStatTotal": 14.0,
         "id": -16008,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -1641,14 +1641,14 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 202.8,
+        "appliedStatTotal": 284.5,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[3].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 30.8,
+        "appliedStatTotal": 48.0,
         "id": 4432665,
         "keeperValue": 2,
         "keeperValueFuture": 2,
@@ -1726,7 +1726,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 38.900000000000006,
+        "appliedStatTotal": 64.3,
         "id": 4239993,
         "keeperValue": 3,
         "keeperValueFuture": 5,
@@ -1830,13 +1830,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.0,
+        "appliedStatTotal": 22.0,
         "id": 3139477,
         "keeperValue": 6,
         "keeperValueFuture": 11,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1844,7 +1844,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.5,
+        "appliedStatTotal": 26.5,
         "id": -16023,
         "keeperValue": 0,
         "keeperValueFuture": 14,
@@ -1858,7 +1858,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 31.5,
+        "appliedStatTotal": 42.7,
         "id": 4685247,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -1881,7 +1881,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Allen",
-        "lastNewsDate": 1793536190000,
+        "lastNewsDate": 1793570990000,
         "lastVideoDate": 1793205435000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar.",
@@ -1915,7 +1915,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.1,
+        "appliedStatTotal": 25.700000000000003,
         "id": 4242335,
         "keeperValue": 2,
         "keeperValueFuture": 1,
@@ -1986,7 +1986,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.5,
+        "appliedStatTotal": 13.7,
         "id": 4685261,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2067,7 +2067,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.3,
+        "appliedStatTotal": 18.6,
         "id": 4249087,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2092,7 +2092,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 123.39999999999999,
+        "appliedStatTotal": 151.29999999999998,
         "tradeReservedEntries": 0
       }
     },
@@ -2151,7 +2151,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.200000000000003,
+        "appliedStatTotal": 31.900000000000002,
         "id": 4890973,
         "keeperValue": 2,
         "keeperValueFuture": 3,
@@ -2165,7 +2165,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.4,
+        "appliedStatTotal": 18.9,
         "id": 4569618,
         "keeperValue": 0,
         "keeperValueFuture": 4,
@@ -2214,8 +2214,8 @@
         "injured": true,
         "injuryStatus": "OUT",
         "lastName": "Jackson",
-        "lastNewsDate": 1793558330000,
-        "lastVideoDate": 1791142597000,
+        "lastNewsDate": 1793569816000,
+        "lastVideoDate": 1793563606000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
         "universeId": 1
@@ -2236,7 +2236,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.6,
+        "appliedStatTotal": 11.3,
         "id": 4430027,
         "keeperValue": 6,
         "keeperValueFuture": 6,
@@ -2250,7 +2250,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.3,
+        "appliedStatTotal": 26.200000000000003,
         "id": 4038815,
         "keeperValue": 0,
         "keeperValueFuture": 8,
@@ -2274,7 +2274,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Dowdle",
         "lastNewsDate": 1792951060000,
-        "lastVideoDate": 1793026659000,
+        "lastVideoDate": 1793558765000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
         "universeId": 1
@@ -2364,13 +2364,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.0,
+        "appliedStatTotal": 8.0,
         "id": -16014,
         "keeperValue": 0,
         "keeperValueFuture": 12,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2394,13 +2394,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.1,
+        "appliedStatTotal": 7.0,
         "id": 4683062,
         "keeperValue": 5,
         "keeperValueFuture": 13,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2423,9 +2423,9 @@
         "id": 4568490,
         "keeperValue": 7,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2459,7 +2459,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.759999999999998,
+        "appliedStatTotal": 48.58,
         "id": 14880,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2485,7 +2485,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.0,
+        "appliedStatTotal": -2.0,
         "id": -16020,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2499,14 +2499,14 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 162.94,
+        "appliedStatTotal": 206.76000000000002,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[5].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.900000000000002,
+        "appliedStatTotal": 24.800000000000004,
         "id": 4430807,
         "keeperValue": 1,
         "keeperValueFuture": 1,
@@ -2536,9 +2536,9 @@
         "id": 4047646,
         "keeperValue": 3,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2616,7 +2616,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.4,
+        "appliedStatTotal": 29.9,
         "id": 4882093,
         "keeperValue": 0,
         "keeperValueFuture": 5,
@@ -2655,13 +2655,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.44,
+        "appliedStatTotal": 30.060000000000002,
         "id": 4431452,
         "keeperValue": 10,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2681,13 +2681,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.1,
+        "appliedStatTotal": 29.400000000000002,
         "id": 4429096,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2695,7 +2695,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.300000000000001,
+        "appliedStatTotal": 20.6,
         "id": 4385690,
         "keeperValue": 0,
         "keeperValueFuture": 12,
@@ -2734,7 +2734,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.4,
+        "appliedStatTotal": 15.399999999999999,
         "id": 4832800,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2774,7 +2774,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.3,
+        "appliedStatTotal": 4.3,
         "id": 4571557,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2800,7 +2800,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.0,
+        "appliedStatTotal": 21.5,
         "id": -16030,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2855,7 +2855,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.000000000000001,
+        "appliedStatTotal": 8.700000000000001,
         "id": 4686468,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2881,14 +2881,14 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 187.98,
+        "appliedStatTotal": 212.88,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[6].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 34.4,
+        "appliedStatTotal": 48.3,
         "id": 4362628,
         "keeperValue": 1,
         "keeperValueFuture": 1,
@@ -2902,13 +2902,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 3.4,
         "id": 4685382,
         "keeperValue": 3,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3003,9 +3003,9 @@
         "id": 4432710,
         "keeperValue": 3,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3044,13 +3044,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.3,
+        "appliedStatTotal": 9.600000000000001,
         "id": 4241985,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3152,7 +3152,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.800000000000004,
+        "appliedStatTotal": 24.800000000000004,
         "id": 3150744,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3178,13 +3178,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.3,
+        "appliedStatTotal": 19.5,
         "id": 4711533,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3216,13 +3216,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.6,
+        "appliedStatTotal": 25.1,
         "id": 3046439,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3242,7 +3242,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.5,
+        "appliedStatTotal": 11.5,
         "id": -16004,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3256,7 +3256,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 21.1,
+        "appliedStatTotal": 24.1,
         "id": 5083754,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3282,14 +3282,14 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 119.55999999999997,
+        "appliedStatTotal": 160.36,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[7].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.9,
+        "appliedStatTotal": 22.700000000000003,
         "id": 4262921,
         "keeperValue": 1,
         "keeperValueFuture": 1,
@@ -3343,7 +3343,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.26,
+        "appliedStatTotal": 26.560000000000002,
         "id": 3918298,
         "keeperValue": 3,
         "keeperValueFuture": 4,
@@ -3574,7 +3574,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.600000000000001,
+        "appliedStatTotal": 26.300000000000004,
         "id": 3953687,
         "keeperValue": 12,
         "keeperValueFuture": 12,
@@ -3599,7 +3599,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.5,
+        "appliedStatTotal": -3.0,
         "id": -16033,
         "keeperValue": 0,
         "keeperValueFuture": 14,
@@ -3613,7 +3613,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.699999999999999,
+        "appliedStatTotal": 9.6,
         "id": 3042519,
         "keeperValue": 8,
         "keeperValueFuture": 0,
@@ -3671,13 +3671,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": -1.0,
+        "appliedStatTotal": 10.0,
         "id": -16017,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3685,14 +3685,14 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 126.2,
+        "appliedStatTotal": 202.01999999999998,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[8].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.3,
+        "appliedStatTotal": 42.1,
         "id": 4429795,
         "keeperValue": 1,
         "keeperValueFuture": 1,
@@ -3706,7 +3706,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.8,
+        "appliedStatTotal": 25.900000000000002,
         "id": 4362238,
         "keeperValue": 3,
         "keeperValueFuture": 2,
@@ -3720,13 +3720,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 13.8,
         "id": 4428331,
         "keeperValue": 8,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3738,9 +3738,9 @@
         "id": 16800,
         "keeperValue": 5,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3748,13 +3748,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 12.6,
         "id": 4612826,
         "keeperValue": 4,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3762,7 +3762,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.900000000000006,
+        "appliedStatTotal": 38.0,
         "id": 4569987,
         "keeperValue": 10,
         "keeperValueFuture": 6,
@@ -3786,7 +3786,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Warren",
         "lastNewsDate": 1792950322000,
-        "lastVideoDate": 1792962132000,
+        "lastVideoDate": 1793564024000,
         "proTeamId": 23,
         "seasonOutlook": "Warren reached career-high marks in touches (251), yardage (1,291) and touchdowns (eight) last season, his fourth in the league. The former undrafted free agent put up 13.6 fantasy points per game (19th among backs) and PFF tracked him with 56 forced missed tackles (seventh). Pittsburgh swapped out Kenneth Gainwell for Rico Dowdle as Warren's running mate, and the two are expected to split work in a Mike McCarthy offense that rarely deploys its backs in the passing game. Warren is capable and effective as a rusher and receiver, but his ceiling figures to be limited in this committee. He's likely to cap out as a flex.",
         "universeId": 1
@@ -3864,13 +3864,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.5,
+        "appliedStatTotal": 20.42,
         "id": 12483,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3897,7 +3897,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 19.2,
+        "appliedStatTotal": 33.3,
         "id": 4036133,
         "keeperValue": 6,
         "keeperValueFuture": 0,
@@ -3977,7 +3977,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 26.6,
+        "appliedStatTotal": 29.900000000000002,
         "id": 4870653,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -4005,7 +4005,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.0,
+        "appliedStatTotal": 6.0,
         "id": 4686361,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -4033,14 +4033,14 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 236.46,
+        "appliedStatTotal": 324.65999999999997,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[9].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 37.1,
+        "appliedStatTotal": 55.8,
         "id": 4361307,
         "keeperValue": 2,
         "keeperValueFuture": 2,
@@ -4054,7 +4054,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 19.6,
+        "appliedStatTotal": 21.400000000000002,
         "id": 4426502,
         "keeperValue": 2,
         "keeperValueFuture": 3,
@@ -4080,7 +4080,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 32.7,
+        "appliedStatTotal": 45.0,
         "id": 4596448,
         "keeperValue": 3,
         "keeperValueFuture": 4,
@@ -4132,7 +4132,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 38.06,
+        "appliedStatTotal": 68.36,
         "id": 3915511,
         "keeperValue": 0,
         "keeperValueFuture": 7,
@@ -4157,13 +4157,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.5,
+        "appliedStatTotal": 26.0,
         "id": 4569173,
         "keeperValue": 12,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4347,7 +4347,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.6,
+        "appliedStatTotal": 28.2,
         "id": 4361579,
         "keeperValue": 11,
         "keeperValueFuture": 10,
@@ -4373,13 +4373,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 21.8,
+        "appliedStatTotal": 37.2,
         "id": 4426515,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4403,9 +4403,9 @@
         "id": 4427095,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4425,7 +4425,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.8,
+        "appliedStatTotal": 15.9,
         "id": 3917232,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -4486,11 +4486,12 @@
         "id": 4429160,
         "keeperValue": 2,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
@@ -4509,9 +4510,9 @@
         "id": 16800,
         "keeperValue": 5,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4550,11 +4551,12 @@
         "id": 4383440,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
@@ -4754,7 +4756,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "0",
         "lastName": "Allen",
-        "lastNewsDate": 1793536190000,
+        "lastNewsDate": 1793570990000,
         "lastVideoDate": 1793205435000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar."
@@ -4795,11 +4797,12 @@
         "id": 4912218,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
@@ -4810,11 +4813,12 @@
         "id": 4426553,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
@@ -4851,11 +4855,12 @@
         "id": 4685246,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
@@ -5019,11 +5024,12 @@
         "id": 4683308,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
@@ -5034,11 +5040,12 @@
         "id": 5093923,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
@@ -5064,11 +5071,12 @@
         "id": 4360797,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
@@ -5184,11 +5192,12 @@
         "id": 3919510,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
@@ -5214,11 +5223,12 @@
         "id": 4362748,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1793779200000
       }
     },
     {
