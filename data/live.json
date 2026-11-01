@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 105.53,
+        "projection": 114.65,
         "score": 31.12,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -59,7 +59,7 @@
     },
     {
       "away": {
-        "projection": 154.6,
+        "projection": 154.63,
         "score": 23.2,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 32,
+      "acquisitions": 31,
       "actual": 11.8,
       "htmlId": "numbers",
       "id": 3,
@@ -584,7 +584,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "proTeam": "CHI",
-          "projection": 15.47,
+          "projection": 15.48,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1218,13 +1218,13 @@
       ]
     },
     {
-      "acquisitions": 18,
+      "acquisitions": 19,
       "actual": 31.12,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 105.53,
+      "projection": 114.65,
       "record": {
         "losses": 9,
         "pointsAgainst": 825.8599999999999,
@@ -1301,11 +1301,22 @@
         },
         {
           "actual": 0.0,
+          "id": "5083754",
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "proTeam": "DAL",
+          "projection": 9.1,
+          "slot": "FLEX",
+          "slotId": 23,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "-16004",
           "name": "Bengals D/ST",
           "position": "D/ST",
           "proTeam": "CIN",
-          "projection": 6.32,
+          "projection": 6.34,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1339,17 +1350,6 @@
           "position": "WR",
           "proTeam": "NO",
           "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4887558",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "proTeam": "SEA",
-          "projection": 6.95,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1806,7 +1806,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 5,
-      "projection": 154.6,
+      "projection": 154.63,
       "record": {
         "losses": 7,
         "pointsAgainst": 962.98,
@@ -1832,7 +1832,7 @@
           "name": "Bucky Irving",
           "position": "RB",
           "proTeam": "TB",
-          "projection": 17.21,
+          "projection": 17.22,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1898,7 +1898,7 @@
           "name": "Seahawks D/ST",
           "position": "D/ST",
           "proTeam": "SEA",
-          "projection": 6.11,
+          "projection": 6.13,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null

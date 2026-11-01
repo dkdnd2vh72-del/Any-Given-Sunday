@@ -479,11 +479,11 @@
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 73,
-        "acquisitions": 18,
-        "drops": 17,
+        "acquisitions": 19,
+        "drops": 18,
         "misc": 0,
-        "moveToActive": 36,
-        "moveToIR": 4,
+        "moveToActive": 37,
+        "moveToIR": 6,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -2881,7 +2881,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 129.98000000000002,
+        "appliedStatTotal": 140.98000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -3256,8 +3256,8 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.5,
-        "id": 4887558,
+        "appliedStatTotal": 11.0,
+        "id": 5083754,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -3270,12 +3270,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
-        "3": "Emanuel Wilson will look to build upon a big performance when Seattle faces Washington in Week 3. With Jadarian Price suffering a shoulder injury against Arizona on Sunday, Wilson stepped up and led the Seahawks with 21 rushes for 92 yards. Price's injury isn't considered serious, but it's not certain that he'll be able to return to action in Week 3. Whoever leads Seattle's backfield will be looking to score the first rushing touchdown against the Commanders this season.",
-        "4": "Emanuel Wilson may be moving into a timeshare at running back for Seattle heading into a Week 4 matchup against the Chargers. An early fumble by rookie Jadarian Price was partly responsible for Wilson leading the Seahawks with nine carries in a Week 3 win over Washington, with Price logging just five totes and George Holani three. With that said, Wilson managed a paltry 14 yards on his carries, so he didn't exactly make a loud statement in a bid for more work. The Chargers just gave up 154 rushing yards to Buffalo's James Cook in Week 3, so they could be vulnerable on the ground.",
-        "5": "Emanuel Wilson will look to build upon a big Week 4 performance when Seattle faces San Francisco in Week 5. Wilson led his team's backfield this past Sunday against the Chargers, posting a 21-81-1 line on the ground. Equally promising was his 3-39-1 line as a pass catcher after he logged zero receptions over the first three weeks of the campaign. With Jadarian Price (chest) on IR, Wilson figures to continue to work as Seattle's No. 1 RB, though the eventual return of Zach Charbonnet (knee) could shake up the backfield. Charbonnet isn't expected to be ready for Week 5, however, so Wilson will likely get plenty of work against the 49ers, who are middle-of-the-pack so far in giving up 17.4 fantasy points per game to running backs.",
-        "6": "Emanuel Wilson will look to get into the end zone for a third straight game when the Seahawks travel to Denver in Week 6. Wilson has emerged as Seattle's clear top RB over the past two weeks, registering 41 carries for 142 yards and two touchdowns on the ground along with five catches for 50 yards and another score through the air in that span. He figures to continue working as the team's No. 1 RB at least until one or both of Zach Charbonnet (knee) or Jadarian Price (chest) is able to return, but that won't happen in Week 6. The Broncos have been vulnerable against the run this season, surrendering 4.51 yards per carry to running backs (eighth-worst in the league).",
-        "7": "Emanuel Wilson and the Seahawks play host to the Chiefs for a Week 7 clash on Sunday Night Football. He had 14 carries for 52 yards and failed to catch his only target during Seattle's 17-14 overtime loss in Week 6. It was an underwhelming performance for Wilson, who had scored three touchdowns over his previous two outings. With Zach Charbonnet (knee) practicing and likely to make his 2026 season debut in Week 7, it's probably best to avoid the Seahawks backfield versus Kansas City's defense that's tied for ninth in fantasy points allowed per game (19.0) to RBs.",
-        "8": "Emanuel Wilson's role for Week 8 against the Bears could depend on whether Zach Charbonnet (knee) and/or Jadarian Price (chest) is ready to rejoin Seattle's backfield. As the Seahawks' lead RB in Week 7 against Kansas City, Wilson racked up 100 yards and a touchdown on a hearty 24 carries and added one catch for 15 yards. It was the third time over his past four contests that Wilson logged 20 or more totes, but should Charbonnet and/or Price be ready to return to the fold, Wilson will likely handle a reduced workload. Either way, he could find room to run against a Chicago defense that ranks 25th in the league with 4.33 yards per carry allowed to running backs."
+        "2": "Ryan Flournoy managed two catches for 22 yards on four targets in the Week 1 loss for Dallas to the Giants. Flournoy finished fourth on the team in targets for the game. The Dallas passing attack struggled as a whole, leaving no receiver with more than 45 yards receiving in the contest. In Week 2, the Cowboys will look to rebound versus the Commanders. Washington only allowed 182 passing yards in its season opener, though did give up three passing scores to Philadelphia quarterback Jalen Hurts.",
+        "3": "Ryan Flournoy managed six targets last game for Dallas. Flournoy parlayed those looks into five catches for 23 yards. Flournoy was third in targets behind CeeDee Lamb and George Pickens. In Week 3, Dallas hosts the Baltimore Ravens. Baltimore is allowing just 191 passing yards per contest, which is 12th in the NFL.",
+        "4": "Ryan Flournoy tied for the second on the Cowboys in targets last game. Flournoy saw eight balls thrown his way, though managed just two catches in the 34-31 loss to the Ravens. Flournoy also gained just 22 yards for the game; in fact, he has yet to gain more than 25 yards in any contest in 2026. In Week 4, Dallas faces a Houston defense that has been surprisingly subpar against the pass.  The Texans are allowing 238.7 passing yards per clash, which is 25th in the league.",
+        "5": "Ryan Flournoy has been targeted at least four times in every game this season for the Cowboys. However, he has yet to cross 40 yards receiving in any contest. Versus the Texans, he had four catches but only for a season-high 37 yards. With a lot of mouths to feed like CeeDee Lamb, George Pickens and even tight end Jake Ferguson, Flournoy's output may continue to be depressed. In Week 5, Dallas will face a Tampa Bay defense that has been fairly stingy against the pass in terms of yardage. The Bucs are allowing just 204.3 passing yards per tilt, which is ninth in the NFL. However, Tampa Bay has also given up seven throwing scores, which is tied for 23rd in the league. Flournoy is still looking for his first score of the season.",
+        "6": "Ryan Flournoy set a season high in receiving yardage last game for the Cowboys. Flournoy brought in three passes for 90 yards in the 24-16 loss to the Bucs. CeeDee Lamb was dealing with a quadriceps issue, which also likely contributed to Flournoy's success. However, Lamb's injury does not appear serious, which would knock Flournoy back down the pecking order in Week 6 versus the Packers. Green Bay's defense is also allowing just 181 passing yards per contest, which is fifth in the league. Likewise, the Packers have surrendered only six passing touchdowns on the season, which is tied for 10th in the NFL.",
+        "7": "Ryan Flournoy found the end zone last game for Dallas. Flournoy reeled in seven passes for 40 yards and the score in the 23-13 loss to the Packers. Flournoy has at least four targets in every game this season, though has gone over 40 yards receiving just once. He remains firmly behind CeeDee Lamb and George Pickens heading into a Week 7 clash with Philly. The Eagles are allowing 244.5 passing yards per tilt, which is 26th in the NFL. However, Philadelphia has given up just eight passing scores in 2026, which is tied for 14th in the league.",
+        "8": "Ryan Flournoy was second on the Cowboys in receiving yards last game. Flournoy reeled in four passes for 70 yards in the 38-21 win over the Eagles. Flournoy has at least three catches in four-straight contests. In Week 8, the Cowboys will face an Arizona Cardinals defense that has been prone to surrendering the touchdown pass. In fact, Arizona has given up 17 passing scores, which is dead last in the NFL. The Cardinals are also giving up 228 passing yards per tilt, which is 20th in the NFL."
       }
     },
     {
@@ -4205,7 +4206,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Jacobs",
-        "lastNewsDate": 1793331227000,
+        "lastNewsDate": 1793487863000,
         "lastVideoDate": 1793198730000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
