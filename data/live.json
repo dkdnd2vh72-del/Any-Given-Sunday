@@ -3,13 +3,13 @@
   "matchups": [
     {
       "away": {
-        "projection": 114.65,
+        "projection": 114.64,
         "score": 31.12,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       },
       "home": {
-        "projection": 128.11,
+        "projection": 128.17,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -37,7 +37,7 @@
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 130.49,
+        "projection": 133.21,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -51,7 +51,7 @@
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
-        "projection": 133.88,
+        "projection": 133.95,
         "score": 24.9,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 32,
+      "acquisitions": 31,
       "actual": 11.8,
       "htmlId": "numbers",
       "id": 3,
@@ -423,7 +423,7 @@
           "name": "Jonah Coleman",
           "position": "RB",
           "proTeam": "DEN",
-          "projection": 9.36,
+          "projection": 9.34,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -628,7 +628,7 @@
           "name": "Jaylen Waddle",
           "position": "WR",
           "proTeam": "DEN",
-          "projection": 10.86,
+          "projection": 10.85,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -653,7 +653,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 9,
-      "projection": 130.49,
+      "projection": 133.21,
       "record": {
         "losses": 9,
         "pointsAgainst": 979.8000000000001,
@@ -675,11 +675,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4427366",
-          "name": "Breece Hall",
+          "id": "4685247",
+          "name": "Braelon Allen",
           "position": "RB",
           "proTeam": "NYJ",
-          "projection": 14.5,
+          "projection": 17.22,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -763,11 +763,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4685247",
-          "name": "Braelon Allen",
+          "id": "4427366",
+          "name": "Breece Hall",
           "position": "RB",
           "proTeam": "NYJ",
-          "projection": 10.83,
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -811,7 +811,7 @@
           "name": "Tre Tucker",
           "position": "WR",
           "proTeam": "LV",
-          "projection": 10.89,
+          "projection": 10.9,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -847,7 +847,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 1,
-      "projection": 133.88,
+      "projection": 133.95,
       "record": {
         "losses": 5,
         "pointsAgainst": 901.5600000000001,
@@ -895,7 +895,7 @@
           "name": "Garrett Wilson",
           "position": "WR",
           "proTeam": "NYJ",
-          "projection": 14.04,
+          "projection": 14.14,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -906,7 +906,7 @@
           "name": "Jaxon Smith-Njigba",
           "position": "WR",
           "proTeam": "SEA",
-          "projection": 21.5,
+          "projection": 21.47,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1224,7 +1224,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 114.65,
+      "projection": 114.64,
       "record": {
         "losses": 9,
         "pointsAgainst": 825.8599999999999,
@@ -1250,7 +1250,7 @@
           "name": "J.K. Dobbins",
           "position": "RB",
           "proTeam": "DEN",
-          "projection": 9.04,
+          "projection": 9.03,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1404,7 +1404,7 @@
           "name": "Jadarian Price",
           "position": "RB",
           "proTeam": "SEA",
-          "projection": 7.76,
+          "projection": 7.75,
           "slot": "IR",
           "slotId": 21,
           "tradeInterest": null
@@ -1612,7 +1612,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 4,
-      "projection": 128.11,
+      "projection": 128.17,
       "record": {
         "losses": 6,
         "pointsAgainst": 827.06,
@@ -1660,7 +1660,7 @@
           "name": "Omar Cooper Jr.",
           "position": "WR",
           "proTeam": "NYJ",
-          "projection": 10.54,
+          "projection": 10.6,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
