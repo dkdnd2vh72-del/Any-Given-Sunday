@@ -285,9 +285,9 @@
       "values": {
         "acquisitionBudgetSpent": 98,
         "acquisitions": 31,
-        "drops": 31,
+        "drops": 32,
         "misc": 0,
-        "moveToActive": 53,
+        "moveToActive": 54,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -326,7 +326,7 @@
         "acquisitions": 9,
         "drops": 9,
         "misc": 0,
-        "moveToActive": 24,
+        "moveToActive": 25,
         "moveToIR": 5,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -365,7 +365,7 @@
         "acquisitions": 13,
         "drops": 12,
         "misc": 0,
-        "moveToActive": 69,
+        "moveToActive": 71,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -404,8 +404,8 @@
         "acquisitions": 5,
         "drops": 5,
         "misc": 0,
-        "moveToActive": 22,
-        "moveToIR": 2,
+        "moveToActive": 24,
+        "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -482,8 +482,8 @@
         "acquisitions": 19,
         "drops": 18,
         "misc": 0,
-        "moveToActive": 40,
-        "moveToIR": 6,
+        "moveToActive": 42,
+        "moveToIR": 7,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -991,7 +991,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 136.6,
+        "appliedStatTotal": 135.7,
         "tradeReservedEntries": 0
       }
     },
@@ -1159,20 +1159,6 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.36,
-        "id": 4685720,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 3,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 5.0,
         "id": -16016,
         "keeperValue": 0,
@@ -1185,7 +1171,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 1.0,
         "id": -16007,
@@ -1199,7 +1185,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.7,
         "id": 17372,
@@ -1213,7 +1199,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 2.0,
         "id": 4360569,
@@ -1227,7 +1213,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 20.400000000000002,
         "id": 4702555,
@@ -1241,14 +1227,14 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "3": "Jonah Coleman didn't see the ball in his NFL debut during the Broncos' opener, but his role increased in Week 2's win over the Jaguars due to RJ Harvey's hamstring strain. Coleman ended up getting more touches than J.K. Dobbins, with the 2026 fourth-round pick turning 10 carries into 39 yards and his first career touchdown while also catching all three of his targets for 19 yards. It's not clear how much time Harvey might miss, but Coleman's solid showing in his first opportunity could begin the process of turning the backfield into a three-man committee, with the workload dependent on whoever happens to be healthy. Coleman could be a risky play in Week 3 against a Rams defense that just saw the return of Aaron Donald in Week 2 and has yet to allow a rushing TD this year.",
         "8": "Jonah Coleman had the biggest share of the backfield workload in the Broncos' Week 7 win over the Cardinals, handling 11 touches to J.K. Dobbins' six and RJ Harvey's five. Coleman's 69 scrimmage yards led the trio, but the other two each made trips to the end zone while the rookie RB was held out. It was still an impressive effort in his return from an IR stint due to an ankle injury, and Coleman might be the most likely player from the group to emerge as the lead back. A messy committee is the more probable arrangement, however, heading into a Week 8 clash with a Kansas City defense that ranks seventh in fantasy points per game allowed to RBs."
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 4.2,
         "id": 4360635,
@@ -1262,7 +1248,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chig Okonkwo had a rough debut Week 1 for the Commanders. On only three targets, the former Titan caught a mere two passes for 16 yards in the 24-22 loss to the Eagles. He subsequently injured his hamstring and did not return. Meanwhile, both Stefon Diggs and rookie Antonio Williams found the end zone in their respective debuts for Washington. John Bates and Ben Sinnott would step in at tight end if Chig misses Week 2 versus Dallas. If he suits up, Okonkwo would have a favorable matchup against a Cowboys defense that allowed two touchdowns to Giants tight end Isaiah Likely in the season opener.",
         "3": "Chig Okonkwo did not play in Week 2 for the Commanders. Washington's active tight ends did not fare well, catching a combined two passes for 20 yards in the 37-20 loss to Dallas. Starting quarterback Jayden Daniels only played a half due to injury, and veteran backup Marcus Mariota will likely start in Week 3 versus a devastating Seattle defense. The Seahawks are allowing just 8.5 points per game thus far in 2026, which is second in the league. Seattle is also allowing the fewest passing yards per contest at 124.5 per tilt. None of this appears to be a recipe for success for Okonkwo, even if he is able to suit up.",
@@ -1275,7 +1261,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 120.48,
+        "appliedStatTotal": 91.77999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -2092,7 +2078,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 95.1,
+        "appliedStatTotal": 120.98000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -2552,8 +2538,8 @@
         "firstName": "A.J.",
         "fullName": "A.J. Brown",
         "id": 4047646,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Brown",
         "lastNewsDate": 1793637796000,
         "lastVideoDate": 1792766133000,
@@ -2881,7 +2867,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 88.42,
+        "appliedStatTotal": 99.02000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -2972,8 +2958,8 @@
         "firstName": "DeVonta",
         "fullName": "DeVonta Smith",
         "id": 4241478,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
         "lastNewsDate": 1793391438000,
         "lastVideoDate": 1792512538000,
@@ -3019,8 +3005,8 @@
         "firstName": "TreVeyon",
         "fullName": "TreVeyon Henderson",
         "id": 4432710,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Henderson",
         "lastNewsDate": 1793466604000,
         "lastVideoDate": 1791904465000,
