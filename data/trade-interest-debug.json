@@ -259,7 +259,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -277,7 +277,7 @@
         "primaryOwner": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 7
+        "waiverRank": 5
       }
     },
     {
@@ -298,7 +298,7 @@
       "path": "$.mTeam.teams[2]",
       "values": {
         "abbrev": "BURK",
-        "currentProjectedRank": 4,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 6,
         "eliminated": false,
@@ -337,7 +337,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -355,7 +355,7 @@
         "primaryOwner": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 8
+        "waiverRank": 6
       }
     },
     {
@@ -376,7 +376,7 @@
       "path": "$.mTeam.teams[4]",
       "values": {
         "abbrev": "Sauc",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 4,
         "divisionId": 1,
         "draftDayProjectedRank": 3,
         "eliminated": false,
@@ -394,14 +394,14 @@
         "primaryOwner": "{113D06BF-E687-4014-BD06-BFE687C014C5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 4
+        "waiverRank": 9
       }
     },
     {
       "path": "$.mTeam.teams[4].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 7,
-        "acquisitions": 5,
+        "acquisitionBudgetSpent": 8,
+        "acquisitions": 6,
         "drops": 5,
         "misc": 0,
         "moveToActive": 24,
@@ -433,7 +433,7 @@
         "primaryOwner": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 5
+        "waiverRank": 4
       }
     },
     {
@@ -443,7 +443,7 @@
         "acquisitions": 15,
         "drops": 14,
         "misc": 0,
-        "moveToActive": 48,
+        "moveToActive": 49,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -472,15 +472,15 @@
         "primaryOwner": "{6DFCEF0A-EDE4-4244-BCEF-0AEDE4924420}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 10
+        "waiverRank": 7
       }
     },
     {
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 73,
-        "acquisitions": 19,
-        "drops": 18,
+        "acquisitionBudgetSpent": 123,
+        "acquisitions": 20,
+        "drops": 19,
         "misc": 0,
         "moveToActive": 42,
         "moveToIR": 7,
@@ -493,7 +493,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -511,15 +511,15 @@
         "primaryOwner": "{55557D11-0BB9-4FB9-957D-110BB9EFB9E5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 6
+        "waiverRank": 8
       }
     },
     {
       "path": "$.mTeam.teams[7].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 37,
-        "acquisitions": 9,
-        "drops": 8,
+        "acquisitionBudgetSpent": 48,
+        "acquisitions": 10,
+        "drops": 9,
         "misc": 0,
         "moveToActive": 21,
         "moveToIR": 2,
@@ -550,15 +550,15 @@
         "primaryOwner": "{B9D0D9CD-0373-43B0-B535-9F31B41A51F8}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 9
+        "waiverRank": 10
       }
     },
     {
       "path": "$.mTeam.teams[8].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 60,
-        "acquisitions": 19,
-        "drops": 18,
+        "acquisitionBudgetSpent": 61,
+        "acquisitions": 20,
+        "drops": 19,
         "misc": 0,
         "moveToActive": 35,
         "moveToIR": 2,
@@ -2544,9 +2544,35 @@
       }
     },
     {
+      "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 4432577,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 7,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "C.J. Stroud has turned the ball over nine times in Houston's last three games, dating back to the start of last season's playoffs. He'll face a Bengals defense in Week 2 that just forced three turnovers from Buccaneers QB Baker Mayfield. Stroud threw for 274 yards and two TDs in Week 1 against the Bills but fumbled away Houston's chance to win the game in the final minute. The Texans' vaunted defense faces another tough test against Joe Burrow and the Bengals, so Stroud and the offense will be relied upon to keep pace. Stroud is a viable fantasy option in superflex or two-QB formats but ranks outside the starting range in single-QB leagues.",
+        "3": "C.J. Stroud threw for 353 yards but led the Texans to just six points in the absence of top WR Nico Collins (hamstring) during Week 2's loss to the Bengals. If Houston remains without Collins in Week 3 against the Colts, Stroud will likely lean heavily on TE Dalton Schultz once more against a Colts defense that allowed 41 points to the Ravens and then 33 to the Chiefs. Considering the Colts have surrendered the most points and yards in the NFL, Stroud is worth a look in superflex or multi-QB lineups, but he will likely remain ranked outside the starting range in single-QB formats, at least until Collins returns.",
+        "4": "C.J. Stroud has missed top WR Nico Collins (hamstring) over Houston's past two games, failing to throw a touchdown pass in Week 2 and producing just 167 passing yards in Week 3. The Texans fell to 0-3 heading into a Week 4 home game against the Cowboys. On the bright side, the Texans rebounded from an 0-3 start last season to finish 12-5, and Collins has a realistic chance to return versus Dallas. If Stroud gets his top target back, the slumping QB would have a nice opportunity to get on track as a strong superflex or second fantasy QB against a weak Cowboys secondary that has allowed a 7:0 TD:INT through three games in 2026 after giving up the most QB production in the league last season. Should Collins sit again, Stroud would be a risky choice in all formats despite the favorable matchup.",
+        "5": "C.J. Stroud has some streaming appeal in single-QB formats for Week 5, when the Texans travel to Tennessee for a battle between 0-4 AFC South squads. He has thrown for at least 347 yards in two of Houston's four losses and has a 5:0 TD:INT. The Titans have been respectable against the pass, with only four touchdowns allowed through the air this season, but other teams were able to build leads and run effectively on Tennessee. The Texans are unlikely to find as much success on the ground, considering RBs David Montgomery and Woody Marks have combined to average 2.9 yards per carry this season. Stroud has been asked to throw the ball 38 times per game, and he's likely to remain busy in Week 5. The Texans got top WR Nico Collins (hamstring) back from a two-game absence in Week 4, and Collins contributed immediately in his return by catching both of Stroud's touchdown passes in a 34-30 loss to the Cowboys.",
+        "6": "C.J. Stroud could have a key new target for Houston's pivotal Week 6 clash with the AFC South-leading Jaguars in London. The Texans are just 1-4 and have already fallen three games behind Jacksonville in the standings, but Stroud is quietly averaging a career-high 280 passing yards per game to go with a 6:0 TD:INT. Jacksonville gives up the fewest rushing yards and second-most passing yards per game, so Stroud will likely be asked to carry Houston's offense again in Week 6, making him a viable starting QB in fantasy. The Texans notched their first win of the season in Week 5 over the Titans and promptly traded for disgruntled Cardinals WR Marvin Harrison, who hasn't lived up to the hype as the fourth overall pick in the 2024 NFL Draft but excelled at Ohio State while catching passes from Stroud in 2022. Harrison likely won't be fully up to speed, but he could still provide an upgrade over Houston's current wideouts behind Nico Collins.",
+        "7": "C.J. Stroud is averaging a career-high 286 passing yards per game and has posted a 9:1 TD:INT heading into Houston's Week 7 home game against the Giants. He threw a season-high three touchdown passes in the Week 6 win over Jacksonville while topping 300 yards for the third time in six starts. The Giants have surrendered 12 passing TDs, which is sixth-most in the NFL, and their three rushing scores allowed to QBs are tied for the most in the league, though they have also notched six interceptions. Stroud has consistently been asked to put the Texans' offense on his back due to the team's weak running game, and he has mostly been up to the challenge, so he remains a fringe fantasy starter for Week 7.",
+        "9": "C.J. Stroud posted an 11:1 TD:INT ratio in seven games prior to Houston's Week 8 bye, but the Texans are just 2-5 heading into a Week 9 road game against the 0-7 Chargers. Pass defense hasn't been the Chargers' problem, as they're allowing the seventh-fewest yards per game through the air and have limited QBs to an 8:6 TD:INT ratio. Stroud has often been asked to carry Houston's offense with the team's two main RBs both averaging no more than 3.5 yards per rushing attempt, but the Texans may rely more on their defense and running game in Week 9 to exploit the Chargers' weaknesses. Stroud is a viable fantasy option in deeper formats, but he has a low Week 9 floor based on the matchup."
+      }
+    },
+    {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 114.25999999999999,
+        "appliedStatTotal": 91.8,
         "tradeReservedEntries": 0
       }
     },
@@ -3066,52 +3092,6 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": 4432710,
-        "keeperValue": 3,
-        "keeperValueFuture": 6,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[5].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 2,
-        "droppable": true,
-        "firstName": "TreVeyon",
-        "fullName": "TreVeyon Henderson",
-        "id": 4432710,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
-        "lastName": "Henderson",
-        "lastNewsDate": 1793466604000,
-        "lastVideoDate": 1791904465000,
-        "proTeamId": 17,
-        "seasonOutlook": "Henderson enters Year 2 after a roller-coaster rookie campaign in which he delivered three huge fantasy performances (28-plus points in all three) but otherwise played second fiddle to Rhamondre Stevenson (8.3 points per game in his other 14 games). Though his role was limited, Henderson was effective, averaging 5.1 yards per carry (eighth best) and catching 83% of his targets while scoring 10 touchdowns. The 2025 second-round pick is a candidate for a similar role in 2026, but it's unlikely that Stevenson will completely disappear after he also had a strong 2025. Henderson is safest as a bench option, but there's upside for a lot more if the 23-year-old is promoted to a lead role.",
-        "universeId": 1
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[5].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "2": "TreVeyon Henderson could make his season debut in Week 2 when the Patriots host the Steelers. Henderson missed last week due to an ankle injury but has returned to practice ahead of the matchup. Pass-blocking concerns were rumored to be an issue during the preseason, and facing a Steelers defense that rushes the passer well may keep Henderson on the sideline more than managers would like, in addition to a potentially limited role in his first game back. Pittsburgh allowed a mere 3.8 yards per carry in Week 1 but did allow 90 receiving yards to running backs, albeit that was Bijan Robinson. Split touches in a likely low-scoring game would require Henderson's patented big-play ability for him to be fantasy relevant.",
-        "3": "TreVeyon Henderson will look to build on an impressive debut when New England faces Jacksonville in Week 3. After missing Week 1 due to an ankle injury, Henderson shouldered 16 carries in Week 2, putting up 76 yards and a touchdown. While he wasn't targeted in the passing game, Henderson showed his elite big-play ability. Rhamondre Stevenson was an afterthought after losing an early fumble, but with New England struggling to pass the ball effectively, this has the look of a run-first, split backfield. Jacksonville is allowing just 3.2 yards per carry and 110 total rushing yards through two weeks, which will keep Henderson's Week 3 expectations in check.",
-        "4": "TreVeyon Henderson remains mired in a split backfield for the Patriots ahead of their Week 4 matchup with the Bills. Henderson's snap share dropped from 60% to 35% in Week 3 as the Patriots played from behind, forcing Rhamondre Stevenson into a pass-blocking role. With only one catch through two games, Henderson isn't getting many opportunities to create his signature big play. Facing a defense that's allowing just 3.9 yards per carry while being more vulnerable to receiving backs, Henderson figures to be a boom-or-bust option.",
-        "5": "TreVeyon Henderson will seek chunk plays in the Patriots' Week 5 matchup against a vulnerable Raiders run defense. Henderson had one more rush than Rhamondre Stevenson in this shared backfield in Week 4 but converted his 14 carries into only 42 yards. Henderson has not been a factor in the passing game, catching just one ball on the season. Las Vegas is allowing 4.97 yards per carry and has been picked apart by Kenneth Walker and Omarion Hampton, so Henderson appears set up for an ideal opportunity at a few long runs even if the volume won't be high.",
-        "6": "TreVeyon Henderson is uncertain for Week 6 when the Patriots face the Jets due to an ankle injury. When healthy, he hasn't logged more than a 37% snap share in any of the last three games and has only two catches on the season. The Jets have not faced a prolific rushing offense through five games but have allowed two opposing backs to gain at least 99 yards. If active, a split role with Rhamondre Stevenson caps Henderson's appeal against a defense allowing a stingy 4.3 yards per carry.",
-        "7": "TreVeyon Henderson figures to handle a modest workload in the Patriots' Week 7 matchup against the Bears. Making a surprise appearance in Week 6 after suffering a high-ankle sprain, Henderson recorded seven carries for 31 yards while also catching his third pass of the season. Rhamondre Stevenson continues to garner a bigger workload but has plodded to a career-low 3.7 yards per carry. Until New England trusts Henderson in pass protection and ball security, however, a change in roles appears unlikely. Facing a Chicago defense on a short turnaround with Week 7's Thursday night kickoff, Henderson will need to solve a run defense that's allowed just three touchdowns to date.",
-        "8": "TreVeyon Henderson's declining role in the Patriots' rushing approach leads to low expectations in a Week 8 matchup against the Dolphins. He has logged single-digit carries in three straight games and sits with a 3.9 yards per carry average after a 5.1 mark as a rookie. He's also only caught four passes, an area where Miami has been particularly vulnerable against running backs. With New England seemingly happy to distribute the workload across multiple players, an uptick in usage for Henderson appears unlikely.",
-        "9": "TreVeyon Henderson will look to return from an illness that cost him Week 8 when the Patriots face the Packers in Week 9. Henderson has just 14 carries over his last three healthy games and has added only five catches all season. Always a big-play threat, Henderson doesn't appear to be in a spot to pop a long run against a Packers defense that's allowed only four runs of 20 or more yards through eight games."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 1.3,
         "id": 4241985,
         "keeperValue": 0,
@@ -3124,7 +3104,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.6,
         "id": 4695883,
@@ -3138,7 +3118,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player",
+      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -3157,7 +3137,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Jalen Coker (ankle) will look to continue shining in Carolina's Week 2 matchup against the Falcons. Coker has shown out in the Panthers last two games (including their wild-card loss to end last season), having recorded a combined 17 receptions for 272 yards and three touchdowns. He's outproduced 2025 Offensive Rookie of the Year Tetairoa McMillan and looks to be a major part of Carolina's offense going forward. However, Coker is dealing with an ankle issue and could struggle against a tough Falcons defense that gave up just 5.0 yards per pass attempt in Week 1, the fourth-best mark in the NFL.",
         "3": "Jalen Coker is expected to remain one of Bryce Young's favorite targets in Carolina's Week 3 matchup against the Browns. Coker has been incredibly productive, leading the Panthers in receptions (16) and yards (204) while being tied for first in targets (18) through two weeks. Across his last three games (including playoffs), the third-year pro has caught 25 of 30 targets for 338 yards and two touchdowns, emerging as one of the NFL's top young wideouts. He's in for a very favorable matchup in Week 3 as well, as the Browns' defense has surrendered 7.2 yards per pass attempt this season.",
@@ -3169,7 +3149,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4569559,
@@ -3183,7 +3163,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Devaughn Vele is expected to remain an important part of the Saints' offense in the Week 2 matchup against the Ravens. Vele saw nine targets in the Week 1 overtime loss, tying his career high and trailing only Chris Olave in the Saints' receiving corps. Vele should continue to benefit from the absence of Jordyn Tyson (hamstring) and is expected to see consistent volume until Tyson returns. It'll be a tough Week 2 matchup for Vele, however, as the Ravens' defense has given up just 4.8 yards per pass attempt this season, which is tied for the second-best mark in the NFL.",
         "3": "Devaughn Vele is expected to remain the Saints' No. 2 wideout in the Week 3 matchup against the Raiders, whose defense has given up just 15 receptions to WRs through two contests. Vele has clearly positioned himself as one of New Orleans' top receiving options early in the season, catching 12 of 16 targets for 133 yards and one touchdown thus far. He's expected to continue benefitting from the Saints' high volume of pass attempts, as Tyler Shough has already thrown the ball 90 times in two games, the second-most in the NFL. Despite this, Vele is in for a difficult Week 3 matchup against a Las Vegas defense that has yet to allow a receiving touchdown this season.",
@@ -3195,7 +3175,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4360689,
@@ -3209,7 +3189,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Tyler Shough will lead the Saints' offense into a tough Week 2 matchup against the Ravens, whose defense gave up just 12.7 fantasy points to quarterbacks in Week 1. Despite a poor first half, Shough threw for 410 yards and three touchdowns in last week's overtime loss, making him the league's leading passer. However, Shough was prone to turnovers, throwing two interceptions and losing a fumble, which is something Baltimore could capitalize on. It'll be a tough Week 2 matchup, as the Ravens allowed just 166 passing yards in Week 1.",
         "3": "Tyler Shough will lead the Saints' offense into a Week 3 matchup against the Raiders, whose defense has allowed just 17.4 fantasy points per game to opposing quarterbacks this season. Shough has been one of the NFL's most productive QBs through two weeks, leading the league in passing yards (662) while producing five total touchdowns. Despite throwing the ball 90 times in his first two contests, Shough remains one of the league leaders in completion percentage (68.9 percent). He's in for a difficult Week 3 matchup, however, with the Raiders' allowing just one passing touchdowns this season.",
@@ -3221,7 +3201,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.200000000000001,
         "id": 3150744,
@@ -3235,7 +3215,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chase McLaughlin will look to remain perfect in the Buccaneers' Week 2 matchup against the Browns. McLaughlin made all five of his kicks during last week's loss, including a 51-yard field goal. With the Browns defense allowing 34 total points and 10 kicking points in a Week 1 loss, McLaughlin is likely in for lots more scoring opportunities in Week 2.",
         "3": "Chase McLaughlin could remain one of the top kickers in fantasy despite the Buccaneers' tough Week 3 matchup against the Vikings. McLaughlin remained perfect in the Week 2 loss to the Browns, as he's now converted on all six field-goal tries this season, including two from 50-plus yards. Despite McLaughlin being tied for the league-lead in field-goals made this season, he could struggle against a Minnesota defense that's allowed just 6.5 kicking points per game thus far.",
@@ -3248,7 +3228,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 6.9,
         "id": 4711533,
@@ -3262,7 +3242,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "3": "Ollie Gordon's workload could increase if Jaylen Wright misses the Dolphins' Week 3 game against the Chiefs. Despite being No. 3 on the depth chart, Gordon has outsnapped Wright behind Miami's workhorse, De'Von Achane. Kansas City allowed stud Jonathan Taylor to rush for two scores in Week 2 but kept Denver's backs under control in Week 1. Barring an injury to Achane, it's difficult to envision a path to meaningful production for Gordon.",
         "4": "Jaylen Wright will have an elevated role for the Dolphins in Week 4 against the Vikings if he's able to overcome a foot issue that kept him out in Week 3. Miami lost De'Von Achane for the season due to a knee injury, leaving just Wright and Ollie Gordon to handle carries. With the Dolphins often falling behind in most matchups, Wright has the chance to be the preferred pass-catching option. Confidence isn't inspired facing a Vikings defense that's allowing just 3.1 yards per carry and 11 catches to running backs.",
@@ -3273,7 +3253,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 21.52,
         "id": 4036378,
@@ -3287,7 +3267,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.5,
         "id": 3046439,
@@ -3301,7 +3281,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Hunter Henry will look for more opportunities in Week 2 when New England hosts Pittsburgh. Henry caught all three of his targets to open 2026, and with the Patriots losing A.J. Brown (ankle) for the foreseeable future, additional targets could come Henry's way. Pittsburgh didn't allow a catch to tight ends last week, but that was a product of poor opponent quarterback play. Henry can be considered a back-end option at the position with the potential for far more against a defense he posted two touchdowns and 90 yards against a season ago.",
         "3": "Hunter Henry will look to keep expanding his role for the Patriots in Week 3 against the Jaguars. In their first full game without A.J. Brown in Week 2, Henry logged a 92% snap share but drew only five targets, turning them into three catches for 40 yards. Drake Maye has struggled to open the season, posting a 1:4 TD:INT ratio, and while someone has to catch the limited passes, Henry faces a challenging matchup against a defense that hasn't allowed an opposing tight end to top 32 yards against them so far.",
@@ -3314,7 +3294,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 3.5,
         "id": -16004,
@@ -3328,7 +3308,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.100000000000001,
         "id": 5083754,
@@ -3342,7 +3322,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Ryan Flournoy managed two catches for 22 yards on four targets in the Week 1 loss for Dallas to the Giants. Flournoy finished fourth on the team in targets for the game. The Dallas passing attack struggled as a whole, leaving no receiver with more than 45 yards receiving in the contest. In Week 2, the Cowboys will look to rebound versus the Commanders. Washington only allowed 182 passing yards in its season opener, though did give up three passing scores to Philadelphia quarterback Jalen Hurts.",
         "3": "Ryan Flournoy managed six targets last game for Dallas. Flournoy parlayed those looks into five catches for 23 yards. Flournoy was third in targets behind CeeDee Lamb and George Pickens. In Week 3, Dallas hosts the Baltimore Ravens. Baltimore is allowing just 191 passing yards per contest, which is 12th in the NFL.",
@@ -3351,6 +3331,33 @@
         "6": "Ryan Flournoy set a season high in receiving yardage last game for the Cowboys. Flournoy brought in three passes for 90 yards in the 24-16 loss to the Bucs. CeeDee Lamb was dealing with a quadriceps issue, which also likely contributed to Flournoy's success. However, Lamb's injury does not appear serious, which would knock Flournoy back down the pecking order in Week 6 versus the Packers. Green Bay's defense is also allowing just 181 passing yards per contest, which is fifth in the league. Likewise, the Packers have surrendered only six passing touchdowns on the season, which is tied for 10th in the NFL.",
         "7": "Ryan Flournoy found the end zone last game for Dallas. Flournoy reeled in seven passes for 40 yards and the score in the 23-13 loss to the Packers. Flournoy has at least four targets in every game this season, though has gone over 40 yards receiving just once. He remains firmly behind CeeDee Lamb and George Pickens heading into a Week 7 clash with Philly. The Eagles are allowing 244.5 passing yards per tilt, which is 26th in the NFL. However, Philadelphia has given up just eight passing scores in 2026, which is tied for 14th in the league.",
         "8": "Ryan Flournoy was second on the Cowboys in receiving yards last game. Flournoy reeled in four passes for 70 yards in the 38-21 win over the Eagles. Flournoy has at least three catches in four-straight contests. In Week 8, the Cowboys will face an Arizona Cardinals defense that has been prone to surrendering the touchdown pass. In fact, Arizona has given up 17 passing scores, which is dead last in the NFL. The Cardinals are also giving up 228 passing yards per tilt, which is 20th in the NFL."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 36.1,
+        "id": 4373626,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 11,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Tyler Allgeier heads into a Week 2 clash against Seattle with a big role in Arizona's backfield. Allgeier logged 17 carries for 61 yards in a season-opening win against the Chargers, getting more totes and producing more yards than rookie Jeremiyah Love. It remains to be seen if that will hold true throughout the campaign, but for the time being Allgeier seems set to be heavily involved in the Cardinals' ground game. With that said, both Allgeier and Love could find the sledding tough in Week 2 versus a Seahawks defense that yielded the third-fewest rushing yards per game during the regular season last year.",
+        "3": "Tyler Allgeier will seek to improve his efficiency on the ground during Arizona's Week 3 visit to San Francisco. Allgeier gained just 10 yards on five carries Sunday in a loss against Seattle, and he's averaging a meager 3.2 YPC through two contests. He paced the Cardinals with 17 carries in the team's season opener, but  Jeremiyah Love jumped ahead with him with nine carries Week 2 and could continue to settle in as the club's clear No. 1 RB moving forward. The 49ers have yielded 4.04 YPC to running backs so far, but that's led to just one rushing TD.",
+        "4": "Tyler Allgeier seems to have fallen well behind Jeremiyah Love for ball-carrying opportunities heading into Arizona's Week 4 matchup with the Giants. Love carried the ball 21 times against San Francisco this past Sunday, while Allgeier handled a season-low two totes. The latter did reel in a season-best four catches, but they amounted to just 10 receiving yards. Though the Giants are struggling against the run, ranking in the bottom half of the league in allowing 18.5 fantasy points per game to RBs, Allgeier will likely need to see more opportunities in order to make an impact.",
+        "5": "Tyler Allgeier may be lined up for a big role for Arizona in Week 5 against the Lions. Rookie Jeremiyah Love is dealing with an ankle injury, and if he can't suit up Sunday, Allgeier will likely lead the team's backfield. Even with Love healthy for nearly the entire game in Week 4, Allgeier posted good production, recording an 8-42-1 rushing line and two catches for seven yards. The Cardinals' RB group could find success against a Lions defense that is giving up 4.64 yards per carry to running backs, eighth-worst in the league.",
+        "6": "Tyler Allgeier's role in Arizona's backfield seems to be fading ahead of a Week 6 matchup against the Rams. Allgeier logged just three carries for seven yards this past Sunday against Detroit while adding nine yards on two catches. The veteran running back has logged three or fewer totes two of the past three weeks and seems to be far behind rookie Jeremiyah Love, who got 12 carries versus the Lions, in the pecking order. With that said, he could get some opportunities as a pass catcher against the Rams, who have given up the fourth-most receiving yards per game (42.6) to running backs through five weeks.",
+        "7": "Tyler Allgeier could continue handling a significant share of Arizona's backfield workload in Week 7 against Denver, regardless of whether Jeremiyah Love remains sidelined with an ankle injury or returns after a one-game absence. Allgeier has rushed 53 times for 157 yards and a touchdown through six games, but he's averaging just 3.0 yards per carry, so he needs to be more efficient when he gets the ball. Bam Knight's emergence adds another obstacle to consistent fantasy production. However, Denver has allowed the sixth-most fantasy points per game to opposing RBs in 2026, so Allgeier should have flex appeal if he has an expanded role for a second consecutive week.",
+        "8": "Tyler Allgeier's role in Arizona's background is looking shaky ahead of a Week 8 battle in Dallas. Rookie Jeremiyah Love (ankle) is expected to practice this week and could return from a two-game absence, which would likely push Allgeier down in the pecking order. Even if Love doesn't return, Bam Knight has outperformed Allgeier during Love's absence and could take over the lead-back role. Still, Allgeier at least has a good matchup, as the Cowboys rank 25th in the league in giving up 4.36 yards per carry to running backs.",
+        "9": "Tyler Allgeier may be asked to log a heavy workload for the Cardinals in Week 9 against Seattle. Fellow RBs Jeremiyah Love (ankle) and Bam Knight (concussion) are both dealing with injuries, leaving Allgeier to potentially carry the run game on his shoulders versus the Seahawks. Allgeier thrived with that responsibility this past Sunday in an overtime win over Dallas, logging 147 yards and a touchdown on 11 carries along with 44 yards and another score on five catches. However, he could find the sledding tougher against a Seattle defense that is allowing just 3.28 yards per carry to running backs, the second-best mark in the league."
       }
     },
     {
@@ -3680,20 +3687,6 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": -0.5,
-        "id": -16033,
-        "keeperValue": 0,
-        "keeperValueFuture": 14,
-        "lineupLocked": false,
-        "onTeamId": 12,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 6.0,
         "id": 3042519,
         "keeperValue": 8,
@@ -3706,7 +3699,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry.player",
+      "path": "$.mRoster.teams[7].roster.entries[12].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -3725,7 +3718,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[7].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Aaron Jones is primed to lead Minnesota's backfield in Week 2 at Chicago. Jones (29 of 65 offensive snaps) and Jordan Mason (30 snaps) had a near-even split of the backfield reps in Week 1, but Mason led the ground attack with 59 yards and a touchdown on 15 carries. Jones still remained heavily involved, as he logged 12 rushes for 40 yards and one touchdown. This week and beyond, Jones will be set to lead the backfield with Mason on IR for a thumb injury. Jones will look to make the most of his likely increased opportunities against a Bears defense that allowed 33.7 PPR points to Panthers running backs in Week 1.",
         "3": "Aaron Jones should continue to have a high-usage role as the Vikings travel to Tampa Bay in Week 3. Jones saw a big workload in Week 2 with Jordan Mason (thumb) on IR, rushing the ball 23 times for 105 yards. The veteran running back should continue to have a huge role in the coming weeks, while questions remain with the passing game under returning quarterback Kyler Murray. Jones will face a Buccaneers defense that's allowed a middle-of-the-pack 19.5 PPR points per game to RBs.",
@@ -3737,7 +3730,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[7].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 14.0,
         "id": 4697815,
@@ -3751,10 +3744,24 @@
       }
     },
     {
-      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[7].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.0,
         "id": -16017,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 12,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": -16034,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -4077,20 +4084,6 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.5,
-        "id": -16028,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 13,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 6.0,
         "id": 4686361,
         "keeperValue": 0,
@@ -4103,10 +4096,24 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 11.7,
         "id": 4870795,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 13,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 10.0,
+        "id": -16003,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -4568,9 +4575,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4584,9 +4590,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4600,9 +4605,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4666,9 +4670,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4682,9 +4685,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4698,9 +4700,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4714,9 +4715,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4730,9 +4730,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4746,9 +4745,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4762,9 +4760,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4778,9 +4775,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4794,9 +4790,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4810,9 +4805,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4826,9 +4820,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4842,9 +4835,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4905,9 +4897,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4921,9 +4912,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4937,9 +4927,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4980,9 +4969,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4996,9 +4984,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5025,9 +5012,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5041,9 +5027,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5073,11 +5058,10 @@
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 0,
+        "onTeamId": 11,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "ONTEAM",
+        "tradeLocked": false
       }
     },
     {
@@ -5104,9 +5088,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5152,9 +5135,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5168,9 +5150,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5184,9 +5165,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5200,9 +5180,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5243,9 +5222,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5259,9 +5237,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5281,9 +5258,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5309,9 +5285,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5325,9 +5300,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5341,9 +5315,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5357,9 +5330,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5373,9 +5345,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5398,9 +5369,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5414,9 +5384,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5458,9 +5427,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5474,9 +5442,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5517,9 +5484,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5565,9 +5531,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5581,9 +5546,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1793779200000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     }
   ],
