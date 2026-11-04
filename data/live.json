@@ -17,13 +17,13 @@
     },
     {
       "away": {
-        "projection": 121.11,
+        "projection": 128.29,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 121.53,
+        "projection": 123.63,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -31,13 +31,13 @@
     },
     {
       "away": {
-        "projection": 128.62,
+        "projection": 130.58,
         "score": 0.0,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       },
       "home": {
-        "projection": 128.49,
+        "projection": 131.18,
         "score": 0.0,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -65,7 +65,7 @@
         "teamName": "Chance make champions"
       },
       "home": {
-        "projection": 123.31,
+        "projection": 132.85,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -276,7 +276,7 @@
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 6,
-      "projection": 123.31,
+      "projection": 132.85,
       "record": {
         "losses": 8,
         "pointsAgainst": 1029.22,
@@ -371,6 +371,17 @@
           "projection": 6.83,
           "slot": "D/ST",
           "slotId": 16,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "17427",
+          "name": "Cairo Santos",
+          "position": "K",
+          "proTeam": "CHI",
+          "projection": 9.54,
+          "slot": "K",
+          "slotId": 17,
           "tradeInterest": null
         },
         {
@@ -625,13 +636,13 @@
       ]
     },
     {
-      "acquisitions": 13,
+      "acquisitions": 16,
       "actual": 0.0,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 8,
-      "projection": 121.11,
+      "projection": 128.29,
       "record": {
         "losses": 9,
         "pointsAgainst": 1117.06,
@@ -719,11 +730,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16023",
-          "name": "Steelers D/ST",
+          "id": "-16019",
+          "name": "Giants D/ST",
           "position": "D/ST",
-          "proTeam": "PIT",
-          "projection": 0.0,
+          "proTeam": "NYG",
+          "projection": 7.18,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -746,6 +757,17 @@
           "position": "RB",
           "proTeam": "NYJ",
           "projection": 8.99,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4360438",
+          "name": "Brandon Aiyuk",
+          "position": "WR",
+          "proTeam": "SF",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -785,22 +807,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4685261",
-          "name": "Germie Bernard",
-          "position": "WR",
+          "id": "-16023",
+          "name": "Steelers D/ST",
+          "position": "D/ST",
           "proTeam": "PIT",
           "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4428718",
-          "name": "Tre Tucker",
-          "position": "WR",
-          "proTeam": "LV",
-          "projection": 9.42,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -825,7 +836,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 3,
-      "projection": 128.62,
+      "projection": 130.58,
       "record": {
         "losses": 7,
         "pointsAgainst": 1046.16,
@@ -836,11 +847,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "14880",
-          "name": "Kirk Cousins",
+          "id": "4432577",
+          "name": "C.J. Stroud",
           "position": "QB",
-          "proTeam": "LV",
-          "projection": 14.86,
+          "proTeam": "HOU",
+          "projection": 16.82,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -935,17 +946,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4432577",
-          "name": "C.J. Stroud",
-          "position": "QB",
-          "proTeam": "HOU",
-          "projection": 16.82,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4870808",
           "name": "Jeremiyah Love",
           "position": "RB",
@@ -962,6 +962,17 @@
           "position": "D/ST",
           "proTeam": "NYJ",
           "projection": 4.35,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "14880",
+          "name": "Kirk Cousins",
+          "position": "QB",
+          "proTeam": "LV",
+          "projection": 14.86,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1207,13 +1218,13 @@
       ]
     },
     {
-      "acquisitions": 20,
+      "acquisitions": 21,
       "actual": 0.0,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 121.53,
+      "projection": 123.63,
       "record": {
         "losses": 11,
         "pointsAgainst": 938.4399999999999,
@@ -1301,11 +1312,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16004",
-          "name": "Bengals D/ST",
+          "id": "-16005",
+          "name": "Browns D/ST",
           "position": "D/ST",
-          "proTeam": "CIN",
-          "projection": 4.71,
+          "proTeam": "CLE",
+          "projection": 6.81,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1407,7 +1418,7 @@
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 7,
-      "projection": 128.49,
+      "projection": 131.18,
       "record": {
         "losses": 8,
         "pointsAgainst": 949.4,
@@ -1495,11 +1506,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16017",
-          "name": "Patriots D/ST",
+          "id": "-16034",
+          "name": "Texans D/ST",
           "position": "D/ST",
-          "proTeam": "NE",
-          "projection": 5.46,
+          "proTeam": "HOU",
+          "projection": 8.15,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1539,22 +1550,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4697815",
-          "name": "Rachaad White",
-          "position": "RB",
-          "proTeam": "WSH",
-          "projection": 11.81,
+          "id": "-16017",
+          "name": "Patriots D/ST",
+          "position": "D/ST",
+          "proTeam": "NE",
+          "projection": 5.46,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "-16034",
-          "name": "Texans D/ST",
-          "position": "D/ST",
-          "proTeam": "HOU",
-          "projection": 8.15,
+          "id": "4697815",
+          "name": "Rachaad White",
+          "position": "RB",
+          "proTeam": "WSH",
+          "projection": 11.81,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
