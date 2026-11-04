@@ -3,49 +3,49 @@
   "matchups": [
     {
       "away": {
-        "percentage": 50,
+        "percentage": 49,
         "projection": 128.13,
         "teamId": 13
       },
       "home": {
-        "percentage": 50,
-        "projection": 129.1,
+        "percentage": 51,
+        "projection": 129.18,
         "teamId": 4
       }
     },
     {
       "away": {
-        "percentage": 52,
-        "projection": 128.29,
+        "percentage": 53,
+        "projection": 128.86,
         "teamId": 5
       },
       "home": {
-        "percentage": 48,
-        "projection": 123.63,
+        "percentage": 47,
+        "projection": 122.56,
         "teamId": 11
       }
     },
     {
       "away": {
         "percentage": 50,
-        "projection": 130.58,
+        "projection": 130.61,
         "teamId": 7
       },
       "home": {
         "percentage": 50,
-        "projection": 131.16,
+        "projection": 130.74,
         "teamId": 12
       }
     },
     {
       "away": {
-        "percentage": 49,
-        "projection": 131.74,
+        "percentage": 51,
+        "projection": 132.06,
         "teamId": 1
       },
       "home": {
-        "percentage": 51,
-        "projection": 133.57,
+        "percentage": 49,
+        "projection": 130.2,
         "teamId": 8
       }
     },
@@ -57,26 +57,26 @@
       },
       "home": {
         "percentage": 43,
-        "projection": 132.84,
+        "projection": 133.14,
         "teamId": 3
       }
     }
   ],
-  "projectedMedian": 130.87,
+  "projectedMedian": 130.41,
   "projections": {
-    "1": 131.74,
-    "11": 123.63,
-    "12": 131.16,
+    "1": 132.06,
+    "11": 122.56,
+    "12": 130.74,
     "13": 128.13,
     "14": 148.34,
-    "3": 132.84,
-    "4": 129.1,
-    "5": 128.29,
-    "7": 130.58,
-    "8": 133.57
+    "3": 133.14,
+    "4": 129.18,
+    "5": 128.86,
+    "7": 130.61,
+    "8": 130.2
   },
   "scoringPeriod": 9,
   "season": 2026,
-  "updatedAt": "2026-11-04T16:10:55.651625+00:00",
+  "updatedAt": "2026-11-04T21:53:06.426425+00:00",
   "week": 9
 }
