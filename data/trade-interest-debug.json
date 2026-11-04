@@ -285,7 +285,7 @@
       "values": {
         "acquisitionBudgetSpent": 98,
         "acquisitions": 31,
-        "drops": 32,
+        "drops": 33,
         "misc": 0,
         "moveToActive": 54,
         "moveToIR": 1,
@@ -887,7 +887,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Meyers",
-        "lastNewsDate": 1793667257000,
+        "lastNewsDate": 1793743049000,
         "lastVideoDate": 1790533083000,
         "proTeamId": 30,
         "seasonOutlook": "One of the league's most underrated players, Meyers is entering his first full season with Jacksonville after being acquired via trade in November. The 2019 UDFA has produced 800-plus receiving yards in five consecutive seasons while operating primarily as a short-to-intermediate target. More of a solid producer than a high-ceiling contributor, Meyers has finished no lower than 32nd in fantasy points over the last five seasons, but has yet to do better than 19th. The 29-year-old isn't much of a touchdown scorer (23 TDs in 78 games since 2021) and has substantial target competition via Parker Washington, Brian Thomas Jr., Brenton Strange and Travis Hunter. Meyers is a good player, but is likely to cap out as a flex option.",
@@ -1200,20 +1200,6 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.7,
-        "id": 17372,
-        "keeperValue": 15,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 3,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 2.0,
         "id": 4360569,
         "keeperValue": 0,
@@ -1226,7 +1212,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 20.400000000000002,
         "id": 4702555,
@@ -1240,7 +1226,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "3": "Jonah Coleman didn't see the ball in his NFL debut during the Broncos' opener, but his role increased in Week 2's win over the Jaguars due to RJ Harvey's hamstring strain. Coleman ended up getting more touches than J.K. Dobbins, with the 2026 fourth-round pick turning 10 carries into 39 yards and his first career touchdown while also catching all three of his targets for 19 yards. It's not clear how much time Harvey might miss, but Coleman's solid showing in his first opportunity could begin the process of turning the backfield into a three-man committee, with the workload dependent on whoever happens to be healthy. Coleman could be a risky play in Week 3 against a Rams defense that just saw the return of Aaron Donald in Week 2 and has yet to allow a rushing TD this year.",
         "8": "Jonah Coleman had the biggest share of the backfield workload in the Broncos' Week 7 win over the Cardinals, handling 11 touches to J.K. Dobbins' six and RJ Harvey's five. Coleman's 69 scrimmage yards led the trio, but the other two each made trips to the end zone while the rookie RB was held out. It was still an impressive effort in his return from an IR stint due to an ankle injury, and Coleman might be the most likely player from the group to emerge as the lead back. A messy committee is the more probable arrangement, however, heading into a Week 8 clash with a Kansas City defense that ranks seventh in fantasy points per game allowed to RBs.",
@@ -1248,7 +1234,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 4.2,
         "id": 4360635,
@@ -1262,7 +1248,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chig Okonkwo had a rough debut Week 1 for the Commanders. On only three targets, the former Titan caught a mere two passes for 16 yards in the 24-22 loss to the Eagles. He subsequently injured his hamstring and did not return. Meanwhile, both Stefon Diggs and rookie Antonio Williams found the end zone in their respective debuts for Washington. John Bates and Ben Sinnott would step in at tight end if Chig misses Week 2 versus Dallas. If he suits up, Okonkwo would have a favorable matchup against a Cowboys defense that allowed two touchdowns to Giants tight end Isaiah Likely in the season opener.",
         "3": "Chig Okonkwo did not play in Week 2 for the Commanders. Washington's active tight ends did not fare well, catching a combined two passes for 20 yards in the 37-20 loss to Dallas. Starting quarterback Jayden Daniels only played a half due to injury, and veteran backup Marcus Mariota will likely start in Week 3 versus a devastating Seattle defense. The Seahawks are allowing just 8.5 points per game thus far in 2026, which is second in the league. Seattle is also allowing the fewest passing yards per contest at 124.5 per tilt. None of this appears to be a recipe for success for Okonkwo, even if he is able to suit up.",
