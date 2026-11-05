@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[3]",
+      "path": "$.mTransactions2.transactions[27]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[3].items[0]",
+      "path": "$.mTransactions2.transactions[27].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[3].items[1]",
+      "path": "$.mTransactions2.transactions[27].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[32]",
+      "path": "$.mTransactions2.transactions[43]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -65,7 +65,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33]",
+      "path": "$.mTransactions2.transactions[44]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -453,7 +453,7 @@
       "path": "$.mTeam.teams[2].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 9,
+        "acquisitions": 10,
         "drops": 9,
         "misc": 0,
         "moveToActive": 25,
@@ -746,7 +746,7 @@
         "drops": 9,
         "misc": 0,
         "moveToActive": 22,
-        "moveToIR": 2,
+        "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -1892,6 +1892,31 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 4599739,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 4,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[2].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Kendre Miller could operate as the Saints' No. 2 running back if Alvin Kamara (knee) remains sidelined for the Week 2 matchup against the Ravens. Miller was surprisingly involved in New Orleans' Week 1 gameplan, tying Travis Etienne for the most carries on the team while finding the end zone. Despite averaging only 3.3 yards per carry, Miller could have a similar role if Kamara remains out for Week 2. It's also a favorable matchup for running backs, as the Ravens defense allowed 5.2 yards per carry and two rushing touchdowns in Week 1.",
+        "4": "Kendre Miller is expected to split carries with Alvin Kamara in the Saints' Week 4 matchup  against the Falcons, with Travis Etienne (hamstring) out. Miller tallied 19 yards on six touches during the Week 3 loss, playing behind both Alvin Kamara and Etienne. As Etienne deals with an ongoing hamstring injury, Miller is likely to split work on the ground with Kamara in the Week 4 contest, operating as one of the Saints' leading rushers. Despite this, Miller is in for a tough matchup against a Falcons defense that's allowed just 3.1 yards per carry this season.",
+        "5": "Kendre Miller is likely to remain one of the Saints' top rushers while Travis Etienne (hamstring) is out during the Week 5 matchup against the Vikings. Miller received the second-most carries (six) on New Orleans in the Week 4 loss to the Falcons but was largely ineffective, averaging just 1.5 yards per carry. Even if Miller continues splitting work with Alvin Kamara, he likely won't have much fantasy value, as the Saints' offense is averaging a whopping 45 pass attempts per game. Additionally, Miller is in for a difficult Week 5 matchup against a Vikings defense that's allowed just 307 rushing yards all season.",
+        "6": "Kendre Miller is expected to remain a large part of the Saints' rushing attack in the Week 6 matchup against the Giants. Miller operated as New Orleans' top running back in the Week 5 loss to the Vikings, receiving more carries (six) and targets (three) while playing more snaps (13) than Alvin Kamara (three carries and two targets on 12 snaps). While Travis Etienne (hamstring) remains sidelined, Miller appears to have assumed the role as the Saints' top rusher. He could thrive in Week 6 against a Giants defense that's given up 21.3 fantasy points per game to opposing RBs this season.",
+        "7": "Kendre Miller appears to have emerged as the Saints' top running back ahead of the Week 7 matchup against the Steelers. While Travis Etienne (hamstring) remains sidelined, Miller has taken over as New Orleans' primary rusher, logging 22 touches and 70 total yards in the Week 6 win over the Giants. Additionally, Miller played a season-high 46% of the Saints' offensive snaps, which is partially due to Alvin Kamara's injury in the first half, but still remains a positive sign for his outlook going forward. Miller could struggle in Week 7, however, as Pittsburgh's defense has allowed just 4.0 yards per carry this year.",
+        "9": "Kendre Miller is expected to operate as the Saints' top rusher in the Week 9 matchup against the Browns. While Travis Etienne (hamstring) has been sidelined, Miller has averaged 11 carries per game, but just 28.8 rushing yards per game (2.6 yards per carry). Despite the lack of efficiency, Miller has led New Orleans' backfield in carries three consecutive games, which bodes well for his outlook while Etienne remains out. Miller could find success against the Browns' defense in Week 9, as they've given up 4.9 yards per carry to opposing running backs this season."
       }
     },
     {
@@ -3299,7 +3324,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1793824515000,
+        "lastNewsDate": 1793834730000,
         "lastVideoDate": 1792512538000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -4223,9 +4248,9 @@
         "fullName": "Matthew Stafford",
         "id": 12483,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Stafford",
-        "lastNewsDate": 1793661106000,
+        "lastNewsDate": 1793838968000,
         "lastVideoDate": 1792964833000,
         "proTeamId": 14,
         "seasonOutlook": "The reigning NFL MVP, Stafford returns for his 18th NFL season and his fifth with the Rams. The 38-year-old is fresh off an elite season in which he led the NFL in passing yards and touchdowns, which allowed him nine top-10 fantasy weeks (tied for third most at the position). Stafford's third-place finish in fantasy points per game was his first top-10 finish since 2019, and some regression is likely due to a complete lack of rushing (65 or fewer rushing yards in five straight seasons and one rushing touchdown since 2017). Stafford still has receivers Puka Nacua and Davante Adams and a strong offensive line at his disposal, so another big passing season is possible. That's just enough to keep him in the fringe QB1 mix.",
@@ -4674,7 +4699,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Kamara",
-        "lastNewsDate": 1792952599000,
+        "lastNewsDate": 1793830757000,
         "lastVideoDate": 1792349932000,
         "proTeamId": 18,
         "seasonOutlook": "Kamara is entering his age-31 season set to play a change-of-pace role behind Travis Etienne and is unlikely to be a fantasy option. Over the past seven seasons, only two backs age 31 or older have posted a top-30 fantasy campaign, and both required 16-plus touchdowns. (Kamara hasn't cleared nine TDs since 2020 and scored once in 2025). Injuries limited Kamara to career-low marks across the board last season (including a 10% target share, considerably worse than his previous career low of 18%), and he hasn't played a full season since his rookie year (2017). A longtime fantasy star, Kamara is worth no more than a late flier.",

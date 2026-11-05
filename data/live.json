@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 33,
+      "acquisitions": 32,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -453,7 +453,7 @@
       ]
     },
     {
-      "acquisitions": 9,
+      "acquisitions": 10,
       "actual": 0.0,
       "htmlId": "champagne-step-papi",
       "id": 4,
@@ -607,6 +607,17 @@
           "position": "WR",
           "proTeam": "DEN",
           "projection": 11.24,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4599739",
+          "name": "Kendre Miller",
+          "position": "RB",
+          "proTeam": "NO",
+          "projection": 9.41,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1539,17 +1550,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4710714",
-          "name": "De'Zhaun Stribling",
-          "position": "WR",
-          "proTeam": "SF",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "-16017",
           "name": "Patriots D/ST",
           "position": "D/ST",
@@ -1566,6 +1566,17 @@
           "position": "RB",
           "proTeam": "WSH",
           "projection": 11.81,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4239996",
+          "name": "Travis Etienne Jr.",
+          "position": "RB",
+          "proTeam": "NO",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1594,10 +1605,10 @@
         },
         {
           "actual": 0.0,
-          "id": "4239996",
-          "name": "Travis Etienne Jr.",
-          "position": "RB",
-          "proTeam": "NO",
+          "id": "4710714",
+          "name": "De'Zhaun Stribling",
+          "position": "WR",
+          "proTeam": "SF",
           "projection": 0.0,
           "slot": "IR",
           "slotId": 21,
