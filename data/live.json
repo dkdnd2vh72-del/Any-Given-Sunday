@@ -3,22 +3,22 @@
   "matchups": [
     {
       "away": {
-        "projection": 112.15,
-        "score": 0.0,
+        "projection": 124.12,
+        "score": 18.1,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
       "home": {
         "projection": 128.47,
-        "score": 0.0,
+        "score": 5.38,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       }
     },
     {
       "away": {
-        "projection": 128.77,
-        "score": 0.0,
+        "projection": 129.46,
+        "score": 5.3,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       },
@@ -38,7 +38,7 @@
       },
       "home": {
         "projection": 133.97,
-        "score": 0.0,
+        "score": 14.1,
         "teamId": 12,
         "teamName": "Injured Reserve"
       }
@@ -46,13 +46,13 @@
     {
       "away": {
         "projection": 132.26,
-        "score": 0.0,
+        "score": 13.26,
         "teamId": 1,
         "teamName": "Big Blue"
       },
       "home": {
         "projection": 130.24,
-        "score": 0.0,
+        "score": 20.9,
         "teamId": 8,
         "teamName": "King Johnson"
       }
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 7,
-      "actual": 0.0,
+      "actual": 13.26,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -92,7 +92,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 13.26,
           "id": "4360310",
           "name": "Trevor Lawrence",
           "position": "QB",
@@ -191,7 +191,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 5.2,
           "id": "4430539",
           "name": "Brenton Strange",
           "position": "TE",
@@ -213,7 +213,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 10.5,
           "id": "3916433",
           "name": "Jakobi Meyers",
           "position": "WR",
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 33,
+      "acquisitions": 32,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -454,7 +454,7 @@
     },
     {
       "acquisitions": 10,
-      "actual": 0.0,
+      "actual": 5.38,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -491,7 +491,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 5.38,
           "id": "3043078",
           "name": "Derrick Henry",
           "position": "RB",
@@ -648,12 +648,12 @@
     },
     {
       "acquisitions": 17,
-      "actual": 0.0,
+      "actual": 5.3,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 8,
-      "projection": 128.77,
+      "projection": 129.46,
       "record": {
         "losses": 9,
         "pointsAgainst": 1117.06,
@@ -707,7 +707,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 5.3,
           "id": "4429615",
           "name": "Zay Flowers",
           "position": "WR",
@@ -730,11 +730,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4426385",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "proTeam": "SEA",
-          "projection": 10.76,
+          "id": "4567750",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "proTeam": "TB",
+          "projection": 11.45,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -807,22 +807,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4567750",
-          "name": "Emeka Egbuka",
-          "position": "WR",
-          "proTeam": "TB",
-          "projection": 11.45,
+          "id": "-16023",
+          "name": "Steelers D/ST",
+          "position": "D/ST",
+          "proTeam": "PIT",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "-16023",
-          "name": "Steelers D/ST",
-          "position": "D/ST",
-          "proTeam": "PIT",
-          "projection": 0.0,
+          "id": "4426385",
+          "name": "Zach Charbonnet",
+          "position": "RB",
+          "proTeam": "SEA",
+          "projection": 10.76,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1036,7 +1036,7 @@
     },
     {
       "acquisitions": 15,
-      "actual": 0.0,
+      "actual": 20.9,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -1062,7 +1062,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 8.9,
           "id": "4882093",
           "name": "Bhayshul Tuten",
           "position": "RB",
@@ -1128,7 +1128,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 12.0,
           "id": "-16030",
           "name": "Jaguars D/ST",
           "position": "D/ST",
@@ -1424,7 +1424,7 @@
     },
     {
       "acquisitions": 10,
-      "actual": 0.0,
+      "actual": 14.1,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1483,7 +1483,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 14.1,
           "id": "4432620",
           "name": "Parker Washington",
           "position": "WR",
@@ -1618,12 +1618,12 @@
     },
     {
       "acquisitions": 20,
-      "actual": 0.0,
+      "actual": 18.1,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 5,
-      "projection": 112.15,
+      "projection": 124.12,
       "record": {
         "losses": 7,
         "pointsAgainst": 934.78,
@@ -1700,28 +1700,28 @@
         },
         {
           "actual": 0.0,
-          "id": "16737",
-          "name": "Mike Evans",
+          "id": "4870653",
+          "name": "KC Concepcion",
           "position": "WR",
-          "proTeam": "SF",
-          "projection": 0.0,
+          "proTeam": "CLE",
+          "projection": 11.15,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "-16025",
-          "name": "49ers D/ST",
+          "id": "-16003",
+          "name": "Bears D/ST",
           "position": "D/ST",
-          "proTeam": "SF",
-          "projection": 5.97,
+          "proTeam": "CHI",
+          "projection": 6.79,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 18.1,
           "id": "4686361",
           "name": "Cam Little",
           "position": "K",
@@ -1733,11 +1733,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16003",
-          "name": "Bears D/ST",
+          "id": "-16025",
+          "name": "49ers D/ST",
           "position": "D/ST",
-          "proTeam": "CHI",
-          "projection": 6.79,
+          "proTeam": "SF",
+          "projection": 5.97,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1766,22 +1766,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4870653",
-          "name": "KC Concepcion",
+          "id": "4870795",
+          "name": "Makai Lemon",
           "position": "WR",
-          "proTeam": "CLE",
-          "projection": 11.15,
+          "proTeam": "PHI",
+          "projection": 10.26,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4870795",
-          "name": "Makai Lemon",
+          "id": "16737",
+          "name": "Mike Evans",
           "position": "WR",
-          "proTeam": "PHI",
-          "projection": 10.26,
+          "proTeam": "SF",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
