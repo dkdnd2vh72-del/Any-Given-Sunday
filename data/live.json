@@ -4,13 +4,13 @@
     {
       "away": {
         "projection": 124.12,
-        "score": 18.1,
+        "score": 19.1,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
       "home": {
         "projection": 128.47,
-        "score": 5.38,
+        "score": 5.58,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       }
@@ -46,13 +46,13 @@
     {
       "away": {
         "projection": 132.26,
-        "score": 13.26,
+        "score": 13.58,
         "teamId": 1,
         "teamName": "Big Blue"
       },
       "home": {
         "projection": 130.24,
-        "score": 20.9,
+        "score": 21.4,
         "teamId": 8,
         "teamName": "King Johnson"
       }
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 7,
-      "actual": 13.26,
+      "actual": 13.58,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -92,7 +92,7 @@
       },
       "roster": [
         {
-          "actual": 13.26,
+          "actual": 13.58,
           "id": "4360310",
           "name": "Trevor Lawrence",
           "position": "QB",
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 33,
+      "acquisitions": 32,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -454,7 +454,7 @@
     },
     {
       "acquisitions": 10,
-      "actual": 5.38,
+      "actual": 5.58,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -491,7 +491,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 5.38,
+          "actual": 5.58,
           "id": "3043078",
           "name": "Derrick Henry",
           "position": "RB",
@@ -1036,7 +1036,7 @@
     },
     {
       "acquisitions": 15,
-      "actual": 20.9,
+      "actual": 21.4,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -1128,7 +1128,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 12.0,
+          "actual": 12.5,
           "id": "-16030",
           "name": "Jaguars D/ST",
           "position": "D/ST",
@@ -1618,7 +1618,7 @@
     },
     {
       "acquisitions": 20,
-      "actual": 18.1,
+      "actual": 19.1,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
@@ -1721,7 +1721,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 18.1,
+          "actual": 19.1,
           "id": "4686361",
           "name": "Cam Little",
           "position": "K",
