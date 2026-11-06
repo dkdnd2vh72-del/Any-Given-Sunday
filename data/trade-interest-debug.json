@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[7]",
+      "path": "$.mTransactions2.transactions[8]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -21,7 +21,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[7].items[0]",
+      "path": "$.mTransactions2.transactions[8].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[7].items[1]",
+      "path": "$.mTransactions2.transactions[8].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -47,7 +47,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30]",
+      "path": "$.mTransactions2.transactions[33]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30].items[0]",
+      "path": "$.mTransactions2.transactions[33].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[30].items[1]",
+      "path": "$.mTransactions2.transactions[33].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -92,7 +92,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47]",
+      "path": "$.mTransactions2.transactions[51]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[48]",
+      "path": "$.mTransactions2.transactions[52]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[49]",
+      "path": "$.mTransactions2.transactions[53]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -432,8 +432,8 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 98,
-        "acquisitions": 32,
-        "drops": 33,
+        "acquisitions": 33,
+        "drops": 34,
         "misc": 0,
         "moveToActive": 55,
         "moveToIR": 1,
@@ -591,7 +591,7 @@
         "acquisitions": 15,
         "drops": 14,
         "misc": 0,
-        "moveToActive": 50,
+        "moveToActive": 51,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -627,10 +627,10 @@
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 123,
-        "acquisitions": 22,
-        "drops": 21,
+        "acquisitions": 23,
+        "drops": 22,
         "misc": 0,
-        "moveToActive": 45,
+        "moveToActive": 46,
         "moveToIR": 7,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1581,7 +1581,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Moore",
-        "lastNewsDate": 1793916250000,
+        "lastNewsDate": 1794002127000,
         "lastVideoDate": 1793808225000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -2082,7 +2082,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Allen",
-        "lastNewsDate": 1793570990000,
+        "lastNewsDate": 1793997903000,
         "lastVideoDate": 1793573770000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar.",
@@ -2289,7 +2289,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Mitchell",
-        "lastNewsDate": 1793571134000,
+        "lastNewsDate": 1793996237000,
         "lastVideoDate": 1793721138000,
         "proTeamId": 20,
         "seasonOutlook": "Mitchell is entering his first full campaign with the Jets, having been acquired in the Sauce Gardner trade during the 2025 season. After playing sparingly during his first 25 NFL games (all with the Colts), the 2024 second-round pick handled a hefty 24.4% target share in eight games with New York last season. The usage led to two fantasy outings with 17-plus points, but he was otherwise a nonfactor (4.0 PPG). Efficiency remains an issue, as Mitchell's 44% catch rate ranks last, and his 6.0 yards per target is fourth worst among 77 receivers with 100-plus targets since he entered the league. The vertical threat will compete with rookie Omar Cooper Jr. for No. 2 duties opposite a now-healthy Garrett Wilson in the Jets' Geno Smith-led offense. Mitchell, 23, is not worth much more than late-round consideration.",
@@ -2752,7 +2752,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 126.5,
+        "appliedStatTotal": 148.95999999999998,
         "tradeReservedEntries": 0
       }
     },
@@ -2809,7 +2809,7 @@
         "injured": true,
         "injuryStatus": "OUT",
         "lastName": "Brown",
-        "lastNewsDate": 1793984983000,
+        "lastNewsDate": 1793989330000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3152,7 +3152,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 131.72000000000003,
+        "appliedStatTotal": 122.11999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -3245,10 +3245,10 @@
         "firstName": "DeVonta",
         "fullName": "DeVonta Smith",
         "id": 4241478,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Smith",
-        "lastNewsDate": 1793986323000,
+        "lastNewsDate": 1793999355000,
         "lastVideoDate": 1792512538000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -3272,20 +3272,6 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.3,
-        "id": 4241985,
-        "keeperValue": 0,
-        "keeperValueFuture": 7,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 9.6,
         "id": 4695883,
         "keeperValue": 0,
@@ -3298,7 +3284,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry.player",
+      "path": "$.mRoster.teams[6].roster.entries[5].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -3317,7 +3303,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[5].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Jalen Coker (ankle) will look to continue shining in Carolina's Week 2 matchup against the Falcons. Coker has shown out in the Panthers last two games (including their wild-card loss to end last season), having recorded a combined 17 receptions for 272 yards and three touchdowns. He's outproduced 2025 Offensive Rookie of the Year Tetairoa McMillan and looks to be a major part of Carolina's offense going forward. However, Coker is dealing with an ankle issue and could struggle against a tough Falcons defense that gave up just 5.0 yards per pass attempt in Week 1, the fourth-best mark in the NFL.",
         "3": "Jalen Coker is expected to remain one of Bryce Young's favorite targets in Carolina's Week 3 matchup against the Browns. Coker has been incredibly productive, leading the Panthers in receptions (16) and yards (204) while being tied for first in targets (18) through two weeks. Across his last three games (including playoffs), the third-year pro has caught 25 of 30 targets for 338 yards and two touchdowns, emerging as one of the NFL's top young wideouts. He's in for a very favorable matchup in Week 3 as well, as the Browns' defense has surrendered 7.2 yards per pass attempt this season.",
@@ -3329,7 +3315,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4569559,
@@ -3343,7 +3329,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Devaughn Vele is expected to remain an important part of the Saints' offense in the Week 2 matchup against the Ravens. Vele saw nine targets in the Week 1 overtime loss, tying his career high and trailing only Chris Olave in the Saints' receiving corps. Vele should continue to benefit from the absence of Jordyn Tyson (hamstring) and is expected to see consistent volume until Tyson returns. It'll be a tough Week 2 matchup for Vele, however, as the Ravens' defense has given up just 4.8 yards per pass attempt this season, which is tied for the second-best mark in the NFL.",
         "3": "Devaughn Vele is expected to remain the Saints' No. 2 wideout in the Week 3 matchup against the Raiders, whose defense has given up just 15 receptions to WRs through two contests. Vele has clearly positioned himself as one of New Orleans' top receiving options early in the season, catching 12 of 16 targets for 133 yards and one touchdown thus far. He's expected to continue benefitting from the Saints' high volume of pass attempts, as Tyler Shough has already thrown the ball 90 times in two games, the second-most in the NFL. Despite this, Vele is in for a difficult Week 3 matchup against a Las Vegas defense that has yet to allow a receiving touchdown this season.",
@@ -3355,7 +3341,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4360689,
@@ -3369,7 +3355,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Tyler Shough will lead the Saints' offense into a tough Week 2 matchup against the Ravens, whose defense gave up just 12.7 fantasy points to quarterbacks in Week 1. Despite a poor first half, Shough threw for 410 yards and three touchdowns in last week's overtime loss, making him the league's leading passer. However, Shough was prone to turnovers, throwing two interceptions and losing a fumble, which is something Baltimore could capitalize on. It'll be a tough Week 2 matchup, as the Ravens allowed just 166 passing yards in Week 1.",
         "3": "Tyler Shough will lead the Saints' offense into a Week 3 matchup against the Raiders, whose defense has allowed just 17.4 fantasy points per game to opposing quarterbacks this season. Shough has been one of the NFL's most productive QBs through two weeks, leading the league in passing yards (662) while producing five total touchdowns. Despite throwing the ball 90 times in his first two contests, Shough remains one of the league leaders in completion percentage (68.9 percent). He's in for a difficult Week 3 matchup, however, with the Raiders' allowing just one passing touchdowns this season.",
@@ -3381,7 +3367,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.200000000000001,
         "id": 3150744,
@@ -3395,7 +3381,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chase McLaughlin will look to remain perfect in the Buccaneers' Week 2 matchup against the Browns. McLaughlin made all five of his kicks during last week's loss, including a 51-yard field goal. With the Browns defense allowing 34 total points and 10 kicking points in a Week 1 loss, McLaughlin is likely in for lots more scoring opportunities in Week 2.",
         "3": "Chase McLaughlin could remain one of the top kickers in fantasy despite the Buccaneers' tough Week 3 matchup against the Vikings. McLaughlin remained perfect in the Week 2 loss to the Browns, as he's now converted on all six field-goal tries this season, including two from 50-plus yards. Despite McLaughlin being tied for the league-lead in field-goals made this season, he could struggle against a Minnesota defense that's allowed just 6.5 kicking points per game thus far.",
@@ -3408,7 +3394,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 6.9,
         "id": 4711533,
@@ -3422,7 +3408,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "3": "Ollie Gordon's workload could increase if Jaylen Wright misses the Dolphins' Week 3 game against the Chiefs. Despite being No. 3 on the depth chart, Gordon has outsnapped Wright behind Miami's workhorse, De'Von Achane. Kansas City allowed stud Jonathan Taylor to rush for two scores in Week 2 but kept Denver's backs under control in Week 1. Barring an injury to Achane, it's difficult to envision a path to meaningful production for Gordon.",
         "4": "Jaylen Wright will have an elevated role for the Dolphins in Week 4 against the Vikings if he's able to overcome a foot issue that kept him out in Week 3. Miami lost De'Von Achane for the season due to a knee injury, leaving just Wright and Ollie Gordon to handle carries. With the Dolphins often falling behind in most matchups, Wright has the chance to be the preferred pass-catching option. Confidence isn't inspired facing a Vikings defense that's allowing just 3.1 yards per carry and 11 catches to running backs.",
@@ -3433,7 +3419,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 21.52,
         "id": 4036378,
@@ -3447,7 +3433,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.5,
         "id": 3046439,
@@ -3461,7 +3447,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Hunter Henry will look for more opportunities in Week 2 when New England hosts Pittsburgh. Henry caught all three of his targets to open 2026, and with the Patriots losing A.J. Brown (ankle) for the foreseeable future, additional targets could come Henry's way. Pittsburgh didn't allow a catch to tight ends last week, but that was a product of poor opponent quarterback play. Henry can be considered a back-end option at the position with the potential for far more against a defense he posted two touchdowns and 90 yards against a season ago.",
         "3": "Hunter Henry will look to keep expanding his role for the Patriots in Week 3 against the Jaguars. In their first full game without A.J. Brown in Week 2, Henry logged a 92% snap share but drew only five targets, turning them into three catches for 40 yards. Drake Maye has struggled to open the season, posting a 1:4 TD:INT ratio, and while someone has to catch the limited passes, Henry faces a challenging matchup against a defense that hasn't allowed an opposing tight end to top 32 yards against them so far.",
@@ -3474,7 +3460,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 36.1,
         "id": 4373626,
@@ -3488,7 +3474,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Tyler Allgeier heads into a Week 2 clash against Seattle with a big role in Arizona's backfield. Allgeier logged 17 carries for 61 yards in a season-opening win against the Chargers, getting more totes and producing more yards than rookie Jeremiyah Love. It remains to be seen if that will hold true throughout the campaign, but for the time being Allgeier seems set to be heavily involved in the Cardinals' ground game. With that said, both Allgeier and Love could find the sledding tough in Week 2 versus a Seahawks defense that yielded the third-fewest rushing yards per game during the regular season last year.",
         "3": "Tyler Allgeier will seek to improve his efficiency on the ground during Arizona's Week 3 visit to San Francisco. Allgeier gained just 10 yards on five carries Sunday in a loss against Seattle, and he's averaging a meager 3.2 YPC through two contests. He paced the Cardinals with 17 carries in the team's season opener, but  Jeremiyah Love jumped ahead with him with nine carries Week 2 and could continue to settle in as the club's clear No. 1 RB moving forward. The 49ers have yielded 4.04 YPC to running backs so far, but that's led to just one rushing TD.",
@@ -3501,7 +3487,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 3.0,
         "id": -16005,
@@ -3515,7 +3501,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 16,
@@ -3531,7 +3517,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 10.3,
         "id": 4367209,
@@ -3545,7 +3531,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Greg Dulcich will look for increased target share in Week 2 when the Dolphins face the 49ers. Entering the season opener, Miami had minimal proven pass catchers, creating optimism around Dulcich, but despite a 74% snap rate, Dulcich was targeted just twice. San Francisco allowed just four catches and 31 yards to tight ends in their opener, so even if Miami is forced to throw from behind, it doesn't yet appear Dulcich has Malik Willis' eye, suggesting there are better fantasy options.",
         "3": "Greg Dulcich's opportunities have been limited in Miami's passing game heading into a Week 3 matchup with the Chiefs. Dulcich has four total catches on five targets to open the year, tallying 35 yards. Kansas City has allowed volume to the position through two weeks, surrendering 12 catches and two touchdowns, but just 74 total yards and 4.6 yards per target. Better fantasy options are available.",
@@ -3554,6 +3540,28 @@
         "7": "Greg Dulcich is facing an uphill battle for meaningful production when the Dolphins face the Jets in Week 7. Dulcich's usage has been sporadic, notching 12 targets in two games and five total in Miami's other three tilts, and he's topped 37 yards just once in five games. The Jets have been stingy against the position, allowing just one touchdown, though they have allowed 44 or more yards in three straight weeks. Miami's limited passing game further adds doubt to Dulcich's viability.",
         "8": "Greg Dulcich has an uphill battle to maintain his ascending role in the Dolphins' passing game during a Week 8 matchup with the Patriots. He collected at least five targets in three of his last four games and is coming off a season-high 86 yards in Week 7, but New England has defended tight ends well, surrendering just 6.7 yards per target and two touchdowns. Game flow will likely favor Dulcich with the Patriots expected to jump out to a lead, though Dulcich lacking a touchdown reception tempers optimism.",
         "9": "Greg Dulcich is an intriguing one-week option when the Dolphins face the Lions in Week 9. He has garnered at least five targets in three straight games, though he's topped 43 yards just once in that stretch. The matchup doesn't get much better, as Detroit has allowed 11 touchdown receptions to opposing tight ends through seven games and 8.6 yards per target."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 4040761,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 11,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Devin Singletary acted as the No. 2 back for the Giants in their season-opening win in Week 1 over Dallas. He received the second-most carries out of the backfield behind starter Cam Skattebo, while also catching four passes for 22 yards and a touchdown in the 28-20 triumph. Fellow rusher Tyrone Tracy lost a fumble in this game as well, which could further solidify Singletary's role, though veteran Najee Harris also looms. In Week 2, the Giants will be facing a Rams defense that was surprisingly suspect against the run in their first game of the season. The Rams allowed 174 yards on the ground, which currently ranks them 30th in the league. However, Aaron Donald will return to the fold out of retirement versus the G-Men to give the defensive line a boost.",
+        "3": "Devin Singletary managed just three carries for nine yards last game for the Giants. He remains firmly behind Cam Skattebo on the depth chart. Starting quarterback Jaxson Dart could be lost for the season due to a knee injury, so teams will likely gameplan to stop the run. That could mean tough sledding for the running game for the G-Men overall. However, in Week 3, the Giants will face a mediocre Titans run defense that has given up 120.5 rushing yards per tilt, which is 21st in the NFL. In addition, the Titans have already surrendered three rushing scores in the first two games of the season.",
+        "9": "Singletary scored the winning touchdown last game for the Giants, and could have a larger role in the backfield moving forward. Tyrone Tracy was placed on Injured Reserve following the most recent contest, leaving only Singletary and Cam Skattebo as the healthy options out of the backfield. Though talks of a trade for Jonathan Taylor have intensified, nothing appears imminent heading into a tasty Week 9 clash with Philadelphia. The Eagles have been torched on the ground in 2026, allowing 131.9 rushing yards per tilt, which is 28th in the league. Likewise, the Eagles have given up 10 rushing scores, which is tied for 24th in the NFL."
       }
     },
     {
@@ -3835,7 +3843,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Marks",
-        "lastNewsDate": 1792963309000,
+        "lastNewsDate": 1793988676000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -4247,7 +4255,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Cooper Jr.",
-        "lastNewsDate": 1793589583000,
+        "lastNewsDate": 1793989445000,
         "lastVideoDate": 1792955666000,
         "proTeamId": 20,
         "seasonOutlook": "Cooper was selected by the Jets in the first round of April's draft. The Indiana product is fresh off a breakout 2025 season in which he posted a 69-937-13 receiving line after totaling 46 catches during his first three seasons with the Hoosiers. Primarily a perimeter target in limited action from 2022 to 2024, Cooper aligned in the slot on 80% of his routes last season. He is a short-area target (9.0 aDOT last season), but still posted strong efficiency numbers, including a 2.61 YPRR. He'll begin his career behind Garrett Wilson and Adonai Mitchell in New York's Geno Smith-led offense and is unlikely to produce consistent flex value as a rookie.",
@@ -4621,9 +4629,9 @@
         "fullName": "Alvin Kamara",
         "id": 3054850,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Kamara",
-        "lastNewsDate": 1793914926000,
+        "lastNewsDate": 1793996268000,
         "lastVideoDate": 1792349932000,
         "proTeamId": 18,
         "seasonOutlook": "Kamara is entering his age-31 season set to play a change-of-pace role behind Travis Etienne and is unlikely to be a fantasy option. Over the past seven seasons, only two backs age 31 or older have posted a top-30 fantasy campaign, and both required 16-plus touchdowns. (Kamara hasn't cleared nine TDs since 2020 and scored once in 2025). Injuries limited Kamara to career-low marks across the board last season (including a 10% target share, considerably worse than his previous career low of 18%), and he hasn't played a full season since his rookie year (2017). A longtime fantasy star, Kamara is worth no more than a late flier.",
@@ -5065,7 +5073,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "0",
         "lastName": "Allen",
-        "lastNewsDate": 1793570990000,
+        "lastNewsDate": 1793997903000,
         "lastVideoDate": 1793573770000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar."
