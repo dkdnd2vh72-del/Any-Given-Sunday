@@ -9,7 +9,7 @@
         "teamName": "Pollard Express"
       },
       "home": {
-        "projection": 128.47,
+        "projection": 128.8,
         "score": 5.58,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
@@ -23,7 +23,7 @@
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 121.11,
+        "projection": 121.14,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -31,7 +31,7 @@
     },
     {
       "away": {
-        "projection": 130.8,
+        "projection": 127.35,
         "score": 0.0,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
@@ -45,13 +45,13 @@
     },
     {
       "away": {
-        "projection": 132.26,
+        "projection": 132.28,
         "score": 13.58,
         "teamId": 1,
         "teamName": "Big Blue"
       },
       "home": {
-        "projection": 130.24,
+        "projection": 131.32,
         "score": 21.4,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -59,7 +59,7 @@
     },
     {
       "away": {
-        "projection": 148.37,
+        "projection": 148.43,
         "score": 0.0,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -82,7 +82,7 @@
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 9,
-      "projection": 132.26,
+      "projection": 132.28,
       "record": {
         "losses": 10,
         "pointsAgainst": 1035.7800000000002,
@@ -97,7 +97,7 @@
           "name": "Trevor Lawrence",
           "position": "QB",
           "proTeam": "JAX",
-          "projection": 20.34,
+          "projection": 20.32,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -163,7 +163,7 @@
           "name": "Kyle Pitts Sr.",
           "position": "TE",
           "proTeam": "ATL",
-          "projection": 12.03,
+          "projection": 12.07,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -196,7 +196,7 @@
           "name": "Brenton Strange",
           "position": "TE",
           "proTeam": "JAX",
-          "projection": 11.05,
+          "projection": 11.04,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 33,
+      "acquisitions": 32,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -390,7 +390,7 @@
           "name": "Chig Okonkwo",
           "position": "TE",
           "proTeam": "WSH",
-          "projection": 11.23,
+          "projection": 11.44,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -459,7 +459,7 @@
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 4,
-      "projection": 128.47,
+      "projection": 128.8,
       "record": {
         "losses": 7,
         "pointsAgainst": 958.3599999999999,
@@ -540,7 +540,7 @@
           "name": "Stefon Diggs",
           "position": "WR",
           "proTeam": "WSH",
-          "projection": 12.21,
+          "projection": 12.61,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -551,7 +551,7 @@
           "name": "Lions D/ST",
           "position": "D/ST",
           "proTeam": "DET",
-          "projection": 6.29,
+          "projection": 6.22,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -767,7 +767,7 @@
           "name": "Adonai Mitchell",
           "position": "WR",
           "proTeam": "NYJ",
-          "projection": 9.76,
+          "projection": 11.35,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -847,7 +847,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 3,
-      "projection": 130.8,
+      "projection": 127.35,
       "record": {
         "losses": 7,
         "pointsAgainst": 1046.16,
@@ -891,22 +891,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4569618",
-          "name": "Garrett Wilson",
+          "id": "4430878",
+          "name": "Jaxon Smith-Njigba",
           "position": "WR",
-          "proTeam": "NYJ",
-          "projection": 12.72,
+          "proTeam": "SEA",
+          "projection": 22.1,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4430878",
-          "name": "Jaxon Smith-Njigba",
+          "id": "4683062",
+          "name": "Xavier Worthy",
           "position": "WR",
-          "proTeam": "SEA",
-          "projection": 22.1,
+          "proTeam": "KC",
+          "projection": 9.27,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -953,6 +953,17 @@
           "projection": 11.2,
           "slot": "K",
           "slotId": 17,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4569618",
+          "name": "Garrett Wilson",
+          "position": "WR",
+          "proTeam": "NYJ",
+          "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
           "tradeInterest": null
         },
         {
@@ -1012,17 +1023,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4683062",
-          "name": "Xavier Worthy",
-          "position": "WR",
-          "proTeam": "KC",
-          "projection": 9.27,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "3916387",
           "name": "Lamar Jackson",
           "position": "QB",
@@ -1041,7 +1041,7 @@
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 1,
-      "projection": 130.24,
+      "projection": 131.32,
       "record": {
         "losses": 6,
         "pointsAgainst": 1028.4199999999998,
@@ -1078,7 +1078,7 @@
           "name": "Bijan Robinson",
           "position": "RB",
           "proTeam": "ATL",
-          "projection": 18.7,
+          "projection": 19.78,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1235,7 +1235,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 121.11,
+      "projection": 121.14,
       "record": {
         "losses": 11,
         "pointsAgainst": 938.4399999999999,
@@ -1261,7 +1261,7 @@
           "name": "Ollie Gordon II",
           "position": "RB",
           "proTeam": "MIA",
-          "projection": 16.36,
+          "projection": 16.37,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1305,7 +1305,7 @@
           "name": "Greg Dulcich",
           "position": "TE",
           "proTeam": "MIA",
-          "projection": 10.47,
+          "projection": 10.49,
           "slot": "TE",
           "slotId": 6,
           "tradeInterest": null
@@ -1360,7 +1360,7 @@
           "name": "Hunter Henry",
           "position": "TE",
           "proTeam": "NE",
-          "projection": 0.0,
+          "projection": 11.26,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1565,7 +1565,7 @@
           "name": "Rachaad White",
           "position": "RB",
           "proTeam": "WSH",
-          "projection": 11.8,
+          "projection": 11.96,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1792,7 +1792,7 @@
           "name": "Omar Cooper Jr.",
           "position": "WR",
           "proTeam": "NYJ",
-          "projection": 9.32,
+          "projection": 11.11,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1817,7 +1817,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 2,
-      "projection": 148.37,
+      "projection": 148.43,
       "record": {
         "losses": 7,
         "pointsAgainst": 1060.08,
@@ -1865,7 +1865,7 @@
           "name": "Drake London",
           "position": "WR",
           "proTeam": "ATL",
-          "projection": 16.38,
+          "projection": 16.44,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1942,7 +1942,7 @@
           "name": "DeMario Douglas",
           "position": "WR",
           "proTeam": "NE",
-          "projection": 11.02,
+          "projection": 11.06,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1975,7 +1975,7 @@
           "name": "Rhamondre Stevenson",
           "position": "RB",
           "proTeam": "NE",
-          "projection": 14.91,
+          "projection": 14.88,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null

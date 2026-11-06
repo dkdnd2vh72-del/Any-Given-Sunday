@@ -92,7 +92,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[46]",
+      "path": "$.mTransactions2.transactions[47]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47]",
+      "path": "$.mTransactions2.transactions[48]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[48]",
+      "path": "$.mTransactions2.transactions[49]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -552,7 +552,7 @@
         "acquisitions": 6,
         "drops": 5,
         "misc": 0,
-        "moveToActive": 25,
+        "moveToActive": 26,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -2312,7 +2312,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 92.80000000000001,
+        "appliedStatTotal": 82.8,
         "tradeReservedEntries": 0
       }
     },
@@ -2806,10 +2806,10 @@
         "firstName": "A.J.",
         "fullName": "A.J. Brown",
         "id": 4047646,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Brown",
-        "lastNewsDate": 1793914731000,
+        "lastNewsDate": 1793984983000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3248,7 +3248,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
-        "lastNewsDate": 1793918317000,
+        "lastNewsDate": 1793986323000,
         "lastVideoDate": 1792512538000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -5702,7 +5702,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1793676413000,
+        "lastNewsDate": 1793986722000,
         "lastVideoDate": 1790001549000,
         "proTeamId": 33,
         "seasonOutlook": "Bateman is entering his sixth season in Baltimore following an injury-plagued 2025 campaign in which he was limited to a career-low 224 receiving yards in 13 games. After scoring nine touchdowns on only 45 receptions in 2024, Bateman had \"regression\" written all over him entering last season, but it was worse than expected. The 2021 first-round pick saw his target share fall from 15.4% to a career-low 11.4% and his only double-digit fantasy effort came in Week 3. The 26-year-old remains second on Baltimore's depth chart behind Zay Flowers, but even in a new scheme and with a healthy Lamar Jackson under center, he's unlikely to produce his first top-35 fantasy campaign. Bateman isn't the most appealing late-round draft pick."
