@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 124.15,
+        "projection": 124.14,
         "score": 19.1,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -23,7 +23,7 @@
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 126.14,
+        "projection": 126.15,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -31,7 +31,7 @@
     },
     {
       "away": {
-        "projection": 127.66,
+        "projection": 127.67,
         "score": 0.0,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 132.4,
+        "projection": 132.39,
         "score": 13.58,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -59,13 +59,13 @@
     },
     {
       "away": {
-        "projection": 148.46,
+        "projection": 148.45,
         "score": 0.0,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
-        "projection": 133.29,
+        "projection": 133.28,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -82,7 +82,7 @@
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 9,
-      "projection": 132.4,
+      "projection": 132.39,
       "record": {
         "losses": 10,
         "pointsAgainst": 1035.7800000000002,
@@ -152,7 +152,7 @@
           "name": "Travis Kelce",
           "position": "TE",
           "proTeam": "KC",
-          "projection": 12.5,
+          "projection": 12.49,
           "slot": "TE",
           "slotId": 6,
           "tradeInterest": null
@@ -270,13 +270,13 @@
       ]
     },
     {
-      "acquisitions": 34,
+      "acquisitions": 33,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 6,
-      "projection": 133.29,
+      "projection": 133.28,
       "record": {
         "losses": 8,
         "pointsAgainst": 1029.22,
@@ -313,7 +313,7 @@
           "name": "Kenneth Walker III",
           "position": "RB",
           "proTeam": "KC",
-          "projection": 23.03,
+          "projection": 23.02,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -408,6 +408,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4880281",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "proTeam": "NO",
+          "projection": 5.89,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "4360761",
           "name": "Michael Wilson",
           "position": "WR",
@@ -437,17 +448,6 @@
           "projection": 4.38,
           "slot": "Bench",
           "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4880281",
-          "name": "Jordyn Tyson",
-          "position": "WR",
-          "proTeam": "NO",
-          "projection": 5.89,
-          "slot": "IR",
-          "slotId": 21,
           "tradeInterest": null
         }
       ]
@@ -616,8 +616,8 @@
           "id": "4599739",
           "name": "Kendre Miller",
           "position": "RB",
-          "proTeam": "NO",
-          "projection": 8.63,
+          "proTeam": "FA",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -847,7 +847,7 @@
       "id": 7,
       "name": "Gett'n Saucy",
       "playoffSeed": 3,
-      "projection": 127.66,
+      "projection": 127.67,
       "record": {
         "losses": 7,
         "pointsAgainst": 1046.16,
@@ -906,7 +906,7 @@
           "name": "Xavier Worthy",
           "position": "WR",
           "proTeam": "KC",
-          "projection": 9.27,
+          "projection": 9.26,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -939,7 +939,7 @@
           "name": "Rams D/ST",
           "position": "D/ST",
           "proTeam": "LAR",
-          "projection": 5.86,
+          "projection": 5.88,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1235,7 +1235,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 126.14,
+      "projection": 126.15,
       "record": {
         "losses": 11,
         "pointsAgainst": 938.4399999999999,
@@ -1316,7 +1316,7 @@
           "name": "Devin Singletary",
           "position": "RB",
           "proTeam": "NYG",
-          "projection": 13.25,
+          "projection": 13.26,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1623,7 +1623,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 5,
-      "projection": 124.15,
+      "projection": 124.14,
       "record": {
         "losses": 7,
         "pointsAgainst": 934.78,
@@ -1682,7 +1682,7 @@
           "name": "Rashee Rice",
           "position": "WR",
           "proTeam": "KC",
-          "projection": 13.91,
+          "projection": 13.9,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1817,7 +1817,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 2,
-      "projection": 148.46,
+      "projection": 148.45,
       "record": {
         "losses": 7,
         "pointsAgainst": 1060.08,
@@ -1876,7 +1876,7 @@
           "name": "Puka Nacua",
           "position": "WR",
           "proTeam": "LAR",
-          "projection": 24.24,
+          "projection": 24.23,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
