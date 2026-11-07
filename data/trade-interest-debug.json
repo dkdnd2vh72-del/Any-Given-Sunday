@@ -47,7 +47,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[34]",
+      "path": "$.mTransactions2.transactions[35]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[34].items[0]",
+      "path": "$.mTransactions2.transactions[35].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[34].items[1]",
+      "path": "$.mTransactions2.transactions[35].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -92,7 +92,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[52]",
+      "path": "$.mTransactions2.transactions[54]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53]",
+      "path": "$.mTransactions2.transactions[55]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54]",
+      "path": "$.mTransactions2.transactions[56]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -435,7 +435,7 @@
         "acquisitions": 33,
         "drops": 34,
         "misc": 0,
-        "moveToActive": 55,
+        "moveToActive": 57,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
