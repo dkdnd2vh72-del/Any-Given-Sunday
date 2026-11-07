@@ -17,7 +17,7 @@
     },
     {
       "away": {
-        "projection": 129.46,
+        "projection": 129.36,
         "score": 5.3,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 34,
+      "acquisitions": 33,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -653,7 +653,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 8,
-      "projection": 129.46,
+      "projection": 129.36,
       "record": {
         "losses": 9,
         "pointsAgainst": 1117.06,
@@ -730,11 +730,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4567750",
-          "name": "Emeka Egbuka",
+          "id": "4597500",
+          "name": "Adonai Mitchell",
           "position": "WR",
-          "proTeam": "TB",
-          "projection": 11.45,
+          "proTeam": "NYJ",
+          "projection": 11.35,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -759,17 +759,6 @@
           "projection": 9.67,
           "slot": "K",
           "slotId": 17,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4597500",
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "proTeam": "NYJ",
-          "projection": 11.35,
-          "slot": "Bench",
-          "slotId": 20,
           "tradeInterest": null
         },
         {
@@ -801,6 +790,17 @@
           "position": "RB",
           "proTeam": "HOU",
           "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4567750",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "proTeam": "TB",
+          "projection": 11.45,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null

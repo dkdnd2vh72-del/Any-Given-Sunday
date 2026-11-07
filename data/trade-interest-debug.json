@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[8]",
+      "path": "$.mTransactions2.transactions[9]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -21,7 +21,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[8].items[0]",
+      "path": "$.mTransactions2.transactions[9].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[8].items[1]",
+      "path": "$.mTransactions2.transactions[9].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -47,7 +47,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33]",
+      "path": "$.mTransactions2.transactions[34]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33].items[0]",
+      "path": "$.mTransactions2.transactions[34].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33].items[1]",
+      "path": "$.mTransactions2.transactions[34].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -92,7 +92,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[51]",
+      "path": "$.mTransactions2.transactions[52]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[52]",
+      "path": "$.mTransactions2.transactions[53]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[53]",
+      "path": "$.mTransactions2.transactions[54]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -513,7 +513,7 @@
         "acquisitions": 17,
         "drops": 16,
         "misc": 0,
-        "moveToActive": 73,
+        "moveToActive": 74,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1846,7 +1846,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 116.94,
+        "appliedStatTotal": 144.14,
         "tradeReservedEntries": 0
       }
     },
