@@ -3,8 +3,8 @@
   "matchups": [
     {
       "away": {
-        "projection": 124.14,
-        "score": 19.1,
+        "projection": 124.15,
+        "score": 24.6,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
@@ -18,13 +18,13 @@
     {
       "away": {
         "projection": 129.34,
-        "score": 5.3,
+        "score": 15.9,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 126.15,
-        "score": 0.0,
+        "projection": 126.21,
+        "score": 28.2,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       }
@@ -46,13 +46,13 @@
     {
       "away": {
         "projection": 132.39,
-        "score": 13.58,
+        "score": 15.88,
         "teamId": 1,
         "teamName": "Big Blue"
       },
       "home": {
         "projection": 129.94,
-        "score": 21.4,
+        "score": 32.5,
         "teamId": 8,
         "teamName": "King Johnson"
       }
@@ -60,7 +60,7 @@
     {
       "away": {
         "projection": 148.45,
-        "score": 0.0,
+        "score": 28.06,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
@@ -77,7 +77,7 @@
   "teams": [
     {
       "acquisitions": 7,
-      "actual": 13.58,
+      "actual": 15.88,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
@@ -158,7 +158,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 2.3,
           "id": "4360248",
           "name": "Kyle Pitts Sr.",
           "position": "TE",
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 34,
+      "acquisitions": 33,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -648,7 +648,7 @@
     },
     {
       "acquisitions": 17,
-      "actual": 5.3,
+      "actual": 15.9,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
@@ -696,7 +696,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 10.6,
           "id": "4239993",
           "name": "Tee Higgins",
           "position": "WR",
@@ -1036,7 +1036,7 @@
     },
     {
       "acquisitions": 15,
-      "actual": 21.4,
+      "actual": 32.5,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -1073,7 +1073,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 11.1,
           "id": "4430807",
           "name": "Bijan Robinson",
           "position": "RB",
@@ -1230,12 +1230,12 @@
     },
     {
       "acquisitions": 23,
-      "actual": 0.0,
+      "actual": 28.2,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 126.15,
+      "projection": 126.21,
       "record": {
         "losses": 11,
         "pointsAgainst": 938.4399999999999,
@@ -1261,7 +1261,7 @@
           "name": "Ollie Gordon II",
           "position": "RB",
           "proTeam": "MIA",
-          "projection": 16.37,
+          "projection": 16.44,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1278,12 +1278,12 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 28.2,
           "id": "4362628",
           "name": "Ja'Marr Chase",
           "position": "WR",
           "proTeam": "CIN",
-          "projection": 22.87,
+          "projection": 22.88,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1305,7 +1305,7 @@
           "name": "Greg Dulcich",
           "position": "TE",
           "proTeam": "MIA",
-          "projection": 10.49,
+          "projection": 10.47,
           "slot": "TE",
           "slotId": 6,
           "tradeInterest": null
@@ -1618,12 +1618,12 @@
     },
     {
       "acquisitions": 20,
-      "actual": 19.1,
+      "actual": 24.6,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 5,
-      "projection": 124.14,
+      "projection": 124.15,
       "record": {
         "losses": 7,
         "pointsAgainst": 934.78,
@@ -1644,12 +1644,12 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 5.5,
           "id": "4362238",
           "name": "Chase Brown",
           "position": "RB",
           "proTeam": "CIN",
-          "projection": 16.55,
+          "projection": 16.56,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1812,7 +1812,7 @@
     },
     {
       "acquisitions": 9,
-      "actual": 0.0,
+      "actual": 28.06,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
@@ -1827,7 +1827,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 23.66,
           "id": "3915511",
           "name": "Joe Burrow",
           "position": "QB",
@@ -1860,7 +1860,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 4.4,
           "id": "4426502",
           "name": "Drake London",
           "position": "WR",
