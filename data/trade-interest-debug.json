@@ -47,7 +47,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40]",
+      "path": "$.mTransactions2.transactions[41]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[0]",
+      "path": "$.mTransactions2.transactions[41].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40].items[1]",
+      "path": "$.mTransactions2.transactions[41].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -92,7 +92,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[60]",
+      "path": "$.mTransactions2.transactions[62]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[61]",
+      "path": "$.mTransactions2.transactions[63]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -130,7 +130,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[62]",
+      "path": "$.mTransactions2.transactions[64]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -446,7 +446,7 @@
       "path": "$.mTeam.teams[2]",
       "values": {
         "abbrev": "BURK",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 4,
         "divisionId": 1,
         "draftDayProjectedRank": 6,
         "eliminated": false,
@@ -524,7 +524,7 @@
       "path": "$.mTeam.teams[4]",
       "values": {
         "abbrev": "Sauc",
-        "currentProjectedRank": 4,
+        "currentProjectedRank": 3,
         "divisionId": 1,
         "draftDayProjectedRank": 3,
         "eliminated": false,
@@ -680,7 +680,7 @@
       "path": "$.mTeam.teams[8]",
       "values": {
         "abbrev": "ZJAM",
-        "currentProjectedRank": 3,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 4,
         "eliminated": false,
@@ -4521,7 +4521,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Jacobs",
-        "lastNewsDate": 1794187453000,
+        "lastNewsDate": 1794234295000,
         "lastVideoDate": 1793198730000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
