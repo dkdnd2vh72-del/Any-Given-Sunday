@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 108.46,
+        "projection": 133.23,
         "score": 0.0,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 34,
+      "acquisitions": 33,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1385,7 +1385,7 @@
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 7,
-      "projection": 108.46,
+      "projection": 133.23,
       "record": {
         "losses": 10,
         "pointsAgainst": 1078.86,
@@ -1407,22 +1407,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4259545",
-          "name": "D'Andre Swift",
+          "id": "4697815",
+          "name": "Rachaad White",
           "position": "RB",
-          "proTeam": "CHI",
-          "projection": 0.0,
+          "proTeam": "WSH",
+          "projection": 10.85,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "3929630",
-          "name": "Saquon Barkley",
+          "id": "4429059",
+          "name": "Woody Marks",
           "position": "RB",
-          "proTeam": "PHI",
-          "projection": 0.0,
+          "proTeam": "HOU",
+          "projection": 13.92,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1506,6 +1506,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4259545",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "proTeam": "CHI",
+          "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "-16017",
           "name": "Patriots D/ST",
           "position": "D/ST",
@@ -1517,11 +1528,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4697815",
-          "name": "Rachaad White",
+          "id": "3929630",
+          "name": "Saquon Barkley",
           "position": "RB",
-          "proTeam": "WSH",
-          "projection": 10.85,
+          "proTeam": "PHI",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1544,17 +1555,6 @@
           "position": "TE",
           "proTeam": "GB",
           "projection": 11.4,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4429059",
-          "name": "Woody Marks",
-          "position": "RB",
-          "proTeam": "HOU",
-          "projection": 13.92,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
