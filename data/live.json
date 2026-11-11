@@ -3,7 +3,7 @@
   "matchups": [
     {
       "away": {
-        "projection": 125.65,
+        "projection": 127.83,
         "score": 0.0,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 34,
+      "acquisitions": 33,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -625,13 +625,13 @@
       ]
     },
     {
-      "acquisitions": 17,
+      "acquisitions": 19,
       "actual": 0.0,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 8,
-      "projection": 125.65,
+      "projection": 127.83,
       "record": {
         "losses": 11,
         "pointsAgainst": 1236.6399999999999,
@@ -719,11 +719,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16023",
-          "name": "Steelers D/ST",
+          "id": "-16033",
+          "name": "Ravens D/ST",
           "position": "D/ST",
-          "proTeam": "PIT",
-          "projection": 5.91,
+          "proTeam": "BAL",
+          "projection": 8.09,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -737,17 +737,6 @@
           "projection": 8.61,
           "slot": "K",
           "slotId": 17,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4597500",
-          "name": "Adonai Mitchell",
-          "position": "WR",
-          "proTeam": "NYJ",
-          "projection": 10.34,
-          "slot": "Bench",
-          "slotId": 20,
           "tradeInterest": null
         },
         {
@@ -796,11 +785,22 @@
         },
         {
           "actual": 0.0,
-          "id": "-16019",
-          "name": "Giants D/ST",
+          "id": "-16023",
+          "name": "Steelers D/ST",
           "position": "D/ST",
-          "proTeam": "NYG",
-          "projection": 5.63,
+          "proTeam": "PIT",
+          "projection": 5.91,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4366031",
+          "name": "Tank Dell",
+          "position": "WR",
+          "proTeam": "HOU",
+          "projection": 8.39,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null

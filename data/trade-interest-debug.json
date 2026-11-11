@@ -1,6 +1,25 @@
 {
   "matches": [
     {
+      "path": "$.mTransactions2.transactions[7]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "999ce07a-8a0c-4c7e-9b01-237f6a406fdd",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{2EE90615-A7AD-4143-946E-BC8497150CC6}",
+        "proposedDate": 1794399510255,
+        "rating": 0,
+        "relatedTransactionId": "82e0b6e1-71dc-4f64-9d40-57b54b79b0ee",
+        "scoringPeriodId": 10,
+        "status": "EXECUTED",
+        "teamId": 12,
+        "type": "TRADE_DECLINE"
+      }
+    },
+    {
       "path": "$.mTeam.members[0].notificationSettings[1]",
       "values": {
         "enabled": true,
@@ -362,10 +381,10 @@
       "path": "$.mTeam.teams[3].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 100,
-        "acquisitions": 17,
-        "drops": 16,
+        "acquisitions": 19,
+        "drops": 18,
         "misc": 0,
-        "moveToActive": 76,
+        "moveToActive": 77,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1678,7 +1697,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 105.48,
+        "appliedStatTotal": 106.98,
         "tradeReservedEntries": 0
       }
     },
@@ -2079,20 +2098,6 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.5,
-        "id": -16019,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 5,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 0.0,
         "id": 4360438,
         "keeperValue": 0,
@@ -2105,10 +2110,10 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": 4597500,
+        "appliedStatTotal": 20.5,
+        "id": 4366031,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -2119,36 +2124,27 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry.player",
+      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
-        "active": true,
-        "defaultPositionId": 3,
-        "droppable": true,
-        "firstName": "Adonai",
-        "fullName": "Adonai Mitchell",
-        "id": 4597500,
-        "injured": false,
-        "injuryStatus": "ACTIVE",
-        "lastName": "Mitchell",
-        "lastNewsDate": 1794196389000,
-        "lastVideoDate": 1793721138000,
-        "proTeamId": 20,
-        "seasonOutlook": "Mitchell is entering his first full campaign with the Jets, having been acquired in the Sauce Gardner trade during the 2025 season. After playing sparingly during his first 25 NFL games (all with the Colts), the 2024 second-round pick handled a hefty 24.4% target share in eight games with New York last season. The usage led to two fantasy outings with 17-plus points, but he was otherwise a nonfactor (4.0 PPG). Efficiency remains an issue, as Mitchell's 44% catch rate ranks last, and his 6.0 yards per target is fourth worst among 77 receivers with 100-plus targets since he entered the league. The vertical threat will compete with rookie Omar Cooper Jr. for No. 2 duties opposite a now-healthy Garrett Wilson in the Jets' Geno Smith-led offense. Mitchell, 23, is not worth much more than late-round consideration.",
-        "universeId": 1
+        "10": "Tank Dell looked like his old self in his second-game back from a nearly two-year absence due to a knee injury. He caught four of nine targets for 105 yards and a TD in Houston's Week 9 win over the Chargers after securing a 43-yard catch against the Giants in Dell's Week 8 return to action. If Dell's still floating around on waivers in your league, he's worth adding in most formats, as he was a viable fantasy WR2 prior to his injury and just turned 27 years old. Dell is a startable option in Week 10 against Cleveland's decent secondary, but he should at least be rostered even if you have safer flex options for Week 10.",
+        "5": "Tank Dell (knee) is expected to have his practice window opened ahead of the Texans' Week 5 road game against the Titans. The 2023 third-round pick hasn't played since sustaining a significant knee injury in Week 16 of the 2024 season. Dell is currently on injured reserve and will likely take some time to ramp up. He's unlikely to return in Week 5 against Tennessee, but forward-looking fantasy managers should take notice of Dell's impending return, as he averaged 55 receiving yards and scored 10 TDs in 25 games prior to his injury.",
+        "6": "Tank Dell (knee) had his 21-day return window opened ahead of Houston's Week 5 win over the Titans and has rejoined his teammates at practice but remains on injured reserve ahead of the team's Week 6 trip to London to face the Jaguars. Considering the Texans just traded for WR Marvin Harrison, Dell seems unlikely to be a major contributor in Week 6, even if he is activated from IR. Dell isn't viable in Week 6 but could be worth stashing if you have an open bench or IR slot, as Houston's 2023 third-round pick averaged 55 receiving yards and scored 10 TDs in 25 games prior to sustaining a major knee injury late in the 2024 season.",
+        "7": "Tank Dell (knee) had his 21-day window to return from IR opened ahead of Houston's Week 5 win over the Titans, and he has a realistic chance of being activated ahead of the Week 7 home game against the Giants after sitting out against the Titans in Week 5 and the Jaguars in Week 6. Even if Dell suits up in Week 7, he's likely to be brought along slowly in a Texans WR room that also has Nico Collins, Marvin Harrison, Jaylin Noel, Xavier Hutchinson, and Kayshon Boutte vying for playing time. Dell is a viable bench stash, but he isn't a recommended starting option against the Giants.",
+        "9": "Tank Dell made his season debut in Week 7, ahead of Houston's Week 8 bye. The 2023 third-round pick showcased his trademark big-play ability with a 43-yard catch on his only target. This was Dell's first game action since Week 16 of the 2024 campaign due to a knee injury. The Texans also have Nico Collins, Marvin Harrison, Xavier Hutchinson, and Kayshon Boutte vying for snaps at wide receiver, which makes Dell a risky Week 9 fantasy option against the Chargers. The Chargers rank in the middle of the pack at defending WRs. Dell is worth stashing on the bench, as he delivered starter-level fantasy production prior to his extended absence, but he'll need to increase his involvement to regain fantasy relevance."
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
       "values": {
-        "10": "Adonai Mitchell's roller coaster season heads into a favorable spot when the Jets face the Bills in Week 10. He failed to record a catch in Week 9 despite seven targets, his second game in three weeks without a reception. Mitchell remains a vertical option, and he's averaged 6.8 targets across five healthy appearances. With the Jets likely throwing from behind as the game progresses, he's a reasonable bet to flourish against a secondary that's allowed 28 receptions of 20-plus yards, the eighth-most in the league.",
-        "2": "Adonai Mitchell will look to stretch the field for the Jets in Week 2 against the Packers. Mitchell hauled in all three of his targets to open the year, finishing with 60 yards. Green Bay allowed a mere 7.7 yards per target in Week 1, but that was largely due to facing Carson Wentz for the bulk of the game. Their secondary remains vulnerable and will likely commit multiple bodies to Garrett Wilson, setting up Mitchell for a few plays downfield in single coverage. Mitchell seems likely to continue his low-volume, high-upside role in Week 2.",
-        "3": "Adonai Mitchell hopes for a continued elevated workload in Week 3 when the Jets face the Lions. After just three targets in a run-heavy Week 1, Mitchell logged an eye-opening 12 targets in Week 2, with the Jets throwing 41 times. Detroit's defense has been a fantasy bonanza for opposing offenses, allowing the sixth-most fantasy points to wideouts. Assuming the Lions score plenty themselves, the Jets should throw heavily, giving Mitchell ample opportunities for a big play or two.",
-        "4": "Adonai Mitchell is questionable for the Jets in Week 4 against the Bears after missing Week 3 due to a finger injury. Mitchell has been a valuable secondary option opposite Garrett Wilson in his first two games, garnering 15 targets and averaging 13.7 yards per catch. With minimal options behind him and running back Breece Hall (thigh) likely to miss Week 4, Mitchell could have a stable workload against a defense that's allowing 8.5 yards per target to opposing receivers.",
-        "5": "Adonai Mitchell needs to overcome a finger injury that has cost him the last two weeks if he's to help the Jets against the Browns in Week 5. Prior to injury, Mitchell was giving the Jets a field-stretching option, averaging 13.7 yards per catch on nine grabs. Targets will continue to be heavily funneled toward Garrett Wilson, but Mitchell will be in a favorable spot if cleared to play, as Cleveland has allowed six touchdowns to opposing receivers through four games. Sterling Shepard and Isaiah Williams would continue to register additional snaps should Mitchell miss his third straight game.",
-        "6": "Adonai Mitchell will need to overcome a finger issue that's cost him the last three weeks if he's to help the Jets against the Patriots in Week 6. He had emerged as a field stretcher for the Jets, but it's an offense that prefers to run and heavily target Garrett Wilson. New England has allowed five touchdown catches by opposing receivers in as many games, and Mitchell would likely require that end-zone success to be considered a starting option. Isaiah Williams and Tim Patrick will continue to get additional snaps if Mitchell remains sidelined.",
-        "7": "Adonai Mitchell will need to overcome a finger injury that cost him four games if he's to help the Jets against the Dolphins in Week 7. Mitchell looked firm in his role opposite Garrett Wilson prior to injury, but it's fair to question his immediate role should he be active in Week 7. Facing a Dolphins' secondary that's surprisingly allowing the second-fewest fantasy points to opposing wide receivers despite a desirable 8.2 yards per target doesn't profile as a re-emergent spot, especially with Omar Cooper healthy and surging.",
-        "8": "Adonai Mitchell has a minimal role in the Jets' limited passing attack entering a Week 8 clash with the Raiders. Returning from a four-week absence in Week 7, Mitchell failed to record a catch on his three targets. Omar Cooper's emergence paired with Garrett Wilson's steady presence won't leave a plethora of opportunities for the remaining Jets' receivers in a run-first offense, giving Mitchell too few chances to exploit a defense that's allowing a generous 8.9 yards per target through seven games.",
-        "9": "Adonai Mitchell faces an uphill battle if he hopes to repeat a career outing when the Jets face the Chiefs in Week 9. After being shut out since Week 2, Mitchell popped for seven catches, 142 yards, and a touchdown in Week 8, shifting the spotlight from surging rookie Omar Cooper. Mitchell has always shown big-play potential but sees inconsistent opportunities. This sets him up as a high-potential, low-ceiling option against a Chiefs secondary that's allowing just 6.9 yards per target and the second-fewest fantasy points to opposing wideouts."
+        "appliedStatTotal": 1.5,
+        "id": -16033,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 5,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
       }
     },
     {
@@ -4044,7 +4040,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Stafford",
         "lastNewsDate": 1794178035000,
-        "lastVideoDate": 1794170105000,
+        "lastVideoDate": 1794407334000,
         "proTeamId": 14,
         "seasonOutlook": "The reigning NFL MVP, Stafford returns for his 18th NFL season and his fifth with the Rams. The 38-year-old is fresh off an elite season in which he led the NFL in passing yards and touchdowns, which allowed him nine top-10 fantasy weeks (tied for third most at the position). Stafford's third-place finish in fantasy points per game was his first top-10 finish since 2019, and some regression is likely due to a complete lack of rushing (65 or fewer rushing yards in five straight seasons and one rushing touchdown since 2017). Stafford still has receivers Puka Nacua and Davante Adams and a strong offensive line at his disposal, so another big passing season is possible. That's just enough to keep him in the fringe QB1 mix.",
         "universeId": 2
