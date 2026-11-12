@@ -31,7 +31,7 @@
     },
     {
       "away": {
-        "projection": 122.65,
+        "projection": 123.36,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -65,7 +65,7 @@
         "teamName": "King Johnson"
       },
       "home": {
-        "projection": 117.67,
+        "projection": 129.27,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -276,7 +276,7 @@
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 5,
-      "projection": 117.67,
+      "projection": 129.27,
       "record": {
         "losses": 9,
         "pointsAgainst": 1197.46,
@@ -371,6 +371,17 @@
           "projection": 5.54,
           "slot": "D/ST",
           "slotId": 16,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "3917232",
+          "name": "Tyler Bass",
+          "position": "K",
+          "proTeam": "BUF",
+          "projection": 11.6,
+          "slot": "K",
+          "slotId": 17,
           "tradeInterest": null
         },
         {
@@ -1207,13 +1218,13 @@
       ]
     },
     {
-      "acquisitions": 26,
+      "acquisitions": 27,
       "actual": 0.0,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 122.65,
+      "projection": 123.36,
       "record": {
         "losses": 12,
         "pointsAgainst": 1048.82,
@@ -1290,11 +1301,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4695883",
-          "name": "Jalen Coker",
+          "id": "4427095",
+          "name": "DeMario Douglas",
           "position": "WR",
-          "proTeam": "CAR",
-          "projection": 11.3,
+          "proTeam": "NE",
+          "projection": 12.01,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1334,22 +1345,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4569559",
-          "name": "Devaughn Vele",
-          "position": "WR",
-          "proTeam": "NO",
-          "projection": 7.4,
+          "id": "4685512",
+          "name": "Jadarian Price",
+          "position": "RB",
+          "proTeam": "SEA",
+          "projection": 11.87,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4685512",
-          "name": "Jadarian Price",
-          "position": "RB",
-          "proTeam": "SEA",
-          "projection": 11.87,
+          "id": "4695883",
+          "name": "Jalen Coker",
+          "position": "WR",
+          "proTeam": "CAR",
+          "projection": 11.3,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null

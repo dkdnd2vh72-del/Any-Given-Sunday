@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[8]",
+      "path": "$.mTransactions2.transactions[9]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -239,7 +239,7 @@
       "path": "$.mTeam.teams[0]",
       "values": {
         "abbrev": "KATZ",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 9,
         "divisionId": 1,
         "draftDayProjectedRank": 7,
         "eliminated": false,
@@ -278,7 +278,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -296,17 +296,17 @@
         "primaryOwner": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 4
+        "waiverRank": 10
       }
     },
     {
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 98,
-        "acquisitions": 34,
+        "acquisitionBudgetSpent": 100,
+        "acquisitions": 35,
         "drops": 36,
         "misc": 0,
-        "moveToActive": 62,
+        "moveToActive": 63,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -356,7 +356,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 9,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -374,7 +374,7 @@
         "primaryOwner": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 5
+        "waiverRank": 4
       }
     },
     {
@@ -413,7 +413,7 @@
         "primaryOwner": "{113D06BF-E687-4014-BD06-BFE687C014C5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 10
+        "waiverRank": 8
       }
     },
     {
@@ -452,7 +452,7 @@
         "primaryOwner": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 8
+        "waiverRank": 7
       }
     },
     {
@@ -497,11 +497,11 @@
     {
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 125,
-        "acquisitions": 26,
-        "drops": 25,
+        "acquisitionBudgetSpent": 135,
+        "acquisitions": 27,
+        "drops": 26,
         "misc": 0,
-        "moveToActive": 53,
+        "moveToActive": 54,
         "moveToIR": 7,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -512,7 +512,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -530,7 +530,7 @@
         "primaryOwner": "{55557D11-0BB9-4FB9-957D-110BB9EFB9E5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 6
+        "waiverRank": 5
       }
     },
     {
@@ -569,7 +569,7 @@
         "primaryOwner": "{B9D0D9CD-0373-43B0-B535-9F31B41A51F8}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 7
+        "waiverRank": 6
       }
     },
     {
@@ -1030,7 +1030,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 117.30000000000001,
+        "appliedStatTotal": 130.9,
         "tradeReservedEntries": 0
       }
     },
@@ -1275,6 +1275,33 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 13.600000000000001,
+        "id": 3917232,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Tyler Bass continues to see heavy volume in the Bills' prolific offense ahead of a Week 10 matchup with the Jets. Seemingly always assured of a handful of PATs, making at least two in every game, Bass has at least three field goals in four straight games, creating double-digit scoring upside with consistency. The Jets are allowing the ninth-fewest fantasy points per game to opposing kickers however, largely due to opponents converting drives into touchdowns, surrendering just 13 field goal attempts in nine games, which should test Bass' current form.",
+        "2": "Tyler Bass continues to be busy for the high-scoring Bills' offense as they enter a Week 2 matchup with the Lions. In Week 1, Bass made three extra points and three field goals, though none were 50-plus yards. Detroit's defense, particularly the secondary, was suspect a week ago, and the Bills should score plenty, making Bass appealing.",
+        "3": "Tyler Bass will attempt to bounce back from his first miss of the season when the Bills host the Chargers in Week 3. Bass wasn't afforded a field goal try in Week 2, with Buffalo's offense finding the end zone with ease, but still provided a reasonable floor, hitting five of six extra points. The Bills' offensive efficiency could cap Bass' scoring potential, but historically, the highest-scoring kickers come from the highest-scoring teams.",
+        "4": "Tyler Bass' opportunities have been limited ahead of a Week 4 matchup between the Bills and Patriots. Through three weeks, Bass has attempted only four field goals, though Buffalo's high-powered offense has generated 12 extra points. New England's defense remains stingy, allowing just 15 total points to opposing kickers, likely keeping Bass out of Week 4 consideration.",
+        "5": "Tyler Bass remains a stable floor, low ceiling kicking option for the Bills as they enter a Week 5 matchup with the Rams. Bass has collected 14 extra points through four weeks as Buffalo routinely converts drives into touchdowns, but only six field goal attempts, where he's perfect, keeping his scoring capacity limited. The Rams' defense has been stingy to opposing kickers, so don't expect Week 5 to be Bass' breakout party.",
+        "6": "Tyler Bass is trending up as the Bills get set to face the Raiders in Week 6. Extra points will remain consistent in Buffalo's efficient offense, as Bass has at least three attempts in four of five games, but his field goals increased each of the last three weeks. Las Vegas, however, has been stingy to opposing kicker scoring, surrendering 16 PATs but just six field-goal tries as teams routinely convert drives into touchdowns. Bass' floor Sunday looks stable, but the ceiling may be low.",
+        "8": "Tyler Bass has increased his workload over the last three weeks as Buffalo gets set to face Baltimore in Week 8. Always a steady source for PATs in Buffalo's high-scoring offense (Bass has made at least two in every game), he went from four field goals across his first three games to nine over his last three. None have come from 50-plus yards, potentially keeping bonus scoring off the table. Baltimore is a mid-tier defense for points allowed to kickers, but they've allowed as many field goal attempts as extra points through seven games, setting Bass up for a strong Week 8.",
+        "9": "Tyler Bass has been busy for the Bills ahead of a difficult Week 9 matchup with the Vikings. He has multiple field goals in four straight weeks, 12 in total. Bass has added upside to his stable floor in Buffalo's high-scoring offense, which has yielded 21 extra points in seven games. Minnesota has allowed only six field goals and 11 made PATs all season, putting Bass' hot streak in jeopardy."
       }
     },
     {
@@ -3021,7 +3048,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 112.7,
+        "appliedStatTotal": 121.30000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -3189,33 +3216,6 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.7,
-        "id": 4569559,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Devaughn Vele is expected to remain one of New Orleans' top wideouts during the Week 10 matchup against the Panthers. With the debut of 2026 first-round pick Jordyn Tyson in the Week 9 overtime win over the Browns, Vele caught just two of four targets for 17 yards, which are all season-lows in a single game. Even with Tyson on the field, Vele should remain a valuable part of the Saints' offense, but he likely won't be as consistent for fantasy purposes for the remainder of the year. Vele could still be productive in Week 10 against an injury-riddled Carolina secondary that's allowed 7.4 yards per target to opposing wideouts this season.",
-        "2": "Devaughn Vele is expected to remain an important part of the Saints' offense in the Week 2 matchup against the Ravens. Vele saw nine targets in the Week 1 overtime loss, tying his career high and trailing only Chris Olave in the Saints' receiving corps. Vele should continue to benefit from the absence of Jordyn Tyson (hamstring) and is expected to see consistent volume until Tyson returns. It'll be a tough Week 2 matchup for Vele, however, as the Ravens' defense has given up just 4.8 yards per pass attempt this season, which is tied for the second-best mark in the NFL.",
-        "3": "Devaughn Vele is expected to remain the Saints' No. 2 wideout in the Week 3 matchup against the Raiders, whose defense has given up just 15 receptions to WRs through two contests. Vele has clearly positioned himself as one of New Orleans' top receiving options early in the season, catching 12 of 16 targets for 133 yards and one touchdown thus far. He's expected to continue benefitting from the Saints' high volume of pass attempts, as Tyler Shough has already thrown the ball 90 times in two games, the second-most in the NFL. Despite this, Vele is in for a difficult Week 3 matchup against a Las Vegas defense that has yet to allow a receiving touchdown this season.",
-        "4": "Devaughn Vele is likely to remain the Saints' second option at wideout in the Week 4 matchup against the Falcons. While Jordan Tyson (hamstring) has been sidelined, Vele has been very fantasy-relevant, catching 15 of 22 targets for 172 yards and a touchdown (12.7 PPR points per game). Vele has almost no competition outside of Chris Olave in the Saints' WR room, which bodes well for his fantasy outlook going forward. Additionally, New Orleans' offense is averaging 44 pass attempts per game, which suggests Vele will continue having scoring opportunities. He's in for a favorable Week 4 matchup, as Atlanta's defense has allowed 604 receiving yards to wideouts this season, the most in the NFL.",
-        "5": "Devaughn Vele is expected to remain very involved in the Saints' offensive game plan in the Week 5 matchup against the Vikings. Vele has been targeted 30 times (second-most on the team) through New Orleans' first four contests this season, logging 226 receiving yards and a pair of touchdowns. With Tyler Shough averaging a whopping 45 pass attempts per game this season, Vele will likely remain a solid fantasy option as the year progresses, at least until the return of Jordyn Tyson (hamstring, IR). However, Vele is in for a difficult Week 5 matchup against a Minnesota defense that's allowed just 7.7 yards per target to opposing WRs this season.",
-        "6": "Devaughn Vele is expected to remain one of the Saints' top receiving options in the Week 6 matchup against the Giants. Vele was quiet in the Week 5 loss to the Vikings, catching four of six targets for just 26 yards. He still ranks second on the Saints in targets (36) and receiving yards (252) through five contests, which is a positive sign for his outlook moving forward. Vele could thrive in Week 6 against a Giants defense that's already allowed five touchdowns to opposing WRs this season.",
-        "7": "Devaughn Vele is expected to remain New Orleans' No. 2 wideout in the Week 7 matchup against the Steelers. Vele has been relatively quiet over the last two weeks, catching seven of 12 targets for 68 yards. Despite this, he's played over 90% of the Saints' offensive snaps in the last two contests, suggesting more fantasy production is coming soon, especially if New Orleans continues throwing the ball at such a high clip (39.2 pass attempts per game -- fourth-most in the NFL). Vele could struggle against a strong Steelers defense in Week 7 though, as they've allowed just 6.1 yards per pass attempt this season.",
-        "9": "Devaughn Vele is expected to remain the Saints' No. 2 wideout in the Week 9 matchup against the Browns. Vele has recorded over 50 receiving yards in four of seven appearances this season, ranking second on the team in yards (348), targets (46) and receptions (33). He's expected to continue benefitting from head coach Kellen Moore's high-volume passing attack, as Tyler Shough currently leads the NFL with 39.0 pass attempts per game. Vele could struggle in Week 9, however, as Cleveland's secondary has allowed just 10.1 yards per completion this season."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 19.700000000000003,
         "id": 4360689,
         "keeperValue": 0,
@@ -3228,7 +3228,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[6].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Tyler Shough is expected to continue leading the Saints' offense during the Week 10 matchup against the Panthers. Shough played turnover-free football in the Week 9 overtime win over the Browns, completing 21 of 35 passes for 265 yards and a touchdown. He remains tied for the league-lead in passing attempts per game (38.5). Additionally, 2026 first-round pick Jordyn Tyson made his season debut in Week 9, suggesting Shough's fantasy outlook is very positive going forward. Shough could continue to thrive in Week 10 against a Carolina defense that's allowed 20.4 fantasy points per game to opposing quarterbacks this season.",
         "2": "Tyler Shough will lead the Saints' offense into a tough Week 2 matchup against the Ravens, whose defense gave up just 12.7 fantasy points to quarterbacks in Week 1. Despite a poor first half, Shough threw for 410 yards and three touchdowns in last week's overtime loss, making him the league's leading passer. However, Shough was prone to turnovers, throwing two interceptions and losing a fumble, which is something Baltimore could capitalize on. It'll be a tough Week 2 matchup, as the Ravens allowed just 166 passing yards in Week 1.",
@@ -3241,7 +3241,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.3,
         "id": 3150744,
@@ -3255,7 +3255,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "2": "Chase McLaughlin will look to remain perfect in the Buccaneers' Week 2 matchup against the Browns. McLaughlin made all five of his kicks during last week's loss, including a 51-yard field goal. With the Browns defense allowing 34 total points and 10 kicking points in a Week 1 loss, McLaughlin is likely in for lots more scoring opportunities in Week 2.",
         "3": "Chase McLaughlin could remain one of the top kickers in fantasy despite the Buccaneers' tough Week 3 matchup against the Vikings. McLaughlin remained perfect in the Week 2 loss to the Browns, as he's now converted on all six field-goal tries this season, including two from 50-plus yards. Despite McLaughlin being tied for the league-lead in field-goals made this season, he could struggle against a Minnesota defense that's allowed just 6.5 kicking points per game thus far.",
@@ -3268,7 +3268,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.4,
         "id": 4711533,
@@ -3282,7 +3282,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Ollie Gordon should log heavy volume again in an inviting Week 10 matchup when the Dolphins face the Colts. Gordon has 16 or more carries in three straight games and five of his last six, scoring four times and topping 100 yards twice. He has no major competition for carries with Jaylen Wright injured and sparingly used even when healthy. Indianapolis is allowing 4.8 yards per carry, the third-highest mark in the league, setting Gordon up to take advantage of a big workload.",
         "3": "Ollie Gordon's workload could increase if Jaylen Wright misses the Dolphins' Week 3 game against the Chiefs. Despite being No. 3 on the depth chart, Gordon has outsnapped Wright behind Miami's workhorse, De'Von Achane. Kansas City allowed stud Jonathan Taylor to rush for two scores in Week 2 but kept Denver's backs under control in Week 1. Barring an injury to Achane, it's difficult to envision a path to meaningful production for Gordon.",
@@ -3294,7 +3294,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 36.18,
         "id": 4036378,
@@ -3308,7 +3308,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 8.0,
         "id": 3046439,
@@ -3322,7 +3322,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Hunter Henry figures to be a popular option for the Patriots in Week 10 against a Lions defense that struggles against opposing tight ends. Henry has just three targets in each of his last two games and has topped 48 yards just twice all season, but Week 10 presents an inviting opportunity. Detroit has allowed 11 touchdown receptions to tight ends and 8.2 yards per target, the highest numbers across the league. With New England potentially missing its top two running backs, a pass-heavy script would set Henry up for top-end production.",
         "2": "Hunter Henry will look for more opportunities in Week 2 when New England hosts Pittsburgh. Henry caught all three of his targets to open 2026, and with the Patriots losing A.J. Brown (ankle) for the foreseeable future, additional targets could come Henry's way. Pittsburgh didn't allow a catch to tight ends last week, but that was a product of poor opponent quarterback play. Henry can be considered a back-end option at the position with the potential for far more against a defense he posted two touchdowns and 90 yards against a season ago.",
@@ -3336,7 +3336,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 6.6000000000000005,
         "id": 4373626,
@@ -3350,7 +3350,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Tyler Allgeier should remain Arizona's lead RB against the Rams in Week 10. Allgeier took on that role this past Sunday in a loss to Arizona and finished with 46 yards on 17 carries along with zero yards on two catches while drawing three targets. It was a quiet performance against a premier defense, but Allgeier seems likely to continue to lead the Cardinals' backfield while Jeremiyah Love (ankle) remains sidelined. Allgeier faces another tough draw in Week 10, as the Rams have yielded the fourth-fewest fantasy points per game (14.2) to running backs this season.",
         "2": "Tyler Allgeier heads into a Week 2 clash against Seattle with a big role in Arizona's backfield. Allgeier logged 17 carries for 61 yards in a season-opening win against the Chargers, getting more totes and producing more yards than rookie Jeremiyah Love. It remains to be seen if that will hold true throughout the campaign, but for the time being Allgeier seems set to be heavily involved in the Cardinals' ground game. With that said, both Allgeier and Love could find the sledding tough in Week 2 versus a Seahawks defense that yielded the third-fewest rushing yards per game during the regular season last year.",
@@ -3364,7 +3364,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 15.5,
         "id": -16002,
@@ -3378,7 +3378,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 14.7,
         "id": 4569682,
@@ -3392,7 +3392,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 17372,
@@ -3406,7 +3406,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Chris Boswell and the Steelers are on the road for a Week 10 AFC North showdown against the Bengals. In Week 8, he went 2-for-3 on field goal attempts and connected on all three of his PATs to help Pittsburgh win its fourth straight game. Boswell misfired on a 57-yarder to end their first offensive possession, as the 35-year-old is now 4-for-7 on kicks from 50-plus yards out in 2026. However, he's had three or more FGAs in three consecutive outings, a trend that is likely to continue versus a Cincinnati team scoring the second-most points per game (30.0).",
         "2": "Chris Boswell and the Steelers are on the road to face the Patriots in Week 2. He finished Pittsburgh's 20-13 Week 1 win versus the Falcons 2-for-3 on field-goal attempts and 2-for-2 on PATs. Boswell's first miss of the season was from 56 yards out, but he was able to connect from 43 and 28 yards. The Steelers have several talented players on offense, but until they prove they can consistently put up 24-28 points a week, Boswell may not generate enough scoring opportunities to warrant a roster spot.",
@@ -3416,6 +3416,34 @@
         "6": "Chris Boswell and the Steelers are on the road to battle the Buccaneers in Week 6. He connected on both of his field-goal attempts and went 4-for-4 on extra-point tries during Pittsburgh's 34-22 victory in Week 5. Over his last three outings, Boswell is 6-for-7 on field goals while making all eight of his PATs. He's on the fantasy radar with the recent strong performances by the Steelers offense, as they've averaged 29.3 points during this three-game stretch. Boswell will try to make an impact against a Tampa Bay defense allowing 22.4 points per game in 2026, but just 15.0 PPG over their previous two.",
         "7": "Chris Boswell and the Steelers are in Paris for a Week 7 clash against the Saints. He converted four of five field-goal attempts, including a season-long 58-yarder, and both of his PATs during Pittsburgh's 26-19 overtime win in Week 6. Boswell missed his first kick from 48 yards out, but he made up for it by making four in a row, with three of those makes coming in the fourth quarter to help send the game to OT. He'll get another chance to make an impact versus a New Orleans defense that allows 29.7 points per game, which is tied for the most in the NFL in 2026.",
         "8": "Chris Boswell and the Steelers play host to the division rival Browns in Week 8. He went 3-for-3 on field goals and converted his lone PAT during Pittsburgh's 16-10 victory over the Saints in Paris. Boswell is looking to avenge his underwhelming performance against Cleveland in Week 4, as the 35-year-old missed one of two FGAs in the 27-24 defeat. Since then, Boswell is 9-for-10 on FGs and 7-for-7 on extra points. He'll try to keep rolling versus a Browns defense allowing 20.9 points per game, the 12th-fewest in the league."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 15.200000000000001,
+        "id": 4427095,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 11,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "DeMario Douglas will look to continue his recent surge when the Patriots face the Lions in Week 10. Douglas had a season-high 102 yards on nine targets in Week 9, a game that developed into a pass-heavy shootout. A similar game script could be on tap against a Detroit defense that has allowed the fourth-most passing yards. A potential return for A.J. Brown may reduce Douglas' targets, but with the expectation the Patriots will throw often, he can post 65 yards or better for the sixth time in seven weeks.",
+        "2": "DeMario Douglas will seek more production in Week 2 when the Patriots face the Steelers. He logged a reasonable seven targets to open the season but turned that into just 20 yards on five grabs. Douglas has a rapport with QB Drake Maye as a safety valve, and while snaps seem safe with A.J. Brown (ankle) sidelined for the foreseeable future, Douglas topped 40 yards just four times last season.",
+        "3": "DeMario Douglas' role in New England's struggling passing offense is questionable ahead of a Week 3 game at Jacksonville. In Week 2, Douglas logged just two targets in his first full game without A.J. Brown after a seven-target opener, and he's averaging just 4.8 yards per reception to start the season. Jacksonville is allowing a hefty 10.3 yards per target to opposing wideouts, but Douglas' inability to stretch the field would require uncharacteristic heavy volume to provide a modest fantasy return.",
+        "4": "DeMario Douglas hasn't been consistently targeted in the Patriots struggling passing attack ahead of a Week 4 matchup with the Bills. Douglas has just one catch in each of his last two games, and while last week's popped for 38 yards, he's averaging just 9.4 yards on his seven snags to date. Buffalo's defense has been friendly to opposing wideouts, allowing 9.3 ypt with six receivers going for 40+ yards, but with limited volume, Douglas doesn't seem destined to exploit that.",
+        "5": "DeMario Douglas hasn't emerged in the Patriots' receiving corps ahead of a Week 5 matchup against the Raiders. Despite A.J. Brown's continued absence, Douglas has just four total catches over the last three weeks, tallying 62 yards. An uptick in volume appears unlikely against an exploitable secondary that allows 8.2 yards per target, leaving Douglas as a dart throw as opposed to a reliable lineup option.",
+        "6": "DeMario Douglas faces an uphill battle to match Week 5's success when the Patriots face the Jets in Week 6. Douglas shined with two touchdowns and a season-high 65 yards against the Raiders, but he's still hauled in no more than two balls in three of five outings while being held to 38 yards or fewer in his first four games. New England is spreading the ball around in its surging passing attack, so Douglas seems unlikely to retain heavy volume. The Jets have allowed four opposing receivers to register 63 yards or more in the last two weeks, giving Douglas a shot at some upside.",
+        "7": "DeMario Douglas is emerging as a viable option for the Patriots ahead of a Week 7 matchup with the Bears. Over the past two weeks, Douglas has garnered 13 targets, turning them into 11 catches and three touchdowns. Though A.J. Brown is back from an ankle injury, New England could be without Romeo Doubs due to a shoulder ailment, suggesting Douglas' place in the receiving pecking order may be unchanged, giving him a chance to post solid numbers against a secondary that's allowed nine opposing receivers to gain at least 55 yards.",
+        "8": "DeMario Douglas will seek a rebound in Week 8 when New England travels to Miami. He was on a two-game heater entering Week 7, but finished with just three catches for 23 yards and has been held to 38 yards or fewer in five of seven outings. Miami is allowing an attractive 8.8 yards per target, the eighth-highest total league-wide, but because of vulnerabilities to tight ends and running backs in the passing game, opposing wideouts have the second-fewest yards, suggesting it may be better to look elsewhere for meaningful production.",
+        "9": "DeMario Douglas' volume has been sporadic despite the Patriots' receiving corps rarely being at full strength entering a Week 9 matchup with the Packers. Douglas has four touchdowns over his last four games, but he has four or fewer targets in half of New England's eight games, failing to top 23 yards at the same rate. Green Bay is allowing just 7.0 yards per target to wideouts, suggesting Douglas would need to maintain his scoring prowess to be a viable Week 9 option."
       }
     },
     {
@@ -5607,11 +5635,10 @@
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 0,
+        "onTeamId": 3,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794470400000
+        "status": "ONTEAM",
+        "tradeLocked": false
       }
     },
     {
