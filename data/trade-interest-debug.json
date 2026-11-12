@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[7]",
+      "path": "$.mTransactions2.transactions[8]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -615,7 +615,7 @@
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 10,
+        "acquisitions": 11,
         "drops": 10,
         "misc": 0,
         "moveToActive": 23,
@@ -2671,7 +2671,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Brown",
-        "lastNewsDate": 1794432447000,
+        "lastNewsDate": 1794437404000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3735,7 +3735,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Marks",
-        "lastNewsDate": 1794194572000,
+        "lastNewsDate": 1794436786000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -4561,7 +4561,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Kamara",
-        "lastNewsDate": 1794191021000,
+        "lastNewsDate": 1794436120000,
         "lastVideoDate": 1792349932000,
         "proTeamId": 18,
         "seasonOutlook": "Kamara is entering his age-31 season set to play a change-of-pace role behind Travis Etienne and is unlikely to be a fantasy option. Over the past seven seasons, only two backs age 31 or older have posted a top-30 fantasy campaign, and both required 16-plus touchdowns. (Kamara hasn't cleared nine TDs since 2020 and scored once in 2025). Injuries limited Kamara to career-low marks across the board last season (including a 10% target share, considerably worse than his previous career low of 18%), and he hasn't played a full season since his rookie year (2017). A longtime fantasy star, Kamara is worth no more than a late flier.",
@@ -4673,6 +4673,33 @@
         "7": "Josh Downs has been outplayed by Keenan Allen since the Colts lost Alec Pierce to a heel injury. After exceeding 70 receiving yards twice through Week 3, Downs has compiled a meager 103 receiving yards over the the past three games combined, topping out at 47 yards in a game over that span. His role as a locked-in starter at WR for the Colts makes Downs a viable Week 7 flex play against the Vikings, though he has now gone nine consecutive games without a TD dating back to last season. Minnesota is allowing 133 yards per game to WRs but has limited the position to three TDs in five games, so Downs looks unlikely to end his scoring drought.",
         "8": "Josh Downs has opened his fourth season in Indianapolis on a seven-game touchdown drought, and he has reached the 50-yard threshold just twice this season, with the last such performance coming in Week 3. It has been Keenan Allen rather than Downs stepping up during the continued absence of Alec Pierce (heel), who remains on injured reserve. Despite his disappointing production so far, Downs leads the Colts with 46 targets and is a decent flex option for Week 8 against a Jaguars defense that's allowing a league-high 210 receiving yards per game to WRs.",
         "9": "Josh Downs scored his first TD of the season, accounting for the Colts' lone score in their 42-7 Week 8 loss to Jacksonville, but he fell short of 50 receiving yards for the fifth consecutive game. Downs continues to start in Indianapolis' low-octane passing game and has drawn at least four targets in every game. Ahead of a Week 9 home game against a Cowboys defense that's giving up 164.1 receiving yards and one TD per game to wide receivers, Downs' consistent involvement, coupled with Dallas' defensive struggles, makes him a viable fantasy WR3 or flex option for Week 9."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 7.2,
+        "id": 3117256,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 14,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Dalton Schultz is a borderline fantasy starter at TE for Week 10 against the Browns. He ranks ninth among TEs with 46 receiving yards per game but has yet to score this season and has a meager five TDs in 42 regular-season appearances since the start of the 2024 season. Cleveland has allowed five TDs to the position in nine games, as well as 58 yards per game.",
+        "2": "Dalton Schultz was second on the Texans in targets behind Nico Collins during the season opener, which matched Schultz's usage last season. After being thrown to eight times in Week 1 against a Bills defense that allowed the fewest yards in the NFL to TEs last season, Schultz is poised for a hefty Week 2 workload against a Bengals defense that surrendered the most yards to his position in 2025. Schultz's role and matchup make him a top-10 fantasy TE for Week 2.",
+        "3": "Dalton Schultz paced the Texans with 12 catches for 140 yards on 14 targets in the Week 2 loss to Cincinnati, working as C.J. Stroud's top target in the absence of WR Nico Collins (hamstring). The veteran TE is the favorite to lead the team in targets if Collins sits in Week 3 against a Colts defense that has allowed the most yards and TDs in the NFL this season. Indianapolis just allowed nine catches for 101 yards and a TD to Chiefs TE Travis Kelce in Week 2. Schultz is locked in as a fantasy TE1 for Week 3 if Collins sits and has a strong argument to stay in that range even if Collins suits up.",
+        "4": "Dalton Schultz is coming off a disappointing 30-yard outing in Week 3 against the Colts, but he'll remain a fantasy TE1 in Week 4 against the Cowboys if Texans WR Nico Collins (hamstring) misses a third consecutive game. Schultz had 12 catches for 140 yards in Week 2 and is averaging 85 receiving yards per game since Collins got hurt. The Cowboys have struggled to defend TEs, allowing three TDs while forcing only two incompletions on 19 passes to the position. If Collins returns, Schultz will maintain fantasy starter-level upside but with a lower floor due to dropping a spot in the pass-catching hierarchy.",
+        "5": "Dalton Schultz has recorded just 39 yards in two games since his 140-yard outburst for the Texans in Week 2. He's back to working as a supporting piece in Houston's passing game now that Nico Collins has recovered from a hamstring injury. The 30-year-old TE's inconsistent workloads keep him from being a reliable fantasy starter, and Schultz will be tough to trust in Week 5 against a Titans defense that's holding his position to 27 receiving yards per game, fourth-fewest in the NFL.",
+        "6": "Dalton Schultz leads the Texans with 24 catches heading into a Week 6 matchup with the Jaguars in London, though half of those receptions came in Week 2 against the Bengals. Jacksonville has been among the five stingiest defenses against TEs, limiting the position to 3.6 catches for 34 yards per game. The Jaguars have allowed two TDs to the position, but Schultz has scored only five times in 39 regular-season games since the start of the 2024 season and is still searching for his first TD of the season. Despite Schultz's respectable target volume, he's best left on the bench in single-TE formats in Week 6.",
+        "7": "Dalton Schultz has exceeded 35 receiving yards just once through Houston's first six games of the season and has yet to score a TD heading into a Week 7 home game against the Giants. He's a secondary option in a Houston passing game that has gotten more production out of its WRs in recent weeks, and Schultz's lack of red-zone involvement compared to other middling TE options makes him an unappealing fantasy play. The Giants have limited TEs to two TDs this season, so Schultz is best left on the bench or waivers since his TD drought is unlikely to end in Week 7.",
+        "9": "Dalton Schultz isn't a recommended Week 9 fantasy option in most formats for Houston's road game against the Chargers. The veteran TE has 33 catches for 322 yards through Houston's first seven games of the season, but Schultz has yet to score this season, and the Chargers have allowed just one TD to a TE. Frustratingly for Schultz's fantasy managers, backup TE Foster Moreau has scored three TDs on 11 catches this season."
       }
     },
     {
