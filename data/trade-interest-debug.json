@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[11]",
+      "path": "$.mTransactions2.transactions[12]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41]",
+      "path": "$.mTransactions2.transactions[43]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -302,10 +302,10 @@
       "path": "$.mTeam.teams[0].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 7,
-        "drops": 6,
+        "acquisitions": 8,
+        "drops": 7,
         "misc": 0,
-        "moveToActive": 12,
+        "moveToActive": 13,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -666,7 +666,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 122.38,
+        "appliedStatTotal": 123.38,
         "tradeReservedEntries": 0
       }
     },
@@ -729,13 +729,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 27.2,
         "id": 4696981,
         "keeperValue": 0,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1014,33 +1014,6 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": 3917315,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 1,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Kyler Murray's status is up in the air for Week 10 as the Vikings play the Packers due to a hamstring injury, but the trade deadline acquisition of Kirk Cousins to be the new starting QB leaves the former Cardinal competing with Carson Wentz for the No. 2 job when he's healthy.",
-        "2": "Kyler Murray's status is up in the air as the Vikings travel to Chicago in Week 2. Murray went down early in Week 1 against the Packers after taking a hard hit to the head. Before his exit, Murray completed three of five passes for 18 yards and one interception, tacking on two rushes for nine yards on the ground. The veteran is now under evaluation for a concussion, which could very likely keep him sidelined for an extended period. Backup quarterback Carson Wentz delivered the win for Minnesota, and he's set to assume QB duties once again. The Bears gave up 361 passing yards, three touchdowns and one interception to Bryce Young in Week 1, so big output could definitely be in the cards for whoever lines up under center for the Vikings.",
-        "3": "Kyler Murray will return to the field as the Vikings travel to Tampa Bay in Week 3. Murray has cleared concussion protocol after suffering a nasty hit early in Week 1. The veteran quarterback will finally get the chance to prove himself, especially given that he completed just three of five passes for 18 yards and one interception before his opening-game departure. He'll face a Bucs defense that's allowed a middle-of-the-pack 20.4 fantasy points per game to QBs across its first two games.",
-        "4": "Kyler Murray will aim to build on a serviceable performance as the Vikings play the Dolphins in Week 4. Murray returned to the field in Week 3 versus the Buccaneers, completing 15 of 29 passes for 168 yards with a 1:1 TD:INT ratio, along with rushing the ball twice for 17 yards. The veteran quarterback also lost star wideout Justin Jefferson in the first half, so his final output and delivery of a win were more impressive. Miami has been much more favorable against quarterbacks than Tampa so far this season, allowing the seventh-most fantasy points per game (23.7) to the position.",
-        "5": "Kyler Murray will look to do more as the Vikings travel to New Orleans in Week 5. In his second full start of the year, Murray completed 27 of 37 passes for 247 yards, but he was unable to find the end zone. The veteran quarterback also now holds a 1:2 TD:INT through his three appearances this season, so he'll need to do more for Minnesota to lock him down as a long-term option. The Saints have ranked middle-of-the-pack against fantasy quarterbacks this season.",
-        "7": "Kyler Murray will look to keep the Vikings rolling in Week 7 against the Colts. Murray recorded his best game of the season against the Saints heading into Minnesota's bye, completing 80 percent of passes for 229 yards and a touchdown, with 10 rushes for 51 yards. The veteran quarterback could be a dangerous threat moving forward, especially if he can get it going on the ground once again. He'll face an Indy defense that's ranked 21st in fantasy points allowed to QBs.",
-        "8": "Kyler Murray will look to do more as the Vikings play the Lions in Week 8. Murray completed 14 of 24 passes for 150 yards and a touchdown, with five carries for 39 yards in a Week 7 win over the Colts. The veteran has yet to lose a game this year, but his output has been quite low compared to that of usual winning quarterbacks. He'll luckily face a Detroit defense that's allowed the most fantasy points per game to QBs so far this season.",
-        "9": "Kyler Murray will look to get healed ahead of Minnesota's Week 9 matchup against Buffalo. Murray completed 17 of 29 passes for 210 yards with two touchdowns and one interception, along with four rushes for 35 yards in a Week 8 loss to Detroit. The veteran was also dealing with hamstring tightness throughout the game, but a full week of practice should mitigate the injury. Barring any major setbacks, Murray will face a Bills defense that's ranked a favorable 28th in fantasy points allowed to quarterbacks."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 9.8,
         "id": 4373678,
         "keeperValue": 0,
@@ -1053,7 +1026,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Khalil Shakir remains an efficient secondary option in the Bills' passing game ahead of a Week 10 matchup with the Jets. He caught four passes in Week 9, the fifth time in eight outings he's done so, resulting in 50 or more yards at the same rate. Shakir has only one touchdown, and the Jets' secondary has allowed just nine touchdown catches by receivers, likely limiting Shakir's potential in Week 10, but his role and usage are clear and steady, setting him up for stability as a potential streamer.",
         "2": "Khalil Shakir will look to remain Josh Allen's security blanket in Week 2 when the Bills host the Lions. Shakir managed four grabs on six targets to open the season, finishing with 50 yards. He operated underneath while newly acquired DJ Moore stretched the field. The Lions' vulnerable secondary gave up 410 yards passing in Week 1, but Shakir will likely be limited by shorter routes, creating a safe but uninspiring fantasy option.",
@@ -1063,6 +1036,36 @@
         "6": "Khalil Shakir continues to play a minimal role in the Bills' passing game as they enter a Week 6 matchup with the Raiders. Shakir had just three targets in Week 5, the second time he's experienced that limited volume in three weeks despite the continued absence of DJ Moore (shoulder). Shakir is averaging a career-best 14.2 yards per catch and with Las Vegas proving vulnerable over the middle (nine catches, 122 yards, two touchdowns last week to DeMario Douglas and Efton Chism), Shakir could exploit a favorable matchup despite a lack of heavy volume.",
         "8": "Khalil Shakir will reprise his slot role in Week 8 when the Bills host the Ravens. Shakir hasn't directly benefited from DJ Moore's (shoulder) absence, with a largely unchanged role prior to Buffalo's Week 7 bye, logging six or more targets in four of six contests. While he's topped four catches just once, he's averaging 13.2 yards per catch, his highest mark since 2023. Baltimore's secondary has been more vulnerable to larger, outside X receivers, with Drake London, Tee Higgins, and Carnell Tate all topping 100 yards against them. Shakir will need to continue to take advantage of his opportunities to be a viable fantasy option.",
         "9": "Khalil Shakir continues to provide stability in Buffalo's passing game ahead of a Week 9 matchup with the Vikings. Shakir has recorded at least six targets in five of seven outings, going for 50 or more yards four times. It's a modest floor with only one touchdown catch, and it's even lower facing a Minnesota defense that's allowing the third-fewest fantasy points to opposing receivers, including just four touchdowns in seven games."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 12.5,
+        "id": -16012,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 1,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player",
+      "values": {
+        "active": true,
+        "defaultPositionId": 16,
+        "droppable": true,
+        "firstName": "Chiefs",
+        "fullName": "Chiefs D/ST",
+        "id": -16012,
+        "injured": false,
+        "lastName": "D/ST",
+        "proTeamId": 12,
+        "seasonOutlook": "The Chiefs have fielded a middling fantasy D/ST the past two seasons, scoring in double-digits only seven times  but finishing with zero or negative fantasy points only five times . Top draftee Mansoor Delane replaces CB Trent McDuffie, who was traded to the Rams, but the team otherwise returns largely the same starting lineup. An opening-week matchup against the Broncos should be avoided, but there are pockets of the schedule where the Chiefs would be great for streaming: Weeks 3-4 (@MIA, @LV) and Weeks 9-11 (NYJ, @ATL, ARI) especially.",
+        "universeId": 1
       }
     },
     {
@@ -1277,13 +1280,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.7,
+        "appliedStatTotal": 23.1,
         "id": 4360635,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1345,7 +1348,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 106.24000000000001,
+        "appliedStatTotal": 127.0,
         "tradeReservedEntries": 0
       }
     },
@@ -1528,13 +1531,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.56,
+        "appliedStatTotal": 35.32,
         "id": 4426348,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1669,13 +1672,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.100000000000001,
+        "appliedStatTotal": 28.400000000000002,
         "id": 2976212,
         "keeperValue": 0,
         "keeperValueFuture": 13,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2229,7 +2232,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 118.66000000000001,
+        "appliedStatTotal": 150.86,
         "tradeReservedEntries": 0
       }
     },
@@ -2478,13 +2481,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.8,
+        "appliedStatTotal": 51.0,
         "id": 4361050,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2501,8 +2504,8 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Likely",
-        "lastNewsDate": 1794191551000,
-        "lastVideoDate": 1794181458000,
+        "lastNewsDate": 1794545013000,
+        "lastVideoDate": 1792965097000,
         "proTeamId": 19,
         "seasonOutlook": "Likely signed with the Giants after four years of backing up Mark Andrews in Baltimore. Likely is reuniting with coach John Harbaugh and is finally expected to play a consistent offensive role. During his time in Baltimore, Likely was limited to 50% of the team's offensive snaps and never finished a season better than 20th among tight ends in snaps, routes, targets, catches, yards or fantasy PPG. His only extensive stretch with Andrews sidelined came back in 2023. During the seven-game span, Likely posted a 23-356-6 receiving line on a 16% target share and averaged a solid 13.5 fantasy PPG. The 26-year-old is obviously unproven, but his receiving skills in New York's ascending offense are enough to put him on the TE2 radar.",
         "universeId": 2
@@ -3086,7 +3089,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 112.7,
+        "appliedStatTotal": 120.10000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -3134,13 +3137,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.3,
+        "appliedStatTotal": 16.700000000000003,
         "id": 4595348,
         "keeperValue": 0,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3487,7 +3490,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 101.46000000000001,
+        "appliedStatTotal": 107.66,
         "tradeReservedEntries": 0
       }
     },
@@ -3897,13 +3900,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.9,
+        "appliedStatTotal": 13.100000000000001,
         "id": 4697815,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5436,11 +5439,12 @@
         "id": 4243389,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1794988800000
       }
     },
     {
@@ -5720,7 +5724,7 @@
         "injuryStatus": "QUESTIONABLE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1793986722000,
+        "lastNewsDate": 1794528500000,
         "lastVideoDate": 1790001549000,
         "proTeamId": 33,
         "seasonOutlook": "Bateman is entering his sixth season in Baltimore following an injury-plagued 2025 campaign in which he was limited to a career-low 224 receiving yards in 13 games. After scoring nine touchdowns on only 45 receptions in 2024, Bateman had \"regression\" written all over him entering last season, but it was worse than expected. The 2021 first-round pick saw his target share fall from 15.4% to a career-low 11.4% and his only double-digit fantasy effort came in Week 3. The 26-year-old remains second on Baltimore's depth chart behind Zay Flowers, but even in a new scheme and with a healthy Lamar Jackson under center, he's unlikely to produce his first top-35 fantasy campaign. Bateman isn't the most appealing late-round draft pick."

@@ -18,13 +18,13 @@
     {
       "away": {
         "projection": 129.51,
-        "score": 0.0,
+        "score": 20.76,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       },
       "home": {
         "projection": 133.75,
-        "score": 0.0,
+        "score": 32.2,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       }
@@ -32,12 +32,12 @@
     {
       "away": {
         "projection": 121.7,
-        "score": 0.0,
+        "score": 7.4,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       },
       "home": {
-        "projection": 126.78,
+        "projection": 131.97,
         "score": 0.0,
         "teamId": 1,
         "teamName": "Big Blue"
@@ -46,7 +46,7 @@
     {
       "away": {
         "projection": 133.18,
-        "score": 0.0,
+        "score": 6.2,
         "teamId": 12,
         "teamName": "Injured Reserve"
       },
@@ -76,13 +76,13 @@
   "season": 2026,
   "teams": [
     {
-      "acquisitions": 7,
+      "acquisitions": 8,
       "actual": 0.0,
       "htmlId": "big-blue",
       "id": 1,
       "name": "Big Blue",
       "playoffSeed": 9,
-      "projection": 126.78,
+      "projection": 131.97,
       "record": {
         "losses": 11,
         "pointsAgainst": 1188.5400000000002,
@@ -170,11 +170,11 @@
         },
         {
           "actual": 0.0,
-          "id": "-16027",
-          "name": "Buccaneers D/ST",
+          "id": "-16012",
+          "name": "Chiefs D/ST",
           "position": "D/ST",
-          "proTeam": "TB",
-          "projection": 0.0,
+          "proTeam": "KC",
+          "projection": 5.19,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -203,6 +203,17 @@
         },
         {
           "actual": 0.0,
+          "id": "-16027",
+          "name": "Buccaneers D/ST",
+          "position": "D/ST",
+          "proTeam": "TB",
+          "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 27.2,
           "id": "4696981",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -247,17 +258,6 @@
         },
         {
           "actual": 0.0,
-          "id": "3917315",
-          "name": "Kyler Murray",
-          "position": "QB",
-          "proTeam": "MIN",
-          "projection": 0.0,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4035687",
           "name": "Michael Pittman Jr.",
           "position": "WR",
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 36,
+      "acquisitions": 35,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -407,7 +407,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 8.4,
           "id": "4360635",
           "name": "Chig Okonkwo",
           "position": "TE",
@@ -454,7 +454,7 @@
     },
     {
       "acquisitions": 10,
-      "actual": 0.0,
+      "actual": 20.76,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -469,7 +469,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 20.76,
           "id": "4426348",
           "name": "Jayden Daniels",
           "position": "QB",
@@ -623,7 +623,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 20.3,
           "id": "2976212",
           "name": "Stefon Diggs",
           "position": "WR",
@@ -842,7 +842,7 @@
     },
     {
       "acquisitions": 8,
-      "actual": 0.0,
+      "actual": 32.2,
       "htmlId": "gettn-saucy",
       "id": 7,
       "name": "Gett'n Saucy",
@@ -923,7 +923,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 32.2,
           "id": "4361050",
           "name": "Isaiah Likely",
           "position": "TE",
@@ -1219,7 +1219,7 @@
     },
     {
       "acquisitions": 27,
-      "actual": 0.0,
+      "actual": 7.4,
       "htmlId": "more-wins-than-psi",
       "id": 11,
       "name": "More Wins Than PSI",
@@ -1278,7 +1278,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 7.4,
           "id": "4595348",
           "name": "Malik Nabers",
           "position": "WR",
@@ -1413,7 +1413,7 @@
     },
     {
       "acquisitions": 10,
-      "actual": 0.0,
+      "actual": 6.2,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1439,7 +1439,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 6.2,
           "id": "4697815",
           "name": "Rachaad White",
           "position": "RB",
