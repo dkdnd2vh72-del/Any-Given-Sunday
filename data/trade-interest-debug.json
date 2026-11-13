@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[31]",
+      "path": "$.mTransactions2.transactions[32]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -497,7 +497,7 @@
       "path": "$.mTeam.teams[5].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 81,
-        "acquisitions": 16,
+        "acquisitions": 17,
         "drops": 16,
         "misc": 0,
         "moveToActive": 52,
@@ -948,7 +948,7 @@
         "fullName": "Jakobi Meyers",
         "id": 3916433,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Meyers",
         "lastNewsDate": 1794519547000,
         "lastVideoDate": 1790533083000,
@@ -1606,7 +1606,7 @@
         "fullName": "Tony Pollard",
         "id": 3916148,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Pollard",
         "lastNewsDate": 1794518192000,
         "lastVideoDate": 1793580163000,
@@ -1919,7 +1919,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Montgomery",
-        "lastNewsDate": 1794522322000,
+        "lastNewsDate": 1794589497000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -2371,7 +2371,7 @@
         "injured": true,
         "injuryStatus": "INJURY_RESERVE",
         "lastName": "Jackson",
-        "lastNewsDate": 1794139967000,
+        "lastNewsDate": 1794581309000,
         "lastVideoDate": 1793563606000,
         "proTeamId": 33,
         "seasonOutlook": "Jackson, 29, is eyeing a rebound after a disappointing, injury-plagued 2025. Jackson started the season strong (26-plus fantasy points in each of his first three games) but left Week 4 because of an injury and wasn't the same once he returned in Week 9 (13.5 fantasy points per game in his final nine outings). Jackson's overall rushing was down, but that was likely a product of him not being fully healthy, especially considering his scramble rate (8.4%) remained high. Jackson has a new coach (Jesse Minter) and playcaller (Declan Doyle), but his supporting cast is otherwise similar to a 2024 campaign in which he paced all quarterbacks in fantasy points. Assuming he's back to full health, Jackson is a strong bet for a rebound and should be valued as a high-end QB1.",
@@ -2739,7 +2739,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Brown",
-        "lastNewsDate": 1794575526000,
+        "lastNewsDate": 1794589086000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3084,6 +3084,32 @@
         "7": "Keenan Allen has turned back the clock over his past three appearances for the Colts, securing 19 of 29 targets for 190 yards and a TD over that span while drawing at least nine targets in every game. The 34-year-old wideout should continue to fill a high-volume role in a Colts WR room that lacks appealing alternatives in the continued absence of Alec Pierce (heel). Allen is a high-floor fantasy WR3 in Week 7 against the Vikings, who are allowing 10 catches for 133 yards per game to WRs. Minnesota's aggressive blitz packages will likely force the Colts into plenty of the quick and short throws on which Allen thrives.",
         "8": "Keenan Allen is averaging over seven targets per game and has operated as the Colts' co-No. 1 WR alongside Josh Downs since Alec Pierce went down with a heel injury. Pierce remains on injured reserve ahead of a Week 8 trip to Jacksonville. Allen will be a high-floor flex candidate against a Jaguars defense that's giving up a league-high 210 yards per game to wide receivers. He's averaging 55 receiving yards per game over the past four and has scored one TD this season.",
         "9": "Keenan Allen has recorded at least six receptions in four of seven appearances for the Colts this season and is likely to maintain a prominent role in Week 9 against a Dallas defense that's giving up 11.9 catches, as well as 164.1 receiving yards and 1.0 TD per game to WRs. Allen leads the Colts with 34 catches despite missing a game, and his 325 receiving yards are just five shy of Josh Downs' team-leading total. However, the 34-year-old Allen has scored just one TD in his last 17 regular-season games, dating back to last season with the Chargers. He remains a rock-solid, high-floor flex play for Week 9."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 9.4,
+        "id": 4832955,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 8,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Emmett Johnson took advantage of his opportunities again in Kansas City's Week 9 win over the Jets, scoring his first career rushing touchdown while gaining 34 yards on six carries. Kenneth Walker, who found the end zone three times in the victory, remains firmly on top of the depth chart, but Johnson is beginning to earn a steady workload as the No. 2 option in the backfield. The rookie is averaging a tidy 4.3 yards per carry on the ground, while adding a 14-237-1 line on 16 targets over eight games. Johnson could make an impact on limited touches again in Week 10 against a Falcons defense that's tied for 29th in fantasy points per game allowed to RBs.",
+        "2": "Emmett Johnson contributed in his NFL debut, gaining 24 yards on eight carries and catching both his targets for 44 yards in a season-opening win over the Broncos. Kansas City leaned heavily on its ground game, with Kenneth Walker having a career-best day on 26 touches. Johnson's volume may be repeatable if this proves to be the team's offensive formula in 2026 and they continue building big second-half leads. Johnson will look to take advantage of his opportunities in Week 2 against a Colts defense that was just steamrolled by Derrick Henry but ranked 11th in points per game allowed to RBs last season.",
+        "3": "Emmett Johnson logged only four touches as Kenneth Walker's primary backup in Kansas City's Week 2 overtime win over the Colts, as the fifth-round rookie continues to get his feet wet in the NFL. Johnson also saw a little work as a kickoff returner as the team looks to find ways to get the ball in his hands. As long as Walker is healthy, Johnson's workload will remain limited, but he's flashed some big-play potential in the early going with 64 receiving yards on just four catches. He'll face a Dolphins defense in Week 3 that's been more vulnerable through the air than on the ground so far in 2026, allowing 3.5 yards per carry, which ranks sixth in the league.",
+        "4": "Emmett Johnson remains in a limited role behind Kenneth Walker in the Kansas City backfield. Through three games, the fifth-round rookie has only 20 touches-16 carries and four receptions-but has managed to turn that into 120 scrimmage yards. Coach Andy Reid has hinted that Johnson's workload will increase as the season wears on, but as yet there's been no actual sign of that happening. Johnson will be a dart throw, albeit one with big-play upside, in Week 4 against a Raiders defense that is tied for 10th in fantasy points per game allowed to RBs and has given up just one touchdown to the position so far in 2026.",
+        "6": "Emmett Johnson has seen little work to begin his career as the No. 2 running back for Kansas City behind bell cow Kenneth Walker. Johnson is averaging just 3.5 yards per carry, but the fifth-round rookie has teased his big-play potential as a pass catcher, catching all five of his targets for 74 yards. As long as Walker remains healthy, Johnson will remain little more than an upside bench stash. He could get some garbage-time touches in Week 6 against a Chargers defense that ranks 20th in fantasy points per game allowed to RBs.",
+        "7": "Emmett Johnson remains stuck in a low-volume role behind Kenneth Walker in the Kansas City backfield. Johnson hasn't logged double-digit touches since Week 1, and his three targets in a Week 6 win over the Chargers were a season-high. The rookie running back will likely need an injury to Walker to contribute. Johnson will look for his first NFL touchdown in Week 7 against a Seahawks defense that ranks 18th in fantasy points per game allowed to RBs.",
+        "8": "Emmett Johnson continues to work his way into the Kansas City game plan as a pass-catcher. Over the last two games, the rookie has corralled four of six targets for 35 yards while the team deals with injuries to its wide receiver corps. Johnson will not challenge a healthy Kenneth Walker as the lead back, but Andy Reid is trying to find ways to get Johnson the ball in space. The result has been a 9-109-0 line on 11 targets through his first six NFL games. Johnson will look to score his first career touchdown in Week 8 against a Broncos defense that ranks 23rd in fantasy points per game allowed to RBs."
       }
     },
     {
@@ -3802,9 +3828,9 @@
         "fullName": "Woody Marks",
         "id": 4429059,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Marks",
-        "lastNewsDate": 1794522743000,
+        "lastNewsDate": 1794588992000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -4235,7 +4261,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Cooper Jr.",
-        "lastNewsDate": 1794519917000,
+        "lastNewsDate": 1794586464000,
         "lastVideoDate": 1792955666000,
         "proTeamId": 20,
         "seasonOutlook": "Cooper was selected by the Jets in the first round of April's draft. The Indiana product is fresh off a breakout 2025 season in which he posted a 69-937-13 receiving line after totaling 46 catches during his first three seasons with the Hoosiers. Primarily a perimeter target in limited action from 2022 to 2024, Cooper aligned in the slot on 80% of his routes last season. He is a short-area target (9.0 aDOT last season), but still posted strong efficiency numbers, including a 2.61 YPRR. He'll begin his career behind Garrett Wilson and Adonai Mitchell in New York's Geno Smith-led offense and is unlikely to produce consistent flex value as a rookie.",
