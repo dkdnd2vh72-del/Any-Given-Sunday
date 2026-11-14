@@ -31,7 +31,7 @@
     },
     {
       "away": {
-        "projection": 115.69,
+        "projection": 123.41,
         "score": 7.4,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 36,
+      "acquisitions": 35,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1235,7 +1235,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 115.69,
+      "projection": 123.41,
       "record": {
         "losses": 12,
         "pointsAgainst": 1048.82,
@@ -1257,11 +1257,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4569682",
-          "name": "Audric Estime",
+          "id": "4685512",
+          "name": "Jadarian Price",
           "position": "RB",
-          "proTeam": "NO",
-          "projection": 4.15,
+          "proTeam": "SEA",
+          "projection": 11.87,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1345,6 +1345,17 @@
         },
         {
           "actual": 0.0,
+          "id": "4569682",
+          "name": "Audric Estime",
+          "position": "RB",
+          "proTeam": "NO",
+          "projection": 4.15,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "3150744",
           "name": "Chase McLaughlin",
           "position": "K",
@@ -1361,17 +1372,6 @@
           "position": "WR",
           "proTeam": "NE",
           "projection": 10.06,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4685512",
-          "name": "Jadarian Price",
-          "position": "RB",
-          "proTeam": "SEA",
-          "projection": 11.87,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
