@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[26]",
+      "path": "$.mTransactions2.transactions[27]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35]",
+      "path": "$.mTransactions2.transactions[36]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38]",
+      "path": "$.mTransactions2.transactions[39]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -344,7 +344,7 @@
         "acquisitions": 35,
         "drops": 36,
         "misc": 0,
-        "moveToActive": 63,
+        "moveToActive": 64,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1071,7 +1071,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 130.9,
+        "appliedStatTotal": 100.80000000000001,
         "tradeReservedEntries": 0
       }
     },
