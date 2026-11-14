@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[20]",
+      "path": "$.mTransactions2.transactions[23]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[29]",
+      "path": "$.mTransactions2.transactions[32]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[32]",
+      "path": "$.mTransactions2.transactions[35]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -614,10 +614,10 @@
       "path": "$.mTeam.teams[8].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 61,
-        "acquisitions": 20,
-        "drops": 19,
+        "acquisitions": 21,
+        "drops": 20,
         "misc": 0,
-        "moveToActive": 43,
+        "moveToActive": 44,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -950,7 +950,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Meyers",
-        "lastNewsDate": 1794519547000,
+        "lastNewsDate": 1794606460000,
         "lastVideoDate": 1790533083000,
         "proTeamId": 30,
         "seasonOutlook": "One of the league's most underrated players, Meyers is entering his first full season with Jacksonville after being acquired via trade in November. The 2019 UDFA has produced 800-plus receiving yards in five consecutive seasons while operating primarily as a short-to-intermediate target. More of a solid producer than a high-ceiling contributor, Meyers has finished no lower than 32nd in fantasy points over the last five seasons, but has yet to do better than 19th. The 29-year-old isn't much of a touchdown scorer (23 TDs in 78 games since 2021) and has substantial target competition via Parker Washington, Brian Thomas Jr., Brenton Strange and Travis Hunter. Meyers is a good player, but is likely to cap out as a flex option.",
@@ -1608,7 +1608,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Pollard",
-        "lastNewsDate": 1794518192000,
+        "lastNewsDate": 1794602727000,
         "lastVideoDate": 1793580163000,
         "proTeamId": 10,
         "seasonOutlook": "Pollard has handled a hefty 67.2% of the Titans' designed rushing attempts since his arrival two seasons ago (15.2 per game) and, even with solid efficiency, he has finished 22nd and 30th in fantasy points per game. The culprits? Tennessee's struggling offense (Pollard has exactly five TDs in both seasons) and a limited receiving role when Tyjae Spears has been healthy (Pollard's targets fell from 3.5 per game in 2024 to 2.5 per game in 2025). Barring a major leap from quarterback Cam Ward, Pollard is unlikely to deliver only the second top-20 fantasy campaign (in points per game) of his career. The 29-year-old, entering his eighth NFL season (third with Tennessee), is a low-ceiling flex.",
@@ -1919,7 +1919,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Montgomery",
-        "lastNewsDate": 1794589497000,
+        "lastNewsDate": 1794604097000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -3830,7 +3830,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Marks",
-        "lastNewsDate": 1794588992000,
+        "lastNewsDate": 1794604201000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -3968,7 +3968,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 107.22,
+        "appliedStatTotal": 124.91999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -4261,7 +4261,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Cooper Jr.",
-        "lastNewsDate": 1794586464000,
+        "lastNewsDate": 1794604753000,
         "lastVideoDate": 1792955666000,
         "proTeamId": 20,
         "seasonOutlook": "Cooper was selected by the Jets in the first round of April's draft. The Indiana product is fresh off a breakout 2025 season in which he posted a 69-937-13 receiving line after totaling 46 catches during his first three seasons with the Hoosiers. Primarily a perimeter target in limited action from 2022 to 2024, Cooper aligned in the slot on 80% of his routes last season. He is a short-area target (9.0 aDOT last season), but still posted strong efficiency numbers, including a 2.61 YPRR. He'll begin his career behind Garrett Wilson and Adonai Mitchell in New York's Geno Smith-led offense and is unlikely to produce consistent flex value as a rookie.",
@@ -4323,8 +4323,8 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.5,
-        "id": -16003,
+        "appliedStatTotal": 27.0,
+        "id": 2576925,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -4332,6 +4332,18 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Darren Waller will look to continue building on his stellar performance in the Panthers' Week 10 matchup against the Saints. Waller is coming off his best game of the season in the Week 9 loss to the Broncos, catching eight of 10 targets for 90 yards and a touchdown. He's clearly established himself as Carolina's top receiving tight end, leading the team's TE corps in targets (34), receptions (23), yards (299) and touchdowns (four) through eight games. Additionally, Waller is in for a great Week 10 matchup against a New Orleans defense that's allowed 16.1 fantasy points per game to opposing TEs this year.",
+        "3": "Darren Waller could remain a valuable part of the Panthers' offense in the Week 3 matchup against the Browns. Through two games, Waller appears to be the Panthers' top receiving option at tight end, leading the TE room in yards (66), receptions (five) and touchdowns (two). However, having only received five targets through two weeks, Waller is likely a touchdown-or-bust streaming option going forward. He's in for a tough Week 3 matchup against a Browns defense that's given up just 10.5 PPR fantasy points per game to the position this season.",
+        "4": "Darren Waller continues to emerge as a major part of the Panthers' passing attack ahead of the Week 4 matchup against the Lions. Waller had his most productive outing of the 2026 campaign in the Week 3 loss to the Browns, catching five of eight targets for 51 yards. He's taken over as Carolina's top receiving option at TE and could continue receiving more opportunities if Jalen Coker (hamstring) or Xavier Legette (knee) remain sidelined for Week 4. Regardless, Waller is in for a phenomenal Week 4 matchup against a Detroit defense that's allowed a whopping six receiving touchdowns to tight ends in three games this season.",
+        "6": "Darren Waller is expected to remain Carolina's top receiving tight end during the Week 6 matchup against the Eagles. Despite signing with the Panthers in early August, Waller ranks first amongst the team's tight end corps in targets (19), receptions (13), yards (148) and touchdowns (two) through four games. Waller could receive fewer opportunities in Week 6, however, with Jalen Coker (quadriceps) expected to return from injury. Regardless, Waller is in for a difficult matchup against an Eagles defense that's allowed just 9.9 fantasy points per game to opposing TEs this season.",
+        "7": "Darren Waller is expected to remain the Panthers' primary pass-catching tight end in the Week 7 matchup against the Buccaneers. Despite going with a catch in Carolina's Week 6 win over the Eagles, Waller still leads the TE corps in targets (18) and yards (148) through five contests. However, Waller will likely see less opportunities to score with Jalen Coker back from injury. Regardless, Waller is in for a favorable Week 7 matchup against a Tampa Bay defense that's already allowed four receiving touchdowns to TEs this year.",
+        "8": "Darren Waller is expected to remain Carolina's top receiving option at tight end in the Week 8 matchup against the Packers. Despite the Panthers' poor offensive performance in the Week 7 loss to the Buccaneers, Waller was productive, catching one of two targets for 50 yards and a touchdown. On the season, Waller has paced Carolina's tight-end corps in touchdowns (three), targets (22) and yards (198). However, he could struggle against a strong Packers defense in Week 8 that's allowed just 9.0 fantasy points per game to opposing TEs this season, the second-fewest in the NFL.",
+        "9": "Darren Waller will look to bounce back from another poor performance in Carolina's Week 9 matchup against the Broncos. Waller has underwhelmed over the last two weeks, catching just two of four targets for 61 yards and a touchdown. Despite this, he still ranks first amongst Panthers tight ends in targets (24), yards (209) and touchdown (three), though he still likely isn't reliable enough to be a weekly starter. Waller could have success against Denver in Week 9, however, as its defense has allowed 16.9 fantasy points per game to tight ends this season, the sixth-most in the NFL."
       }
     },
     {
@@ -5747,10 +5759,10 @@
         "fullName": "Rashod Bateman",
         "id": 4360939,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1794528500000,
+        "lastNewsDate": 1794612171000,
         "lastVideoDate": 1790001549000,
         "proTeamId": 33,
         "seasonOutlook": "Bateman is entering his sixth season in Baltimore following an injury-plagued 2025 campaign in which he was limited to a career-low 224 receiving yards in 13 games. After scoring nine touchdowns on only 45 receptions in 2024, Bateman had \"regression\" written all over him entering last season, but it was worse than expected. The 2021 first-round pick saw his target share fall from 15.4% to a career-low 11.4% and his only double-digit fantasy effort came in Week 3. The 26-year-old remains second on Baltimore's depth chart behind Zay Flowers, but even in a new scheme and with a healthy Lamar Jackson under center, he's unlikely to produce his first top-35 fantasy campaign. Bateman isn't the most appealing late-round draft pick."
