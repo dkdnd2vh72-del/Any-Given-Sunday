@@ -9,7 +9,7 @@
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 117.73,
+        "projection": 118.9,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 36,
+      "acquisitions": 35,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1623,7 +1623,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 6,
-      "projection": 117.73,
+      "projection": 118.9,
       "record": {
         "losses": 9,
         "pointsAgainst": 1039.86,
@@ -1667,11 +1667,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4723820",
-          "name": "Omar Cooper Jr.",
+          "id": "4870653",
+          "name": "KC Concepcion",
           "position": "WR",
-          "proTeam": "NYJ",
-          "projection": 9.45,
+          "proTeam": "CLE",
+          "projection": 10.62,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1744,17 +1744,6 @@
         },
         {
           "actual": 0.0,
-          "id": "4870653",
-          "name": "KC Concepcion",
-          "position": "WR",
-          "proTeam": "CLE",
-          "projection": 10.62,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4612826",
           "name": "Ladd McConkey",
           "position": "WR",
@@ -1782,6 +1771,17 @@
           "position": "WR",
           "proTeam": "SF",
           "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4723820",
+          "name": "Omar Cooper Jr.",
+          "position": "WR",
+          "proTeam": "NYJ",
+          "projection": 9.45,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
