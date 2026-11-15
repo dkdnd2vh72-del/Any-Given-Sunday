@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[27]",
+      "path": "$.mTransactions2.transactions[30]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[37]",
+      "path": "$.mTransactions2.transactions[40]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40]",
+      "path": "$.mTransactions2.transactions[43]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -55,6 +55,64 @@
         "status": "EXECUTED",
         "teamId": 11,
         "type": "TRADE_DECLINE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[54]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "CANCEL",
+        "id": "5429feee-4182-4c71-bebf-77febf47e5a5",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{6DFCEF0A-EDE4-4244-BCEF-0AEDE4924420}",
+        "proposedDate": 1794746260815,
+        "rating": 0,
+        "relatedTransactionId": "ff9b4ccc-056b-469e-a275-470f1dd9bf05",
+        "scoringPeriodId": 10,
+        "status": "CANCELED",
+        "teamId": 11,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[54].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 11,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4685512,
+        "toLineupSlotId": -1,
+        "toTeamId": 13,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[54].items[1]",
+      "values": {
+        "fromLineupSlotId": 23,
+        "fromTeamId": 11,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4695883,
+        "toLineupSlotId": -1,
+        "toTeamId": 13,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[54].items[2]",
+      "values": {
+        "fromLineupSlotId": 23,
+        "fromTeamId": 13,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4362238,
+        "toLineupSlotId": -1,
+        "toTeamId": 11,
+        "type": "TRADE"
       }
     },
     {
@@ -302,8 +360,8 @@
       "path": "$.mTeam.teams[0].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 8,
-        "drops": 7,
+        "acquisitions": 9,
+        "drops": 8,
         "misc": 0,
         "moveToActive": 13,
         "moveToIR": 4,
@@ -500,7 +558,7 @@
         "acquisitions": 17,
         "drops": 16,
         "misc": 0,
-        "moveToActive": 53,
+        "moveToActive": 54,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -656,8 +714,8 @@
         "acquisitions": 11,
         "drops": 10,
         "misc": 0,
-        "moveToActive": 23,
-        "moveToIR": 2,
+        "moveToActive": 24,
+        "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 1
@@ -666,20 +724,20 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 123.38,
+        "appliedStatTotal": 149.18,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[0].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.6,
+        "appliedStatTotal": 42.400000000000006,
         "id": 4374302,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1014,33 +1072,6 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.8,
-        "id": 4373678,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 1,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Khalil Shakir remains an efficient secondary option in the Bills' passing game ahead of a Week 10 matchup with the Jets. He caught four passes in Week 9, the fifth time in eight outings he's done so, resulting in 50 or more yards at the same rate. Shakir has only one touchdown, and the Jets' secondary has allowed just nine touchdown catches by receivers, likely limiting Shakir's potential in Week 10, but his role and usage are clear and steady, setting him up for stability as a potential streamer.",
-        "2": "Khalil Shakir will look to remain Josh Allen's security blanket in Week 2 when the Bills host the Lions. Shakir managed four grabs on six targets to open the season, finishing with 50 yards. He operated underneath while newly acquired DJ Moore stretched the field. The Lions' vulnerable secondary gave up 410 yards passing in Week 1, but Shakir will likely be limited by shorter routes, creating a safe but uninspiring fantasy option.",
-        "3": "Khalil Shakir remains a steady, stable cog in Buffalo's passing game entering a Week 3 matchup with the Chargers. Shakir logged six targets in each of the Bills' first two games but hasn't topped 50 yards or scored. Shakir didn't take on an elevated role in Week 2 following DJ Moore's (shoulder) early exit, but he faces a secondary that allowed 75 yards to Kendrick Bourne and 119 yards to Tre Tucker, and both operate in a similar slot role to Shakir.",
-        "4": "Khalil Shakir seeks more opportunities in Week 4 when the Bills face the Patriots. Despite a season-high 71% snap share in Week 3, Shakir had his lowest output of 2026, catching just a six-yard pass on three targets in a game where Josh Allen struggled. Shakir could benefit from additional looks in Week 4 if DJ Moore is matched up consistently with CB Christian Gonzalez. Operating primarily out of the slot tempers high yardage totals.",
-        "5": "Khalil Shakir maintains a steady role out of the slot for Buffalo as they prepare to face the Rams in Week 5. Shakir is coming off a season-high 82 yards in Week 4, his third game with at least six targets. His workload is independent of DJ Moore's shoulder status. Shakir will either garner more targets if Moore is out, or benefit from the attention Moore usually draws. However, the Rams defense hasn't allowed an opposing receiver to top 50 yards, suggesting Shakir is a risky floor and limited ceiling option.",
-        "6": "Khalil Shakir continues to play a minimal role in the Bills' passing game as they enter a Week 6 matchup with the Raiders. Shakir had just three targets in Week 5, the second time he's experienced that limited volume in three weeks despite the continued absence of DJ Moore (shoulder). Shakir is averaging a career-best 14.2 yards per catch and with Las Vegas proving vulnerable over the middle (nine catches, 122 yards, two touchdowns last week to DeMario Douglas and Efton Chism), Shakir could exploit a favorable matchup despite a lack of heavy volume.",
-        "8": "Khalil Shakir will reprise his slot role in Week 8 when the Bills host the Ravens. Shakir hasn't directly benefited from DJ Moore's (shoulder) absence, with a largely unchanged role prior to Buffalo's Week 7 bye, logging six or more targets in four of six contests. While he's topped four catches just once, he's averaging 13.2 yards per catch, his highest mark since 2023. Baltimore's secondary has been more vulnerable to larger, outside X receivers, with Drake London, Tee Higgins, and Carnell Tate all topping 100 yards against them. Shakir will need to continue to take advantage of his opportunities to be a viable fantasy option.",
-        "9": "Khalil Shakir continues to provide stability in Buffalo's passing game ahead of a Week 9 matchup with the Vikings. Shakir has recorded at least six targets in five of seven outings, going for 50 or more yards four times. It's a modest floor with only one touchdown catch, and it's even lower facing a Minnesota defense that's allowing the third-fewest fantasy points to opposing receivers, including just four touchdowns in seven games."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 12.5,
         "id": -16012,
         "keeperValue": 0,
@@ -1053,7 +1084,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 16,
@@ -1069,9 +1100,32 @@
       }
     },
     {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 7.800000000000001,
+        "id": 5081397,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 1,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Dylan Sampson and the Browns return home to face off against Houston in Week 10. He had eight carries for 21 yards and caught three of six targets for 27 yards during Cleveland's Week 9 overtime loss. Sampson finished tied for second on the team in targets, and with the Browns' offense likely to play from behind most weeks, he could provide a boost as the preferred back on passing downs. Sampson will aim to contribute more facing a Houston defense allowing 22.4 fantasy points per game (20th) to opposing RBs.",
+        "2": "Dylan Sampson and the Browns are in Tampa Bay to face the Buccaneers in Week 2. Unfortunately for the second-year pro, he's expected to miss \"significant time\" with a left knee injury sustained in Cleveland's 34-10 season-opening loss, according to ESPN's Jeremy Fowler. The severity of his injury is still being evaluated, but there's a high chance of him being placed on IR once more information comes out.",
+        "6": "Dylan Sampson and the Browns host the division-rival Ravens in Week 6. The second-year running back, who has been on injured reserve with a knee injury since September 15, could potentially return to practice ahead of their matchup with Baltimore. Head coach Todd Monken said Monday that there's a \"possibility\" Cleveland opens the 21-day practice window for Sampson this week. If he's able to get back on the field, it couldn't come at a better time for the Browns, as they're currently dealing with injuries to Quinshon Judkins (ankle) and Raheim Sanders (hip) sustained in Week 5's loss. It would be wise to monitor the practice reps for the entire backfield as they prepare for Week 6.",
+        "8": "Dylan Sampson and the Browns travel to face the division-rival Steelers in Week 8. He rushed six times for 45 yards and caught all three targets for another 32 yards during Cleveland's Week 7 win. Sampson made his first appearance since Week 1 due to a knee injury that forced him to be placed on IR. Quinshon Judkins (ankle) also returned from a one-game absence and out-touched Sampson 18-9, but it was still encouraging for Sampson to take advantage of his opportunities. He'll look to build upon this showing versus a Steelers defense allowing 20.5 fantasy points per game (T-11th) to RBs."
+      }
+    },
+    {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 100.80000000000001,
+        "appliedStatTotal": 109.80000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -1160,13 +1214,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.0,
+        "appliedStatTotal": 14.0,
         "id": 4426388,
         "keeperValue": 0,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1348,7 +1402,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 127.0,
+        "appliedStatTotal": 139.5,
         "tradeReservedEntries": 0
       }
     },
@@ -1699,13 +1753,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.3,
+        "appliedStatTotal": 25.720000000000002,
         "id": 3046779,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1740,13 +1794,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.0,
+        "appliedStatTotal": 22.5,
         "id": -16008,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2021,7 +2075,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Allen",
         "lastNewsDate": 1794183976000,
-        "lastVideoDate": 1794499326000,
+        "lastVideoDate": 1794180793000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar.",
         "universeId": 1
@@ -2232,7 +2286,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 150.86,
+        "appliedStatTotal": 153.95999999999998,
         "tradeReservedEntries": 0
       }
     },
@@ -2394,13 +2448,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.2,
+        "appliedStatTotal": 12.299999999999999,
         "id": 4430027,
         "keeperValue": 6,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2667,13 +2721,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.5,
+        "appliedStatTotal": 14.0,
         "id": 4431431,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2681,7 +2735,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 146.26000000000002,
+        "appliedStatTotal": 153.28,
         "tradeReservedEntries": 0
       }
     },
@@ -2716,13 +2770,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 4.7,
         "id": 4047646,
         "keeperValue": 3,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2736,10 +2790,10 @@
         "firstName": "A.J.",
         "fullName": "A.J. Brown",
         "id": 4047646,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Brown",
-        "lastNewsDate": 1794589086000,
+        "lastNewsDate": 1794747977000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -2853,13 +2907,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.26,
+        "appliedStatTotal": 21.28,
         "id": 4431452,
         "keeperValue": 10,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3115,7 +3169,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 117.2,
+        "appliedStatTotal": 122.4,
         "tradeReservedEntries": 0
       }
     },
@@ -3377,13 +3431,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.0,
+        "appliedStatTotal": 13.2,
         "id": 3046439,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3488,13 +3542,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.200000000000001,
+        "appliedStatTotal": 16.6,
         "id": 4427095,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3940,13 +3994,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": -4.5,
+        "appliedStatTotal": -6.5,
         "id": -16017,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3968,20 +4022,20 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 129.92,
+        "appliedStatTotal": 174.12,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[8].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.4,
+        "appliedStatTotal": 57.6,
         "id": 4429795,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4259,9 +4313,9 @@
         "fullName": "Omar Cooper Jr.",
         "id": 4723820,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Cooper Jr.",
-        "lastNewsDate": 1794676556000,
+        "lastNewsDate": 1794760901000,
         "lastVideoDate": 1792955666000,
         "proTeamId": 20,
         "seasonOutlook": "Cooper was selected by the Jets in the first round of April's draft. The Indiana product is fresh off a breakout 2025 season in which he posted a 69-937-13 receiving line after totaling 46 catches during his first three seasons with the Hoosiers. Primarily a perimeter target in limited action from 2022 to 2024, Cooper aligned in the slot on 80% of his routes last season. He is a short-area target (9.0 aDOT last season), but still posted strong efficiency numbers, including a 2.61 YPRR. He'll begin his career behind Garrett Wilson and Adonai Mitchell in New York's Geno Smith-led offense and is unlikely to produce consistent flex value as a rookie.",
@@ -4349,7 +4403,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 121.74000000000002,
+        "appliedStatTotal": 130.14000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -4493,13 +4547,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.8,
+        "appliedStatTotal": 16.3,
         "id": 4569173,
         "keeperValue": 12,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4720,7 +4774,7 @@
         "acquisitionDate": 1791030385012,
         "acquisitionType": "TRADE",
         "injuryStatus": "NORMAL",
-        "lineupSlotId": 20,
+        "lineupSlotId": 21,
         "pendingTransactionIds": null,
         "playerId": 4426515,
         "status": "NORMAL"
@@ -5114,7 +5168,7 @@
         "jersey": "0",
         "lastName": "Allen",
         "lastNewsDate": 1794183976000,
-        "lastVideoDate": 1794499326000,
+        "lastVideoDate": 1794180793000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar."
       }
@@ -5805,11 +5859,12 @@
         "id": 4689936,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1794988800000
       }
     }
   ],
