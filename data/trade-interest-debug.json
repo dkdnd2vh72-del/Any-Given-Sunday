@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36]",
+      "path": "$.mTransactions2.transactions[37]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39]",
+      "path": "$.mTransactions2.transactions[40]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -277,7 +277,7 @@
       "path": "$.mTeam.teams[0]",
       "values": {
         "abbrev": "KATZ",
-        "currentProjectedRank": 9,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 7,
         "eliminated": false,
@@ -316,7 +316,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -394,7 +394,7 @@
       "path": "$.mTeam.teams[3]",
       "values": {
         "abbrev": "TBR",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 9,
         "divisionId": 1,
         "draftDayProjectedRank": 1,
         "eliminated": false,
@@ -433,7 +433,7 @@
       "path": "$.mTeam.teams[4]",
       "values": {
         "abbrev": "Sauc",
-        "currentProjectedRank": 3,
+        "currentProjectedRank": 2,
         "divisionId": 1,
         "draftDayProjectedRank": 3,
         "eliminated": false,
@@ -550,7 +550,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -578,7 +578,7 @@
         "acquisitions": 10,
         "drops": 9,
         "misc": 0,
-        "moveToActive": 25,
+        "moveToActive": 26,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -628,7 +628,7 @@
       "path": "$.mTeam.teams[9]",
       "values": {
         "abbrev": "CMC ",
-        "currentProjectedRank": 2,
+        "currentProjectedRank": 3,
         "divisionId": 1,
         "draftDayProjectedRank": 5,
         "eliminated": false,
@@ -3516,7 +3516,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 99.25999999999999,
+        "appliedStatTotal": 107.66,
         "tradeReservedEntries": 0
       }
     },
