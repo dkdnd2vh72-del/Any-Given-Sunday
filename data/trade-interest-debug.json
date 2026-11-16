@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[30]",
+      "path": "$.mTransactions2.transactions[35]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40]",
+      "path": "$.mTransactions2.transactions[45]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[44]",
+      "path": "$.mTransactions2.transactions[49]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[55]",
+      "path": "$.mTransactions2.transactions[62]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[55].items[0]",
+      "path": "$.mTransactions2.transactions[62].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -90,7 +90,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[55].items[1]",
+      "path": "$.mTransactions2.transactions[62].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 11,
@@ -103,7 +103,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[55].items[2]",
+      "path": "$.mTransactions2.transactions[62].items[2]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 13,
@@ -374,7 +374,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -491,7 +491,7 @@
       "path": "$.mTeam.teams[4]",
       "values": {
         "abbrev": "Sauc",
-        "currentProjectedRank": 2,
+        "currentProjectedRank": 3,
         "divisionId": 1,
         "draftDayProjectedRank": 3,
         "eliminated": false,
@@ -608,7 +608,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -686,7 +686,7 @@
       "path": "$.mTeam.teams[9]",
       "values": {
         "abbrev": "CMC ",
-        "currentProjectedRank": 3,
+        "currentProjectedRank": 2,
         "divisionId": 1,
         "draftDayProjectedRank": 5,
         "eliminated": false,
@@ -1663,7 +1663,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Pollard",
         "lastNewsDate": 1794795206000,
-        "lastVideoDate": 1794776278000,
+        "lastVideoDate": 1794845296000,
         "proTeamId": 10,
         "seasonOutlook": "Pollard has handled a hefty 67.2% of the Titans' designed rushing attempts since his arrival two seasons ago (15.2 per game) and, even with solid efficiency, he has finished 22nd and 30th in fantasy points per game. The culprits? Tennessee's struggling offense (Pollard has exactly five TDs in both seasons) and a limited receiving role when Tyjae Spears has been healthy (Pollard's targets fell from 3.5 per game in 2024 to 2.5 per game in 2025). Barring a major leap from quarterback Cam Ward, Pollard is unlikely to deliver only the second top-20 fantasy campaign (in points per game) of his career. The 29-year-old, entering his eighth NFL season (third with Tennessee), is a low-ceiling flex.",
         "universeId": 1
@@ -4315,7 +4315,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Cooper Jr.",
-        "lastNewsDate": 1794772651000,
+        "lastNewsDate": 1794840953000,
         "lastVideoDate": 1792955666000,
         "proTeamId": 20,
         "seasonOutlook": "Cooper was selected by the Jets in the first round of April's draft. The Indiana product is fresh off a breakout 2025 season in which he posted a 69-937-13 receiving line after totaling 46 catches during his first three seasons with the Hoosiers. Primarily a perimeter target in limited action from 2022 to 2024, Cooper aligned in the slot on 80% of his routes last season. He is a short-area target (9.0 aDOT last season), but still posted strong efficiency numbers, including a 2.61 YPRR. He'll begin his career behind Garrett Wilson and Adonai Mitchell in New York's Geno Smith-led offense and is unlikely to produce consistent flex value as a rookie.",
