@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[43]",
+      "path": "$.mTransactions2.transactions[44]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54]",
+      "path": "$.mTransactions2.transactions[55]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54].items[0]",
+      "path": "$.mTransactions2.transactions[55].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -90,7 +90,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54].items[1]",
+      "path": "$.mTransactions2.transactions[55].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 11,
@@ -103,7 +103,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[54].items[2]",
+      "path": "$.mTransactions2.transactions[55].items[2]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 13,
@@ -724,7 +724,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 221.36,
+        "appliedStatTotal": 243.96000000000004,
         "tradeReservedEntries": 0
       }
     },
@@ -745,7 +745,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 33.5,
+        "appliedStatTotal": 53.7,
         "id": 4241389,
         "keeperValue": 1,
         "keeperValueFuture": 2,
@@ -759,7 +759,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.899999999999999,
+        "appliedStatTotal": 14.3,
         "id": 4430737,
         "keeperValue": 3,
         "keeperValueFuture": 3,
@@ -860,9 +860,9 @@
         "id": 4035687,
         "keeperValue": 10,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -957,7 +957,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.5,
+        "appliedStatTotal": 8.5,
         "id": 2473037,
         "keeperValue": 0,
         "keeperValueFuture": 13,
@@ -1125,7 +1125,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 218.44000000000003,
+        "appliedStatTotal": 246.62000000000003,
         "tradeReservedEntries": 0
       }
     },
@@ -1256,7 +1256,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.740000000000002,
+        "appliedStatTotal": 53.92,
         "id": 2577417,
         "keeperValue": 14,
         "keeperValueFuture": 9,
@@ -1402,14 +1402,14 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 204.8,
+        "appliedStatTotal": 250.5,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[2].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.300000000000004,
+        "appliedStatTotal": 69.0,
         "id": 3117251,
         "keeperValue": 1,
         "keeperValueFuture": 1,
@@ -1464,7 +1464,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.100000000000001,
+        "appliedStatTotal": 43.5,
         "id": 4426354,
         "keeperValue": 5,
         "keeperValueFuture": 3,
@@ -1562,7 +1562,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Moore",
-        "lastNewsDate": 1794286798000,
+        "lastNewsDate": 1794789055000,
         "lastVideoDate": 1794774272000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
@@ -1833,7 +1833,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 182.6,
+        "appliedStatTotal": 194.39999999999998,
         "tradeReservedEntries": 0
       }
     },
@@ -1923,13 +1923,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.2,
+        "appliedStatTotal": 22.2,
         "id": 4239993,
         "keeperValue": 3,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1973,7 +1973,7 @@
         "injured": true,
         "injuryStatus": "OUT",
         "lastName": "Montgomery",
-        "lastNewsDate": 1794680304000,
+        "lastNewsDate": 1794787927000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -2000,9 +2000,9 @@
         "id": 4047650,
         "keeperValue": 4,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2037,13 +2037,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 7.0,
         "id": -16023,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2074,7 +2074,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Allen",
-        "lastNewsDate": 1794183976000,
+        "lastNewsDate": 1794790494000,
         "lastVideoDate": 1794180793000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar.",
@@ -2133,7 +2133,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Taylor",
-        "lastNewsDate": 1794342086000,
+        "lastNewsDate": 1794781400000,
         "lastVideoDate": 1793284750000,
         "proTeamId": 11,
         "seasonOutlook": "Taylor enters the 2026 season having improved in fantasy points per game in each of the past three years. Last season, he delivered his best production since his huge 2021 campaign, as he paced the NFL in carries and TDs while finishing second in carries inside the 5-yard line (19) and fourth in fantasy points. A piece of the step forward was increased usage in the passing game, as he ranked in the top 10 among backs in routes, targets, catches and receiving yards, setting career highs in each. Taylor's season likely would've been even better had QB Daniel Jones not been injured, as the running back averaged 24.8 points with Jones but 12.9 without him. Jones is expected to be ready to play in Week 1, so the 27-year-old Taylor is safe to value as a mid- to high-end RB1.",
@@ -2183,7 +2183,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.5,
+        "appliedStatTotal": 19.0,
         "id": 4426385,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2207,7 +2207,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.4,
+        "appliedStatTotal": 15.7,
         "id": 4249087,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2286,14 +2286,14 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 251.7,
+        "appliedStatTotal": 293.8,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[4].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.200000000000001,
+        "appliedStatTotal": 43.2,
         "id": 4430878,
         "keeperValue": 4,
         "keeperValueFuture": 1,
@@ -2347,7 +2347,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.8,
+        "appliedStatTotal": 17.4,
         "id": 4890973,
         "keeperValue": 2,
         "keeperValueFuture": 3,
@@ -2466,9 +2466,9 @@
         "id": 4038815,
         "keeperValue": 0,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2581,7 +2581,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.0,
+        "appliedStatTotal": 29.5,
         "id": -16014,
         "keeperValue": 0,
         "keeperValueFuture": 12,
@@ -2735,7 +2735,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 283.74,
+        "appliedStatTotal": 309.04,
         "tradeReservedEntries": 0
       }
     },
@@ -2793,7 +2793,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Brown",
-        "lastNewsDate": 1794763311000,
+        "lastNewsDate": 1794791504000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -2935,7 +2935,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.9,
+        "appliedStatTotal": 32.7,
         "id": 4429096,
         "keeperValue": 0,
         "keeperValueFuture": 10,
@@ -2976,7 +2976,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 31.64,
+        "appliedStatTotal": 56.94,
         "id": 4361741,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3115,7 +3115,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.2,
+        "appliedStatTotal": 17.700000000000003,
         "id": 15818,
         "keeperValue": 12,
         "keeperValueFuture": 0,
@@ -3169,20 +3169,20 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 159.58,
+        "appliedStatTotal": 178.78,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[6].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 31.5,
+        "appliedStatTotal": 40.2,
         "id": 4362628,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3277,7 +3277,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.700000000000001,
+        "appliedStatTotal": 23.200000000000003,
         "id": 4685512,
         "keeperValue": 0,
         "keeperValueFuture": 5,
@@ -3459,7 +3459,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.500000000000001,
+        "appliedStatTotal": 8.0,
         "id": 4373626,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3519,9 +3519,9 @@
         "id": 17372,
         "keeperValue": 15,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3570,7 +3570,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 203.3,
+        "appliedStatTotal": 221.4,
         "tradeReservedEntries": 0
       }
     },
@@ -3806,7 +3806,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.3,
+        "appliedStatTotal": 28.2,
         "id": 3040151,
         "keeperValue": 0,
         "keeperValueFuture": 9,
@@ -3882,9 +3882,9 @@
         "fullName": "Woody Marks",
         "id": 4429059,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "DOUBTFUL",
         "lastName": "Marks",
-        "lastNewsDate": 1794774318000,
+        "lastNewsDate": 1794784696000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -3907,7 +3907,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.5,
+        "appliedStatTotal": 20.700000000000003,
         "id": 3953687,
         "keeperValue": 12,
         "keeperValueFuture": 12,
@@ -3957,7 +3957,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Jones Sr.",
-        "lastNewsDate": 1794288502000,
+        "lastNewsDate": 1794788999000,
         "lastVideoDate": 1794770271000,
         "proTeamId": 16,
         "seasonOutlook": "Jones is back for a third season in Minnesota after an injury-plagued 2025 campaign limited him to 747 yards (his fewest since his rookie season in 2017) and three touchdowns in 12 games. Jones remained fairly busy (11.0 carries and 3.4 targets per game) but didn't perform well, ranking dead last among 65 backs with 50-plus carries in forced missed tackle rate and elusive rating, per PFF. Jones failed to record a single top-10 fantasy outing. Now 31 years old, Jones remains a starter and will get some run, but he's well past his prime and unlikely to return to consistent fantasy output. Jones is best valued as a bench player with occasional flex appeal.",
@@ -4022,7 +4022,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 236.07999999999998,
+        "appliedStatTotal": 251.48,
         "tradeReservedEntries": 0
       }
     },
@@ -4043,13 +4043,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.5,
+        "appliedStatTotal": 16.0,
         "id": 4362238,
         "keeperValue": 3,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4112,13 +4112,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 0.30000000000000004,
         "id": 4569987,
         "keeperValue": 10,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4218,7 +4218,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.38,
+        "appliedStatTotal": 30.980000000000004,
         "id": 12483,
         "keeperValue": 0,
         "keeperValueFuture": 14,
@@ -4278,7 +4278,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 28.5,
+        "appliedStatTotal": 20.5,
         "id": -16025,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -4403,14 +4403,14 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 192.33999999999997,
+        "appliedStatTotal": 230.83999999999997,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[9].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.2,
+        "appliedStatTotal": 27.1,
         "id": 4361307,
         "keeperValue": 2,
         "keeperValueFuture": 2,
@@ -4520,13 +4520,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 29.54,
+        "appliedStatTotal": 33.74,
         "id": 3915511,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4644,7 +4644,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 17.0,
+        "appliedStatTotal": 23.0,
         "id": -16026,
         "keeperValue": 0,
         "keeperValueFuture": 12,
@@ -4658,7 +4658,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.9,
+        "appliedStatTotal": 25.9,
         "id": 3126486,
         "keeperValue": 8,
         "keeperValueFuture": 13,
@@ -4757,7 +4757,7 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.700000000000003,
+        "appliedStatTotal": 30.1,
         "id": 4361579,
         "keeperValue": 11,
         "keeperValueFuture": 10,
@@ -5121,11 +5121,12 @@
         "id": 4427834,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1794988800000
       }
     },
     {
@@ -5136,11 +5137,12 @@
         "id": 4714771,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1794988800000
       }
     },
     {
@@ -5171,7 +5173,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "0",
         "lastName": "Allen",
-        "lastNewsDate": 1794183976000,
+        "lastNewsDate": 1794790494000,
         "lastVideoDate": 1794180793000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar."
