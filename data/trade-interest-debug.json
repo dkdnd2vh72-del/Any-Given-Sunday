@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[35]",
+      "path": "$.mTransactions2.transactions[36]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[45]",
+      "path": "$.mTransactions2.transactions[46]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[49]",
+      "path": "$.mTransactions2.transactions[50]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[62]",
+      "path": "$.mTransactions2.transactions[63]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -77,7 +77,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[62].items[0]",
+      "path": "$.mTransactions2.transactions[63].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 11,
@@ -90,7 +90,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[62].items[1]",
+      "path": "$.mTransactions2.transactions[63].items[1]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 11,
@@ -103,7 +103,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[62].items[2]",
+      "path": "$.mTransactions2.transactions[63].items[2]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 13,
@@ -879,7 +879,7 @@
         "injured": true,
         "injuryStatus": "INJURY_RESERVE",
         "lastName": "Pittman Jr.",
-        "lastNewsDate": 1794506915000,
+        "lastNewsDate": 1794861599000,
         "lastVideoDate": 1786634821000,
         "proTeamId": 23,
         "seasonOutlook": "Pittman was traded to the Steelers after spending his first six NFL seasons with the Colts. The 2020 second-round pick handled a hefty 23.6% of Indianapolis' targets during his tenure, which helped him to four top-20 fantasy campaigns. Pittman has reached 800 receiving yards in five consecutive seasons while primarily operating as a short-to-intermediate target. The role has limited his scoring (he has 25 TDs in 95 games) and that may not change much with DK Metcalf on the other side in Pittsburgh. Of course, Pittman will be a featured target in an offense led by Aaron Rodgers. That's enough to put the 28-year-old squarely in the weekly WR3 mix.",
@@ -1402,7 +1402,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 250.5,
+        "appliedStatTotal": 257.6,
         "tradeReservedEntries": 0
       }
     },
@@ -1436,13 +1436,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.58,
+        "appliedStatTotal": 12.68,
         "id": 3043078,
         "keeperValue": 2,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1833,7 +1833,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 204.0,
+        "appliedStatTotal": 213.7,
         "tradeReservedEntries": 0
       }
     },
@@ -1970,10 +1970,10 @@
         "firstName": "David",
         "fullName": "David Montgomery",
         "id": 4035538,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "ACTIVE",
         "lastName": "Montgomery",
-        "lastNewsDate": 1794787927000,
+        "lastNewsDate": 1794876246000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -2169,13 +2169,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.300000000000001,
+        "appliedStatTotal": 8.0,
         "id": 4429615,
         "keeperValue": 6,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2272,13 +2272,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.5,
+        "appliedStatTotal": 8.5,
         "id": -16033,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2406,9 +2406,9 @@
         "id": 3916387,
         "keeperValue": 3,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3190,13 +3190,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.0,
+        "appliedStatTotal": 8.9,
         "id": 4685382,
         "keeperValue": 3,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3884,7 +3884,7 @@
         "injured": false,
         "injuryStatus": "DOUBTFUL",
         "lastName": "Marks",
-        "lastNewsDate": 1794784696000,
+        "lastNewsDate": 1794876551000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -4102,9 +4102,9 @@
         "id": 4612826,
         "keeperValue": 4,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5090,11 +5090,12 @@
         "id": 4690013,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1794988800000
       }
     },
     {
@@ -5364,7 +5365,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "5",
         "lastName": "Allen Jr.",
-        "lastNewsDate": 1793402996000,
+        "lastNewsDate": 1794855294000,
         "proTeamId": 30,
         "seasonOutlook": "A 2025 seventh-round pick, Allen is set to compete with fellow second-year back Bhayshul Tuten and newcomer Chris Rodriguez Jr. for work in the Jacksonville backfield. As a rookie, Allen played 22% of the Jaguars' offensive snaps (82% of which were pass plays), but was limited to just 33 touches and failed to find the end zone or reach 4.0 fantasy points in a single game. It's likely that Tuten will operate as the Jaguars' primary back, with Rodriguez busy on early downs and short-yardage situations, and Allen used as a passing-down specialist, same as in 2025. That said, none of the three are established as lead backs, so there's an opportunity for Allen to force his way into a larger role. The 22-year-old is worth no more than a late-round flier."
       }
@@ -5406,11 +5407,12 @@
         "id": 3116365,
         "keeperValue": 6,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1794988800000
       }
     },
     {
@@ -5813,11 +5815,12 @@
         "id": 4360939,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1794988800000
       }
     },
     {
