@@ -287,7 +287,7 @@
         "acquisitions": 35,
         "drops": 36,
         "misc": 0,
-        "moveToActive": 69,
+        "moveToActive": 72,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -404,7 +404,7 @@
         "acquisitions": 8,
         "drops": 7,
         "misc": 0,
-        "moveToActive": 27,
+        "moveToActive": 28,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -480,7 +480,7 @@
       "values": {
         "acquisitionBudgetSpent": 135,
         "acquisitions": 27,
-        "drops": 27,
+        "drops": 28,
         "misc": 0,
         "moveToActive": 59,
         "moveToIR": 7,
@@ -1010,7 +1010,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 78.72000000000001,
+        "appliedStatTotal": 91.22000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -1858,7 +1858,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Montgomery",
-        "lastNewsDate": 1794876246000,
+        "lastNewsDate": 1794937166000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -2171,7 +2171,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 175.14000000000001,
+        "appliedStatTotal": 144.04,
         "tradeReservedEntries": 0
       }
     },
@@ -3149,8 +3149,8 @@
         "firstName": "DeVonta",
         "fullName": "DeVonta Smith",
         "id": 4241478,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Smith",
         "lastNewsDate": 1793999355000,
         "lastVideoDate": 1792512538000,
@@ -3386,20 +3386,6 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.1,
-        "id": 4569682,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 1.4,
         "id": 4427095,
         "keeperValue": 0,
@@ -3412,7 +3398,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "DeMario Douglas will look to continue his recent surge when the Patriots face the Lions in Week 10. Douglas had a season-high 102 yards on nine targets in Week 9, a game that developed into a pass-heavy shootout. A similar game script could be on tap against a Detroit defense that has allowed the fourth-most passing yards. A potential return for A.J. Brown may reduce Douglas' targets, but with the expectation the Patriots will throw often, he can post 65 yards or better for the sixth time in seven weeks.",
         "2": "DeMario Douglas will seek more production in Week 2 when the Patriots face the Steelers. He logged a reasonable seven targets to open the season but turned that into just 20 yards on five grabs. Douglas has a rapport with QB Drake Maye as a safety valve, and while snaps seem safe with A.J. Brown (ankle) sidelined for the foreseeable future, Douglas topped 40 yards just four times last season.",
@@ -4456,7 +4442,7 @@
         "injured": true,
         "injuryStatus": "OUT",
         "lastName": "Jacobs",
-        "lastNewsDate": 1794666376000,
+        "lastNewsDate": 1794929708000,
         "lastVideoDate": 1793198730000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
