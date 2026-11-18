@@ -277,7 +277,7 @@
         "primaryOwner": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 10
+        "waiverRank": 7
       }
     },
     {
@@ -355,15 +355,15 @@
         "primaryOwner": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 4
+        "waiverRank": 8
       }
     },
     {
       "path": "$.mTeam.teams[3].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 100,
-        "acquisitions": 19,
-        "drops": 18,
+        "acquisitionBudgetSpent": 111,
+        "acquisitions": 20,
+        "drops": 19,
         "misc": 0,
         "moveToActive": 79,
         "moveToIR": 4,
@@ -394,15 +394,15 @@
         "primaryOwner": "{113D06BF-E687-4014-BD06-BFE687C014C5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 8
+        "waiverRank": 10
       }
     },
     {
       "path": "$.mTeam.teams[4].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 10,
-        "acquisitions": 8,
-        "drops": 7,
+        "acquisitionBudgetSpent": 12,
+        "acquisitions": 10,
+        "drops": 9,
         "misc": 0,
         "moveToActive": 28,
         "moveToIR": 3,
@@ -433,7 +433,7 @@
         "primaryOwner": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 7
+        "waiverRank": 6
       }
     },
     {
@@ -478,8 +478,8 @@
     {
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 135,
-        "acquisitions": 27,
+        "acquisitionBudgetSpent": 136,
+        "acquisitions": 28,
         "drops": 28,
         "misc": 0,
         "moveToActive": 59,
@@ -511,7 +511,7 @@
         "primaryOwner": "{55557D11-0BB9-4FB9-957D-110BB9EFB9E5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 5
+        "waiverRank": 4
       }
     },
     {
@@ -550,7 +550,7 @@
         "primaryOwner": "{B9D0D9CD-0373-43B0-B535-9F31B41A51F8}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 6
+        "waiverRank": 5
       }
     },
     {
@@ -2143,15 +2143,48 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.0,
-        "id": -16033,
-        "keeperValue": 0,
+        "appliedStatTotal": 20.200000000000003,
+        "id": 3116365,
+        "keeperValue": 6,
         "keeperValueFuture": 0,
         "lineupLocked": false,
         "onTeamId": 5,
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry.player",
+      "values": {
+        "active": true,
+        "defaultPositionId": 4,
+        "droppable": true,
+        "firstName": "Mark",
+        "fullName": "Mark Andrews",
+        "id": 3116365,
+        "injured": false,
+        "injuryStatus": "ACTIVE",
+        "lastName": "Andrews",
+        "lastNewsDate": 1794894480000,
+        "lastVideoDate": 1794411219000,
+        "proTeamId": 33,
+        "seasonOutlook": "One of fantasy's biggest mysteries, Andrews' usage has dipped substantially over the past two seasons. After finishing in the top five in fantasy PPG five seasons in a row from 2019 to 2023, Andrews slipped to eighth in 2024 (it would've been much worse if not for 11 touchdowns on 68 targets) and fell even further to 24th last season. Andrews appeared in all 17 of Baltimore's games but ranked 18th among tight ends in targets and outside the top 20 in catches and yards. The combination of a new coaching staff, a healthy Lamar Jackson and the departure of Isaiah Likely could lead to a rebound season for Andrews, but we now have two straight seasons of underperformance. The 31-year-old remains a force near the goal line (top 10 in end zone targets seven years in a row), but he's now more of a fringe TE1 than a fantasy star.",
+        "universeId": 1
+      }
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "In Week 10, Mark Andrews and the Ravens welcome the winless Chargers to town. He caught both of his targets for 19 yards during Baltimore's Week 9 loss. Andrews actually led the team in receiving yardage and was second behind Zay Flowers and Justice Hill in receptions, who each recorded three. Jacoby Brissett will earn his first start for the Ravens after being acquired via trade, but Andrews could find it difficult to operate versus a Chargers defense allowing 10.0 fantasy points per game (3rd) to TEs.",
+        "2": "Mark Andrews and the Ravens host the Saints and their defense, which ranks 13th in fantasy points allowed per game (11.3) to TEs, in Week 2. Andrews caught four of his six targets for 49 yards during Baltimore's 41-23 win in the season opener. He tied with Zay Flowers (hamstring) for the team lead in targets and finished second behind him in receptions. With Flowers and a host of other receivers dealing with injuries, Andrews could be in line for additional looks as a safety net for Lamar Jackson.",
+        "3": "Mark Andrews and the Ravens look to rebound from an upset defeat when they visit the Cowboys in Week 3. He caught six of seven targets for 49 yards during Baltimore's 24-17 Week 2 loss, making it two straight outings with exactly 49 receiving yards for the 31-year-old. Andrews draws a favorable matchup versus a Dallas defense that surrendered eight receptions for 78 yards and two TDs to Isaiah Likely in the season opener. The Cowboys rank 26th in fantasy points allowed (16.9) and are one of two teams with a catch rate of 100% to TEs.",
+        "4": "Mark Andrews and the Ravens welcome the 0-3 Titans to town for a Week 4 showdown. After missing some time with a hand injury during Baltimore's 34-31 Week 3 win, Andrews returned and ultimately finished with three catches for 24 yards on five targets. He's still in search of his first TD of 2026, but he's been consistently involved on offense, totaling 18 targets across three contests. Andrews could find it difficult to break through in the scoring department against the Titans' third-ranked defense in fantasy points allowed (7.4) to TEs, as they're one of nine teams yet to surrender a receiving touchdown to the position.",
+        "5": "Mark Andrews and the Ravens are on the road for the first time since the season opener to face the Falcons in Week 5. He corralled five of six targets for 27 yards and his first touchdown of the season in Baltimore's Week 4 win. Andrews has yet to top 50 yards receiving through four outings to date, and that trend could continue if Lamar Jackson (ankle) is unable to play on Sunday Night Football. The veteran tight end will aim to find paydirt for the second straight week against Atlanta's 21st-ranked defense in fantasy points allowed (15.9) per game to the position.",
+        "6": "Mark Andrews and the Ravens are in Cleveland for an AFC North divisional clash in Week 6. He caught four of six targets for 28 yards and lost a fumble during Baltimore's overtime victory in Week 5. Andrews is averaging a solid six targets through five outings in 2026, but he's yet to top 50 receiving yards, only has one touchdown, and tallies 35.4 yards per contest. He'll look to break out versus a Browns defense that's tied for 19th in fantasy points allowed per game (15.0) to TEs.",
+        "7": "Mark Andrews and the Ravens are back home to square off against the Bengals in Week 7. He caught one of three targets for four yards during Baltimore's 13-10 loss in Week 6. Andrews turned in his worst performance of the season on a day the Ravens tallied a meager 252 total yards of offense. Fellow tight end Josh Cuevas, a rookie fifth-round pick in 2026, recorded a 4-44-1 line on five targets, finishing second on the team in yardage while tying for second in receptions and targets. Andrews will look to rebound versus Cincinnati's 25th-ranked defense in fantasy points allowed per game (16.2) to TEs.",
+        "8": "Mark Andrews and the Ravens travel to face the Bills in Week 8. He caught three of four targets for 23 yards during Baltimore's 35-13 defeat in Week 7. Andrews was unable to take advantage of game flow, as Tyler Huntley attempted 34 passes and threw for a career-high 298 yards. Andrews has failed to top 30 receiving yards in five straight outings, making him a tough start in fantasy despite the potential return of Lamar Jackson (ankle).",
+        "9": "Mark Andrews and the Ravens host the Jaguars for an AFC showdown in Week 9. He caught three of four targets for 14 yards during Baltimore's 36-10 Week 8 defeat. Andrews finished second on the team in receptions and third in targets, but the entire Ravens offense struggled with Lamar Jackson (thumb/IR) and Tyler Huntley (toe) both forced out with injuries. Andrews has compiled an underwhelming 29-218-1 receiving line on 41 targets through seven games this season. Fantasy managers should look elsewhere, with the 31-year-old squaring off against Jacksonville's eighth-ranked defense in fantasy points allowed per game (11.0) to TEs."
       }
     },
     {
@@ -2578,8 +2611,8 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.0,
-        "id": -16009,
+        "appliedStatTotal": 3.0,
+        "id": -16020,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -2592,15 +2625,28 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.5,
-        "id": 4431431,
-        "keeperValue": 0,
+        "appliedStatTotal": 0.0,
+        "id": 3128429,
+        "keeperValue": 5,
         "keeperValueFuture": 0,
         "lineupLocked": false,
         "onTeamId": 7,
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Courtland Sutton was held in check along with the rest of the Broncos' offense in their season-opening loss to Kansas City, catching two of five targets for just 11 yards. Quarterback Bo Nix couldn't connect with either of his top two wideouts, as Jaylen Waddle also had a poor showing in his Denver debut, and new offensive coordinator Davis Webb may need to go back to the drawing board quickly to get his passing game going. Sutton should face a softer matchup in Week 2 against a Jaguars defense that was tied for 17th last season in points per game allowed to WRs.",
+        "3": "Courtland Sutton has had a slow start to the season as the focus of the Broncos' passing game has shifted to Jaylen Waddle. Through two games, Sutton has posted only nine targets, catching five for a meager 36 yards. He still has plenty of existing chemistry with quarterback Bo Nix, and the duo could rekindle it once defenses begin shifting more attention to Waddle, but Sutton figures to be hard-pressed to reach 1,000 receiving yards in 2026 for a third straight season. He'll take on a Rams secondary in Week 3 that's allowed just 19 receptions to WRs through two weeks, tied for seventh in the NFL, though three of them have gone for touchdowns.",
+        "4": "Courtland Sutton continues to fade into a support role in the Broncos' passing game following the acquisition of Jaylen Waddle. His seven targets in a Week 3 win over the Rams were a season-high, and through three games, he's managed just an 8-82-0 line on 16 total looks from Bo Nix. Sutton should see more volume once new play-caller Davis Webb settles in, but he'll have an uphill battle to produce his fourth career 1,000-yard season. He'll face a 49ers secondary in Week 4 that ranks ninth in fantasy points per game allowed to WRs.",
+        "5": "Courtland Sutton was nearly invisible in the Broncos' Week 4 loss to the 49ers, catching only one of six targets for a measly four yards. The veteran wideout remains firmly behind Jaylen Waddle on the depth chart, but the entire Denver offense is struggling under first-time play caller Davis Webb, and Sutton has produced a weak 9-86-0 line on 22 targets through four games. How long Sean Payton lets that situation last before reclaiming play-calling duties is an open question. Sutton will try to get going in Week 5 against a Chargers secondary that ranks 18th in fantasy points per game allowed to WRs.",
+        "6": "Courtland Sutton ended his touchdown drought in the Broncos' Week 5 win over the Chargers, catching two of three targets for 18 yards and his first score of the season. The team's entire offense has been sluggish to begin the year, and having Sean Payton take over play-calling duties didn't pay immediate dividends, but it should bode well for Sutton in the long run. He'll face another tough challenge in Week 6 against a Seahawks secondary that ranks fourth in fantasy points per game allowed to WRs.",
+        "7": "Courtland Sutton's struggles continued in the Broncos' overtime win over the Seahawks in Week 6. The veteran wideout has yet to catch more than three passes in a game this season or reach 50 receiving yards, leaving him with a paltry 13-123-1 line on 28 targets through six games. With quarterback Bo Nix unable to build any momentum, Sutton and the entire passing game offer little upside. He could at least get into the end zone again in Week 7 against a Cardinals secondary that's given up 10 touchdowns to WRs this season, 31st in the league.",
+        "8": "Courtland Sutton had another quiet day in the Broncos' Week 7 win over the Cardinals, managing to catch three of five targets for 45 yards. The veteran wideout has been held under 50 receiving yards and three catches or fewer in all seven games so far this season, and he's scored just one TD after hauling in 25 over the prior three years. Sutton isn't likely to break out in Week 8 against a Kansas City secondary that ranks third in fantasy points per game allowed to WRs.",
+        "9": "Courtland Sutton set new season highs in catches and receiving yards during the Broncos' Week 8 win over Kansas City, but he still came away with just a 4-53-0 line on four targets. The struggles of quarterback Bo Nix, as well as the offseason addition of Jaylen Waddle, have reduced Sutton's target volume considerably from 2025, and he's on pace for only 79 targets this season after topping 120 in each of the prior two years. He'll try to make do with new role in Week 9 against a Panthers team that just fired its defensive coordinator, and which is tied for 15th in fantasy points per game allowed to WRs."
       }
     },
     {
@@ -3395,6 +3441,33 @@
         "7": "DeMario Douglas is emerging as a viable option for the Patriots ahead of a Week 7 matchup with the Bears. Over the past two weeks, Douglas has garnered 13 targets, turning them into 11 catches and three touchdowns. Though A.J. Brown is back from an ankle injury, New England could be without Romeo Doubs due to a shoulder ailment, suggesting Douglas' place in the receiving pecking order may be unchanged, giving him a chance to post solid numbers against a secondary that's allowed nine opposing receivers to gain at least 55 yards.",
         "8": "DeMario Douglas will seek a rebound in Week 8 when New England travels to Miami. He was on a two-game heater entering Week 7, but finished with just three catches for 23 yards and has been held to 38 yards or fewer in five of seven outings. Miami is allowing an attractive 8.8 yards per target, the eighth-highest total league-wide, but because of vulnerabilities to tight ends and running backs in the passing game, opposing wideouts have the second-fewest yards, suggesting it may be better to look elsewhere for meaningful production.",
         "9": "DeMario Douglas' volume has been sporadic despite the Patriots' receiving corps rarely being at full strength entering a Week 9 matchup with the Packers. Douglas has four touchdowns over his last four games, but he has four or fewer targets in half of New England's eight games, failing to top 23 yards at the same rate. Green Bay is allowing just 7.0 yards per target to wideouts, suggesting Douglas would need to maintain his scoring prowess to be a viable Week 9 option."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 4426338,
+        "keeperValue": 8,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 11,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Bo Nix was held in check by the Kansas City defense in the Broncos' season opener, completing 17 of 28 passes for just 131 yards and a touchdown. He also threw an interception and committed three fumbles, losing one of them, while getting sacked four times. Nix also wasn't able to take advantage of his newest asset, as Jaylen Waddle logged only three targets and caught one of them for two yards. It was a hugely disappointing effort from Nix and the reigning AFC West champions, but they'll look to bounce back in Week 2 against a Jaguars defense that ranked 18th last season in fantasy points per game allowed to QBs.",
+        "3": "Bo Nix rebounded from a sluggish opener to lead the Broncos to a comeback win over the Jaguars in Week 2. The third-year QB has a meager 2:2 TD:INT through two games and has yet to add any production on the ground, but his 288 passing yards In Week 2 were more than double the Week 1 total, and his completion rate jumped from 60.7% to 71.0%. Nix also began establishing some chemistry with new top wideout Jaylen Waddle, who erupted for an 8-138-0 line on 10 targets. Nix will face a Rams defense in Week 3 that has held opposition QBs under a 60% completion rate to begin the season.",
+        "4": "Bo Nix engineered an impressive second-half comeback in the Broncos' Week 3 win over the Rams, producing two passing TDs and one rushing score despite completing just 50.0% of his passes. The third-year quarterback hasn't had a statistically impressive start to the season, posting a 4:3 TD:INT ratio and passing for barely over 200 yards a game, but Nix has led his team to a 2-1 record. He'll take on a 49ers defense in Week 4 that's been stingy to begin the year, ranking eighth in fantasy points per game allowed to QBs.",
+        "5": "Bo Nix wasn't able to pull off another comeback win for the Broncos in a Week 4 loss to the 49ers. The third-year QB failed to complete 60% of his passes for a second straight game, and through four weeks, he's produced just six touchdowns (five passing, one rushing) while committing four turnovers. Denver's lack of a consistent running game isn't helping the offense find a rhythm, but Nix shoulders plenty of responsibility for the team's 2-2 start to the season. He'll try to bounce back in a Week 5 road game against a Chargers defense that's tied for 22nd in fantasy points per game allowed to quarterbacks.",
+        "6": "Bo Nix didn't show any improvement in Week 5 as the Broncos switched back to Sean Payton as their play-caller, throwing for a season-low 123 yards and producing just one touchdown in a win over the Chargers. The third-year QB has a meager 6:3 TD:INT through five games and is completing fewer than 60.0% of his passes, averaging fewer than 200 passing yards per game. There's still reason to believe Nix's numbers will improve once Payton gets back in a rhythm, but the Denver offense's ceiling seems limited even if it's operating at peak efficiency. Nix isn't likely to break out in Week 6 against a Seahawks defense that ranks sixth this season in fantasy points per game allowed to QBs.",
+        "7": "Bo Nix continues to struggle, failing to throw a touchdown in Week 6 for the first time this season while compiling a season-low 107 passing yards. The third-year quarterback has produced fewer than 6.0 yards per attempt in four straight games, and the Broncos' switch back to Sean Payton as the play-caller hasn't yet sparked the offense. Nix has just seven total touchdowns (six passing and one rushing) against five turnovers through seven games, but he'll get a chance to build some momentum in Week 7 against a Cardinals defense that's tied for 28th in fantasy points per game allowed to QBs.",
+        "8": "Bo Nix contributed most with his legs in the Broncos' Week 7 win over the Cardinals, throwing one TD and running for another. The second score came in the second quarter on a 62-yard scamper, the longest rushing touchdown by a QB in an NFL regular-season game since 2022. Nix's 73 rushing yards on the day nearly doubled his total from the first six weeks combined. Despite that performance, Nix is still on pace for a career-worst campaign, and things won't get easier for him in Week 8 against a Kansas City defense that ranks third in fantasy points per game allowed to QBs.",
+        "9": "Bo Nix put together another fourth-quarter comeback in the Broncos' Week 8 win over Kansas City. While the third-year QB's own numbers are nothing special this season, he's led his team to a 6-2 record and first place in the AFC West. Week 8 was only the second time in eight games he's thrown for multiple touchdowns, and his 59.6% completion rate and 6.0 yards per attempt are both career lows. Nix could be poised for his best game of the season in Week 9 against a Panthers defense that just fired its defensive coordinator and is tied for 14th in fantasy points per game allowed to QBs."
       }
     },
     {
@@ -4704,9 +4777,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4720,9 +4792,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4736,9 +4807,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4803,9 +4873,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4819,9 +4888,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4835,9 +4903,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4851,9 +4918,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4882,9 +4948,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4898,9 +4963,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4914,9 +4978,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4930,9 +4993,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4946,9 +5008,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4962,9 +5023,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -4978,9 +5038,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5042,9 +5101,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5058,9 +5116,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5080,9 +5137,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5124,9 +5180,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5169,9 +5224,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5185,9 +5239,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5246,11 +5299,10 @@
         "keeperValue": 6,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 0,
+        "onTeamId": 5,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "ONTEAM",
+        "tradeLocked": false
       }
     },
     {
@@ -5297,9 +5349,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5313,9 +5364,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5329,9 +5379,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5345,9 +5394,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5389,9 +5437,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5405,9 +5452,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5427,9 +5473,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5456,9 +5501,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5472,9 +5516,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5488,9 +5531,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5504,9 +5546,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5520,9 +5561,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5545,9 +5585,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5561,9 +5600,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5605,9 +5643,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5621,9 +5658,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5665,9 +5701,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5714,9 +5749,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5730,9 +5764,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1794988800000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     }
   ],
