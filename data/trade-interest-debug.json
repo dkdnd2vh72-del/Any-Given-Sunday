@@ -245,11 +245,11 @@
       "path": "$.mTeam.teams[0].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 9,
-        "drops": 8,
+        "acquisitions": 10,
+        "drops": 9,
         "misc": 0,
-        "moveToActive": 13,
-        "moveToIR": 4,
+        "moveToActive": 16,
+        "moveToIR": 5,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -609,7 +609,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 120.58000000000001,
+        "appliedStatTotal": 123.88000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -742,39 +742,6 @@
       "path": "$.mRoster.teams[0].roster.entries[6].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
-        "id": 4035687,
-        "keeperValue": 10,
-        "keeperValueFuture": 9,
-        "lineupLocked": false,
-        "onTeamId": 1,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[6].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 3,
-        "droppable": true,
-        "firstName": "Michael",
-        "fullName": "Michael Pittman Jr.",
-        "id": 4035687,
-        "injured": true,
-        "injuryStatus": "INJURY_RESERVE",
-        "lastName": "Pittman Jr.",
-        "lastNewsDate": 1795041852000,
-        "lastVideoDate": 1786634821000,
-        "proTeamId": 23,
-        "seasonOutlook": "Pittman was traded to the Steelers after spending his first six NFL seasons with the Colts. The 2020 second-round pick handled a hefty 23.6% of Indianapolis' targets during his tenure, which helped him to four top-20 fantasy campaigns. Pittman has reached 800 receiving yards in five consecutive seasons while primarily operating as a short-to-intermediate target. The role has limited his scoring (he has 25 TDs in 95 games) and that may not change much with DK Metcalf on the other side in Pittsburgh. Of course, Pittman will be a featured target in an offense led by Aaron Rodgers. That's enough to put the 28-year-old squarely in the weekly WR3 mix.",
-        "universeId": 1
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 0.0,
         "id": 4429205,
         "keeperValue": 10,
         "keeperValueFuture": 10,
@@ -786,7 +753,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[6].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Jordan Addison will look to get more volume in Week 10 as the Vikings play the Packers. Addison finished a Week 9 loss with two catches for 28 yards off three targets, but struggles from the QB room didn't leave much room for any pass catchers to succeed. The trade deadline acquisition of Kirk Cousins to be Minnesota's new starting quarterback could be just the spark Addison needs, as he's recorded less than 30 yards in two of his last three games. Green Bay has ranked 27th in fantasy points allowed to WRs this campaign.",
         "2": "Jordan Addison will look to record his first reception of the year as the Vikings travel to Chicago in Week 2. Addison ran the second-most routes for Minnesota in Week 1 against the Packers, but he was unable to convert on either of his two targets. Veteran quarterback Carson Wentz, who filled in for an injured Kyler Murray (concussion), relied more on tight ends T.J. Hockenson and Josh Oliver behind Justin Jefferson. This could make Addison's role remains small as long as Wentz remains under center. With that being said, the Bears' defense did allow the fourth-most PPR points to wide receivers (46.3) in Week 1, which could open up Minnesota's passing game.",
@@ -799,7 +766,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[7].playerPoolEntry",
       "values": {
         "appliedStatTotal": 6.0,
         "id": 15847,
@@ -813,7 +780,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 26.78,
         "id": 4360310,
@@ -827,7 +794,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Trevor Lawrence has thrown 18 touchdown passes, leading the Jaguars to a 6-2 record heading into a Week 10 trip to Tennessee. However, he has just three touchdown passes in three road games. Jacksonville has won its last two games by a 75-17 margin, so Lawrence has been afforded the luxury of taking his foot off the gas. This has limited his production after back-to-back 300-yard passing performances in a pair of competitive games in London. Another lopsided win is likely to materialize against the 1-7 Titans, but Lawrence is capable of producing elite numbers while the game is still up for grabs. He has top-five fantasy QB upside against a Tennessee secondary that is giving up the second-most passing yards per game, but it wouldn't be surprising if he finished outside the top 15 in Week 10, either.",
         "2": "Trevor Lawrence threw four touchdown passes in the first 33 minutes of Jacksonville's lopsided Week 1 win over the Browns before the Jaguars took their foot off the gas. He has 22 touchdown passes in his last eight starts, but the surging QB could face a stiffer test in a Week 2 road game against the Broncos. They boasted the NFL's third-stingiest scoring defense last season but just gave up 31 points to the Chiefs in Week 1. Lawrence has been effective enough recently to warrant starting in fantasy despite the daunting matchup, but he's unlikely to give managers a top-five performance in Week 2.",
@@ -840,7 +807,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 2.0,
         "id": 2473037,
@@ -854,7 +821,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Jason Myers will hope for more kicking opportunities when Seattle faces Las Vegas in Week 10. Myers made his lone field goal and both his extra-point tries in Week 9 against Arizona as the Seahawks scored fewer than 21 points for the fourth straight week. The veteran kicker has been good when called upon this season, though, making 16 of 18 FG tries through nine games. He could be more active against the Raiders, who are giving up a league-worst 29.8 points per game.",
         "2": "Jason Myers will look to remain perfect this season when the Seahawks visit Arizona in Week 2. Myers made his lone PAT try and both field-goal attempts in a season-opening win over New England, though his FGs were relative chip shots from 30 and 26 yards. Myers made nine field goals from 50-plus yards out each of the previous two seasons, however, so he has plenty of leg to convert from that distance when called upon. The Cardinals aren't expected to be a top NFL defense this year, but they performed well in limiting the Chargers to 14 points in a Week 1 victory.",
@@ -868,7 +835,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 6.4,
         "id": 3916433,
@@ -882,7 +849,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -893,7 +860,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Meyers",
-        "lastNewsDate": 1795036579000,
+        "lastNewsDate": 1795123243000,
         "lastVideoDate": 1790533083000,
         "proTeamId": 30,
         "seasonOutlook": "One of the league's most underrated players, Meyers is entering his first full season with Jacksonville after being acquired via trade in November. The 2019 UDFA has produced 800-plus receiving yards in five consecutive seasons while operating primarily as a short-to-intermediate target. More of a solid producer than a high-ceiling contributor, Meyers has finished no lower than 32nd in fantasy points over the last five seasons, but has yet to do better than 19th. The 29-year-old isn't much of a touchdown scorer (23 TDs in 78 games since 2021) and has substantial target competition via Parker Washington, Brian Thomas Jr., Brenton Strange and Travis Hunter. Meyers is a good player, but is likely to cap out as a flex option.",
@@ -901,7 +868,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Jakobi Meyers is a strong Week 10 flex play against a Titans defense that has struggled to cover wide receivers. Tennessee is allowing a league-high 15.3 catches for 195 yards per game to the position. Meyers has had an up-and-down season as Jacksonville's No. 2 WR but has trended in the right direction recently, notching two of his three best performances this season for both receiving yards and targets within the last three games. He's more likely to produce a peak than a valley in the first of Jacksonville's two meetings this season against Tennessee's league-worst secondary.",
         "2": "Jakobi Meyers maintains a high floor, though he's a low-ceiling fantasy WR3 or flex play for Jacksonville's Week 2 home game against Denver's elite defense. Meyers has posted at least 39 receiving yards in all 10 of his games with the Jaguars since coming over in a midseason trade last year, including 40 receiving yards and a TD in the Week 1 win over Cleveland. Parker Washington and Brian Thomas have more downfield playmaking capability, but Meyers should see his share of short targets with Trevor Lawrence likely looking to get the ball out quickly to counter a Broncos pass rush that led the league with 68 sacks last season.",
@@ -914,7 +881,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.9,
         "id": 4430539,
@@ -928,7 +895,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Brenton Strange is a viable fantasy option in Week 10 against the Titans, but he's far from a must-start. He leads the Jaguars with 30 catches through eight games but hasn't scored since the season opener and is averaging 45 yards per game, which ranks 10th among TEs. Tennessee has struggled to defend the pass in general, but the Titans have limited TEs to 43 yards per game, though they have also given up four TDs to the position through eight games.",
         "2": "Brenton Strange was one of four Jaguars to catch a touchdown pass from Trevor Lawrence in the season-opening win over the Browns, and the starting tight end should remain involved in the Week 2 game plan against the Broncos. The Broncos excelled at defending wide receivers last season but gave up the ninth-most receiving yards to TEs. Strange is a decent fantasy option in multi-TE formats or those with a tight end premium. However, with many mouths to feed in Jacksonville's passing game, Strange is tough to trust as a starter in standard single-TE leagues. Strange has exceeded 61 receiving yards just once since the start of last season while scoring four TDs in 13 appearances over that span.",
@@ -941,7 +908,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": -16027,
@@ -955,7 +922,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.5,
         "id": -16012,
@@ -969,7 +936,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 16,
@@ -985,7 +952,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.7,
         "id": 5081397,
@@ -999,12 +966,58 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Dylan Sampson and the Browns return home to face off against Houston in Week 10. He had eight carries for 21 yards and caught three of six targets for 27 yards during Cleveland's Week 9 overtime loss. Sampson finished tied for second on the team in targets, and with the Browns' offense likely to play from behind most weeks, he could provide a boost as the preferred back on passing downs. Sampson will aim to contribute more facing a Houston defense allowing 22.4 fantasy points per game (20th) to opposing RBs.",
         "2": "Dylan Sampson and the Browns are in Tampa Bay to face the Buccaneers in Week 2. Unfortunately for the second-year pro, he's expected to miss \"significant time\" with a left knee injury sustained in Cleveland's 34-10 season-opening loss, according to ESPN's Jeremy Fowler. The severity of his injury is still being evaluated, but there's a high chance of him being placed on IR once more information comes out.",
         "6": "Dylan Sampson and the Browns host the division-rival Ravens in Week 6. The second-year running back, who has been on injured reserve with a knee injury since September 15, could potentially return to practice ahead of their matchup with Baltimore. Head coach Todd Monken said Monday that there's a \"possibility\" Cleveland opens the 21-day practice window for Sampson this week. If he's able to get back on the field, it couldn't come at a better time for the Browns, as they're currently dealing with injuries to Quinshon Judkins (ankle) and Raheim Sanders (hip) sustained in Week 5's loss. It would be wise to monitor the practice reps for the entire backfield as they prepare for Week 6.",
         "8": "Dylan Sampson and the Browns travel to face the division-rival Steelers in Week 8. He rushed six times for 45 yards and caught all three targets for another 32 yards during Cleveland's Week 7 win. Sampson made his first appearance since Week 1 due to a knee injury that forced him to be placed on IR. Quinshon Judkins (ankle) also returned from a one-game absence and out-touched Sampson 18-9, but it was still encouraging for Sampson to take advantage of his opportunities. He'll look to build upon this showing versus a Steelers defense allowing 20.5 fantasy points per game (T-11th) to RBs."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 4371733,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 1,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player",
+      "values": {
+        "active": true,
+        "defaultPositionId": 2,
+        "droppable": true,
+        "firstName": "Kenny",
+        "fullName": "Kenny Gainwell",
+        "id": 4371733,
+        "injured": false,
+        "injuryStatus": "ACTIVE",
+        "lastName": "Gainwell",
+        "lastNewsDate": 1794201781000,
+        "lastVideoDate": 1793811437000,
+        "proTeamId": 27,
+        "seasonOutlook": "Gainwell signed with the Buccaneers following a second-half breakout with Pittsburgh last season. After playing sparingly during the first four-and-a-half years of his career, Gainwell averaged 13.3 touches, 85.0 yards and 17.8 fantasy points from Week 8 on last season (eight games). Only five backs scored more points than Gainwell after Week 10. He did most of his damage as a receiver (top six among RBs in targets, catches and receiving yards) and will now look to earn a similar role alongside Bucky Irving in Tampa Bay. Gainwell's strong season suggests he'll have a role, but the 23-year-old Irving is likely to operate as the lead back. Gainwell is best valued as a bench/insurance stash with some flex appeal in deep PPR leagues.",
+        "universeId": 2
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "2": "Kenneth Gainwell is expected to operate as the Buccaneers' No. 2 running back in the Week 2 matchup against the Browns. Gainwell was thought to be Tampa Bay's top receiving back heading into the season. However, he was overshadowed by Bucky Irving in Week 1, who caught all seven of his targets for 48 yards, while Gainwell was targeted just once. He will likely need more receiving work to be fantasy relevant in a Week 2 matchup against a Browns defense that allowed just two receptions for 22 yards to RBs last week.",
+        "3": "Kenneth Gainwell is expected to play as the Buccaneers' No. 2 running back in the Week 3 matchup against the Vikings. Gainwell was thought to be Tampa Bay's top receiving back heading into the season, but he's caught just three of four targets through two games, which is far less than Bucky Irving (11 receptions on 11 targets). Additionally, Gainwell has been relatively inefficient, averaging just 2.9 yards per touch. He's set to face one of the best defenses in the NFL in Minnesota, who have allowed just 3.4 yards per carry this season.",
+        "4": "Kenneth Gainwell is likely to remain Tampa Bay's No. 2 running back in the Week 4 matchup against the Packers. Gainwell has logged just 10 rush attempts for 21 yards through three games this season, confirming he's firmly behind Bucky Irving in the Buccaneers' backfield. The first-year Buccaneer has yet to score a touchdown as well, and he'll likely struggle finding fantasy value without a score. Despite this, Gainwell is in for a favorable Week 4 matchup against a Packers defense that's already given up six rushing touchdowns this year.",
+        "5": "Kenny Gainwell is expected to remain Tampa Bay's No. 2 running back in the Week 5 matchup against the Cowboys. Gainwell found the end zone for the first time this season during the Week 4 loss to the Packers. However, he remains firmly behind Bucky Irving in the Buccaneers' backfield, as Irving out-touched Gainwell 16 to five. Gainwell will likely struggle maintaining fantasy relevance in Week 5 without scoring another touchdown, though the Cowboys defense has already allowed four rushing TDs this season.",
+        "6": "Kenny Gainwell is expected to remain the Buccaneers' No. 2 running back in the Week 6 matchup against the Steelers. Gainwell has operated as Tampa Bay's top receiving back over the last two weeks, getting more targets (six), receptions (five) and yards (32) than Bucky Irving (two catches on three targets for 10 yards). Despite this, Gainwell will likely struggle finding fantasy relevance without scoring a touchdown. He could thrive against a Pittsburgh defense that's allowed 200 receiving yards to RBs through five contests, tied for the third-most in the NFL.",
+        "7": "Kenny Gainwell is expected to remain the Buccaneers' No. 2 running back in the Week 7 matchup against the Panthers. Gainwell was given few opportunities in the Week 6 overtime loss to the Steelers, accumulating 24 total yards on just three touches. Additionally, Gainwell was on the field for just 15% of Tampa Bay's offensive plays, his lowest mark of the season. It appears as if Gainwell is trending toward receiving less work as the season progresses, but he's in for a favorable Week 7 matchup against a Panthers defense that's allowed 5.1 yards per carry this season.",
+        "8": "Kenny Gainwell is expected to operate as the Buccaneers' No. 2 running back in the Week 8 matchup against the Falcons. Gainwell had his most productive outing of the 2026 campaign in the Week 7 win over the Panthers, rushing 14 times for 88 yards. Despite his productive day, Gainwell still tallied 10 fewer carries than Bucky Irving (24 rushes for 106 yards and two touchdowns), suggesting he remains firmly behind Irving in Tampa Bay's backfield. However, Gainwell could remain successful in Week 8 against a Falcons defense that's given up 10 total touchdowns to running backs this season.",
+        "9": "Kenny Gainwell will look to stay hot in the Buccaneers' Week 9 matchup against the Bears. He racked up a career-high 140 rushing yards on 25 carries in the Week 8 win over the Falcons, bringing his season total to 289 yards (5.0 yards per carry). Despite Gainwell's huge performance, he still remains firmly behind Bucky Irving in the Buccaneers' backfield. Gainwell could struggle, especially against a strong Bears defense that has allowed just three rushing touchdowns to RBs all season."
       }
     },
     {
@@ -1400,7 +1413,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Waddle",
-        "lastNewsDate": 1795043140000,
+        "lastNewsDate": 1795127293000,
         "lastVideoDate": 1794243043000,
         "proTeamId": 7,
         "seasonOutlook": "Waddle was traded to Denver after spending his first five seasons in Miami. The 2021 first-round pick was solid during his Dolphins tenure, finishing in the top 30 among receivers in fantasy PPG four times, though never reaching the top 10 while often playing second fiddle to Tyreek Hill. Although he has been a reliable target and has missed only seven games in five years, Waddle hasn't finished a season higher than 20th in targets or catches since 2021. In Denver, the 27-year-old Waddle will compete with Courtland Sutton for the team lead in targets in a scheme that likes to spread the ball around. Not utilized near the goal line much at 5-foot-10 and 180 pounds (he's yet to clear seven end zone targets in a season), Waddle is likely to max out as a back-end WR2 in Denver.",
@@ -3168,9 +3181,9 @@
         "fullName": "DeVonta Smith",
         "id": 4241478,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Smith",
-        "lastNewsDate": 1795042763000,
+        "lastNewsDate": 1795128004000,
         "lastVideoDate": 1792512538000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -5239,7 +5252,7 @@
         "injuryStatus": "QUESTIONABLE",
         "jersey": "5",
         "lastName": "Allen Jr.",
-        "lastNewsDate": 1795048581000,
+        "lastNewsDate": 1795123615000,
         "proTeamId": 30,
         "seasonOutlook": "A 2025 seventh-round pick, Allen is set to compete with fellow second-year back Bhayshul Tuten and newcomer Chris Rodriguez Jr. for work in the Jacksonville backfield. As a rookie, Allen played 22% of the Jaguars' offensive snaps (82% of which were pass plays), but was limited to just 33 touches and failed to find the end zone or reach 4.0 fantasy points in a single game. It's likely that Tuten will operate as the Jaguars' primary back, with Rodriguez busy on early downs and short-yardage situations, and Allen used as a passing-down specialist, same as in 2025. That said, none of the three are established as lead backs, so there's an opportunity for Allen to force his way into a larger role. The 22-year-old is worth no more than a late-round flier."
       }
