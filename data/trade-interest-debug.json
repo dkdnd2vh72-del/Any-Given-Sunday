@@ -1,6 +1,117 @@
 {
   "matches": [
     {
+      "path": "$.mTransactions2.transactions[11]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "4b8934a0-6221-4d50-aed1-fa752a3e801a",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{689C6304-D941-4316-8C0E-89C21B8C9FEB}",
+        "proposedDate": 1795141357582,
+        "rating": 0,
+        "relatedTransactionId": "a368b9dd-ef46-4795-aa09-2081a5f14bad",
+        "scoringPeriodId": 11,
+        "status": "EXECUTED",
+        "teamId": 4,
+        "type": "TRADE_DECLINE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[33]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795312836320,
+        "id": "7538c434-9e4a-4024-84b3-de086b0b375e",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795140036289,
+        "rating": 0,
+        "scoringPeriodId": 11,
+        "status": "PENDING",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[33].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[33].items[1]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4239993,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795312836320,
+        "id": "7538c434-9e4a-4024-84b3-de086b0b375e",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795140036289,
+        "rating": 0,
+        "scoringPeriodId": 11,
+        "status": "PENDING",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0].items[0]",
+      "values": {
+        "acquisitionBudget": 0,
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0].items[1]",
+      "values": {
+        "acquisitionBudget": 0,
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4239993,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mTeam.members[0].notificationSettings[1]",
       "values": {
         "enabled": true,
@@ -284,10 +395,10 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 100,
-        "acquisitions": 35,
+        "acquisitions": 36,
         "drops": 37,
         "misc": 0,
-        "moveToActive": 72,
+        "moveToActive": 73,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -356,6 +467,53 @@
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
         "waiverRank": 8
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[0]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795312836320,
+        "id": "7538c434-9e4a-4024-84b3-de086b0b375e",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795140036289,
+        "rating": 0,
+        "scoringPeriodId": 11,
+        "skipTransactionCounters": false,
+        "status": "PENDING",
+        "subOrder": 5,
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[0].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[0].items[1]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4239993,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
       }
     },
     {
@@ -480,9 +638,9 @@
       "values": {
         "acquisitionBudgetSpent": 136,
         "acquisitions": 30,
-        "drops": 29,
+        "drops": 30,
         "misc": 0,
-        "moveToActive": 62,
+        "moveToActive": 63,
         "moveToIR": 7,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -560,7 +718,7 @@
         "acquisitions": 25,
         "drops": 24,
         "misc": 0,
-        "moveToActive": 50,
+        "moveToActive": 51,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -590,6 +748,53 @@
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
         "waiverRank": 2
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[0]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795312836320,
+        "id": "7538c434-9e4a-4024-84b3-de086b0b375e",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795140036289,
+        "rating": 0,
+        "scoringPeriodId": 11,
+        "skipTransactionCounters": false,
+        "status": "PENDING",
+        "subOrder": 5,
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[0].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[0].items[1]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4239993,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
       }
     },
     {
@@ -1023,7 +1228,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 91.22000000000001,
+        "appliedStatTotal": 97.72000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -1284,9 +1489,37 @@
       }
     },
     {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 8.8,
+        "id": 4038441,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Justice Hill and the Ravens host the winless Chargers on Monday Night Football in Week 10. He erupted for 85 yards on nine carries, including a 65-yard TD run, and caught all three of his targets for seven yards during Baltimore's Week 9 loss. With Jacoby Brissett expected to start under center, Hill and the Ravens' offense could start to become a bit more pass-friendly, but that's certainly no guarantee. He'll look to keep contributing against the Chargers' 21st-ranked defense in fantasy points allowed per game (22.8) to opposing RBs.",
+        "2": "Justice Hill and the Ravens are at home to battle the Saints in Week 2. Hill rushed six times for 18 yards and had one catch for 10 yards in Baltimore's 41-23 win. He's established himself as the clear No. 2 RB, as his 31 offensive snaps trailed slightly behind Derrick Henry's 37. Hill should continue to see opportunities as a change-of-pace back against a New Orleans defense that ranks 28th in fantasy points allowed per game (38.4) to RBs.",
+        "3": "Justice Hill and the Ravens travel to face a Cowboys defense in Week 3 that ranks 25th in fantasy points per game (25.9) allowed to running backs. He tallied two carries for six yards and caught both of his targets for eight yards during Baltimore's 24-17 Week 2 loss to the Saints. As long as Derrick Henry, who accounted for 16 of 18 carries out of the backfield, is healthy, Hill's action will be limited as the No. 2 RB. However, in a contest that is expected to be high-scoring, Hill could contribute as a receiver, but he's still a risky fantasy play outside of deeper leagues.",
+        "4": "Justice Hill and the Ravens are back home to host the 0-3 Titans in Week 4. He was explosive with his five carries during Baltimore's thrilling Week 3 victory, racking up 33 yards and a 6.6 average. However, Derrick Henry handled 26 of the 31 total carries for running backs, and he remains in firm control of the Ravens' backfield. Tennessee's defense ranks 17th in fantasy points allowed (20.7) to RBs, and despite the possibility of Baltimore playing from ahead, Hill's involvement will continue to be limited.",
+        "5": "Justice Hill and the Ravens visit the Falcons for a Week 5 showdown. He rushed once for three yards and caught two of three targets for 22 yards during Baltimore's 24-18 victory in Week 4. Derrick Henry out-carried Hill 23-1, even with Lamar Jackson missing the entire second half with an ankle injury. It appears that regardless of who's under center, the Ravens' backfield belongs to Henry. Hill should remain on fantasy benches against an Atlanta defense allowing just 17.9 points per game to RBs, which ranks ninth.",
+        "6": "Justice Hill and the Ravens visit the division-rival Browns in Week 6. He rushed four times for 73 yards and caught two of four targets for five yards during Baltimore's Week 5 overtime win. Derrick Henry out-carried him 24-4, although Hill led the way with a game-long 47-yard run. However, as long as Henry is the lead back and the Ravens don't fall into a massive deficit, Hill's involvement in the offense will remain limited.",
+        "7": "Justice Hill and the Ravens host the Bengals for an AFC North clash in Week 7. He did not record a carry but brought in all three of his targets for nine yards during Baltimore's 13-10 loss in Week 6. Derrick Henry accounted for 17 of the 18 rushing attempts out of the Ravens' backfield, a trend that should continue as long as he remains healthy. Hill should remain on fantasy benches against a Cincinnati defense that is tied for ninth in fantasy points allowed per game (19.0) to RBs",
+        "8": "Justice Hill and the Ravens are on the road for a Week 8 meeting with the Bills. He had three carries for seven yards and caught three of four targets for 26 yards during Baltimore's 35-13 loss in Week 7. Rasheen Ali registered 19 yards on four carries, but that can likely be attributed to the Ravens giving up all 35 points in the second half. Regardless, as long as Derrick Henry is healthy, Hill's involvement on offense will continue to be limited.",
+        "9": "Justice Hill and the Ravens return home for a meeting with the Jaguars on Thursday Night Football in Week 9. He rushed three times for 15 yards and caught four of eight targets for 20 yards during Baltimore's Week 8 loss. Hill led the team in receptions and targets while finishing second in yardage in a game where the Ravens managed just 167 total yards of offense. He could earn similar opportunities with Lamar Jackson (thumb) on IR and Joe Fagnano (knee) likely to start, but it's going to be difficult to trust any Baltimore player in fantasy going forward."
+      }
+    },
+    {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 194.76,
+        "appliedStatTotal": 198.45999999999998,
         "tradeReservedEntries": 0
       }
     },
@@ -1376,13 +1609,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.4,
+        "appliedStatTotal": 7.1,
         "id": 4431459,
         "keeperValue": 7,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1717,7 +1950,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 92.52000000000001,
+        "appliedStatTotal": 114.62000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -1834,13 +2067,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 15.400000000000002,
         "id": 4035538,
         "keeperValue": 7,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1994,13 +2227,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.3,
+        "appliedStatTotal": 19.0,
         "id": 4242335,
         "keeperValue": 2,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2203,7 +2436,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 130.54,
+        "appliedStatTotal": 151.0,
         "tradeReservedEntries": 0
       }
     },
@@ -2597,13 +2830,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.439999999999998,
+        "appliedStatTotal": 40.9,
         "id": 4432577,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2665,7 +2898,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 142.45999999999998,
+        "appliedStatTotal": 158.66,
         "tradeReservedEntries": 0
       }
     },
@@ -2743,13 +2976,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.4,
+        "appliedStatTotal": 39.2,
         "id": 4258173,
         "keeperValue": 2,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2959,13 +3192,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.100000000000001,
+        "appliedStatTotal": 9.500000000000002,
         "id": 4571557,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3085,7 +3318,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 99.9,
+        "appliedStatTotal": 89.8,
         "tradeReservedEntries": 0
       }
     },
@@ -3469,35 +3702,9 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 10.100000000000001,
-        "id": 4869645,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Caleb Douglas appears to be the best option among Dolphins receivers entering a Week 10 matchup with the Colts. He has 14 targets over the last two weeks as Malik Washington's role shrinks, and Douglas has 70 receiving yards in two of his last three outings despite Malik Willis' struggles. Indianapolis is more vulnerable against the run, which figures to be Miami's plan offensively, especially with Kyle McCord replacing the injured Willis, but Douglas has proven he can take advantage of whatever opportunities come his way, setting him up for a deep league play against a defense that's allowing 8.8 yards per target to opposing wideouts.",
-        "2": "Caleb Douglas will look to build on his Week 1 emergence when the Dolphins face the 49ers in Week 2. Douglas logged an impressive five catches for 94 yards in his NFL debut, garnering seven targets. Miami will likely continue to pass while playing from behind on a weekly basis, and it appears Douglas and QB Malik Willis have a solid connection. San Francisco's defense was stingy against the pass to open the year, allowing just 6.4 yards per target, but volume can reign supreme and Douglas appears to have that potential, making him an intriguing Week 2 option.",
-        "3": "Caleb Douglas' status for the Dolphins' Week 3 matchup with the Chiefs is uncertain due to an ankle injury. Douglas played a hefty 85% of the team's offensive snaps before suffering the injury late in Week 2 but recorded just 19 yards after a 94-yard career debut. Should he play, Douglas is a speculative upside play for fantasy teams in need of Week 3 help.",
-        "4": "Caleb Douglas will need to overcome an ankle injury keeping him out of Week 3 to help the Dolphins in Week 4 against the Vikings. After an impressive Week 1, Douglas recorded only three targets in Week 2 despite an 86% snap share. Malik Willis' play under center remains shaky, leading to inconsistency among Miami's receivers. Willis will be scrambling facing a blitz-heavy Vikings defense, but they are allowing generous 8.2 yards per target to opposing wideouts if Douglas is able to push downfield.",
-        "5": "Caleb Douglas will need to overcome an ankle injury to help the Dolphins against the Bengals in Week 5. He missed the last two weeks, and his role in this low-volume passing offense is questionable; he drew seven targets in Week 1 and only three in Week 2. The Bengals defense is much improved and ranks 14th in points allowed to opposing wideouts, with no receiver topping 63 yards against them. While Douglas can stretch the field, availability and usage remain question marks.",
-        "7": "Caleb Douglas hopes to emerge from the Dolphins' bye week healthy and help their struggling passing game in Week 7 against the Jets. Douglas hasn't played since Week 2 due to an ankle injury and was used at varying rates when healthy: seven targets in his debut followed by just three the following week. While his 94 yards in Week 1 show potential, uncertain availability and opportunity likely keep him off the radar for lineup consideration against a slightly above-average Jets' secondary that's surrendering 7.3 yards per target.",
-        "8": "Caleb Douglas appears to be emerging as a big-play option in the Dolphins' low-volume passing game ahead of a Week 8 matchup with the Patriots. Returning from a three-game absence in Week 7, Douglas brought in two of three targets for 70 yards and two touchdowns. He's only caught two balls in two of his three healthy appearances, but is averaging 20.3 yards per catch, and his large frame makes him a potential red zone candidate. If New England jumps out to an early lead, it could help Douglas' snap share, setting him up as a low-floor, high-ceiling option against a defense allowing a generous 8.8 yards per target."
-      }
-    },
-    {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 112.64000000000001,
+        "appliedStatTotal": 127.64000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -3792,9 +3999,9 @@
         "id": 4429059,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3935,13 +4142,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.5,
+        "appliedStatTotal": 20.5,
         "id": -16034,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4274,13 +4481,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.8,
+        "appliedStatTotal": 19.1,
         "id": 4686422,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4315,7 +4522,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 100.75999999999999,
+        "appliedStatTotal": 106.46,
         "tradeReservedEntries": 0
       }
     },
@@ -4570,13 +4777,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.5,
+        "appliedStatTotal": 13.2,
         "id": 2971573,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4634,7 +4841,6 @@
         "acquisitionType": "TRADE",
         "injuryStatus": "NORMAL",
         "lineupSlotId": 2,
-        "pendingTransactionIds": null,
         "playerId": 4361579,
         "status": "NORMAL"
       }
@@ -4724,13 +4930,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.6,
+        "appliedStatTotal": 11.2,
         "id": 3117256,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5001,11 +5207,12 @@
         "id": 2998565,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1795593600000
       }
     },
     {

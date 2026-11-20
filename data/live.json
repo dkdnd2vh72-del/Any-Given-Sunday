@@ -3,14 +3,14 @@
   "matchups": [
     {
       "away": {
-        "projection": 123.94,
-        "score": 0.0,
+        "projection": 124.96,
+        "score": 3.3,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
       "home": {
         "projection": 124.62,
-        "score": 0.0,
+        "score": 20.46,
         "teamId": 7,
         "teamName": "Gett'n Saucy"
       }
@@ -24,7 +24,7 @@
       },
       "home": {
         "projection": 131.37,
-        "score": 0.0,
+        "score": 22.1,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       }
@@ -32,26 +32,26 @@
     {
       "away": {
         "projection": 124.95,
-        "score": 0.0,
+        "score": 5.7,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
         "projection": 128.44,
-        "score": 0.0,
+        "score": 3.7,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       }
     },
     {
       "away": {
-        "projection": 119.28,
+        "projection": 133.14,
         "score": 0.0,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
       },
       "home": {
-        "projection": 125.57,
+        "projection": 128.9,
         "score": 0.0,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
@@ -60,13 +60,13 @@
     {
       "away": {
         "projection": 122.01,
-        "score": 0.0,
+        "score": 16.2,
         "teamId": 8,
         "teamName": "King Johnson"
       },
       "home": {
         "projection": 136.41,
-        "score": 0.0,
+        "score": 15.0,
         "teamId": 12,
         "teamName": "Injured Reserve"
       }
@@ -276,7 +276,7 @@
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 6,
-      "projection": 119.28,
+      "projection": 133.14,
       "record": {
         "losses": 10,
         "pointsAgainst": 1353.22,
@@ -353,11 +353,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4567048",
-          "name": "Kenneth Walker III",
-          "position": "RB",
-          "proTeam": "KC",
-          "projection": 0.0,
+          "id": "4685472",
+          "name": "Tetairoa McMillan",
+          "position": "WR",
+          "proTeam": "CAR",
+          "projection": 13.86,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -419,11 +419,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4685472",
-          "name": "Tetairoa McMillan",
-          "position": "WR",
-          "proTeam": "CAR",
-          "projection": 13.86,
+          "id": "4038441",
+          "name": "Justice Hill",
+          "position": "RB",
+          "proTeam": "BAL",
+          "projection": 8.35,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4567048",
+          "name": "Kenneth Walker III",
+          "position": "RB",
+          "proTeam": "KC",
+          "projection": 0.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -443,7 +454,7 @@
     },
     {
       "acquisitions": 10,
-      "actual": 0.0,
+      "actual": 3.7,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -513,7 +524,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 3.7,
           "id": "4431459",
           "name": "Tyler Warren",
           "position": "TE",
@@ -637,7 +648,7 @@
     },
     {
       "acquisitions": 21,
-      "actual": 0.0,
+      "actual": 22.1,
       "htmlId": "nabers-think-im-sellin-dope",
       "id": 5,
       "name": "The Bowers Rangers",
@@ -674,7 +685,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 6.7,
           "id": "4242335",
           "name": "Jonathan Taylor",
           "position": "RB",
@@ -718,7 +729,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 15.4,
           "id": "4035538",
           "name": "David Montgomery",
           "position": "RB",
@@ -831,7 +842,7 @@
     },
     {
       "acquisitions": 10,
-      "actual": 0.0,
+      "actual": 20.46,
       "htmlId": "gettn-saucy",
       "id": 7,
       "name": "Gett'n Saucy",
@@ -846,7 +857,7 @@
       },
       "roster": [
         {
-          "actual": 0.0,
+          "actual": 20.46,
           "id": "4432577",
           "name": "C.J. Stroud",
           "position": "QB",
@@ -1025,7 +1036,7 @@
     },
     {
       "acquisitions": 18,
-      "actual": 0.0,
+      "actual": 16.2,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -1084,7 +1095,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 14.8,
           "id": "4258173",
           "name": "Nico Collins",
           "position": "WR",
@@ -1128,7 +1139,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 1.4,
           "id": "4571557",
           "name": "Spencer Shrader",
           "position": "K",
@@ -1224,7 +1235,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 125.57,
+      "projection": 128.9,
       "record": {
         "losses": 14,
         "pointsAgainst": 1169.3999999999999,
@@ -1301,11 +1312,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4869645",
-          "name": "Caleb Douglas",
+          "id": "4241478",
+          "name": "DeVonta Smith",
           "position": "WR",
-          "proTeam": "MIA",
-          "projection": 9.68,
+          "proTeam": "PHI",
+          "projection": 13.01,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null
@@ -1397,23 +1408,12 @@
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4241478",
-          "name": "DeVonta Smith",
-          "position": "WR",
-          "proTeam": "PHI",
-          "projection": 13.01,
-          "slot": "IR",
-          "slotId": 21,
-          "tradeInterest": null
         }
       ]
     },
     {
       "acquisitions": 10,
-      "actual": 0.0,
+      "actual": 15.0,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1505,7 +1505,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 15.0,
           "id": "-16034",
           "name": "Texans D/ST",
           "position": "D/ST",
@@ -1607,12 +1607,12 @@
     },
     {
       "acquisitions": 25,
-      "actual": 0.0,
+      "actual": 3.3,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 5,
-      "projection": 123.94,
+      "projection": 124.96,
       "record": {
         "losses": 9,
         "pointsAgainst": 1153.28,
@@ -1666,12 +1666,12 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
-          "id": "5083754",
-          "name": "Ryan Flournoy",
+          "actual": 3.3,
+          "id": "4686422",
+          "name": "Xavier Hutchinson",
           "position": "WR",
-          "proTeam": "DAL",
-          "projection": 9.66,
+          "proTeam": "HOU",
+          "projection": 10.68,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -1777,11 +1777,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4686422",
-          "name": "Xavier Hutchinson",
+          "id": "5083754",
+          "name": "Ryan Flournoy",
           "position": "WR",
-          "proTeam": "HOU",
-          "projection": 10.68,
+          "proTeam": "DAL",
+          "projection": 9.66,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1801,7 +1801,7 @@
     },
     {
       "acquisitions": 12,
-      "actual": 0.0,
+      "actual": 5.7,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
@@ -1904,7 +1904,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 5.7,
           "id": "2971573",
           "name": "Ka'imi Fairbairn",
           "position": "K",
@@ -1926,7 +1926,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
+          "actual": 2.6,
           "id": "3117256",
           "name": "Dalton Schultz",
           "position": "TE",
