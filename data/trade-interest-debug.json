@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[11]",
+      "path": "$.mTransactions2.transactions[31]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33]",
+      "path": "$.mTransactions2.transactions[38]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -39,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33].items[0]",
+      "path": "$.mTransactions2.transactions[38].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -52,7 +52,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33].items[1]",
+      "path": "$.mTransactions2.transactions[38].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -395,8 +395,8 @@
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 100,
-        "acquisitions": 36,
-        "drops": 37,
+        "acquisitions": 37,
+        "drops": 38,
         "misc": 0,
         "moveToActive": 73,
         "moveToIR": 1,
@@ -1491,29 +1491,15 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.8,
-        "id": 4038441,
-        "keeperValue": 0,
+        "appliedStatTotal": 0.0,
+        "id": 4612826,
+        "keeperValue": 4,
         "keeperValueFuture": 0,
         "lineupLocked": false,
         "onTeamId": 3,
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Justice Hill and the Ravens host the winless Chargers on Monday Night Football in Week 10. He erupted for 85 yards on nine carries, including a 65-yard TD run, and caught all three of his targets for seven yards during Baltimore's Week 9 loss. With Jacoby Brissett expected to start under center, Hill and the Ravens' offense could start to become a bit more pass-friendly, but that's certainly no guarantee. He'll look to keep contributing against the Chargers' 21st-ranked defense in fantasy points allowed per game (22.8) to opposing RBs.",
-        "2": "Justice Hill and the Ravens are at home to battle the Saints in Week 2. Hill rushed six times for 18 yards and had one catch for 10 yards in Baltimore's 41-23 win. He's established himself as the clear No. 2 RB, as his 31 offensive snaps trailed slightly behind Derrick Henry's 37. Hill should continue to see opportunities as a change-of-pace back against a New Orleans defense that ranks 28th in fantasy points allowed per game (38.4) to RBs.",
-        "3": "Justice Hill and the Ravens travel to face a Cowboys defense in Week 3 that ranks 25th in fantasy points per game (25.9) allowed to running backs. He tallied two carries for six yards and caught both of his targets for eight yards during Baltimore's 24-17 Week 2 loss to the Saints. As long as Derrick Henry, who accounted for 16 of 18 carries out of the backfield, is healthy, Hill's action will be limited as the No. 2 RB. However, in a contest that is expected to be high-scoring, Hill could contribute as a receiver, but he's still a risky fantasy play outside of deeper leagues.",
-        "4": "Justice Hill and the Ravens are back home to host the 0-3 Titans in Week 4. He was explosive with his five carries during Baltimore's thrilling Week 3 victory, racking up 33 yards and a 6.6 average. However, Derrick Henry handled 26 of the 31 total carries for running backs, and he remains in firm control of the Ravens' backfield. Tennessee's defense ranks 17th in fantasy points allowed (20.7) to RBs, and despite the possibility of Baltimore playing from ahead, Hill's involvement will continue to be limited.",
-        "5": "Justice Hill and the Ravens visit the Falcons for a Week 5 showdown. He rushed once for three yards and caught two of three targets for 22 yards during Baltimore's 24-18 victory in Week 4. Derrick Henry out-carried Hill 23-1, even with Lamar Jackson missing the entire second half with an ankle injury. It appears that regardless of who's under center, the Ravens' backfield belongs to Henry. Hill should remain on fantasy benches against an Atlanta defense allowing just 17.9 points per game to RBs, which ranks ninth.",
-        "6": "Justice Hill and the Ravens visit the division-rival Browns in Week 6. He rushed four times for 73 yards and caught two of four targets for five yards during Baltimore's Week 5 overtime win. Derrick Henry out-carried him 24-4, although Hill led the way with a game-long 47-yard run. However, as long as Henry is the lead back and the Ravens don't fall into a massive deficit, Hill's involvement in the offense will remain limited.",
-        "7": "Justice Hill and the Ravens host the Bengals for an AFC North clash in Week 7. He did not record a carry but brought in all three of his targets for nine yards during Baltimore's 13-10 loss in Week 6. Derrick Henry accounted for 17 of the 18 rushing attempts out of the Ravens' backfield, a trend that should continue as long as he remains healthy. Hill should remain on fantasy benches against a Cincinnati defense that is tied for ninth in fantasy points allowed per game (19.0) to RBs",
-        "8": "Justice Hill and the Ravens are on the road for a Week 8 meeting with the Bills. He had three carries for seven yards and caught three of four targets for 26 yards during Baltimore's 35-13 loss in Week 7. Rasheen Ali registered 19 yards on four carries, but that can likely be attributed to the Ravens giving up all 35 points in the second half. Regardless, as long as Derrick Henry is healthy, Hill's involvement on offense will continue to be limited.",
-        "9": "Justice Hill and the Ravens return home for a meeting with the Jaguars on Thursday Night Football in Week 9. He rushed three times for 15 yards and caught four of eight targets for 20 yards during Baltimore's Week 8 loss. Hill led the team in receptions and targets while finishing second in yardage in a game where the Ravens managed just 167 total yards of offense. He could earn similar opportunities with Lamar Jackson (thumb) on IR and Joe Fagnano (knee) likely to start, but it's going to be difficult to trust any Baltimore player in fantasy going forward."
       }
     },
     {
@@ -2090,7 +2076,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Montgomery",
-        "lastNewsDate": 1795031808000,
+        "lastNewsDate": 1795149410000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -2250,7 +2236,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Taylor",
-        "lastNewsDate": 1794781400000,
+        "lastNewsDate": 1795150015000,
         "lastVideoDate": 1794813612000,
         "proTeamId": 11,
         "seasonOutlook": "Taylor enters the 2026 season having improved in fantasy points per game in each of the past three years. Last season, he delivered his best production since his huge 2021 campaign, as he paced the NFL in carries and TDs while finishing second in carries inside the 5-yard line (19) and fourth in fantasy points. A piece of the step forward was increased usage in the passing game, as he ranked in the top 10 among backs in routes, targets, catches and receiving yards, setting career highs in each. Taylor's season likely would've been even better had QB Daniel Jones not been injured, as the running back averaged 24.8 points with Jones but 12.9 without him. Jones is expected to be ready to play in Week 1, so the 27-year-old Taylor is safe to value as a mid- to high-end RB1.",
