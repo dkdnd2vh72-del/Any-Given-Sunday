@@ -259,7 +259,78 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[37]",
+      "path": "$.mTransactions2.transactions[34]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "CANCEL",
+        "id": "1c7d5338-cfee-4e30-8135-6ff4ff3d99a0",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
+        "proposedDate": 1795290760212,
+        "rating": 0,
+        "relatedTransactionId": "8ce265da-fe25-43d8-bbba-2d86637ea1fe",
+        "scoringPeriodId": 11,
+        "status": "CANCELED",
+        "teamId": 3,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[34].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426388,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[34].items[1]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567048,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[34].items[2]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[34].items[3]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[38]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -278,7 +349,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38]",
+      "path": "$.mTransactions2.transactions[39]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -297,7 +368,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[0]",
+      "path": "$.mTransactions2.transactions[39].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -310,7 +381,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[1]",
+      "path": "$.mTransactions2.transactions[39].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -323,7 +394,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[2]",
+      "path": "$.mTransactions2.transactions[39].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 1,
@@ -336,7 +407,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38].items[3]",
+      "path": "$.mTransactions2.transactions[39].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 1,
@@ -349,7 +420,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[46]",
+      "path": "$.mTransactions2.transactions[47]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -368,7 +439,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[46].items[0]",
+      "path": "$.mTransactions2.transactions[47].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -381,7 +452,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[46].items[1]",
+      "path": "$.mTransactions2.transactions[47].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -4958,7 +5029,7 @@
         "injured": true,
         "injuryStatus": "OUT",
         "lastName": "Jacobs",
-        "lastNewsDate": 1794929708000,
+        "lastNewsDate": 1795285782000,
         "lastVideoDate": 1793198730000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
