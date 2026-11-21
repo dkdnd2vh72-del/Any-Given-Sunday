@@ -1,7 +1,265 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[33]",
+      "path": "$.mTransactions2.transactions[1]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "CANCEL",
+        "id": "43b7e02d-2e04-4921-8ce3-8f707ecaf3d4",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795217539439,
+        "rating": 0,
+        "relatedTransactionId": "1bca691f-5660-490a-8351-3092f563ec1e",
+        "scoringPeriodId": 11,
+        "status": "CANCELED",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[1].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 12,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[1].items[1]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 12,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[1].items[2]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 12,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4259545,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[1].items[3]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 12,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4262921,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[9]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "CANCEL",
+        "id": "42012795-a85a-40f2-b756-1c1353764485",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795217513946,
+        "rating": 0,
+        "relatedTransactionId": "20395b02-3476-46cb-b0b3-cf74342d2649",
+        "scoringPeriodId": 11,
+        "status": "CANCELED",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[9].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[9].items[1]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[9].items[2]",
+      "values": {
+        "fromLineupSlotId": 23,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4685472,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[9].items[3]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4379399,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[13]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "CANCEL",
+        "id": "54e3cfe5-a248-4c6c-a36b-49ae40b5c8f8",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795217477128,
+        "rating": 0,
+        "relatedTransactionId": "4250d1ad-9420-4bdf-8d46-a3e3112c9430",
+        "scoringPeriodId": 11,
+        "status": "CANCELED",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[13].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 8,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[13].items[1]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 8,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[13].items[2]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 8,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4258173,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[13].items[3]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 8,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4882093,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[32]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "CANCEL",
+        "id": "657b9dff-3d90-4b7b-a562-1f1f5ce24136",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795217549474,
+        "rating": 0,
+        "relatedTransactionId": "7538c434-9e4a-4024-84b3-de086b0b375e",
+        "scoringPeriodId": 11,
+        "status": "CANCELED",
+        "teamId": 14,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[32].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[32].items[1]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4239993,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[37]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,26 +278,26 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41]",
+      "path": "$.mTransactions2.transactions[38]",
       "values": {
         "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1795312836320,
-        "id": "7538c434-9e4a-4024-84b3-de086b0b375e",
+        "executionType": "CANCEL",
+        "id": "98ccd101-ddcb-4174-8f89-0ae20acf998a",
         "isActingAsTeamOwner": false,
         "isLeagueManager": false,
-        "isPending": true,
+        "isPending": false,
         "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
-        "proposedDate": 1795140036289,
+        "proposedDate": 1795217554934,
         "rating": 0,
+        "relatedTransactionId": "6ea9a7e9-3758-4c82-a02f-688c1e7e2a9d",
         "scoringPeriodId": 11,
-        "status": "PENDING",
+        "status": "CANCELED",
         "teamId": 14,
         "type": "TRADE_PROPOSAL"
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[0]",
+      "path": "$.mTransactions2.transactions[38].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -47,25 +305,51 @@
         "overallPickNumber": 0,
         "playerId": 4426502,
         "toLineupSlotId": -1,
-        "toTeamId": 5,
+        "toTeamId": 1,
         "type": "TRADE"
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[1]",
+      "path": "$.mTransactions2.transactions[38].items[1]",
       "values": {
-        "fromLineupSlotId": 4,
-        "fromTeamId": 5,
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
         "isKeeper": false,
         "overallPickNumber": 0,
-        "playerId": 4239993,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 1,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[38].items[2]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 1,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4430737,
         "toLineupSlotId": -1,
         "toTeamId": 14,
         "type": "TRADE"
       }
     },
     {
-      "path": "$.mPendingTransactions.pendingTransactions[0]",
+      "path": "$.mTransactions2.transactions[38].items[3]",
+      "values": {
+        "fromLineupSlotId": 4,
+        "fromTeamId": 1,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4241389,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[46]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -84,9 +368,8 @@
       }
     },
     {
-      "path": "$.mPendingTransactions.pendingTransactions[0].items[0]",
+      "path": "$.mTransactions2.transactions[46].items[0]",
       "values": {
-        "acquisitionBudget": 0,
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
         "isKeeper": false,
@@ -98,9 +381,8 @@
       }
     },
     {
-      "path": "$.mPendingTransactions.pendingTransactions[0].items[1]",
+      "path": "$.mTransactions2.transactions[46].items[1]",
       "values": {
-        "acquisitionBudget": 0,
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
         "isKeeper": false,
@@ -470,53 +752,6 @@
       }
     },
     {
-      "path": "$.mTeam.teams[3].pendingTransactions[0]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1795312836320,
-        "id": "7538c434-9e4a-4024-84b3-de086b0b375e",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
-        "proposedDate": 1795140036289,
-        "rating": 0,
-        "scoringPeriodId": 11,
-        "skipTransactionCounters": false,
-        "status": "PENDING",
-        "subOrder": 5,
-        "teamId": 14,
-        "type": "TRADE_PROPOSAL"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[3].pendingTransactions[0].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4426502,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[3].pendingTransactions[0].items[1]",
-      "values": {
-        "fromLineupSlotId": 4,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4239993,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
       "path": "$.mTeam.teams[3].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 111,
@@ -748,53 +983,6 @@
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
         "waiverRank": 2
-      }
-    },
-    {
-      "path": "$.mTeam.teams[9].pendingTransactions[0]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1795312836320,
-        "id": "7538c434-9e4a-4024-84b3-de086b0b375e",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
-        "proposedDate": 1795140036289,
-        "rating": 0,
-        "scoringPeriodId": 11,
-        "skipTransactionCounters": false,
-        "status": "PENDING",
-        "subOrder": 5,
-        "teamId": 14,
-        "type": "TRADE_PROPOSAL"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[9].pendingTransactions[0].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4426502,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[9].pendingTransactions[0].items[1]",
-      "values": {
-        "fromLineupSlotId": 4,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4239993,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
       }
     },
     {
@@ -1066,9 +1254,9 @@
         "fullName": "Jakobi Meyers",
         "id": 3916433,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Meyers",
-        "lastNewsDate": 1795123243000,
+        "lastNewsDate": 1795209118000,
         "lastVideoDate": 1790533083000,
         "proTeamId": 30,
         "seasonOutlook": "One of the league's most underrated players, Meyers is entering his first full season with Jacksonville after being acquired via trade in November. The 2019 UDFA has produced 800-plus receiving yards in five consecutive seasons while operating primarily as a short-to-intermediate target. More of a solid producer than a high-ceiling contributor, Meyers has finished no lower than 32nd in fantasy points over the last five seasons, but has yet to do better than 19th. The 29-year-old isn't much of a touchdown scorer (23 TDs in 78 games since 2021) and has substantial target competition via Parker Washington, Brian Thomas Jr., Brenton Strange and Travis Hunter. Meyers is a good player, but is likely to cap out as a flex option.",
@@ -1659,9 +1847,9 @@
         "fullName": "Jaylen Waddle",
         "id": 4372016,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Waddle",
-        "lastNewsDate": 1795127293000,
+        "lastNewsDate": 1795211827000,
         "lastVideoDate": 1794243043000,
         "proTeamId": 7,
         "seasonOutlook": "Waddle was traded to Denver after spending his first five seasons in Miami. The 2021 first-round pick was solid during his Dolphins tenure, finishing in the top 30 among receivers in fantasy PPG four times, though never reaching the top 10 while often playing second fiddle to Tyreek Hill. Although he has been a reliable target and has missed only seven games in five years, Waddle hasn't finished a season higher than 20th in targets or catches since 2021. In Denver, the 27-year-old Waddle will compete with Courtland Sutton for the team lead in targets in a scheme that likes to spread the ball around. Not utilized near the goal line much at 5-foot-10 and 180 pounds (he's yet to clear seven end zone targets in a season), Waddle is likely to max out as a back-end WR2 in Denver.",
@@ -2716,9 +2904,9 @@
         "fullName": "Isaiah Likely",
         "id": 4361050,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Likely",
-        "lastNewsDate": 1795199426000,
+        "lastNewsDate": 1795209338000,
         "lastVideoDate": 1792965097000,
         "proTeamId": 19,
         "seasonOutlook": "Likely signed with the Giants after four years of backing up Mark Andrews in Baltimore. Likely is reuniting with coach John Harbaugh and is finally expected to play a consistent offensive role. During his time in Baltimore, Likely was limited to 50% of the team's offensive snaps and never finished a season better than 20th among tight ends in snaps, routes, targets, catches, yards or fantasy PPG. His only extensive stretch with Andrews sidelined came back in 2023. During the seven-game span, Likely posted a 23-356-6 receiving line on a 16% target share and averaged a solid 13.5 fantasy PPG. The 26-year-old is obviously unproven, but his receiving skills in New York's ascending offense are enough to put him on the TE2 radar.",
@@ -3874,7 +4062,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Swift",
-        "lastNewsDate": 1794201477000,
+        "lastNewsDate": 1795216406000,
         "lastVideoDate": 1792348742000,
         "proTeamId": 3,
         "seasonOutlook": "Swift is entering his seventh NFL season and third with Chicago. The veteran back was busy as both a rusher and receiver en route to clearing 1,300 scrimmage yards in each of his first two seasons with the Bears. Though he found the end zone 10 times and finished 17th among backs in fantasy points per game last season, Swift deferred substantial work to Kyle Monangai and is likely to be in even more of a timeshare in 2026. Still in his prime at age 27, Swift continues to play at a high level (4.87 yards per carry last season), but his role in the Chicago offense figures to limit him to low-ceiling RB2/flex production.",
@@ -5518,10 +5706,10 @@
         "fullName": "LeQuint Allen Jr.",
         "id": 4911851,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "jersey": "5",
         "lastName": "Allen Jr.",
-        "lastNewsDate": 1795123615000,
+        "lastNewsDate": 1795210634000,
         "proTeamId": 30,
         "seasonOutlook": "A 2025 seventh-round pick, Allen is set to compete with fellow second-year back Bhayshul Tuten and newcomer Chris Rodriguez Jr. for work in the Jacksonville backfield. As a rookie, Allen played 22% of the Jaguars' offensive snaps (82% of which were pass plays), but was limited to just 33 touches and failed to find the end zone or reach 4.0 fantasy points in a single game. It's likely that Tuten will operate as the Jaguars' primary back, with Rodriguez busy on early downs and short-yardage situations, and Allen used as a passing-down specialist, same as in 2025. That said, none of the three are established as lead backs, so there's an opportunity for Allen to force his way into a larger role. The 22-year-old is worth no more than a late-round flier."
       }
