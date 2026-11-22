@@ -1,7 +1,26 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[1]",
+      "path": "$.mTransactions2.transactions[0]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "76f1a1c9-257b-4d2c-9d8d-0c684e8d6798",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{2EE90615-A7AD-4143-946E-BC8497150CC6}",
+        "proposedDate": 1795321134664,
+        "rating": 0,
+        "relatedTransactionId": "b41c5404-e604-4f39-94ed-3d6d7a778198",
+        "scoringPeriodId": 11,
+        "status": "EXECUTED",
+        "teamId": 12,
+        "type": "TRADE_VETO"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[2]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -20,7 +39,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[1].items[0]",
+      "path": "$.mTransactions2.transactions[2].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -33,7 +52,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[1].items[1]",
+      "path": "$.mTransactions2.transactions[2].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -46,7 +65,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[1].items[2]",
+      "path": "$.mTransactions2.transactions[2].items[2]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 12,
@@ -59,7 +78,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[1].items[3]",
+      "path": "$.mTransactions2.transactions[2].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 12,
@@ -72,7 +91,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[9]",
+      "path": "$.mTransactions2.transactions[10]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -91,7 +110,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[9].items[0]",
+      "path": "$.mTransactions2.transactions[10].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -104,7 +123,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[9].items[1]",
+      "path": "$.mTransactions2.transactions[10].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -117,7 +136,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[9].items[2]",
+      "path": "$.mTransactions2.transactions[10].items[2]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 3,
@@ -130,7 +149,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[9].items[3]",
+      "path": "$.mTransactions2.transactions[10].items[3]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 3,
@@ -143,7 +162,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13]",
+      "path": "$.mTransactions2.transactions[14]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -162,7 +181,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[0]",
+      "path": "$.mTransactions2.transactions[14].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -175,7 +194,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[1]",
+      "path": "$.mTransactions2.transactions[14].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -188,7 +207,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[2]",
+      "path": "$.mTransactions2.transactions[14].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 8,
@@ -201,7 +220,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[3]",
+      "path": "$.mTransactions2.transactions[14].items[3]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 8,
@@ -214,7 +233,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[32]",
+      "path": "$.mTransactions2.transactions[33]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -233,7 +252,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[32].items[0]",
+      "path": "$.mTransactions2.transactions[33].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -246,7 +265,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[32].items[1]",
+      "path": "$.mTransactions2.transactions[33].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -259,7 +278,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[34]",
+      "path": "$.mTransactions2.transactions[35]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -278,7 +297,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[34].items[0]",
+      "path": "$.mTransactions2.transactions[35].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 3,
@@ -291,7 +310,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[34].items[1]",
+      "path": "$.mTransactions2.transactions[35].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 3,
@@ -304,7 +323,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[34].items[2]",
+      "path": "$.mTransactions2.transactions[35].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -317,7 +336,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[34].items[3]",
+      "path": "$.mTransactions2.transactions[35].items[3]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -330,7 +349,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[38]",
+      "path": "$.mTransactions2.transactions[40]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -349,7 +368,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39]",
+      "path": "$.mTransactions2.transactions[41]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -368,7 +387,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[0]",
+      "path": "$.mTransactions2.transactions[41].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -381,7 +400,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[1]",
+      "path": "$.mTransactions2.transactions[41].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -394,7 +413,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[2]",
+      "path": "$.mTransactions2.transactions[41].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 1,
@@ -407,7 +426,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[39].items[3]",
+      "path": "$.mTransactions2.transactions[41].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 1,
@@ -420,7 +439,25 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47]",
+      "path": "$.mTransactions2.transactions[48]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "46e6a415-63cd-4cda-ba2a-001419c94c74",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795320433430,
+        "rating": 0,
+        "relatedTransactionId": "b41c5404-e604-4f39-94ed-3d6d7a778198",
+        "scoringPeriodId": 11,
+        "teamId": 14,
+        "type": "TRADE_ACCEPT"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[50]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -439,7 +476,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[0]",
+      "path": "$.mTransactions2.transactions[50].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -452,7 +489,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[47].items[1]",
+      "path": "$.mTransactions2.transactions[50].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -461,6 +498,83 @@
         "playerId": 4239993,
         "toLineupSlotId": -1,
         "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0]",
+      "values": {
+        "acceptedDate": 1795320433462,
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795459527089,
+        "id": "b41c5404-e604-4f39-94ed-3d6d7a778198",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
+        "processDate": 1795507200000,
+        "proposedDate": 1795286727053,
+        "rating": 0,
+        "scoringPeriodId": 11,
+        "status": "PENDING",
+        "teamId": 3,
+        "type": "TRADE_ACCEPT"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0].items[0]",
+      "values": {
+        "acquisitionBudget": 0,
+        "fromLineupSlotId": 20,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567048,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0].items[1]",
+      "values": {
+        "acquisitionBudget": 0,
+        "fromLineupSlotId": 23,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4685472,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0].items[2]",
+      "values": {
+        "acquisitionBudget": 0,
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0].items[3]",
+      "values": {
+        "acquisitionBudget": 0,
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
         "type": "TRADE"
       }
     },
@@ -709,10 +823,10 @@
       "path": "$.mTeam.teams[0].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
-        "acquisitions": 10,
-        "drops": 9,
+        "acquisitions": 11,
+        "drops": 10,
         "misc": 0,
-        "moveToActive": 16,
+        "moveToActive": 17,
         "moveToIR": 5,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -745,6 +859,81 @@
       }
     },
     {
+      "path": "$.mTeam.teams[1].pendingTransactions[0]",
+      "values": {
+        "acceptedDate": 1795320433462,
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795459527089,
+        "id": "b41c5404-e604-4f39-94ed-3d6d7a778198",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
+        "processDate": 1795507200000,
+        "proposedDate": 1795286727053,
+        "rating": 0,
+        "scoringPeriodId": 11,
+        "skipTransactionCounters": false,
+        "status": "PENDING",
+        "subOrder": 1,
+        "teamId": 3,
+        "type": "TRADE_ACCEPT"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[1].pendingTransactions[0].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567048,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[1].pendingTransactions[0].items[1]",
+      "values": {
+        "fromLineupSlotId": 23,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4685472,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[1].pendingTransactions[0].items[2]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[1].pendingTransactions[0].items[3]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 100,
@@ -755,7 +944,7 @@
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
-        "trades": 0
+        "trades": 1
       }
     },
     {
@@ -1057,6 +1246,81 @@
       }
     },
     {
+      "path": "$.mTeam.teams[9].pendingTransactions[0]",
+      "values": {
+        "acceptedDate": 1795320433462,
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795459527089,
+        "id": "b41c5404-e604-4f39-94ed-3d6d7a778198",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
+        "processDate": 1795507200000,
+        "proposedDate": 1795286727053,
+        "rating": 0,
+        "scoringPeriodId": 11,
+        "skipTransactionCounters": false,
+        "status": "PENDING",
+        "subOrder": 1,
+        "teamId": 3,
+        "type": "TRADE_ACCEPT"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[0].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567048,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[0].items[1]",
+      "values": {
+        "fromLineupSlotId": 23,
+        "fromTeamId": 3,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4685472,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[0].items[2]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4426502,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[0].items[3]",
+      "values": {
+        "fromLineupSlotId": 2,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4361579,
+        "toLineupSlotId": -1,
+        "toTeamId": 3,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
@@ -1067,13 +1331,13 @@
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
-        "trades": 1
+        "trades": 2
       }
     },
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 123.88000000000001,
+        "appliedStatTotal": 134.58,
         "tradeReservedEntries": 0
       }
     },
@@ -1276,34 +1540,6 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.0,
-        "id": 2473037,
-        "keeperValue": 0,
-        "keeperValueFuture": 13,
-        "lineupLocked": false,
-        "onTeamId": 1,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Jason Myers will hope for more kicking opportunities when Seattle faces Las Vegas in Week 10. Myers made his lone field goal and both his extra-point tries in Week 9 against Arizona as the Seahawks scored fewer than 21 points for the fourth straight week. The veteran kicker has been good when called upon this season, though, making 16 of 18 FG tries through nine games. He could be more active against the Raiders, who are giving up a league-worst 29.8 points per game.",
-        "2": "Jason Myers will look to remain perfect this season when the Seahawks visit Arizona in Week 2. Myers made his lone PAT try and both field-goal attempts in a season-opening win over New England, though his FGs were relative chip shots from 30 and 26 yards. Myers made nine field goals from 50-plus yards out each of the previous two seasons, however, so he has plenty of leg to convert from that distance when called upon. The Cardinals aren't expected to be a top NFL defense this year, but they performed well in limiting the Chargers to 14 points in a Week 1 victory.",
-        "3": "Jason Myers has provided Seattle with a steady boot this season heading into a Week 3 matchup against Washington. The veteran kicker has made all three of his field-goal tries and all five of his PAT attempts through two weeks. However, he hasn't yet been asked to hit from distance, as none of his FG tries have been from 40 yards or greater. The Commanders have yielded a whopping 30.5 points per game through two weeks, so Myers could get plenty of opportunities to kick in Week 3.",
-        "4": "Jason Myers enters Seattle's Week 4 clash against the Chargers having not missed a kick so far this season. Myers handled only relatively short kicks over his first two games, but he showed off his leg with a 57-yard field goal against Washington in Week 3. The veteran kicker is now 4-for-4 on FG tries and 9-for-9 on extra-point attempts this season. Opponents have gone 6-for-7 on field-goal attempts against the Chargers so far this year.",
-        "5": "Jason Myers has had a quiet campaign so far with Seattle on tap to host San Francisco in Week 5. After attempting a career-high 48 field goals in 2025, Myers has had just five FG tries so far this season, making all of them. He's been more active kicking extra points, making 12 of 13 PATs. Perhaps Myers will be relied upon more versus the 49ers, who have allowed just five extra-point tries as opposed to nine FG attempts so far in 2026.",
-        "6": "Jason Myers is coming off a huge fantasy performance with Seattle's Week 6 matchup in the Denver altitude on tap. Myers made all five of his field-goal tries and both of his extra-point attempts in a loss to San Francisco this past Sunday, with all five of his FGs coming from 40-plus yards. Fantasy managers who roster Myers were likely waiting for this type of performance, as the veteran kicker had attempted (and made) only five field goals combined over the first four weeks of the campaign. Opponents are 9-for-11 in FG attempts against the Broncos this season.",
-        "7": "Jason Meyers and the Seahawks are back home to face off against the 5-0 Chiefs on Sunday Night Football in Week 7. He went 2-for-3 on field-goal attempts and did not attempt a PAT during Seattle's 17-14 overtime loss in Week 6. The missed field goal was his first of the season, giving the 35-year-old a 12-for-13 (92.3%) tally through six games. Meyers and the Seahawks offense could struggle to operate versus a Kansas City defense allowing 16.6 points per game, which is the second-best mark in the league.",
-        "8": "Jason Myers is in the midst of one of his most accurate NFL seasons going into Seattle's Week 8 matchup against Chicago. Myers has gone 14-for-15 on field-goal tries through seven games and is 16-for-17 on PAT attempts. He's made all three of his field-goal tries from 50-plus yards, with his only miss this season being a 47-yard attempt. However, the Bears haven't yielded many FG tries, allowing just 10 through seven weeks.",
-        "9": "Jason Myers will look to rebound from a poor performance when Seattle faces off against Arizona in Week 9. Versus the Bears in Week 8, Myers had a field goal attempt blocked and also missed an extra-point try in a Seahawks loss. The PAT miss was just his second of the season, and Myers is a solid 15-for-17 on FG tries, so the rough game shouldn't affect his job security. He could get plenty of opportunities to kick against the Cardinals, who are giving up a league-worst 29.8 points per game."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 6.4,
         "id": 3916433,
         "keeperValue": 9,
@@ -1316,7 +1552,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 3,
@@ -1335,7 +1571,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Jakobi Meyers is a strong Week 10 flex play against a Titans defense that has struggled to cover wide receivers. Tennessee is allowing a league-high 15.3 catches for 195 yards per game to the position. Meyers has had an up-and-down season as Jacksonville's No. 2 WR but has trended in the right direction recently, notching two of his three best performances this season for both receiving yards and targets within the last three games. He's more likely to produce a peak than a valley in the first of Jacksonville's two meetings this season against Tennessee's league-worst secondary.",
         "11": "Jakobi Meyers ranks second on the Jaguars behind Parker Washington in both receiving yards (408) and targets (43), but the gap between Washington and Meyers is far larger than the gap between Meyers and TE Brenton Strange for the role of Trevor Lawrence's No. 2 target. Meyers has exceeded 65 yards just once all season and hasn't scored since Week 3, so he has been a disappointment more often than not for fantasy managers plugging him into a flex spot. He'll have a decent opportunity to end his six-game touchdown drought in Week 11 against a Giants secondary that has allowed WRs to score 11 times in nine games, though the Giants hold wideouts to just 127 yards per game. As usual, Meyers is a fine deep-league flex but not a player to get particularly excited about.",
@@ -1349,7 +1585,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.9,
         "id": 4430539,
@@ -1363,7 +1599,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Brenton Strange is a viable fantasy option in Week 10 against the Titans, but he's far from a must-start. He leads the Jaguars with 30 catches through eight games but hasn't scored since the season opener and is averaging 45 yards per game, which ranks 10th among TEs. Tennessee has struggled to defend the pass in general, but the Titans have limited TEs to 43 yards per game, though they have also given up four TDs to the position through eight games.",
         "11": "Brenton Strange remains a borderline fantasy starter at TE for Week 11 against the Giants. He scored his first TD since Week 1 in Jacksonville's Week 10 win over the Titans but had just nine receiving yards, dropping his season average to 41 yards per game. That's right in line with the 48 receiving yards per game that the Giants allow to TEs, as they are a better-than-average defense against the position. Rookies Nate Boerkircher and Tanner Koziol have each recorded at least one catch in three consecutive games, but Strange remains the clear No. 1 TE for Jacksonville, handling a snap share north of 75%.",
@@ -1377,7 +1613,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": -16027,
@@ -1391,7 +1627,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.5,
         "id": -16012,
@@ -1405,7 +1641,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[12].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 16,
@@ -1421,7 +1657,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.7,
         "id": 5081397,
@@ -1435,7 +1671,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Dylan Sampson and the Browns return home to face off against Houston in Week 10. He had eight carries for 21 yards and caught three of six targets for 27 yards during Cleveland's Week 9 overtime loss. Sampson finished tied for second on the team in targets, and with the Browns' offense likely to play from behind most weeks, he could provide a boost as the preferred back on passing downs. Sampson will aim to contribute more facing a Houston defense allowing 22.4 fantasy points per game (20th) to opposing RBs.",
         "2": "Dylan Sampson and the Browns are in Tampa Bay to face the Buccaneers in Week 2. Unfortunately for the second-year pro, he's expected to miss \"significant time\" with a left knee injury sustained in Cleveland's 34-10 season-opening loss, according to ESPN's Jeremy Fowler. The severity of his injury is still being evaluated, but there's a high chance of him being placed on IR once more information comes out.",
@@ -1444,7 +1680,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4371733,
@@ -1458,7 +1694,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -1477,7 +1713,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[0].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "11": "Kenny Gainwell is expected to remain Tampa Bay's No. 2 running back in the Week 11 matchup against the Lions. Despite Gainwell playing behind Bucky Irving, he's tallied 304 yards from scrimmage over the Buccaneers' last three games. Additionally, head coach Todd Bowles told reporters Monday that the team will aim to lessen Irving's workload going forward, suggesting Gainwell's role on the offense could expand as the year progresses. However, Gainwell may struggle against the Lions in Week 11, as the Detroit has allowed just 3.7 yards per carry to opposing running backs this year.",
         "2": "Kenneth Gainwell is expected to operate as the Buccaneers' No. 2 running back in the Week 2 matchup against the Browns. Gainwell was thought to be Tampa Bay's top receiving back heading into the season. However, he was overshadowed by Bucky Irving in Week 1, who caught all seven of his targets for 48 yards, while Gainwell was targeted just once. He will likely need more receiving work to be fantasy relevant in a Week 2 matchup against a Browns defense that allowed just two receptions for 22 yards to RBs last week.",
@@ -1488,6 +1724,34 @@
         "7": "Kenny Gainwell is expected to remain the Buccaneers' No. 2 running back in the Week 7 matchup against the Panthers. Gainwell was given few opportunities in the Week 6 overtime loss to the Steelers, accumulating 24 total yards on just three touches. Additionally, Gainwell was on the field for just 15% of Tampa Bay's offensive plays, his lowest mark of the season. It appears as if Gainwell is trending toward receiving less work as the season progresses, but he's in for a favorable Week 7 matchup against a Panthers defense that's allowed 5.1 yards per carry this season.",
         "8": "Kenny Gainwell is expected to operate as the Buccaneers' No. 2 running back in the Week 8 matchup against the Falcons. Gainwell had his most productive outing of the 2026 campaign in the Week 7 win over the Panthers, rushing 14 times for 88 yards. Despite his productive day, Gainwell still tallied 10 fewer carries than Bucky Irving (24 rushes for 106 yards and two touchdowns), suggesting he remains firmly behind Irving in Tampa Bay's backfield. However, Gainwell could remain successful in Week 8 against a Falcons defense that's given up 10 total touchdowns to running backs this season.",
         "9": "Kenny Gainwell will look to stay hot in the Buccaneers' Week 9 matchup against the Bears. He racked up a career-high 140 rushing yards on 25 carries in the Week 8 win over the Falcons, bringing his season total to 289 yards (5.0 yards per carry). Despite Gainwell's huge performance, he still remains firmly behind Bucky Irving in the Buccaneers' backfield. Gainwell could struggle, especially against a strong Bears defense that has allowed just three rushing touchdowns to RBs all season."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 12.700000000000001,
+        "id": 4362081,
+        "keeperValue": 12,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 1,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Cameron Dicker continues to benefit from the Chargers' inability to finish drives. The 26-year-old kicker has booted multiple field goals in five of the last six games, going 15-for-16 on FG attempts over that stretch but attempting just six extra points, converting them all. The steady volume gives Dicker a solid floor heading into a Week 10 clash with a Ravens team allowing 26.2 points per game, tied for 25th in the league.",
+        "11": "Cameron Dicker booted three field goals for a third straight game, and the fifth time in the last seven, as the Chargers recorded their first win of 2026 in a Week 10 victory over the Ravens. The team's offensive struggles have created extra FG opportunities for its kicker, and Dicker has yet to kick more than two PATs in a game even as his field goal volume remains steady. That gives him a somewhat reliable floor, but a questionable ceiling, heading into a Week 11 clash with a Jets team allowing 25.4 points a contest, 22nd in the league.",
+        "2": "Cameron Dicker didn't get many chances to hit the scoreboard in the Chargers' season-opening loss to the Cardinals, converting both his extra points but failing to see a field-goal attempt. The team's offense didn't quite look in sync yet under new coordinator Mike McDaniel, and top wideout Ladd McConkey was knocked out of the game early with a rib injury, so scoring drives could be tough to come by for the club in the short term. Dicker will look to bounce back in Week 2 against a Raiders team that finished 25th in points per game allowed in 2025.",
+        "3": "Cameron Dicker has had a rough start to the season as the Chargers adjust to a new offensive scheme under Mike McDaniel. The fifth-year kicker has converted all four of his PATs through two games, but his only field-goal attempt so far came from 58 yards out, and he clanked it off the upright. Better days should be ahead for Dicker and the offense, but his streak of seasons with 40-plus FG attempts could be about to come to an abrupt end. Dicker could be a little busier in Week 3 against a Bills team that's allowed 31.0 points a game in the early going, tied for the third-worst total in the league.",
+        "4": "Cameron Dicker has had a shaky start to the season as the Chargers struggle to put points on the board. The fifth-year kicker has seen just five extra points in three games, converting all five, and he's connected on just three of five FG attempts, with all three makes coming in a Week 3 loss to the Bills. That volatility isn't fantasy-friendly, and until the team's skill players begin to get the hang of new offensive coordinator Mike McDaniel's scheme, Dicker's volume is likely to remain limited. He probably won't be able to afford to squander any chances in Week 4 against a Seahawks team allowing just 16.7 points per game, tied for third in the league.",
+        "5": "Cameron Dicker's volume increased for a second straight week in the Chargers' Week 4 loss to the Seahawks, converting all three of his field-goal attempts and both of his PATs. While the team's offense continues to struggle, Justin Herbert is at least putting together longer drives, and during those two contests Dicker has gone 6-for-7 on FG tries with all of his attempts coming from inside 50 yards. He likely won't be able to squander many chances in Week 5 against a Broncos team allowing 23.5 points per game, 17th in the league.",
+        "6": "Cameron Dicker's opportunities continue to be inconsistent due to the struggles of the Chargers' offense. The kicker hasn't attempted more than two PATs in any of the team's first five games, going a perfect 9-for-9, and he's seen one or fewer field goal attempts in three of those five contests. With the offensive line in shambles and Justin Herbert running out of healthy targets, Dicker's volume doesn't seem likely to pick up anytime soon. He'll face a Kansas City squad in Week 6 that's allowing 19.3 points per game, seventh in the league.",
+        "8": "Cameron Dicker failed to get an extra-point attempt in Week 6 for the first time this season, accounting for all the Chargers' points with two field goals in a 22-6 loss to Kansas City. Coming out of a bye, the offense will hopefully be a bit healthier and energized, providing Dicker with more opportunities, but he has kicked multiple field goals in three of the last four contests. In Week 8, he'll take aim at a Rams team that's allowing 22.7 points per game, 16th in the league.",
+        "9": "Cameron Dicker hasn't missed a kick in four straight games, converting all three of his field goal attempts in a Week 8 loss to the Rams but failing to even see a PAT for a second straight contest. The Chargers' offensive struggles limit Dicker's opportunities despite his accuracy, and the advantage of playing his home games indoors. Dicker will look for a little more volume in Week 9 against an underperforming Texans team that's giving up 24.3 points per game, 18th in the league."
       }
     },
     {
@@ -1536,7 +1800,7 @@
         "onTeamId": 3,
         "rosterLocked": false,
         "status": "ONTEAM",
-        "tradeLocked": false
+        "tradeLocked": true
       }
     },
     {
@@ -1550,7 +1814,7 @@
         "onTeamId": 3,
         "rosterLocked": false,
         "status": "ONTEAM",
-        "tradeLocked": false
+        "tradeLocked": true
       }
     },
     {
@@ -4874,7 +5138,7 @@
         "onTeamId": 14,
         "rosterLocked": false,
         "status": "ONTEAM",
-        "tradeLocked": false
+        "tradeLocked": true
       }
     },
     {
@@ -5170,7 +5434,7 @@
         "onTeamId": 14,
         "rosterLocked": false,
         "status": "ONTEAM",
-        "tradeLocked": false
+        "tradeLocked": true
       }
     },
     {
