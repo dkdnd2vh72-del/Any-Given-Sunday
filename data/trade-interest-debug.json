@@ -91,7 +91,26 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10]",
+      "path": "$.mTransactions2.transactions[5]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "1fc6d7e5-b83e-45bc-b6c5-b883169d03e2",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{B9D0D9CD-0373-43B0-B535-9F31B41A51F8}",
+        "proposedDate": 1795360151930,
+        "rating": 0,
+        "relatedTransactionId": "b41c5404-e604-4f39-94ed-3d6d7a778198",
+        "scoringPeriodId": 11,
+        "status": "EXECUTED",
+        "teamId": 13,
+        "type": "TRADE_UPHOLD"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[14]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -110,7 +129,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[0]",
+      "path": "$.mTransactions2.transactions[14].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -123,7 +142,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[1]",
+      "path": "$.mTransactions2.transactions[14].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -136,7 +155,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[2]",
+      "path": "$.mTransactions2.transactions[14].items[2]",
       "values": {
         "fromLineupSlotId": 23,
         "fromTeamId": 3,
@@ -149,7 +168,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[10].items[3]",
+      "path": "$.mTransactions2.transactions[14].items[3]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 3,
@@ -162,7 +181,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[14]",
+      "path": "$.mTransactions2.transactions[18]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -181,7 +200,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[14].items[0]",
+      "path": "$.mTransactions2.transactions[18].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -194,7 +213,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[14].items[1]",
+      "path": "$.mTransactions2.transactions[18].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -207,7 +226,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[14].items[2]",
+      "path": "$.mTransactions2.transactions[18].items[2]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 8,
@@ -220,7 +239,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[14].items[3]",
+      "path": "$.mTransactions2.transactions[18].items[3]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 8,
@@ -233,7 +252,26 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33]",
+      "path": "$.mTransactions2.transactions[26]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "8df923e5-e9a5-4633-935a-536f1af8b266",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{689C6304-D941-4316-8C0E-89C21B8C9FEB}",
+        "proposedDate": 1795357653859,
+        "rating": 0,
+        "relatedTransactionId": "b41c5404-e604-4f39-94ed-3d6d7a778198",
+        "scoringPeriodId": 11,
+        "status": "EXECUTED",
+        "teamId": 4,
+        "type": "TRADE_UPHOLD"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[39]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -252,7 +290,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33].items[0]",
+      "path": "$.mTransactions2.transactions[39].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -265,7 +303,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[33].items[1]",
+      "path": "$.mTransactions2.transactions[39].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -278,7 +316,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35]",
+      "path": "$.mTransactions2.transactions[41]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -297,7 +335,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35].items[0]",
+      "path": "$.mTransactions2.transactions[41].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 3,
@@ -310,7 +348,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35].items[1]",
+      "path": "$.mTransactions2.transactions[41].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 3,
@@ -323,7 +361,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35].items[2]",
+      "path": "$.mTransactions2.transactions[41].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -336,7 +374,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[35].items[3]",
+      "path": "$.mTransactions2.transactions[41].items[3]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -349,7 +387,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[40]",
+      "path": "$.mTransactions2.transactions[47]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -368,7 +406,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41]",
+      "path": "$.mTransactions2.transactions[48]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -387,7 +425,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[0]",
+      "path": "$.mTransactions2.transactions[48].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -400,7 +438,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[1]",
+      "path": "$.mTransactions2.transactions[48].items[1]",
       "values": {
         "fromLineupSlotId": 2,
         "fromTeamId": 14,
@@ -413,7 +451,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[2]",
+      "path": "$.mTransactions2.transactions[48].items[2]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 1,
@@ -426,7 +464,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[41].items[3]",
+      "path": "$.mTransactions2.transactions[48].items[3]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 1,
@@ -439,7 +477,45 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[48]",
+      "path": "$.mTransactions2.transactions[55]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "d8e6e7a1-cc83-432d-8dbf-4fb679b66f20",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{33239AF0-9E78-40FC-87AF-0EEB295C987A}",
+        "proposedDate": 1795360263545,
+        "rating": 0,
+        "relatedTransactionId": "b41c5404-e604-4f39-94ed-3d6d7a778198",
+        "scoringPeriodId": 11,
+        "status": "EXECUTED",
+        "teamId": 7,
+        "type": "TRADE_UPHOLD"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[56]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "cdabe41a-b2ee-4635-ad26-095cf6d25692",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": true,
+        "isPending": false,
+        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
+        "proposedDate": 1795360712480,
+        "rating": 0,
+        "relatedTransactionId": "b41c5404-e604-4f39-94ed-3d6d7a778198",
+        "scoringPeriodId": 11,
+        "status": "EXECUTED",
+        "teamId": 5,
+        "type": "TRADE_UPHOLD"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[58]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -457,7 +533,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50]",
+      "path": "$.mTransactions2.transactions[61]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -476,7 +552,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[0]",
+      "path": "$.mTransactions2.transactions[61].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -489,7 +565,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[50].items[1]",
+      "path": "$.mTransactions2.transactions[61].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -498,83 +574,6 @@
         "playerId": 4239993,
         "toLineupSlotId": -1,
         "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mPendingTransactions.pendingTransactions[0]",
-      "values": {
-        "acceptedDate": 1795320433462,
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1795459527089,
-        "id": "b41c5404-e604-4f39-94ed-3d6d7a778198",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
-        "processDate": 1795507200000,
-        "proposedDate": 1795286727053,
-        "rating": 0,
-        "scoringPeriodId": 11,
-        "status": "PENDING",
-        "teamId": 3,
-        "type": "TRADE_ACCEPT"
-      }
-    },
-    {
-      "path": "$.mPendingTransactions.pendingTransactions[0].items[0]",
-      "values": {
-        "acquisitionBudget": 0,
-        "fromLineupSlotId": 20,
-        "fromTeamId": 3,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4567048,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mPendingTransactions.pendingTransactions[0].items[1]",
-      "values": {
-        "acquisitionBudget": 0,
-        "fromLineupSlotId": 23,
-        "fromTeamId": 3,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4685472,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mPendingTransactions.pendingTransactions[0].items[2]",
-      "values": {
-        "acquisitionBudget": 0,
-        "fromLineupSlotId": 20,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4426502,
-        "toLineupSlotId": -1,
-        "toTeamId": 3,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mPendingTransactions.pendingTransactions[0].items[3]",
-      "values": {
-        "acquisitionBudget": 0,
-        "fromLineupSlotId": 2,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4361579,
-        "toLineupSlotId": -1,
-        "toTeamId": 3,
         "type": "TRADE"
       }
     },
@@ -859,88 +858,13 @@
       }
     },
     {
-      "path": "$.mTeam.teams[1].pendingTransactions[0]",
-      "values": {
-        "acceptedDate": 1795320433462,
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1795459527089,
-        "id": "b41c5404-e604-4f39-94ed-3d6d7a778198",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
-        "processDate": 1795507200000,
-        "proposedDate": 1795286727053,
-        "rating": 0,
-        "scoringPeriodId": 11,
-        "skipTransactionCounters": false,
-        "status": "PENDING",
-        "subOrder": 1,
-        "teamId": 3,
-        "type": "TRADE_ACCEPT"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[1].pendingTransactions[0].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 3,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4567048,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[1].pendingTransactions[0].items[1]",
-      "values": {
-        "fromLineupSlotId": 23,
-        "fromTeamId": 3,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4685472,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[1].pendingTransactions[0].items[2]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4426502,
-        "toLineupSlotId": -1,
-        "toTeamId": 3,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[1].pendingTransactions[0].items[3]",
-      "values": {
-        "fromLineupSlotId": 2,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4361579,
-        "toLineupSlotId": -1,
-        "toTeamId": 3,
-        "type": "TRADE"
-      }
-    },
-    {
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 100,
         "acquisitions": 37,
         "drops": 38,
         "misc": 0,
-        "moveToActive": 73,
+        "moveToActive": 76,
         "moveToIR": 1,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1096,8 +1020,8 @@
         "acquisitions": 18,
         "drops": 17,
         "misc": 0,
-        "moveToActive": 56,
-        "moveToIR": 2,
+        "moveToActive": 57,
+        "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -1174,7 +1098,7 @@
         "acquisitions": 10,
         "drops": 9,
         "misc": 0,
-        "moveToActive": 28,
+        "moveToActive": 29,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1246,88 +1170,13 @@
       }
     },
     {
-      "path": "$.mTeam.teams[9].pendingTransactions[0]",
-      "values": {
-        "acceptedDate": 1795320433462,
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1795459527089,
-        "id": "b41c5404-e604-4f39-94ed-3d6d7a778198",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
-        "processDate": 1795507200000,
-        "proposedDate": 1795286727053,
-        "rating": 0,
-        "scoringPeriodId": 11,
-        "skipTransactionCounters": false,
-        "status": "PENDING",
-        "subOrder": 1,
-        "teamId": 3,
-        "type": "TRADE_ACCEPT"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[9].pendingTransactions[0].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 3,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4567048,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[9].pendingTransactions[0].items[1]",
-      "values": {
-        "fromLineupSlotId": 23,
-        "fromTeamId": 3,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4685472,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[9].pendingTransactions[0].items[2]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4426502,
-        "toLineupSlotId": -1,
-        "toTeamId": 3,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[9].pendingTransactions[0].items[3]",
-      "values": {
-        "fromLineupSlotId": 2,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4361579,
-        "toLineupSlotId": -1,
-        "toTeamId": 3,
-        "type": "TRADE"
-      }
-    },
-    {
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
         "acquisitions": 12,
         "drops": 11,
         "misc": 0,
-        "moveToActive": 27,
+        "moveToActive": 30,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1757,7 +1606,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 97.72000000000001,
+        "appliedStatTotal": 98.92000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -1792,34 +1641,6 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.5,
-        "id": 4685472,
-        "keeperValue": 6,
-        "keeperValueFuture": 3,
-        "lineupLocked": false,
-        "onTeamId": 3,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": true
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[2].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 0.0,
-        "id": 4567048,
-        "keeperValue": 5,
-        "keeperValueFuture": 4,
-        "lineupLocked": false,
-        "onTeamId": 3,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": true
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[3].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 0.0,
         "id": 4685278,
         "keeperValue": 0,
@@ -1832,7 +1653,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[3].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[1].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "11": "Luther Burden will aim to recover from a concussion ahead of Chicago's Week 11 game against the Saints. Burden got concussed in the fourth quarter of a Week 9 win over the Buccaneers before the Bears' bye week, so hopefully he's had enough time to heal. The second-year star has now posted a 49-644-4 receiving line across nine games with career highs in catches and touchdowns, with one more game likely to get him over the hump in yards as well. If he's active, Burden will face a New Orleans defense that's ranked a tough eighth in fantasy points allowed to WRs.",
         "2": "Luther Burden will look to stay highly involved as the Bears play the Vikings in Week 2. While Week 1 was the highest-scoring game in NFL history, Burden and Chicago's pass-catching corps were overshadowed by a dominant ground game. The second-year wideout's five catches for 63 yards wasn't bad, but he definitely has potential to be more dominant moving forward. He'll take on a Minnesota defense that gave up a 6-147-2 receiving line to Christian Watson and 6-95-0 to Matthew Golden in Week 1.",
@@ -1846,7 +1667,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[4].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[2].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.0,
         "id": 4426388,
@@ -1860,7 +1681,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[5].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[3].playerPoolEntry",
       "values": {
         "appliedStatTotal": 19.6,
         "id": 5083076,
@@ -1874,7 +1695,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[6].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[4].playerPoolEntry",
       "values": {
         "appliedStatTotal": 19.0,
         "id": 4880281,
@@ -1888,7 +1709,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[5].playerPoolEntry",
       "values": {
         "appliedStatTotal": 34.42,
         "id": 2577417,
@@ -1902,7 +1723,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[8].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[6].playerPoolEntry",
       "values": {
         "appliedStatTotal": 22.0,
         "id": -16016,
@@ -1916,7 +1737,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": -16007,
@@ -1930,7 +1751,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 5.9,
         "id": 4360569,
@@ -1944,7 +1765,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4702555,
@@ -1958,7 +1779,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "11": "Jonah Coleman captured the No. 1 job in the Broncos' backfield prior to the team's bye. Over the team's last two games, the rookie running back amassed 192 scrimmage yards and two rushing TDs, with his yardage split almost equally between the ground and the air. Coleman's usage as a pass catcher could decline once RJ Harvey gets healthy in a couple of weeks, but he's clearly surpassed J.K. Dobbins as the preferred ball carrier in all situations, including at the goal line. Coleman will take on a Raiders defense in Week 11 that ranks 28th in fantasy points per game allowed to RBs.",
         "3": "Jonah Coleman didn't see the ball in his NFL debut during the Broncos' opener, but his role increased in Week 2's win over the Jaguars due to RJ Harvey's hamstring strain. Coleman ended up getting more touches than J.K. Dobbins, with the 2026 fourth-round pick turning 10 carries into 39 yards and his first career touchdown while also catching all three of his targets for 19 yards. It's not clear how much time Harvey might miss, but Coleman's solid showing in his first opportunity could begin the process of turning the backfield into a three-man committee, with the workload dependent on whoever happens to be healthy. Coleman could be a risky play in Week 3 against a Rams defense that just saw the return of Aaron Donald in Week 2 and has yet to allow a rushing TD this year.",
@@ -1967,7 +1788,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 8.4,
         "id": 4360635,
@@ -1981,7 +1802,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Chig Okonkwo has been targeted at least six times in three of the last four contests for the Commanders. Okonkwo caught six passes for 57 yards in the 20-13 loss to the Rams last game. Okonkwo has at least 55 receiving yards in three of the last four games for Washington. However, he will face a difficult test in the form of the New York Giants in Week 10. New York is allowing just 177.8 passing yards per tilt, which is third in the NFL.",
         "11": "Chig Okonkwo has been a frequent target of quarterback Jayden Daniels since returning from injury for the Commanders. Okonkwo has at least six targets in four of the last five contests for Washington.  In fact, Okonkwo has been targeted 15 times over the last two games alone. Okonkwo is still looking for his first touchdown of the season, though. In Week 11, he will face a fairly stingy Cincinnati pass defense. The Bengals are allowing only 216.2 passing yards per clash, which is 11th in the league. Likewise, Cincy has given up just 11 throwing scores, which is tied for fifth in the NFL.",
@@ -1995,7 +1816,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 7.7,
         "id": 3917232,
@@ -2009,7 +1830,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Tyler Bass continues to see heavy volume in the Bills' prolific offense ahead of a Week 10 matchup with the Jets. Seemingly always assured of a handful of PATs, making at least two in every game, Bass has at least three field goals in four straight games, creating double-digit scoring upside with consistency. The Jets are allowing the ninth-fewest fantasy points per game to opposing kickers however, largely due to opponents converting drives into touchdowns, surrendering just 13 field goal attempts in nine games, which should test Bass' current form.",
         "11": "Tyler Bass faces unsettled scoring chances when the Bills host the Dolphins in Week 11. After attempting multiple field goals in five straight games, Bass tried just one in Week 10 with Buffalo coasting to a win and converting drives into touchdowns. That script seems likely to manifest again in Week 11 against an overmatched Miami defense, so while Bass will have a multi-PAT floor, his ceiling could be capped.",
@@ -2023,12 +1844,78 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4612826,
         "keeperValue": 4,
         "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[13]",
+      "values": {
+        "acquisitionDate": 1795360712518,
+        "acquisitionType": "TRADE",
+        "injuryStatus": "NORMAL",
+        "lineupSlotId": 20,
+        "pendingTransactionIds": null,
+        "playerId": 4426502,
+        "status": "NORMAL"
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 16.9,
+        "id": 4426502,
+        "keeperValue": 2,
+        "keeperValueFuture": 3,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Drake London is expected to remain the Falcons' top pass catcher during the Week 10 matchup against the Chiefs. London has cooled down after a terrific stretch of games from Weeks 3 through 5, averaging just 4.3 receptions and 52.8 receiving yards per game over Atlanta's last four contests. He's also averaging just 7.6 targets per game this season, his lowest mark since 2023, so it appears the Falcons are struggling to get him involved. Additionally, London is in for a difficult Week 10 matchup against a Chiefs secondary that's allowed just 23.5 fantasy points per game to opposing wideouts this year.",
+        "2": "Drake London looks poised to bounce back from a tough Week 1 in the Falcons' Week 2 matchup against the Panthers. Carolina's defense just allowed a whopping 59 points to the Bears in Week 1, giving up 42.2 PPR fantasy points to wide receivers. London's rebound could depend on the quarterback play, as Michael Penix (knee) and Tua Tagovailoa (oblique) are both questionable for Sunday's contest. However, with Carolina's defensive struggles during Week 1, London should be in for a fantastic matchup.",
+        "3": "Drake London will look to bounce back from a slow start in the Falcons' Week 3 matchup against the Packers. London has caught just six of nine targets for 80 yards in Atlanta's first two games, as Cooper Rush and Jack Strand struggled to get the offense going. However, Michael Penix is set to return as the Falcons' QB1 during the Week 3 contest, giving London a far more optimistic projection. He's in for a favorable matchup as well, with Green Bay's defense allowing three receiving touchdowns and 34.5 PPR fantasy points per game to WRs this season.",
+        "4": "Drake London will look to stay hot in the Falcons' Week 4 matchup against the Saints. With Michael Penix returning from injury in the Week 3 win over the Packers, London had one of the best performances of his career, catching nine of 10 targets for 194 yards. With Penix on the field, London has averaged 6.7 receptions, 98.7 receiving yards and 0.6 touchdowns per game, suggesting he'll remain one of fantasy's top wideouts as long as Penix remains healthy. Despite this, London is in for a tough Week 4 matchup against a Saints secondary that's given up 29.0 PPR fantasy points per game to opposing wideouts this season.",
+        "5": "Drake London is expected to remain the Falcons' top wideout in the Week 5 matchup against the Ravens. London has excelled since the return of Michael Penix in Week 3, catching 14 of 16 targets for 290 yards across his last two contests. With Penix at the helm, London has averaged a whopping 6.6 receptions and 98.5 yards per game, suggesting that he'll remain one of fantasy's top wideouts as the season progresses. Additionally, London is in for a terrific matchup against a Ravens secondary that's allowed 37.9 fantasy points per game to wideouts this season.",
+        "6": "Drake London will likely remain the Falcons' top pass catcher in the Week 6 matchup against the Bears. London impressed in the Week 5 loss despite not finding the end zone, totaling 118 yards on seven receptions. He's been one of fantasy's top wideouts since Michael Penix (ribs) returned in Week 3, averaging seven receptions and 136 yards per game across three contests. As long as Penix is healthy for the Week 6 contest, London should have another fantastic opportunity to put up big numbers against a Bears defense that's given up 32.0 fantasy points per game to opposing wideouts.",
+        "7": "Drake London is expected to remain the Falcons' top wideout in the Week 7 matchup against the 49ers. Despite logging double-digit targets for the third time in his last four games, London recorded just four receptions and 62 yards in the Week 6 loss to the Bears. Since Michael Penix returned from injury in the Week 3 win over the Packers, London has averaged 9.3 targets, 6.3 receptions and 117.5 yards per game, making him one of fantasy's most productive receivers. Even so, London could struggle against a tough 49ers defense in Week 7 that's given up just 28.1 fantasy points per game to opposing wideouts through five games this season.",
+        "8": "Drake London is expected to remain one of fantasy's top wideouts in the Falcons' Week 8 matchup against the Buccaneers. London paced Atlanta's pass catchers in the Week 7 win over the 49ers, catching seven of nine targets for 66 yards and a score. Since quarterback Michael Penix returned from injury in the Week 3 win over the Packers, London has averaged a whopping 6.4 receptions and 107.2 yards per game, making him one of the league's most productive WRs. He's in for a tough matchup in Week 8, however, as Tampa Bay's secondary has allowed just 29.6 fantasy points per game to the position this season.",
+        "9": "Drake London will look to bounce back from a tough Week 8 performance when the Falcons plays the Bengals in Week 9. London struggled along with the rest of Atlanta's offense in a rainy loss to the Buccaneers, catching just one of six targets for eight yards. However, he's still been one of the NFL's most productive receivers with Michael Penix at quarterback this year, averaging 5.5 receptions and 90.7 receiving yards per game. London will have a good opportunity to rebound against a Cincinnati secondary that's allowed 33.1 fantasy points per game to opposing wide receivers this season."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14]",
+      "values": {
+        "acquisitionDate": 1795360712518,
+        "acquisitionType": "TRADE",
+        "injuryStatus": "NORMAL",
+        "lineupSlotId": 23,
+        "pendingTransactionIds": null,
+        "playerId": 4361579,
+        "status": "NORMAL"
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 7.700000000000001,
+        "id": 4361579,
+        "keeperValue": 11,
+        "keeperValueFuture": 10,
         "lineupLocked": false,
         "onTeamId": 3,
         "rosterLocked": false,
@@ -3436,7 +3323,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 158.66,
+        "appliedStatTotal": 149.85999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -4260,7 +4147,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 127.64000000000001,
+        "appliedStatTotal": 121.24000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -5094,7 +4981,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 106.46,
+        "appliedStatTotal": 121.65999999999998,
         "tradeReservedEntries": 0
       }
     },
@@ -5130,34 +5017,6 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.9,
-        "id": 4426502,
-        "keeperValue": 2,
-        "keeperValueFuture": 3,
-        "lineupLocked": false,
-        "onTeamId": 14,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": true
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[1].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Drake London is expected to remain the Falcons' top pass catcher during the Week 10 matchup against the Chiefs. London has cooled down after a terrific stretch of games from Weeks 3 through 5, averaging just 4.3 receptions and 52.8 receiving yards per game over Atlanta's last four contests. He's also averaging just 7.6 targets per game this season, his lowest mark since 2023, so it appears the Falcons are struggling to get him involved. Additionally, London is in for a difficult Week 10 matchup against a Chiefs secondary that's allowed just 23.5 fantasy points per game to opposing wideouts this year.",
-        "2": "Drake London looks poised to bounce back from a tough Week 1 in the Falcons' Week 2 matchup against the Panthers. Carolina's defense just allowed a whopping 59 points to the Bears in Week 1, giving up 42.2 PPR fantasy points to wide receivers. London's rebound could depend on the quarterback play, as Michael Penix (knee) and Tua Tagovailoa (oblique) are both questionable for Sunday's contest. However, with Carolina's defensive struggles during Week 1, London should be in for a fantastic matchup.",
-        "3": "Drake London will look to bounce back from a slow start in the Falcons' Week 3 matchup against the Packers. London has caught just six of nine targets for 80 yards in Atlanta's first two games, as Cooper Rush and Jack Strand struggled to get the offense going. However, Michael Penix is set to return as the Falcons' QB1 during the Week 3 contest, giving London a far more optimistic projection. He's in for a favorable matchup as well, with Green Bay's defense allowing three receiving touchdowns and 34.5 PPR fantasy points per game to WRs this season.",
-        "4": "Drake London will look to stay hot in the Falcons' Week 4 matchup against the Saints. With Michael Penix returning from injury in the Week 3 win over the Packers, London had one of the best performances of his career, catching nine of 10 targets for 194 yards. With Penix on the field, London has averaged 6.7 receptions, 98.7 receiving yards and 0.6 touchdowns per game, suggesting he'll remain one of fantasy's top wideouts as long as Penix remains healthy. Despite this, London is in for a tough Week 4 matchup against a Saints secondary that's given up 29.0 PPR fantasy points per game to opposing wideouts this season.",
-        "5": "Drake London is expected to remain the Falcons' top wideout in the Week 5 matchup against the Ravens. London has excelled since the return of Michael Penix in Week 3, catching 14 of 16 targets for 290 yards across his last two contests. With Penix at the helm, London has averaged a whopping 6.6 receptions and 98.5 yards per game, suggesting that he'll remain one of fantasy's top wideouts as the season progresses. Additionally, London is in for a terrific matchup against a Ravens secondary that's allowed 37.9 fantasy points per game to wideouts this season.",
-        "6": "Drake London will likely remain the Falcons' top pass catcher in the Week 6 matchup against the Bears. London impressed in the Week 5 loss despite not finding the end zone, totaling 118 yards on seven receptions. He's been one of fantasy's top wideouts since Michael Penix (ribs) returned in Week 3, averaging seven receptions and 136 yards per game across three contests. As long as Penix is healthy for the Week 6 contest, London should have another fantastic opportunity to put up big numbers against a Bears defense that's given up 32.0 fantasy points per game to opposing wideouts.",
-        "7": "Drake London is expected to remain the Falcons' top wideout in the Week 7 matchup against the 49ers. Despite logging double-digit targets for the third time in his last four games, London recorded just four receptions and 62 yards in the Week 6 loss to the Bears. Since Michael Penix returned from injury in the Week 3 win over the Packers, London has averaged 9.3 targets, 6.3 receptions and 117.5 yards per game, making him one of fantasy's most productive receivers. Even so, London could struggle against a tough 49ers defense in Week 7 that's given up just 28.1 fantasy points per game to opposing wideouts through five games this season.",
-        "8": "Drake London is expected to remain one of fantasy's top wideouts in the Falcons' Week 8 matchup against the Buccaneers. London paced Atlanta's pass catchers in the Week 7 win over the 49ers, catching seven of nine targets for 66 yards and a score. Since quarterback Michael Penix returned from injury in the Week 3 win over the Packers, London has averaged a whopping 6.4 receptions and 107.2 yards per game, making him one of the league's most productive WRs. He's in for a tough matchup in Week 8, however, as Tampa Bay's secondary has allowed just 29.6 fantasy points per game to the position this season.",
-        "9": "Drake London will look to bounce back from a tough Week 8 performance when the Falcons plays the Bengals in Week 9. London struggled along with the rest of Atlanta's offense in a rainy loss to the Buccaneers, catching just one of six targets for eight yards. However, he's still been one of the NFL's most productive receivers with Michael Penix at quarterback this year, averaging 5.5 receptions and 90.7 receiving yards per game. London will have a good opportunity to rebound against a Cincinnati secondary that's allowed 33.1 fantasy points per game to opposing wide receivers this season."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[2].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 0.0,
         "id": 4596448,
         "keeperValue": 3,
@@ -5170,7 +5029,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[2].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[1].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "11": "Bucky Irving will likely remain the focal points of the Buccaneers' offense during the Week 11 matchup against the Lions. Irving has carried Tampa Bay's offense throughout the season, ranking sixth in the NFL in touches per game (21.0) and 10th in total yards per game (103.4). However, head coach Todd Bowles said that the Buccaneers \"will try and lessen the load\" on Irving following the team's Week 10 bye, suggesting he could see less work going forward. Additionally, Irving may struggle in Week 11 against a Lions defense that's held opposing running backs in check this season, allowing just 17.5 fantasy points per game.",
         "2": "Bucky Irving is expected to operate as the Buccaneers' lead back in the Week 2 matchup against the Browns. Irving out-touched Kenneth Gainwell 15 to six in the Week 1 loss, which is a very promising sign for his outlook moving forward. The most impressive part about Irving's Week 1 performance was receiving, where he caught all seven of his targets for 48 yards. He could be in for another big week against a Browns defense that allowed 34 points in Week 1. However, Cleveland did give up just 3.9 yards per carry, so Irving may need to continue his success as a receiver for fantasy production.",
@@ -5184,7 +5043,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[3].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[2].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4431299,
@@ -5198,7 +5057,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[3].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[2].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "11": "Rome Odunze will aim to build on a season-best showing as the Bears play the Saints in Week 11. Odunze notched his first touchdown of the season and paired it with four catches for 60 yards in a Week 9 win over Tampa Bay before Chicago's bye week. The third-year pass catcher has now logged 32 receptions for 528 yards and a touchdown across nine games this season. He'll take on a New Orleans squad that's ranked eighth in fantasy points allowed to wide receivers.",
         "2": "Rome Odunze will seek to do more as the Bears play the Vikings in Week 2. Odunze was unable to capitalize on the highest-scoring Week 1 game ever, as he finished the game with two catches for 52 yards. The third-year receiver still figures to be a top target for Caleb Williams moving forward, especially in closer matchups where a consistent option is needed. Odunze will face a Minnesota defense that ceded the second-most PPR points to WRs (55.2) in Week 1.",
@@ -5212,7 +5071,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[4].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[3].playerPoolEntry",
       "values": {
         "appliedStatTotal": 33.16,
         "id": 3915511,
@@ -5226,7 +5085,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[4].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[3].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Joe Burrow and the Bengals welcome the divisional-rival Steelers to town for a Week 10 meeting on Sunday Night Football. He stayed red-hot in Week 9, completing 24 of 29 pass attempts for 271 yards and three TDs with no INTs, while rushing three times for seven yards and another score. Burrow owns a 16:3 TD:INT ratio and has two rushing TDs over his last four outings, and he continues to lead the NFL with 23 passing TDs through eight games. He'll look to avenge a Week 3 loss to Pittsburgh, when he went 28-for-37 for 282 yards and three scores but lost a fumble with 53 seconds remaining and Cincinnati down by three.",
         "11": "Joe Burrow and the Bengals visit the Commanders on Monday Night Football in Week 11. His hot streak continued during Cincinnati's Week 10 victory, as he threw for 409 yards with four TDs and no INTs while rushing once for eight yards. Over his last five outings, all Bengals wins, Burrow has compiled 1,624 passing yards with a 20:3 TD:INT ratio, while adding 47 rushing yards and another two scores. The NFL's leading passer in terms of TDs (27) will aim to keep rolling versus the Commanders' 27th-ranked defense in fantasy points allowed per game (23.3) to opposing QBs.",
@@ -5240,7 +5099,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[4].playerPoolEntry",
       "values": {
         "appliedStatTotal": 1.5,
         "id": 4569173,
@@ -5254,7 +5113,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[4].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Rhamondre Stevenson is uncertain to suit up for the Patriots in Week 10 against the Lions due to a knee injury. New England fell into a big hole in Week 9, limiting Stevenson's carries prior to the injury, and he finished with a season-low six for the third time this season. His passing game involvement included a second touchdown reception in three weeks. If he plays, Stevenson figures to again lead the Patriots' backfield since TreVeyon Henderson will also likely be sidelined. Stevenson's rushing yard expectations can be tempered against a defense that's allowing a mere 3.9 yards per carry. Corey Kiner would be in line for lead back duties assuming both Stevenson and Henderson are sidelined.",
         "2": "Rhamondre Stevenson will look for a heavier workload when the Patriots face the Steelers in Week 2. Stevenson notched 23 touches to open the year, and despite the potential return of TreVeyon Henderson (ankle), Stevenson should handle early-down work at a minimum. He's mainly an accumulator, averaging 4.0 yards per carry or less in two of the previous three seasons and just 2.8 to open 2026. But volume is king, and Stevenson likely has that since he also catches passes out of the backfield. Pittsburgh was vulnerable in Week 1 to receiving backs, plus Stevenson likely handles goal-line work, making him intriguing even in a difficult spot against a defense that allowed 3.8 yards per carry to open the year.",
@@ -5268,7 +5127,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[6].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4047365,
@@ -5282,7 +5141,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[6].playerPoolEntry.player",
+      "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -5301,7 +5160,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[6].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[5].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Josh Jacobs is unlikely to play in Week 10 as the Packers take on the Vikings. Jacobs hurt his finger in a Week 9 win over the Patriots, and he's now set to undergo surgery, which will keep him out for a maximum of three weeks. The veteran ball carrier has now recorded 36 rushes for 80 yards and a touchdown, with 11 catches for 68 yards and two touchdowns as well. Kaleb Johnson, Pierre Strong, and banged-up Chris Brooks and MarShawn Lloyd will be Green Bay's available running backs against a tough Minnesota defense.",
         "3": "Josh Jacobs is unlikely to play in the Packers' Week 3 matchup against the Falcons. Jacobs remains on the Commissioner's Exempt List at this point in the season, with no current indications of when he'll be back in action. A committee of MarShawn Lloyd, Chris Brooks and Kaleb Johnson will continue to provide Green Bay's rushing attack while the veteran is absent.",
@@ -5310,7 +5169,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[7].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[6].playerPoolEntry",
       "values": {
         "appliedStatTotal": 12.0,
         "id": -16026,
@@ -5324,7 +5183,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[8].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[7].playerPoolEntry",
       "values": {
         "appliedStatTotal": 25.9,
         "id": 3126486,
@@ -5338,7 +5197,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[7].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Deebo Samuel (hamstring) will look to return from a four-game absence when San Francisco travels to Dallas in Week 10. Samuel hasn't been placed on IR, and the expectation is that he'll return before the end of the season, but his status for this week is hazy, at best. With No. 1 wideout Mike Evans (Achilles) missing the past two games, the 49ers acquired Keenan Allen at the trade deadline to provide additional depth. If Samuel is able to get back on the field against the Cowboys, he could find success against a defense that has given up 159.3 receiving yards per game to wideouts, ninth-most in the NFL.",
         "11": "Deebo Samuel will look to build on his best performance of the season when the 49ers  host the Vikings in Week 11. Samuel compiled 109 total yards and two touchdowns this past Sunday in a win over Dallas, with most of that yardage coming on a 70-yard rushing score. It was Samuel's first game if five weeks, as he had been sidelined due to a hamstring injury. His versatility could come in handy against a Vikings defense that is tied for the third-fewest receiving TDs (five) allowed to wideouts this season.",
@@ -5352,7 +5211,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[9].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[8].playerPoolEntry",
       "values": {
         "appliedStatTotal": 13.2,
         "id": 2971573,
@@ -5366,7 +5225,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 16.4,
         "id": 3054850,
@@ -5380,7 +5239,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry.player",
+      "path": "$.mRoster.teams[9].roster.entries[9].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 2,
@@ -5399,7 +5258,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Kamara is expected to remain the Saints' top pass-catching running back in the Week 10 matchup against the Panthers. Kamara received fewer than 10 touches for the third time in New Orleans' last four games during the Week 9 win over the Browns, despite backfield mate Kendre Miller being release prior to the contest. Regardless, Kamara ranks first amongst Saints RBs in targets (31), receptions (25), receiving yards (150) and receiving touchdowns (one) in seven appearances this year. He could find success against a Panthers defense that's allowed 230 yards and a touchdown through the air to opposing running backs this season.",
         "11": "Alvin Kamara will remain one of the Saints' top running backs in the Week 11 matchup against the Bears. Kamara was limited to just five touches while Travis Etienne returned from injury in the Week 10 loss to the Panthers. However, Kamara scored two touchdowns on those touches and appeared to be operating as New Orleans' top red-zone RB. With Kamara, Etienne and Audric Estime all playing roles in the Saints' backfield, it may be hard to trust any of them going forward. Kamara could take advantage of a Chicago defense that's allowed 7.3 yards per target and two receiving touchdowns to opposing RBs this season.",
@@ -5413,32 +5272,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[11]",
-      "values": {
-        "acquisitionDate": 1791030385012,
-        "acquisitionType": "TRADE",
-        "injuryStatus": "NORMAL",
-        "lineupSlotId": 2,
-        "playerId": 4361579,
-        "status": "NORMAL"
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 7.700000000000001,
-        "id": 4361579,
-        "keeperValue": 11,
-        "keeperValueFuture": 10,
-        "lineupLocked": false,
-        "onTeamId": 14,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": true
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[12]",
+      "path": "$.mRoster.teams[9].roster.entries[10]",
       "values": {
         "acquisitionDate": 1791030385012,
         "acquisitionType": "TRADE",
@@ -5450,7 +5284,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4426515,
@@ -5464,7 +5298,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Puka Nacua is expected to miss the Rams' Week 10 clash against the Cardinals and several weeks beyond that. Nacua suffered a knee injury in this past Sunday's win over Washington and is likely to be placed on IR. Davante Adams (hamstring) remains on IR, so the Rams' WR corps will be led by the likes of Tutu Atwell, Konata Mumpfield and Jordan Whittington.",
         "2": "Puka Nacua managed to put up decent numbers despite the Rams' dismal offensive performance in their season opener, and he'll look to ramp up his production further in Week 2 against the Giants. Nacua recorded 74 of Matthew Stafford's 155 passing yards in Week 1 versus San Francisco, though he caught just five of nine targets. No other Rams pass catcher had more than three catches or 26 yards, so there's little doubt that Nacua unsurprisingly remains Stafford's favorite target. The Giants' defense looked good in a win over Dallas in Week 1, with top wideout CeeDee Lamb posting a modest 5-44-1 receiving line.",
@@ -5478,7 +5312,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 15.3,
         "id": 4688813,
@@ -5492,7 +5326,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Josh Downs was traded to the Chiefs where he'll be catching passes from Patrick Mahomes, assuming the QB is healthy after hurting his elbow in Week 9. Downs will enjoy a QB upgrade, but he'll face more competition for targets from Rashee Rice, Xavier Worthy and Travis Kelce. With Worthy also nursing an injury, Downs could log a big workload in Week 10 against a Falcons secondary that just traded away safety Jessie Bates and ranks 19th in fantasy points per game allowed to WRs.",
         "11": "Josh Downs made an immediate difference in his Kansas City debut, catching four of five targets for 53 yards and a touchdown in Sunday's win over the Falcons despite running just eight routes and playing only 10 snaps. Picked up from the Colts at the trade deadline, Downs' efficiency on a limited workload bodes well, but he'll still be the No. 2 wide receiver behind Rashee Rice, with Travis Kelce and the team's running backs also factoring significantly into the passing game. Downs will try to build on this performance in Week 11 against a Cardinals secondary that ranks 17th in fantasy points per game allowed to WRs.",
@@ -5507,7 +5341,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 11.2,
         "id": 3117256,
@@ -5521,7 +5355,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Dalton Schultz is a borderline fantasy starter at TE for Week 10 against the Browns. He ranks ninth among TEs with 46 receiving yards per game but has yet to score this season and has a meager five TDs in 42 regular-season appearances since the start of the 2024 season. Cleveland has allowed five TDs to the position in nine games, as well as 58 yards per game.",
         "11": "Dalton Schultz is coming off a bittersweet Week 10 performance against the Browns. He scored his first touchdown of the season on his only catch but was held to a single reception for the first time all season. The reliable TE is a borderline fantasy starter for Week 11 against the Colts; however, there are certainly higher-upside options to be found at the position. Schultz hasn't topped 45 yards since his 140-yard Week 2 outburst, which occurred while the Texans were without top WR Nico Collins, who has since recovered from a hamstring injury. The Colts have allowed seven TDs in 10 games to TEs, which is tied for fifth-most in the NFL.",
@@ -5535,12 +5369,64 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": -16003,
         "keeperValue": 0,
         "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 14,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[14]",
+      "values": {
+        "acquisitionDate": 1795360712518,
+        "acquisitionType": "TRADE",
+        "injuryStatus": "NORMAL",
+        "lineupSlotId": 20,
+        "pendingTransactionIds": null,
+        "playerId": 4567048,
+        "status": "NORMAL"
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 0.0,
+        "id": 4567048,
+        "keeperValue": 5,
+        "keeperValueFuture": 4,
+        "lineupLocked": false,
+        "onTeamId": 14,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[15]",
+      "values": {
+        "acquisitionDate": 1795360712518,
+        "acquisitionType": "TRADE",
+        "injuryStatus": "NORMAL",
+        "lineupSlotId": 4,
+        "pendingTransactionIds": null,
+        "playerId": 4685472,
+        "status": "NORMAL"
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 6.5,
+        "id": 4685472,
+        "keeperValue": 6,
+        "keeperValueFuture": 3,
         "lineupLocked": false,
         "onTeamId": 14,
         "rosterLocked": false,
