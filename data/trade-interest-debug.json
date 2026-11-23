@@ -477,7 +477,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[57]",
+      "path": "$.mTransactions2.transactions[58]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -496,7 +496,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[58]",
+      "path": "$.mTransactions2.transactions[59]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -515,7 +515,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[60]",
+      "path": "$.mTransactions2.transactions[62]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -533,7 +533,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[63]",
+      "path": "$.mTransactions2.transactions[65]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -552,7 +552,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[63].items[0]",
+      "path": "$.mTransactions2.transactions[65].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -565,7 +565,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[63].items[1]",
+      "path": "$.mTransactions2.transactions[65].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -1186,7 +1186,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 239.3,
+        "appliedStatTotal": 265.52000000000004,
         "tradeReservedEntries": 0
       }
     },
@@ -1249,7 +1249,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 29.8,
+        "appliedStatTotal": 33.0,
         "id": 4696981,
         "keeperValue": 0,
         "keeperValueFuture": 4,
@@ -1323,9 +1323,9 @@
         "id": 4429205,
         "keeperValue": 10,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1361,7 +1361,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 28.700000000000003,
+        "appliedStatTotal": 39.52,
         "id": 4360310,
         "keeperValue": 0,
         "keeperValueFuture": 12,
@@ -1389,7 +1389,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.7,
+        "appliedStatTotal": 18.9,
         "id": 3916433,
         "keeperValue": 9,
         "keeperValueFuture": 0,
@@ -1436,7 +1436,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.100000000000001,
+        "appliedStatTotal": 16.0,
         "id": 4430539,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -1554,7 +1554,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Gainwell",
-        "lastNewsDate": 1794201781000,
+        "lastNewsDate": 1795395090000,
         "lastVideoDate": 1793811437000,
         "proTeamId": 27,
         "seasonOutlook": "Gainwell signed with the Buccaneers following a second-half breakout with Pittsburgh last season. After playing sparingly during the first four-and-a-half years of his career, Gainwell averaged 13.3 touches, 85.0 yards and 17.8 fantasy points from Week 8 on last season (eight games). Only five backs scored more points than Gainwell after Week 10. He did most of his damage as a receiver (top six among RBs in targets, catches and receiving yards) and will now look to earn a similar role alongside Bucky Irving in Tampa Bay. Gainwell's strong season suggests he'll have a role, but the 23-year-old Irving is likely to operate as the lead back. Gainwell is best valued as a bench/insurance stash with some flex appeal in deep PPR leagues.",
@@ -1578,7 +1578,7 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.900000000000002,
+        "appliedStatTotal": 20.9,
         "id": 4362081,
         "keeperValue": 12,
         "keeperValueFuture": 0,
@@ -1606,7 +1606,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 220.42,
+        "appliedStatTotal": 246.32,
         "tradeReservedEntries": 0
       }
     },
@@ -1725,13 +1725,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.0,
+        "appliedStatTotal": 25.0,
         "id": -16016,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1739,7 +1739,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.0,
+        "appliedStatTotal": 12.5,
         "id": -16007,
         "keeperValue": 12,
         "keeperValueFuture": 0,
@@ -1753,13 +1753,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.9,
+        "appliedStatTotal": 8.100000000000001,
         "id": 4360569,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1767,7 +1767,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.5,
+        "appliedStatTotal": 34.900000000000006,
         "id": 4702555,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -1846,7 +1846,7 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.8,
+        "appliedStatTotal": 20.7,
         "id": 4612826,
         "keeperValue": 4,
         "keeperValueFuture": 0,
@@ -1926,20 +1926,20 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 294.35999999999996,
+        "appliedStatTotal": 299.35999999999996,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[2].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 46.3,
+        "appliedStatTotal": 51.3,
         "id": 3117251,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2048,7 +2048,7 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.3,
+        "appliedStatTotal": 9.100000000000001,
         "id": 4372016,
         "keeperValue": 8,
         "keeperValueFuture": 5,
@@ -2071,7 +2071,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Waddle",
-        "lastNewsDate": 1795211827000,
+        "lastNewsDate": 1795398727000,
         "lastVideoDate": 1794243043000,
         "proTeamId": 7,
         "seasonOutlook": "Waddle was traded to Denver after spending his first five seasons in Miami. The 2021 first-round pick was solid during his Dolphins tenure, finishing in the top 30 among receivers in fantasy PPG four times, though never reaching the top 10 while often playing second fiddle to Tyreek Hill. Although he has been a reliable target and has missed only seven games in five years, Waddle hasn't finished a season higher than 20th in targets or catches since 2021. In Denver, the 27-year-old Waddle will compete with Courtland Sutton for the team lead in targets in a scheme that likes to spread the ball around. Not utilized near the goal line much at 5-foot-10 and 180 pounds (he's yet to clear seven end zone targets in a season), Waddle is likely to max out as a back-end WR2 in Denver.",
@@ -2105,7 +2105,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Moore",
         "lastNewsDate": 1795383114000,
-        "lastVideoDate": 1795373528000,
+        "lastVideoDate": 1795392604000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
         "universeId": 1
@@ -2207,7 +2207,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Pollard",
-        "lastNewsDate": 1794795206000,
+        "lastNewsDate": 1795386766000,
         "lastVideoDate": 1795102966000,
         "proTeamId": 10,
         "seasonOutlook": "Pollard has handled a hefty 67.2% of the Titans' designed rushing attempts since his arrival two seasons ago (15.2 per game) and, even with solid efficiency, he has finished 22nd and 30th in fantasy points per game. The culprits? Tennessee's struggling offense (Pollard has exactly five TDs in both seasons) and a limited receiving role when Tyjae Spears has been healthy (Pollard's targets fell from 3.5 per game in 2024 to 2.5 per game in 2025). Barring a major leap from quarterback Cam Ward, Pollard is unlikely to deliver only the second top-20 fantasy campaign (in points per game) of his career. The 29-year-old, entering his eighth NFL season (third with Tennessee), is a low-ceiling flex.",
@@ -2356,7 +2356,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 193.08,
+        "appliedStatTotal": 202.88000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -2392,7 +2392,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.0,
+        "appliedStatTotal": 33.8,
         "id": 4427366,
         "keeperValue": 5,
         "keeperValueFuture": 3,
@@ -2580,7 +2580,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.6,
+        "appliedStatTotal": 15.0,
         "id": 4685247,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2603,7 +2603,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Allen",
-        "lastNewsDate": 1794790494000,
+        "lastNewsDate": 1795395968000,
         "lastVideoDate": 1794180793000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar.",
@@ -2742,9 +2742,9 @@
         "id": 4360438,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2775,7 +2775,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Andrews",
-        "lastNewsDate": 1794894480000,
+        "lastNewsDate": 1795393512000,
         "lastVideoDate": 1794411219000,
         "proTeamId": 33,
         "seasonOutlook": "One of fantasy's biggest mysteries, Andrews' usage has dipped substantially over the past two seasons. After finishing in the top five in fantasy PPG five seasons in a row from 2019 to 2023, Andrews slipped to eighth in 2024 (it would've been much worse if not for 11 touchdowns on 68 targets) and fell even further to 24th last season. Andrews appeared in all 17 of Baltimore's games but ranked 18th among tight ends in targets and outside the top 20 in catches and yards. The combination of a new coaching staff, a healthy Lamar Jackson and the departure of Isaiah Likely could lead to a rebound season for Andrews, but we now have two straight seasons of underperformance. The 31-year-old remains a force near the goal line (top 10 in end zone targets seven years in a row), but he's now more of a fringe TE1 than a fantasy star.",
@@ -2824,7 +2824,7 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.800000000000001,
+        "appliedStatTotal": 8.8,
         "id": 2985659,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -2852,7 +2852,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 224.4,
+        "appliedStatTotal": 240.3,
         "tradeReservedEntries": 0
       }
     },
@@ -2913,7 +2913,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 33.6,
+        "appliedStatTotal": 38.3,
         "id": 4890973,
         "keeperValue": 2,
         "keeperValueFuture": 3,
@@ -2941,7 +2941,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 19.6,
+        "appliedStatTotal": 22.5,
         "id": 4569618,
         "keeperValue": 0,
         "keeperValueFuture": 4,
@@ -3053,7 +3053,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Dowdle",
-        "lastNewsDate": 1794804552000,
+        "lastNewsDate": 1795389060000,
         "lastVideoDate": 1793558765000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
@@ -3105,7 +3105,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 32.2,
+        "appliedStatTotal": 37.2,
         "id": 4361050,
         "keeperValue": 0,
         "keeperValueFuture": 11,
@@ -3210,13 +3210,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.6,
+        "appliedStatTotal": 15.4,
         "id": 4567104,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3224,13 +3224,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.379999999999999,
+        "appliedStatTotal": 18.22,
         "id": 14880,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3281,7 +3281,7 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.5,
+        "appliedStatTotal": 12.0,
         "id": -16020,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3323,7 +3323,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 198.86,
+        "appliedStatTotal": 224.90000000000003,
         "tradeReservedEntries": 0
       }
     },
@@ -3457,7 +3457,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.8,
+        "appliedStatTotal": 28.6,
         "id": 4882093,
         "keeperValue": 0,
         "keeperValueFuture": 5,
@@ -3540,13 +3540,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 31.66,
+        "appliedStatTotal": 50.7,
         "id": 4361741,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3652,7 +3652,7 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.0,
+        "appliedStatTotal": 8.5,
         "id": -16030,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -3682,13 +3682,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.100000000000001,
+        "appliedStatTotal": 13.8,
         "id": 15818,
         "keeperValue": 12,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3752,7 +3752,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 146.22000000000006,
+        "appliedStatTotal": 162.8,
         "tradeReservedEntries": 0
       }
     },
@@ -3773,7 +3773,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 21.8,
+        "appliedStatTotal": 27.8,
         "id": 4685382,
         "keeperValue": 3,
         "keeperValueFuture": 2,
@@ -3801,7 +3801,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 18.700000000000003,
+        "appliedStatTotal": 25.9,
         "id": 4595348,
         "keeperValue": 0,
         "keeperValueFuture": 3,
@@ -3852,7 +3852,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Smith",
-        "lastNewsDate": 1795128004000,
+        "lastNewsDate": 1795386183000,
         "lastVideoDate": 1792512538000,
         "proTeamId": 21,
         "seasonOutlook": "It's generally tough for a former Heisman Trophy winner and first-round draft pick to fly under the radar, but that has been the case for Smith in recent years. With all eyes on A.J. Brown, Smith has finished no lower than 30th among receivers in fantasy PPG in each of his five seasons (top 30 in PPG each of the last four). The \"slim reaper\" saw a big dip in touchdowns last season (four, after at least seven the prior three seasons), but remained very efficient (career 9.1 yards per target and 2.1 yards per route run). Smith has handled roughly one-quarter of the Eagles' targets throughout his career, and that may rise slightly after Brown was traded to New England. Smith, 27, is the Eagles' No. 1 receiver for the first time as a non-rookie and is well positioned for a strong WR2 campaign.",
@@ -4091,7 +4091,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.02,
+        "appliedStatTotal": 11.5,
         "id": 4426338,
         "keeperValue": 8,
         "keeperValueFuture": 0,
@@ -4119,7 +4119,7 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.8,
+        "appliedStatTotal": 6.699999999999999,
         "id": 4429086,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -4147,20 +4147,20 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 196.60000000000005,
+        "appliedStatTotal": 230.4,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[7].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.4,
+        "appliedStatTotal": 22.099999999999998,
         "id": 4262921,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4294,7 +4294,7 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.900000000000006,
+        "appliedStatTotal": 46.5,
         "id": 4432620,
         "keeperValue": 0,
         "keeperValueFuture": 6,
@@ -4326,9 +4326,9 @@
         "id": 4710714,
         "keeperValue": 0,
         "keeperValueFuture": 7,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4389,13 +4389,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 16.4,
+        "appliedStatTotal": 33.9,
         "id": 3040151,
         "keeperValue": 0,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4520,13 +4520,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.5,
+        "appliedStatTotal": 22.7,
         "id": 3042519,
         "keeperValue": 8,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4609,7 +4609,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 228.45999999999998,
+        "appliedStatTotal": 259.16,
         "tradeReservedEntries": 0
       }
     },
@@ -4709,8 +4709,8 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Warren",
-        "lastNewsDate": 1794806096000,
-        "lastVideoDate": 1795016368000,
+        "lastNewsDate": 1795389000000,
+        "lastVideoDate": 1795392338000,
         "proTeamId": 23,
         "seasonOutlook": "Warren reached career-high marks in touches (251), yardage (1,291) and touchdowns (eight) last season, his fourth in the league. The former undrafted free agent put up 13.6 fantasy points per game (19th among backs) and PFF tracked him with 56 forced missed tackles (seventh). Pittsburgh swapped out Kenneth Gainwell for Rico Dowdle as Warren's running mate, and the two are expected to split work in a Mike McCarthy offense that rarely deploys its backs in the passing game. Warren is capable and effective as a rusher and receiver, but his ceiling figures to be limited in this committee. He's likely to cap out as a flex.",
         "universeId": 1
@@ -4756,7 +4756,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Goedert",
-        "lastNewsDate": 1794184099000,
+        "lastNewsDate": 1795397985000,
         "lastVideoDate": 1793642002000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
@@ -4766,13 +4766,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 20.1,
         "id": 16737,
         "keeperValue": 5,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4827,13 +4827,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 10.0,
         "id": 4036133,
         "keeperValue": 6,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4855,13 +4855,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.5,
+        "appliedStatTotal": 15.5,
         "id": -16025,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4883,7 +4883,7 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 28.7,
+        "appliedStatTotal": 34.4,
         "id": 4686361,
         "keeperValue": 0,
         "keeperValueFuture": 0,
@@ -4981,7 +4981,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 211.66,
+        "appliedStatTotal": 215.16,
         "tradeReservedEntries": 0
       }
     },
@@ -5185,13 +5185,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 25.9,
+        "appliedStatTotal": 29.4,
         "id": 3126486,
         "keeperValue": 8,
         "keeperValueFuture": 13,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5513,9 +5513,9 @@
         "id": 4429205,
         "keeperValue": 10,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5604,9 +5604,9 @@
         "id": 4360438,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5747,7 +5747,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "0",
         "lastName": "Allen",
-        "lastNewsDate": 1794790494000,
+        "lastNewsDate": 1795395968000,
         "lastVideoDate": 1794180793000,
         "proTeamId": 20,
         "seasonOutlook": "Hopes were high for Allen entering 2025, but a slow start was followed by a season-ending knee injury in Week 4. During Weeks 1-3, Allen played 28% of the Jets' snaps and totaled 67 yards and one touchdown on 16 touches. The 2024 fourth-round pick has shown he can contribute as both a rusher (110 career carries) and receiver (32 targets), but he's simply not going to see the field much as long as feature back Breece Hall is healthy. Allen, 22, has some late-round insurance stash appeal, as he'd likely start over Isaiah Davis in the event of a Hall injury and would thus find himself on the flex radar."
@@ -5874,9 +5874,9 @@
         "id": 15818,
         "keeperValue": 12,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -6004,7 +6004,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "89",
         "lastName": "Andrews",
-        "lastNewsDate": 1794894480000,
+        "lastNewsDate": 1795393512000,
         "lastVideoDate": 1794411219000,
         "proTeamId": 33,
         "seasonOutlook": "One of fantasy's biggest mysteries, Andrews' usage has dipped substantially over the past two seasons. After finishing in the top five in fantasy PPG five seasons in a row from 2019 to 2023, Andrews slipped to eighth in 2024 (it would've been much worse if not for 11 touchdowns on 68 targets) and fell even further to 24th last season. Andrews appeared in all 17 of Baltimore's games but ranked 18th among tight ends in targets and outside the top 20 in catches and yards. The combination of a new coaching staff, a healthy Lamar Jackson and the departure of Isaiah Likely could lead to a rebound season for Andrews, but we now have two straight seasons of underperformance. The 31-year-old remains a force near the goal line (top 10 in end zone targets seven years in a row), but he's now more of a fringe TE1 than a fantasy star."
@@ -6350,11 +6350,12 @@
         "id": 4708049,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1795593600000
       }
     },
     {
@@ -6415,7 +6416,7 @@
         "injuryStatus": "ACTIVE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1794895779000,
+        "lastNewsDate": 1795398130000,
         "lastVideoDate": 1790001549000,
         "proTeamId": 33,
         "seasonOutlook": "Bateman is entering his sixth season in Baltimore following an injury-plagued 2025 campaign in which he was limited to a career-low 224 receiving yards in 13 games. After scoring nine touchdowns on only 45 receptions in 2024, Bateman had \"regression\" written all over him entering last season, but it was worse than expected. The 2021 first-round pick saw his target share fall from 15.4% to a career-low 11.4% and his only double-digit fantasy effort came in Week 3. The 26-year-old remains second on Baltimore's depth chart behind Zay Flowers, but even in a new scheme and with a healthy Lamar Jackson under center, he's unlikely to produce his first top-35 fantasy campaign. Bateman isn't the most appealing late-round draft pick."
