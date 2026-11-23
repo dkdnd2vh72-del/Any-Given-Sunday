@@ -3,8 +3,8 @@
   "matchups": [
     {
       "away": {
-        "projection": 124.99,
-        "score": 107.92,
+        "projection": 109.41,
+        "score": 111.92,
         "teamId": 13,
         "teamName": "Pollard Express"
       },
@@ -32,13 +32,13 @@
     {
       "away": {
         "projection": 116.88,
-        "score": 99.2,
+        "score": 103.4,
         "teamId": 14,
         "teamName": "Chance make champions"
       },
       "home": {
         "projection": 130.02,
-        "score": 104.6,
+        "score": 113.8,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
       }
@@ -60,13 +60,13 @@
     {
       "away": {
         "projection": 119.22,
-        "score": 91.24,
+        "score": 98.5,
         "teamId": 8,
         "teamName": "King Johnson"
       },
       "home": {
         "projection": 135.78,
-        "score": 124.16,
+        "score": 134.56,
         "teamId": 12,
         "teamName": "Injured Reserve"
       }
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 38,
+      "acquisitions": 37,
       "actual": 147.4,
       "htmlId": "numbers",
       "id": 3,
@@ -418,7 +418,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 2.2,
+          "actual": 4.7,
           "id": "4360569",
           "name": "Jordan Mason",
           "position": "RB",
@@ -440,7 +440,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 3.0,
+          "actual": 0.0,
           "id": "-16016",
           "name": "Vikings D/ST",
           "position": "D/ST",
@@ -454,7 +454,7 @@
     },
     {
       "acquisitions": 10,
-      "actual": 104.6,
+      "actual": 113.8,
       "htmlId": "champagne-step-papi",
       "id": 4,
       "name": "Champagne Step-Papi",
@@ -480,7 +480,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 5.0,
+          "actual": 14.2,
           "id": "3117251",
           "name": "Christian McCaffrey",
           "position": "RB",
@@ -967,7 +967,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 2.84,
+          "actual": 7.4,
           "id": "14880",
           "name": "Kirk Cousins",
           "position": "QB",
@@ -1025,7 +1025,7 @@
     },
     {
       "acquisitions": 18,
-      "actual": 91.24,
+      "actual": 98.5,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
@@ -1040,7 +1040,7 @@
       },
       "roster": [
         {
-          "actual": 19.04,
+          "actual": 22.2,
           "id": "4361741",
           "name": "Brock Purdy",
           "position": "QB",
@@ -1073,7 +1073,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 2.7,
+          "actual": 6.8,
           "id": "15818",
           "name": "Keenan Allen",
           "position": "WR",
@@ -1402,7 +1402,7 @@
     },
     {
       "acquisitions": 10,
-      "actual": 124.16,
+      "actual": 134.56,
       "htmlId": "injured-reserve",
       "id": 12,
       "name": "Injured Reserve",
@@ -1472,7 +1472,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 17.5,
+          "actual": 19.9,
           "id": "3040151",
           "name": "George Kittle",
           "position": "TE",
@@ -1483,7 +1483,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 5.7,
+          "actual": 13.7,
           "id": "4262921",
           "name": "Justin Jefferson",
           "position": "WR",
@@ -1516,7 +1516,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 10.2,
+          "actual": 11.3,
           "id": "3042519",
           "name": "Aaron Jones Sr.",
           "position": "RB",
@@ -1596,12 +1596,12 @@
     },
     {
       "acquisitions": 25,
-      "actual": 107.92,
+      "actual": 111.92,
       "htmlId": "pollard-express",
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 5,
-      "projection": 124.99,
+      "projection": 109.41,
       "record": {
         "losses": 9,
         "pointsAgainst": 1153.28,
@@ -1666,7 +1666,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 10.0,
+          "actual": 14.5,
           "id": "4036133",
           "name": "T.J. Hockenson",
           "position": "TE",
@@ -1677,18 +1677,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 0.0,
-          "id": "4362238",
-          "name": "Chase Brown",
-          "position": "RB",
-          "proTeam": "CIN",
-          "projection": 15.58,
-          "slot": "FLEX",
-          "slotId": 23,
-          "tradeInterest": null
-        },
-        {
-          "actual": 15.0,
+          "actual": 14.5,
           "id": "-16025",
           "name": "49ers D/ST",
           "position": "D/ST",
@@ -1716,6 +1705,17 @@
           "position": "QB",
           "proTeam": "PIT",
           "projection": 15.17,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4362238",
+          "name": "Chase Brown",
+          "position": "RB",
+          "proTeam": "CIN",
+          "projection": 15.58,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1754,7 +1754,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 20.1,
+          "actual": 22.9,
           "id": "16737",
           "name": "Mike Evans",
           "position": "WR",
@@ -1790,7 +1790,7 @@
     },
     {
       "acquisitions": 12,
-      "actual": 99.2,
+      "actual": 103.4,
       "htmlId": "chance-make-champions",
       "id": 14,
       "name": "Chance make champions",
@@ -1838,7 +1838,7 @@
           "tradeInterest": null
         },
         {
-          "actual": 3.5,
+          "actual": 7.7,
           "id": "3126486",
           "name": "Deebo Samuel Sr.",
           "position": "WR",
