@@ -3,80 +3,80 @@
   "matchups": [
     {
       "away": {
-        "percentage": 100,
-        "projection": 111.92,
-        "teamId": 13
-      },
-      "home": {
-        "percentage": 0,
-        "projection": 109.76,
-        "teamId": 7
-      }
-    },
-    {
-      "away": {
-        "percentage": 90,
-        "projection": 130.94,
+        "percentage": 54,
+        "projection": 140.15,
         "teamId": 1
       },
       "home": {
-        "percentage": 10,
-        "projection": 120.4,
-        "teamId": 5
+        "percentage": 46,
+        "projection": 132.23,
+        "teamId": 13
       }
     },
     {
       "away": {
-        "percentage": 27,
-        "projection": 126.26,
+        "percentage": 56,
+        "projection": 121.42,
+        "teamId": 7
+      },
+      "home": {
+        "percentage": 44,
+        "projection": 110.93,
         "teamId": 14
-      },
-      "home": {
-        "percentage": 73,
-        "projection": 133.36,
-        "teamId": 4
       }
     },
     {
       "away": {
-        "percentage": 99,
-        "projection": 159.72,
+        "percentage": 39,
+        "projection": 104.37,
+        "teamId": 5
+      },
+      "home": {
+        "percentage": 61,
+        "projection": 125.7,
         "teamId": 3
-      },
-      "home": {
-        "percentage": 1,
-        "projection": 98.37,
-        "teamId": 11
       }
     },
     {
       "away": {
-        "percentage": 0,
-        "projection": 98.5,
-        "teamId": 8
+        "percentage": 46,
+        "projection": 120.55,
+        "teamId": 4
       },
       "home": {
-        "percentage": 100,
-        "projection": 134.56,
+        "percentage": 54,
+        "projection": 128.16,
+        "teamId": 8
+      }
+    },
+    {
+      "away": {
+        "percentage": 44,
+        "projection": 119.87,
+        "teamId": 11
+      },
+      "home": {
+        "percentage": 56,
+        "projection": 132.77,
         "teamId": 12
       }
     }
   ],
-  "projectedMedian": 123.33,
+  "projectedMedian": 123.56,
   "projections": {
-    "1": 130.94,
-    "11": 98.37,
-    "12": 134.56,
-    "13": 111.92,
-    "14": 126.26,
-    "3": 159.72,
-    "4": 133.36,
-    "5": 120.4,
-    "7": 109.76,
-    "8": 98.5
+    "1": 140.15,
+    "11": 119.87,
+    "12": 132.77,
+    "13": 132.23,
+    "14": 110.93,
+    "3": 125.7,
+    "4": 120.55,
+    "5": 104.37,
+    "7": 121.42,
+    "8": 128.16
   },
-  "scoringPeriod": 11,
+  "scoringPeriod": 12,
   "season": 2026,
-  "updatedAt": "2026-11-24T00:56:27.721368+00:00",
-  "week": 11
+  "updatedAt": "2026-11-24T10:43:02.062593+00:00",
+  "week": 12
 }
