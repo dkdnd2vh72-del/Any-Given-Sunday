@@ -477,7 +477,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[66]",
+      "path": "$.mTransactions2.transactions[67]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -496,7 +496,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[67]",
+      "path": "$.mTransactions2.transactions[68]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -515,7 +515,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[70]",
+      "path": "$.mTransactions2.transactions[71]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -533,7 +533,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[74]",
+      "path": "$.mTransactions2.transactions[75]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -552,7 +552,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[74].items[0]",
+      "path": "$.mTransactions2.transactions[75].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -565,7 +565,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[74].items[1]",
+      "path": "$.mTransactions2.transactions[75].items[1]",
       "values": {
         "fromLineupSlotId": 4,
         "fromTeamId": 5,
@@ -2656,7 +2656,7 @@
       "values": {
         "active": true,
         "defaultPositionId": 2,
-        "droppable": false,
+        "droppable": true,
         "firstName": "Jonathan",
         "fullName": "Jonathan Taylor",
         "id": 4242335,
@@ -3381,7 +3381,7 @@
         "injured": false,
         "injuryStatus": "DOUBTFUL",
         "lastName": "Brown",
-        "lastNewsDate": 1795202129000,
+        "lastNewsDate": 1795469668000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3897,9 +3897,9 @@
         "fullName": "Jalen Coker",
         "id": 4695883,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Coker",
-        "lastNewsDate": 1795384159000,
+        "lastNewsDate": 1795459358000,
         "lastVideoDate": 1792359746000,
         "proTeamId": 29,
         "seasonOutlook": "After missing nearly the entire first half of 2025, Coker passed Xavier Legette and took on a larger offensive role opposite Tetairoa McMillan. From Week 8 onward (11 games, including the playoffs), Coker played 73% of the snaps and handled a 17.8% target share. The fantasy output was inconsistent (below 11.5 points in seven games), but he peaked down the stretch (more than 14 points in four of his final six, including a 9-134-1 showing against the Rams in the playoffs). Coker's strong finish is encouraging, though his rookie season went similarly (14-plus points three times, but under 11 in the other nine games). A healthy 2026 could get Coker to the next level, but flex production is his likely ceiling as long as McMillan is commanding one-quarter (if not more) of the targets in Carolina's Bryce Young-led offense.",
@@ -4468,7 +4468,7 @@
         "injured": true,
         "injuryStatus": "OUT",
         "lastName": "Marks",
-        "lastNewsDate": 1795035072000,
+        "lastNewsDate": 1795460714000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -4754,9 +4754,9 @@
         "fullName": "Dallas Goedert",
         "id": 3121023,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Goedert",
-        "lastNewsDate": 1795397985000,
+        "lastNewsDate": 1795471656000,
         "lastVideoDate": 1793642002000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
@@ -5152,7 +5152,7 @@
         "injured": true,
         "injuryStatus": "OUT",
         "lastName": "Jacobs",
-        "lastNewsDate": 1795383819000,
+        "lastNewsDate": 1795469754000,
         "lastVideoDate": 1793198730000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
