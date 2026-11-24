@@ -1,6 +1,98 @@
 {
   "matches": [
     {
+      "path": "$.mTransactions2.transactions[3]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795710229025,
+        "id": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
+        "proposedDate": 1795537428989,
+        "rating": 0,
+        "scoringPeriodId": 12,
+        "status": "PENDING",
+        "teamId": 5,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[3].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[3].items[1]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4047365,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795710229025,
+        "id": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
+        "proposedDate": 1795537428989,
+        "rating": 0,
+        "scoringPeriodId": 12,
+        "status": "PENDING",
+        "teamId": 5,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0].items[0]",
+      "values": {
+        "acquisitionBudget": 0,
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mPendingTransactions.pendingTransactions[0].items[1]",
+      "values": {
+        "acquisitionBudget": 0,
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4047365,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mTeam.members[0].notificationSettings[1]",
       "values": {
         "enabled": true,
@@ -359,11 +451,58 @@
       }
     },
     {
+      "path": "$.mTeam.teams[3].pendingTransactions[0]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795710229025,
+        "id": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
+        "proposedDate": 1795537428989,
+        "rating": 0,
+        "scoringPeriodId": 12,
+        "skipTransactionCounters": false,
+        "status": "PENDING",
+        "subOrder": 0,
+        "teamId": 5,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[0].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[3].pendingTransactions[0].items[1]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4047365,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mTeam.teams[3].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 111,
         "acquisitions": 22,
-        "drops": 21,
+        "drops": 22,
         "misc": 0,
         "moveToActive": 82,
         "moveToIR": 4,
@@ -404,7 +543,7 @@
         "acquisitions": 10,
         "drops": 9,
         "misc": 0,
-        "moveToActive": 30,
+        "moveToActive": 33,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -560,7 +699,7 @@
         "acquisitions": 25,
         "drops": 24,
         "misc": 0,
-        "moveToActive": 54,
+        "moveToActive": 55,
         "moveToIR": 2,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -593,13 +732,60 @@
       }
     },
     {
+      "path": "$.mTeam.teams[9].pendingTransactions[0]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795710229025,
+        "id": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
+        "proposedDate": 1795537428989,
+        "rating": 0,
+        "scoringPeriodId": 12,
+        "skipTransactionCounters": false,
+        "status": "PENDING",
+        "subOrder": 0,
+        "teamId": 5,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[0].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTeam.teams[9].pendingTransactions[0].items[1]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4047365,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 0,
         "acquisitions": 12,
-        "drops": 11,
+        "drops": 12,
         "misc": 0,
-        "moveToActive": 32,
+        "moveToActive": 33,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -1779,7 +1965,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 111.55999999999999,
+        "appliedStatTotal": 102.75999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -2242,34 +2428,6 @@
         "4": "Jacory Croskey-Merritt was perhaps predictably stymied by the Seattle Seahawks last game. However, the touches were a silver lining, as Croskey-Merritt garnered 20 opportunities in the 33-31 win over the defending champions. Bill rushed 19 times for 36 yards, while also catching a seven-yard pass out of the backfield. However, fellow running back Rachaad White  averaged more than double Croskey-Meritt's yards per carry, while also finding the end zone through the air. However, there could be plenty of room to roam in Week 4 versus the Colts. Indianapolis has been dreadful against the run in 2026, allowing 141.3 yards per contest on he ground, which is 29th in the league.",
         "5": "Jacory Croskey-Merritt was stymied last game in a dismal loss for the Commanders. Bill had nine carries for a season-low 15 yards in the 30-13 defeat to the Colts. Even with Rachaad White sidelined due to injury, Croskey-Merritt could find little room to roam. Bill is struggling overall this season, averaging just 2.8 yards per tote. In Week 5, Washington will face a Giants run defense that has vastly improved from a season ago. New York is allowing 109 rushing yards per tilt, which is tied for 15th in the league. In addition, the G-Men have surrendered only two rushing touchdowns through four contests.",
         "6": "Jacory Croskey-Merritt rushed for a season-high 82 yards last game for the Commanders. Bill also found the end zone for the second time this season. Croskey-Merritt has seen double-digit touches in every contest thus far in 2026. In Week 6, Washington will face the San Francisco 49ers. The Niners are allowing 97.6 rushing yards per tilt, which is 10th in the NFL. San Francisco has also given up just three rushing touchdowns through five outings, which is tied for sixth in the league."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 8.8,
-        "id": 2985659,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 5,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "11": "Wil Lutz comes out of the Broncos' Week 10 bye having converted multiple field goal attempts in three straight games and multiple PATs in five straight. The veteran kicker had a slow start to the season and still sits outside the top 20 in kicker scoring, but his recent consistency gives him a relatively stable floor, and playing his home games at altitude offers some upside. Lutz could be busy in Week 11 against a Raiders team that's allowed the most points per game in the league at 28.9, tied for 31st with the Cardinals.",
-        "2": "Wil Lutz's opportunities were minimal in the Broncos' season-opening loss to Kansas City, converting his only extra point and his sole field-goal attempt from 31 yards. The veteran kicker had been productive in his first three years with Denver, averaging just under 30 FGs and 38 extra points per season while going 12-for-18 on field-goal attempts of 50-plus yards. In Week 2, Lutz will take on a Jaguars team that ranked eighth in points per game allowed in 2025.",
-        "3": "Wil Lutz has been perfect to begin the season for the Broncos, and in a Week 2 win over the Jaguars, he converted both his field-goal attempts and both his PATs. The veteran kicker has been consistent since following Sean Payton northwest from New Orleans, and kicking at altitude has allowed him to be reliable from long range, but the Denver offense doesn't provide him with enough opportunities to be among the elite at his position. Lutz will face a Rams team in Week 3 that just kept the Giants out of the end zone but which has allowed five FG attempts through two games.",
-        "4": "Wil Lutz missed his first kick of the season in the Broncos' Week 3 win over the Rams, hitting the left upright on a 43-yard field goal attempt but connecting on both his extra points. Game flow cost him opportunities, as Denver headed into halftime down 16-0 and attempted two-point conversions multiple times as part of their comeback. Lutz has converted three FGs and five extra points through three games, and his volume may not improve substantially until his offense develops some consistency. He'll take on a 49ers team in Week 4 that's allowed just 16.7 points a game, tied for third in the league.",
-        "5": "Wil Lutz continues to get little volume thanks to the struggles of the Broncos' offense. Through four games, the veteran kicker has attempted only five extra points, converting all, while going just 5-for-7 on FG attempts, with one of his misses coming from 58 yards out. Lutz is reliable, especially with most of his games coming either at altitude or indoors, but without more opportunities, he won't be able to make much of a contribution. He could get more chances in Week 5 against a Chargers team that has allowed 26.5 points per game, 24th in the league.",
-        "6": "Wil Lutz has missed field goal attempts in the Broncos' last two games, but he's also benefited from increased volume, going 5-for-7 on FGs and 2-for-2 on PATs. The veteran kicker has had his production dragged down by the struggles of the offense, but with Sean Payton calling plays again, Lutz's outlook has brightened a little. He'll face a Seahawks team in Week 6 that's allowed 21.0 points per game this season, eighth in the league.",
-        "7": "Wil Lutz played hero for the Broncos in Week 6, with his only field goal coming in overtime during a win over the Seahawks. The veteran kicker's volume is inconsistent thanks to Denver's struggling offense, and through six games, he's gone 9-for-12 on FG attempts and a perfect 9-for-9 on extra points. Lutz could be busier than usual in Week 7 against a Cardinals team that's allowed 29.7 points per game, tied with the Saints for the worst mark in the league.",
-        "8": "Wil Lutz was busy and efficient in the Broncos' Week 7 win over the Cardinals, converting all three of his extra points and all three of his field-goal attempts for a season-best 12 points. The veteran kicker has booted multiple FGs in three of the last four games and multiple PATs in three straight, but the overall struggles of the Denver offense put a cap on Lutz's upside. He likely won't be able to squander any opportunities in Week 8 against a Kansas City team that ranks second in the NFL in points per game allowed.",
-        "9": "Wil Lutz hasn't missed a kick in three straight games, connecting on both his field goal attempts and both his PATs in the Broncos' Week 8 win over Kansas City. The veteran kicker is a perfect 14-for-14 on extra points this season, but his 82.4% showing on FG attempts (14-for-17, including two misses from inside 50 yards) would be his worst mark in four years since following Sean Payton to Denver from New Orleans. Lutz could see plenty of opportunities to improve that performance in Week 9 against a Panthers team that just fired its defensive coordinator after allowing 27.6 points a game, 28th in the league, through the first half of the season."
       }
     },
     {
@@ -2804,7 +2962,7 @@
         "injured": false,
         "injuryStatus": "DOUBTFUL",
         "lastName": "Brown",
-        "lastNewsDate": 1795469668000,
+        "lastNewsDate": 1795549602000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3888,8 +4046,8 @@
         "firstName": "Woody",
         "fullName": "Woody Marks",
         "id": 4429059,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Marks",
         "lastNewsDate": 1795460714000,
         "lastVideoDate": 1791997386000,
@@ -4032,7 +4190,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 117.9,
+        "appliedStatTotal": 106.6,
         "tradeReservedEntries": 0
       }
     },
@@ -4133,7 +4291,7 @@
         "injuryStatus": "ACTIVE",
         "lastName": "Warren",
         "lastNewsDate": 1795389000000,
-        "lastVideoDate": 1795392338000,
+        "lastVideoDate": 1795543013000,
         "proTeamId": 23,
         "seasonOutlook": "Warren reached career-high marks in touches (251), yardage (1,291) and touchdowns (eight) last season, his fourth in the league. The former undrafted free agent put up 13.6 fantasy points per game (19th among backs) and PFF tracked him with 56 forced missed tackles (seventh). Pittsburgh swapped out Kenneth Gainwell for Rico Dowdle as Warren's running mate, and the two are expected to split work in a Mike McCarthy offense that rarely deploys its backs in the passing game. Warren is capable and effective as a rusher and receiver, but his ceiling figures to be limited in this committee. He's likely to cap out as a flex.",
         "universeId": 1
@@ -4404,7 +4562,7 @@
     {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 100.6,
+        "appliedStatTotal": 90.69999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -4572,10 +4730,10 @@
         "firstName": "Josh",
         "fullName": "Josh Jacobs",
         "id": 4047365,
-        "injured": true,
-        "injuryStatus": "OUT",
+        "injured": false,
+        "injuryStatus": "QUESTIONABLE",
         "lastName": "Jacobs",
-        "lastNewsDate": 1795469754000,
+        "lastNewsDate": 1795544394000,
         "lastVideoDate": 1793198730000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
@@ -4695,47 +4853,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[10]",
-      "values": {
-        "acquisitionDate": 1791030385012,
-        "acquisitionType": "TRADE",
-        "injuryStatus": "NORMAL",
-        "lineupSlotId": 21,
-        "pendingTransactionIds": null,
-        "playerId": 4426515,
-        "status": "NORMAL"
-      }
-    },
-    {
       "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 0.0,
-        "id": 4426515,
-        "keeperValue": 1,
-        "keeperValueFuture": 1,
-        "lineupLocked": false,
-        "onTeamId": 14,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Puka Nacua is expected to miss the Rams' Week 10 clash against the Cardinals and several weeks beyond that. Nacua suffered a knee injury in this past Sunday's win over Washington and is likely to be placed on IR. Davante Adams (hamstring) remains on IR, so the Rams' WR corps will be led by the likes of Tutu Atwell, Konata Mumpfield and Jordan Whittington.",
-        "2": "Puka Nacua managed to put up decent numbers despite the Rams' dismal offensive performance in their season opener, and he'll look to ramp up his production further in Week 2 against the Giants. Nacua recorded 74 of Matthew Stafford's 155 passing yards in Week 1 versus San Francisco, though he caught just five of nine targets. No other Rams pass catcher had more than three catches or 26 yards, so there's little doubt that Nacua unsurprisingly remains Stafford's favorite target. The Giants' defense looked good in a win over Dallas in Week 1, with top wideout CeeDee Lamb posting a modest 5-44-1 receiving line.",
-        "3": "Puka Nacua (hip) is uncertain to play in the Rams' Week 3 clash against Denver. Nacua missed Monday's Week 2 game versus the Giants, though he wasn't ruled out until game day. That lends some hope that Nacua could return soon, though his availability for practice during the week should provide more insight about his potential to return versus the Broncos. Should Nacua suit up, he'll draw a tough Denver secondary that have given up just 203 receiving yards to wideouts so far, tied for third-fewest in the league.",
-        "4": "Puka Nacua (hip) could return to action when the Rams face Philadelphia in Week 4. Nacua has missed Los Angeles' past two games due to a hip injury, but there is some hope that he can return against the Eagles. While Nacua has been out, Davante Adams has thrived statistically as the Rams' top wideout. The team's receiving corps as a whole could find success against an Eagles squad that ranks 24th in the NFL through three weeks by giving up an average of 24.0 fantasy points per game to wideouts.",
-        "5": "Puka Nacua appears to be past his early-season injury woes as the Rams prepare to host Buffalo in Week 5. The star wideout missed Weeks 2 and 3 due to a hip/groin issue, but he returned this past Sunday against the Eagles and put up a 9-125-0 receiving line on 12 targets while adding a two-yard rushing touchdown. Nacua logged a 90% percent offensive snap share in the contest, so it doesn't appear that he is going to be inhibited by the injury, at least in terms of playing time, moving forward. The Bills present a good matchup on paper, as they've given up the fourth-most fantasy points (27.8) to wideouts so far this season.",
-        "6": "Puka Nacua is coming off a massive performance on Monday Night Football with the Rams' Week 6 clash against the Cardinals on tap. Nacua recorded career-best marks with 17 catches and 24 targets in Week 5 against Buffalo, turning that enormous volume into 138 yards and a touchdown while adding nine yards on two carries. The TD was Nacua's first over three games this season, but he's otherwise been massively productive in averaging 10.3 receptions and 112.3 receiving yards per game. The Cardinals don't figure to offer much resistance, as they've yielded the second-most fantasy points per game (28.0) to wideouts this season.",
-        "7": "Puka Nacua should handle an even bigger role on offense following the news that Davante Adams will miss between six and 10 weeks due to a hamstring injury, so fantasy managers who have rostered Nacua could expect a sizable uptick in both volume and production. Nacua has already compiled 37 receptions for 417 yards and a touchdown through four appearances in 2026, and he's had over 75 receiving yards in every game, so the floor is clearly there. The Week 7 matchup against the Raiders looks like an ideal opportunity to deliver one of his best performances of the season, as Las Vegas has allowed the 10th-most fantasy points per game to opposing wideouts in 2026.",
-        "8": "Puka Nacua will look to move further beyond a calf injury when the Rams face the Chargers in Week 8. Nacua played through the issue Sunday against Las Vegas and tallied eight catches on 10 targets for 68 yards and a touchdown while adding 10 yards on two carries. He logged an 85 percent offensive snap share, so he didn't seem to be inhibited by the calf injury. With Davante Adams (hamstring) expected to be sidelined several more games, Nacua should continue to see a lot of balls thrown his way against the Chargers, who have yielded a 68.9% catch rate to wideouts, third-worst in the league.",
-        "9": "Puka Nacua continues to take on a monumental target share for the Rams heading into a Week 9 matchup versus the Commanders. With Davante Adams (hamstring) sidelined the past two weeks, Nacua has racked up 19 receptions for 148 yards and two touchdowns on 22 targets. Quarterback Matthew Stafford targeted other wideouts just seven times this past Sunday in a win over the Chargers, so Nacua is likely to continue to draw a lot of attention in the passing game, though that should be the case even after Adams returns. The Commanders present a great opportunity for Nacua's continued success, as they rank 20th in the NFL with 21.0 fantasy points per game allowed to wideouts."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 9.9,
         "id": 4688813,
@@ -4749,7 +4867,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Josh Downs was traded to the Chiefs where he'll be catching passes from Patrick Mahomes, assuming the QB is healthy after hurting his elbow in Week 9. Downs will enjoy a QB upgrade, but he'll face more competition for targets from Rashee Rice, Xavier Worthy and Travis Kelce. With Worthy also nursing an injury, Downs could log a big workload in Week 10 against a Falcons secondary that just traded away safety Jessie Bates and ranks 19th in fantasy points per game allowed to WRs.",
         "11": "Josh Downs made an immediate difference in his Kansas City debut, catching four of five targets for 53 yards and a touchdown in Sunday's win over the Falcons despite running just eight routes and playing only 10 snaps. Picked up from the Colts at the trade deadline, Downs' efficiency on a limited workload bodes well, but he'll still be the No. 2 wide receiver behind Rashee Rice, with Travis Kelce and the team's running backs also factoring significantly into the passing game. Downs will try to build on this performance in Week 11 against a Cardinals secondary that ranks 17th in fantasy points per game allowed to WRs.",
@@ -4764,7 +4882,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 2.6,
         "id": 3117256,
@@ -4778,7 +4896,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Dalton Schultz is a borderline fantasy starter at TE for Week 10 against the Browns. He ranks ninth among TEs with 46 receiving yards per game but has yet to score this season and has a meager five TDs in 42 regular-season appearances since the start of the 2024 season. Cleveland has allowed five TDs to the position in nine games, as well as 58 yards per game.",
         "11": "Dalton Schultz is coming off a bittersweet Week 10 performance against the Browns. He scored his first touchdown of the season on his only catch but was held to a single reception for the first time all season. The reliable TE is a borderline fantasy starter for Week 11 against the Colts; however, there are certainly higher-upside options to be found at the position. Schultz hasn't topped 45 yards since his 140-yard Week 2 outburst, which occurred while the Texans were without top WR Nico Collins, who has since recovered from a hamstring injury. The Colts have allowed seven TDs in 10 games to TEs, which is tied for fifth-most in the NFL.",
@@ -4792,7 +4910,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 15.5,
         "id": -16003,
@@ -4806,7 +4924,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[14]",
+      "path": "$.mRoster.teams[9].roster.entries[13]",
       "values": {
         "acquisitionDate": 1795360712518,
         "acquisitionType": "TRADE",
@@ -4818,7 +4936,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4567048,
@@ -4832,7 +4950,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[15]",
+      "path": "$.mRoster.teams[9].roster.entries[14]",
       "values": {
         "acquisitionDate": 1795360712518,
         "acquisitionType": "TRADE",
@@ -4844,7 +4962,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 19.1,
         "id": 4685472,
