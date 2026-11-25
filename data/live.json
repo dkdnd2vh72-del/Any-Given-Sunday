@@ -51,7 +51,7 @@
         "teamName": "Champagne Step-Papi"
       },
       "home": {
-        "projection": 128.23,
+        "projection": 127.15,
         "score": 0.0,
         "teamId": 8,
         "teamName": "King Johnson"
@@ -419,22 +419,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4360569",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "proTeam": "MIN",
-          "projection": 11.46,
+          "id": "4880281",
+          "name": "Jordyn Tyson",
+          "position": "WR",
+          "proTeam": "NO",
+          "projection": 10.4,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "4880281",
-          "name": "Jordyn Tyson",
-          "position": "WR",
-          "proTeam": "NO",
-          "projection": 10.4,
+          "id": "4038441",
+          "name": "Justice Hill",
+          "position": "RB",
+          "proTeam": "BAL",
+          "projection": 9.52,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1013,13 +1013,13 @@
       ]
     },
     {
-      "acquisitions": 18,
+      "acquisitions": 21,
       "actual": 0.0,
       "htmlId": "king-johnson",
       "id": 8,
       "name": "King Johnson",
       "playoffSeed": 1,
-      "projection": 128.23,
+      "projection": 127.15,
       "record": {
         "losses": 8,
         "pointsAgainst": 1431.1799999999996,
@@ -1118,11 +1118,11 @@
         },
         {
           "actual": 0.0,
-          "id": "4571557",
-          "name": "Spencer Shrader",
+          "id": "4360234",
+          "name": "Evan McPherson",
           "position": "K",
-          "proTeam": "IND",
-          "projection": 10.0,
+          "proTeam": "CIN",
+          "projection": 8.92,
           "slot": "K",
           "slotId": 17,
           "tradeInterest": null
@@ -1140,11 +1140,33 @@
         },
         {
           "actual": 0.0,
+          "id": "5081432",
+          "name": "Antonio Williams",
+          "position": "WR",
+          "proTeam": "WSH",
+          "projection": 11.53,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
           "id": "-16004",
           "name": "Bengals D/ST",
           "position": "D/ST",
           "proTeam": "CIN",
           "projection": 6.93,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4362619",
+          "name": "Chris Rodriguez Jr.",
+          "position": "RB",
+          "proTeam": "JAX",
+          "projection": 6.6,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1167,28 +1189,6 @@
           "position": "RB",
           "proTeam": "KC",
           "projection": 7.55,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "15818",
-          "name": "Keenan Allen",
-          "position": "WR",
-          "proTeam": "SF",
-          "projection": 6.87,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
-          "id": "4608686",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "proTeam": "CHI",
-          "projection": 7.78,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1584,7 +1584,7 @@
       ]
     },
     {
-      "acquisitions": 25,
+      "acquisitions": 26,
       "actual": 0.0,
       "htmlId": "pollard-express",
       "id": 13,
@@ -1700,22 +1700,22 @@
         },
         {
           "actual": 0.0,
-          "id": "4688380",
-          "name": "Cam Ward",
-          "position": "QB",
-          "proTeam": "TEN",
-          "projection": 12.01,
+          "id": "3121023",
+          "name": "Dallas Goedert",
+          "position": "TE",
+          "proTeam": "PHI",
+          "projection": 10.24,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
         },
         {
           "actual": 0.0,
-          "id": "3121023",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "proTeam": "PHI",
-          "projection": 10.24,
+          "id": "3122840",
+          "name": "Deshaun Watson",
+          "position": "QB",
+          "proTeam": "CLE",
+          "projection": 19.9,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1778,7 +1778,7 @@
       ]
     },
     {
-      "acquisitions": 12,
+      "acquisitions": 13,
       "actual": 0.0,
       "htmlId": "chance-make-champions",
       "id": 14,
@@ -1916,17 +1916,6 @@
         },
         {
           "actual": 0.0,
-          "id": "3117256",
-          "name": "Dalton Schultz",
-          "position": "TE",
-          "proTeam": "HOU",
-          "projection": 9.22,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4688813",
           "name": "Josh Downs",
           "position": "WR",
@@ -1943,6 +1932,17 @@
           "position": "RB",
           "proTeam": "GB",
           "projection": 0.0,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "4373678",
+          "name": "Khalil Shakir",
+          "position": "WR",
+          "proTeam": "BUF",
+          "projection": 8.94,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null

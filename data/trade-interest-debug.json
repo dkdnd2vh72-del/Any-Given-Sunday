@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[3]",
+      "path": "$.mTransactions2.transactions[5]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[3].items[0]",
+      "path": "$.mTransactions2.transactions[5].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[3].items[1]",
+      "path": "$.mTransactions2.transactions[5].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -351,7 +351,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -369,15 +369,15 @@
         "primaryOwner": "{AAC3053F-739A-47B3-BDE7-76E008C53EB4}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 7
+        "waiverRank": 8
       }
     },
     {
       "path": "$.mTeam.teams[1].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 100,
-        "acquisitions": 37,
-        "drops": 38,
+        "acquisitionBudgetSpent": 110,
+        "acquisitions": 38,
+        "drops": 39,
         "misc": 0,
         "moveToActive": 79,
         "moveToIR": 1,
@@ -408,7 +408,7 @@
         "primaryOwner": "{689C6304-D941-4316-8C0E-89C21B8C9FEB}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 3
+        "waiverRank": 2
       }
     },
     {
@@ -447,7 +447,7 @@
         "primaryOwner": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 8
+        "waiverRank": 4
       }
     },
     {
@@ -533,7 +533,7 @@
         "primaryOwner": "{113D06BF-E687-4014-BD06-BFE687C014C5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 10
+        "waiverRank": 6
       }
     },
     {
@@ -572,17 +572,17 @@
         "primaryOwner": "{F6751FD1-28B9-4C99-9EBC-72956781AF08}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 6
+        "waiverRank": 10
       }
     },
     {
       "path": "$.mTeam.teams[5].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 81,
-        "acquisitions": 18,
-        "drops": 17,
+        "acquisitionBudgetSpent": 99,
+        "acquisitions": 21,
+        "drops": 20,
         "misc": 0,
-        "moveToActive": 60,
+        "moveToActive": 61,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -611,7 +611,7 @@
         "primaryOwner": "{6DFCEF0A-EDE4-4244-BCEF-0AEDE4924420}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 9
+        "waiverRank": 5
       }
     },
     {
@@ -650,7 +650,7 @@
         "primaryOwner": "{55557D11-0BB9-4FB9-957D-110BB9EFB9E5}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 4
+        "waiverRank": 3
       }
     },
     {
@@ -671,7 +671,7 @@
       "path": "$.mTeam.teams[8]",
       "values": {
         "abbrev": "ZJAM",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 4,
         "eliminated": false,
@@ -689,15 +689,15 @@
         "primaryOwner": "{B9D0D9CD-0373-43B0-B535-9F31B41A51F8}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 5
+        "waiverRank": 9
       }
     },
     {
       "path": "$.mTeam.teams[8].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 61,
-        "acquisitions": 25,
-        "drops": 24,
+        "acquisitionBudgetSpent": 70,
+        "acquisitions": 26,
+        "drops": 25,
         "misc": 0,
         "moveToActive": 56,
         "moveToIR": 2,
@@ -728,7 +728,7 @@
         "primaryOwner": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
         "rankCalculatedFinal": 0,
         "rankFinal": 0,
-        "waiverRank": 2
+        "waiverRank": 7
       }
     },
     {
@@ -781,9 +781,9 @@
     {
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
-        "acquisitionBudgetSpent": 0,
-        "acquisitions": 12,
-        "drops": 12,
+        "acquisitionBudgetSpent": 25,
+        "acquisitions": 13,
+        "drops": 13,
         "misc": 0,
         "moveToActive": 33,
         "moveToIR": 3,
@@ -1362,20 +1362,6 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.7,
-        "id": 4360569,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 3,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 34.900000000000006,
         "id": 4702555,
         "keeperValue": 0,
@@ -1388,7 +1374,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[8].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "11": "Jonah Coleman captured the No. 1 job in the Broncos' backfield prior to the team's bye. Over the team's last two games, the rookie running back amassed 192 scrimmage yards and two rushing TDs, with his yardage split almost equally between the ground and the air. Coleman's usage as a pass catcher could decline once RJ Harvey gets healthy in a couple of weeks, but he's clearly surpassed J.K. Dobbins as the preferred ball carrier in all situations, including at the goal line. Coleman will take on a Raiders defense in Week 11 that ranks 28th in fantasy points per game allowed to RBs.",
         "3": "Jonah Coleman didn't see the ball in his NFL debut during the Broncos' opener, but his role increased in Week 2's win over the Jaguars due to RJ Harvey's hamstring strain. Coleman ended up getting more touches than J.K. Dobbins, with the 2026 fourth-round pick turning 10 carries into 39 yards and his first career touchdown while also catching all three of his targets for 19 yards. It's not clear how much time Harvey might miss, but Coleman's solid showing in his first opportunity could begin the process of turning the backfield into a three-man committee, with the workload dependent on whoever happens to be healthy. Coleman could be a risky play in Week 3 against a Rams defense that just saw the return of Aaron Donald in Week 2 and has yet to allow a rushing TD this year.",
@@ -1397,7 +1383,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry",
       "values": {
         "appliedStatTotal": 12.600000000000001,
         "id": 4360635,
@@ -1411,7 +1397,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[9].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Chig Okonkwo has been targeted at least six times in three of the last four contests for the Commanders. Okonkwo caught six passes for 57 yards in the 20-13 loss to the Rams last game. Okonkwo has at least 55 receiving yards in three of the last four games for Washington. However, he will face a difficult test in the form of the New York Giants in Week 10. New York is allowing just 177.8 passing yards per tilt, which is third in the NFL.",
         "11": "Chig Okonkwo has been a frequent target of quarterback Jayden Daniels since returning from injury for the Commanders. Okonkwo has at least six targets in four of the last five contests for Washington.  In fact, Okonkwo has been targeted 15 times over the last two games alone. Okonkwo is still looking for his first touchdown of the season, though. In Week 11, he will face a fairly stingy Cincinnati pass defense. The Bengals are allowing only 216.2 passing yards per clash, which is 11th in the league. Likewise, Cincy has given up just 11 throwing scores, which is tied for fifth in the NFL.",
@@ -1425,7 +1411,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry",
       "values": {
         "appliedStatTotal": 17.5,
         "id": 3917232,
@@ -1439,7 +1425,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Tyler Bass continues to see heavy volume in the Bills' prolific offense ahead of a Week 10 matchup with the Jets. Seemingly always assured of a handful of PATs, making at least two in every game, Bass has at least three field goals in four straight games, creating double-digit scoring upside with consistency. The Jets are allowing the ninth-fewest fantasy points per game to opposing kickers however, largely due to opponents converting drives into touchdowns, surrendering just 13 field goal attempts in nine games, which should test Bass' current form.",
         "11": "Tyler Bass faces unsettled scoring chances when the Bills host the Dolphins in Week 11. After attempting multiple field goals in five straight games, Bass tried just one in Week 10 with Buffalo coasting to a win and converting drives into touchdowns. That script seems likely to manifest again in Week 11 against an overmatched Miami defense, so while Bass will have a multi-PAT floor, his ceiling could be capped.",
@@ -1453,7 +1439,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 20.7,
         "id": 4612826,
@@ -1467,7 +1453,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[13]",
+      "path": "$.mRoster.teams[1].roster.entries[12]",
       "values": {
         "acquisitionDate": 1795360712518,
         "acquisitionType": "TRADE",
@@ -1479,7 +1465,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4426502,
@@ -1493,7 +1479,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[1].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Drake London is expected to remain the Falcons' top pass catcher during the Week 10 matchup against the Chiefs. London has cooled down after a terrific stretch of games from Weeks 3 through 5, averaging just 4.3 receptions and 52.8 receiving yards per game over Atlanta's last four contests. He's also averaging just 7.6 targets per game this season, his lowest mark since 2023, so it appears the Falcons are struggling to get him involved. Additionally, London is in for a difficult Week 10 matchup against a Chiefs secondary that's allowed just 23.5 fantasy points per game to opposing wideouts this year.",
         "2": "Drake London looks poised to bounce back from a tough Week 1 in the Falcons' Week 2 matchup against the Panthers. Carolina's defense just allowed a whopping 59 points to the Bears in Week 1, giving up 42.2 PPR fantasy points to wide receivers. London's rebound could depend on the quarterback play, as Michael Penix (knee) and Tua Tagovailoa (oblique) are both questionable for Sunday's contest. However, with Carolina's defensive struggles during Week 1, London should be in for a fantastic matchup.",
@@ -1507,7 +1493,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14]",
+      "path": "$.mRoster.teams[1].roster.entries[13]",
       "values": {
         "acquisitionDate": 1795360712518,
         "acquisitionType": "TRADE",
@@ -1519,7 +1505,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 24.1,
         "id": 4361579,
@@ -1530,6 +1516,35 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 17.6,
+        "id": 4038441,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 3,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[1].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Justice Hill and the Ravens host the winless Chargers on Monday Night Football in Week 10. He erupted for 85 yards on nine carries, including a 65-yard TD run, and caught all three of his targets for seven yards during Baltimore's Week 9 loss. With Jacoby Brissett expected to start under center, Hill and the Ravens' offense could start to become a bit more pass-friendly, but that's certainly no guarantee. He'll look to keep contributing against the Chargers' 21st-ranked defense in fantasy points allowed per game (22.8) to opposing RBs.",
+        "11": "Justice Hill and the Ravens are back on the road for an interconference clash against the Panthers in Week 11. He had three carries for four yards and caught five of seven targets for 34 yards during Baltimore's Week 10 defeat. Hill set new season highs in receptions and yardage with Jacoby Brissett making his team debut, a trend that could continue. Hill will try to exploit a Carolina defense allowing 27.3 fantasy points per game (29th) to opposing RBs.",
+        "2": "Justice Hill and the Ravens are at home to battle the Saints in Week 2. Hill rushed six times for 18 yards and had one catch for 10 yards in Baltimore's 41-23 win. He's established himself as the clear No. 2 RB, as his 31 offensive snaps trailed slightly behind Derrick Henry's 37. Hill should continue to see opportunities as a change-of-pace back against a New Orleans defense that ranks 28th in fantasy points allowed per game (38.4) to RBs.",
+        "3": "Justice Hill and the Ravens travel to face a Cowboys defense in Week 3 that ranks 25th in fantasy points per game (25.9) allowed to running backs. He tallied two carries for six yards and caught both of his targets for eight yards during Baltimore's 24-17 Week 2 loss to the Saints. As long as Derrick Henry, who accounted for 16 of 18 carries out of the backfield, is healthy, Hill's action will be limited as the No. 2 RB. However, in a contest that is expected to be high-scoring, Hill could contribute as a receiver, but he's still a risky fantasy play outside of deeper leagues.",
+        "4": "Justice Hill and the Ravens are back home to host the 0-3 Titans in Week 4. He was explosive with his five carries during Baltimore's thrilling Week 3 victory, racking up 33 yards and a 6.6 average. However, Derrick Henry handled 26 of the 31 total carries for running backs, and he remains in firm control of the Ravens' backfield. Tennessee's defense ranks 17th in fantasy points allowed (20.7) to RBs, and despite the possibility of Baltimore playing from ahead, Hill's involvement will continue to be limited.",
+        "5": "Justice Hill and the Ravens visit the Falcons for a Week 5 showdown. He rushed once for three yards and caught two of three targets for 22 yards during Baltimore's 24-18 victory in Week 4. Derrick Henry out-carried Hill 23-1, even with Lamar Jackson missing the entire second half with an ankle injury. It appears that regardless of who's under center, the Ravens' backfield belongs to Henry. Hill should remain on fantasy benches against an Atlanta defense allowing just 17.9 points per game to RBs, which ranks ninth.",
+        "6": "Justice Hill and the Ravens visit the division-rival Browns in Week 6. He rushed four times for 73 yards and caught two of four targets for five yards during Baltimore's Week 5 overtime win. Derrick Henry out-carried him 24-4, although Hill led the way with a game-long 47-yard run. However, as long as Henry is the lead back and the Ravens don't fall into a massive deficit, Hill's involvement in the offense will remain limited.",
+        "7": "Justice Hill and the Ravens host the Bengals for an AFC North clash in Week 7. He did not record a carry but brought in all three of his targets for nine yards during Baltimore's 13-10 loss in Week 6. Derrick Henry accounted for 17 of the 18 rushing attempts out of the Ravens' backfield, a trend that should continue as long as he remains healthy. Hill should remain on fantasy benches against a Cincinnati defense that is tied for ninth in fantasy points allowed per game (19.0) to RBs",
+        "8": "Justice Hill and the Ravens are on the road for a Week 8 meeting with the Bills. He had three carries for seven yards and caught three of four targets for 26 yards during Baltimore's 35-13 loss in Week 7. Rasheen Ali registered 19 yards on four carries, but that can likely be attributed to the Ravens giving up all 35 points in the second half. Regardless, as long as Derrick Henry is healthy, Hill's involvement on offense will continue to be limited.",
+        "9": "Justice Hill and the Ravens return home for a meeting with the Jaguars on Thursday Night Football in Week 9. He rushed three times for 15 yards and caught four of eight targets for 20 yards during Baltimore's Week 8 loss. Hill led the team in receptions and targets while finishing second in yardage in a game where the Ravens managed just 167 total yards of offense. He could earn similar opportunities with Lamar Jackson (thumb) on IR and Joe Fagnano (knee) likely to start, but it's going to be difficult to trust any Baltimore player in fantasy going forward."
       }
     },
     {
@@ -2904,7 +2919,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 65.6,
+        "appliedStatTotal": 75.60000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -3176,63 +3191,6 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.8,
-        "id": 4608686,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 8,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[10].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "11": "Kyle Monangai will look to make a return as the Bears play the Saints in Week 11. Monangai has sat out five straight games as he works back from a turf-toe injury. The second-year ball carrier's status is very likely correlated with his ability to practice, so this week should reveal his expected return timeline. He accrued 324 rushing yards and three touchdowns off 60 carries in the first four games of the season. If he returns, Monangai will face a New Orleans defense that's ranked 31st in fantasy points allowed to RBs this season.",
-        "2": "Kyle Monangai will look to be a big contributor once again for the Bears in Week 2 against the Vikings. While Monangai still took a back-seat role to D'Andre Swift in Week 1 against the Panthers, he still finished the game with 10 carries for 100 yards and a touchdown, along with 24 yards off two catches. The second-year ball carrier should still have plenty of a share in Chicago's rushing game to be fantasy relevant, especially given how much potential their offense showed for the season. Monangai will face a Minnesota defense that shelled Green Bay on the ground in their opener, but the Bears have a much superior RB room as of now.",
-        "3": "Kyle Monangai should remain a high-volume RB2 as the Bears take on the Eagles in Week 3. Monangai saw double-digit carries once again in Week 2, but he totaled just 47 yards on the ground and tacked on 11 yards off two catches. The second-year running back has now seen 12 touches in each of Chicago's two outings this year, and he could see even more with Tyson Bagent slated to start under center. Philly has also ceded 216 rushing yards to RBs this season, a bottom-10 mark in the league.",
-        "4": "Kyle Monangai should remain the complementary option in Chicago's backfield in Week 4 against the Jets. Monangai logged his third straight showing with 10 carries in Week 3 versus the Eagles, but he converted them for a season-low 31 rushing yards. The second-year running back also garnered no targets in the passing game, which came as a letdown after he posted a 4-35-0 receiving line leading up to the Monday Night win. He'll look to improve on his consistent volume against a New York defense that's allowed an eighth-most 24.1 fantasy points per game to RBs this season.",
-        "5": "Kyle Monangai will look to shed a questionable tag after a huge performance as the Bears play the Packers in Week 5. Monangai dominated the Jets on the ground in Week 4 with 30 rushes for 146 yards and two touchdowns, but he also injured his thumb and is currently day-to-day. The second-year ball carrier's practice availability should dictate whether he's able to play in Chicago's rivalry debut of the 2026 season. If he's active, he'll face a Green Bay defense that's ranked 31st in fantasy points allowed to running backs this campaign.",
-        "6": "Kyle Monangai will aim to return to the field as the Bears play the Falcons in Week 6. Monangai sat out in Week 5 with a toe injury, but he's week-to-week and not a candidate for IR. The second-year ball carrier put together a career-best 30 rushes for 146 yards and two touchdowns against the Jets in Week 4, so he could be inching towards a featured role if he can get back to the field. If he plays, Monangai will face an Atlanta defense that's ranked middle-of-the-pack against fantasy RBs so far.",
-        "7": "Kyle Monangai will look to make a return as the Bears play the Patriots in Week 7. Monangai has missed back-to-back games with turf toe, and he'll need to get back to practice if he hopes to see the field in a TNF matchup. If he is active, he'll return to a favorable backfield role versus a Falcons defense that's ranked middle-of-the-pack against fantasy RBs so far this season.",
-        "8": "Kyle Monangai will aim to make a return as the Bears travel to Seattle in Week 8. Monangai has missed the last three games with a turf toe injury, but Chicago is not planning to place him on IR. This makes it likely the second-year running back at least has a chance to return in the upcoming away tilt. With two 100-yard rushing games and three touchdowns across the first four games of the season, Monangai is an intriguing option if he returns, even against a Seahawks defense that's ranked top 10 in fantasy points allowed to RBs.",
-        "9": "Kyle Monangai will look to make a return as the Bears play the Buccaneers in Week 9. Monangai has sat out the last four weeks with thumb and toe issues. The second-year ball carrier recording a 30-146-2 rushing line before his inactive streak makes it even more frustrating, so he'll hopefully get back to practice sooner rather than later. If he is healthy against Tampa Bay, he'll face a defense that's ranked first in fantasy points allowed to running backs this season."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[11].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 1.4000000000000004,
-        "id": 4571557,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 8,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Spencer Shrader leads the league in field goals made and attempted, even with his volume and effectiveness dropping off in recent weeks as the 2-7 Colts continue to struggle as a team. He's 22-for-24 this season but just 4-for-6 over the past three games. Indianapolis faces a Dolphins defense in Week 10 that has allowed 15 made field goals in eight games and 25.0 points per game. If you have Shrader on your roster, you may as well keep starting him.",
-        "11": "Spencer Shrader has made no more than one field goal in three of the last four games. His recent downturn has knocked Shrader out of first place in field goals made and attempted, though he's still top-three in both categories thanks to a torrid start that has the Colts' kicker at 23-for-25 through 10 games. That strong start included a 4-for-4 Week 3 performance against the Texans, whom Shrader will face again in Week 11. The Colts' offense has been depleted by a few trades and will likely struggle to generate consistent kicking opportunities moving forward, but Shrader is viable in Week 11 since Houston ranks in the middle of the pack with 24.3 points allowed per game and 18 made field goals against. If you see an enticing alternative on your league's waiver wire, it may be time to move on from Shrader.",
-        "2": "Spencer Shrader made a 58-yard field goal but also missed an extra point in a confounding performance during the Colts' season-opening loss. The big-legged kicker may not get many opportunities in Week 2 against the Chiefs, especially since the Colts are one of the league's most efficient red-zone teams thanks to the presence of star RB Jonathan Taylor. Shrader is a middling fantasy option, and you can likely find a kicker in a more appealing situation on your league's waiver wire.",
-        "3": "Spencer Shrader has made all four of his field-goal attempts and five of six extra point tries through two games this season. The Colts are averaging a robust 26.5 points per game, but their success on offense has been overshadowed by a league-worst defensive performance en route to a 0-2 start. Shrader is gaining some streaming appeal heading into a Week 3 home game against the Texans, who are allowing 28.0 points per game in the early going after giving up just 17.4 points per game last season. He's a borderline fantasy starter at this point.",
-        "4": "Spencer Shrader is coming off a heroic performance in the Colts' 19-17 Week 3 win over the Texans, as the kicker overcame an early groin injury to make all four of his field-goal attempts, including a go-ahead 53-yarder with 16 seconds left in the fourth quarter. He's off to an 8-for-8 start this season and has made kicks from as deep as 58 yards. Shrader is making a case for a starting fantasy kicker role, and he'll have a chance to showcase his skills on the international stage in Week 4, when the Colts face the Commanders at Tottenham Hotspur Stadium in London. Scoring opportunities are likely to be plentiful for Shrader since Washington is giving up 30.7 points per game.",
-        "5": "Spencer Shrader has made all seven of his field-goal attempts over the Colts' last two games and all 11 attempts this season. He has been one of the hottest waiver-wire options at kicker over the past couple of weeks and could be worth picking up if he's still available ahead of a Week 5 trip to Pittsburgh. The Steelers have allowed eight made field goals in four games and 21.8 points per game. Those who streamed Shrader against Washington in Week 4 may as well keep rolling with him in Week 5.",
-        "6": "Spencer Shrader has emerged as an elite fantasy kicker through five weeks, converting all 12 of his field-goal attempts over the Colts' last three games. He's 16-for-16 overall this season, including a perfect 6-for-6 from 50-plus yards. Indianapolis' offense generated plenty of field-goal opportunities in the first half of last season before falling off a cliff in the second half, so the risk of regression is substantial. However, Shrader has an excellent opportunity to keep rolling in Week 6 against the winless Titans, who have allowed 13 field goals through five games, tied with Pittsburgh for the most in the NFL. Keep starting Shrader if you have him.",
-        "7": "Spencer Shrader has been one of the few bright spots for the 2-4 Colts, converting all of his league-high 18 field-goal attempts through six weeks, including six from beyond 50 yards. His lone blemish on the season is a missed extra point. Indianapolis could struggle to consistently reach scoring range in Week 7 against the Vikings, who are allowing a league-low 12.8 points per game, but Shrader has been too good recently to bench, and the Colts could find themselves kicking more field goals than PATs once again in this difficult matchup.",
-        "8": "Spencer Shrader leads the league in field goals made (19) and attempted (21), but he was just 1-for-3 in the Week 7 loss to Minnesota after starting 18-for-18 through six games. The Colts' kicker will attempt to bounce back in Week 8 against the Jaguars, who boast the league's third-stingiest scoring defense, allowing just 17.3 points per game. Shrader has earned some goodwill from fantasy managers with his hot start, but he could find himself back on the waiver wire before long if the misses start to pile up.",
-        "9": "Spencer Shrader is quickly losing his luster as the reeling Colts continue to struggle on offense. He still leads the league with 19 made field goals, but Shrader has slowed down significantly after an 18-for-18 start through Week 6. Shrader has gone just 1-for-3 on field goal attempts over the past two games while the Colts have been outscored 58-17 in that span. It's tempting to cut bait given his recent downturn, but fantasy managers should give Shrader one more chance to get back on track in Week 9 against the Cowboys, who are giving up 26.6 points per game, which is the sixth-most in the NFL."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 5.5,
         "id": -16030,
         "keeperValue": 0,
@@ -3245,7 +3203,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry.player",
+      "path": "$.mRoster.teams[5].roster.entries[10].playerPoolEntry.player",
       "values": {
         "active": true,
         "defaultPositionId": 16,
@@ -3261,36 +3219,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 6.800000000000001,
-        "id": 15818,
-        "keeperValue": 12,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 8,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Keenan Allen led the Colts with 40 catches on 58 targets, and his 351 receiving yards were just three shy of Josh Downs' team-leading total, with Allen having played one fewer game. Both players were shipped out of Indianapolis at the trade deadline however, with Allen landing with a San Francisco team in dire need of wide receiver depth. If the veteran gets up to speed on Kyle Shanahan's playbook quickly, he could find himself as Brock Purdy's No. 1 WR in Week 10 against a Cowboys secondary that is tied for 25th in fantasy points were game allowed to wideouts, although Allen could also be as low as No. 3 on the chart chart if Mike Evans and Deebo Samuel are both able to return from their respective injuries.",
-        "11": "Keenan Allen is coming off an impactful 49ers debut heading into a Week 11 matchup versus Minnesota. After being acquired by San Francisco at the trade deadline, Allen caught five of seven targets for 61 yards this past Sunday in a win over Dallas. Despite having a relatively short amount of time to learn his new team's offense, Allen looked to have good chemistry with QB Brock Purdy, which is an encouraging sign for his production moving forward. His work as a possession receiver could be especially useful against the Vikings, who own the highest blitz rate in the NFL.",
-        "2": "Keenan Allen can still get open on short passes, but the 34-year-old WR's lack of big-play potential limits his fantasy relevance to deeper formats heading into the Colts' Week 2 road game against the Chiefs. Allen caught all six of his targets in his Colts debut, leading the team in receptions, but he totaled just 32 receiving yards. Expect him to post plenty of similar stat lines this season after averaging a career-low 9.6 yards per catch with the Chargers last year.",
-        "3": "Keenan Allen should get plenty of playing time in Week 3 against the Texans with the Colts' banged-up WR room, but the 34-year-old wideout may not have enough gas in the tank to make much of the opportunity. Allen has exceeded 44 yards just once and failed to score a TD in his last 12 games. Despite that lack of recent production, he's a viable deep-league dart throw, as Indianapolis will be without Alec Pierce (heel) and possibly Ashton Dulin (ankle), leaving Allen as the top option for snaps at WR alongside Josh Downs.",
-        "4": "Keenan Allen turned back the clock in the Colts' Week 3 win over the Texans, catching six of nine targets for 63 yards and his first TD since Week 7 of the previous season. The 34-year-old WR is poised to maintain an expanded role in Week 4 against Washington's weak secondary as the Colts continue to play without starting WR Alec Pierce (heel), who is on IR. A repeat effort may be too much to ask from Allen, who averaged just 32 yards per game during his 12-game touchdown drought, but he's a viable flex option considering the Commanders have allowed league-high totals in catches and touchdowns to WRs, with 46 and six, respectively.",
-        "5": "Keenan Allen missed the Colts' Week 4 win over the Commanders due to a groin injury. If the 34-year-old WR is cleared to return in Week 5, he could play a prominent role opposite Josh Downs in a Colts WR room that remains without Alec Pierce (heel), who is on IR. Concerns about Allen's injury and performance limit his viability to deeper formats, even against a Steelers secondary that's giving up 149 receiving yards per game to wide receivers. Allen snapped a 12-game touchdown drought in the Colts' Week 3 win over Houston.",
-        "6": "Keenan Allen has caught 11 of 18 targets for 108 yards and a TD in his last two outings for the Colts, sandwiched around a Week 4 absence due to a groin injury. The 34-year-old wideout has stepped up in the absence of WR Alec Pierce (heel), who remains on injured reserve ahead of a Week 6 home game against the Titans. Allen lacks Pierce's ability to stretch the field, but a steady diet of short targets should put Allen back into the flex mix in Week 6 against a Titans defense that ranks among the 10 most generous units in terms of catches and yards allowed to WRs.",
-        "7": "Keenan Allen has turned back the clock over his past three appearances for the Colts, securing 19 of 29 targets for 190 yards and a TD over that span while drawing at least nine targets in every game. The 34-year-old wideout should continue to fill a high-volume role in a Colts WR room that lacks appealing alternatives in the continued absence of Alec Pierce (heel). Allen is a high-floor fantasy WR3 in Week 7 against the Vikings, who are allowing 10 catches for 133 yards per game to WRs. Minnesota's aggressive blitz packages will likely force the Colts into plenty of the quick and short throws on which Allen thrives.",
-        "8": "Keenan Allen is averaging over seven targets per game and has operated as the Colts' co-No. 1 WR alongside Josh Downs since Alec Pierce went down with a heel injury. Pierce remains on injured reserve ahead of a Week 8 trip to Jacksonville. Allen will be a high-floor flex candidate against a Jaguars defense that's giving up a league-high 210 yards per game to wide receivers. He's averaging 55 receiving yards per game over the past four and has scored one TD this season.",
-        "9": "Keenan Allen has recorded at least six receptions in four of seven appearances for the Colts this season and is likely to maintain a prominent role in Week 9 against a Dallas defense that's giving up 11.9 catches, as well as 164.1 receiving yards and 1.0 TD per game to WRs. Allen leads the Colts with 34 catches despite missing a game, and his 325 receiving yards are just five shy of Josh Downs' team-leading total. However, the 34-year-old Allen has scored just one TD in his last 17 regular-season games, dating back to last season with the Chargers. He remains a rock-solid, high-floor flex play for Week 9."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[5].roster.entries[11].playerPoolEntry",
       "values": {
         "appliedStatTotal": 24.3,
         "id": 4832955,
@@ -3304,7 +3233,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[5].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Emmett Johnson took advantage of his opportunities again in Kansas City's Week 9 win over the Jets, scoring his first career rushing touchdown while gaining 34 yards on six carries. Kenneth Walker, who found the end zone three times in the victory, remains firmly on top of the depth chart, but Johnson is beginning to earn a steady workload as the No. 2 option in the backfield. The rookie is averaging a tidy 4.3 yards per carry on the ground, while adding a 14-237-1 line on 16 targets over eight games. Johnson could make an impact on limited touches again in Week 10 against a Falcons defense that's tied for 29th in fantasy points per game allowed to RBs.",
         "11": "Emmett Johnson was incredible in his first career NFL start in Week 10 against the Falcons, leading Kansas City to a big win with 171 scrimmage yards and two receiving touchdowns. The opportunity came with Kenneth Walker sidelined by a groin injury, but the issue isn't expected to keep the former Seahawk sidelined for long. Johnson's performance does make a case for him to take on a bigger workload as the No. 2 option in the backfield once Walker is back. Johnson will look to exploit what volume he gets in Week 11 against a Cardinals defense that's tied for 18th in fantasy points per game allowed to RBs.",
@@ -3317,7 +3246,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[5].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": -16004,
@@ -3328,6 +3257,94 @@
         "rosterLocked": false,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 21.200000000000003,
+        "id": 5081432,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 8,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Antonio Williams tied for third on the Commanders in targets last game.  Unfortunately, despite seeing six targets, Williams managed only three catches for 25 yards in the 20-13 loss to the Rams. Williams is unlikely to break loose in Week 10 versus the Giants either. New York is allowing just 177.8 passing yards per tilt, which is third in the NFL.",
+        "11": "Antonio Williams found the end zone last game for Washington. The rookie snagged two passes for 42 yards and a touchdown in the 24-21 win over the G-Men. Williams has at least two catches in every game this season, and should continue to see steady work in the absence of Terry McLaurin. However, in Week 11, he will be facing a Bengals defense allowing just 216.2 passing yards per tilt, which is 11th in the league. In addition, Cincy has yielded just 11 passing scores, which is tied for fifth in the NFL.",
+        "2": "Antonio Williams led the Commanders in receiving in Week 1 despite playing just 26 offensive snaps. Williams ended up with four catches for 64 yards and a touchdown in his NFL premiere. He had as many targets as Terry McLaurin. Williams should see the field with increasing frequency if he continues to perform this well. He has a favorable matchup in Week 2 versus a Dallas defense that was the worst in the NFL last season, and surrendered three passing scores in the season-opening loss to the Giants.",
+        "3": "Antonio Williams snagged all three of his targets for 24 yards in the 37-20 loss to the Cowboys last game. Williams has seven catches for 98 yards and a touchdown through hsi first two NFL contests. Unfortunately, starting quarterback Jayden Daniels only played a half due to injury, so veteran backup Marcus Mariota will likely start in Week 3 versus a devastating Seattle defense. The Seahawks are allowing just 8.5 points per game thus far in 2026, which is second in the league. Seattle is also allowing the fewest passing yards per contest at 124.5 per tilt. None of this appears to be a recipe for success for Williams and the rest of the Washington offense.",
+        "4": "Antonio Williams finished third in targets for the Commanders last game. Williams caught just two balls on four looks, though, en route to only 15 yards receiving. Williams caught all of his passes from backup Marcus Mariota, who will likely also line up under center in Week 4 versus the Colts. Indianapolis has been rather poor against the pass in 2026, allowing 276 yards per tilt through the air, which is 30th in the league.",
+        "5": "Antonio Williams had eight targets last game for Washington, which was second on the squad behind Stefon Diggs. Unfortunately, Williams could muster just three catches for 21 yards in the lackluster loss to the Colts. Starting quarterback Jayden Daniels could return to the fold in Week 5 versus the Giants, which would certainly be a boost for Williams, regardless of whether Terry McLaurin also suits up. McLaurin was sidelined with a hamstring issue. New York has been fairly stingy against the pass in 2026, though, allowing just 205.3 passing yards per tilt, which is 10th in the NFL.",
+        "6": "Antonio Williams managed three catches last game for Washington. Even without the services of fellow wideout Stefon Diggs, Williams accumulated fewer than 35 yards receiving for the third-straight contest. In Week 6, the Commanders face the undefeated San Francisco 49ers. The Niners are allowing just 199.6 passing yards per tilt, which is eighth in the league. In addition, San Fran has given up just five passing touchdowns, which is tied for fourth in the NFL.",
+        "8": "Antonio Williams should see an uptick in targets for the remainder of the season, as No. 1 wideout Terry McLaurin will miss the rest of the 2026 campaign for the Commanders due to a knee injury. Williams has double-digit catches in every game thus far during his rookie year, and should slot in just behind Stefon Diggs in terms of opportunities in the passing game moving forward. Following the bye, Washington will face division rival Philadelphia in Week 8. The reeling Eagles have been suspect in defending the pass this season.  Philadelphia is giving up 244.5 passing yards per tilt, which is 27th in the league."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 11.4,
+        "id": 4360234,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 8,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 5.1000000000000005,
+        "id": 4362619,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 8,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player",
+      "values": {
+        "active": true,
+        "defaultPositionId": 2,
+        "droppable": true,
+        "firstName": "Chris",
+        "fullName": "Chris Rodriguez Jr.",
+        "id": 4362619,
+        "injured": false,
+        "injuryStatus": "ACTIVE",
+        "lastName": "Rodriguez Jr.",
+        "lastNewsDate": 1795403515000,
+        "lastVideoDate": 1793565285000,
+        "proTeamId": 30,
+        "seasonOutlook": "Rodriguez, a 2023 sixth-round NFL draft pick, spent his first three seasons with Washington and has primarily played a depth role, but he did hit career-high marks in touches (115), yardage (530) and touchdowns (six) in 2025. Rodriguez has handled more than 10 touches in nine career games and averaged 13.1 touches, 65.9 yards and 11.7 fantasy points with a total of seven touchdowns in those outings. Though he's an effective rusher, Rodriguez is not an option in the passing game (seven career targets). The 26-year-old's contract included a healthy $6.2 million in guarantees, so he's likely to have a legitimate offensive role as a counterpart to second-year backs Bhayshul Tuten and LeQuint Allen Jr. Rodriguez might score the occasional touchdown, but his role won't allow consistent fantasy output. He's best stashed on benches.",
+        "universeId": 1
+      }
+    },
+    {
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Chris Rodriguez has scored in four of Jacksonville's last six games, but he hasn't topped 58 scrimmage yards in a game all season and is averaging 33 yards per game as Bhayshul Tuten's backup heading into a Week 10 road game against the Titans. Rodriguez will remain a touchdown-dependent Week 10 flex option against a Tennessee defense that has allowed plenty of yards to RBs but limited the position to six TDs in eight games. Tuten was hampered by ankle and foot injuries in Jacksonville's previous game but has since had 10 days to recover, suggesting that Rodriguez's path to a larger role remains blocked.",
+        "11": "Chris Rodriguez remains a touchdown dependent deep league flex option for Week 11, though his chances of cashing in aren't great against a Giants defense that has allowed just four rushing TDs to RBs all season. Rodriguez had a season low five yards in Jacksonville's Week 10 win over the Titans. He has scored on the ground in four of Jacksonville's nine games while rushing for at least 55 yards twice, but Rodriguez remains a non-factor as a receiver, with just four catches for 36 yards all season. Bhayshul Tuten remains the clear No. 1 RB for the Jaguars.",
+        "2": "Chris Rodriguez had just six carries to Bhayshul Tuten's 15 in Jacksonville's season opener. Considering Rodriguez contributes almost nothing as a pass-catcher, with just six receptions in 36 career games, he'll be nothing more than a touchdown-dependent deep-league dart throw for fantasy purposes as long as Tuten is healthy. Rodriguez is unlikely to find the end zone in Week 2 against a Broncos defense that allowed the second-fewest rushing yards and fourth-fewest rushing TDs (eight) to RBs last season, though Denver gave up two total TDs to Chiefs RB Kenneth Walker in Week 1.",
+        "3": "Chris Rodriguez has notched just six rushing attempts in each of his first two games with the Jaguars. He's averaging a paltry 3.0 yards per carry and has yet to earn a target in the passing game, where Rodriguez has been a non-factor his entire NFL career. Bhayshul Tuten has 28 carries this season and is the clear lead back for the Jaguars. Rodriguez isn't an advisable fantasy play in Week 3 against a Patriots defense that's allowing a minuscule 8.0 points per game.",
+        "4": "Chris Rodriguez has recorded between six and eight carries in each of his first three games with the Jaguars heading into a Week 4 road tilt at Cincinnati. He scored his first TD of the season in the Week 3 rout of the Patriots, but Rodriguez will remain a touchdown-dependent deep-league option as long as Bhayshul Tuten is available. The Bengals have allowed the most receiving yards in the league to RBs, but Rodriguez almost certainly won't capitalize on that weakness, as he has yet to earn a target this year and has just six career catches in 38 games.",
+        "5": "Chris Rodriguez has a consistent role as the Jaguars' No. 2 RB behind Bhayshul Tuten, but Rodriguez's usage level is too low to warrant lineup consideration in most formats. Rodriguez has recorded between six and eight carries in each of his first four games with the Jaguars. He's riding a two-game TD streak but has been a complete non-factor in the passing game with zero targets while averaging a mediocre 4.2 yards per carry. Jacksonville faces an Eagles defense in Week 5 that ranks among the 10 most generous to RBs on the ground, allowing 106 rushing yards per game to the position.",
+        "6": "Chris Rodriguez has exceeded six rushing attempts in only one of five games with the Jaguars and has just one catch all season. With starting RB Bhayshul Tuten healthy heading into a Week 6 matchup with the Texans, Rodriguez doesn't look like a usable fantasy option in most formats against a stout Houston front seven that's limiting RBs to 3.5 yards per carry. Rodriguez remains a viable bench stash for managers hedging against a Tuten injury.",
+        "8": "Chris Rodriguez remains No. 2 on Jacksonville's RB depth chart behind Bhayshul Tuten, limiting Rodriguez's Week 8 fantasy appeal to deeper formats. Rodriguez logged a season-high 11 carries in Jacksonville's Week 6 loss to the Texans prior to a Week 7 bye. He has handled fewer than six carries only once all season, but Rodriguez is a non-factor in the passing game, with just one catch in 2026. Rodriguez will be a touchdown-dependent fantasy play in Week 8 against a Colts defense that has allowed five rushing scores to RBs through seven games.",
+        "9": "Chris Rodriguez is the clear No. 2 RB for the Jaguars behind Bhayshul Tuten heading into a Week 9 trip to Baltimore. Rodriguez has made the most of his opportunities, setting season highs in scrimmage yards in each of the past two games, with 55 in Week 6 against the Texans and 58 in Week 8 against the Colts. He remains a touchdown-dependent fantasy option for Week 9, as Rodriguez has just two catches this season and is averaging just under seven touches per game overall. The Ravens have allowed seven rushing scores to RBs in eight games, but there's an elevated chance of the Jaguars pulling away and leaning on Rodriguez more to run out the clock since Baltimore could be down to its third-string QB."
       }
     },
     {
@@ -4548,8 +4565,8 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 22.22,
-        "id": 4688380,
+        "appliedStatTotal": 0.0,
+        "id": 3122840,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -4884,34 +4901,6 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 2.6,
-        "id": 3117256,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 14,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Dalton Schultz is a borderline fantasy starter at TE for Week 10 against the Browns. He ranks ninth among TEs with 46 receiving yards per game but has yet to score this season and has a meager five TDs in 42 regular-season appearances since the start of the 2024 season. Cleveland has allowed five TDs to the position in nine games, as well as 58 yards per game.",
-        "11": "Dalton Schultz is coming off a bittersweet Week 10 performance against the Browns. He scored his first touchdown of the season on his only catch but was held to a single reception for the first time all season. The reliable TE is a borderline fantasy starter for Week 11 against the Colts; however, there are certainly higher-upside options to be found at the position. Schultz hasn't topped 45 yards since his 140-yard Week 2 outburst, which occurred while the Texans were without top WR Nico Collins, who has since recovered from a hamstring injury. The Colts have allowed seven TDs in 10 games to TEs, which is tied for fifth-most in the NFL.",
-        "2": "Dalton Schultz was second on the Texans in targets behind Nico Collins during the season opener, which matched Schultz's usage last season. After being thrown to eight times in Week 1 against a Bills defense that allowed the fewest yards in the NFL to TEs last season, Schultz is poised for a hefty Week 2 workload against a Bengals defense that surrendered the most yards to his position in 2025. Schultz's role and matchup make him a top-10 fantasy TE for Week 2.",
-        "3": "Dalton Schultz paced the Texans with 12 catches for 140 yards on 14 targets in the Week 2 loss to Cincinnati, working as C.J. Stroud's top target in the absence of WR Nico Collins (hamstring). The veteran TE is the favorite to lead the team in targets if Collins sits in Week 3 against a Colts defense that has allowed the most yards and TDs in the NFL this season. Indianapolis just allowed nine catches for 101 yards and a TD to Chiefs TE Travis Kelce in Week 2. Schultz is locked in as a fantasy TE1 for Week 3 if Collins sits and has a strong argument to stay in that range even if Collins suits up.",
-        "4": "Dalton Schultz is coming off a disappointing 30-yard outing in Week 3 against the Colts, but he'll remain a fantasy TE1 in Week 4 against the Cowboys if Texans WR Nico Collins (hamstring) misses a third consecutive game. Schultz had 12 catches for 140 yards in Week 2 and is averaging 85 receiving yards per game since Collins got hurt. The Cowboys have struggled to defend TEs, allowing three TDs while forcing only two incompletions on 19 passes to the position. If Collins returns, Schultz will maintain fantasy starter-level upside but with a lower floor due to dropping a spot in the pass-catching hierarchy.",
-        "5": "Dalton Schultz has recorded just 39 yards in two games since his 140-yard outburst for the Texans in Week 2. He's back to working as a supporting piece in Houston's passing game now that Nico Collins has recovered from a hamstring injury. The 30-year-old TE's inconsistent workloads keep him from being a reliable fantasy starter, and Schultz will be tough to trust in Week 5 against a Titans defense that's holding his position to 27 receiving yards per game, fourth-fewest in the NFL.",
-        "6": "Dalton Schultz leads the Texans with 24 catches heading into a Week 6 matchup with the Jaguars in London, though half of those receptions came in Week 2 against the Bengals. Jacksonville has been among the five stingiest defenses against TEs, limiting the position to 3.6 catches for 34 yards per game. The Jaguars have allowed two TDs to the position, but Schultz has scored only five times in 39 regular-season games since the start of the 2024 season and is still searching for his first TD of the season. Despite Schultz's respectable target volume, he's best left on the bench in single-TE formats in Week 6.",
-        "7": "Dalton Schultz has exceeded 35 receiving yards just once through Houston's first six games of the season and has yet to score a TD heading into a Week 7 home game against the Giants. He's a secondary option in a Houston passing game that has gotten more production out of its WRs in recent weeks, and Schultz's lack of red-zone involvement compared to other middling TE options makes him an unappealing fantasy play. The Giants have limited TEs to two TDs this season, so Schultz is best left on the bench or waivers since his TD drought is unlikely to end in Week 7.",
-        "9": "Dalton Schultz isn't a recommended Week 9 fantasy option in most formats for Houston's road game against the Chargers. The veteran TE has 33 catches for 322 yards through Houston's first seven games of the season, but Schultz has yet to score this season, and the Chargers have allowed just one TD to a TE. Frustratingly for Schultz's fantasy managers, backup TE Foster Moreau has scored three TDs on 11 catches this season."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 15.5,
         "id": -16003,
         "keeperValue": 0,
@@ -4924,7 +4913,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[13]",
+      "path": "$.mRoster.teams[9].roster.entries[12]",
       "values": {
         "acquisitionDate": 1795360712518,
         "acquisitionType": "TRADE",
@@ -4936,7 +4925,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[12].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 4567048,
@@ -4950,7 +4939,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[14]",
+      "path": "$.mRoster.teams[9].roster.entries[13]",
       "values": {
         "acquisitionDate": 1795360712518,
         "acquisitionType": "TRADE",
@@ -4962,7 +4951,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[9].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 19.1,
         "id": 4685472,
@@ -4976,6 +4965,34 @@
       }
     },
     {
+      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 15.3,
+        "id": 4373678,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 14,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[9].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Khalil Shakir remains an efficient secondary option in the Bills' passing game ahead of a Week 10 matchup with the Jets. He caught four passes in Week 9, the fifth time in eight outings he's done so, resulting in 50 or more yards at the same rate. Shakir has only one touchdown, and the Jets' secondary has allowed just nine touchdown catches by receivers, likely limiting Shakir's potential in Week 10, but his role and usage are clear and steady, setting him up for stability as a potential streamer.",
+        "11": "Khalil Shakir is in search of a bounce-back outing in Week 11 when the Bills face the Dolphins. He logged only three targets in Week 10, the second time this season he's had such low volume, and now has four games with 38 yards or fewer in nine outings. Buffalo threw only 21 times against the Jets, and if they jump to a big lead again against Miami, a similar game flow could emerge, potentially giving Shakir too few opportunities to better a secondary that's allowing 9.3 yards per target.",
+        "2": "Khalil Shakir will look to remain Josh Allen's security blanket in Week 2 when the Bills host the Lions. Shakir managed four grabs on six targets to open the season, finishing with 50 yards. He operated underneath while newly acquired DJ Moore stretched the field. The Lions' vulnerable secondary gave up 410 yards passing in Week 1, but Shakir will likely be limited by shorter routes, creating a safe but uninspiring fantasy option.",
+        "3": "Khalil Shakir remains a steady, stable cog in Buffalo's passing game entering a Week 3 matchup with the Chargers. Shakir logged six targets in each of the Bills' first two games but hasn't topped 50 yards or scored. Shakir didn't take on an elevated role in Week 2 following DJ Moore's (shoulder) early exit, but he faces a secondary that allowed 75 yards to Kendrick Bourne and 119 yards to Tre Tucker, and both operate in a similar slot role to Shakir.",
+        "4": "Khalil Shakir seeks more opportunities in Week 4 when the Bills face the Patriots. Despite a season-high 71% snap share in Week 3, Shakir had his lowest output of 2026, catching just a six-yard pass on three targets in a game where Josh Allen struggled. Shakir could benefit from additional looks in Week 4 if DJ Moore is matched up consistently with CB Christian Gonzalez. Operating primarily out of the slot tempers high yardage totals.",
+        "5": "Khalil Shakir maintains a steady role out of the slot for Buffalo as they prepare to face the Rams in Week 5. Shakir is coming off a season-high 82 yards in Week 4, his third game with at least six targets. His workload is independent of DJ Moore's shoulder status. Shakir will either garner more targets if Moore is out, or benefit from the attention Moore usually draws. However, the Rams defense hasn't allowed an opposing receiver to top 50 yards, suggesting Shakir is a risky floor and limited ceiling option.",
+        "6": "Khalil Shakir continues to play a minimal role in the Bills' passing game as they enter a Week 6 matchup with the Raiders. Shakir had just three targets in Week 5, the second time he's experienced that limited volume in three weeks despite the continued absence of DJ Moore (shoulder). Shakir is averaging a career-best 14.2 yards per catch and with Las Vegas proving vulnerable over the middle (nine catches, 122 yards, two touchdowns last week to DeMario Douglas and Efton Chism), Shakir could exploit a favorable matchup despite a lack of heavy volume.",
+        "8": "Khalil Shakir will reprise his slot role in Week 8 when the Bills host the Ravens. Shakir hasn't directly benefited from DJ Moore's (shoulder) absence, with a largely unchanged role prior to Buffalo's Week 7 bye, logging six or more targets in four of six contests. While he's topped four catches just once, he's averaging 13.2 yards per catch, his highest mark since 2023. Baltimore's secondary has been more vulnerable to larger, outside X receivers, with Drake London, Tee Higgins, and Carnell Tate all topping 100 yards against them. Shakir will need to continue to take advantage of his opportunities to be a viable fantasy option.",
+        "9": "Khalil Shakir continues to provide stability in Buffalo's passing game ahead of a Week 9 matchup with the Vikings. Shakir has recorded at least six targets in five of seven outings, going for 50 or more yards four times. It's a modest floor with only one touchdown catch, and it's even lower facing a Minnesota defense that's allowing the third-fewest fantasy points to opposing receivers, including just four touchdowns in seven games."
+      }
+    },
+    {
       "path": "$.kona_player_info.players[0]",
       "values": {
         "draftAuctionValue": 0,
@@ -4986,9 +5003,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5002,9 +5018,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5018,9 +5033,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5086,9 +5100,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5102,9 +5115,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5118,9 +5130,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5134,9 +5145,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5165,9 +5175,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5181,9 +5190,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5197,9 +5205,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5213,9 +5220,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5229,9 +5235,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5245,9 +5250,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5261,9 +5265,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5326,9 +5329,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5342,9 +5344,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5365,9 +5366,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5410,9 +5410,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5424,10 +5423,11 @@
         "keeperValue": 12,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 8,
+        "onTeamId": 0,
         "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1795680000000
       }
     },
     {
@@ -5456,9 +5456,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5472,9 +5471,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5585,9 +5583,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5601,9 +5598,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5617,9 +5613,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5633,9 +5628,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5678,9 +5672,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5694,9 +5687,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5716,9 +5708,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5746,9 +5737,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5762,9 +5752,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5778,9 +5767,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5794,9 +5782,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5810,9 +5797,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5835,9 +5821,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5851,9 +5836,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5896,9 +5880,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5912,9 +5895,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5957,9 +5939,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -6007,9 +5988,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -6023,9 +6003,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795593600000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     }
   ],
