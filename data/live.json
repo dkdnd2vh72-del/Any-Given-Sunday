@@ -9,7 +9,7 @@
         "teamName": "Big Blue"
       },
       "home": {
-        "projection": 132.66,
+        "projection": 131.58,
         "score": 0.0,
         "teamId": 13,
         "teamName": "Pollard Express"
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "acquisitions": 38,
+      "acquisitions": 37,
       "actual": 0.0,
       "htmlId": "numbers",
       "id": 3,
@@ -1590,7 +1590,7 @@
       "id": 13,
       "name": "Pollard Express",
       "playoffSeed": 6,
-      "projection": 132.66,
+      "projection": 131.58,
       "record": {
         "losses": 10,
         "pointsAgainst": 1263.04,
@@ -1601,11 +1601,11 @@
       "roster": [
         {
           "actual": 0.0,
-          "id": "12483",
-          "name": "Matthew Stafford",
+          "id": "8439",
+          "name": "Aaron Rodgers",
           "position": "QB",
-          "proTeam": "LAR",
-          "projection": 15.3,
+          "proTeam": "PIT",
+          "projection": 14.22,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -1700,17 +1700,6 @@
         },
         {
           "actual": 0.0,
-          "id": "8439",
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "proTeam": "PIT",
-          "projection": 14.22,
-          "slot": "Bench",
-          "slotId": 20,
-          "tradeInterest": null
-        },
-        {
-          "actual": 0.0,
           "id": "4688380",
           "name": "Cam Ward",
           "position": "QB",
@@ -1727,6 +1716,17 @@
           "position": "TE",
           "proTeam": "PHI",
           "projection": 10.24,
+          "slot": "Bench",
+          "slotId": 20,
+          "tradeInterest": null
+        },
+        {
+          "actual": 0.0,
+          "id": "12483",
+          "name": "Matthew Stafford",
+          "position": "QB",
+          "proTeam": "LAR",
+          "projection": 15.3,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
