@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[13]",
+      "path": "$.mTransactions2.transactions[16]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[0]",
+      "path": "$.mTransactions2.transactions[16].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[13].items[1]",
+      "path": "$.mTransactions2.transactions[16].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -46,28 +46,28 @@
       }
     },
     {
-      "path": "$.mPendingTransactions.pendingTransactions[0]",
+      "path": "$.mTransactions2.transactions[25]",
       "values": {
         "bidAmount": 0,
-        "executionType": "EXECUTE",
+        "executionType": "CANCEL",
         "expirationDate": 1795710229025,
-        "id": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
+        "id": "381adfb2-c707-4576-8c83-a338e30aa245",
         "isActingAsTeamOwner": false,
         "isLeagueManager": false,
         "isPending": true,
-        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
-        "proposedDate": 1795537428989,
+        "memberId": "TradeTaskProcessor",
+        "proposedDate": 1795710184140,
         "rating": 0,
+        "relatedTransactionId": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
         "scoringPeriodId": 12,
-        "status": "PENDING",
+        "status": "CANCELED",
         "teamId": 5,
         "type": "TRADE_PROPOSAL"
       }
     },
     {
-      "path": "$.mPendingTransactions.pendingTransactions[0].items[0]",
+      "path": "$.mTransactions2.transactions[25].items[0]",
       "values": {
-        "acquisitionBudget": 0,
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
         "isKeeper": false,
@@ -79,9 +79,8 @@
       }
     },
     {
-      "path": "$.mPendingTransactions.pendingTransactions[0].items[1]",
+      "path": "$.mTransactions2.transactions[25].items[1]",
       "values": {
-        "acquisitionBudget": 0,
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
         "isKeeper": false,
@@ -451,53 +450,6 @@
       }
     },
     {
-      "path": "$.mTeam.teams[3].pendingTransactions[0]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1795710229025,
-        "id": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
-        "proposedDate": 1795537428989,
-        "rating": 0,
-        "scoringPeriodId": 12,
-        "skipTransactionCounters": false,
-        "status": "PENDING",
-        "subOrder": 0,
-        "teamId": 5,
-        "type": "TRADE_PROPOSAL"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[3].pendingTransactions[0].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4567750,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[3].pendingTransactions[0].items[1]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4047365,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
       "path": "$.mTeam.teams[3].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 111,
@@ -580,9 +532,9 @@
       "values": {
         "acquisitionBudgetSpent": 99,
         "acquisitions": 21,
-        "drops": 20,
+        "drops": 21,
         "misc": 0,
-        "moveToActive": 62,
+        "moveToActive": 63,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -696,8 +648,8 @@
       "path": "$.mTeam.teams[8].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 70,
-        "acquisitions": 26,
-        "drops": 25,
+        "acquisitions": 27,
+        "drops": 26,
         "misc": 0,
         "moveToActive": 57,
         "moveToIR": 2,
@@ -732,53 +684,6 @@
       }
     },
     {
-      "path": "$.mTeam.teams[9].pendingTransactions[0]",
-      "values": {
-        "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1795710229025,
-        "id": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
-        "isActingAsTeamOwner": false,
-        "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
-        "proposedDate": 1795537428989,
-        "rating": 0,
-        "scoringPeriodId": 12,
-        "skipTransactionCounters": false,
-        "status": "PENDING",
-        "subOrder": 0,
-        "teamId": 5,
-        "type": "TRADE_PROPOSAL"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[9].pendingTransactions[0].items[0]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 5,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4567750,
-        "toLineupSlotId": -1,
-        "toTeamId": 14,
-        "type": "TRADE"
-      }
-    },
-    {
-      "path": "$.mTeam.teams[9].pendingTransactions[0].items[1]",
-      "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4047365,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
-      }
-    },
-    {
       "path": "$.mTeam.teams[9].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 25,
@@ -795,20 +700,20 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 125.04,
+        "appliedStatTotal": 155.34,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[0].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.7,
+        "appliedStatTotal": 36.3,
         "id": 4374302,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -816,13 +721,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 30.200000000000003,
+        "appliedStatTotal": 38.900000000000006,
         "id": 4241389,
         "keeperValue": 1,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1225,7 +1130,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 132.9,
+        "appliedStatTotal": 169.26,
         "tradeReservedEntries": 0
       }
     },
@@ -1261,13 +1166,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 3.3,
+        "appliedStatTotal": 10.8,
         "id": 4685278,
         "keeperValue": 0,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1290,13 +1195,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 19.3,
+        "appliedStatTotal": 33.3,
         "id": 4426388,
         "keeperValue": 0,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1332,13 +1237,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 35.9,
+        "appliedStatTotal": 45.56,
         "id": 2577417,
         "keeperValue": 14,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1523,13 +1428,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 24.1,
+        "appliedStatTotal": 43.3,
         "id": 4361579,
         "keeperValue": 11,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1567,7 +1472,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 112.66000000000001,
+        "appliedStatTotal": 118.26,
         "tradeReservedEntries": 0
       }
     },
@@ -1633,13 +1538,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 23.8,
+        "appliedStatTotal": 28.4,
         "id": 4426354,
         "keeperValue": 5,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1909,13 +1814,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[10].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 14.34,
+        "appliedStatTotal": 39.64,
         "id": 4431611,
         "keeperValue": 0,
         "keeperValueFuture": 11,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1966,13 +1871,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 20.36,
+        "appliedStatTotal": 36.18,
         "id": 3046779,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2009,13 +1914,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 6.5,
+        "appliedStatTotal": 7.5,
         "id": -16008,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2481,7 +2386,7 @@
     {
       "path": "$.mRoster.teams[4].roster",
       "values": {
-        "appliedStatTotal": 109.75999999999999,
+        "appliedStatTotal": 126.16,
         "tradeReservedEntries": 0
       }
     },
@@ -2648,13 +2553,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.7,
+        "appliedStatTotal": 27.099999999999998,
         "id": 4430027,
         "keeperValue": 6,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2762,7 +2667,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Likely",
-        "lastNewsDate": 1795641286000,
+        "lastNewsDate": 1795727355000,
         "lastVideoDate": 1792965097000,
         "proTeamId": 19,
         "seasonOutlook": "Likely signed with the Giants after four years of backing up Mark Andrews in Baltimore. Likely is reuniting with coach John Harbaugh and is finally expected to play a consistent offensive role. During his time in Baltimore, Likely was limited to 50% of the team's offensive snaps and never finished a season better than 20th among tight ends in snaps, routes, targets, catches, yards or fantasy PPG. His only extensive stretch with Andrews sidelined came back in 2023. During the seven-game span, Likely posted a 23-356-6 receiving line on a 16% target share and averaged a solid 13.5 fantasy PPG. The 26-year-old is obviously unproven, but his receiving skills in New York's ascending offense are enough to put him on the TE2 radar.",
@@ -2962,7 +2867,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 136.6,
+        "appliedStatTotal": 123.2,
         "tradeReservedEntries": 0
       }
     },
@@ -3021,7 +2926,7 @@
         "injured": false,
         "injuryStatus": "DOUBTFUL",
         "lastName": "Brown",
-        "lastNewsDate": 1795636037000,
+        "lastNewsDate": 1795726371000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3075,9 +2980,9 @@
         "id": 4723086,
         "keeperValue": 0,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3354,57 +3259,9 @@
       }
     },
     {
-      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
-      "values": {
-        "appliedStatTotal": 5.1000000000000005,
-        "id": 4362619,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 8,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 2,
-        "droppable": true,
-        "firstName": "Chris",
-        "fullName": "Chris Rodriguez Jr.",
-        "id": 4362619,
-        "injured": false,
-        "injuryStatus": "ACTIVE",
-        "lastName": "Rodriguez Jr.",
-        "lastNewsDate": 1795403515000,
-        "lastVideoDate": 1793565285000,
-        "proTeamId": 30,
-        "seasonOutlook": "Rodriguez, a 2023 sixth-round NFL draft pick, spent his first three seasons with Washington and has primarily played a depth role, but he did hit career-high marks in touches (115), yardage (530) and touchdowns (six) in 2025. Rodriguez has handled more than 10 touches in nine career games and averaged 13.1 touches, 65.9 yards and 11.7 fantasy points with a total of seven touchdowns in those outings. Though he's an effective rusher, Rodriguez is not an option in the passing game (seven career targets). The 26-year-old's contract included a healthy $6.2 million in guarantees, so he's likely to have a legitimate offensive role as a counterpart to second-year backs Bhayshul Tuten and LeQuint Allen Jr. Rodriguez might score the occasional touchdown, but his role won't allow consistent fantasy output. He's best stashed on benches.",
-        "universeId": 1
-      }
-    },
-    {
-      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Chris Rodriguez has scored in four of Jacksonville's last six games, but he hasn't topped 58 scrimmage yards in a game all season and is averaging 33 yards per game as Bhayshul Tuten's backup heading into a Week 10 road game against the Titans. Rodriguez will remain a touchdown-dependent Week 10 flex option against a Tennessee defense that has allowed plenty of yards to RBs but limited the position to six TDs in eight games. Tuten was hampered by ankle and foot injuries in Jacksonville's previous game but has since had 10 days to recover, suggesting that Rodriguez's path to a larger role remains blocked.",
-        "11": "Chris Rodriguez remains a touchdown dependent deep league flex option for Week 11, though his chances of cashing in aren't great against a Giants defense that has allowed just four rushing TDs to RBs all season. Rodriguez had a season low five yards in Jacksonville's Week 10 win over the Titans. He has scored on the ground in four of Jacksonville's nine games while rushing for at least 55 yards twice, but Rodriguez remains a non-factor as a receiver, with just four catches for 36 yards all season. Bhayshul Tuten remains the clear No. 1 RB for the Jaguars.",
-        "12": "Chris Rodriguez could make a spot start for the Jaguars in a juicy Week 12 matchup against the 1-9 Titans if Bhayshul Tuten (ankle) sits out, in which case Rodriguez would have fantasy RB2 upside. If Tuten suits up, Rodriguez would remain in the deep-league flex conversation as Jacksonville's change-of-pace RB against a Tennessee defense that has allowed 44.7 points per game in its last three. The Jaguars scored 40 points against the Titans in Week 10, though Rodriguez was limited to a season-low five rushing yards in that game while Tuten racked up 113 scrimmage yards and a TD.",
-        "2": "Chris Rodriguez had just six carries to Bhayshul Tuten's 15 in Jacksonville's season opener. Considering Rodriguez contributes almost nothing as a pass-catcher, with just six receptions in 36 career games, he'll be nothing more than a touchdown-dependent deep-league dart throw for fantasy purposes as long as Tuten is healthy. Rodriguez is unlikely to find the end zone in Week 2 against a Broncos defense that allowed the second-fewest rushing yards and fourth-fewest rushing TDs (eight) to RBs last season, though Denver gave up two total TDs to Chiefs RB Kenneth Walker in Week 1.",
-        "3": "Chris Rodriguez has notched just six rushing attempts in each of his first two games with the Jaguars. He's averaging a paltry 3.0 yards per carry and has yet to earn a target in the passing game, where Rodriguez has been a non-factor his entire NFL career. Bhayshul Tuten has 28 carries this season and is the clear lead back for the Jaguars. Rodriguez isn't an advisable fantasy play in Week 3 against a Patriots defense that's allowing a minuscule 8.0 points per game.",
-        "4": "Chris Rodriguez has recorded between six and eight carries in each of his first three games with the Jaguars heading into a Week 4 road tilt at Cincinnati. He scored his first TD of the season in the Week 3 rout of the Patriots, but Rodriguez will remain a touchdown-dependent deep-league option as long as Bhayshul Tuten is available. The Bengals have allowed the most receiving yards in the league to RBs, but Rodriguez almost certainly won't capitalize on that weakness, as he has yet to earn a target this year and has just six career catches in 38 games.",
-        "5": "Chris Rodriguez has a consistent role as the Jaguars' No. 2 RB behind Bhayshul Tuten, but Rodriguez's usage level is too low to warrant lineup consideration in most formats. Rodriguez has recorded between six and eight carries in each of his first four games with the Jaguars. He's riding a two-game TD streak but has been a complete non-factor in the passing game with zero targets while averaging a mediocre 4.2 yards per carry. Jacksonville faces an Eagles defense in Week 5 that ranks among the 10 most generous to RBs on the ground, allowing 106 rushing yards per game to the position.",
-        "6": "Chris Rodriguez has exceeded six rushing attempts in only one of five games with the Jaguars and has just one catch all season. With starting RB Bhayshul Tuten healthy heading into a Week 6 matchup with the Texans, Rodriguez doesn't look like a usable fantasy option in most formats against a stout Houston front seven that's limiting RBs to 3.5 yards per carry. Rodriguez remains a viable bench stash for managers hedging against a Tuten injury.",
-        "8": "Chris Rodriguez remains No. 2 on Jacksonville's RB depth chart behind Bhayshul Tuten, limiting Rodriguez's Week 8 fantasy appeal to deeper formats. Rodriguez logged a season-high 11 carries in Jacksonville's Week 6 loss to the Texans prior to a Week 7 bye. He has handled fewer than six carries only once all season, but Rodriguez is a non-factor in the passing game, with just one catch in 2026. Rodriguez will be a touchdown-dependent fantasy play in Week 8 against a Colts defense that has allowed five rushing scores to RBs through seven games.",
-        "9": "Chris Rodriguez is the clear No. 2 RB for the Jaguars behind Bhayshul Tuten heading into a Week 9 trip to Baltimore. Rodriguez has made the most of his opportunities, setting season highs in scrimmage yards in each of the past two games, with 55 in Week 6 against the Texans and 58 in Week 8 against the Colts. He remains a touchdown-dependent fantasy option for Week 9, as Rodriguez has just two catches this season and is averaging just under seven touches per game overall. The Ravens have allowed seven rushing scores to RBs in eight games, but there's an elevated chance of the Jaguars pulling away and leaning on Rodriguez more to run out the clock since Baltimore could be down to its third-string QB."
-      }
-    },
-    {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 76.32000000000001,
+        "appliedStatTotal": 95.82000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -3483,13 +3340,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[3].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.100000000000001,
+        "appliedStatTotal": 28.6,
         "id": 4241478,
         "keeperValue": 8,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3808,7 +3665,7 @@
     {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 134.56,
+        "appliedStatTotal": 167.46,
         "tradeReservedEntries": 0
       }
     },
@@ -3844,13 +3701,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[1].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 13.5,
+        "appliedStatTotal": 14.2,
         "id": 3929630,
         "keeperValue": 1,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3926,13 +3783,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.9,
+        "appliedStatTotal": 41.1,
         "id": 4259545,
         "keeperValue": 6,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4162,13 +4019,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 10.9,
+        "appliedStatTotal": 13.9,
         "id": 3953687,
         "keeperValue": 12,
         "keeperValueFuture": 12,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4294,20 +4151,20 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 106.6,
+        "appliedStatTotal": 154.8,
         "tradeReservedEntries": 0
       }
     },
     {
       "path": "$.mRoster.teams[8].roster.entries[0].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 27.8,
+        "appliedStatTotal": 76.0,
         "id": 4429795,
         "keeperValue": 1,
         "keeperValueFuture": 1,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4420,13 +4277,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 5.300000000000001,
+        "appliedStatTotal": 7.700000000000001,
         "id": 3121023,
         "keeperValue": 13,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4440,10 +4297,10 @@
         "firstName": "Dallas",
         "fullName": "Dallas Goedert",
         "id": 3121023,
-        "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Goedert",
-        "lastNewsDate": 1795561963000,
+        "lastNewsDate": 1795732392000,
         "lastVideoDate": 1793642002000,
         "proTeamId": 21,
         "seasonOutlook": "Goedert enters the 2026 season as the poster boy for inevitable touchdown regression to the mean. After scoring 24 touchdowns in his first seven seasons (3.4 per year), Goedert inexplicably leaped to 11 scores in 15 games in 2025. Goedert's expected TD total was 5.1, and he saw only five end zone targets (12 tight ends saw more). Goedert is a solid fantasy tight end -- he has finished 12th or better in PPG each of the past seven seasons -- but he often misses games (at least two in each of the past six years) and has never finished in the top eight at the position in targets or catches. The 31-year-old is likely to deliver fringe-TE1 numbers in 2026.",
@@ -4601,33 +4458,19 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.98,
-        "id": 8439,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 13,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 2.1,
         "id": 5083754,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[12].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Ryan Flournoy could not take advantage of the absence of George Pickens last game for Dallas. Despite Pickens being sidelined with a hamstring issue, Flournoy managed his fewest catches since Week 3. He finished with just two grabs for the contest, though did gain 53 yards total on the receptions. While Pickens may be shelved for Week 10 as well, Flournoy will face a difficult task versus the San Francisco 49ers. The Niners are allowing just 211 passing yards per tilt, which is eighth in the league. In addition, San Fran has given up just 11 passing scores in 2026, which is tied for seventh in the NFL.",
         "11": "Ryan Flournoy has scored in three of the last five contests for the Cowboys. Flournoy has caught at least two passes in every game this season, and has drawn at least four targets in all but one contest. In Week 11, Flournoy has a tasty matchup against the Titans. Tennessee is allowing 266.9 passing yards per tilt, which is dead last in the NFL.",
@@ -4642,7 +4485,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 3.3,
         "id": 4686422,
@@ -4656,7 +4499,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[8].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Xavier Hutchinson takes a two-game touchdown streak into Houston's Week 10 road game against the Browns, but he has just 46 receiving yards over that span and is averaging a meager 36 receiving yards per game this season. He has maintained a prominent role in a high-ceiling Houston passing offense, drawing at least five targets in all but one game, but Hutchinson hasn't done much with those opportunities and had just three career TDs in 3.5 seasons prior to his current two-game scoring streak. Nico Collins, Tank Dell, Marvin Harrison, and Kayshon Boutte all have higher upside among Houston's WRs for Week 10 and beyond.",
         "11": "Xavier Hutchinson has scored in three consecutive games heading into Houston's Week 11 home game against the Colts. He's averaging six targets per game, and while his paltry average of 6.4 yards per target suggests C.J. Stroud would be better off distributing those looks elsewhere, Hutchinson's volume has propelled the 26-year-old wideout into the weekly flex conversation. Perhaps Hutchinson is just a late bloomer who is finding his groove, but it's fair to remain skeptical considering his three TDs in the last three games match his total of three TDs from 55 regular-season appearances before this streak. The Colts have limited WRs to eight TDs in 10 games, though Indianapolis is allowing 149 yards per game to the position.",
@@ -4671,7 +4514,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
+      "path": "$.mRoster.teams[8].roster.entries[14].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
         "id": 3122840,
@@ -4685,9 +4528,38 @@
       }
     },
     {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 11.5,
+        "id": 4361411,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 13,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Pat Freiermuth and the Steelers travel to Cincinnati for an AFC North showdown in Week 10. He caught both of his targets for 35 yards and rushed once for a one-yard touchdown during Pittsburgh's Week 8 victory. Freiermuth finished second on the team in yardage and accounted for one of three rushing TDs despite playing only 53% of the offensive snaps. Over his last three contests, he strung together a 6-66-0 receiving line on nine targets to go along with his one-yard TD run, securing two receptions in each outing. Freiermuth could struggle to hit paydirt for the sixth time this season in a matchup versus a Bengals defense that's given up only one score to opposing TEs through eight games.",
+        "11": "Pat Freiermuth and the Steelers visit the Eagles for an in-state showdown in Week 11. He caught two of three targets for 35 yards and one touchdown during Pittsburgh's Week 10 loss, making it two straight outings with a score. Freiermuth fought hard to break the goal line on his 27-yard TD reception, even with his team down big in the fourth quarter. He played 53% of the offensive snaps compared to 50% for Darnell Washington, so snap counts have essentially been a coin flip between the two tight ends. Freiermuth is a tough sell for fantasy managers in a matchup versus Philadelphia's defense, as they're tied for the fourth-fewest points allowed per game (10.5) to opposing TEs.",
+        "12": "Pat Freiermuth and the Steelers battle the Broncos at home on Black Friday in Week 12. He caught all five targets for 39 yards and rushed once for one yard during Pittsburgh's Week 11 loss. Freiermuth has recently been more involved on offense than fellow tight end Darnell Washington as Washington finished with a 3-22-0 line on three targets. Freiermuth remains a TD-or-bust fantasy option and he'll face a Denver defense that's allowed the third-most receiving yards (702) and eight TDs (T-27th) to opposing TEs in 2026.",
+        "2": "Pat Freiermuth and the Steelers hope to improve to 2-0 when they visit the Patriots in Week 2. He secured all five targets for 46 yards and Aaron Rodgers' lone passing TD, and finished second on the team in receiving yards while tying for first in receptions. Freiermuth led Pittsburgh's TEs in offensive snaps (49), but Darnell Washington was a close second with 43. He and the Steelers will try to scheme up a way to beat a New England defense that is tied for second in receiving yards allowed to the position (13).",
+        "3": "Pat Freiermuth and the Steelers play host to the Bengals for an AFC North clash in Week 3. He paced the team's tight ends in snaps (46), receptions (4), yards (32) and targets (5) during Pittsburgh's 20-3 loss to the Patriots. Freiermuth appears to have the upper hand over Darnell Washington (1-7-0) in the passing game, but his fantasy floor and ceiling are relatively low in an underwhelming Steelers offense. He'll have the added benefit of facing a Cincinnati defense that allows 18.5 fantasy points per game to TEs (27th) and just got torched for 12 receptions and 140 yards by Dalton Schultz.",
+        "4": "Pat Freiermuth and the Steelers are on the road for a Week 4 AFC North clash against the Browns. He caught two of four targets for 30 yards and rushed once for one yard during Pittsburgh's Week 3 victory. Aaron Rodgers continues to spread the ball around, as six different Steelers receivers registered at least four targets, and four tied for the team lead in receptions with three. Freiermuth could be a sneaky play versus a Cleveland defense that ranks 20th in fantasy points allowed (14.9) to TEs and gave up eight receptions (on 12 targets) for 92 yards to the position in Week 3.",
+        "5": "Pat Freiermuth and the Steelers welcome the Colts to town for a Week 5 home tilt. He played 75% of snaps on offense and caught three of five targets for 17 yards and his second touchdown of the season. Fellow tight end Darnell Washington (3-27-1) was slightly more productive while playing 70% of the offensive snaps during Pittsburgh's 27-24 loss in Week 4. They're both listed as starting tight ends for the Steelers, and it looks like it'll be a toss-up between the two on any given week as long as they're healthy. Indianapolis allows 13.7 fantasy points per game to TEs, which ranks 17th.",
+        "6": "Pat Freiermuth and the Steelers visit the Buccaneers for an interconference clash in Week 6. He played 38 snaps on offense (70%) and was highly productive, catching five of seven targets for 44 yards and two of Aaron Rodgers' three TD passes during Pittsburgh's Week 5 victory. Freiermuth finished third on the team in receptions and yardage, while his seven looks were the second-most. Fellow starting tight end Darnell Washington was on the field for 34 offensive snaps (63%) and caught two of three targets for 12 yards. Freiermuth recorded a second consecutive outing with a score and now has four TDs on the season, and he'll aim to take advantage of a Tampa Bay defense allowing 15.7 fantasy points per game (22nd) to TEs.",
+        "7": "Pat Freiermuth and the Steelers travel to Paris to take on the Saints in Week 7. He caught two of three targets for 11 yards during Pittsburgh's 26-19 comeback win in overtime in Week 6. Freiermuth and fellow tight end Darnell Washington each played 71% of snaps on offense, but it was the latter who made the bigger impact in this one, as Washington tallied a 4-25-1 line on six targets. Freiermuth will try to rebound versus a New Orleans defense that just surrendered six receptions for 99 yards and a TD to Isaiah Likely.",
+        "8": "Pat Freiermuth and the Steelers return home to host the Browns for an AFC North showdown in Week 8. He caught two of four targets for 20 yards during Pittsburgh's Week 7 win in Paris. Freiermuth played 34 offensive snaps to fellow TE Darnell Washington's 36, but the two have been essentially neck-and-neck in playing time through seven outings this season. Freiermuth will aim to stand out versus Cleveland's 20th-ranked defense in fantasy points allowed per game (13.9) to the position."
+      }
+    },
+    {
       "path": "$.mRoster.teams[9].roster",
       "values": {
-        "appliedStatTotal": 99.19999999999999,
+        "appliedStatTotal": 125.9,
         "tradeReservedEntries": 0
       }
     },
@@ -4753,13 +4625,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.5,
+        "appliedStatTotal": 35.2,
         "id": 4431299,
         "keeperValue": 9,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5018,13 +4890,13 @@
     {
       "path": "$.mRoster.teams[9].roster.entries[11].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.5,
+        "appliedStatTotal": 11.5,
         "id": -16003,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5118,11 +4990,12 @@
         "id": 4429202,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1796198400000
       }
     },
     {
@@ -5261,11 +5134,12 @@
         "id": 4243315,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1796198400000
       }
     },
     {
@@ -5767,9 +5641,9 @@
         "id": 3953687,
         "keeperValue": 12,
         "keeperValueFuture": 12,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5923,11 +5797,12 @@
         "id": 4434153,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1796198400000
       }
     },
     {
@@ -5977,9 +5852,9 @@
         "id": 3929630,
         "keeperValue": 1,
         "keeperValueFuture": 2,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -6084,10 +5959,10 @@
         "fullName": "Rashod Bateman",
         "id": 4360939,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1795650130000,
+        "lastNewsDate": 1795730624000,
         "lastVideoDate": 1790001549000,
         "proTeamId": 33,
         "seasonOutlook": "Bateman is entering his sixth season in Baltimore following an injury-plagued 2025 campaign in which he was limited to a career-low 224 receiving yards in 13 games. After scoring nine touchdowns on only 45 receptions in 2024, Bateman had \"regression\" written all over him entering last season, but it was worse than expected. The 2021 first-round pick saw his target share fall from 15.4% to a career-low 11.4% and his only double-digit fantasy effort came in Week 3. The 26-year-old remains second on Baltimore's depth chart behind Zay Flowers, but even in a new scheme and with a healthy Lamar Jackson under center, he's unlikely to produce his first top-35 fantasy campaign. Bateman isn't the most appealing late-round draft pick."
@@ -6132,11 +6007,12 @@
         "id": 4689936,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1796198400000
       }
     }
   ],
