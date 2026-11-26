@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[12]",
+      "path": "$.mTransactions2.transactions[13]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[12].items[0]",
+      "path": "$.mTransactions2.transactions[13].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[12].items[1]",
+      "path": "$.mTransactions2.transactions[13].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -501,10 +501,10 @@
       "path": "$.mTeam.teams[3].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 111,
-        "acquisitions": 22,
-        "drops": 22,
+        "acquisitions": 23,
+        "drops": 23,
         "misc": 0,
-        "moveToActive": 82,
+        "moveToActive": 83,
         "moveToIR": 4,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -2023,7 +2023,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 102.75999999999999,
+        "appliedStatTotal": 117.75999999999999,
         "tradeReservedEntries": 0
       }
     },
@@ -2428,55 +2428,6 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.4,
-        "id": 3116365,
-        "keeperValue": 6,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 5,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry.player",
-      "values": {
-        "active": true,
-        "defaultPositionId": 4,
-        "droppable": true,
-        "firstName": "Mark",
-        "fullName": "Mark Andrews",
-        "id": 3116365,
-        "injured": false,
-        "injuryStatus": "ACTIVE",
-        "lastName": "Andrews",
-        "lastNewsDate": 1795393512000,
-        "lastVideoDate": 1794411219000,
-        "proTeamId": 33,
-        "seasonOutlook": "One of fantasy's biggest mysteries, Andrews' usage has dipped substantially over the past two seasons. After finishing in the top five in fantasy PPG five seasons in a row from 2019 to 2023, Andrews slipped to eighth in 2024 (it would've been much worse if not for 11 touchdowns on 68 targets) and fell even further to 24th last season. Andrews appeared in all 17 of Baltimore's games but ranked 18th among tight ends in targets and outside the top 20 in catches and yards. The combination of a new coaching staff, a healthy Lamar Jackson and the departure of Isaiah Likely could lead to a rebound season for Andrews, but we now have two straight seasons of underperformance. The 31-year-old remains a force near the goal line (top 10 in end zone targets seven years in a row), but he's now more of a fringe TE1 than a fantasy star.",
-        "universeId": 1
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "In Week 10, Mark Andrews and the Ravens welcome the winless Chargers to town. He caught both of his targets for 19 yards during Baltimore's Week 9 loss. Andrews actually led the team in receiving yardage and was second behind Zay Flowers and Justice Hill in receptions, who each recorded three. Jacoby Brissett will earn his first start for the Ravens after being acquired via trade, but Andrews could find it difficult to operate versus a Chargers defense allowing 10.0 fantasy points per game (3rd) to TEs.",
-        "11": "In Week 11, Mark Andrews and the Ravens look to snap a five-game losing streak when they visit the 4-5 Panthers. He's coming off easily his best outing of the season in Week 10's loss, as he caught all eight of his targets for 82 yards while leading the team in receptions and yardage. Andrews established new season highs in each receiving category with the recently acquired Jacoby Brissett making his first start for Baltimore. Brissett attempted 49 passes and threw for 340 yards, and if that trend continues for the Ravens' offense, Andrews could be primed for a much larger role moving forward.",
-        "12": "In Week 12, Mark Andrews and the Ravens are back on the road to battle the Texans. He brought in two of three targets for 14 yards during Baltimore's loss in Week 11. Andrews' follow-up to his season-best performance in Week 10 was disappointing, especially when considering Jacoby Brissett attempted 37 passes and the Ravens scored 33 points. Next up for Andrews is a Houston defense allowing 10.0 fantasy points per game to TEs, the second-lowest mark in the league.",
-        "2": "Mark Andrews and the Ravens host the Saints and their defense, which ranks 13th in fantasy points allowed per game (11.3) to TEs, in Week 2. Andrews caught four of his six targets for 49 yards during Baltimore's 41-23 win in the season opener. He tied with Zay Flowers (hamstring) for the team lead in targets and finished second behind him in receptions. With Flowers and a host of other receivers dealing with injuries, Andrews could be in line for additional looks as a safety net for Lamar Jackson.",
-        "3": "Mark Andrews and the Ravens look to rebound from an upset defeat when they visit the Cowboys in Week 3. He caught six of seven targets for 49 yards during Baltimore's 24-17 Week 2 loss, making it two straight outings with exactly 49 receiving yards for the 31-year-old. Andrews draws a favorable matchup versus a Dallas defense that surrendered eight receptions for 78 yards and two TDs to Isaiah Likely in the season opener. The Cowboys rank 26th in fantasy points allowed (16.9) and are one of two teams with a catch rate of 100% to TEs.",
-        "4": "Mark Andrews and the Ravens welcome the 0-3 Titans to town for a Week 4 showdown. After missing some time with a hand injury during Baltimore's 34-31 Week 3 win, Andrews returned and ultimately finished with three catches for 24 yards on five targets. He's still in search of his first TD of 2026, but he's been consistently involved on offense, totaling 18 targets across three contests. Andrews could find it difficult to break through in the scoring department against the Titans' third-ranked defense in fantasy points allowed (7.4) to TEs, as they're one of nine teams yet to surrender a receiving touchdown to the position.",
-        "5": "Mark Andrews and the Ravens are on the road for the first time since the season opener to face the Falcons in Week 5. He corralled five of six targets for 27 yards and his first touchdown of the season in Baltimore's Week 4 win. Andrews has yet to top 50 yards receiving through four outings to date, and that trend could continue if Lamar Jackson (ankle) is unable to play on Sunday Night Football. The veteran tight end will aim to find paydirt for the second straight week against Atlanta's 21st-ranked defense in fantasy points allowed (15.9) per game to the position.",
-        "6": "Mark Andrews and the Ravens are in Cleveland for an AFC North divisional clash in Week 6. He caught four of six targets for 28 yards and lost a fumble during Baltimore's overtime victory in Week 5. Andrews is averaging a solid six targets through five outings in 2026, but he's yet to top 50 receiving yards, only has one touchdown, and tallies 35.4 yards per contest. He'll look to break out versus a Browns defense that's tied for 19th in fantasy points allowed per game (15.0) to TEs.",
-        "7": "Mark Andrews and the Ravens are back home to square off against the Bengals in Week 7. He caught one of three targets for four yards during Baltimore's 13-10 loss in Week 6. Andrews turned in his worst performance of the season on a day the Ravens tallied a meager 252 total yards of offense. Fellow tight end Josh Cuevas, a rookie fifth-round pick in 2026, recorded a 4-44-1 line on five targets, finishing second on the team in yardage while tying for second in receptions and targets. Andrews will look to rebound versus Cincinnati's 25th-ranked defense in fantasy points allowed per game (16.2) to TEs.",
-        "8": "Mark Andrews and the Ravens travel to face the Bills in Week 8. He caught three of four targets for 23 yards during Baltimore's 35-13 defeat in Week 7. Andrews was unable to take advantage of game flow, as Tyler Huntley attempted 34 passes and threw for a career-high 298 yards. Andrews has failed to top 30 receiving yards in five straight outings, making him a tough start in fantasy despite the potential return of Lamar Jackson (ankle).",
-        "9": "Mark Andrews and the Ravens host the Jaguars for an AFC showdown in Week 9. He caught three of four targets for 14 yards during Baltimore's 36-10 Week 8 defeat. Andrews finished second on the team in receptions and third in targets, but the entire Ravens offense struggled with Lamar Jackson (thumb/IR) and Tyler Huntley (toe) both forced out with injuries. Andrews has compiled an underwhelming 29-218-1 receiving line on 41 targets through seven games this season. Fantasy managers should look elsewhere, with the 31-year-old squaring off against Jacksonville's eighth-ranked defense in fantasy points allowed per game (11.0) to TEs."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 15.700000000000001,
         "id": 4575131,
         "keeperValue": 0,
@@ -2489,7 +2440,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[3].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "12": "Jacory Croskey-Merritt found the end zone in his return from injury for the Commanders.  Bill rushed 13 times for 54 yards and the score in the surprising 22-20 win over the Bengals. He nearly doubled up backup Austin Ekeler in terms of carries. Croskey-Merritt also caught two passes for 23 yards out of the backfield. Bill looks to be the featured back heading into a juicy matchup with the Cardinals. Arizona is allowing 128.8 rushing yards per tilt, which is 27th in the league. Likewise, Arizona has yielded 12 rushing touchdowns on the season, which is tied for 22nd in the NFL.",
         "2": "Jacory Croskey-Merritt found the end zone in Week 1 for Washington.  Bill served as the primary ballcarrier, toting the pigskin 16 times for 63 yards and the score. Meanwhile, fellow running back Rachaad White had seven carries for only 22 years. In Week 2, Croskey-Merritt will have a favorable matchup versus the Cowboys. Dallas allowed 165 yards rushing and one score on the ground to the Giants in the season opener.",
@@ -2497,6 +2448,34 @@
         "4": "Jacory Croskey-Merritt was perhaps predictably stymied by the Seattle Seahawks last game. However, the touches were a silver lining, as Croskey-Merritt garnered 20 opportunities in the 33-31 win over the defending champions. Bill rushed 19 times for 36 yards, while also catching a seven-yard pass out of the backfield. However, fellow running back Rachaad White  averaged more than double Croskey-Meritt's yards per carry, while also finding the end zone through the air. However, there could be plenty of room to roam in Week 4 versus the Colts. Indianapolis has been dreadful against the run in 2026, allowing 141.3 yards per contest on he ground, which is 29th in the league.",
         "5": "Jacory Croskey-Merritt was stymied last game in a dismal loss for the Commanders. Bill had nine carries for a season-low 15 yards in the 30-13 defeat to the Colts. Even with Rachaad White sidelined due to injury, Croskey-Merritt could find little room to roam. Bill is struggling overall this season, averaging just 2.8 yards per tote. In Week 5, Washington will face a Giants run defense that has vastly improved from a season ago. New York is allowing 109 rushing yards per tilt, which is tied for 15th in the league. In addition, the G-Men have surrendered only two rushing touchdowns through four contests.",
         "6": "Jacory Croskey-Merritt rushed for a season-high 82 yards last game for the Commanders. Bill also found the end zone for the second time this season. Croskey-Merritt has seen double-digit touches in every contest thus far in 2026. In Week 6, Washington will face the San Francisco 49ers. The Niners are allowing 97.6 rushing yards per tilt, which is 10th in the NFL. San Francisco has also given up just three rushing touchdowns through five outings, which is tied for sixth in the league."
+      }
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 15.0,
+        "id": 5082424,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 5,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[3].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Dominic Zvada rebounded last game for the Giants with four field goals. Zvada did not miss a boot, connecting from at least 48 yards on three of his four field goal tries. He also added an extra points in the 19-11 win over the Eagles. He should have plenty more opportunities to score in Week 10 versus a lackluster Washington squad. The Commanders are allowing 25.3 points per game, which is 24th in the NFL.",
+        "11": "Dominic Zvada somehow still has a job following yet another missed field goal for the Giants. Zvada missed a 33-yarder in the 24-21 loss to the Commanders. He has missed six field goals to date, including three from under 50 yards out. In Week 11, points will likely be difficult to come by versus the Jags. Jacksonville is allowing just 16 points per tilt, which is second in the NFL.",
+        "12": "Dominic Zvada missed yet another field goal last game for the Giants. The inconsistent rookie actually connected on three field goals from 40-plus yards out, but somehow missed a 32-yarder in the 23-18 win over the Jags. It was the seventh miss of the season for Zvada, which is tied for the league-lead. Zvada still appears to have his job heading into Week 12 versus the Colts, though. Indy is allowing 27 points per game, which is 28th in the NFL.",
+        "2": "Dominic Zvada connected on all four of his kicks in Week 1 for the Giants. Zvada made all four of his PATs during the 28-20 win for the G-Men over the Dallas Cowboys. He did not attempt a field goal for the game. In Week 2, Zvada and company will face a Rams squad that was surprisingly suspect in its season opener. Los Angeles allowed 27 points to the 49ers in a losing effort last week.",
+        "3": "Dominic Zvada accounted for the only points for the Giants last game. Zvada connected on both of his field goals in the 28-6 loss to the Rams. The injury to Jaxson Dart leaves Jameis Winston under center at quarterback, which could be an ugly development in terms of opportunities for points for Zvada. In Week 3, the Giants will face a Titans squad allowing 23.5 points per tilt, which is tied for 16th in the NFL.",
+        "4": "Dominic Zvada provided all of the offense last game for the New York Giants. Zvada connected on all four of his field goal attempts in the 12-7 triumph over the Titans. Zvada has yet to miss a field goal through three games, and could see additional opportunities in Week 4 versus Arizona. The Cardinals are allowing 27 points per tilt, which is 24th in the NFL.",
+        "5": "Dominic Zvada continues to shine for the Giants as a rookie. Zvada made all three of his field goals, as well as an extra point, in the 36-24 win over the Cardinals. Two of Zvada's field goals were from 50-plus yards out. He is perfect to begin his NFL career, with five field goals already from 50-plus yards away. He could be primed for a big output in Week 5 versus a Commanders squad allowing 30.5 points per tilt, which is 31st in the NFL.",
+        "6": "Dominic Zvada had an afternoon to forget last game for the Giants. The rookie missed three kicks in the 27-27 tie with the Commanders. Coming into the game, Zvada had not missed a single boot. However, he subsequently missed three field goals from 40-plus yards out. While the conditions were rather poor and the missed attempts were long, Zvada did also hit two other  tries from 50-plus yards away, as well as all three of his extra points. Despite the rough outing, Zvada should remain the kicker in Week 6 versus the Saints. New Orleans is allowing 30.2 points per tilt, which is 31st in the league, so Zvada should get plenty of chances for redemption.",
+        "7": "Dominic Zvada rebounded from a poor performance with two field goals and an extra point last game for the Giants. Zvada connected on two field goals from inside 50 yards, as well as one PAT, in the 34-27 loss to the Saints. With essentially one bad game to his name, Zvada should continue as the primary placekicker for the G-Men. In Week 7, New York will face a Texans squad allowing 23.8 points per tilt, which is 20th in the league."
       }
     },
     {
@@ -4526,7 +4505,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Stafford",
-        "lastNewsDate": 1794797242000,
+        "lastNewsDate": 1795670679000,
         "lastVideoDate": 1794407334000,
         "proTeamId": 14,
         "seasonOutlook": "The reigning NFL MVP, Stafford returns for his 18th NFL season and his fifth with the Rams. The 38-year-old is fresh off an elite season in which he led the NFL in passing yards and touchdowns, which allowed him nine top-10 fantasy weeks (tied for third most at the position). Stafford's third-place finish in fantasy points per game was his first top-10 finish since 2019, and some regression is likely due to a complete lack of rushing (65 or fewer rushing yards in five straight seasons and one rushing touchdown since 2017). Stafford still has receivers Puka Nacua and Davante Adams and a strong offensive line at his disposal, so another big passing season is possible. That's just enough to keep him in the fringe QB1 mix.",
@@ -5569,9 +5548,8 @@
         "lineupLocked": false,
         "onTeamId": 0,
         "rosterLocked": false,
-        "status": "WAIVERS",
-        "tradeLocked": false,
-        "waiverProcessDate": 1795680000000
+        "status": "FREEAGENT",
+        "tradeLocked": false
       }
     },
     {
@@ -5678,10 +5656,11 @@
         "keeperValue": 6,
         "keeperValueFuture": 0,
         "lineupLocked": false,
-        "onTeamId": 5,
+        "onTeamId": 0,
         "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1795852800000
       }
     },
     {
