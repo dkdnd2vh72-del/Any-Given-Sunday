@@ -657,8 +657,8 @@
       "path": "$.mTeam.teams[7].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 48,
-        "acquisitions": 10,
-        "drops": 9,
+        "acquisitions": 11,
+        "drops": 10,
         "misc": 0,
         "moveToActive": 29,
         "moveToIR": 3,
@@ -795,7 +795,7 @@
     {
       "path": "$.mRoster.teams[0].roster",
       "values": {
-        "appliedStatTotal": 108.54,
+        "appliedStatTotal": 125.04,
         "tradeReservedEntries": 0
       }
     },
@@ -830,13 +830,13 @@
     {
       "path": "$.mRoster.teams[0].roster.entries[2].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 16.5,
         "id": 4430737,
         "keeperValue": 3,
         "keeperValueFuture": 3,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 1,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1567,7 +1567,7 @@
     {
       "path": "$.mRoster.teams[2].roster",
       "values": {
-        "appliedStatTotal": 107.76,
+        "appliedStatTotal": 112.66000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -1895,13 +1895,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 4.9,
         "id": 4701936,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2808,13 +2808,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 12.5,
         "id": -16014,
         "keeperValue": 0,
         "keeperValueFuture": 12,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2983,7 +2983,7 @@
     {
       "path": "$.mRoster.teams[5].roster",
       "values": {
-        "appliedStatTotal": 91.60000000000001,
+        "appliedStatTotal": 136.6,
         "tradeReservedEntries": 0
       }
     },
@@ -3149,13 +3149,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 16.5,
         "id": 4248528,
         "keeperValue": 0,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3163,13 +3163,13 @@
     {
       "path": "$.mRoster.teams[5].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 28.5,
         "id": 4429096,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 8,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -3425,7 +3425,7 @@
     {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 67.7,
+        "appliedStatTotal": 76.32000000000001,
         "tradeReservedEntries": 0
       }
     },
@@ -3685,13 +3685,13 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 8.620000000000001,
         "id": 4036378,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 11,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4106,13 +4106,13 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[9].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 4.9,
         "id": 4572680,
         "keeperValue": 0,
         "keeperValueFuture": 10,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4158,7 +4158,7 @@
         "injured": false,
         "injuryStatus": "QUESTIONABLE",
         "lastName": "Marks",
-        "lastNewsDate": 1795633250000,
+        "lastNewsDate": 1795648568000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -4261,7 +4261,7 @@
       "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry",
       "values": {
         "appliedStatTotal": 0.0,
-        "id": 4697815,
+        "id": -16017,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -4272,25 +4272,10 @@
       }
     },
     {
-      "path": "$.mRoster.teams[7].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Rachaad White continues to operate as the top back for the Commanders, though has found little room to roam on the ground. White has failed to rush for more than 55 yards in any game this season. However, he does have at least two receptions in three-straight contests. In Week 10, White will face a Giants defense that has been better against the pass than the run in 2026. New York is allowing just 177.8 passing yards per clash, which is third in the NFL. However, the Giants are surrendering 123.6 rushing yards per tilt, which is 21st in the league.",
-        "11": "Rachaad White is averaging at least four yards per carry over his last three games with the Commanders. Though White is technically the starting running back, he has only had double-digit carries twice this season. Moreover, Jacory Croskey-Merritt could return soon from Injured Reserve. For now, though, White remains the top dog in the backfield heading into a Week 11 clash with the Bengals. Cincy has been better against the pass than the run in 2026. The Bengals are allowing 123.9 rushing yards per tilt, which is 21st in the NFL.",
-        "12": "Rachaad White dressed last game for the Commanders, but did not record a carry. Perhaps his heel issue was more concerning than initially thought, as Jacory Croskey-Merritt had 13 carries against the Bengals, while Austin Ekeler registered seven. Croskey-Merritt's return from injury likely relegates White to backup duty in Week 12 versus Arizona anyway, though the matchup is extremely favorable. The Cardinals are allowing 128.8 rushing yards per clash, which is 27th in the NFL.",
-        "2": "Rachaad White found himself on the losing end of the timeshare out of the backfield in Week 1 for Washington.  White had seven carries for 22 yards, while fellow rusher Jacory Croskey-Merritt managed 16 carries for 63 yards and a touchdown. White only had one more reception than Croskey-Merritt as well. In Week 2, Washington has a favorable matchup with the Cowboys, as Dallas allowed 165 rushing yards on the ground to the Giants in their season opener.",
-        "3": "Rachaad White recorded 13 touches for 83 yards out of the backfield last game for the Commanders. White took seven carries for 43 yards, while also catching six passes for 40 yards as a receiver with Washington playing from behind. White remains in a timeshare for touches with Jacory Croskey-Merritt, though, and will face a devastating Seattle defense in Week 3.  The Seahawks are allowing just 8.5 points and 214 yards per game thus far in 2026, which is second in the league in both categories.",
-        "4": "Rachaad White found the end zone last game for Washington. White caught a six-yard touchdown pass from backup quarterback Marcus Mariota during the stunning 33-31 win over the Seahawks. White also doubled up starting running back Jacory Croskey-Merritt in terms of yards per carry. However, Bill out-touched White by a margin of 20-9 for the game. Nevertheless, both backs should remain involved in Week 4 versus a suspect Colts defense. Indianapolis is allowing the most yards per game in the NFL through three contests.",
-        "5": "Rachaad White missed Washington's last game due to a shoulder issue, leaving his status in question for Week 5 versus the Giants. An argument can be made that White has been more productive than fellow rusher Jacory Croskey-Merritt in 2026, though that point may be moot as long as White is sidelined. Austin Ekeler will be the backup to Bill if White remains shelved. In Week 5, Washington will face a Giants run defense that has vastly improved from a season ago. New York is allowing 109 rushing yards per tilt, which is tied for 15th in the league. In addition, the G-Men have surrendered only two rushing touchdowns through four contests.",
-        "6": "Rachaad White returned to the lineup for Washington following a one-game absence due to a shoulder issue. However, White failed to have much of an impact. He rushed seven times for just 18 yards, while also catching a two-yard pass out of the backfield. Meanwhile, starting running back Jacory Croskey-Merritt rushed for 82 yards and a touchdown. In Week 6, the Commanders face a 49ers defense that has been rather stingy against the run. The Niners are allowing 97.6 rushing yards per clash, which is 10th in the league. In addition, San Fran has surrendered just three rushing scores to date, which is tied for sixth in the NFL.",
-        "8": "Rachaad White will serve as the No. 1 running back for the Commanders in Week 8, as starter Jacory Croskey-Merritt was placed on Injured Reserve with a groin injury. White has found the end zone in two of the last three games as a receiver out of the backfield, but is averaging just 4.0 yards per carry as a rusher. Still, the expanded role should give him double-digit touches against a floundering Eagles defense. Philadelphia is allowing 119.3 rushing yards per clash, which is 21st in the league.",
-        "9": "Rachaad White has scored in back-to-back games for Washington. White rushed 11 times for 55 yards and a touchdown in the 27-10 win over the Eagles. White has found the end zone in each of the last two contests since taking over the starting running back job for the injured Jacory Croskey-Merritt. Jeremy McNichols also left this game with an injury, leaving Austin Ekeler as the only other healthy option. In Week 9, Washington will face a Rams defense allowing 109.3 yards per tilt on the ground, which is 14th in the NFL. However, the Rams have surrendered just four rushing scores in 2026, which is tied for third in the league."
-      }
-    },
-    {
       "path": "$.mRoster.teams[7].roster.entries[14].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
-        "id": -16017,
+        "appliedStatTotal": 15.0,
+        "id": -16034,
         "keeperValue": 0,
         "keeperValueFuture": 0,
         "lineupLocked": false,
@@ -4303,15 +4288,28 @@
     {
       "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 15.0,
-        "id": -16034,
+        "appliedStatTotal": 10.9,
+        "id": 4710855,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 12,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[7].roster.entries[15].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "10": "Konata Mumpfield may need to step up for the Rams in Week 10 against the Cardinals. Mumpfield has been quiet of late, logging no more than two catches and 20 yards over his past six games. However, with Davante Adams (hamstring) on IR and Puka Nacua (knee) expected to join him there, Los Angeles is likely going to need some of its other wideouts to start being more productive. Mumpfield has a good matchup against Arizona, as the Cardinals have given up 11 receiving TDs to wideouts, tied for second-most in the NFL.",
+        "12": "Konata Mumpfield appears set for at least one more game as the Rams' de facto No. 1 wideout in Week 12 against Green Bay. Puka Nacua (knee/toe) is expected to miss the rest of the season, and Davante Adams (hamstring) is slated to remain on IR this week, leaving Los Angeles' WR corps in the hands of Mumpfield, CJ Daniels, Tutu Atwell and Xavier Smith. Mumpfield was the most productive of the group in Week 10 against Arizona, posting three catches for 81 yards on four targets. He'll look to build more momentum against the Packers, who rank 23rd in the league with 22.1 fantasy points per game allowed to wideouts.",
+        "3": "Konata Mumpfield's role in the Rams' Week 3 matchup against Denver could depend on the status of Puka Nacua (hip). With Nacua sidelined Monday versus Denver, Mumpfield drew the start, but he finished with just one catch on two targets for 12 yards. Meanwhile, Davante Adams posted a massive 10-195-2 line, with no other Los Angeles wideout reeling in more than one catch. The Broncos won't be an easy matchup in Week 3, as they've held opposing WRs to an average of just 13.2 fantasy points per game this season, fourth-fewest in the NFL.",
+        "4": "Konata Mumpfield is coming off the biggest performance of his young career ahead of the Rams' Week 4 matchup in Philadelphia. Mumpfield established new professional high marks with four catches for 93 yards against Denver in Week 3, with one of his receptions going for a 48-yard touchdown. The second-year wideout logged a healthy eight targets in the loss, but important context is that Puka Nacua sat out due to a hip injury. Should Nacua be able to return in Week 4, it's reasonable to expect Mumpfield to see considerably less opportunities. Still, the Eagles have been vulnerable against wideouts and just allowed Chicago's WR duo of Luther Burden and Kalif Raymond to combine for 13 catches, 151 yards and two TDs on Monday Night Football.",
+        "5": "Konata Mumpfield is dealing with a shoulder injury heading into the Rams' Week 5 battle versus Buffalo. Mumpfield suffered a bruised rotator cuff in in Week 4 against Philadelphia, though he was able to return to action after getting hurt. That bodes well for his chances of playing in Week 5, though even if he does suit up he's unlikely to be a big part of the offense with both Puka Nacua and Davante Adams healthy. His path to production may be touchdown-dependent, and the Bills have given up six receiving TDs to wideouts -- tied for second-most in the NFL -- through four weeks.",
+        "7": "Konata Mumpfield enters Week 7 with an opportunity to expand his role in the Rams' passing attack after Davante Adams suffered a significant hamstring injury that will sideline him for multiple weeks. Mumpfield has caught eight passes for 127 yards and a touchdown through six games, averaging an impressive 15.9 yards per reception despite limited opportunities. His ability to generate explosive plays could make him a useful complement to Puka Nacua, but his fantasy upside will be boom-or-bust, as he's likely to operate as a touchdown-dependent option with other names ahead of him in the pecking order. At least the Week 7 matchup against the Raiders is favorable, as Las Vegas has allowed the 10th-most receiving yards and fantasy points per game to opposing wideouts in 2026.",
+        "8": "Konata Mumpfield is an option to fill a massive void in the Rams' receiver corps in Week 8 against the Chargers. With Davante Adams sidelined for several games due to a hamstring injury, the Rams are looking for someone to step up alongside star wideout Puka Nacua. That didn't happen in Week 7 -- aside from Nacua, the only one of the team's WRs to log a catch was Mumpfield, who finished with just one reception for 15 yards on two targets. Perhaps Mumpfield can make a big play or two against the Chargers, who rank 24th in the league by allowing 8.86 yards per target to wideouts.",
+        "9": "Konata Mumpfield is still looking to break out ahead of the Rams' Week 9 clash against the Commanders. Mumpfield has logged at least 26 offensive snaps each of the past three weeks, but he's managed just three catches for 30 yards on seven targets during that span. There's opportunity for him to increase his production with Davante Adams (hamstring) on IR for multiple more weeks, but to this point Mumpfield hasn't been able to form chemistry with QB Matthew Stafford. He may need to get into the end zone to be fantasy-relevant, and Washington is tied for 18th in the league by giving up seven touchdowns to wideouts through seven games."
       }
     },
     {
@@ -4385,9 +4383,9 @@
         "id": 16800,
         "keeperValue": 5,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4505,13 +4503,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 3.6000000000000005,
         "id": 12483,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4867,9 +4865,9 @@
         "id": 4047365,
         "keeperValue": 2,
         "keeperValueFuture": 9,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 14,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4883,10 +4881,10 @@
         "firstName": "Josh",
         "fullName": "Josh Jacobs",
         "id": 4047365,
-        "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Jacobs",
-        "lastNewsDate": 1795544394000,
+        "lastNewsDate": 1795650798000,
         "lastVideoDate": 1793198730000,
         "proTeamId": 9,
         "seasonOutlook": "Jacobs' 2025 season can be split in two parts: pre-injury and post-injury. While healthy during his first nine games, Jacobs picked up where he left off from a terrific 2024 debut season with Green Bay, averaging 21.1 touches and 19.6 fantasy points while scoring 11 TDs. After missing all but 11 snaps during Weeks 11 and 12, Jacobs returned and wasn't quite the same, averaging 14.6 touches and 11.3 points while totaling three touchdowns in his final five games. But Jacobs, 28, was still effective overall (PFF's fourth-highest-graded back) and has a clear grasp on lead-back duties in a good Green Bay offense that has afforded him 30 touchdowns (fifth most in the NFL) in 32 games. He's a fine back-end RB1 when active, but a likely suspension makes him less valuable on draft day.He's worth a mid-round flier until the dust settles.",
@@ -5194,9 +5192,9 @@
         "id": 16800,
         "keeperValue": 5,
         "keeperValueFuture": 4,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -5507,11 +5505,12 @@
         "id": 4426553,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1796198400000
       }
     },
     {
@@ -5773,11 +5772,12 @@
         "id": 4360797,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1796198400000
       }
     },
     {
@@ -6105,10 +6105,10 @@
         "fullName": "Rashod Bateman",
         "id": 4360939,
         "injured": false,
-        "injuryStatus": "ACTIVE",
+        "injuryStatus": "QUESTIONABLE",
         "jersey": "7",
         "lastName": "Bateman",
-        "lastNewsDate": 1795398130000,
+        "lastNewsDate": 1795650130000,
         "lastVideoDate": 1790001549000,
         "proTeamId": 33,
         "seasonOutlook": "Bateman is entering his sixth season in Baltimore following an injury-plagued 2025 campaign in which he was limited to a career-low 224 receiving yards in 13 games. After scoring nine touchdowns on only 45 receptions in 2024, Bateman had \"regression\" written all over him entering last season, but it was worse than expected. The 2021 first-round pick saw his target share fall from 15.4% to a career-low 11.4% and his only double-digit fantasy effort came in Week 3. The 26-year-old remains second on Baltimore's depth chart behind Zay Flowers, but even in a new scheme and with a healthy Lamar Jackson under center, he's unlikely to produce his first top-35 fantasy campaign. Bateman isn't the most appealing late-round draft pick."
