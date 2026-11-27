@@ -23,7 +23,7 @@
         "teamName": "Gett'n Saucy"
       },
       "home": {
-        "projection": 126.15,
+        "projection": 125.89,
         "score": 26.7,
         "teamId": 14,
         "teamName": "Chance make champions"
@@ -31,13 +31,13 @@
     },
     {
       "away": {
-        "projection": 122.75,
+        "projection": 122.77,
         "score": 7.16,
         "teamId": 5,
         "teamName": "The Bowers Rangers"
       },
       "home": {
-        "projection": 125.33,
+        "projection": 125.36,
         "score": 97.94,
         "teamId": 3,
         "teamName": "Burden Of Victory IIIx"
@@ -45,7 +45,7 @@
     },
     {
       "away": {
-        "projection": 122.86,
+        "projection": 122.62,
         "score": 20.2,
         "teamId": 4,
         "teamName": "Champagne Step-Papi"
@@ -59,13 +59,13 @@
     },
     {
       "away": {
-        "projection": 119.7,
+        "projection": 119.68,
         "score": 57.62,
         "teamId": 11,
         "teamName": "More Wins Than PSI"
       },
       "home": {
-        "projection": 132.19,
+        "projection": 132.28,
         "score": 43.34,
         "teamId": 12,
         "teamName": "Injured Reserve"
@@ -270,13 +270,13 @@
       ]
     },
     {
-      "acquisitions": 39,
+      "acquisitions": 38,
       "actual": 97.94,
       "htmlId": "numbers",
       "id": 3,
       "name": "Burden Of Victory IIIx",
       "playoffSeed": 5,
-      "projection": 125.33,
+      "projection": 125.36,
       "record": {
         "losses": 10,
         "pointsAgainst": 1434.32,
@@ -335,7 +335,7 @@
           "name": "Luther Burden III",
           "position": "WR",
           "proTeam": "CHI",
-          "projection": 13.03,
+          "projection": 13.06,
           "slot": "WR",
           "slotId": 4,
           "tradeInterest": null
@@ -459,7 +459,7 @@
       "id": 4,
       "name": "Champagne Step-Papi",
       "playoffSeed": 4,
-      "projection": 122.86,
+      "projection": 122.62,
       "record": {
         "losses": 9,
         "pointsAgainst": 1355.82,
@@ -551,7 +551,7 @@
           "name": "Lions D/ST",
           "position": "D/ST",
           "proTeam": "DET",
-          "projection": 5.8,
+          "projection": 5.56,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -573,7 +573,7 @@
           "name": "Caleb Williams",
           "position": "QB",
           "proTeam": "CHI",
-          "projection": 15.98,
+          "projection": 16.0,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -642,7 +642,7 @@
       "id": 5,
       "name": "The Bowers Rangers",
       "playoffSeed": 9,
-      "projection": 122.75,
+      "projection": 122.77,
       "record": {
         "losses": 15,
         "pointsAgainst": 1520.74,
@@ -657,7 +657,7 @@
           "name": "Patrick Mahomes",
           "position": "QB",
           "proTeam": "KC",
-          "projection": 17.57,
+          "projection": 17.59,
           "slot": "QB",
           "slotId": 0,
           "tradeInterest": null
@@ -1177,7 +1177,7 @@
           "name": "Colston Loveland",
           "position": "TE",
           "proTeam": "CHI",
-          "projection": 12.65,
+          "projection": 12.68,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1202,7 +1202,7 @@
       "id": 11,
       "name": "More Wins Than PSI",
       "playoffSeed": 10,
-      "projection": 119.7,
+      "projection": 119.68,
       "record": {
         "losses": 16,
         "pointsAgainst": 1329.3999999999999,
@@ -1294,7 +1294,7 @@
           "name": "Bills D/ST",
           "position": "D/ST",
           "proTeam": "BUF",
-          "projection": 4.43,
+          "projection": 4.41,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1360,7 +1360,7 @@
           "name": "Tyler Allgeier",
           "position": "RB",
           "proTeam": "ARI",
-          "projection": 8.45,
+          "projection": 8.32,
           "slot": "Bench",
           "slotId": 20,
           "tradeInterest": null
@@ -1385,7 +1385,7 @@
       "id": 12,
       "name": "Injured Reserve",
       "playoffSeed": 8,
-      "projection": 132.19,
+      "projection": 132.28,
       "record": {
         "losses": 12,
         "pointsAgainst": 1308.52,
@@ -1411,7 +1411,7 @@
           "name": "D'Andre Swift",
           "position": "RB",
           "proTeam": "CHI",
-          "projection": 14.02,
+          "projection": 14.03,
           "slot": "RB",
           "slotId": 2,
           "tradeInterest": null
@@ -1477,7 +1477,7 @@
           "name": "Texans D/ST",
           "position": "D/ST",
           "proTeam": "HOU",
-          "projection": 7.53,
+          "projection": 7.61,
           "slot": "D/ST",
           "slotId": 16,
           "tradeInterest": null
@@ -1773,7 +1773,7 @@
       "id": 14,
       "name": "Chance make champions",
       "playoffSeed": 2,
-      "projection": 126.15,
+      "projection": 125.89,
       "record": {
         "losses": 9,
         "pointsAgainst": 1457.38,
@@ -1843,7 +1843,7 @@
           "name": "Trey McBride",
           "position": "TE",
           "proTeam": "ARI",
-          "projection": 17.98,
+          "projection": 17.69,
           "slot": "TE",
           "slotId": 6,
           "tradeInterest": null
@@ -1854,7 +1854,7 @@
           "name": "Rome Odunze",
           "position": "WR",
           "proTeam": "CHI",
-          "projection": 10.88,
+          "projection": 10.91,
           "slot": "FLEX",
           "slotId": 23,
           "tradeInterest": null

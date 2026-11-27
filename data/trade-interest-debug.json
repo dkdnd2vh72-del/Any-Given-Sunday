@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[17]",
+      "path": "$.mTransactions2.transactions[18]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[17].items[0]",
+      "path": "$.mTransactions2.transactions[18].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[17].items[1]",
+      "path": "$.mTransactions2.transactions[18].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26]",
+      "path": "$.mTransactions2.transactions[28]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26].items[0]",
+      "path": "$.mTransactions2.transactions[28].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[26].items[1]",
+      "path": "$.mTransactions2.transactions[28].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -311,7 +311,7 @@
       "path": "$.mTeam.teams[0]",
       "values": {
         "abbrev": "KATZ",
-        "currentProjectedRank": 8,
+        "currentProjectedRank": 7,
         "divisionId": 1,
         "draftDayProjectedRank": 7,
         "eliminated": false,
@@ -350,7 +350,7 @@
       "path": "$.mTeam.teams[1]",
       "values": {
         "abbrev": "VM ",
-        "currentProjectedRank": 6,
+        "currentProjectedRank": 5,
         "divisionId": 1,
         "draftDayProjectedRank": 8,
         "eliminated": false,
@@ -584,7 +584,7 @@
       "path": "$.mTeam.teams[7]",
       "values": {
         "abbrev": "IR",
-        "currentProjectedRank": 7,
+        "currentProjectedRank": 8,
         "divisionId": 1,
         "draftDayProjectedRank": 2,
         "eliminated": false,
@@ -623,7 +623,7 @@
       "path": "$.mTeam.teams[8]",
       "values": {
         "abbrev": "ZJAM",
-        "currentProjectedRank": 5,
+        "currentProjectedRank": 6,
         "divisionId": 1,
         "draftDayProjectedRank": 4,
         "eliminated": false,
@@ -1669,7 +1669,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Moore",
-        "lastNewsDate": 1795383114000,
+        "lastNewsDate": 1795757540000,
         "lastVideoDate": 1795392604000,
         "proTeamId": 2,
         "seasonOutlook": "Moore was traded to Buffalo after spending his first eight NFL seasons with Carolina and Chicago. A featured target throughout most of his career, Moore was reduced to a 16% target share in 2025 -- his lowest since his rookie year in 2018. The result was a 35th-place finish in fantasy points, which ended a streak of six consecutive top 25s. Moore now heads to Buffalo with Khalil Shakir as his only roadblock to emerging as Josh Allen's No. 1 target in Buffalo's high-scoring offense. Still in his prime at age 29, Moore has the look of a fantasy WR3 with upside for more.",
