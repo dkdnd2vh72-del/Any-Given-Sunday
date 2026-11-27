@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[18]",
+      "path": "$.mTransactions2.transactions[21]",
       "values": {
         "bidAmount": 0,
         "executionType": "EXECUTE",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18].items[0]",
+      "path": "$.mTransactions2.transactions[21].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[18].items[1]",
+      "path": "$.mTransactions2.transactions[21].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -46,7 +46,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[28]",
+      "path": "$.mTransactions2.transactions[36]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -66,7 +66,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[28].items[0]",
+      "path": "$.mTransactions2.transactions[36].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -79,7 +79,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[28].items[1]",
+      "path": "$.mTransactions2.transactions[36].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -531,11 +531,11 @@
       "path": "$.mTeam.teams[5].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 99,
-        "acquisitions": 21,
+        "acquisitions": 22,
         "drops": 21,
         "misc": 0,
         "moveToActive": 63,
-        "moveToIR": 3,
+        "moveToIR": 5,
         "paid": 0.0,
         "teamCharges": 0.0,
         "trades": 0
@@ -570,10 +570,10 @@
       "path": "$.mTeam.teams[6].transactionCounter",
       "values": {
         "acquisitionBudgetSpent": 136,
-        "acquisitions": 31,
-        "drops": 31,
+        "acquisitions": 32,
+        "drops": 32,
         "misc": 0,
-        "moveToActive": 65,
+        "moveToActive": 66,
         "moveToIR": 7,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -612,7 +612,7 @@
         "acquisitions": 11,
         "drops": 10,
         "misc": 0,
-        "moveToActive": 29,
+        "moveToActive": 30,
         "moveToIR": 3,
         "paid": 0.0,
         "teamCharges": 0.0,
@@ -929,9 +929,9 @@
         "fullName": "Jakobi Meyers",
         "id": 3916433,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Meyers",
-        "lastNewsDate": 1795641590000,
+        "lastNewsDate": 1795813609000,
         "lastVideoDate": 1790533083000,
         "proTeamId": 30,
         "seasonOutlook": "One of the league's most underrated players, Meyers is entering his first full season with Jacksonville after being acquired via trade in November. The 2019 UDFA has produced 800-plus receiving yards in five consecutive seasons while operating primarily as a short-to-intermediate target. More of a solid producer than a high-ceiling contributor, Meyers has finished no lower than 32nd in fantasy points over the last five seasons, but has yet to do better than 19th. The 29-year-old isn't much of a touchdown scorer (23 TDs in 78 games since 2021) and has substantial target competition via Parker Washington, Brian Thomas Jr., Brenton Strange and Travis Hunter. Meyers is a good player, but is likely to cap out as a flex option.",
@@ -1130,7 +1130,7 @@
     {
       "path": "$.mRoster.teams[1].roster",
       "values": {
-        "appliedStatTotal": 230.84,
+        "appliedStatTotal": 246.04000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -1265,13 +1265,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 12.5,
+        "appliedStatTotal": 21.0,
         "id": -16007,
         "keeperValue": 12,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1279,13 +1279,13 @@
     {
       "path": "$.mRoster.teams[1].roster.entries[8].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 34.900000000000006,
+        "appliedStatTotal": 50.10000000000001,
         "id": 4702555,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 3,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1598,13 +1598,13 @@
     {
       "path": "$.mRoster.teams[2].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 9.100000000000001,
+        "appliedStatTotal": 19.400000000000002,
         "id": 4372016,
         "keeperValue": 8,
         "keeperValueFuture": 5,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 4,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -1928,7 +1928,7 @@
     {
       "path": "$.mRoster.teams[3].roster",
       "values": {
-        "appliedStatTotal": 124.92000000000002,
+        "appliedStatTotal": 150.92000000000002,
         "tradeReservedEntries": 0
       }
     },
@@ -2076,7 +2076,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Montgomery",
-        "lastNewsDate": 1795149410000,
+        "lastNewsDate": 1795817793000,
         "lastVideoDate": 1790951846000,
         "proTeamId": 34,
         "seasonOutlook": "Montgomery was traded to Houston after spending his first seven NFL seasons with Chicago and Detroit. The veteran back is coming off a down year in 2025, when he posted career lows in touches (182), yardage (908, his first season under 1,000) and fantasy points per game (9.8). Montgomery was still effective as a rusher (4.53 yards per carry, 2.28 yards after contact) but lost work to Jahmyr Gibbs and wasn't involved much as receiver. The latter doesn't figure to change much in Houston, and while Montgomery is a decent bet to pace the team in carries, second-year back Woody Marks figures to sustain a substantial offensive role. Montgomery enters his age-29 season as a touchdown-dependent flex with limited upside.",
@@ -2101,13 +2101,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[5].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.2,
+        "appliedStatTotal": 13.799999999999999,
         "id": 4047650,
         "keeperValue": 4,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2144,13 +2144,13 @@
     {
       "path": "$.mRoster.teams[3].roster.entries[7].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 8.0,
+        "appliedStatTotal": 34.0,
         "id": -16023,
         "keeperValue": 0,
         "keeperValueFuture": 14,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 5,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2567,13 +2567,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[6].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 7.4,
+        "appliedStatTotal": 13.8,
         "id": 4038815,
         "keeperValue": 0,
         "keeperValueFuture": 8,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2665,9 +2665,9 @@
         "fullName": "Isaiah Likely",
         "id": 4361050,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Likely",
-        "lastNewsDate": 1795727355000,
+        "lastNewsDate": 1795813706000,
         "lastVideoDate": 1792965097000,
         "proTeamId": 19,
         "seasonOutlook": "Likely signed with the Giants after four years of backing up Mark Andrews in Baltimore. Likely is reuniting with coach John Harbaugh and is finally expected to play a consistent offensive role. During his time in Baltimore, Likely was limited to 50% of the team's offensive snaps and never finished a season better than 20th among tight ends in snaps, routes, targets, catches, yards or fantasy PPG. His only extensive stretch with Andrews sidelined came back in 2023. During the seven-game span, Likely posted a 23-356-6 receiving line on a 16% target share and averaged a solid 13.5 fantasy PPG. The 26-year-old is obviously unproven, but his receiving skills in New York's ascending offense are enough to put him on the TE2 radar.",
@@ -2838,13 +2838,13 @@
     {
       "path": "$.mRoster.teams[4].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 0.0,
+        "appliedStatTotal": 1.4,
         "id": 3128429,
         "keeperValue": 5,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 7,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -2923,10 +2923,10 @@
         "firstName": "A.J.",
         "fullName": "A.J. Brown",
         "id": 4047646,
-        "injured": false,
-        "injuryStatus": "DOUBTFUL",
+        "injured": true,
+        "injuryStatus": "OUT",
         "lastName": "Brown",
-        "lastNewsDate": 1795726371000,
+        "lastNewsDate": 1795803518000,
         "lastVideoDate": 1792766133000,
         "proTeamId": 17,
         "seasonOutlook": "Brown was traded to the Patriots in June. The veteran receiver enters 2026 looking to continue his streak of finishing in the top 15 in fantasy points per game during each of the four seasons he was with the Eagles. That includes an 11th-place finish in 2025 in which Brown reached the 1,000-yard mark for the sixth time in his seven NFL seasons while finding the end zone exactly seven times for the third year in a row. Brown continues to benefit from elite usage (he has finished no lower than seventh among WRs in target share each of the past seven seasons) and elite efficiency (he has finished 80th percentile or better in yards per route run all seven years). He could use more end zone targets in New England (he had a career-low four last season), but Brown, 29, is set to work as Drake Maye's top target in a good Patriots' offense. He is a fringe fantasy WR1.",
@@ -3259,9 +3259,23 @@
       }
     },
     {
+      "path": "$.mRoster.teams[5].roster.entries[15].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 15.2,
+        "id": 3116164,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": false,
+        "onTeamId": 8,
+        "rosterLocked": false,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
       "path": "$.mRoster.teams[6].roster",
       "values": {
-        "appliedStatTotal": 125.32000000000001,
+        "appliedStatTotal": 141.72,
         "tradeReservedEntries": 0
       }
     },
@@ -3608,35 +3622,6 @@
     {
       "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 1.9,
-        "id": 4429086,
-        "keeperValue": 0,
-        "keeperValueFuture": 0,
-        "lineupLocked": false,
-        "onTeamId": 11,
-        "rosterLocked": false,
-        "status": "ONTEAM",
-        "tradeLocked": false
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
-      "values": {
-        "10": "Michael Mayer posted modest numbers in the Raiders' Week 9 loss to the 49ers, catching all three of his targets for 37 yards. The fourth-year tight end has snagged at least three passes in eight of nine games this season, and he's already set new career highs with 39 receptions and 388 receiving yards. Even with Brock Bowers ahead of him on the depth chart, Mayer's role is large enough to give him some value heading into a Week 10 clash with a Seahawks defense that ranks ninth in fantasy points per game allowed to TEs.",
-        "11": "Michael Mayer could be set for a significant role in the Raiders' passing game in the short term. In a Week 10 loss to the Seahawks, Brock Bowers suffered an ankle injury, and while it's not thought to be serious, he could be sidelined for a game or two. Mayer caught two of three targets for 16 yards against Seattle, but his volume from rookie quarterback Fernando Mendoza would likely increase with Bowers off the field. If Mayer's volume does increase in Week 11, it will come against a Broncos defense that ranks 30th in fantasy points per game allowed to TEs.",
-        "12": "Michael Mayer wasn't able to take advantage of Brock Bowers' absence during the Raiders' Week 11 loss to the Broncos, catching just one of four targets for a mere four yards. Depth tight end Ian Thomas also rubbed a little salt in the wound for Mayer's fantasy investors by catching a 19-yard touchdown from Fernando Mendoza. Bowers is expected back in Week 12, but even if he remains sidelined, Mayer's usage will make him a risky option, even against a Browns defense that ranks 22nd in fantasy points per game allowed to TEs.",
-        "2": "Michael Mayer led the Raiders in targets with seven in a season-opening win over the Dolphins, although he turned that volume into just six catches for 32 yards. That opportunity came as Brock Bowers was sidelined following minor knee surgery, and while the third-year star isn't expected to be out long, he has yet to be cleared for Week 2. If Mayer does get the start at tight end, he'll be facing a Chargers defense that finished fifth in points allowed to TEs last year, although it couldn't contain Trey McBride to begin the current campaign.",
-        "3": "Michael Mayer hasn't made much of an impact as the Raiders' top tight end through the first two weeks of the season, catching nine of 11 targets for 55 yards without scoring a touchdown. That role has come while Brock Bowers was recovering from minor knee surgery at the end of training camp, but with Bowers expected to return in Week 3, Mayer will see even his modest volume collapse. If Bowers' 2026 debut does get delayed further, Mayer will still be facing a Saints defense that has yet to allow a TD to a tight end so far.",
-        "4": "Michael Mayer's stint as the Raiders' starting TE ended in Week 3 with the return of Brock Bowers, but he stayed involved in a win over the Saints, catching all three of his targets for 32 yards and his first touchdown of the season. A lack of options at wide receiver could mean Klint Kubiak will continue to lean on both his tight ends for offense, keeping Mayer relevant even with Bowers as the clear No. 1 target for Kirk Cousins. Mayer could make a splash again in Week 4 against a Kansas City defense that's been the stingiest in the league against WRs so far, but which ranks just 19th in fantasy points per game allowed to TEs.",
-        "5": "Michael Mayer was busy in the Raiders' Week 4 loss to Kansas City, turning a season-high 10 targets into eight catches for 82 yards. The additional volume came after wide receiver Jalen Nailor left the game with a concussion, forcing Kirk Cousins to lean even more heavily on his tight end duo of Mayer and Brock Bowers to move the chains. Even with a healthy Bowers back in action the last two weeks, Mayer has delivered an 11-114-1 line on 13 targets. However, he'll struggle to maintain that pace in Week 5 against a Patriots defense that has allowed the fewest fantasy points per game to TEs in 2026.",
-        "6": "Michael Mayer's volume took a significant step backward in the Raiders' Week 5 loss to the Patriots. After turning 10 targets into an 8-82-0 line in Week 4, Mayer got only one look from Kirk Cousins in New England, turning it into a two-yard gain. Brock Bowers is the unquestioned top option in the team's passing game, but a lack of established wide receivers has created an opening for Mayer to be more than just injury insurance. Through five games, he's delivered a 21-171-1 line on 25 targets, putting him on pace for career-best numbers in 2026. Mayer will face a Bills defense in Week 6 that ranks 15th in fantasy points per game allowed to TEs.",
-        "7": "Michael Mayer took advantage of the extra defensive attention the Bills paid to Brock Bowers in Week 6, catching seven of nine targets for a season-high 95 yards. While Bowers remains the top option in the Raiders' passing attack, Mayer is on pace for a career-best year of his own, producing a 28-266-1 line on 34 targets through six games. He is eight receptions and 63 yards away from establishing new personal bests. Mayer will likely struggle to reach those marks in Week 7 against a Rams defense that ranks second in fantasy points per game allowed to TEs.",
-        "9": "Michael Mayer continues to provide consistency as a secondary option for Kirk Cousins in the Raiders' passing attack. The fourth-year tight end has caught at least three passes in seven of eight games this season, putting together a 36-351-1 line on 43 targets. Brock Bowers is the clear No. 1 option for Cousins, but Las Vegas' lack of depth at wide receiver has allowed Mayer to surge to a career season, and his 36 catches for 351 yards through eight games are already new personal bests. Mayer will take aim at a 49ers defense in Week 9 that's tied for 11th in fantasy points per game allowed to TEs."
-      }
-    },
-    {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
-      "values": {
         "appliedStatTotal": 5.0,
         "id": 4869645,
         "keeperValue": 0,
@@ -3649,7 +3634,7 @@
       }
     },
     {
-      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "path": "$.mRoster.teams[6].roster.entries[13].playerPoolEntry.player.outlooks.outlooksByWeek",
       "values": {
         "10": "Caleb Douglas appears to be the best option among Dolphins receivers entering a Week 10 matchup with the Colts. He has 14 targets over the last two weeks as Malik Washington's role shrinks, and Douglas has 70 receiving yards in two of his last three outings despite Malik Willis' struggles. Indianapolis is more vulnerable against the run, which figures to be Miami's plan offensively, especially with Kyle McCord replacing the injured Willis, but Douglas has proven he can take advantage of whatever opportunities come his way, setting him up for a deep league play against a defense that's allowing 8.8 yards per target to opposing wideouts.",
         "11": "Caleb Douglas continues to make big plays on increased chances ahead of the the Dolphins' Week 11 game against the Bills. Douglas notched eight targets for the second-straight game in Week 10, reaching 70 yards for the third time in four outings. While new quarterback Kyle McCord threw 32 passes to 11 different teammates in his debut, Douglas remained the steady top option. Buffalo allows just 7.3 yards per target, the eighth-lowest in the league, but with Miami likely to be throwing from behind often, Douglas can be a preferred option.",
@@ -3663,9 +3648,38 @@
       }
     },
     {
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry",
+      "values": {
+        "appliedStatTotal": 16.4,
+        "id": 3051876,
+        "keeperValue": 0,
+        "keeperValueFuture": 0,
+        "lineupLocked": true,
+        "onTeamId": 11,
+        "rosterLocked": true,
+        "status": "ONTEAM",
+        "tradeLocked": false
+      }
+    },
+    {
+      "path": "$.mRoster.teams[6].roster.entries[14].playerPoolEntry.player.outlooks.outlooksByWeek",
+      "values": {
+        "11": "Evan Engram tied his season highs with four catches on five targets in Week 9, the Broncos' last game before their bye. The veteran tight end has caught one pass or fewer in five of nine games this year, and he hasn't gotten into the end zone since Week 1. With Denver's WR corps potentially fully healthy for the first time all season, Engram's role as a pass catcher could be even more limited. He'll try to make a difference in Week 11 against a Raiders defense that ranks 27th in fantasy points per game allowed to TEs.",
+        "12": "Evan Engram is coming off his most productive game of the season in the Broncos' Week 11 win over the Raiders. The veteran tight end set new season highs in catches, targets, and receiving yards with a 6-74-0 line on eight looks from Bo Nix. However, Engram missed his chance to score his first touchdown since Week 1 when Adam Trautman vultured a one-yard TD on his only catch. Engram had managed just seven catches for 48 yards over his prior four games combined. He'll remain a volatile option in Week 12 against a Steelers defense that ranks 14th in fantasy points per game allowed to TEs.",
+        "2": "Evan Engram was on the receiving end of Bo Nix's only touchdown pass in the Broncos' season-opening loss to Kansas City. The veteran tight end also led the team in receiving yards with a 4-43-1 line on five targets, as top wideouts Jaylen Waddle and Courtland Sutton were neutralized. Engram's first season in Denver was a disappointment, as his 461 receiving yards last year were his lowest total for a full season since 2021, but more experience in Sean Payton's scheme and a new play-caller in Davis Webb could lead to better numbers. Engram is set for a potential revenge game in Week 2 against a Jaguars defense that ranked 23rd in points per game allowed to TEs last season.",
+        "3": "Evan Engram had a minimal role in the Broncos' Week 2 win over the Jaguars, catching his only target for 17 yards. The veteran tight end has notched just six targets through two games, and while he did get into the end zone in the season opener, the reduced volume he saw in 2025, his first year in Denver, doesn't look like it will improve in 2026. Engram will take on a Rams defense in Week 3 that's allowed just 64 receiving yards to TEs so far, sixth in the league, and has yet to allow one to score a touchdown.",
+        "4": "Evan Engram failed to catch a pass in the Broncos' Week 3 win over the Rams, as he remains stuck in a peripheral role in the passing game. The veteran TE has notched just eight targets through three games, catching five for 60 yards and a touchdown. His workload is unlikely to significantly increase if Jaylen Waddle and Courtland Sutton are dominating looks from Bo Nix. Engram will face a 49ers defense in Week 4 that has yet to allow a TD to a tight end this season.",
+        "5": "Evan Engram tied his season high with five targets in the Broncos' Week 4 loss to the 49ers, but the additional volume didn't lead to much production as he caught only one of them for six yards. Over the last three games, the veteran tight end has a meager 2-23-0 line on eight targets, remaining an afterthought in the offense. No. 3 wide receiver Pat Bryant left the loss to San Francisco with an ankle sprain, which could result in more volume for Engram, but that may not be enough to make him relevant again. Engram will try to take advantage of his opportunities in Week 5 against a Chargers defense that's tied for 11th in fantasy points per game allowed to TEs.",
+        "6": "Evan Engram is coming off his most productive game of the season in terms of receiving yards in the Broncos' Week 5 win over the Chargers. With Sean Payton calling plays again, the veteran tight end caught all four of his targets for 55 yards. Engram remains a secondary option in the passing game behind Jaylen Waddle and Courtland Sutton, but he could get more consistent volume with Payton at the helm. Engram will face a Seahawks defense in Week 6 that is tied for 10th in fantasy points per game allowed to TEs.",
+        "7": "Evan Engram continues to see little usage in the Broncos' offense. Despite quarterback Bo Nix's struggles to attack downfield, Engram isn't getting much volume as a check-down option, failing to see more than five targets in any game this season and amassing a 12-134-1 line on 19 targets through six contests. Even if Nix picks up the pace, Engram likely won't be much of a factor. The veteran tight end does get a favorable matchup in Week 7 against a Cardinals defense that ranks 28th in fantasy points per game allowed to the position.",
+        "8": "Evan Engram remains an afterthought in the Broncos' offense. He's caught two or fewer passes for under 20 yards in five of seven games this season, and his only touchdown came back in Week 1. Denver's passing game in general has been stagnant, leaving little volume for secondary options like Engram. However, he could be in position to break out in Week 8 against a Kansas City defense that's been stingy against other positions but ranks 28th in fantasy points per game allowed to TEs.",
+        "9": "Evan Engram failed to catch a pass in the Broncos' Week 8 win over Kansas City, as his role as a receiver continues to dwindle. The veteran tight end has been targeted multiple times in seven of eight games so far in 2026, but that steady volume has resulted in just a 13-136-1 line on 25 targets. The potential return of possession receiver Pat Bryant from an ankle injury would also cut into Engram's limited usage. He'll try to make a splash in Week 9 against a Panthers team that just fired its defensive coordinator and that is tied for 17th in fantasy points per game allowed to TEs."
+      }
+    },
+    {
       "path": "$.mRoster.teams[7].roster",
       "values": {
-        "appliedStatTotal": 177.9,
+        "appliedStatTotal": 170.9,
         "tradeReservedEntries": 0
       }
     },
@@ -3992,9 +4006,9 @@
         "fullName": "Woody Marks",
         "id": 4429059,
         "injured": false,
-        "injuryStatus": "QUESTIONABLE",
+        "injuryStatus": "ACTIVE",
         "lastName": "Marks",
-        "lastNewsDate": 1795648568000,
+        "lastNewsDate": 1795813992000,
         "lastVideoDate": 1791997386000,
         "proTeamId": 34,
         "seasonOutlook": "Marks, a fourth-round NFL draft pick in 2025, played a substantial role as a rookie, soaking up 220 touches (22nd among RBs), but he struggled with efficiency (his 3.59 yards per carry and 1.61 yards after contact both ranked near the basement) and found the end zone only five times. The result was 9.4 fantasy points per game and one top-10 fantasy outing. Marks appears ticketed for a lesser role in 2026 now that David Montgomery was brought in to serve as the likely leader of a backfield committee. Especially in an offense that doesn't use backs in the passing game very much, Marks is no more than a bench/insurance stash.",
@@ -4151,7 +4165,7 @@
     {
       "path": "$.mRoster.teams[8].roster",
       "values": {
-        "appliedStatTotal": 170.0,
+        "appliedStatTotal": 175.6,
         "tradeReservedEntries": 0
       }
     },
@@ -4229,13 +4243,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[4].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 4.9,
+        "appliedStatTotal": 10.5,
         "id": 4569987,
         "keeperValue": 10,
         "keeperValueFuture": 6,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4530,13 +4544,13 @@
     {
       "path": "$.mRoster.teams[8].roster.entries[15].playerPoolEntry",
       "values": {
-        "appliedStatTotal": 11.5,
+        "appliedStatTotal": 13.1,
         "id": 4361411,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 13,
-        "rosterLocked": false,
+        "rosterLocked": true,
         "status": "ONTEAM",
         "tradeLocked": false
       }
@@ -4934,7 +4948,6 @@
         "acquisitionType": "TRADE",
         "injuryStatus": "NORMAL",
         "lineupSlotId": 4,
-        "pendingTransactionIds": null,
         "playerId": 4685472,
         "status": "NORMAL"
       }
@@ -5089,11 +5102,12 @@
         "id": 4383440,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1796198400000
       }
     },
     {
@@ -5255,11 +5269,12 @@
         "id": 4714771,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1796198400000
       }
     },
     {
@@ -5785,11 +5800,12 @@
         "id": 4362748,
         "keeperValue": 0,
         "keeperValueFuture": 0,
-        "lineupLocked": false,
+        "lineupLocked": true,
         "onTeamId": 0,
-        "rosterLocked": false,
-        "status": "FREEAGENT",
-        "tradeLocked": false
+        "rosterLocked": true,
+        "status": "WAIVERS",
+        "tradeLocked": false,
+        "waiverProcessDate": 1796198400000
       }
     },
     {
