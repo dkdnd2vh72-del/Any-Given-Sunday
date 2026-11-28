@@ -1,52 +1,71 @@
 {
   "matches": [
     {
-      "path": "$.mTransactions2.transactions[21]",
+      "path": "$.mTransactions2.transactions[5]",
       "values": {
         "bidAmount": 0,
-        "executionType": "EXECUTE",
-        "expirationDate": 1795710229025,
-        "id": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
+        "executionType": "CANCEL",
+        "id": "32ada0f5-a10b-441c-a79f-b5aae10547ff",
         "isActingAsTeamOwner": false,
         "isLeagueManager": false,
-        "isPending": true,
-        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
-        "proposedDate": 1795537428989,
+        "isPending": false,
+        "memberId": "{DA8908AB-98F1-494C-8908-AB98F1494C2A}",
+        "proposedDate": 1795829161148,
         "rating": 0,
+        "relatedTransactionId": "c010842e-872c-42a3-9355-9a6b43932c39",
         "scoringPeriodId": 12,
-        "status": "PENDING",
-        "teamId": 5,
+        "status": "CANCELED",
+        "teamId": 14,
         "type": "TRADE_PROPOSAL"
       }
     },
     {
-      "path": "$.mTransactions2.transactions[21].items[0]",
+      "path": "$.mTransactions2.transactions[5].items[0]",
       "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 5,
+        "fromLineupSlotId": 4,
+        "fromTeamId": 14,
         "isKeeper": false,
         "overallPickNumber": 0,
-        "playerId": 4567750,
+        "playerId": 4685472,
+        "toLineupSlotId": -1,
+        "toTeamId": 11,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[5].items[1]",
+      "values": {
+        "fromLineupSlotId": 23,
+        "fromTeamId": 11,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4241478,
         "toLineupSlotId": -1,
         "toTeamId": 14,
         "type": "TRADE"
       }
     },
     {
-      "path": "$.mTransactions2.transactions[21].items[1]",
+      "path": "$.mTransactions2.transactions[6]",
       "values": {
-        "fromLineupSlotId": 20,
-        "fromTeamId": 14,
-        "isKeeper": false,
-        "overallPickNumber": 0,
-        "playerId": 4047365,
-        "toLineupSlotId": -1,
-        "toTeamId": 5,
-        "type": "TRADE"
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "id": "863bd43f-f199-407f-8fa6-29dd031e008b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": false,
+        "memberId": "{6DFCEF0A-EDE4-4244-BCEF-0AEDE4924420}",
+        "proposedDate": 1795826754804,
+        "rating": 0,
+        "relatedTransactionId": "a168b07a-9316-4d7a-8a13-1c22fde2c645",
+        "scoringPeriodId": 12,
+        "status": "EXECUTED",
+        "teamId": 11,
+        "type": "TRADE_DECLINE"
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36]",
+      "path": "$.mTransactions2.transactions[18]",
       "values": {
         "bidAmount": 0,
         "executionType": "CANCEL",
@@ -66,7 +85,7 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36].items[0]",
+      "path": "$.mTransactions2.transactions[18].items[0]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 5,
@@ -79,7 +98,52 @@
       }
     },
     {
-      "path": "$.mTransactions2.transactions[36].items[1]",
+      "path": "$.mTransactions2.transactions[18].items[1]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 14,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4047365,
+        "toLineupSlotId": -1,
+        "toTeamId": 5,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[31]",
+      "values": {
+        "bidAmount": 0,
+        "executionType": "EXECUTE",
+        "expirationDate": 1795710229025,
+        "id": "22a52a29-8877-42fe-bb24-0b00f39ff75b",
+        "isActingAsTeamOwner": false,
+        "isLeagueManager": false,
+        "isPending": true,
+        "memberId": "{B3C294EA-3898-4B1F-B641-0336C1ED9F9F}",
+        "proposedDate": 1795537428989,
+        "rating": 0,
+        "scoringPeriodId": 12,
+        "status": "PENDING",
+        "teamId": 5,
+        "type": "TRADE_PROPOSAL"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[31].items[0]",
+      "values": {
+        "fromLineupSlotId": 20,
+        "fromTeamId": 5,
+        "isKeeper": false,
+        "overallPickNumber": 0,
+        "playerId": 4567750,
+        "toLineupSlotId": -1,
+        "toTeamId": 14,
+        "type": "TRADE"
+      }
+    },
+    {
+      "path": "$.mTransactions2.transactions[31].items[1]",
       "values": {
         "fromLineupSlotId": 20,
         "fromTeamId": 14,
@@ -1621,7 +1685,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Waddle",
-        "lastNewsDate": 1795398727000,
+        "lastNewsDate": 1795822213000,
         "lastVideoDate": 1795553282000,
         "proTeamId": 7,
         "seasonOutlook": "Waddle was traded to Denver after spending his first five seasons in Miami. The 2021 first-round pick was solid during his Dolphins tenure, finishing in the top 30 among receivers in fantasy PPG four times, though never reaching the top 10 while often playing second fiddle to Tyreek Hill. Although he has been a reliable target and has missed only seven games in five years, Waddle hasn't finished a season higher than 20th in targets or catches since 2021. In Denver, the 27-year-old Waddle will compete with Courtland Sutton for the team lead in targets in a scheme that likes to spread the ball around. Not utilized near the goal line much at 5-foot-10 and 180 pounds (he's yet to clear seven end zone targets in a season), Waddle is likely to max out as a back-end WR2 in Denver.",
@@ -2590,7 +2654,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Dowdle",
-        "lastNewsDate": 1795389060000,
+        "lastNewsDate": 1795825304000,
         "lastVideoDate": 1793558765000,
         "proTeamId": 23,
         "seasonOutlook": "Dowdle signed with the Steelers after nearly identical campaigns with the Cowboys in 2024 (1,328 yards and five TDs on 274 touches) and Panthers in 2025 (1,373 yards and seven TDs on 275 touches). He was effective as a rusher (4.57 yards per carry) and fairly busy as a receiver (50 targets both years) en route to finishing just inside the top 25 in fantasy points per game both seasons. Now in Pittsburgh, the 28-year-old is expected to share work with Jaylen Warren. Earning lead-rusher duties could get Dowdle into the weekly flex discussion, but the ceiling will be low and he'll likely need an injury in order to find his way to consistent fantasy output. Consider him for your bench.",
@@ -4266,7 +4330,7 @@
         "injured": false,
         "injuryStatus": "ACTIVE",
         "lastName": "Warren",
-        "lastNewsDate": 1795389000000,
+        "lastNewsDate": 1795825088000,
         "lastVideoDate": 1795543013000,
         "proTeamId": 23,
         "seasonOutlook": "Warren reached career-high marks in touches (251), yardage (1,291) and touchdowns (eight) last season, his fourth in the league. The former undrafted free agent put up 13.6 fantasy points per game (19th among backs) and PFF tracked him with 56 forced missed tackles (seventh). Pittsburgh swapped out Kenneth Gainwell for Rico Dowdle as Warren's running mate, and the two are expected to split work in a Mike McCarthy offense that rarely deploys its backs in the passing game. Warren is capable and effective as a rusher and receiver, but his ceiling figures to be limited in this committee. He's likely to cap out as a flex.",
